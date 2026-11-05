@@ -12,10 +12,10 @@ def bgr(hexrgb, alpha=0):
     return f'&H{alpha:02X}{b:02X}{g:02X}{r:02X}'
 
 THEMES = {
-    'space': dict(font='Anton', size=116, upper=True, color='FFFFFF', active='FFD84A', emph='6FE3FF', outline=7, shadow=3,
-                  hook_font='Anton', hook_size=124, hook_color='FFFFFF', hook_box='0B1630', label_box='FFD84A', label_color='0B1630', y=1330),
-    'psy': dict(font='Poppins ExtraBold', size=86, upper=False, color='FFFFFF', active='FFE135', emph='FF6FB5', outline=7, shadow=3,
-                hook_font='Poppins Black', hook_size=92, hook_color='111111', hook_box='FFE135', label_box='FFFFFF', label_color='111111', y=1340),
+    'space': dict(font='Anton', size=148, upper=True, color='FFFFFF', active='FFD84A', emph='6FE3FF', outline=8, shadow=3,
+                  hook_font='Anton', hook_size=150, hook_color='FFFFFF', hook_box='0B1630', label_box='FFD84A', label_color='0B1630', y=1330),
+    'psy': dict(font='Poppins ExtraBold', size=118, upper=False, color='FFFFFF', active='FFE135', emph='FF6FB5', outline=7, shadow=3,
+                hook_font='Poppins Black', hook_size=128, hook_color='111111', hook_box='FFE135', label_box='FFFFFF', label_color='111111', y=1340),
 }
 
 def header(th):
@@ -32,7 +32,7 @@ Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour,
 Style: Cap,{th['font']},{th['size']},{bgr(th['color'])},{bgr(th['active'])},{bgr('000000')},{bgr('000000', 0x70)},0,0,0,0,100,100,1,0,1,{th['outline']},{th['shadow']},5,60,60,0,1
 Style: Calm,{th['font']},{int(th['size'] * 0.72)},{bgr('F2F2F2')},{bgr('F2F2F2')},{bgr('000000', 0x30)},{bgr('000000', 0xA0)},0,0,0,0,100,100,0,0,1,4,1,5,60,60,0,1
 Style: Hook,{th['hook_font']},{th['hook_size']},{bgr(th['hook_color'])},{bgr(th['hook_color'])},{bgr(th['hook_box'])},{bgr('000000', 0x80)},0,0,0,0,100,100,0,0,3,18,0,5,70,70,0,1
-Style: Label,Poppins ExtraBold,62,{bgr(th['label_color'])},{bgr(th['label_color'])},{bgr(th['label_box'])},{bgr('000000', 0x90)},0,0,0,0,100,100,0,0,3,12,0,5,60,60,0,1
+Style: Label,Poppins ExtraBold,94,{bgr(th['label_color'])},{bgr(th['label_color'])},{bgr(th['label_box'])},{bgr('000000', 0x90)},0,0,0,0,100,100,0,0,3,12,0,5,60,60,0,1
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
@@ -76,7 +76,7 @@ def build_ass(video, timeline, path):
             continue
         cy = seg_spec.get('cap_y', y)
         emph = set(norm(e) for e in seg_spec.get('emph', []))
-        chunks = chunk_words(words, 3 if style != 'calm' else 5, 17 if style != 'calm' else 28)
+        chunks = chunk_words(words, 3 if style != 'calm' else 5, 17 if style != 'calm' else 24)
         for ci, ch in enumerate(chunks):
             c_start = ch[0]['s']
             c_end = ch[-1]['e']

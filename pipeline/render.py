@@ -55,7 +55,7 @@ class Shot:
         self.scene, self.start, self.cam, self.trans, self.idx = scene, start, cam, trans, idx
         self.end = None
 
-def build_shots(video, tl):
+def build_shots(video, tl, setup=True):
     shots = []
     for i, (spec, seg) in enumerate(zip(video['segments'], tl['segments'])):
         sc = spec.get('scene', 'same')
@@ -73,7 +73,8 @@ def build_shots(video, tl):
     shots[-1].end = tl['duration']
     for s in shots:
         s.dur = s.end - s.start
-        s.scene.setup(s.dur)
+        if setup:
+            s.scene.setup(s.dur)
     return shots
 
 TDUR = {'cut': 0.0, 'fade': 0.45, 'zoom': 0.32, 'whip': 0.28, 'flash': 0.36, 'black': 0.6, 'glitch': 0.3, 'slide': 0.32}
@@ -141,7 +142,7 @@ def tonemap(x):
     return x * (1 + x / 4.0) / (1 + x)
 
 # ----------------------------------------------------------------------------- rendu principal
-def render_video(video, out_path, workdir, preview=False, max_seconds=None):
+def render_video(video, out_path, workdir, preview=False, max_seconds=None, force_frames=False):
     t_start = time.time()
     os.makedirs(workdir, exist_ok=True)
     vid = video['id']
@@ -177,7 +178,9 @@ def render_video(video, out_path, workdir, preview=False, max_seconds=None):
         for w in seg['words']:
             if captions.norm(w['w']) in emph:
                 emph_times.append(w['s'])
-    shots = build_shots(video, tl)
+    master = os.path.join(workdir, f'{vid}_master.mkv' if max_seconds is None else f'{vid}_master_preview.mkv')
+    need_frames = force_frames or not os.path.exists(master) or max_seconds is not None
+    shots = build_shots(video, tl, setup=need_frames)
     # whoosh automatique sur les transitions marquées
     for sh in shots[1:]:
         if sh.trans in ('whip', 'zoom', 'slide') and not any(abs(e[0] - sh.start) < 0.3 for e in sfx_events):
@@ -189,20 +192,32 @@ def render_video(video, out_path, workdir, preview=False, max_seconds=None):
     wav_path = os.path.join(workdir, f'{vid}_mix.wav')
     sf.write(wav_path, mixed, SR, subtype='PCM_16')
     print(f'[{vid}] audio ok ({time.time() - t_start:.0f}s)', flush=True)
-    # 4. images
+    total = dur if max_seconds is None else min(dur, max_seconds)
+    # 4. images → master sans sous-titres (quasi sans perte), réutilisable
+    if need_frames:
+        render_frames(video, shots, tl, master, total, emph_times, shake_times)
+    # 5. encodage final : master + sous-titres + mix audio
+    vf = f"ass={ass_path}:fontsdir={FONTS}"
+    cmd = ['ffmpeg', '-y', '-loglevel', 'error', '-i', master, '-i', wav_path, '-map', '0:v:0', '-map', '1:a:0', '-vf', vf,
+           '-c:v', 'libx264', '-preset', 'veryfast' if preview else 'slow', '-crf', '26' if preview else '21',
+           '-maxrate', '6M', '-bufsize', '12M', '-profile:v', 'high', '-level', '4.2', '-pix_fmt', 'yuv420p', '-g', '60',
+           '-colorspace', 'bt709', '-color_primaries', 'bt709', '-color_trc', 'bt709', '-color_range', 'tv',
+           '-c:a', 'aac', '-b:a', '192k', '-ar', '48000', '-ac', '2', '-movflags', '+faststart', '-t', f'{total:.3f}', out_path]
+    subprocess.run(cmd, check=True)
+    print(f'[{vid}] terminé en {time.time() - t_start:.0f}s → {out_path}', flush=True)
+    return tl
+
+def render_frames(video, shots, tl, master, total, emph_times, shake_times):
+    vid = video['id']
     theme = video['theme']
     lut = make_lut(theme)
     vig = vignette(0.5 if theme == 'space' else 0.35)
-    grain_amt = 0.03 if theme == 'space' else 0.018
-    total = dur if max_seconds is None else min(dur, max_seconds)
+    grain_amt = 0.016 if theme == 'space' else 0.009
     nframes = int(round(total * FPS))
-    fontsdir = FONTS
-    vf = f"ass={ass_path}:fontsdir={fontsdir},scale=out_color_matrix=bt709:out_range=tv,format=yuv420p"
+    tmp = master + '.part.mkv'
     cmd = ['ffmpeg', '-y', '-loglevel', 'error', '-f', 'rawvideo', '-pix_fmt', 'rgb24', '-s', f'{W}x{H}', '-r', str(FPS), '-i', '-',
-           '-i', wav_path, '-vf', vf, '-c:v', 'libx264', '-preset', 'veryfast' if preview else 'medium',
-           '-crf', '26' if preview else '19', '-profile:v', 'high', '-level', '4.2', '-g', '60',
-           '-colorspace', 'bt709', '-color_primaries', 'bt709', '-color_trc', 'bt709', '-color_range', 'tv',
-           '-c:a', 'aac', '-b:a', '192k', '-ar', '48000', '-ac', '2', '-movflags', '+faststart', '-t', f'{total:.3f}', out_path]
+           '-vf', 'scale=out_color_matrix=bt709:out_range=tv,format=yuv420p', '-c:v', 'libx264', '-preset', 'veryfast', '-crf', '11',
+           '-colorspace', 'bt709', '-color_primaries', 'bt709', '-color_trc', 'bt709', '-color_range', 'tv', tmp]
     proc = subprocess.Popen(cmd, stdin=subprocess.PIPE)
     rng = np.random.default_rng(1)
     k = 0
@@ -230,9 +245,9 @@ def render_video(video, out_path, workdir, preview=False, max_seconds=None):
             print(f'[{vid}] frame {fi}/{nframes} ({300 / el:.1f} fps)', flush=True)
             tr_last = time.time()
     proc.stdin.close()
-    proc.wait()
-    print(f'[{vid}] terminé en {time.time() - t_start:.0f}s → {out_path}', flush=True)
-    return tl
+    if proc.wait() != 0:
+        raise RuntimeError('encodage master échoué')
+    os.replace(tmp, master)
 
 def render_shot(sh, t, emph_times, shake_times):
     lt = t - sh.start

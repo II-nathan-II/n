@@ -45,7 +45,7 @@ V01 = dict(
                        Text('13 FOIS PLUS PRÈS', W / 2, 1120, 80, 'anton', (255, 216, 74), t0=1.0)]), cam='in', trans='zoom'),
         seg("Résultat : une année là-bas dure à peine plus de deux jours.",
             lambda: C([bg(8, 'deep', 0.5), Orbits(orbits=[dict(r=330, period=1.6, color=(110, 170, 255), size=40, pcolor=(60, 120, 255))], star_size=150)]),
-            cam='out', label='1 AN = 2,2 JOURS TERRESTRES'),
+            cam='out', label='UN AN = 2,2 JOURS'),
         seg("Elle montre toujours la même face à son étoile.",
             lambda: C([bg(9, 'orange', 0.4), Star(900, pos=(-200, 500), corona=1.2),
                        Planet('cobalt', 640, pos=(640, 950), spin=0.0, light=(-0.9, -0.45, 0.2), atmo=(90, 150, 255))]), cam='left', trans='fade'),

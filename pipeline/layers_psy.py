@@ -471,7 +471,7 @@ class PaperShadow(Layer):
             put_text(f, '93 %', 350, 760, fname='anton', size=110, color=(40, 40, 40), shadow=0)
             put_text(f, '50 %', 680, 790, fname='anton', size=110, color=(230, 230, 230), shadow=0)
         if k > 0.6:
-            put_text(f, 'Ton cerveau voit : BLANC', W / 2, 1300, fname='poppins_xb', size=56, color=(255, 230, 120), shadow=5)
+            put_text(f, 'Ton cerveau voit : BLANC', W / 2, 300, fname='poppins_xb', size=64, color=(255, 230, 120), shadow=5)
         return f
 
 

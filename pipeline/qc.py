@@ -145,4 +145,5 @@ def run(ids=None, asr=True):
     return results
 
 if __name__ == '__main__':
-    run(sys.argv[1:] or None, asr='--no-asr' not in sys.argv)
+    ids = [a for a in sys.argv[1:] if not a.startswith('--')]
+    run(ids or None, asr='--no-asr' not in sys.argv)

@@ -20,7 +20,7 @@ def big(text, color=(255, 225, 53), size=120, y=760, **kw):
 V06 = dict(
     id='video_06', niche='NICHE_2', theme='psy', speed=1.0,
     title='Ton cerveau va recolorer ce drapeau',
-    hook_text='TON CERVEAU VA\\NRECOLORER CE DRAPEAU', hook_y=330,
+    hook_text='TON CERVEAU VA\\NRECOLORER\\NCE DRAPEAU', hook_y=290,
     music=dict(style='lofi', prog='lofi_a', key=57, bpm=84, seed=61, start=0.25, db=-27),
     segments=[
         seg("Ce drapeau n'a pas les bonnes couleurs. Mais dans trente secondes, tu vas voir le vrai.",
@@ -81,7 +81,7 @@ V07 = dict(
         seg("Tu peux aussi regarder ta main, ou le mur autour de toi.", cap_y=1430),
         seg("Pourtant, rien ne bouge. L'image est parfaitement immobile.", cap_y=1430, emph=['immobile']),
         seg("Dans ton cerveau, certains neurones sont spécialisés dans la détection du mouvement.",
-            lambda: C([lab_bg(7), Neurons(seed=3)]), cam='slow_in', trans='zoom', label='AIRE VISUELLE V5 : LE MOUVEMENT', music=0.55),
+            lambda: C([lab_bg(7), Neurons(seed=3)]), cam='slow_in', trans='zoom', label='AIRE V5 : LE MOUVEMENT', music=0.55),
         seg("Certains réagissent quand les choses s'éloignent du centre. D'autres, quand elles s'en rapprochent.",
             lambda: C([lab_bg(8), Neurons(seed=4, balance_bar=True, labels=('Expansion', 'Contraction'))]), cam='static', trans='fade'),
         seg("Normalement, les deux groupes s'équilibrent."),
@@ -98,7 +98,7 @@ V07 = dict(
 V08 = dict(
     id='video_08', niche='NICHE_2', theme='psy', speed=1.0,
     title='Fixe la croix : les couleurs vont disparaître',
-    hook_text='LES COULEURS VONT\\NDISPARAÎTRE', hook_y=240,
+    hook_text='LES COULEURS\\NVONT DISPARAÎTRE', hook_y=240,
     music=dict(style='lofi', prog='lofi_c', key=53, bpm=82, seed=81, start=0.25, db=-27),
     segments=[
         seg("Fixe la croix au centre… et ces couleurs vont disparaître sous tes yeux.", lambda: CC([Troxler()]), cam='static', sfx=['pop'], cap_y=1430, music=0.3),
