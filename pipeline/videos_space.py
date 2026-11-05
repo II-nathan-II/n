@@ -165,7 +165,7 @@ V03 = dict(
             lambda: C([bg(38, 'deep', 0.5, zoom=(1.0, 1.25)), Counter(0, 330, y=700, size=300, color=(255, 216, 74), sub="millions d'années-lumière", t1=2.2)]),
             cam='in', trans='zoom', emph=['330'], sfx=['impact']),
         seg("Pour te donner une idée : on pourrait aligner plus de {3 000|trois mille} Voies lactées, d'un bord à l'autre.",
-            lambda: C([bg(39, 'deep', 0.4), GalaxyRow(n=16), Text('× 3 000', W / 2, 1170, 120, 'anton', (255, 216, 74), t0=1.5)]), cam='right', trans='whip', emph=['3 000']),
+            lambda: C([bg(39, 'deep', 0.4), GalaxyRow(n=12), Text('× 3 000', 760, 1060, 130, 'anton', (255, 216, 74), t0=1.5)]), cam='right', trans='whip', emph=['3 000']),
         seg("Normalement, une zone de cette taille devrait contenir environ {2 000|deux mille} galaxies.",
             lambda: C([bg(40, 'deep', 0.4), Particles(260, (220, 210, 255), (2, 5), (0, 0), 0.8, seed=9), Counter(0, 2000, y=760, size=280, t1=2.0, sub='galaxies attendues')]),
             cam='slow_in', trans='fade', music=0.5),

@@ -293,20 +293,22 @@ class Galaxy(Layer):
 
 class GalaxyRow(Layer):
     """Rangée de galaxies alignées qui s'enfonce en perspective (comparaison d'échelle)."""
-    def __init__(self, n=14, t0=0.0, count_label=None):
+    def __init__(self, n=12, t0=0.0, count_label=None):
         self.__dict__.update(locals()); del self.__dict__['self']
     def setup(self, dur):
-        g = Galaxy(size=260, incl=1.15, seed=3).render_sprite(0, 260)
-        self.spr = np.dstack([g, np.ones(g.shape[:2], np.float32)]).astype(np.float32)
+        g = Galaxy(size=300, incl=1.2, seed=3, angle=0.0).render_sprite(0, 300)
+        g = g * (0.85 / max(np.percentile(g.max(2), 99.5), 1e-3))
+        a = np.clip(g.max(2) * 1.4, 0, 1)
+        self.spr = np.dstack([np.clip(g, 0, 1.0), a]).astype(np.float32)
     def draw(self, f, t, dur):
-        k = ease_out((t - self.t0) / max(dur * 0.7, 1e-3))
+        k = ease_out((t - self.t0) / max(dur * 0.6, 1e-3))
         shown = int(self.n * k) + 1
         for i in range(min(shown, self.n) - 1, -1, -1):
-            d = i / self.n
-            s = 1.6 * (1 - d) ** 1.6 + 0.08
-            x = W * 0.5 + (i * 0.0) ; y = 1150 - (1 - (1 - d) ** 1.4) * 700
-            xx = lerp(W * 0.15, W * 0.5, 1 - (1 - d) ** 1.4)
-            blit_rgba(f, scale_sprite(self.spr, s), xx + (i % 2) * 20, y, 0.9, additive=True)
+            d = i / (self.n - 1)
+            p = 1 - (1 - d) ** 1.8          # position en perspective (0 = proche, 1 = lointain)
+            s = 1.9 * (1 - p) + 0.15
+            x = lerp(250, 790, p); y = lerp(1120, 420, p)
+            blit_rgba(f, scale_sprite(self.spr, s), x, y, 0.95)
         return f
 
 
