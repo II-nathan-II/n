@@ -42,19 +42,26 @@ def clean_word(w):
     return re.sub(r'[\s]', '', w)
 
 def chunk_words(words, max_words=3, max_chars=17):
-    """Groupe les mots en blocs courts, coupe après la ponctuation forte."""
+    """Groupe les mots en blocs courts, coupe après la ponctuation ; évite les mots orphelins."""
     chunks, cur = [], []
     for w in words:
         txt = w['w']
         if cur and (len(cur) >= max_words or len(' '.join(x['w'] for x in cur + [w])) > max_chars):
             chunks.append(cur); cur = []
         cur.append(w)
-        if re.search(r'[.!?…:;,]["»]?$', txt) and len(cur) >= 1:
+        if re.search(r'[.!?…:;,]["»]?$', txt):
             chunks.append(cur); cur = []
     if cur:
         chunks.append(cur)
-    # évite les mots orphelins très courts en fin de bloc
-    return chunks
+    # fusionne un mot seul avec le bloc précédent s'il reste de la place (et si le précédent ne finit pas une phrase)
+    out = []
+    for ch in chunks:
+        if out and len(ch) == 1 and not re.search(r'[.!?…]["»]?$', out[-1][-1]['w']):
+            merged = out[-1] + ch
+            if len(merged) <= max_words + 1 and len(' '.join(x['w'] for x in merged)) <= max_chars + 4:
+                out[-1] = merged; continue
+        out.append(ch)
+    return out
 
 def norm(s):
     return re.sub(r'[^\wÀ-ÿ]', '', s.lower())
@@ -90,7 +97,9 @@ def build_ass(video, timeline, path):
                 c_end = min(c_end + 0.35, seg['end'])
             if style == 'calm':
                 txt = ' '.join(esc(w['w']) for w in ch)
-                out.append(f"Dialogue: 0,{ass_time(c_start)},{ass_time(c_end)},Calm,,0,0,0,,{{\\pos({W // 2},{cy})\\fad(120,120)}}{txt}")
+                fi = 120 if ci == 0 else 0
+                fo = 150 if ci == len(chunks) - 1 else 0
+                out.append(f"Dialogue: 0,{ass_time(c_start)},{ass_time(c_end)},Calm,,0,0,0,,{{\\pos({W // 2},{cy})\\fad({fi},{fo})}}{txt}")
                 continue
             for wi, w in enumerate(ch):
                 s = w['s'] if wi > 0 else c_start
