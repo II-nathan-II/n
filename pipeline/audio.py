@@ -459,5 +459,5 @@ def mix(voice, music, sfx_events, music_db=-26.0, voice_db=-16.0, final_db=-14.0
         s = sfx(name, seed)
         add_at(out, s, t0, 0, 10 ** (gain_db / 20))
     out = set_loudness(out, final_db)
-    out = limiter(out, -1.0)
+    out = limiter(out, -2.0)
     return out.astype(np.float32)

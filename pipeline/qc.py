@@ -138,10 +138,21 @@ def run(ids=None, asr=True):
             'pas d\'écran noir / image figée': res['frame_mean_min'] > 3 and res['frame_change_mean'] > 2,
         }
         res['checks'] = checks
-        res['ok'] = all(checks.values())
+        res['checks'] = {k: bool(v) for k, v in checks.items()}
+        res['ok'] = bool(all(checks.values()))
         print(vid, 'OK' if res['ok'] else 'PROBLÈME', {k: v for k, v in checks.items() if not v}, flush=True)
         results.append(res)
-    json.dump(results, open(os.path.join(qcdir, 'qc_resultats.json'), 'w'), ensure_ascii=False, indent=1)
+    old = {}
+    path = os.path.join(qcdir, 'qc_resultats.json')
+    if os.path.exists(path):
+        try:
+            old = {r['id']: r for r in json.load(open(path))}
+        except Exception:
+            old = {}
+    for r in results:
+        old[r['id']] = r
+    json.dump([old[k] for k in sorted(old)], open(path, 'w'), ensure_ascii=False, indent=1,
+              default=lambda o: o.item() if hasattr(o, 'item') else str(o))
     return results
 
 if __name__ == '__main__':
