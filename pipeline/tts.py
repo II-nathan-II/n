@@ -37,7 +37,9 @@ def parse_units(text):
             tok = m.group(3)
             # gestion d'une ponctuation collée après un bloc {..|..}
             if units and re.fullmatch(r'[,.;:!?…»)]+', tok):
-                c, s = units[-1]; units[-1] = (c + tok, s + tok); continue
+                c, s = units[-1]
+                sep = '\u00a0' if tok[0] in '!?:;»' else ''
+                units[-1] = (c + sep + tok, s + tok); continue
             units.append((tok, tok))
         else:
             units.append((m.group(1), m.group(2)))
