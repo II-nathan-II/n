@@ -30,7 +30,7 @@ YCbCr Matrix: TV.709
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
 Style: Cap,{th['font']},{th['size']},{bgr(th['color'])},{bgr(th['active'])},{bgr('000000')},{bgr('000000', 0x70)},0,0,0,0,100,100,1,0,1,{th['outline']},{th['shadow']},5,60,60,0,1
-Style: Calm,{th['font']},{int(th['size'] * 0.72)},{bgr('F2F2F2')},{bgr('F2F2F2')},{bgr('000000', 0x30)},{bgr('000000', 0xA0)},0,0,0,0,100,100,0,0,1,4,1,5,60,60,0,1
+Style: Calm,{th['font']},{int(th['size'] * 0.86)},{bgr('FFFFFF')},{bgr('FFFFFF')},{bgr('000000')},{bgr('000000', 0x80)},0,0,0,0,100,100,0,0,1,6,2,5,60,60,0,1
 Style: Hook,{th['hook_font']},{th['hook_size']},{bgr(th['hook_color'])},{bgr(th['hook_color'])},{bgr(th['hook_box'])},{bgr('000000', 0x80)},0,0,0,0,100,100,0,0,3,18,0,5,70,70,0,1
 Style: Label,Poppins ExtraBold,94,{bgr(th['label_color'])},{bgr(th['label_color'])},{bgr(th['label_box'])},{bgr('000000', 0x90)},0,0,0,0,100,100,0,0,3,12,0,5,60,60,0,1
 
@@ -76,7 +76,7 @@ def build_ass(video, timeline, path):
             continue
         cy = seg_spec.get('cap_y', y)
         emph = set(norm(e) for e in seg_spec.get('emph', []))
-        chunks = chunk_words(words, 3 if style != 'calm' else 5, 17 if style != 'calm' else 24)
+        chunks = chunk_words(words, 3 if style != 'calm' else 4, 17 if style != 'calm' else 21)
         for ci, ch in enumerate(chunks):
             c_start = ch[0]['s']
             c_end = ch[-1]['e']
