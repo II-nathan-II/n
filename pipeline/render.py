@@ -199,7 +199,7 @@ def render_video(video, out_path, workdir, preview=False, max_seconds=None, forc
     # 5. encodage final : master + sous-titres + mix audio
     vf = f"ass={ass_path}:fontsdir={FONTS}"
     cmd = ['ffmpeg', '-y', '-loglevel', 'error', '-i', master, '-i', wav_path, '-map', '0:v:0', '-map', '1:a:0', '-vf', vf,
-           '-c:v', 'libx264', '-preset', 'veryfast' if preview else 'slow', '-crf', '26' if preview else '21',
+           '-c:v', 'libx264', '-preset', 'veryfast' if preview else 'medium', '-crf', '26' if preview else '21',
            '-maxrate', '6M', '-bufsize', '12M', '-profile:v', 'high', '-level', '4.2', '-pix_fmt', 'yuv420p', '-g', '60',
            '-colorspace', 'bt709', '-color_primaries', 'bt709', '-color_trc', 'bt709', '-color_range', 'tv',
            '-c:a', 'aac', '-b:a', '192k', '-ar', '48000', '-ac', '2', '-movflags', '+faststart', '-t', f'{total:.3f}', out_path]
