@@ -328,12 +328,12 @@ R08 = dict(
             V(SC311, 243.0, extra=[back(170, 520), txt('30 000 °C', 330, 160, (255, 230, 120))]), 'in', 'flash', sfx=['impact'], emph=['30 000 °C']),
         seg("Le record ? Un seul éclair de {829|huit cent vingt-neuf} kilomètres de long, au-dessus des États-Unis, en {2017|deux mille dix-sept}.",
             V(IAN, 14.0, speed=0.8, extra=[back(170, 560), txt('829 KM', 330, 170)]), 'slow_in', 'zoom', emph=['829'], music=0.8),
-        seg("Plus que la distance entre Paris et Marseille.", V(AFRC_ER2, 193.0), 'in', 'cut'),
+        seg("Plus que la distance entre Paris et Marseille.", V(AFRC_ER2, 191.0), 'in', 'cut'),
         seg("Et ça devient encore plus fou : certains orages produisent… des rayons gamma.", V(TGF, 71.0), 'push', 'glitch', emph=['gamma']),
         seg("En {2011|deux mille onze}, un télescope spatial de la NASA a même détecté de l'antimatière, projetée vers l'espace par des orages.", V(TGF2, 11.5, cx=0.62), 'slow_in', 'zoom', emph=['antimatière'], music=0.9),
-        seg("L'endroit le plus foudroyé de la planète ? Le lac Maracaibo, au Venezuela.", V(EARTH, 4.0), 'in', 'fade', label='LAC MARACAIBO • VENEZUELA'),
+        seg("L'endroit le plus foudroyé de la planète ? Le lac Maracaibo, au Venezuela.", V(EARTH, 4.0, zoom=1.3, cy=0.66), 'in', 'fade', label='LAC MARACAIBO • VENEZUELA'),
         seg("Les orages y éclatent plus de {140|cent quarante} nuits par an.", V(SC311, 242.0), 'drift', 'whip', emph=['140']),
-        seg("Les marins l'appelaient même : le phare de Maracaibo.", V(AFRC_ER2, 196.0, zoom=1.2), 'slow_in', 'fade', music=0.5),
+        seg("Les marins l'appelaient même : le phare de Maracaibo.", V(AFRC_ER2, 196.5, speed=0.45, zoom=1.15), 'slow_in', 'fade', music=0.5),
         seg("Tu as déjà vu un éclair tomber tout près de toi ? Raconte en commentaire.", V(SPRITE_ISS, 24.0, mode='fit', fit_scale=1.5), 'out', 'whip', music=0.3),
     ])
 
