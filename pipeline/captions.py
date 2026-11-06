@@ -14,6 +14,8 @@ def bgr(hexrgb, alpha=0):
 THEMES = {
     'space': dict(font='Anton', size=148, upper=True, color='FFFFFF', active='FFD84A', emph='6FE3FF', outline=8, shadow=3,
                   hook_font='Anton', hook_size=150, hook_color='FFFFFF', hook_box='0B1630', label_box='FFD84A', label_color='0B1630', y=1330),
+    'earth': dict(font='Anton', size=148, upper=True, color='FFFFFF', active='FFD84A', emph='FF8A3D', outline=8, shadow=3,
+                  hook_font='Anton', hook_size=150, hook_color='FFFFFF', hook_box='3A1206', label_box='FF8A3D', label_color='1A0A04', y=1330),
     'psy': dict(font='Poppins ExtraBold', size=118, upper=False, color='FFFFFF', active='FFE135', emph='FF6FB5', outline=7, shadow=3,
                 hook_font='Poppins Black', hook_size=128, hook_color='111111', hook_box='FFE135', label_box='FFFFFF', label_color='111111', y=1340),
 }

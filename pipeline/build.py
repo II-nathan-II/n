@@ -5,8 +5,12 @@ sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from common import PROJECT, WORK
 
 def all_videos():
-    import videos_space, videos_psy
-    return {v['id']: v for v in videos_space.VIDEOS + videos_psy.VIDEOS}
+    """v2 (par défaut) : montages d'images réelles. TT_VERSION=v1 : version 100 % générée."""
+    if os.environ.get('TT_VERSION') == 'v1':
+        import videos_space, videos_psy
+        return {v['id']: v for v in videos_space.VIDEOS + videos_psy.VIDEOS}
+    import videos_real
+    return {v['id']: v for v in videos_real.VIDEOS}
 
 def run_one(vid, preview, seconds, force=False):
     import render

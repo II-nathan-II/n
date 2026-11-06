@@ -5,6 +5,7 @@ from common import PROJECT, WORK
 import build
 from tts import caption_text, spoken_text
 from publication_data import PUB, NICHES
+import footage
 
 LAYER_FR = {
     'SpaceBG': 'fond étoilé/nébuleuse procédural', 'Planet': 'planète 3D en rotation', 'Star': 'étoile/Soleil animé',
@@ -32,26 +33,48 @@ SOURCES = {
     'video_03': ["Kirshner, Oemler, Schechter & Shectman, *ApJ* (1981) — découverte du vide du Bouvier", "Diamètre ~250–330 millions d'al, une soixantaine de galaxies recensées", "Tully & Fisher (1987) — le Vide local"],
     'video_04': ["Sagittarius A* : ~4 millions de masses solaires (EHT 2022, prix Nobel 2020)", "Spaghettification et dilatation du temps : relativité générale (cours de référence)", "Temps propre maximal horizon → singularité ≈ πGM/c³ (≈ 1 min pour Sgr A*)"],
     'video_05': ["NASA — Vénus : rotation 243 j (rétrograde), révolution 225 j, 465 °C, ~92 bar", "Venera 13 (1982) : 127 minutes en surface, premières images couleur", "NASA Langley — concept HAVOC (2014–2015)"],
-    'video_06': ["Hering (1878) — théorie des processus antagonistes", "Image rémanente négative : adaptation des cônes (manuels de perception visuelle)"],
-    'video_07': ["Addams (1834) — observation aux chutes de Foyers (« waterfall illusion »)", "Aristote, *Parva Naturalia* — mention de l'effet", "Aires MT/V5 et MST : sélectivité au mouvement/expansion"],
-    'video_08': ["Troxler (1804) — disparition des stimuli périphériques fixés", "Lilac chaser — Jeremy Hinton (vers 2005)"],
-    'video_09': ["Mariotte (vers 1660, publié en 1668) — découverte de la tache aveugle", "Anatomie : papille optique dépourvue de photorécepteurs"],
-    'video_10': ["Adelson (1995) — « checkershadow illusion » (MIT) ; visuel de la vidéo recréé en code (image originale non utilisée)", "« La robe » (février 2015) — études sur les présupposés d'éclairage"],
+    'video_06': ["NOAA/AOML — FAQ ouragans (énergie : 50 à 200 fois la capacité électrique mondiale ; pluie ≈ 2,4 billions de gallons/jour)", "NHC — Beryl (juillet 2024), premier catégorie 5 aussi tôt ; Milton (octobre 2024), intensification rapide", "Seuils : océan ≥ 26 °C ; catégorie 5 ≥ 252 km/h (échelle Saffir-Simpson)"],
+    'video_07': ["NASA (Carr et al., 2022) — panache à 57 km, mésosphère", "NASA JPL / Aura MLS (Millán et al., 2022) — 146 Tg de vapeur d'eau, ≈ 10 % de la stratosphère, 58 000 piscines olympiques", "NASA Goddard — énergie : des centaines de fois Hiroshima ; NOAA GLM — record d'éclairs ; Météo-France — onde de pression enregistrée en France"],
+    'video_08': ["Franz, Nemzek & Winckler (Science, 1990) — premier sprite filmé en 1989 (Université du Minnesota)", "NOAA — ≈ 44 éclairs par seconde ; OMM (2025) — record de 829 km (22 octobre 2017)", "NASA Fermi (2011) — faisceaux d'antimatière issus d'orages ; NASA LIS — lac Maracaibo, point le plus foudroyé"],
+    'video_09': ["NASA/NOAA — tempête géomagnétique G5 du 10 mai 2024, la plus forte depuis 2003", "Événement de Carrington (1859) — aurores aux Caraïbes, télégraphes perturbés", "NASA (2018) — STEVE, étudié avec des photographes amateurs (Alberta Aurora Chasers)"],
+    'video_10': ["Yu et al., Geophysical Research Letters (2015), NASA CALIPSO — 182 Mt/an, 27,7 Mt sur l'Amazonie, ≈ 22 000 t de phosphore", "Dépression du Bodélé (Tchad), ancien lac Méga-Tchad riche en diatomées", "NASA — nuage de poussière « Godzilla », juin 2020"],
+    'video_06_v1': ["Hering (1878) — théorie des processus antagonistes", "Image rémanente négative : adaptation des cônes (manuels de perception visuelle)"],
+    'video_07_v1': ["Addams (1834) — observation aux chutes de Foyers (« waterfall illusion »)", "Aristote, *Parva Naturalia* — mention de l'effet", "Aires MT/V5 et MST : sélectivité au mouvement/expansion"],
+    'video_08_v1': ["Troxler (1804) — disparition des stimuli périphériques fixés", "Lilac chaser — Jeremy Hinton (vers 2005)"],
+    'video_09_v1': ["Mariotte (vers 1660, publié en 1668) — découverte de la tache aveugle", "Anatomie : papille optique dépourvue de photorécepteurs"],
+    'video_10_v1': ["Adelson (1995) — « checkershadow illusion » (MIT) ; visuel de la vidéo recréé en code (image originale non utilisée)", "« La robe » (février 2015) — études sur les présupposés d'éclairage"],
 }
 
 def tc(t):
     m, s = divmod(t, 60)
     return f'{int(m):02d}:{s:05.2f}'
 
-def describe(sc):
+def _meta(ref):
+    try:
+        return footage.resolve(ref)
+    except Exception:
+        return {'title': ref, 'source': '?', 'credit': '', 'license': '', 'page': ''}
+
+def describe(sc, refs=None):
     try:
         obj = sc() if len(inspect.signature(sc).parameters) == 0 else None
     except Exception:
         obj = None
     if obj is None:
         return 'scène interactive synchronisée sur la narration'
-    names = [LAYER_FR.get(type(l).__name__, type(l).__name__) for l in obj.layers]
+    names = []
+    for l in obj.layers:
+        if type(l).__name__ in ('Clip', 'Photo'):
+            m = _meta(l.ref)
+            if refs is not None:
+                refs.setdefault(l.ref, m)
+            at = f" (à {l.at:.0f} s)" if type(l).__name__ == 'Clip' else ''
+            names.append(f"{'Vidéo' if type(l).__name__ == 'Clip' else 'Photo'} réelle : « {m.get('title', '')[:60]} »{at}")
+        elif type(l).__name__ not in ('Backdrop', 'Shade'):
+            names.append(LAYER_FR.get(type(l).__name__, type(l).__name__))
     return ', '.join(dict.fromkeys(names))
+
+CREDITS = {}
 
 def gen():
     vids = build.all_videos()
@@ -72,13 +95,14 @@ def gen():
               f"**Durée :** {tl['duration']:.1f} s  " if tl else '', f"**Musique :** composition originale procédurale ({v['music']['style']}, {v['music']['bpm']} BPM, progression {v['music']['prog']})\n",
               '| Timecode | Narration | Visuel | Montage |', '|---|---|---|---|']
         cur_vis = ''
+        refs = {}
         for i, spec in enumerate(v['segments']):
             seg = tl['segments'][i] if tl else None
             t = tc(seg['start']) if seg else '—'
             txt = caption_text(spec['text']) if spec.get('text') else f"*(silence {spec.get('hold', 0)} s — le spectateur observe l'effet)*"
             sc = spec.get('scene', 'same')
             if sc != 'same':
-                cur_vis = describe(sc) if callable(sc) else str(sc)
+                cur_vis = describe(sc, refs) if callable(sc) else str(sc)
                 vis = cur_vis
             else:
                 vis = '↳ (même plan)'
@@ -94,6 +118,11 @@ def gen():
             if 'music' in spec:
                 mont.append('musique ' + ('coupée' if spec['music'] < 0 else f"intensité {spec['music']}"))
             md.append(f"| {t} | {txt} | {vis} | {', '.join(mont)} |")
+        if refs:
+            md.append('\n**Crédits images (séquences réelles utilisées) :**\n')
+            for r, m in refs.items():
+                md.append(f"- {m.get('title', r)} — {m.get('credit', '')} — {m.get('source', '')} — {m.get('license', '')} — {m.get('page', '')}")
+            CREDITS[vid] = refs
         md.append('\n**Sources / vérification des faits :**\n')
         md += [f'- {s}' for s in SOURCES.get(vid, [])]
         md.append('\n**Texte prononcé (pour réenregistrement éventuel) :**\n')
@@ -113,7 +142,12 @@ def gen():
                f"**1. Titre :** {p['titre']}  ", f"**2. Description :** {p['description']}  ",
                f"**3. Hashtags :** {' '.join(p['hashtags'])}  ", f"**4. Phrase d'accroche :** « {p['accroche']} »  ",
                f"**5. Couverture :** {p['couverture']} — image prête : `PUBLICATION/couvertures/{vid}_couverture.jpg`  ", f"**6. Créneau à tester :** {p['horaire']}  ",
-               f"**7. Potentiel viral :** {p['potentiel']}\n"]
+               f"**7. Potentiel viral :** {p['potentiel']}  "]
+        cr = sorted(set((m.get('credit') or m.get('source', '')).strip() for m in CREDITS.get(vid, {}).values()))
+        if cr:
+            pm.append(f"**Crédits à mentionner (fin de description) :** Images : {' ; '.join(c for c in cr if c)}\n")
+        else:
+            pm.append('')
         rows.append([vid, v['niche'], p['titre'], p['description'], ' '.join(p['hashtags']), p['accroche'], p['couverture'], p['horaire'], p['potentiel']])
     open(os.path.join(pdir, 'PUBLICATION.md'), 'w').write('\n'.join(pm) + '\n')
     with open(os.path.join(pdir, 'publication.csv'), 'w', newline='', encoding='utf-8-sig') as fh:

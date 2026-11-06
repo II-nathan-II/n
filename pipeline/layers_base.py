@@ -285,3 +285,26 @@ class Fn(Layer):
     def draw(self, f, t, dur):
         r = self.fn(f, t, dur)
         return f if r is None else r
+
+
+class Shade(Layer):
+    """Assombrit / teinte l'image : amount constant, ou progression de a0 à a1 entre t0 et t1."""
+    def __init__(self, a0=0.0, a1=None, t0=0.0, t1=1.0, color=(0, 0, 0)):
+        self.__dict__.update(locals()); del self.__dict__['self']
+    def draw(self, f, t, dur):
+        a = self.a0 if self.a1 is None else lerp(self.a0, self.a1, ease_in_out((t - self.t0) / max(self.t1 - self.t0, 1e-3)))
+        if a > 0:
+            c = np.array(self.color, np.float32) / 255
+            f[:] = f * (1 - a) + c * a
+        return f
+
+
+class Backdrop(Layer):
+    """Bandeau sombre dégradé derrière un texte/graphique in-image (lisibilité sur vidéo)."""
+    def __init__(self, y0=200, y1=700, alpha=0.55):
+        self.__dict__.update(locals()); del self.__dict__['self']
+    def draw(self, f, t, dur):
+        h = self.y1 - self.y0
+        prof = np.sin(np.linspace(0, np.pi, h, dtype=np.float32)) ** 0.7 * self.alpha
+        f[self.y0:self.y1] *= (1 - prof)[:, None, None]
+        return f

@@ -1,83 +1,76 @@
-# Analyse des tendances, choix des niches et justification des sujets
+# Analyse des tendances, choix des niches et justification des sujets — v2 (images réelles)
 
-*Date de l'analyse : 5 novembre 2026.*
+*Mise à jour : 6 novembre 2026.*
 
-## 1. Méthode et limites (à lire)
+## 1. Ce qui a changé par rapport à la v1
 
-L'environnement de production n'avait accès qu'à GitHub, PyPI et npm. **TikTok Creative Center, Google Trends, Reddit, YouTube, NASA Images, Wikimedia Commons, Pexels/Pixabay et Hugging Face étaient bloqués par le réseau** (refus du proxy, code 403). L'analyse repose donc sur :
+La v1 utilisait des visuels 100 % générés par ordinateur. La demande est désormais un rendu **réaliste « comme sur TikTok »** : de vraies séquences, coupées et montées. La v2 est un montage de **vraies images**, avec voix off, sous-titres dynamiques, musique, transitions et zooms.
 
-- des recherches web (résultats de moteurs, principalement des blogs spécialisés 2026, cités plus bas) ;
-- la connaissance des formats qui fonctionnent durablement sur TikTok (rétention, interaction, rejouabilité) ;
-- une contrainte forte : pouvoir produire des visuels **100 % originaux et légaux** sans banque d'images.
+**Pourquoi pas des extraits de TikTok ou de YouTube ?** Reprendre les vidéos d'autres créateurs serait de la contrefaçon. TikTok exclut ces compilations du programme Creator Rewards (« contenu non original »). Le cahier des charges initial demandait aussi d'éviter les « compilations de vidéos volées ». Le style est donc le même, mais avec des **sources qu'on a le droit de monter et de monétiser** :
 
-➡️ **Action recommandée avant publication :** ouvrir le TikTok Creative Center (*Tendances → Hashtags*, pays : France, 7 et 30 jours) et vérifier `#espace`, `#astronomie`, `#illusionoptique`, `#cerveau`, `#psychologie`. Cela confirmera (ou ajustera) les sujets.
+| Source | Contenu | Statut |
+|---|---|---|
+| NASA Scientific Visualization Studio (svs.gsfc.nasa.gov) | Visualisations 4K (trous noirs, Soleil, Terre, ouragans, aurores, poussière) | Domaine public (NASA) |
+| NASA Image and Video Library (images.nasa.gov) | Vidéos ISS (ouragans, Terre), animations, photos | Domaine public (NASA) |
+| Données NOAA/GOES diffusées par la NASA | Satellite (éruption du Tonga, ondes de choc) | Domaine public |
 
-## 2. Ce que disent les sources consultées
+Seule l'**image** de ces vidéos est utilisée : leurs bandes-son, qui contiennent parfois de la musique sous licence, sont toujours retirées. Les plans comportant une présentatrice ou un présentateur, une interview, un logo NASA, un générique ou un contenu tiers (photos d'amateurs, images d'universités) ont été écartés.
+
+## 2. Méthode et limites
+
+L'environnement de production n'avait pas accès à TikTok Creative Center, Google Trends, Reddit ni YouTube. Les hôtes NASA ont été autorisés pour cette v2. Wikimedia Commons a été autorisé lui aussi, mais il a bloqué l'IP partagée du proxy (erreur 429), d'où une v2 entièrement sur sources NASA.
+
+L'analyse des tendances repose sur des recherches web : sources tierces citées plus bas, à confirmer dans le Creative Center (pays France, 7 et 30 jours).
+
+## 3. Ce que disent les sources consultées
 
 | Constat | Source |
 |---|---|
-| Les niches « faceless » les plus citées en 2026 incluent la **psychologie**, le true crime, l'horreur, la motivation, la finance ; l'algorithme récompense le **temps de visionnage et le taux de complétion**, pas la présence d'un visage. | [EasyViral](https://easyviral.ai/blog/faceless-tiktok-niches), [Virlo](https://virlo.ai/blog/best-faceless-tiktok-niches) |
-| Les **illusions d'optique interactives** (« fixe le point… ») font régulièrement des millions de vues (ex. 27,8 M de vues pour une illusion de @beatonthebeeb). | [Creative Bloq](https://www.creativebloq.com/news/most-mind-blowing-viral-tiktok-optical-illusions), [BroBible](https://brobible.com/culture/article/tiktoker-optical-illusions-tutorials-videos) |
-| Vues moyennes par vidéo en baisse (≈ −31 % en 2026) ; 73 % des vues viennent du fil « Pour toi » ; l'essentiel de la portée se joue les 10 premiers jours → il faut un **hook très fort** et de la rétention. | [Metricool – tendances 2026](https://metricool.com/fr/tendances-tiktok/) |
-| Creator Rewards : **vidéos originales de plus d'une minute**, 10 000 abonnés, 100 000 vues sur 30 jours, 18 ans et +, compte public, pays éligible (**la France l'est**), RPM réaliste 0,40–1,00 $ / 1 000 vues qualifiées. | [Toptal](https://www.toptal.com/creator/post/how-to-join-the-tiktok-creator-rewards-program), [TTCalculator](https://ttcalculator.net/learn/creator-rewards-program/), [ShortsFast](https://shortsfast.com/blog/tiktok-creator-rewards-2026-requirements/) |
-| Les contenus « non originaux » sont exclus ; les contenus IA réalistes doivent être **étiquetés** ; les sources divergent sur l'éligibilité des vidéos entièrement générées par IA. | [Storrito](https://storrito.com/resources/what-tiktoks-ai-monetization-restrictions-signal-for-creator-income/), [Lilach Bullock](https://www.lilachbullock.com/?p=109419) |
-| Musique : la Commercial Music Library (CML) est pré-autorisée sur TikTok uniquement ; un son tendance n'est pas « libre » pour autant. | [Soundstripe](https://www.soundstripe.com/blogs/tiktok-music-licensing-rules), [Foxi Music](https://www.foximusic.com/blog/commercial-music-licensing-tiktok-guide/) |
-| Tendance audio 2026 : ambiances « mood » (lo-fi, électro ambiante, cinématique) pour le storytelling. | [Stack Influence](https://stackinfluence.com/blog/popular-tiktok-songs-2026-the-creators-audio-guide), [SocialPilot](https://www.socialpilot.co/fr/blog/tiktok-trends) |
+| L'algorithme récompense le **temps de visionnage et la complétion**, pas la présence d'un visage. Les comptes « faceless » de science et de mystère figurent parmi les niches en croissance. | [EasyViral](https://easyviral.ai/blog/faceless-tiktok-niches), [Virlo](https://virlo.ai/blog/best-faceless-tiktok-niches) |
+| Vues moyennes en baisse en 2026 (≈ −31 %) ; 73 % des vues viennent du fil « Pour toi » → hook immédiat indispensable. | [Metricool](https://metricool.com/fr/tendances-tiktok/) |
+| Creator Rewards : vidéos **originales de plus d'une minute**, 10 000 abonnés, 100 000 vues sur 30 jours, 18 ans et plus, pays éligible (la France l'est) ; RPM de 0,40 à 1 $ pour 1 000 vues qualifiées. | [Toptal](https://www.toptal.com/creator/post/how-to-join-the-tiktok-creator-rewards-program), [TTCalculator](https://ttcalculator.net/learn/creator-rewards-program/), [ShortsFast](https://shortsfast.com/blog/tiktok-creator-rewards-2026-requirements/) |
+| Les contenus non originaux sont exclus ; les contenus IA réalistes doivent être étiquetés. | [Storrito](https://storrito.com/resources/what-tiktoks-ai-monetization-restrictions-signal-for-creator-income/), [Lilach Bullock](https://www.lilachbullock.com/?p=109419) |
+| Musique : la Commercial Music Library est pré-autorisée sur TikTok uniquement ; un son tendance n'est pas « libre » pour autant. | [Soundstripe](https://www.soundstripe.com/blogs/tiktok-music-licensing-rules), [Foxi Music](https://www.foximusic.com/blog/commercial-music-licensing-tiktok-guide/) |
 
-⚠️ Les chiffres ci-dessus proviennent de sites tiers (la page officielle TikTok n'était pas accessible). Vérifier les conditions à jour dans l'application : *Profil → Outils pour créateurs → Creator Rewards Program*.
+⚠️ La page officielle Creator Rewards n'était pas accessible : vérifier dans l'application (*Outils pour créateurs → Creator Rewards*).
 
-## 3. Grille de décision
+## 4. Choix des niches (v2)
 
-Notes de 1 à 5 (5 = meilleur), sur les critères demandés.
+| Niche candidate | Viralité | Rétention | Matière réelle légale disponible | Production régulière | Total /20 |
+|---|---|---|---|---|---|
+| **Espace et mystères de l'Univers** | 5 | 4 | 5 (NASA : des milliers de visualisations 4K) | 5 | **19** |
+| **Planète extrême** (ouragans, volcans, foudre, aurores…) | 5 | 5 | 5 (ISS, satellites GOES, NASA Earth) | 5 | **20** |
+| Psychologie / illusions (v1) | 5 | 5 | 1 (les illusions sont forcément des graphismes) | 4 | 15 |
+| Histoires vraies / faits divers | 5 | 5 | 1 (archives protégées) | 4 | 15 |
 
-| Niche candidate | Viralité | Rétention | Facilité | Monétisation (RPM) | Production régulière | Audience FR | Visuels légaux sans banque d'images | Total |
-|---|---|---|---|---|---|---|---|---|
-| **Espace & mystères de l'Univers** | 5 | 4 | 4 | 4 | 5 | 5 | **5** (rendu 3D procédural) | **32** |
-| **Psychologie de la perception (illusions interactives)** | 5 | **5** | 5 | 3 | 4 | 5 | **5** (stimuli générés en code) | **32** |
-| Histoires vraies / faits divers | 5 | 5 | 4 | 3 | 4 | 5 | 1 (photos d'archives indispensables) | 27 |
-| Histoire fascinante | 4 | 4 | 4 | 3 | 5 | 5 | 2 (domaine public inaccessible ici) | 27 |
-| Argent / business | 4 | 3 | 4 | 5 | 4 | 4 | 2 (stock vidéo nécessaire) | 26 |
-| Technologie / IA | 4 | 3 | 3 | 5 | 4 | 4 | 3 | 26 |
-
-## 4. Les deux niches retenues
-
-### NICHE 1 — « Les secrets de l'Univers » (espace, astronomie)
-- **Pourquoi :** sujet intemporel, curiosité universelle, faits réels vérifiables mais vertigineux (chiffres chocs = hooks naturels) ; RPM correct (contenu éducatif) ; catalogue de sujets quasi infini.
-- **Différenciation :** visuels **entièrement calculés** (planètes texturées en rotation, trou noir avec lentille gravitationnelle, toile cosmique 3D, Terre construite à partir des données Natural Earth) au lieu des éternelles images NASA recyclées → originalité forte pour Creator Rewards.
-- **Ton :** narration à la 2e personne (« si tu tombais… »), rythme rapide, une révélation toutes les 10–15 s, question binaire en conclusion.
-
-### NICHE 2 — « Ton cerveau te ment » (illusions et expériences interactives)
-- **Pourquoi :** c'est le format qui maximise le **taux de complétion** (le spectateur doit aller au bout pour voir l'effet) et la **rejouabilité** ; commentaires guidés (« écris vert si tu l'as vu ») ; aucune barrière de langue ou de culture ; science solide derrière chaque effet.
-- **Différenciation :** chaque illusion est **recréée en code** (aucune image copiée) et suivie d'une vraie explication (cônes, neurones du mouvement, tache aveugle, constance des couleurs) avec repères historiques.
-- **Monétisation :** RPM un peu plus faible que l'espace, compensé par des vues qualifiées élevées (durée > 60 s regardée en entier).
+- **NICHE 1 — « Les secrets de l'Univers »** : mêmes 5 scripts vérifiés que la v1, désormais illustrés par de vraies visualisations NASA. On y voit le disque d'accrétion de Jeremy Schnittman, la plongée dans un trou noir, une étoile déchiquetée, le Soleil en 4K vu par SDO, Hubble en orbite, Vénus vue par la sonde Parker, et un zoom dans un univers simulé.
+- **NICHE 2 — « Planète extrême »** : elle remplace les illusions d'optique, qui ne peuvent pas devenir un montage d'images réelles. La niche est très visuelle et universelle, avec une forte valeur de partage (« tu as déjà vécu ça ? »), et s'appuie sur des images authentiques filmées depuis l'ISS et par satellites.
 
 ## 5. Justification des sujets
 
-| # | Sujet | Hook | Ressort viral principal |
-|---|---|---|---|
-| 01 | HD 189733 b, la planète où il pleut du verre | « Il existe une planète où il pleut du verre. » | Paradoxe visuel + chute drôle (odeur d'œuf pourri, JWST 2024) |
-| 02 | Si le Soleil disparaissait | « …tu ne le saurais pas avant huit minutes. » | Scénario « et si », détail contre-intuitif (gravité à la vitesse de la lumière) |
-| 03 | Le vide du Bouvier (« Grand Vide ») | « …tellement vide qu'on la surnomme le Grand Vide. » | Mystère + chiffres chocs (2 000 → 60 galaxies) + démystification |
-| 04 | Tomber dans un trou noir | « Voici ce qui t'arriverait… » | Immersion, mot mémorable (spaghettification), choix final |
-| 05 | Vénus : un jour plus long qu'un an | « …une journée dure plus longtemps qu'une année. » | Paradoxe + extrêmes + twist (dirigeables de la NASA) |
-| 06 | Image rémanente du drapeau français | « Ce drapeau n'a pas les bonnes couleurs… » | Expérience interactive + identité française |
-| 07 | Spirale et effet consécutif de mouvement | « Regarde cette spirale 30 secondes… » | Défi + effet ressenti physiquement |
-| 08 | Effet Troxler + lilac chaser | « …ces couleurs vont disparaître. » | Escalade « niveau 2 » + révélation (« il n'y a jamais eu de vert ») |
-| 09 | La tache aveugle | « Il y a un trou dans ta vision. » | Test réalisable par tous sur téléphone |
-| 10 | Les cases A et B (constance des couleurs) | « A et B sont exactement de la même couleur. » | Preuve en direct + débat (« la robe ») |
+| # | Sujet | Hook | Ressort viral | Images clés |
+|---|---|---|---|---|
+| 01 | HD 189733 b, planète où il pleut du verre | « Il existe une planète où il pleut du verre. » | Paradoxe + chute drôle | Planète chaude (NASA Goddard), vidéo NASA sur HD 189733 b, Hubble, spectre Webb |
+| 02 | Si le Soleil disparaissait | « …tu ne le saurais pas avant huit minutes. » | Scénario « et si » | Soleil SDO 4K, Terre, fusion d'étoiles à neutrons GW170817, Lune, Jupiter (Hubble) |
+| 03 | Le Grand Vide (vide du Bouvier) | « …tellement vide qu'on la surnomme le Grand Vide. » | Mystère + chiffres chocs | Zoom OpenUniverse, toile cosmique, Voie lactée |
+| 04 | Tomber dans un trou noir | « Voici ce qui t'arriverait… » | Immersion | Disque d'accrétion 4K, plongée, étoile déchiquetée |
+| 05 | Vénus : un jour plus long qu'un an | « Une journée dure plus longtemps qu'une année. » | Paradoxe + extrêmes | Parker Solar Probe, DAVINCI, reliefs radar |
+| 06 | Ouragans vus de l'ISS | « Voici ce que voient les astronautes… » | Point de vue rare | ISS au-dessus de Beryl, Franklin, Milton, Helene |
+| 07 | Éruption du Hunga Tonga (2022) | « …une puissance jamais enregistrée. » | Événement réel méconnu | Panache vu par satellite, ondes de choc GOES-17 |
+| 08 | Sprites et foudre | « Ce flash rouge… n'est pas un effet spécial. » | Mystère + records | Sprite filmé depuis l'ISS, éclairs vus de l'ISS, ER-2, Fermi |
+| 09 | Aurores vues de l'espace | « …vues d'en haut, depuis la Station spatiale. » | Visuel spectaculaire + souvenir (mai 2024) | Aurores ISS 4K, Soleil, simulation ENLIL, aurores au sol (NASA) |
+| 10 | Le Sahara nourrit l'Amazonie | « Le plus grand désert chaud nourrit la plus grande forêt… » | Paradoxe + quotidien (sable sur les voitures) | Nuage « Godzilla », CALIPSO, forêt amazonienne |
 
 ## 6. Musique et droits
 
-- Aucun son tendance protégé n'a été intégré : **toutes les musiques sont des compositions originales générées par code** (pads, arpèges, basse, rythmique lo-fi), une par vidéo (tonalité, tempo et progression différents). Elles sont donc utilisables commercialement sans restriction.
-- Ambiances choisies d'après les tendances 2026 : *cinématique / ambient électro* pour l'espace, *lo-fi* pour les illusions (ambiance calme compatible avec la concentration demandée).
-- Option pour surfer sur une tendance : ajouter dans l'éditeur TikTok un titre de la **Commercial Music Library** à très faible volume (5–10 %). Ne pas importer de musique commerciale hors CML.
+Toutes les musiques et tous les effets sonores sont **composés par code** (originaux, 10 morceaux différents) : aucun son tendance protégé n'est intégré. Pour surfer sur une tendance, ajouter un titre de la **Commercial Music Library** à 5–10 % de volume dans l'éditeur TikTok.
 
 ## 7. Monétisation : points de vigilance
 
-1. **Seuils d'entrée** : 10 000 abonnés et 100 000 vues sur 30 jours (compte neuf = phase de croissance d'abord).
-2. **Durée** : toutes les vidéos dépassent 60 s (de 81,8 à 97,0 s) ✅.
-3. **Originalité** : scripts, visuels, musique et montage créés pour ce projet ✅. Garder une variété de formats pour ne pas paraître « produit en masse ».
-4. **IA** : la voix est synthétique (Kokoro) → activer le label « Contenu généré par IA ». Les visuels spatiaux sont des vues d'artiste : l'indiquer en description.
-5. **Exactitude** : faits vérifiés (sources dans `SCRIPTS/`) ; les formulations prudentes (« viendrait de », « pourrait ») sont volontaires là où la science est hypothétique.
-6. **Photosensibilité** : aucun flash plein écran rapide ; la vidéo 07 (spirale) comporte une mention d'inconfort dans sa description.
-7. **Un compte par niche** recommandé (cohérence algorithmique).
+1. **Seuils d'entrée** : 10 000 abonnés et 100 000 vues sur 30 jours.
+2. **Durée** : toutes les vidéos dépassent 60 s.
+3. **Originalité** : scripts, voix, montage, musique, sous-titres et habillage créés pour ce projet. Les images NASA sont du domaine public, mais la plateforme valorise la **transformation** (narration, rythme, texte), ce qui est le cas ici. Varier les sujets et les plans d'une vidéo à l'autre.
+4. **Crédits** : terminer chaque description par « Images : NASA » (crédits détaillés dans `SCRIPTS/` et `PUBLICATION/`). Ne jamais utiliser le logo NASA ni suggérer un partenariat avec la NASA.
+5. **IA** : la voix est synthétique → activer le label « Contenu généré par IA ».
+6. **Exactitude** : faits vérifiés (sources dans `SCRIPTS/`). Les vues d'artiste sont présentées comme telles dans les descriptions.
+7. **Un compte par niche** conseillé.

@@ -1,11 +1,14 @@
 # Studio TikTok automatisé — 10 vidéos virales en français
 
-Ce dépôt contient **10 vidéos TikTok finalisées** (MP4 H.264/AAC, 1080×1920, 82 à 97 s) et le pipeline Python qui les a produites de A à Z : scripts, voix off, visuels générés, montage, sous-titres dynamiques, musique originale, export et contrôle qualité.
+Ce dépôt contient **10 vidéos TikTok finalisées** (MP4 H.264/AAC, 1080×1920, plus d'une minute) et le pipeline Python qui les produit de A à Z : scripts, voix off, **montage de vraies séquences libres de droits (NASA)**, recadrage 9:16, transitions, sous-titres dynamiques, musique originale, export et contrôle qualité.
+
+- **v2 (actuelle)** : montages d'images réelles — `pipeline/videos_real.py`, sources récupérées par `pipeline/footage.py` (NASA SVS, NASA Image and Video Library ; lecture partielle à distance des fichiers de plusieurs Go).
+- **v1** : version 100 % générée par code (illusions d'optique, espace procédural) — toujours disponible dans l'historique Git et via `TT_VERSION=v1`.
 
 ```
 TikTok_Viral_Project/
 ├── NICHE_1/            # « Les secrets de l'Univers » : video_01.mp4 … video_05.mp4
-├── NICHE_2/            # « Ton cerveau te ment »     : video_06.mp4 … video_10.mp4
+├── NICHE_2/            # « Planète extrême »         : video_06.mp4 … video_10.mp4
 ├── SCRIPTS/            # scripts complets minutés (+ sources des faits)
 ├── PUBLICATION/        # titres, descriptions, hashtags, accroches, couvertures, horaires (MD + CSV)
 ├── ANALYSE/            # analyse des tendances et des niches, droits, rapport de contrôle qualité
@@ -18,7 +21,7 @@ pipeline/               # code de production
 Prérequis : Python 3.11+, FFmpeg avec libx264 et libass.
 
 ```bash
-pip install numpy scipy pillow opencv-python-headless soundfile onnxruntime kokoro-onnx numba pyloudnorm sherpa-onnx
+pip install numpy scipy pillow opencv-python-headless soundfile onnxruntime kokoro-onnx numba pyloudnorm sherpa-onnx requests
 ```
 
 Ressources (dans `/opt/assets`, modifiable via la variable `TT_ASSETS`) :
@@ -29,10 +32,11 @@ Ressources (dans `/opt/assets`, modifiable via la variable `TT_ASSETS`) :
 
 ```bash
 cd pipeline
-python3 build.py --jobs 3              # les 10 vidéos
+python3 footage.py svs "black hole"     # chercher des séquences (svs | nasa | commons)
+python3 build.py --jobs 3              # les 10 vidéos (télécharge les sources au besoin)
 python3 build.py video_04 --preview    # aperçu rapide d'une vidéo
 python3 qc.py                          # contrôle qualité (format, loudness, Whisper, synchro)
 python3 docs.py                        # SCRIPTS/, PUBLICATION/, RECAPITULATIF.md
 ```
 
-Chaque vidéo est décrite dans `pipeline/videos_space.py` et `pipeline/videos_psy.py` : une liste de segments (texte de narration, scène, caméra, transition, effets sonores, intensité musicale). Le balisage `{affiché|prononcé}` permet d'afficher « 7 000 km/h » tout en faisant dire « sept mille kilomètres par heure ».
+Chaque vidéo est décrite dans `pipeline/videos_real.py` : une liste de segments (texte de narration, extrait vidéo `V(source, point d'entrée, …)`, caméra, transition, effets sonores, intensité musicale). Réseau requis : `images-api.nasa.gov`, `images-assets.nasa.gov`, `svs.gsfc.nasa.gov`. Le balisage `{affiché|prononcé}` permet d'afficher « 7 000 km/h » tout en faisant dire « sept mille kilomètres par heure ».

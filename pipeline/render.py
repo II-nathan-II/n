@@ -127,7 +127,7 @@ def blend(a, b, p, kind, rng):
 # ----------------------------------------------------------------------------- étalonnage
 def make_lut(theme):
     x = np.arange(256, dtype=np.float32) / 255
-    if theme == 'space':
+    if theme in ('space', 'earth'):
         r = np.clip(x + 0.04 * np.sin(np.pi * x) * (x - 0.35), 0, 1)
         g = x
         b = np.clip(x + 0.05 * (1 - x) * (0.6 - x), 0, 1)
@@ -211,8 +211,8 @@ def render_frames(video, shots, tl, master, total, emph_times, shake_times):
     vid = video['id']
     theme = video['theme']
     lut = make_lut(theme)
-    vig = vignette(0.5 if theme == 'space' else 0.35)
-    grain_amt = 0.016 if theme == 'space' else 0.009
+    vig = vignette(video.get('vignette', 0.5 if theme != 'psy' else 0.35))
+    grain_amt = video.get('grain', 0.016 if theme == 'space' else 0.009)
     nframes = int(round(total * FPS))
     tmp = master + '.part.mkv'
     cmd = ['ffmpeg', '-y', '-loglevel', 'error', '-f', 'rawvideo', '-pix_fmt', 'rgb24', '-s', f'{W}x{H}', '-r', str(FPS), '-i', '-',
