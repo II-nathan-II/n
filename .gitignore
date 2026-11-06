@@ -2,3 +2,4 @@ __pycache__/
 *.pyc
 .work/
 pipeline/dev/*.jpg
+*.part.mp4
