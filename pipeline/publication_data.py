@@ -16,7 +16,7 @@ PUB = {
         potentiel="Hook visuel + paradoxe (« pluie de verre ») immédiatement compréhensible, fait réel vérifiable (NASA/Hubble 2013, Webb 2024), chute humoristique (œuf pourri) qui favorise les partages et une question binaire en fin de vidéo qui pousse aux commentaires."),
     'video_02': dict(
         titre="Si le Soleil disparaissait, tu ne le saurais pas avant 8 min",
-        description="La lumière ET la gravité mettent 8 min 20 s à nous parvenir. Après ? La nuit, -73 °C en un an… et Saturne qui brille encore 2 h. Toi, tu ferais quoi pendant ces 8 minutes ? 👇",
+        description="La lumière ET la gravité mettent 8 min 20 s à nous parvenir. Après ? La nuit, -73 °C en un an… et Saturne qui brille encore 2 h. Toi, tu ferais quoi pendant ces 8 minutes ? 👇 (Images : NASA)",
         hashtags=['#soleil', '#espace', '#astronomie', '#physique', '#science'],
         accroche="Si le Soleil disparaissait maintenant… tu ne le saurais pas avant huit minutes.",
         couverture="Soleil qui s'éteint à moitié (dégradé noir) + chrono « 08:20 » en grand.",
@@ -24,7 +24,7 @@ PUB = {
         potentiel="Scénario « et si… » universel, détail contre-intuitif (la gravité n'est pas instantanée) prouvé par un événement réel (GW170817), compte à rebours qui crée de la tension et question ouverte très facile à commenter."),
     'video_03': dict(
         titre="La zone la plus vide de l'Univers existe vraiment",
-        description="Le vide du Bouvier : 330 millions d'années-lumière de diamètre, environ 60 galaxies au lieu de ~2 000. Et nous aussi, on vit au bord d'un vide. Centre du Grand Vide ou ici ? 👇",
+        description="Le vide du Bouvier : 330 millions d'années-lumière de diamètre, environ 60 galaxies au lieu de ~2 000. Et nous aussi, on vit au bord d'un vide. Centre du Grand Vide ou ici ? 👇 (Images : NASA — simulations et vues d'artiste.)",
         hashtags=['#univers', '#cosmos', '#astronomie', '#espace', '#mystere'],
         accroche="Il existe une zone de l'Univers tellement vide qu'on la surnomme simplement : le Grand Vide.",
         couverture="Toile cosmique bleue avec un cercle doré vide au centre ; texte : « 60 GALAXIES AU LIEU DE 2 000 ».",
@@ -40,7 +40,7 @@ PUB = {
         potentiel="Sujet spatial le plus recherché, narration à la 2e personne (immersion), mot mémorable (« spaghettification »), opposition petit/supermassif qui structure la vidéo et alimente les commentaires."),
     'video_05': dict(
         titre="Sur Vénus, un jour dure plus longtemps qu'un an",
-        description="243 jours pour tourner sur elle-même, 225 pour faire le tour du Soleil. 465 °C, pluie acide… et pourtant la NASA a imaginé des dirigeables habités. Tu monterais à bord ? 👇",
+        description="243 jours pour tourner sur elle-même, 225 pour faire le tour du Soleil. 465 °C, pluie acide… et pourtant la NASA a imaginé des dirigeables habités. Tu monterais à bord ? 👇 (Images : NASA)",
         hashtags=['#venus', '#systemesolaire', '#espace', '#nasa', '#astronomie'],
         accroche="Sur Vénus, une journée dure plus longtemps qu'une année.",
         couverture="Vénus jaune-orangé + dirigeable au-dessus des nuages ; texte : « 1 JOUR > 1 AN ».",

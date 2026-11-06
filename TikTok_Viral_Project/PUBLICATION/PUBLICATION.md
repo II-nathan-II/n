@@ -18,7 +18,7 @@ Heures en **heure de Paris**, à tester sur 2 à 3 semaines puis à ajuster avec
 
 **Fichier :** `NICHE_1/video_02.mp4`  
 **1. Titre :** Si le Soleil disparaissait, tu ne le saurais pas avant 8 min  
-**2. Description :** La lumière ET la gravité mettent 8 min 20 s à nous parvenir. Après ? La nuit, -73 °C en un an… et Saturne qui brille encore 2 h. Toi, tu ferais quoi pendant ces 8 minutes ? 👇  
+**2. Description :** La lumière ET la gravité mettent 8 min 20 s à nous parvenir. Après ? La nuit, -73 °C en un an… et Saturne qui brille encore 2 h. Toi, tu ferais quoi pendant ces 8 minutes ? 👇 (Images : NASA)  
 **3. Hashtags :** #soleil #espace #astronomie #physique #science  
 **4. Phrase d'accroche :** « Si le Soleil disparaissait maintenant… tu ne le saurais pas avant huit minutes. »  
 **5. Couverture :** Soleil qui s'éteint à moitié (dégradé noir) + chrono « 08:20 » en grand. — image prête : `PUBLICATION/couvertures/video_02_couverture.jpg`  
@@ -30,7 +30,7 @@ Heures en **heure de Paris**, à tester sur 2 à 3 semaines puis à ajuster avec
 
 **Fichier :** `NICHE_1/video_03.mp4`  
 **1. Titre :** La zone la plus vide de l'Univers existe vraiment  
-**2. Description :** Le vide du Bouvier : 330 millions d'années-lumière de diamètre, environ 60 galaxies au lieu de ~2 000. Et nous aussi, on vit au bord d'un vide. Centre du Grand Vide ou ici ? 👇  
+**2. Description :** Le vide du Bouvier : 330 millions d'années-lumière de diamètre, environ 60 galaxies au lieu de ~2 000. Et nous aussi, on vit au bord d'un vide. Centre du Grand Vide ou ici ? 👇 (Images : NASA — simulations et vues d'artiste.)  
 **3. Hashtags :** #univers #cosmos #astronomie #espace #mystere  
 **4. Phrase d'accroche :** « Il existe une zone de l'Univers tellement vide qu'on la surnomme simplement : le Grand Vide. »  
 **5. Couverture :** Toile cosmique bleue avec un cercle doré vide au centre ; texte : « 60 GALAXIES AU LIEU DE 2 000 ». — image prête : `PUBLICATION/couvertures/video_03_couverture.jpg`  
@@ -54,7 +54,7 @@ Heures en **heure de Paris**, à tester sur 2 à 3 semaines puis à ajuster avec
 
 **Fichier :** `NICHE_1/video_05.mp4`  
 **1. Titre :** Sur Vénus, un jour dure plus longtemps qu'un an  
-**2. Description :** 243 jours pour tourner sur elle-même, 225 pour faire le tour du Soleil. 465 °C, pluie acide… et pourtant la NASA a imaginé des dirigeables habités. Tu monterais à bord ? 👇  
+**2. Description :** 243 jours pour tourner sur elle-même, 225 pour faire le tour du Soleil. 465 °C, pluie acide… et pourtant la NASA a imaginé des dirigeables habités. Tu monterais à bord ? 👇 (Images : NASA)  
 **3. Hashtags :** #venus #systemesolaire #espace #nasa #astronomie  
 **4. Phrase d'accroche :** « Sur Vénus, une journée dure plus longtemps qu'une année. »  
 **5. Couverture :** Vénus jaune-orangé + dirigeable au-dessus des nuages ; texte : « 1 JOUR > 1 AN ». — image prête : `PUBLICATION/couvertures/video_05_couverture.jpg`  
