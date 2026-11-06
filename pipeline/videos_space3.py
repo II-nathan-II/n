@@ -44,6 +44,7 @@ MARS_SUNSET_PIC = 'nasa:PIA19400'                                               
 INSIGHT_SUNSET = 'nasa:PIA23202'                                                # coucher de soleil, InSight, 2019
 MARS_SUNSET = 'svs:11875/WC_MarsSunset-1920-MASTER_baron.mp4'                   # séquence Curiosity (0–8 s uniquement)
 # Encelade
+ENC_OCEAN = 'nasa:PIA19656'                                                     # océan global d'Encelade (vue en coupe JPL, 8534 px)
 ENC_JETS = 'nasa:PIA11688'                                                      # vraie photo Cassini des jets d'Encelade
 # Voyager
 VOY_CRAFT = 'svs:20390/Shot5_4k_mp4.mp4'                                        # sonde Voyager en gros plan (4K)
@@ -346,7 +347,7 @@ R24 = dict(
     segments=[
         seg("Cette petite lune de Saturne crache de l'eau dans l'espace.", V(ENC_GEY, 0.8, speed=0.6), 'in', sfx=['boom'], music=0.35, emph=['eau']),
         seg("Elle s'appelle Encelade, et elle ne fait qu'environ cinq cents kilomètres de diamètre.",
-            V(CASSINI, 180.0, extra=[back(170, 560), counter(0, 500, y=340, size=200, suffix=' km', color=ICE, t1=1.8, sub='de diamètre')]), 'slow_in', 'whip', label='ENCELADE • LUNE DE SATURNE', emph=['Encelade']),
+            V(CASSINI, 180.0, speed=0.6, extra=[back(390, 760), counter(0, 500, y=560, size=200, suffix=' km', color=ICE, t1=1.8, sub='de diamètre')]), 'slow_in', 'whip', label='ENCELADE • LUNE DE SATURNE', emph=['Encelade']),
         seg("C'est l'un des objets les plus brillants du système solaire : sa glace renvoie presque toute la lumière du Soleil.", V(CASSINI, 175.0), 'drift', 'cut', emph=['brillants']),
         seg("Et en surface, il fait environ moins deux cents degrés.",
             V(ENC_GEY, 9.4, speed=0.5, extra=[back(170, 560), counter(0, -200, y=340, size=210, suffix=' °C', color=ICE, t1=1.8)]), 'push', 'zoom', emph=['deux', 'cents']),
@@ -356,14 +357,14 @@ R24 = dict(
         seg("Cette glace est si abondante qu'elle alimente l'un des anneaux de Saturne : l'anneau E.", V(ENC_GEY, 5.6, speed=0.6), 'drift', 'whip', emph=['anneaux']),
         seg("En {2023|deux mille vingt-trois}, le télescope James Webb a repéré un panache de vapeur d'eau long d'environ dix mille kilomètres.",
             V(TITAN_INTRO, 12.0, speed=0.8), 'push', 'cut', label='JAMES WEBB • 2023', emph=['dix', 'mille']),
-        seg("Près de vingt fois la taille d'Encelade elle-même.", V(CASSINI, 192.0), 'in', 'zoom', emph=['vingt']),
+        seg("Près de vingt fois la taille d'Encelade elle-même.", V(CASSINI, 192.0, speed=0.6), 'in', 'zoom', emph=['vingt']),
         seg("Il rejette environ trois cents litres d'eau par seconde. De quoi remplir une piscine olympique en quelques heures.",
             V(ENC_GEY, 7.4, speed=0.5, extra=[back(170, 520), txt('300 L / SECONDE', 330, 140)]), 'slow_in', 'fade', emph=['piscine']),
-        seg("D'où vient toute cette eau ? D'un océan caché sous la glace, qui fait le tour de la lune entière.", V(ICE_PAN, 0.0, speed=0.35), 'push', 'whip', emph=['océan']),
+        seg("D'où vient toute cette eau ? D'un océan caché sous la glace, qui fait le tour de la lune entière.", P(ENC_OCEAN, cx=0.53, cy=0.5), 'push', 'whip', emph=['océan']),
         seg("En traversant ces panaches, Cassini y a trouvé du sel, des molécules organiques… et de l'hydrogène, le signe possible de sources chaudes au fond de l'océan.",
             V(OCEAN_VENTS, 0.0, speed=0.7, extra=[lift()]), 'slow_in', 'fade', emph=['hydrogène']),
         seg("Et en {2023|deux mille vingt-trois}, des chercheurs y ont aussi détecté du phosphore, un ingrédient indispensable à la vie telle qu'on la connaît.",
-            V(CASSINI, 222.0, zoom=1.15), 'in', 'flash', emph=['phosphore'], music=0.75),
+            V(CASSINI, 222.0, speed=0.6, zoom=1.15), 'in', 'flash', emph=['phosphore'], music=0.75),
         seg("Eau liquide, énergie, chimie : Encelade réunit presque tout ce qu'il faut pour abriter la vie.", V(ENC_GEY, 6.6, speed=0.5), 'drift', 'zoom', emph=['vie']),
         seg("C'est l'un des meilleurs endroits du système solaire pour chercher des êtres vivants.", V(SAT_RINGS, 15.0, speed=0.6), 'slow_in', 'fade'),
         seg("Tu penses qu'il y a de la vie dans cet océan ? Dis-le en commentaire.", V(ENC_GEY, 2.0, speed=0.5), 'out', 'fade', music=0.3),
@@ -380,7 +381,7 @@ R25 = dict(
         seg("Dans quelques jours, cette sonde sera à un jour-lumière de la Terre.", V(VOY_CRAFT, 0.0, speed=0.4, cx=0.3), 'in', sfx=['boom'], music=0.35, emph=['jour-lumière']),
         seg("C'est Voyager {1|un}, lancée en {1977|mille neuf cent soixante-dix-sept}. Elle voyage depuis quarante-neuf ans.", P(VOY_ART, mode='fit'), 'slow_in', 'whip', label='VOYAGER 1 • 1977', emph=['quarante-neuf']),
         seg("Vers le {18|dix-huit} novembre, elle sera à environ vingt-cinq milliards neuf cents millions de kilomètres.",
-            V(HELIO, 7.0, speed=0.5, extra=[back(170, 560), counter(0, 25.9, y=340, size=200, fmt='float', decimals=1, color=GOLD, t1=2.2, sub='milliards de kilomètres')]),
+            V(HELIO, 7.0, speed=0.5, extra=[back(390, 760), counter(0, 25.9, y=560, size=200, fmt='float', decimals=1, color=GOLD, t1=2.2, sub='milliards de kilomètres')]),
             'push', 'zoom', label='18 NOVEMBRE 2026', emph=['milliards']),
         seg("Si loin qu'un message envoyé depuis la Terre mettra une journée entière pour l'atteindre. Et autant pour revenir.",
             P(VOY_ART2, mode='fit', extra=[back(170, 520), txt('24 H ALLER • 24 H RETOUR', 330, 100)]), 'slow_in', 'fade', emph=['journée']),
