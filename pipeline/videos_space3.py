@@ -5,6 +5,7 @@ Faits vérifiés (sources dans docs.SOURCES) ; chiffres incertains formulés ave
 Les dates à venir (BepiColombo, Voyager 1, Europa Clipper) sont celles annoncées par l'ESA et la NASA en novembre 2026.
 """
 import cv2
+import numpy as np
 from videos_real import V, P, txt, back, counter, shade, seg, REAL, \
     EARTH, ISS, JUPITER, SUN171, SUN193, SUN131, PV, AUR_ISS, MILKYWAY, SATURN
 from videos_space2 import GRS, MARS_TOPO, MARS_ROLL, HELICITY, SDO171, SDO304
@@ -27,6 +28,7 @@ TITAN_CLIMATE = 'svs:20403/Titan_Climate_1080_h264.mp4'                         
 METHANE = 'svs:20403/Methane_1080_h264_V2.mp4'                                  # molécules de méthane au-dessus de Titan
 DF_PAN = 'svs:20311/DF_End_Pan_4K_H264.mp4'                                     # Dragonfly posé sur Titan (4K)
 CASSINI = 'nasa:GSFC_20170912_Cassini_m12709_CIRS_Short'                        # Cassini : Saturne, Titan, Encelade
+TITAN_PIC = 'nasa:PIA14909'                                                     # Titan devant Saturne, vraies couleurs (Cassini)
 # Parker Solar Probe
 P_SWING = 'svs:14045/YOUTUBE_4K_SwingbySunCloseupSun-4K_youtube_4k.mp4'         # Parker devant le Soleil (4K)
 P_PULL = 'svs:14045/YOUTUBE_4K_Goddard-Scene2CamPullBack-4K_youtube_4k.mp4'     # gros plan puis recul (4K)
@@ -70,6 +72,15 @@ def ring(x=540, y=960, r=46, t0=0.6, color=GOLD):
     return make
 
 
+def lift(gamma=1.8, contrast=1.3):
+    """Éclaircit un plan trop sombre (gamma + contraste), comme un étalonnage."""
+    def make():
+        def draw(f, t, dur):
+            return np.clip((np.power(np.clip(f, 0, 1), 1 / gamma) - 0.5) * contrast + 0.53, 0, 1)
+        return Fn(draw)
+    return make
+
+
 # ============================================================================= 16 — ISS : seize levers de soleil
 R16 = dict(
     id='video_16', niche='NICHE_1', theme='space', speed=1.08, voice_reverb=0.06, **REAL,
@@ -77,11 +88,11 @@ R16 = dict(
     hook_text='16 LEVERS DE SOLEIL\\NPAR JOUR',
     music=dict(style='space', prog='minor_float', key=45, bpm=72, seed=1601, start=0.3),
     segments=[
-        seg("Les astronautes de la Station spatiale voient le Soleil se lever seize fois par jour.", V(ISS, 1830.0, cx=0.6), 'in', sfx=['boom'], music=0.35, emph=['seize']),
+        seg("Les astronautes de la Station spatiale voient le Soleil se lever seize fois par jour.", V(ISS, 1830.0, cx=0.85), 'in', sfx=['boom'], music=0.35, emph=['seize']),
         seg("Et se coucher seize fois. Parce que la station fait le tour de la Terre en à peu près une heure et demie.",
-            V(AUR_ISS, 0.0, speed=0.6), 'slow_in', 'whip', label='1 TOUR ≈ 90 MINUTES', emph=['heure', 'demie']),
+            V(AUR_ISS, 0.0, speed=0.6, cx=0.15), 'slow_in', 'whip', label='1 TOUR ≈ 90 MINUTES', emph=['heure', 'demie']),
         seg("Elle file à environ vingt-huit mille kilomètres par heure, à quatre cents kilomètres au-dessus de nos têtes.",
-            V(ISS, 1310.0, extra=[back(170, 560), counter(0, 28000, y=340, size=180, suffix=' km/h', color=GOLD, t1=2.2, sub='à 400 km d\'altitude')]),
+            V(ISS, 1310.0, extra=[back(170, 560), counter(0, 28000, y=340, size=150, suffix=' km/h', color=GOLD, t1=2.2, sub='à 400 km d\'altitude')]),
             'push', 'zoom', emph=['vingt-huit']),
         seg("À cette vitesse, Paris-Marseille, c'est moins d'une minute et demie.", V(ISS, 1374.0, extra=[back(170, 520), txt('PARIS → MARSEILLE', 300, 110), txt('< 1 MIN 30', 430, 130, (255, 255, 255))]),
             'drift', 'cut', emph=['Marseille']),
@@ -90,7 +101,7 @@ R16 = dict(
         seg("La nuit, ils survolent les aurores polaires… par-dessus.", V(AUR_ISS, 24.0), 'in', 'flash', sfx=['shimmer'], emph=['aurores'], music=0.5),
         seg("Alors comment dormir ? Ils vivent à l'heure de Greenwich, ferment les volets des hublots, et dorment dans des sacs de couchage accrochés au mur.",
             V(ISS, 2014.0, cx=0.5), 'right', 'whip', emph=['dormir']),
-        seg("Et pourquoi flottent-ils ? Ce n'est pas parce qu'il n'y a pas de gravité.", V(ISS, 1886.0, cx=0.6), 'slow_in', 'black', sfx=[('riser', 0.0)], emph=['flottent']),
+        seg("Et pourquoi flottent-ils ? Ce n'est pas parce qu'il n'y a pas de gravité.", V(ISS, 1950.0, cx=0.5), 'slow_in', 'black', sfx=[('riser', 0.0)], emph=['flottent']),
         seg("À quatre cents kilomètres, la gravité atteint encore environ quatre-vingt-dix pour cent de celle qu'on ressent au sol.",
             V(ISS, 990.0, extra=[back(170, 560), counter(0, 90, y=340, size=210, suffix=' %', color=GOLD, t1=2.0, sub='de la gravité au sol')]),
             'in', 'cut', emph=['quatre-vingt-dix']),
@@ -98,14 +109,14 @@ R16 = dict(
         seg("Mais ils vont tellement vite sur le côté qu'ils ratent la Terre à chaque fois. C'est ça, une orbite : une chute sans fin.",
             V(ISS, 1118.0), 'drift', 'zoom', emph=['chute']),
         seg("La station est la plus grande structure jamais assemblée dans l'espace : à peu près la taille d'un terrain de foot, pour plus de quatre cents tonnes.",
-            V(ISS, 2050.0, cx=0.4), 'slow_in', 'fade', emph=['terrain']),
+            V(ISS, 2075.0, cx=0.3), 'slow_in', 'fade', emph=['terrain']),
         seg("Et on peut la voir à l'œil nu : un point très brillant qui traverse le ciel en quelques minutes, sans clignoter.",
             V(AUR_ISS, 72.0), 'in', 'cut', emph=['œil']),
         seg("Depuis le {2|deux} novembre {2000|deux mille}, il y a toujours eu des humains à bord. Plus de vingt-six ans sans interruption.",
             V(ISS, 2930.0), 'push', 'flash', label='DEPUIS LE 2 NOVEMBRE 2000', emph=['toujours'], music=0.75),
         seg("Mais son histoire touche à sa fin : elle doit prendre sa retraite vers {2030|deux mille trente}, puis retomber dans l'océan Pacifique.",
             V(ISS, 3038.0), 'slow_in', 'fade', emph=['Pacifique']),
-        seg("Tu aimerais voir seize levers de soleil par jour ? Dis-le en commentaire.", V(ISS, 1846.0, cx=0.6), 'out', 'fade', music=0.3),
+        seg("Tu aimerais voir seize levers de soleil par jour ? Dis-le en commentaire.", V(ISS, 1870.0, cx=0.85), 'out', 'fade', music=0.3),
     ])
 
 # ============================================================================= 17 — Apophis, vendredi 13 avril 2029
@@ -119,7 +130,7 @@ R17 = dict(
         seg("Il s'appelle Apophis, comme le dieu égyptien du chaos.", V(APO_SIZE, 0.0, speed=0.8), 'slow_in', 'whip', label='APOPHIS', emph=['Apophis']),
         seg("Il mesure environ trois cent quarante mètres : à peu près la hauteur de la tour Eiffel.", V(APO_SIZE, 4.0, speed=0.8), 'drift', 'cut', emph=['Eiffel']),
         seg("Et il va passer à environ trente-deux mille kilomètres de nous.",
-            V(APO_DIST, 15.4, speed=0.6, extra=[back(170, 560), counter(0, 32000, y=340, size=190, suffix=' km', color=HOT, t1=2.0, sub='de la Terre')]),
+            V(APO_RDV, 27.5, speed=0.4, cx=0.62, extra=[back(170, 560, 0.7), counter(0, 32000, y=340, size=190, suffix=' km', color=HOT, t1=2.0, sub='de la Terre')]),
             'push', 'zoom', emph=['trente-deux'], sfx=['impact']),
         seg("Plus près que les satellites de télévision, en orbite à près de trente-six mille kilomètres.", V(APO_DIST, 19.6, speed=0.5), 'slow_in', 'fade', emph=['satellites']),
         seg("Jamais un astéroïde aussi gros n'a été observé en passant aussi près.", V(APO_RDV, 30.0, speed=0.5), 'in', 'flash', emph=['jamais'], music=0.6),
@@ -128,15 +139,15 @@ R17 = dict(
         seg("Au début, il a fait très peur. Après sa découverte en {2004|deux mille quatre}, les calculs lui donnaient près de trois chances sur cent de nous percuter en {2029|deux mille vingt-neuf}.",
             V(APO_SIZE, 10.0, speed=0.8), 'push', 'black', sfx=[('riser', 0.0)], label='DÉCOUVERT EN 2004', emph=['percuter']),
         seg("Il a atteint le niveau quatre sur l'échelle de Turin, qui mesure le danger des astéroïdes. Du jamais-vu.",
-            V(APO_RDV, 31.5, speed=0.5, extra=[back(170, 520), txt('NIVEAU 4', 330, 170, HOT)]), 'in', 'cut', emph=['jamais-vu']),
+            V(APO_RDV, 28.5, speed=0.4, cx=0.3, extra=[back(170, 520), txt('NIVEAU 4', 330, 170, HOT)]), 'in', 'cut', emph=['jamais-vu']),
         seg("Mais rassure-toi : avec des mesures plus précises, la NASA a exclu tout risque de collision pour au moins cent ans.",
             V(EARTH, 40.0), 'slow_in', 'fade', emph=['exclu'], music=0.4),
         seg("En revanche, c'est la Terre qui va le secouer.", V(APO_DIST, 21.0, speed=0.5), 'push', 'whip', emph=['secouer']),
         seg("Notre gravité va modifier son orbite, changer sa rotation… et peut-être provoquer de petits glissements de terrain à sa surface.",
-            V(APO_RDV, 32.0, speed=0.4, zoom=1.3), 'drift', 'zoom', music=0.65),
-        seg("Et une sonde sera là pour l'observer : OSIRIS-APEX.", V(APO_RDV, 11.0, speed=0.8), 'in', 'flash', label='OSIRIS-APEX', emph=['OSIRIS-APEX']),
-        seg("C'est l'ancienne sonde OSIRIS-REx, celle qui a rapporté sur Terre des échantillons de l'astéroïde Bennu.", V(APO_RDV, 1.0, speed=0.8), 'slow_in', 'cut', emph=['Bennu']),
-        seg("Elle doit rejoindre Apophis juste après son passage, et l'étudier pendant environ un an et demi.", V(APO_RDV, 17.0, speed=0.7), 'push', 'fade'),
+            V(APO_RDV, 23.5, speed=0.6, cx=0.42), 'drift', 'zoom', music=0.65),
+        seg("Et une sonde sera là pour l'observer : OSIRIS-APEX.", V(APO_RDV, 11.0, speed=0.8, cx=0.38), 'in', 'flash', label='OSIRIS-APEX', emph=['OSIRIS-APEX']),
+        seg("C'est l'ancienne sonde OSIRIS-REx, celle qui a rapporté sur Terre des échantillons de l'astéroïde Bennu.", V(APO_RDV, 1.0, speed=0.8, cx=0.6), 'slow_in', 'cut', emph=['Bennu']),
+        seg("Elle doit rejoindre Apophis juste après son passage, et l'étudier pendant environ un an et demi.", V(APO_RDV, 17.0, speed=0.7, cx=0.4), 'push', 'fade'),
         seg("Vendredi {13|treize} avril {2029|deux mille vingt-neuf} : note bien la date. Tu le regarderas ? Dis-le en commentaire.",
             V(APO_RDV, 29.0, speed=0.4), 'out', 'fade', music=0.3),
     ])
@@ -152,21 +163,21 @@ R18 = dict(
         seg("Elle s'appelle Europe, et elle tourne autour de Jupiter.", V(EUR, 449.0), 'slow_in', 'whip', label='EUROPE • LUNE DE JUPITER', emph=['Europe']),
         seg("Elle est un peu plus petite que notre Lune, et sa surface est une coquille de glace, striée de fissures.", V(EUR, 461.0, mode='cover!', speed=0.7), 'drift', 'cut', emph=['glace']),
         seg("Cette glace ferait quinze à vingt-cinq kilomètres d'épaisseur.",
-            V(EUR, 520.0, mode='cover!', cx=0.4, speed=0.7, extra=[back(170, 520), txt('15 À 25 KM', 330, 170, ICE)]), 'push', 'zoom', emph=['épaisseur']),
+            V(EUR, 520.0, mode='cover!', cx=0.4, speed=0.7, extra=[back(170, 520, 0.7), txt('15 À 25 KM', 330, 170, (255, 255, 255))]), 'push', 'zoom', emph=['épaisseur']),
         seg("Et dessous, un océan d'eau salée, profond de peut-être cent kilomètres. Environ deux fois plus d'eau que sur toute la Terre.",
-            V(ICE_PAN, 0.0, speed=0.35, extra=[back(170, 520), txt('× 2', 330, 200, ICE)]), 'slow_in', 'fade', emph=['deux', 'fois']),
+            V(EARTH, 30.0, extra=[back(170, 520), txt('× 2', 330, 200, ICE)]), 'slow_in', 'fade', emph=['deux', 'fois']),
         seg("Mais comment cette eau peut-elle rester liquide, si loin du Soleil, alors qu'en surface il fait moins cent soixante degrés ?",
-            V(EUR, 603.0), 'in', 'black', sfx=[('riser', 0.0)], emph=['liquide']),
+            V(EUR, 414.0), 'in', 'black', sfx=[('riser', 0.0)], emph=['liquide']),
         seg("Grâce à Jupiter. Sa gravité étire et comprime Europe en permanence, ce qui chauffe son intérieur. Comme une balle antistress qu'on malaxe.",
-            V(GRS, 75.0, speed=0.7), 'push', 'flash', emph=['Jupiter'], music=0.6),
-        seg("Au fond de cet océan, il pourrait même y avoir des sources chaudes. Sur Terre, ces endroits grouillent de vie.", V(OCEAN_VENTS, 0.0, speed=0.7), 'slow_in', 'fade', emph=['vie']),
+            V(JUPITER, 6.0), 'push', 'flash', emph=['Jupiter'], music=0.6),
+        seg("Au fond de cet océan, il pourrait même y avoir des sources chaudes. Sur Terre, ces endroits grouillent de vie.", V(OCEAN_VENTS, 0.0, speed=0.7, extra=[lift()]), 'slow_in', 'fade', emph=['vie']),
         seg("Pour en avoir le cœur net, la NASA a lancé en octobre {2024|deux mille vingt-quatre} la sonde Europa Clipper.", V(EUR, 17.0), 'in', 'cut', label='EUROPA CLIPPER • 2024'),
         seg("C'est le plus grand engin jamais construit par la NASA pour explorer une planète : ses panneaux solaires mesurent environ trente mètres d'un bout à l'autre.",
-            V(EUR, 380.0, extra=[back(1300, 1560), txt('≈ 30 M', 1430, 150)]), 'out', 'zoom', emph=['trente']),
+            V(EUR, 380.0, extra=[back(170, 520), txt('≈ 30 M', 330, 170)]), 'out', 'zoom', emph=['trente']),
         seg("Elle est passée près de Mars en {2025|deux mille vingt-cinq} pour prendre de l'élan, et doit frôler la Terre le {3|trois} décembre.",
             V(EUR, 244.0), 'drift', 'whip', label='3 DÉCEMBRE 2026', emph=['élan']),
         seg("Elle arrivera autour de Jupiter en {2030|deux mille trente}, et survolera Europe près de cinquante fois, parfois à seulement vingt-cinq kilomètres de sa surface.",
-            V(EUR, 467.0, mode='cover!', speed=0.7, extra=[back(170, 520), txt('49 SURVOLS', 330, 160)]), 'push', 'flash', emph=['cinquante'], music=0.75),
+            V(EUR, 467.0, mode='cover!', speed=0.7, extra=[back(170, 520, 0.7), txt('49 SURVOLS', 330, 160)]), 'push', 'flash', emph=['cinquante'], music=0.75),
         seg("Son but n'est pas de trouver des extraterrestres, mais de savoir si cet océan pourrait abriter la vie.", V(EUR, 512.0), 'slow_in', 'fade'),
         seg("Elle emporte même une plaque gravée d'un poème… et les noms de plus de deux millions et demi de personnes.", V(EUR, 387.0), 'in', 'cut', emph=['noms']),
         seg("Le premier signe de vie hors de la Terre se cache peut-être… sous cette glace.", V(EUR, 593.0, mode='cover!', speed=0.6), 'slow_in', 'zoom', emph=['glace']),
@@ -183,7 +194,7 @@ R19 = dict(
         seg("Il existe un monde avec des lacs, des rivières et de la pluie. Mais ce n'est pas de l'eau.", V(TITAN_TL, 17.0, speed=0.7), 'in', sfx=['boom'], music=0.35, emph=['eau']),
         seg("Bienvenue sur Titan, la plus grande lune de Saturne.", V(TITAN_INTRO, 28.0, speed=0.8, cx=0.55), 'slow_in', 'whip', label='TITAN • LUNE DE SATURNE', emph=['Titan']),
         seg("Elle est plus grande que la planète Mercure, et c'est la seule lune connue à avoir une atmosphère épaisse.",
-            V(CASSINI, 284.0, zoom=1.5, cx=0.55, cy=0.55), 'push', 'zoom', emph=['Mercure']),
+            P(TITAN_PIC, cx=0.5), 'push', 'zoom', emph=['Mercure']),
         seg("Son air est même plus dense que le nôtre : au sol, la pression est environ une fois et demie celle de la Terre.",
             V(TITAN_CLIMATE, 0.0, speed=0.8, extra=[back(170, 520), txt('× 1,5', 330, 200)]), 'drift', 'cut', emph=['dense']),
         seg("Mais il y fait environ moins cent quatre-vingts degrés.",
@@ -211,24 +222,24 @@ R20 = dict(
     hook_text='L\'OBJET LE PLUS RAPIDE\\NJAMAIS CONSTRUIT',
     music=dict(style='space', prog='minor_epic', key=45, bpm=78, seed=2001, start=0.3),
     segments=[
-        seg("L'objet le plus rapide jamais construit par l'humanité… fonce droit vers le Soleil.", V(P_SWING, 3.0, speed=0.7), 'in', sfx=['boom'], music=0.35, emph=['rapide']),
+        seg("L'objet le plus rapide jamais construit par l'humanité… fonce droit vers le Soleil.", V(P_SWING, 3.0, speed=0.7, cx=0.35), 'in', sfx=['boom'], music=0.35, emph=['rapide']),
         seg("C'est la sonde Parker Solar Probe, lancée par la NASA en {2018|deux mille dix-huit}.", V(P_PULL, 0.3, speed=0.5), 'slow_in', 'whip', label='PARKER SOLAR PROBE', emph=['Parker']),
         seg("Le {24|vingt-quatre} décembre {2024|deux mille vingt-quatre}, elle est passée à environ six millions de kilomètres de la surface du Soleil.",
-            V(P_SHIELD, 0.0, speed=0.7), 'push', 'zoom', label='24 DÉCEMBRE 2024', emph=['six', 'millions']),
-        seg("Jamais un engin n'était allé aussi près.", V(SUN171, 6.0), 'in', 'flash', emph=['jamais']),
+            V(P_SHIELD, 0.0, speed=0.7, cx=0.15), 'push', 'zoom', label='24 DÉCEMBRE 2024', emph=['six', 'millions']),
+        seg("Jamais un engin n'était allé aussi près.", V(SUN171, 1.0, speed=0.6), 'in', 'flash', emph=['jamais']),
         seg("À ce moment-là, elle filait à environ six cent quatre-vingt-dix mille kilomètres par heure.",
-            V(P_SWING, 5.0, speed=0.6, extra=[back(170, 560), counter(0, 692000, y=340, size=160, suffix=' km/h', color=GOLD, t1=2.2)]), 'push', 'cut', sfx=['impact'], emph=['six', 'cent']),
+            V(P_SWING, 5.0, speed=0.6, extra=[back(170, 560), counter(0, 692000, y=340, size=128, suffix=' km/h', color=GOLD, t1=2.2)]), 'push', 'cut', sfx=['impact'], emph=['six', 'cent']),
         seg("À cette vitesse, Paris-New York, ça prend… une trentaine de secondes.",
-            V(PV, 187.0, extra=[back(170, 520), txt('PARIS → NEW YORK', 300, 105), txt('≈ 30 S', 430, 150, (255, 255, 255))]), 'drift', 'whip', emph=['secondes'], music=0.6),
+            V(PV, 180.0, speed=0.7, extra=[back(170, 520), txt('PARIS → NEW YORK', 300, 105), txt('≈ 30 S', 430, 150, (255, 255, 255))]), 'drift', 'whip', emph=['secondes'], music=0.6),
         seg("Mais comment ne fond-elle pas ?", V(HELICITY, 2.0), 'slow_in', 'black', sfx=[('riser', 0.0)], emph=['fond']),
-        seg("Grâce à un bouclier thermique d'à peine onze centimètres d'épaisseur, en composite de carbone.", V(P_SHIELD, 2.5, speed=0.6, zoom=1.2), 'in', 'cut', emph=['bouclier']),
+        seg("Grâce à un bouclier thermique d'à peine onze centimètres d'épaisseur, en composite de carbone.", V(P_SHIELD, 2.5, speed=0.6, cx=0.72), 'in', 'cut', emph=['bouclier']),
         seg("Côté Soleil, il encaisse près de mille quatre cents degrés. Juste derrière, les instruments restent autour de trente degrés.",
             V(P_PULL, 1.5, speed=0.5, extra=[back(170, 560), counter(0, 1400, y=340, size=200, suffix=' °C', color=HOT, t1=2.0, sub='côté Soleil')]), 'push', 'zoom', emph=['mille', 'quatre']),
-        seg("Et il y a un paradoxe : la couronne du Soleil, son atmosphère, dépasse le million de degrés.", V(SDO171, 10.0), 'slow_in', 'fade', emph=['million']),
+        seg("Et il y a un paradoxe : la couronne du Soleil, son atmosphère, dépasse le million de degrés.", V(SDO171, 0.0, speed=0.5), 'slow_in', 'fade', emph=['million']),
         seg("Mais elle est si peu dense qu'elle chauffe peu. Comme dans un four : l'air est brûlant, mais il te brûle bien moins vite que la plaque en métal.",
-            V(SUN193, 12.0), 'drift', 'whip', emph=['four']),
-        seg("En {2021|deux mille vingt et un}, Parker est devenue le premier engin à « toucher » le Soleil, en traversant sa couronne.", V(SDO304, 8.0), 'in', 'flash', label='2021', emph=['toucher'], music=0.75),
-        seg("Pour se rapprocher autant, elle s'est servie sept fois de la gravité de Vénus pour freiner.", V(PV, 191.0), 'slow_in', 'cut', emph=['Vénus']),
+            V(SUN193, 1.0, speed=0.6), 'drift', 'whip', emph=['four']),
+        seg("En {2021|deux mille vingt et un}, Parker est devenue le premier engin à « toucher » le Soleil, en traversant sa couronne.", V(SDO304, 0.0, speed=0.5), 'in', 'flash', label='2021', emph=['toucher'], music=0.75),
+        seg("Pour se rapprocher autant, elle s'est servie sept fois de la gravité de Vénus pour freiner.", V(PV, 184.0, speed=0.7), 'slow_in', 'cut', emph=['Vénus']),
         seg("Son nom rend hommage à Eugene Parker, l'astrophysicien qui avait prédit le vent solaire. Il a assisté au lancement, à quatre-vingt-onze ans.",
             V(HELIO, 1.5, speed=0.6), 'push', 'fade', emph=['Parker']),
         seg("Depuis, elle repasse à cette distance record environ tous les trois mois.", V(P_SWING, 6.5, speed=0.5), 'in', 'cut'),
@@ -245,7 +256,7 @@ R21 = dict(
         seg("Les anneaux de Saturne… sont en train de disparaître.", V(SAT_RINGS, 3.0, speed=0.6), 'in', sfx=['boom'], music=0.35, emph=['disparaître']),
         seg("Ils sont faits de milliards de morceaux de glace, du grain de poussière au bloc gros comme une maison.", V(SAT_RINGS, 24.0, speed=0.6), 'slow_in', 'whip', emph=['glace']),
         seg("Ils s'étendent sur près de trois cent mille kilomètres d'un bord à l'autre… mais ils ne font souvent qu'une dizaine de mètres d'épaisseur.",
-            V(SAT_RINGS, 87.0, speed=0.5, extra=[back(1300, 1560), txt('≈ 10 M D\'ÉPAISSEUR', 1430, 110)]), 'push', 'zoom', emph=['dizaine']),
+            V(SAT_RINGS, 86.5, speed=0.45, extra=[back(170, 520), txt('≈ 10 M D\'ÉPAISSEUR', 330, 110)]), 'push', 'zoom', emph=['dizaine']),
         seg("Et peu à peu, ils tombent sur la planète.", V(SAT_RINGS, 33.0, speed=0.6), 'in', 'cut', emph=['tombent']),
         seg("Le champ magnétique et la gravité de Saturne attirent la glace des anneaux vers son atmosphère. C'est la « pluie des anneaux ».",
             V(SAT_RINGS, 36.0, speed=0.5), 'slow_in', 'fade', label='PLUIE DES ANNEAUX', emph=['pluie']),
@@ -260,7 +271,7 @@ R21 = dict(
         seg("Autre bizarrerie : Saturne est moins dense que l'eau. Dans une baignoire assez grande, elle flotterait.", V(SAT_RINGS, 77.0, speed=0.6), 'in', 'whip', emph=['flotterait']),
         seg("Et c'est en plongeant entre la planète et ses anneaux que la sonde Cassini a terminé sa mission, le {15|quinze} septembre {2017|deux mille dix-sept}.",
             V(CASSINI, 354.0), 'drift', 'flash', label='CASSINI • 2017', emph=['Cassini']),
-        seg("Après treize ans autour de Saturne, elle s'est désintégrée dans son atmosphère.", V(CASSINI, 377.0), 'slow_in', 'fade', emph=['désintégrée']),
+        seg("Après treize ans autour de Saturne, elle s'est désintégrée dans son atmosphère.", V(CASSINI, 375.0, speed=0.8), 'slow_in', 'fade', emph=['désintégrée']),
         seg("Tu savais que les anneaux de Saturne allaient disparaître ? Dis-le en commentaire.", V(SAT_RINGS, 12.0, speed=0.5), 'out', 'fade', music=0.3),
     ])
 
@@ -273,7 +284,7 @@ R22 = dict(
     segments=[
         seg("La planète la plus proche du Soleil… cache de la glace.", V(MERC, 0.0, speed=0.8), 'in', sfx=['boom'], music=0.35, emph=['glace']),
         seg("Sur Mercure, le jour, il fait environ quatre cent trente degrés. Assez pour faire fondre du plomb.",
-            V(SUN193, 20.0, extra=[back(170, 560), counter(0, 430, y=340, size=210, suffix=' °C', color=HOT, t1=2.0, sub='le jour')]), 'push', 'whip', sfx=['impact'], emph=['plomb']),
+            V(SUN193, 0.5, speed=0.6, extra=[back(170, 560), counter(0, 430, y=340, size=210, suffix=' °C', color=HOT, t1=2.0, sub='le jour')]), 'push', 'whip', sfx=['impact'], emph=['plomb']),
         seg("Et la nuit, la température chute à environ moins cent quatre-vingts degrés.",
             V(MERC, 18.0, speed=0.8, extra=[back(170, 560), counter(0, -180, y=340, size=210, suffix=' °C', color=ICE, t1=2.0, sub='la nuit')]), 'slow_in', 'cut', emph=['nuit']),
         seg("Pourquoi un tel écart ? Parce que Mercure n'a presque pas d'atmosphère pour garder la chaleur.", V(MERC, 28.0, speed=0.8), 'drift', 'fade', emph=['atmosphère']),
@@ -290,7 +301,7 @@ R22 = dict(
             V(MERC, 46.0, speed=0.8, extra=[back(170, 560), txt('100 À 1 000', 300, 150), txt('MILLIARDS DE TONNES', 440, 90, (255, 255, 255))]), 'push', 'flash', emph=['milliards'], music=0.75),
         seg("Autre surprise : Mercure rétrécit. En refroidissant, son rayon a diminué de plusieurs kilomètres, et sa surface s'est ridée comme une pomme qui sèche.",
             V(MERC, 52.0, speed=0.6, zoom=1.4), 'drift', 'whip', emph=['rétrécit']),
-        seg("Et une nouvelle visite approche : la mission BepiColombo, des agences spatiales européenne et japonaise.", V(SUN131, 10.0), 'slow_in', 'fade', label='BEPICOLOMBO', emph=['BepiColombo']),
+        seg("Et une nouvelle visite approche : la mission BepiColombo, des agences spatiales européenne et japonaise.", V(SUN131, 1.0, speed=0.6), 'slow_in', 'fade', label='BEPICOLOMBO', emph=['BepiColombo']),
         seg("Après huit ans de voyage, elle doit se placer en orbite autour de Mercure le {21|vingt et un} novembre.", V(MERC, 4.0, speed=0.6), 'in', 'cut', label='21 NOVEMBRE 2026'),
         seg("Tu aurais cru qu'il y avait de la glace sur Mercure ? Dis-le en commentaire.", V(MERC, 0.0, speed=0.5), 'out', 'fade', music=0.3),
     ])
@@ -337,7 +348,7 @@ R24 = dict(
             V(CASSINI, 180.0, extra=[back(170, 560), counter(0, 500, y=340, size=200, suffix=' km', color=ICE, t1=1.8, sub='de diamètre')]), 'slow_in', 'whip', label='ENCELADE • LUNE DE SATURNE', emph=['Encelade']),
         seg("C'est l'un des objets les plus brillants du système solaire : sa glace renvoie presque toute la lumière du Soleil.", V(CASSINI, 175.0), 'drift', 'cut', emph=['brillants']),
         seg("Et en surface, il fait environ moins deux cents degrés.",
-            V(ENC_GEY, 12.0, speed=0.5, extra=[back(170, 560), counter(0, -200, y=340, size=210, suffix=' °C', color=ICE, t1=1.8)]), 'push', 'zoom', emph=['deux', 'cents']),
+            V(ENC_GEY, 9.4, speed=0.5, extra=[back(170, 560), counter(0, -200, y=340, size=210, suffix=' °C', color=ICE, t1=1.8)]), 'push', 'zoom', emph=['deux', 'cents']),
         seg("En {2005|deux mille cinq}, la sonde Cassini a découvert quelque chose d'incroyable près de son pôle sud.", V(ENC_JETS, 0.0), 'slow_in', 'black', sfx=[('riser', 0.0)], label='CASSINI • 2005'),
         seg("Des geysers. Une centaine de jets de vapeur d'eau et de glace, qui jaillissent de grandes fractures surnommées les « rayures de tigre ».",
             V(ENC_JETS, 15.0), 'in', 'flash', sfx=['impact'], emph=['geysers'], music=0.6),
@@ -346,13 +357,13 @@ R24 = dict(
             V(TITAN_INTRO, 12.0, speed=0.8), 'push', 'cut', label='JAMES WEBB • 2023', emph=['dix', 'mille']),
         seg("Près de vingt fois la taille d'Encelade elle-même.", V(CASSINI, 192.0), 'in', 'zoom', emph=['vingt']),
         seg("Il rejette environ trois cents litres d'eau par seconde. De quoi remplir une piscine olympique en quelques heures.",
-            V(ENC_GEY, 8.4, speed=0.6, extra=[back(170, 520), txt('300 L / SECONDE', 330, 140)]), 'slow_in', 'fade', emph=['piscine']),
+            V(ENC_GEY, 7.4, speed=0.5, extra=[back(170, 520), txt('300 L / SECONDE', 330, 140)]), 'slow_in', 'fade', emph=['piscine']),
         seg("D'où vient toute cette eau ? D'un océan caché sous la glace, qui fait le tour de la lune entière.", V(ICE_PAN, 0.0, speed=0.35), 'push', 'whip', emph=['océan']),
         seg("En traversant ces panaches, Cassini y a trouvé du sel, des molécules organiques… et de l'hydrogène, le signe possible de sources chaudes au fond de l'océan.",
-            V(OCEAN_VENTS, 0.0, speed=0.7), 'slow_in', 'fade', emph=['hydrogène']),
+            V(OCEAN_VENTS, 0.0, speed=0.7, extra=[lift()]), 'slow_in', 'fade', emph=['hydrogène']),
         seg("Et en {2023|deux mille vingt-trois}, des chercheurs y ont aussi détecté du phosphore, un ingrédient indispensable à la vie telle qu'on la connaît.",
             V(CASSINI, 222.0, zoom=1.15), 'in', 'flash', emph=['phosphore'], music=0.75),
-        seg("Eau liquide, énergie, chimie : Encelade réunit presque tout ce qu'il faut pour abriter la vie.", V(ENC_GEY, 10.0, speed=0.6), 'drift', 'zoom', emph=['vie']),
+        seg("Eau liquide, énergie, chimie : Encelade réunit presque tout ce qu'il faut pour abriter la vie.", V(ENC_GEY, 6.6, speed=0.5), 'drift', 'zoom', emph=['vie']),
         seg("C'est l'un des meilleurs endroits du système solaire pour chercher des êtres vivants.", V(SAT_RINGS, 15.0, speed=0.6), 'slow_in', 'fade'),
         seg("Tu penses qu'il y a de la vie dans cet océan ? Dis-le en commentaire.", V(ENC_GEY, 2.0, speed=0.5), 'out', 'fade', music=0.3),
     ])
@@ -374,7 +385,7 @@ R25 = dict(
             V(VOY_PULL, 5.0, speed=0.6, extra=[back(170, 520), txt('24 H ALLER • 24 H RETOUR', 330, 100)]), 'slow_in', 'fade', emph=['journée']),
         seg("Elle file à environ soixante et un mille kilomètres par heure.",
             V(VOY_PATH, 30.0, extra=[back(170, 560), counter(0, 61000, y=340, size=180, suffix=' km/h', color=GOLD, t1=2.0)]), 'in', 'cut', sfx=['impact'], emph=['soixante']),
-        seg("En chemin, elle a survolé Jupiter en {1979|mille neuf cent soixante-dix-neuf}…", V(GRS, 75.0, speed=0.7), 'drift', 'whip', label='JUPITER • 1979'),
+        seg("En chemin, elle a survolé Jupiter en {1979|mille neuf cent soixante-dix-neuf}…", V(GRS, 35.0, speed=0.7), 'drift', 'whip', label='JUPITER • 1979'),
         seg("… et Saturne en {1980|mille neuf cent quatre-vingts}.", V(SAT_RINGS, 6.0, speed=0.6), 'push', 'cut', label='SATURNE • 1980'),
         seg("En {2012|deux mille douze}, elle est devenue le premier objet humain à entrer dans l'espace interstellaire, hors de la bulle du vent solaire.",
             V(HELIO, 11.0, speed=0.7), 'slow_in', 'flash', label='2012', emph=['interstellaire'], music=0.6),
