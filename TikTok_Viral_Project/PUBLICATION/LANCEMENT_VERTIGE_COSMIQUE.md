@@ -313,3 +313,31 @@ Tags YouTube : soleil, espace, astronomie, science, lumiere, univers, documentai
 | YouTube Partner Program | 1 000 abonnés et 10 millions de vues de Shorts sur 90 jours (ou 4 000 h de visionnage de vidéos longues sur 12 mois). YouTube a annoncé en août 2026 des seuils plus élevés pour les nouveaux candidats : vérifie dans YouTube Studio → Revenus | ✅ Shorts originaux |
 
 Le plus important est la régularité : 10 vidéos couvrent 5 jours à 2 par jour. Cette niche coûte 0 € à produire (images NASA, voix et musique générées localement), donc de nouvelles vidéos peuvent suivre chaque semaine.
+
+## 7. Programmation Metricool (faite le 6 novembre 2026)
+
+Les 10 vidéos sont programmées dans Metricool (marque 7923410) sur TikTok et YouTube, aux heures du § 4, en publication automatique.
+
+Réglages appliqués à chaque publication :
+- **TikTok** : public, commentaires, duos et collages autorisés (favorise la diffusion), aucun contenu commercial déclaré, label « contenu généré par IA » activé (voix de synthèse).
+- **YouTube** : Short, public, « non conçu pour les enfants » (sinon pas de publicités personnalisées ni de commentaires), catégorie Science et technologie, mots-clés, case « contenu synthétique » non cochée (vraies images NASA, narrateur de synthèse mentionné dans la description).
+
+## 8. Réglages des comptes à faire soi-même (monétisation)
+
+Ces réglages ne se font que dans les applis ; ni Metricool ni Claude ne peuvent les modifier.
+
+**TikTok**
+1. Profil → ☰ → Paramètres et confidentialité → Compte → garder un compte **personnel / créateur**, pas « Entreprise » : Creator Rewards n'est ouvert qu'aux comptes personnels.
+2. Confidentialité → compte **public** ; autoriser les commentaires, les duos, les collages et les **téléchargements** (le partage aide la portée).
+3. TikTok Studio → Monétisation → **Creator Rewards** : s'inscrire dès les conditions remplies (18 ans et plus, 10 000 abonnés, 100 000 vues sur 30 jours, vidéos originales de plus d'une minute).
+4. Bio et lien : ajouter la chaîne YouTube dès que l'option « Lien » est disponible.
+
+**YouTube** (YouTube Studio sur ordinateur)
+1. Paramètres → Chaîne → Infos générales : **pays = France** (nécessaire pour le Programme Partenaire), mots-clés de la chaîne : espace, astronomie, univers, science, NASA.
+2. Paramètres → Chaîne → Paramètres avancés → Audience : **« Non, cette chaîne n'est pas conçue pour les enfants »**.
+3. Paramètres → Importation par défaut : catégorie **Science et technologie**, langue de la vidéo **français**, commentaires autorisés, licence YouTube standard.
+4. Compte Google : activer la **validation en deux étapes** (exigée pour la monétisation).
+5. Onglet **Revenus** : cliquer sur « M'avertir quand je suis éligible », puis postuler au Programme Partenaire et associer un compte AdSense quand les seuils sont atteints.
+6. Laisser activée l'option qui permet aux autres d'utiliser les Shorts en remix (plus de visibilité).
+
+Pendant la phase de lancement, ne pas acheter de vues ni d'abonnés et ne pas republier la même vidéo : c'est ce qui fait perdre l'éligibilité à la monétisation.
