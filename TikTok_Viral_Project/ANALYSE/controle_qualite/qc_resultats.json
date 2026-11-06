@@ -729,5 +729,48 @@
    "pas d'écran noir / image figée": true
   },
   "ok": true
+ },
+ {
+  "id": "video_18",
+  "file": "NICHE_1/video_18.mp4",
+  "exists": true,
+  "duration": 91.23,
+  "width": 1080,
+  "height": 1920,
+  "vcodec": "h264",
+  "profile": "High",
+  "pix_fmt": "yuv420p",
+  "fps": "30/1",
+  "acodec": "aac",
+  "sample_rate": 48000,
+  "channels": 2,
+  "size_mb": 69.8,
+  "bitrate_kbps": 6117,
+  "decode_errors": "",
+  "lufs": -14.1,
+  "true_peak_db": -1.2000000476837158,
+  "caption_words": 289,
+  "caption_words_voiced": 1.0,
+  "caption_words_outside_segment": 0,
+  "level_speech_db": -16.899999618530273,
+  "level_gaps_db": -29.899999618530273,
+  "frame_mean_min": 6.8,
+  "frame_change_mean": 50.8,
+  "asr_word_recall": 0.954,
+  "asr_excerpt": "Sous la glace de cette lune, il y aurait plus d'eau que dans tous les océans de la Terre réunie. Elle s'appelle Europe et elle tourne autour de Jupiter. Elle est un peu plus petite que notre lune et sa surface est une co",
+  "checks": {
+   "fichier présent": true,
+   "durée 65–115 s": true,
+   "1080×1920 (9:16)": true,
+   "H.264 / yuv420p": true,
+   "AAC 48 kHz stéréo": true,
+   "décodage sans erreur": true,
+   "loudness −15 à −13 LUFS": true,
+   "true peak ≤ −0,5 dBTP": true,
+   "sous-titres sur la voix (≥ 95 %)": true,
+   "narration reconnue (Whisper ≥ 85 %)": true,
+   "pas d'écran noir / image figée": true
+  },
+  "ok": true
  }
 ]
