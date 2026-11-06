@@ -38,18 +38,19 @@ HELIO = 'svs:20363/H_0322_HeliopauseCycle_v01.mp4'                              
 SAT_RINGS = 'svs:12672/12672_SaturnRingsDisappearing_YouTubeHD.mp4'             # pluie des anneaux (NASA Goddard)
 # Mercure
 MERC = 'svs:14110/Mercury_Globe_MESSENGER_Large.mp4'                            # globe de Mercure, MESSENGER (4K)
-MERC_ICE = 'svs:11184/Ice_on_Mercury_540-MASTER_high.mp4'                       # cratères polaires de Mercure
+MERC_POLE = 'nasa:PIA19411'                                                     # pôle nord de Mercure, glace en jaune (MESSENGER, 4000 px)
 # Mars
 MARS_SUNSET_PIC = 'nasa:PIA19400'                                               # coucher de soleil bleu, Curiosity, 2015
 INSIGHT_SUNSET = 'nasa:PIA23202'                                                # coucher de soleil, InSight, 2019
 MARS_SUNSET = 'svs:11875/WC_MarsSunset-1920-MASTER_baron.mp4'                   # séquence Curiosity (0–8 s uniquement)
 # Encelade
-ENC_JETS = 'svs:11688/EnceladusJets-540-MASTER_high.mp4'                        # vraies images Cassini des jets
+ENC_JETS = 'nasa:PIA11688'                                                      # vraie photo Cassini des jets d'Encelade
 # Voyager
 VOY_CRAFT = 'svs:20390/Shot5_4k_mp4.mp4'                                        # sonde Voyager en gros plan (4K)
 VOY_FLY = 'svs:20390/Shot_5_AltVoyager_4k_mp4.mp4'                              # Voyager s'éloigne (4K)
-VOY_PULL = 'svs:13544/voyager_location_pull_out_from_solar_system_IPAD_high.mp4'  # position des Voyager hors du système solaire
-VOY_PATH = 'svs:13544/Voyager_Sped_Up_IPAD_high.mp4'                            # trajectoire de Voyager 1
+VOY_ART = 'nasa:PIA21839'                                                       # Voyager dans l'espace (vue d'artiste JPL)
+VOY_ART2 = 'nasa:PIA17049'                                                      # Voyager sur fond d'étoiles (vue d'artiste JPL)
+VOY_SPEED = 'nasa:PIA26353'                                                     # Voyager file dans l'espace (vue d'artiste JPL, 2025)
 PBD = 'nasa:PIA23645'                                                           # « Pale Blue Dot » retraitée (2020)
 PBD_X, PBD_Y = 0.5946, 0.5196                                                   # position de la Terre dans l'image
 
@@ -142,7 +143,7 @@ R17 = dict(
             V(APO_RDV, 28.5, speed=0.4, cx=0.3, extra=[back(170, 520), txt('NIVEAU 4', 330, 170, HOT)]), 'in', 'cut', emph=['jamais-vu']),
         seg("Mais rassure-toi : avec des mesures plus précises, la NASA a exclu tout risque de collision pour au moins cent ans.",
             V(EARTH, 40.0), 'slow_in', 'fade', emph=['exclu'], music=0.4),
-        seg("En revanche, c'est la Terre qui va le secouer.", V(APO_DIST, 21.0, speed=0.5), 'push', 'whip', emph=['secouer']),
+        seg("En revanche, c'est la Terre qui va le secouer.", V(EARTH, 60.0), 'push', 'whip', emph=['secouer']),
         seg("Notre gravité va modifier son orbite, changer sa rotation… et peut-être provoquer de petits glissements de terrain à sa surface.",
             V(APO_RDV, 23.5, speed=0.6, cx=0.42), 'drift', 'zoom', music=0.65),
         seg("Et une sonde sera là pour l'observer : OSIRIS-APEX.", V(APO_RDV, 11.0, speed=0.8, cx=0.38), 'in', 'flash', label='OSIRIS-APEX', emph=['OSIRIS-APEX']),
@@ -292,11 +293,11 @@ R22 = dict(
             V(MERC, 38.0, speed=0.8, extra=[back(170, 560), counter(0, 176, y=340, size=210, color=GOLD, t1=2.0, sub='jours entre deux levers de soleil')]), 'push', 'zoom', emph=['interminables']),
         seg("Alors que son année ne dure que quatre-vingt-huit jours. Sur Mercure, une journée dure… deux ans.",
             V(HELIO, 1.5, speed=0.6, extra=[back(170, 520), txt('1 JOUR = 2 ANS', 330, 150)]), 'in', 'flash', emph=['deux', 'ans'], music=0.6),
-        seg("Mais alors, de la glace, où ça ?", V(MERC_ICE, 0.0), 'slow_in', 'black', sfx=[('riser', 0.0)]),
-        seg("Au fond de cratères, près des pôles.", V(MERC_ICE, 3.0, speed=0.7), 'in', 'cut', label='PÔLE NORD DE MERCURE', emph=['cratères']),
-        seg("L'axe de Mercure est presque parfaitement droit. Résultat : le fond de ces cratères ne voit jamais le Soleil.", V(MERC_ICE, 8.0, speed=0.7), 'push', 'fade', emph=['jamais']),
-        seg("Il y fait si froid que la glace d'eau peut y rester piégée pendant des millions d'années.", V(MERC_ICE, 14.0, speed=0.7), 'slow_in', 'zoom', emph=['piégée']),
-        seg("C'est la sonde MESSENGER de la NASA qui l'a confirmé en {2012|deux mille douze}.", V(MERC_ICE, 19.0, speed=0.7), 'in', 'cut', label='MESSENGER • 2012'),
+        seg("Mais alors, de la glace, où ça ?", P(MERC_POLE, mode='fit'), 'slow_in', 'black', sfx=[('riser', 0.0)]),
+        seg("Au fond de cratères, près des pôles.", P(MERC_POLE, cx=0.47, cy=0.5), 'in', 'cut', label='EN JAUNE : LA GLACE', emph=['cratères']),
+        seg("L'axe de Mercure est presque parfaitement droit. Résultat : le fond de ces cratères ne voit jamais le Soleil.", P(MERC_POLE, cx=0.47, cy=0.52, zoom=1.8), 'push', 'fade', emph=['jamais']),
+        seg("Il y fait si froid que la glace d'eau peut y rester piégée pendant des millions d'années.", V(MERC, 14.0, speed=0.6, zoom=1.6), 'slow_in', 'zoom', emph=['piégée']),
+        seg("C'est la sonde MESSENGER de la NASA qui l'a confirmé en {2012|deux mille douze}.", P(MERC_POLE, cx=0.62, cy=0.45, zoom=1.3), 'in', 'cut', label='MESSENGER • 2012'),
         seg("Et il y en aurait beaucoup : entre cent milliards et mille milliards de tonnes.",
             V(MERC, 46.0, speed=0.8, extra=[back(170, 560), txt('100 À 1 000', 300, 150), txt('MILLIARDS DE TONNES', 440, 90, (255, 255, 255))]), 'push', 'flash', emph=['milliards'], music=0.75),
         seg("Autre surprise : Mercure rétrécit. En refroidissant, son rayon a diminué de plusieurs kilomètres, et sa surface s'est ridée comme une pomme qui sèche.",
@@ -349,9 +350,9 @@ R24 = dict(
         seg("C'est l'un des objets les plus brillants du système solaire : sa glace renvoie presque toute la lumière du Soleil.", V(CASSINI, 175.0), 'drift', 'cut', emph=['brillants']),
         seg("Et en surface, il fait environ moins deux cents degrés.",
             V(ENC_GEY, 9.4, speed=0.5, extra=[back(170, 560), counter(0, -200, y=340, size=210, suffix=' °C', color=ICE, t1=1.8)]), 'push', 'zoom', emph=['deux', 'cents']),
-        seg("En {2005|deux mille cinq}, la sonde Cassini a découvert quelque chose d'incroyable près de son pôle sud.", V(ENC_JETS, 0.0), 'slow_in', 'black', sfx=[('riser', 0.0)], label='CASSINI • 2005'),
+        seg("En {2005|deux mille cinq}, la sonde Cassini a découvert quelque chose d'incroyable près de son pôle sud.", P(ENC_JETS, cx=0.62, cy=0.55), 'slow_in', 'black', sfx=[('riser', 0.0)], label='CASSINI • 2005'),
         seg("Des geysers. Une centaine de jets de vapeur d'eau et de glace, qui jaillissent de grandes fractures surnommées les « rayures de tigre ».",
-            V(ENC_JETS, 15.0), 'in', 'flash', sfx=['impact'], emph=['geysers'], music=0.6),
+            P(ENC_JETS, mode='fit'), 'in', 'flash', sfx=['impact'], emph=['geysers'], music=0.6),
         seg("Cette glace est si abondante qu'elle alimente l'un des anneaux de Saturne : l'anneau E.", V(ENC_GEY, 5.6, speed=0.6), 'drift', 'whip', emph=['anneaux']),
         seg("En {2023|deux mille vingt-trois}, le télescope James Webb a repéré un panache de vapeur d'eau long d'environ dix mille kilomètres.",
             V(TITAN_INTRO, 12.0, speed=0.8), 'push', 'cut', label='JAMES WEBB • 2023', emph=['dix', 'mille']),
@@ -377,14 +378,14 @@ R25 = dict(
     music=dict(style='space', prog='minor_wonder', key=43, bpm=68, seed=2501, start=0.3),
     segments=[
         seg("Dans quelques jours, cette sonde sera à un jour-lumière de la Terre.", V(VOY_CRAFT, 0.0, speed=0.4, cx=0.3), 'in', sfx=['boom'], music=0.35, emph=['jour-lumière']),
-        seg("C'est Voyager {1|un}, lancée en {1977|mille neuf cent soixante-dix-sept}. Elle voyage depuis quarante-neuf ans.", V(VOY_PATH, 5.0, speed=0.8), 'slow_in', 'whip', label='VOYAGER 1 • 1977', emph=['quarante-neuf']),
+        seg("C'est Voyager {1|un}, lancée en {1977|mille neuf cent soixante-dix-sept}. Elle voyage depuis quarante-neuf ans.", P(VOY_ART, mode='fit'), 'slow_in', 'whip', label='VOYAGER 1 • 1977', emph=['quarante-neuf']),
         seg("Vers le {18|dix-huit} novembre, elle sera à environ vingt-cinq milliards neuf cents millions de kilomètres.",
-            V(VOY_PULL, 0.0, speed=0.8, extra=[back(170, 560), counter(0, 25.9, y=340, size=200, fmt='float', decimals=1, color=GOLD, t1=2.2, sub='milliards de kilomètres')]),
+            V(HELIO, 7.0, speed=0.5, extra=[back(170, 560), counter(0, 25.9, y=340, size=200, fmt='float', decimals=1, color=GOLD, t1=2.2, sub='milliards de kilomètres')]),
             'push', 'zoom', label='18 NOVEMBRE 2026', emph=['milliards']),
         seg("Si loin qu'un message envoyé depuis la Terre mettra une journée entière pour l'atteindre. Et autant pour revenir.",
-            V(VOY_PULL, 5.0, speed=0.6, extra=[back(170, 520), txt('24 H ALLER • 24 H RETOUR', 330, 100)]), 'slow_in', 'fade', emph=['journée']),
+            P(VOY_ART2, mode='fit', extra=[back(170, 520), txt('24 H ALLER • 24 H RETOUR', 330, 100)]), 'slow_in', 'fade', emph=['journée']),
         seg("Elle file à environ soixante et un mille kilomètres par heure.",
-            V(VOY_PATH, 30.0, extra=[back(170, 560), counter(0, 61000, y=340, size=180, suffix=' km/h', color=GOLD, t1=2.0)]), 'in', 'cut', sfx=['impact'], emph=['soixante']),
+            P(VOY_SPEED, cx=0.4, extra=[back(170, 560), counter(0, 61000, y=340, size=180, suffix=' km/h', color=GOLD, t1=2.0)]), 'in', 'cut', sfx=['impact'], emph=['soixante']),
         seg("En chemin, elle a survolé Jupiter en {1979|mille neuf cent soixante-dix-neuf}…", V(GRS, 35.0, speed=0.7), 'drift', 'whip', label='JUPITER • 1979'),
         seg("… et Saturne en {1980|mille neuf cent quatre-vingts}.", V(SAT_RINGS, 6.0, speed=0.6), 'push', 'cut', label='SATURNE • 1980'),
         seg("En {2012|deux mille douze}, elle est devenue le premier objet humain à entrer dans l'espace interstellaire, hors de la bulle du vent solaire.",
@@ -396,8 +397,8 @@ R25 = dict(
         seg("Ce petit point, plus petit qu'un pixel, c'est nous. Tous les humains qui ont jamais vécu sont là.",
             P(PBD, cx=PBD_X, cy=PBD_Y, zoom=4.0, extra=[ring(r=70, t0=0.2)]), PBD_CENTER, 'cut', emph=['nous']),
         seg("L'astronome Carl Sagan l'a appelée : le « point bleu pâle ».", V(EARTH, 50.0), 'slow_in', 'fade', emph=['point', 'bleu', 'pâle'], music=0.7),
-        seg("Aujourd'hui, Voyager {1|un} émet avec la puissance d'une ampoule de frigo… et on capte encore son signal.", V(VOY_PATH, 60.0), 'drift', 'whip', emph=['frigo']),
-        seg("Mais son énergie baisse chaque année. Elle devrait se taire dans les années {2030|deux mille trente}.", V(VOY_PULL, 8.0, speed=0.6), 'slow_in', 'fade', emph=['taire']),
+        seg("Aujourd'hui, Voyager {1|un} émet avec la puissance d'une ampoule de frigo… et on capte encore son signal.", V(EARTH, 70.0), 'drift', 'whip', emph=['frigo']),
+        seg("Mais son énergie baisse chaque année. Elle devrait se taire dans les années {2030|deux mille trente}.", V(HELIO, 20.0, speed=0.6), 'slow_in', 'fade', emph=['taire']),
         seg("À bord, un disque en or : des sons, de la musique, et des salutations en cinquante-cinq langues. Un message pour qui le trouvera.",
             V(VOY_CRAFT, 0.0, speed=0.3, cx=0.3, zoom=1.3), 'push', 'zoom', emph=['or']),
         seg("Dans environ quarante mille ans, elle passera près d'une autre étoile.", P(MILKYWAY, zoom=1.3), 'in', 'cut', emph=['étoile']),
