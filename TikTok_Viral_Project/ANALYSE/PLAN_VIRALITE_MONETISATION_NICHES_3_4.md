@@ -13,8 +13,11 @@ Un compte par format garde un public cohérent, ce que l'algorithme recommande m
 
 ## 2. Pourquoi ça peut percer
 
-- **Accroche dans les 3 premières secondes** : titre de la série, phrase-choc (« Ils ne savent pas encore ce qui les attend… ») et plan le plus fort au début.
-- **Une fin à suspense à chaque épisode** : valise mystère, voix dans le noir, gâteau dans la piscine… Le carton « À SUIVRE » annonce l'épisode suivant.
+- **Ouverture choc** : chaque épisode commence par 3 s de son moment le plus fort (« CE SOIR À LA VILLA… » + phrase-choc), avant le générique. On accroche avant même de savoir de quoi parle l'épisode.
+- **« Précédemment… »** : une phrase de rappel au début de chaque épisode. La plupart des spectateurs arrivent sur un épisode au hasard depuis « Pour toi » ; ils comprennent tout de suite et remontent la série.
+- **Un mystère sur toute la saison** : qui est Margaux pour Monsieur Ananas ? Un indice par épisode, révélation au final. C'est ce qui fait écrire des théories en commentaire et regarder l'épisode suivant.
+- **Un gag récurrent** : Pépin tombe dans chaque épisode, avec le compteur « CHUTES DE PÉPIN » à l'écran. Les spectateurs l'attendent et le commentent.
+- **Une fin à suspense à chaque épisode** : clé secrète, voix dans le noir, gâteau dans la piscine, câlin suspect… Le carton « À SUIVRE » annonce l'épisode suivant et pose une question (« Team Bérénice ou Team Margaux ? »).
 - **Le public décide** : à l'épisode 9, les commentaires votent entre Coco et Cyril, et l'épisode 10 suit le vote (deux versions prévues). C'est le plus gros levier de commentaires de la saison.
 - **Des répliques qui reviennent** (« Moi, jaloux ? Jamais. », « mi-figue, mi-raisin », « On est un smoothie ») et des jeux de mots sur les fruits : faciles à citer en commentaire et en duo.
 - **ASMR** : compteur « n / 18 » qui fait regarder jusqu'au bout, vote final (« Mets le numéro »), accroches qui nomment un plan précis (« le n°11 m'a donné des frissons ») pour pousser à regarder jusqu'à ce plan.
@@ -62,6 +65,6 @@ Si un épisode décolle, publier le suivant plus tôt et monter une version cour
 
 ## 6. Coût et ordre de production
 
-Le détail est dans `budget_niches_3_4.md` : environ 180 crédits par épisode et 205 par vidéo ASMR en 720p.
+Le détail est dans `budget_niches_3_4.md` : environ 165 crédits par épisode et 205 par vidéo ASMR en 720p. L'épisode 1 en 480p (≈ 95 crédits) tient dans l'essai gratuit de 100 crédits.
 
-Démarrage conseillé, avec la formule Plus (1 000 crédits par mois) : les **épisodes 1 à 3 et les ASMR 1 et 2** (≈ 950 crédits). On teste la réaction du public avant de produire la suite avec la formule Ultra (3 000 crédits par mois).
+Démarrage conseillé, avec la formule Plus (1 000 crédits par mois) : les **épisodes 1 à 3 et les ASMR 1 et 2** (≈ 910 crédits). On teste la réaction du public avant de produire la suite avec la formule Ultra (3 000 crédits par mois).

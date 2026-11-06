@@ -38,33 +38,55 @@ def villa():
          "## Personnages", "", "| Personnage | Fruit | Rôle | Réplique culte | Voix (consigne IA) |", "|---|---|---|---|---|"]
     for c in FS.CHARACTERS.values():
         L.append(f"| **{c['nom']}** | {c['fruit']} | {c['role']} | {c['replique']} | {c['voix']} |")
-    L += ["", "## Fil rouge de la saison", "",
-          "1. **Arrivées** : Kiki drague, Bérénice règne, Cyril pique, Pépin tombe, Fanny répand les nouvelles.",
-          "2. **Le triangle** : Margaux arrive, Kiki est sous le charme, Bérénice voit rouge.",
-          "3. **Escalade** : clash au transat, jeu de la vérité, Kiki « mi-figue, mi-raisin ».",
-          "4. **Le retour de l'ex** : Coco débarque… pour Margaux.",
-          "5. **Complot et enquête** : faux message de Cyril, gâteau dans la piscine, la vidéo de Fanny démasque Coco.",
-          "6. **Le public décide** : à l'épisode 9, les commentaires votent entre Coco et Cyril ; l'épisode 10 montre l'élimination choisie.",
-          "7. **Final** : Kiki et Bérénice en couple (« On est un smoothie »), Pépin et Fanny aussi, et Margaux part vers la Villa Tropicale, qui annonce la saison 2.",
-          "", "Ressorts viraux : cliffhanger à chaque fin d'épisode, répliques cultes qui reviennent (« Moi, jaloux ? Jamais. »), "
-          "jeux de mots sur les fruits (« tomber dans les pommes », « couper la poire en deux », « mi-figue, mi-raisin »), et un vote qui fait exploser les commentaires.", ""]
+    L += ["", "## Ce qui doit faire accrocher", "",
+          "| Levier | Dans la série |", "|---|---|",
+          "| **Ouverture choc (0–3 s)** | Chaque épisode commence par 3 s de son moment le plus fort (« CE SOIR À LA VILLA… » + accroche), puis le générique. Cet extrait est repris d'un plan de l'épisode : aucune génération en plus |",
+          "| **« Précédemment… »** | Rappel en une phrase sur le premier plan : un spectateur qui tombe sur l'épisode 6 comprend tout de suite |",
+          "| **Un mystère sur toute la saison** | Qui est Margaux pour Monsieur Ananas ? Les indices tombent épisode après épisode, révélation au final : les spectateurs font leurs théories en commentaire |",
+          "| **Gag récurrent** | Pépin tombe dans chaque épisode ; le compteur « CHUTES DE PÉPIN » à l'écran devient un rendez-vous (7 chutes dans la saison) |",
+          "| **Répliques cultes** | « Moi, jaloux ? Jamais. » · « C'est pas pour être acide, mais… » · « Vous savez pas la nouvelle ? » · « mi-figue, mi-raisin » · « On est un smoothie » |",
+          "| **Une question à chaque fin** | « Team Bérénice ou Team Margaux ? », « Qui a mis la peau de banane ? »… sur le carton de fin et en commentaire épinglé |",
+          "| **Le public décide** | Vote Coco ou Cyril à l'épisode 9 ; l'épisode 10 montre l'élimination choisie (deux versions prévues) |",
+          "", "## Fil rouge", "",
+          "1. **Arrivées (ép. 1)** : Kiki drague, Bérénice règne, Cyril pique, Pépin tombe, Fanny répand les nouvelles. La nuit, Monsieur Ananas donne en secret une clé à une inconnue : « Personne ne doit savoir… Bienvenue, ma chérie. »",
+          "2. **Le triangle (ép. 2–4)** : Margaux arrive, Kiki est sous le charme, Bérénice voit rouge. Clash au transat, jeu de la vérité, Kiki « mi-figue, mi-raisin ».",
+          "3. **Le retour de l'ex (ép. 5)** : Coco débarque… pour Margaux. Monsieur Ananas : « Pas dans ma villa. »",
+          "4. **Complot et enquête (ép. 6–8)** : faux message de Cyril, gâteau dans la piscine (et Pépin avec). La vidéo de Fanny démasque Coco… et montre Margaux en train de faire un câlin à Monsieur Ananas.",
+          "5. **Le public décide (ép. 9)** : Coco ou Cyril.",
+          "6. **Final (ép. 10)** : élimination votée, révélation (« Monsieur Ananas, c'est mon père »), Kiki et Bérénice (« On est un smoothie »), Pépin et Fanny. Puis une lettre : « Ma fille, rejoins-moi à la Villa Tropicale. Maman. » Annonce de la saison 2.",
+          "", "### Les indices du mystère de Margaux", "",
+          "| Épisode | Indice |", "|---|---|",
+          "| 1 | Monsieur Ananas accueille une inconnue en secret : « Bienvenue, ma chérie » |",
+          "| 2 | Clin d'œil complice entre Monsieur Ananas et Margaux, que Fanny remarque |",
+          "| 3 | Rumeur : « on a vu Margaux en cachette… avec un ananas ! » et appel secret de Margaux (« personne ne se doute de rien ») |",
+          "| 4 | Cyril : « Qui t'appelle en cachette tous les soirs ? » Margaux se fige, Monsieur Ananas tire sur son nœud papillon, et la panne de courant tombe à pic |",
+          "| 5 | Monsieur Ananas, jaloux comme un père : « Une noix de coco qui tourne autour de Margaux ? Pas dans ma villa. » |",
+          "| 6 | Au téléphone : « Oui, papa… Non, personne ne sait. » |",
+          "| 8 | Sur la vidéo de Fanny : Margaux fait un câlin à Monsieur Ananas, qui confisque le téléphone |",
+          "| 9 | Cyril : « Bizarrement… la mangue n'est jamais nominée. » Margaux : « Demain, il faudra que je dise la vérité. » |",
+          "| 10 | Révélation, puis lettre de la mère, qui lance la saison 2 |",
+          ""]
     for ep in FS.EPISODES:
         shots = FS.episode_shots(ep)
         gen = sum(s['dur'] for s in shots)
         L += [f"## Épisode {ep['num']} — {ep['titre']}", "",
-              f"**Accroche (écran, 0–3 s) :** {ep['accroche']}  ",
-              f"**Durée :** {gen} s générées + 3,5 s de carton de fin ≈ {gen + 3.5:.0f} s  ",
+              f"**Ouverture choc (0–3 s) :** extrait du plan {ep['cold'][0]} — accroche à l'écran : « {ep['accroche']} »  ",
+              *( [f"**Précédemment :** {ep['recap'].split(' : ', 1)[1]}  "] if ep.get('recap') else [] ),
+              f"**Question finale :** {ep['question']}  ",
+              f"**Durée :** {gen} s générées + 3 s d'ouverture + 3,5 s de carton de fin ≈ {gen + 6.5:.0f} s  ",
               f"**Fin :** À SUIVRE… {ep['suite']}" + (f" — **vote :** {ep['vote']}" if ep.get('vote') else ''), ""]
         if ep.get('note'):
             L += [f"> {ep['note']}", ""]
         L += ["| # | Temps | Type | Plan (consigne pour l'IA, en anglais) | Dialogue |", "|---|---|---|---|---|"]
-        t = 0
+        t = ep['cold'][2] if ep.get('cold') else 0   # temps dans la vidéo finale (après l'ouverture choc)
         for i, s in enumerate(shots, 1):
             who = ', '.join(FS.CHARACTERS[c]['nom'] for c in s['who'])
             if s.get('off'):
                 who = (who + ', ' if who else '') + 'voix off de ' + ', '.join(FS.CHARACTERS[w]['nom'] for w, _ in s['lines'])
             dia = '<br>'.join(f"**{FS.CHARACTERS[w]['nom']}** : {txt}" for w, txt in s['lines']) or '—'
             sfx = f" *(son : {s['sfx']})*" if s.get('sfx') else ''
+            if s.get('gag') == 'chute':
+                sfx += ' **[chute de Pépin]**'
             L.append(f"| {i} | {fmt(t)} | {KIND[s['kind']]} | {who + ' — ' if who else ''}{s['action']}{sfx} | {dia} |")
             t += s['dur']
         if ep['id'] == 'episode_10':
@@ -73,9 +95,9 @@ def villa():
                 L.append(f"- {KIND[s['kind']]} — " + ' / '.join(f"**{FS.CHARACTERS[w]['nom']}** : {txt}" for w, txt in s['lines']))
         h, cov = EP_PUB[ep['num']]
         L += ["", "**Publication**", "",
-              f"- Titre : Villa Vitamine — Épisode {ep['num']} : {ep['titre']} 🍓",
+              f"- Titre : {ep['accroche']} — Villa Vitamine ép. {ep['num']} 🍓",
               f"- Description : {ep['accroche']} Épisode {ep['num']}/10, la suite demain à 19 h. "
-              + (f"{ep['vote']} " if ep.get('vote') else "Ton fruit préféré ? 👇 ") + "(Contenu généré par IA)",
+              + f"{ep['question']} 👇 (Contenu généré par IA)",
               f"- Hashtags : #villavitamine #telerealite #humour #fruits #serie",
               f"- Horaire : {h}", f"- Couverture : {cov}", ""]
     open(os.path.join(N3, 'SAISON_1.md'), 'w').write('\n'.join(L))

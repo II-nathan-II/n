@@ -130,6 +130,8 @@ Style: Role,Poppins SemiBold,64,{bgr('FFFFFF')},{bgr('FFFFFF')},{bgr('111111')},
 Style: Conf,Poppins Black,60,{bgr('FFFFFF')},{bgr('FFFFFF')},{bgr('FF3D8B')},{bgr('000000', 0xFF)},0,0,0,0,100,100,3,0,3,12,0,9,60,60,170,1
 Style: Count,Poppins ExtraBold,150,{bgr('FFE135')},{bgr('FFE135')},{bgr('000000')},{bgr('000000', 0x70)},0,0,0,0,100,100,0,0,1,9,3,5,60,60,0,1
 Style: End,Poppins Black,150,{bgr('FFFFFF')},{bgr('FFFFFF')},{bgr('000000')},{bgr('000000', 0x70)},0,0,0,0,100,100,0,0,1,9,3,5,70,70,0,1
+Style: Recap,Poppins SemiBold,74,{bgr('FFFFFF')},{bgr('FFFFFF')},{bgr('000000', 0x50)},{bgr('000000', 0xFF)},0,0,0,0,100,100,0,0,3,16,0,5,90,90,0,1
+Style: Chute,Poppins Black,56,{bgr('14320A')},{bgr('14320A')},{bgr('B6F36A')},{bgr('000000', 0xFF)},0,0,0,0,100,100,1,0,3,14,0,9,60,60,270,1
 Style: EndSub,Poppins ExtraBold,86,{bgr('FFE135')},{bgr('FFE135')},{bgr('000000')},{bgr('000000', 0x70)},0,0,0,0,100,100,0,0,1,7,2,5,70,70,0,1
 
 [Events]
@@ -148,8 +150,9 @@ def esc(s):
 POP = r'{\fad(70,0)\t(0,90,\fscx108\fscy108)\t(90,180,\fscx100\fscy100)}'
 
 
-def captions_for_line(t0, t1, who, text):
-    """Sous-titres d'une réplique, découpés en blocs courts, couleur du personnage."""
+def captions_for_line(t0, t1, who, text, lo=-1e9, hi=1e9, shift=0.0):
+    """Sous-titres d'une réplique, découpés en blocs courts, couleur du personnage.
+    Temps locaux au plan ; seuls les blocs dans [lo, hi] sont gardés, décalés de `shift`."""
     words = [dict(w=w) for w in text.split()]
     chunks = chunk_words(words, max_words=3, max_chars=18)
     lens = np.array([max(3, len(' '.join(x['w'] for x in ch))) for ch in chunks], np.float64)
@@ -157,9 +160,30 @@ def captions_for_line(t0, t1, who, text):
     col = FS.CHARACTERS[who]['color']
     out = ''
     for ch, a, b in zip(chunks, bounds[:-1], bounds[1:]):
+        a, b = max(a, lo), min(b, hi)
+        if b - a < 0.15:
+            continue
         txt = esc(' '.join(x['w'] for x in ch))
-        out += ev('Cap', a, b, POP + '{\\pos(%d,1360)\\c%s&}' % (W // 2, bgr(col)) + txt)
+        out += ev('Cap', a + shift, b + shift, POP + '{\\pos(%d,1360)\\c%s&}' % (W // 2, bgr(col)) + txt)
     return out
+
+
+def shot_caps(sh, a, dur, t_base, lo=0.0, hi=None):
+    """Sous-titres de toutes les répliques d'un plan, calés sur la fenêtre où l'on parle."""
+    if not sh['lines']:
+        return ''
+    hi = dur if hi is None else hi
+    w0, w1 = speech_window(a, dur)
+    lens = np.array([len(x[1]) for x in sh['lines']], np.float64)
+    cuts = w0 + np.concatenate([[0], np.cumsum(lens)]) / lens.sum() * (w1 - w0)
+    return ''.join(captions_for_line(a0, b0, who, txt, lo, hi, t_base - lo)
+                   for (who, txt), a0, b0 in zip(sh['lines'], cuts[:-1], cuts[1:]))
+
+
+def flash(t):
+    """Flash blanc d'une image sur toute la hauteur (transition ouverture choc → générique)."""
+    return ev('Cap', max(0, t - 0.02), t + 0.25,
+              r'{\an7\pos(0,0)\bord0\shad0\c&HFFFFFF&\alpha&H30&\t(0,250,\alpha&HFF&)\p1}m 0 0 l %d 0 %d %d 0 %d{\p0}' % (W, W, H, H), layer=5)
 
 
 def loud_limit(x, target, ceiling=-2.0):
@@ -214,6 +238,29 @@ def build(vid, use_placeholders=False, eliminated='coco'):
     if missing and not use_placeholders:
         raise SystemExit(f'{vid} : plans manquants {missing} dans {os.path.join(CLIPS, vid)} (ou --placeholder)')
 
+    # ouverture choc : 3 s d'un plan fort de l'épisode, placées avant le générique (aucune génération en plus)
+    cold = None
+    if is_ep and spec.get('cold'):
+        k, off, d = spec['cold']
+        src_seg = next((x for x in segs if x['i'] == k), None)
+        if src_seg:
+            d = min(d, max(0.5, src_seg['dur'] - off))
+            cmp4, cwav = os.path.join(wd, 'cold.mp4'), os.path.join(wd, 'cold.wav')
+            run(['ffmpeg', '-v', 'error', '-y', '-ss', f'{off:.3f}', '-i', src_seg['mp4'], '-t', f'{d:.3f}', '-an',
+                 '-vf', f'fps={FPS},format=yuv420p', '-c:v', 'libx264', '-preset', 'veryfast', '-crf', '14', cmp4])
+            a, _ = sf.read(src_seg['wav'], dtype='float32', always_2d=True)
+            ca = a[int(off * SR):int((off + d) * SR)].copy()
+            ca = np.pad(ca, ((0, max(0, int(round(d * SR)) - len(ca))), (0, 0)))
+            f = int(0.03 * SR)
+            ca[:f] *= np.linspace(0, 1, f)[:, None]; ca[-f:] *= np.linspace(1, 0, f)[:, None]
+            sf.write(cwav, ca, SR)
+            for x in segs:
+                x['t0'] += d
+            cold = dict(i=0, t0=0.0, dur=d, shot=dict(kind='cold', who=[], lines=[]), mp4=cmp4, wav=cwav,
+                        real=src_seg['real'], src=src_seg, off=off)
+            segs.insert(0, cold)
+            t += d
+
     # carton de fin : dernière image floutée + texte
     last = segs[-1]
     endpng = os.path.join(wd, 'end.png'); endmp4 = os.path.join(wd, 'end.mp4')
@@ -244,11 +291,25 @@ def build(vid, use_placeholders=False, eliminated='coco'):
     # habillage
     ass = ass_header()
     if is_ep:
-        ass += ev('Show', 0, 3.2, r'{\fad(0,250)}VILLA VITAMINE')
-        ass += ev('Ep', 0, 3.2, r'{\fad(0,250)}' + esc(f"ÉPISODE {spec['num']} · {spec['titre'].upper()}"))
-        first = segs[0]
-        if not first['shot']['lines']:
+        ts = cold['dur'] if cold else 0.0
+        if cold:
+            src = cold['src']
+            ass += ev('Ep', 0, cold['dur'], r'{\fad(100,0)}CE SOIR À LA VILLA…')
+            ass += ev('Hook', 0.1, cold['dur'], POP + r'{\pos(540,640)}' + esc(spec['accroche']))
+            ass += shot_caps(src['shot'], shot_audio.get(src['i']), src['dur'], 0.0, cold['off'], cold['off'] + cold['dur'])
+            ass += flash(cold['dur'])
+        ass += ev('Show', ts, ts + 3.2, r'{\fad(0,250)}VILLA VITAMINE')
+        ass += ev('Ep', ts, ts + 3.2, r'{\fad(0,250)}' + esc(f"ÉPISODE {spec['num']}/10 · {spec['titre'].upper()}"))
+        first = segs[1] if cold else segs[0]
+        if spec.get('recap'):
+            ass += ev('Recap', first['t0'] + 0.2, first['t0'] + first['dur'] - 0.1, r'{\fad(150,150)\pos(540,1250)}' + esc(spec['recap']))
+        elif not cold and not first['shot']['lines']:
             ass += ev('Hook', 0.15, first['dur'] - 0.1, POP + r'{\pos(540,1180)}' + esc(spec['accroche']))
+        chute = FS.falls_before(spec['id'])
+        for x in segs:
+            if x['shot'].get('gag') == 'chute':
+                chute += 1
+                ass += ev('Chute', x['t0'] + x['dur'] * 0.45, x['t0'] + x['dur'] - 0.05, POP + f'CHUTES DE PÉPIN : {chute}')
         seen = set()
         for s in segs:
             sh = s['shot']
@@ -263,17 +324,13 @@ def build(vid, use_placeholders=False, eliminated='coco'):
                 y = 420 + 190 * (len([x for x in sh['who'] if x in seen]) - 1)
                 ass += ev('Name', a, b, r'{\fad(120,150)\pos(70,%d)\3c%s&}' % (y, bgr(ch['color'])) + esc(ch['nom'].upper()))
                 ass += ev('Role', a + 0.1, b, r'{\fad(120,150)\pos(70,%d)}' % (y + 120) + esc(f"{ch['role']} · {ch['fruit']}"))
-            if sh['lines']:
-                w0, w1 = speech_window(shot_audio.get(s['i']), s['dur'])
-                lens = np.array([len(x[1]) for x in sh['lines']], np.float64)
-                cuts = w0 + np.concatenate([[0], np.cumsum(lens)]) / lens.sum() * (w1 - w0)
-                for (who, txt), a, b in zip(sh['lines'], cuts[:-1], cuts[1:]):
-                    ass += captions_for_line(s['t0'] + a, s['t0'] + b, who, txt)
+            ass += shot_caps(sh, shot_audio.get(s['i']), s['dur'], s['t0'])
         te = t
         ass += ev('End', te + 0.1, total, POP + r'{\pos(540,820)}' + ('À SUIVRE…' if spec['num'] < 10 else 'FIN DE LA SAISON 1'))
         ass += ev('EndSub', te + 0.25, total, r'{\fad(150,0)\pos(540,1010)}' + esc(spec['suite']))
-        cta = spec.get('vote') or 'Abonne-toi pour la suite'
+        cta = spec.get('vote') or spec.get('question') or 'Abonne-toi pour la suite'
         ass += ev('EndSub', te + 0.45, total, r'{\fad(150,0)\pos(540,1160)\c&HFFFFFF&}' + esc(cta))
+        ass += ev('Ep', te + 0.65, total, r'{\fad(150,0)\pos(540,1290)}Abonne-toi pour ne rien rater')
     else:
         ass += ev('Hook', 0.1, 3.0, POP + r'{\pos(540,330)}' + esc(spec['accroche']))
         ass += ev('Ep', 3.0, t, r'{\fad(200,0)}' + esc(f"CRISTAL ASMR · {spec['titre'].upper()}"))
@@ -294,6 +351,8 @@ def build(vid, use_placeholders=False, eliminated='coco'):
         music = audio.compose(dict(FS.SERIES_MUSIC), total, markers)[:len(voice)]
         music = audio.set_loudness(music, -27.0) * audio.duck_curve(voice, depth_db=-8.0)[:, None]
         mix = np.stack([voice, voice], 1) + music
+        if cold:
+            audio.add_at(mix, audio.sfx('whoosh', 0), max(0, cold['dur'] - 0.3), 0, 10 ** (-10 / 20))
         for s in segs:
             if s['shot'].get('sfx'):
                 audio.add_at(mix, audio.sfx(s['shot']['sfx'], s['i']), s['t0'], 0, 10 ** (-12 / 20))
