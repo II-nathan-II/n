@@ -63,10 +63,10 @@ CHARACTERS = {
 }
 
 
-def S(kind, dur, where, who, action, lines=(), text=None, sfx=None, off=False, gag=None):
+def S(kind, dur, where, who, action, lines=(), text=None, sfx=None, off=False, gag=None, crop=None):
     """Un plan généré. kind : etab (ambiance), scene, conf (confessionnal), host, react (réaction muette).
     off=True : les répliques sont dites en voix off (personnage hors champ). gag='chute' : chute de Pépin (compteur)."""
-    return dict(kind=kind, dur=dur, where=where, who=list(who), action=action, lines=list(lines), text=text, sfx=sfx, off=off, gag=gag)
+    return dict(kind=kind, dur=dur, where=where, who=list(who), action=action, lines=list(lines), text=text, sfx=sfx, off=off, gag=gag, crop=crop)
 
 
 # Structure de chaque épisode (pensée pour la rétention TikTok) :
@@ -376,6 +376,19 @@ TRAILER = dict(id='bande_annonce', num=0, titre="Bande-annonce",
                    S('scene', 5, 'portail', ['ananas'], "at night, Monsieur Ananas secretly hands a golden key to a feminine silhouette next to a suitcase with a mango sticker, suspense",
                      [('ananas', "Personne ne doit savoir… Bienvenue, ma chérie.")], sfx='riser'),
                ])
+
+# Teaser (12 s) monté avec les plans déjà générés : Monsieur Ananas (Kling 3.0, site Kling, 16:9 recadré en
+# 9:16 avec un panoramique vers l'inconnue) et Kiki (Wan 3.0 via Higgsfield). Plans dans NICHE_3_VILLA_VITAMINE/plans/teaser/.
+TEASER = dict(id='teaser', num=0, titre="Teaser",
+              accroche="Qui est cette inconnue ?",
+              fin="ÉPISODE 1 · BIENTÔT",
+              question="Qui est cette inconnue ? Tes théories en commentaire",
+              shots=[
+                  S('scene', 5, 'portail', ['ananas'], "at night, Monsieur Ananas secretly hands a golden key to a feminine silhouette next to a suitcase with a mango sticker",
+                    [('ananas', "Personne ne doit savoir… Bienvenue, ma chérie.")], sfx='riser',
+                    crop=dict(w=568, h=1010, x0=376, x1=1250, t0=2.2, t1=4.2)),
+                  S('conf', 3, 'conf', ['kiki'], "rolls his eyes", [('kiki', "Moi, jaloux ? Jamais.")]),
+              ])
 
 SERIES_MUSIC = dict(style='lofi', prog='lofi_c', key=53, bpm=96, seed=3101)
 

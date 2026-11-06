@@ -72,10 +72,19 @@ def placeholder(path_mp4, path_wav, dur, title, lines, color):
     sf.write(path_wav, np.zeros((int(dur * SR), 2), np.float32), SR)
 
 
-def normalize(src, path_mp4, path_wav, dur):
-    """Plan généré → 1080×1920, 30 i/s, durée fixée ; son à part en WAV 48 kHz stéréo."""
-    vf = (f'scale={W}:{H}:force_original_aspect_ratio=increase:flags=lanczos,crop={W}:{H},'
-          f'unsharp=5:5:0.45:5:5:0,fps={FPS},format=yuv420p')
+def normalize(src, path_mp4, path_wav, dur, crop=None):
+    """Plan généré → 1080×1920, 30 i/s, durée fixée ; son à part en WAV 48 kHz stéréo.
+    crop : recadrage 9:16 d'une source horizontale, avec panoramique de x0 à x1 entre t0 et t1 (secondes),
+    en excluant le bas de l'image (filigrane) par la hauteur h."""
+    if crop:
+        c = crop
+        x = (f"st(0,clip((t-{c['t0']})/{c['t1'] - c['t0']},0,1));"
+             f"{c['x0']}+({c['x1'] - c['x0']})*ld(0)*ld(0)*(3-2*ld(0))")
+        vf = (f"crop={c['w']}:{c['h']}:'{x}':0,scale={W}:{H}:flags=lanczos,"
+              f'unsharp=5:5:0.6:5:5:0,fps={FPS},format=yuv420p')
+    else:
+        vf = (f'scale={W}:{H}:force_original_aspect_ratio=increase:flags=lanczos,crop={W}:{H},'
+              f'unsharp=5:5:0.45:5:5:0,fps={FPS},format=yuv420p')
     run(['ffmpeg', '-v', 'error', '-y', '-i', src, '-t', f'{dur:.3f}', '-an', '-vf', vf,
          '-c:v', 'libx264', '-preset', 'veryfast', '-crf', '14', path_mp4])
     tmp = path_wav + '.tmp.wav'
@@ -201,9 +210,9 @@ def loud_limit(x, target, ceiling=-2.0):
 # ─────────────────────────── montage ───────────────────────────
 
 def build(vid, use_placeholders=False, eliminated='coco'):
-    is_trailer = vid == 'bande_annonce'
+    is_trailer = vid in ('bande_annonce', 'teaser')
     is_ep = vid.startswith('episode') or is_trailer
-    spec = FS.TRAILER if is_trailer else next(v for v in (FS.EPISODES if is_ep else FS.ASMR) if v['id'] == vid)
+    spec = {'bande_annonce': FS.TRAILER, 'teaser': FS.TEASER}.get(vid) or next(v for v in (FS.EPISODES if is_ep else FS.ASMR) if v['id'] == vid)
     if is_ep:
         shots = FS.episode_shots(spec, eliminated)
         items = [(s['dur'], s) for s in shots]
@@ -218,7 +227,7 @@ def build(vid, use_placeholders=False, eliminated='coco'):
         mp4, wav = os.path.join(wd, f'n{i:02d}.mp4'), os.path.join(wd, f'n{i:02d}.wav')
         if os.path.exists(src):
             d = min(dur, probe_dur(src))
-            normalize(src, mp4, wav, d)
+            normalize(src, mp4, wav, d, sh.get('crop') if is_ep else None)
             real = True
         else:
             missing.append(i)
