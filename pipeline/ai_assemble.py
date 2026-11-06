@@ -201,8 +201,9 @@ def loud_limit(x, target, ceiling=-2.0):
 # ─────────────────────────── montage ───────────────────────────
 
 def build(vid, use_placeholders=False, eliminated='coco'):
-    is_ep = vid.startswith('episode')
-    spec = next(v for v in (FS.EPISODES if is_ep else FS.ASMR) if v['id'] == vid)
+    is_trailer = vid == 'bande_annonce'
+    is_ep = vid.startswith('episode') or is_trailer
+    spec = FS.TRAILER if is_trailer else next(v for v in (FS.EPISODES if is_ep else FS.ASMR) if v['id'] == vid)
     if is_ep:
         shots = FS.episode_shots(spec, eliminated)
         items = [(s['dur'], s) for s in shots]
@@ -299,13 +300,13 @@ def build(vid, use_placeholders=False, eliminated='coco'):
             ass += shot_caps(src['shot'], shot_audio.get(src['i']), src['dur'], 0.0, cold['off'], cold['off'] + cold['dur'])
             ass += flash(cold['dur'])
         ass += ev('Show', ts, ts + 3.2, r'{\fad(0,250)}VILLA VITAMINE')
-        ass += ev('Ep', ts, ts + 3.2, r'{\fad(0,250)}' + esc(f"ÉPISODE {spec['num']}/10 · {spec['titre'].upper()}"))
+        ass += ev('Ep', ts, ts + 3.2, r'{\fad(0,250)}' + esc(f"ÉPISODE {spec['num']}/10 · {spec['titre'].upper()}" if spec['num'] else 'BIENTÔT SUR CE COMPTE'))
         first = segs[1] if cold else segs[0]
         if spec.get('recap'):
             ass += ev('Recap', first['t0'] + 0.2, first['t0'] + first['dur'] - 0.1, r'{\fad(150,150)\pos(540,1250)}' + esc(spec['recap']))
         elif not cold and not first['shot']['lines']:
             ass += ev('Hook', 0.15, first['dur'] - 0.1, POP + r'{\pos(540,1180)}' + esc(spec['accroche']))
-        chute = FS.falls_before(spec['id'])
+        chute = FS.falls_before(spec['id']) if spec['num'] else 0
         for x in segs:
             if x['shot'].get('gag') == 'chute':
                 chute += 1
@@ -326,8 +327,8 @@ def build(vid, use_placeholders=False, eliminated='coco'):
                 ass += ev('Role', a + 0.1, b, r'{\fad(120,150)\pos(70,%d)}' % (y + 120) + esc(f"{ch['role']} · {ch['fruit']}"))
             ass += shot_caps(sh, shot_audio.get(s['i']), s['dur'], s['t0'])
         te = t
-        ass += ev('End', te + 0.1, total, POP + r'{\pos(540,820)}' + ('À SUIVRE…' if spec['num'] < 10 else 'FIN DE LA SAISON 1'))
-        ass += ev('EndSub', te + 0.25, total, r'{\fad(150,0)\pos(540,1010)}' + esc(spec['suite']))
+        ass += ev('End', te + 0.1, total, POP + r'{\pos(540,820)}' + ('VILLA VITAMINE' if not spec['num'] else 'À SUIVRE…' if spec['num'] < 10 else 'FIN DE LA SAISON 1'))
+        ass += ev('EndSub', te + 0.25, total, r'{\fad(150,0)\pos(540,1010)}' + esc(spec.get('fin') or spec['suite']))
         cta = spec.get('vote') or spec.get('question') or 'Abonne-toi pour la suite'
         ass += ev('EndSub', te + 0.45, total, r'{\fad(150,0)\pos(540,1160)\c&HFFFFFF&}' + esc(cta))
         ass += ev('Ep', te + 0.65, total, r'{\fad(150,0)\pos(540,1290)}Abonne-toi pour ne rien rater')
@@ -384,7 +385,7 @@ if __name__ == '__main__':
     if '--fetch' in sys.argv:
         fetch()
     elim = 'cyril' if '--eliminated' in sys.argv and 'cyril' in sys.argv else 'coco'
-    ids = args or ([e['id'] for e in FS.EPISODES] + [v['id'] for v in FS.ASMR] if '--all' in sys.argv else [])
+    ids = args or (['bande_annonce'] + [e['id'] for e in FS.EPISODES] + [v['id'] for v in FS.ASMR] if '--all' in sys.argv else [])
     for vid in ids:
         if vid == 'cyril':
             continue

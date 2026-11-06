@@ -360,6 +360,23 @@ EPISODES = [
          ]),
 ]
 
+# Bande-annonce (5 plans de 5 s) : pensée pour les crédits gratuits du site Kling, afin de tester l'audience
+# avant de produire la saison. Plans repris de la saison (mêmes répliques), raccourcis à 5 s.
+TRAILER = dict(id='bande_annonce', num=0, titre="Bande-annonce",
+               accroche="La télé-réalité la plus juteuse de l'été",
+               fin="ÉPISODE 1 · DEMAIN 19 H",
+               question="Ton fruit préféré ?",
+               shots=[
+                   S('etab', 5, 'villa', [], "Slow aerial drone shot gliding over the villa and the pool, sparkling water, no characters"),
+                   S('conf', 5, 'conf', ['berenice'], "sits with legs crossed, flips her imaginary hair, diva attitude",
+                     [('berenice', "Je suis pas venue pour me faire des amis.")]),
+                   S('scene', 5, 'salon', ['pepin'], "trips over a suitcase and falls face first onto a big cushion, then looks up embarrassed",
+                     [('pepin', "Je suis juste… tombé dans les pommes.")], sfx='impact', gag='chute'),
+                   S('react', 5, 'piscine', ['kiki'], "slow motion: Kiki's jaw drops and his sunglasses slide off his head into the pool as a mysterious mango character walks by", sfx='whoosh'),
+                   S('scene', 5, 'portail', ['ananas'], "at night, Monsieur Ananas secretly hands a golden key to a feminine silhouette next to a suitcase with a mango sticker, suspense",
+                     [('ananas', "Personne ne doit savoir… Bienvenue, ma chérie.")], sfx='riser'),
+               ])
+
 SERIES_MUSIC = dict(style='lofi', prog='lofi_c', key=53, bpm=96, seed=3101)
 
 # ───────────────────────────── CRISTAL ASMR ─────────────────────────────
