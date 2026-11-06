@@ -1,6 +1,6 @@
 # Studio TikTok automatisé — 10 vidéos virales en français
 
-Ce dépôt contient **10 vidéos TikTok finalisées** (MP4 H.264/AAC, 1080×1920, 83–112 s) et le pipeline Python qui les a produites de A à Z : scripts, voix off, visuels générés, montage, sous-titres dynamiques, musique originale, export et contrôle qualité.
+Ce dépôt contient **10 vidéos TikTok finalisées** (MP4 H.264/AAC, 1080×1920, 82 à 97 s) et le pipeline Python qui les a produites de A à Z : scripts, voix off, visuels générés, montage, sous-titres dynamiques, musique originale, export et contrôle qualité.
 
 ```
 TikTok_Viral_Project/

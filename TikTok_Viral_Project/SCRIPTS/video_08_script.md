@@ -16,20 +16,20 @@
 | 00:21.07 | Si tu bouges les yeux, même un tout petit peu, elles reviennent d'un coup. | ↳ (même plan) |  |
 | 00:24.76 | C'est l'effet Troxler, décrit par le médecin suisse Ignaz Troxler, en 1804. | fond dégradé animé, fiche archive (nom, date) | transition fade, caméra slow_in, sfx type, musique intensité 0.5 |
 | 00:30.11 | Ton cerveau ignore ce qui ne change pas. Ce qui est flou, immobile et sur le côté finit par être effacé. | taches floues (effet Troxler) | transition zoom, caméra slow_in |
-| 00:36.21 | C'est une économie d'énergie: inutile de traiter mille fois la même information. | fond dégradé animé, réseau de neurones animé | transition fade, caméra static |
+| 00:36.21 | C'est une économie d'énergie : inutile de traiter mille fois la même information. | fond dégradé animé, réseau de neurones animé | transition fade, caméra static |
 | 00:40.97 | Maintenant, on passe au niveau supérieur. | fond dégradé animé, texte animé | transition glitch, caméra in, sfx riser, musique intensité 0.75 |
 | 00:43.33 | Fixe la croix au centre. Des points roses disparaissent l'un après l'autre. | lilac chaser (recréé en code) | transition flash, caméra static, musique intensité 0.4 |
 | 00:47.40 | Ne les suis pas des yeux. Reste sur la croix, et attends. | ↳ (même plan) |  |
 | 00:50.36 | Au bout de quelques secondes, quelque chose d'étrange va se produire. | ↳ (même plan) |  |
 | 00:54.35 | Un point vert apparaît… et se met à tourner. | ↳ (même plan) |  |
-| 00:56.91 | Et si tu tiens bon, les points roses finissent par s'effacer. Il ne reste qu'un point vert qui tourne dans le vide. | ↳ (même plan) |  |
+| 00:56.92 | Et si tu tiens bon, les points roses finissent par s'effacer. Il ne reste qu'un point vert qui tourne dans le vide. | ↳ (même plan) |  |
 | 01:02.87 | *(silence 4.0 s — le spectateur observe l'effet)* | ↳ (même plan) |  |
 | 01:06.87 | Sauf qu'il n'y a aucun point vert à l'écran. Il n'y en a jamais eu. | ↳ (même plan) | musique intensité 0.55 |
 | 01:10.42 | Cette illusion s'appelle le lilac chaser. Elle a été créée par Jeremy Hinton vers 2005. | fond dégradé animé, fiche archive (nom, date) | transition fade, caméra slow_in, sfx type |
-| 01:16.39 | Le vert, c'est une image rémanente: la couleur opposée du rose, que tes yeux créent chaque fois qu'un point disparaît. | lilac chaser (recréé en code) | transition zoom, caméra slow_in, musique intensité 0.7 |
-| 01:22.93 | Et les points roses s'effacent grâce à l'effet Troxler, que tu viens de découvrir. | lilac chaser (recréé en code) | transition cut, caméra static |
+| 01:16.40 | Le vert, c'est une image rémanente : la couleur opposée du rose, que tes yeux créent chaque fois qu'un point disparaît. | lilac chaser (recréé en code) | transition zoom, caméra slow_in, musique intensité 0.7 |
+| 01:22.94 | Et les points roses s'effacent grâce à l'effet Troxler, que tu viens de découvrir. | lilac chaser (recréé en code) | transition cut, caméra static |
 | 01:27.36 | Deux bugs de ton cerveau… réunis dans une seule image. | fond dégradé animé, texte animé | transition whip, caméra in, sfx pop |
-| 01:30.53 | Tu as vu le point vert? Écris « vert» en commentaire si ça a marché. | lilac chaser (recréé en code) | transition fade, caméra static, musique intensité 0.35 |
+| 01:30.53 | Tu as vu le point vert ? Écris « vert » en commentaire si ça a marché. | lilac chaser (recréé en code) | transition fade, caméra static, musique intensité 0.35 |
 
 **Sources / vérification des faits :**
 

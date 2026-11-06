@@ -112,7 +112,7 @@ def gen():
         pm += [f"## {vid} — {NICHES[v['niche']]['nom']}\n", f"**Fichier :** `{v['niche']}/{vid}.mp4`  ",
                f"**1. Titre :** {p['titre']}  ", f"**2. Description :** {p['description']}  ",
                f"**3. Hashtags :** {' '.join(p['hashtags'])}  ", f"**4. Phrase d'accroche :** « {p['accroche']} »  ",
-               f"**5. Couverture :** {p['couverture']}  ", f"**6. Créneau à tester :** {p['horaire']}  ",
+               f"**5. Couverture :** {p['couverture']} — image prête : `PUBLICATION/couvertures/{vid}_couverture.jpg`  ", f"**6. Créneau à tester :** {p['horaire']}  ",
                f"**7. Potentiel viral :** {p['potentiel']}\n"]
         rows.append([vid, v['niche'], p['titre'], p['description'], ' '.join(p['hashtags']), p['accroche'], p['couverture'], p['horaire'], p['potentiel']])
     open(os.path.join(pdir, 'PUBLICATION.md'), 'w').write('\n'.join(pm) + '\n')
@@ -130,7 +130,7 @@ def gen():
         if r.get('exists'):
             rm.append(f"| {vid} | {NICHES[v['niche']]['nom']} | {v['title']} | {r['duration']:.1f} s | {r['width']}×{r['height']} @ {eval(r['fps']):.0f} i/s | "
                       f"{r['vcodec'].upper()} ({r['profile']}) / {r['acodec'].upper()} {r['sample_rate'] // 1000} kHz | {r['bitrate_kbps']} kb/s | {r['size_mb']} Mo | "
-                      f"{r['lufs']} LUFS, TP {r['true_peak_db']} dB | {r.get('asr_word_recall', 0) * 100:.0f} % des mots | {r['caption_words_voiced'] * 100:.0f} % | {'✅' if r['ok'] else '⚠️'} |")
+                      f"{r['lufs']:.1f} LUFS, TP {r['true_peak_db']:.1f} dBTP | {r.get('asr_word_recall', 0) * 100:.0f} % des mots | {r['caption_words_voiced'] * 100:.0f} % | {'✅' if r['ok'] else '⚠️'} |")
         else:
             rm.append(f"| {vid} | {NICHES[v['niche']]['nom']} | {v['title']} | — | — | — | — | — | — | — | — | non rendu |")
     rm += ['\nFormat commun : MP4 (faststart), vidéo H.264 High 4.2 yuv420p BT.709, 1080×1920 (9:16), 30 i/s, audio AAC 192 kb/s 48 kHz stéréo, '
@@ -147,7 +147,7 @@ def gen():
             for k, ok in r.get('checks', {}).items():
                 q.append(f"- {'✅' if ok else '❌'} {k}")
             if r.get('exists'):
-                q.append(f"\nMesures : durée {r['duration']} s · {r['lufs']} LUFS · true peak {r['true_peak_db']} dBTP · niveau parole {r['level_speech_db']} dBFS vs pauses {r['level_gaps_db']} dBFS · "
+                q.append(f"\nMesures : durée {r['duration']:.1f} s · {r['lufs']:.1f} LUFS · true peak {r['true_peak_db']:.1f} dBTP · niveau parole {r['level_speech_db']:.1f} dBFS vs pauses {r['level_gaps_db']:.1f} dBFS · "
                          f"{r['caption_words']} mots sous-titrés, {r['caption_words_voiced'] * 100:.1f} % tombent sur de la voix, {r['caption_words_outside_segment']} hors segment · "
                          f"reconnaissance Whisper : {r.get('asr_word_recall', 0) * 100:.1f} % des mots du script · luminosité min {r['frame_mean_min']} · variation moyenne entre images {r['frame_change_mean']}")
                 if r.get('asr_excerpt'):

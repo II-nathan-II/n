@@ -8,14 +8,14 @@
 | Timecode | Narration | Visuel | Montage |
 |---|---|---|---|
 | 00:00.15 | Il existe une planète où il pleut du verre. | fond étoilé/nébuleuse procédural, planète 3D en rotation | transition cut, caméra in, sfx boom, musique intensité 0.35 |
-| 00:02.45 | Et pas doucement: il tombe de côté, à plus de 7 000 km/h. | nuages en défilement, pluie de verre horizontale | transition whip, caméra drift |
+| 00:02.45 | Et pas doucement : il tombe de côté, à plus de 7 000 km/h. | nuages en défilement, pluie de verre horizontale | transition whip, caméra drift |
 | 00:06.75 | Elle s'appelle HD 189733 b. | fond étoilé/nébuleuse procédural, planète 3D en rotation | transition zoom, caméra slow_in, étiquette « HD 189733 b » |
 | 00:10.49 | Elle se trouve à 64 années-lumière de nous, dans la constellation du Petit Renard. | fond étoilé/nébuleuse procédural, étoile/Soleil animé | transition flash, caméra push, sfx whoosh, étiquette « 64 ANNÉES-LUMIÈRE » |
 | 00:15.41 | Vue de loin, elle ressemble à une bille bleu cobalt… presque comme la Terre. | fond étoilé/nébuleuse procédural, planète 3D en rotation, texte animé | transition fade, caméra left |
 | 00:19.34 | Mais ce bleu n'a rien à voir avec un océan. | fond étoilé/nébuleuse procédural, planète 3D en rotation | transition cut, caméra drift |
 | 00:21.93 | C'est une géante gazeuse, un peu plus grosse que Jupiter. | fond étoilé/nébuleuse procédural, planète 3D en rotation, texte animé | transition whip, caméra slow_in, sfx pop |
 | 00:25.14 | Et elle tourne près de treize fois plus près de son étoile que Mercure autour du Soleil. | fond étoilé/nébuleuse procédural, schéma d'orbites, texte animé | transition zoom, caméra in |
-| 00:29.80 | Résultat: une année là-bas dure à peine plus de deux jours. | fond étoilé/nébuleuse procédural, schéma d'orbites | transition cut, caméra out, étiquette « UN AN = 2,2 JOURS » |
+| 00:29.80 | Résultat : une année là-bas dure à peine plus de deux jours. | fond étoilé/nébuleuse procédural, schéma d'orbites | transition cut, caméra out, étiquette « UN AN = 2,2 JOURS » |
 | 00:32.92 | Elle montre toujours la même face à son étoile. | fond étoilé/nébuleuse procédural, étoile/Soleil animé, planète 3D en rotation | transition fade, caméra left |
 | 00:35.52 | Côté jour, il fait plus de 1 000 °C. | fond étoilé/nébuleuse procédural, planète 3D en rotation, texte animé | transition cut, caméra in, sfx impact |
 | 00:37.85 | Cette différence de température crée des vents parmi les plus violents jamais mesurés. | fond étoilé/nébuleuse procédural, planète 3D en rotation, pluie de verre horizontale | transition whip, caméra drift, musique intensité 0.55 |
@@ -29,7 +29,7 @@
 | 01:11.14 | Son atmosphère contient du sulfure d'hydrogène. | fond dégradé animé, molécule 3D | transition cut, caméra in, sfx pop |
 | 01:13.92 | Le gaz qui donne aux œufs pourris leur odeur. | ↳ (même plan) |  |
 | 01:16.13 | Une magnifique planète bleue, où il pleut du verre à l'horizontale… et qui sent l'œuf pourri. | fond étoilé/nébuleuse procédural, planète 3D en rotation, pluie de verre horizontale | transition fade, caméra out, musique intensité 0.5 |
-| 01:20.54 | Alors, tu préfères la Terre… ou un séjour sous la pluie de verre? Dis-le en commentaire. | fond étoilé/nébuleuse procédural, planète 3D en rotation, texte animé | transition whip, caméra slow_in, sfx pop, musique intensité 0.3 |
+| 01:20.54 | Alors, tu préfères la Terre… ou un séjour sous la pluie de verre ? Dis-le en commentaire. | fond étoilé/nébuleuse procédural, planète 3D en rotation, texte animé | transition whip, caméra slow_in, sfx pop, musique intensité 0.3 |
 
 **Sources / vérification des faits :**
 

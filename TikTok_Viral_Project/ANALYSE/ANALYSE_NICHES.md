@@ -75,7 +75,7 @@ Notes de 1 à 5 (5 = meilleur), sur les critères demandés.
 ## 7. Monétisation : points de vigilance
 
 1. **Seuils d'entrée** : 10 000 abonnés et 100 000 vues sur 30 jours (compte neuf = phase de croissance d'abord).
-2. **Durée** : toutes les vidéos dépassent 60 s (de 83 à 112 s) ✅.
+2. **Durée** : toutes les vidéos dépassent 60 s (de 81,8 à 97,0 s) ✅.
 3. **Originalité** : scripts, visuels, musique et montage créés pour ce projet ✅. Garder une variété de formats pour ne pas paraître « produit en masse ».
 4. **IA** : la voix est synthétique (Kokoro) → activer le label « Contenu généré par IA ». Les visuels spatiaux sont des vues d'artiste : l'indiquer en description.
 5. **Exactitude** : faits vérifiés (sources dans `SCRIPTS/`) ; les formulations prudentes (« viendrait de », « pourrait ») sont volontaires là où la science est hypothétique.

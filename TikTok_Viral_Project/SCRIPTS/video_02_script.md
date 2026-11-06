@@ -13,10 +13,10 @@
 | 00:11.28 | Parce que la lumière met exactement ce temps pour parcourir les 150 millions de kilomètres qui nous séparent. | fond étoilé/nébuleuse procédural, étoile/Soleil animé, planète 3D en rotation, trajet de la lumière + chrono | transition zoom, caméra static |
 | 00:17.48 | Mais voici le détail que presque personne ne connaît. | fond étoilé/nébuleuse procédural, planète 3D en rotation | transition black, caméra push, sfx riser, musique intensité 0.2 |
 | 00:20.42 | La Terre continuerait, elle aussi, de tourner autour… du vide. | fond étoilé/nébuleuse procédural, schéma d'orbites, texte animé | transition flash, caméra in, musique intensité 0.6 |
-| 00:23.87 | Car la gravité, elle non plus, n'est pas instantanée: elle voyage à la vitesse de la lumière. | fond étoilé/nébuleuse procédural, grille d'espace-temps | transition zoom, caméra drift |
+| 00:23.87 | Car la gravité, elle non plus, n'est pas instantanée : elle voyage à la vitesse de la lumière. | fond étoilé/nébuleuse procédural, grille d'espace-temps | transition zoom, caméra drift |
 | 00:28.84 | En 2017, des astronomes l'ont vérifié grâce à la collision de deux étoiles à neutrons, à 130 millions d'années-lumière. | fond étoilé/nébuleuse procédural, fusion d'étoiles à neutrons + ondes gravitationnelles | transition flash, caméra slow_in, sfx shimmer, étiquette « 17 AOÛT 2017 » |
 | 00:36.18 | Les ondes gravitationnelles et la lumière sont arrivées à moins de deux secondes d'écart… après 130 millions d'années de voyage. | fond étoilé/nébuleuse procédural, fusion d'étoiles à neutrons + ondes gravitationnelles | transition cut, caméra in, sfx impact |
-| 00:43.26 | Donc, au bout de huit minutes vingt: la nuit. Partout. | fond étoilé/nébuleuse procédural, planète 3D en rotation | transition black, caméra slow_in, sfx boom, musique coupée |
+| 00:43.26 | Donc, au bout de huit minutes vingt : la nuit. Partout. | fond étoilé/nébuleuse procédural, planète 3D en rotation | transition black, caméra slow_in, sfx boom, musique coupée |
 | 00:45.93 | La Lune s'éteindrait aussi, puisqu'elle ne fait que renvoyer la lumière du Soleil. | fond étoilé/nébuleuse procédural, planète 3D en rotation | transition fade, caméra in, musique intensité 0.3 |
 | 00:50.25 | Et la Terre filerait tout droit dans l'espace, à 107 000 km/h. | fond étoilé/nébuleuse procédural, planète 3D en rotation | transition whip, caméra right, sfx whoosh, musique intensité 0.6 |
 | 00:54.72 | Mais le plus étrange, ce serait le ciel. | fond étoilé/nébuleuse procédural, ciel nocturne | transition fade, caméra up |
@@ -26,8 +26,8 @@
 | 01:11.89 | Les océans gèleraient en surface… mais cette couche de glace protégerait l'eau en dessous. | fond étoilé/nébuleuse procédural, planète 3D en rotation | transition fade, caméra drift |
 | 01:16.39 | Et tout au fond, près des sources hydrothermales, certaines formes de vie pourraient continuer à vivre. | source hydrothermale abyssale, particules | transition zoom, caméra up, musique intensité 0.7 |
 | 01:22.04 | Sans le Soleil. Uniquement grâce à la chaleur de la Terre elle-même. | ↳ (même plan) |  |
-| 01:25.75 | Rassure-toi: le Soleil ne peut pas disparaître comme ça. Il lui reste environ cinq milliards d'années. | fond étoilé/nébuleuse procédural, étoile/Soleil animé | transition flash, caméra out, sfx shimmer, étiquette « ≈ 5 MILLIARDS D'ANNÉES », musique intensité 0.5 |
-| 01:31.20 | Toi, tu ferais quoi pendant ces huit minutes? Dis-le en commentaire. | fond étoilé/nébuleuse procédural, étoile/Soleil animé, planète 3D en rotation, trajet de la lumière + chrono | transition whip, caméra static, musique intensité 0.35 |
+| 01:25.75 | Rassure-toi : le Soleil ne peut pas disparaître comme ça. Il lui reste environ cinq milliards d'années. | fond étoilé/nébuleuse procédural, étoile/Soleil animé | transition flash, caméra out, sfx shimmer, étiquette « ≈ 5 MILLIARDS D'ANNÉES », musique intensité 0.5 |
+| 01:31.20 | Toi, tu ferais quoi pendant ces huit minutes ? Dis-le en commentaire. | fond étoilé/nébuleuse procédural, étoile/Soleil animé, planète 3D en rotation, trajet de la lumière + chrono | transition whip, caméra static, musique intensité 0.35 |
 
 **Sources / vérification des faits :**
 
