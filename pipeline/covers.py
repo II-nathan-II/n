@@ -17,6 +17,11 @@ COVERS = {  # (index du segment, fraction du plan, texte, couleur)
     'video_08': (0, 0.5, "CE N'EST PAS UN\nEFFET SPÉCIAL", (255, 216, 74)),
     'video_09': (0, 0.5, "LES AURORES\nVUES DE L'ESPACE", (255, 216, 74)),
     'video_10': (0, 0.5, "LE SAHARA NOURRIT\nL'AMAZONIE", (255, 216, 74)),
+    'video_11': (0, 0.5, "1 CUILLÈRE =\n1 MILLIARD DE TONNES", (255, 216, 74)),
+    'video_12': (0, 0.5, "LA LUNE\nS'ÉLOIGNE", (255, 216, 74)),
+    'video_13': (1, 0.5, "LE VOLCAN\nGÉANT DE MARS", (255, 216, 74)),
+    'video_14': (1, 0.5, "PLUS GRANDE\nQUE LA TERRE", (255, 216, 74)),
+    'video_15': (0, 0.5, "CETTE LUMIÈRE\nA 100 000 ANS", (255, 216, 74)),
 }
 
 def main():
