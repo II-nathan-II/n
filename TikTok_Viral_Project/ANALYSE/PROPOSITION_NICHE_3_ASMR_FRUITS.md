@@ -2,6 +2,8 @@
 
 *6 novembre 2026. Cette niche n'est pas encore produite : il manque les crédits de génération vidéo IA (voir § 4).*
 
+> **Mise à jour :** la proposition est devenue deux séries complètes, prêtes à produire. Voir `NICHE_3_VILLA_VITAMINE/` (saison 1, 10 épisodes), `NICHE_4_CRISTAL_ASMR/` (10 vidéos de 90 s), `PLAN_VIRALITE_MONETISATION_NICHES_3_4.md` et `budget_niches_3_4.md`.
+
 ## 1. Pourquoi ces formats marchent
 
 | Format | Exemple connu | Ce qui le rend viral | Source |
