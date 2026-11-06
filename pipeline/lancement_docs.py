@@ -3,13 +3,20 @@ import os
 import publication_data as P
 from common import PROJECT
 
-VIDS = ['video_01', 'video_02', 'video_03', 'video_04', 'video_05', 'video_11', 'video_12', 'video_13', 'video_14', 'video_15']
+VIDS = ['video_01', 'video_02', 'video_03', 'video_04', 'video_05', 'video_11', 'video_12', 'video_13', 'video_14', 'video_15',
+        'video_16', 'video_17', 'video_18', 'video_19', 'video_20', 'video_21', 'video_22', 'video_23', 'video_24', 'video_25']
 # 2 vidéos par jour (décision de l'utilisateur), à partir du vendredi 6 novembre 2026
-CALENDRIER = [('Ven. 6 nov.', '18 h 30', 'video_01'), ('Ven. 6 nov.', '21 h 00', 'video_02'),
+CALENDRIER = [('Ven. 6 nov.', '20 h 45', 'video_01'), ('Ven. 6 nov.', '22 h 00', 'video_02'),
               ('Sam. 7 nov.', '12 h 30', 'video_03'), ('Sam. 7 nov.', '19 h 00', 'video_04'),
               ('Dim. 8 nov.', '12 h 30', 'video_05'), ('Dim. 8 nov.', '19 h 00', 'video_11'),
               ('Lun. 9 nov.', '12 h 30', 'video_12'), ('Lun. 9 nov.', '19 h 00', 'video_13'),
-              ('Mar. 10 nov.', '12 h 30', 'video_14'), ('Mar. 10 nov.', '19 h 00', 'video_15')]
+              ('Mar. 10 nov.', '12 h 30', 'video_14'), ('Mar. 10 nov.', '19 h 00', 'video_15'),
+              # série 3 : Mercure avant l'arrivée de BepiColombo (21 nov.), Voyager avant le jour-lumière (18 nov.)
+              ('Mer. 11 nov.', '12 h 30', 'video_16'), ('Mer. 11 nov.', '19 h 00', 'video_17'),
+              ('Jeu. 12 nov.', '12 h 30', 'video_18'), ('Jeu. 12 nov.', '19 h 00', 'video_19'),
+              ('Ven. 13 nov.', '12 h 30', 'video_20'), ('Ven. 13 nov.', '19 h 00', 'video_21'),
+              ('Sam. 14 nov.', '12 h 30', 'video_22'), ('Sam. 14 nov.', '19 h 00', 'video_23'),
+              ('Dim. 15 nov.', '12 h 30', 'video_24'), ('Dim. 15 nov.', '19 h 00', 'video_25')]
 
 
 def main():
@@ -25,7 +32,7 @@ def main():
          "> L'Univers est plus fou que la science-fiction. Planètes où il pleut du verre, trous noirs, vide cosmique géant : chaque vidéo raconte un fait réel et vérifié, en moins de deux minutes, avec de vraies images de la NASA. Nouvelle vidéo chaque jour. 🌌",
          "> Images : NASA (domaine public). Voix de synthèse et musiques originales.", "",
          "## 2. Les fichiers à publier", "",
-         "- Vidéos : `TikTok_Viral_Project/NICHE_1/video_01.mp4` … `video_05.mp4` et `video_11.mp4` … `video_15.mp4`. Sur GitHub, ouvre le fichier puis clique sur « Download raw file ». Tu peux aussi les télécharger depuis le chat.",
+         "- Vidéos : `TikTok_Viral_Project/NICHE_1/video_01.mp4` … `video_05.mp4` et `video_11.mp4` … `video_25.mp4`. Sur GitHub, ouvre le fichier puis clique sur « Download raw file ». Tu peux aussi les télécharger depuis le chat.",
          "- Publie le **fichier d'origine** sur les deux plateformes. Ne republie jamais sur YouTube une vidéo téléchargée depuis TikTok : elle porte le filigrane TikTok et YouTube la pousse moins.",
          "- Couvertures : `PUBLICATION/couvertures/video_0X_couverture.jpg`. Sur TikTok, utilise « Modifier la couverture » → « Importer ». Sur YouTube Shorts, choisis une image de la vidéo dans l'appli mobile.", "",
          "## 3. Réglages à chaque publication", "",
@@ -52,7 +59,7 @@ def main():
           "| Plateforme | Conditions (à vérifier dans l'appli, elles changent) | Nos vidéos |", "|---|---|---|",
           "| TikTok Creator Rewards | 18 ans et plus, 10 000 abonnés, 100 000 vues sur 30 jours, vidéos originales de plus d'une minute | ✅ 68 à 96 s, originales |",
           "| YouTube Partner Program | 1 000 abonnés et 10 millions de vues de Shorts sur 90 jours (ou 4 000 h de visionnage de vidéos longues sur 12 mois). YouTube a annoncé en août 2026 des seuils plus élevés pour les nouveaux candidats : vérifie dans YouTube Studio → Revenus | ✅ Shorts originaux |",
-          "", "Le plus important est la régularité : 10 vidéos couvrent 5 jours à 2 par jour. Cette niche coûte 0 € à produire (images NASA, voix et musique générées localement), donc de nouvelles vidéos peuvent suivre chaque semaine.",
+          "", "Le plus important est la régularité : 20 vidéos couvrent 10 jours à 2 par jour (jusqu'au dimanche 15 novembre). Cette niche coûte 0 € à produire (images NASA, voix et musique générées localement), donc de nouvelles vidéos peuvent suivre chaque semaine.",
           "", "## 7. Programmation Metricool (faite le 6 novembre 2026)", "",
           "Les 10 vidéos sont programmées dans Metricool (marque 7923410) sur TikTok et YouTube, aux heures du § 4, en publication automatique.",
           "", "Réglages appliqués à chaque publication :",

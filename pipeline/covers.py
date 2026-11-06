@@ -22,6 +22,16 @@ COVERS = {  # (index du segment, fraction du plan, texte, couleur)
     'video_13': (1, 0.5, "LE VOLCAN\nGÉANT DE MARS", (255, 216, 74)),
     'video_14': (1, 0.5, "PLUS GRANDE\nQUE LA TERRE", (255, 216, 74)),
     'video_15': (0, 0.5, "CETTE LUMIÈRE\nA 100 000 ANS", (255, 216, 74)),
+    'video_16': (0, 0.5, '16 LEVERS\nDE SOLEIL\nPAR JOUR', (255, 216, 74)),
+    'video_17': (0, 0.5, 'VENDREDI 13\nAVRIL 2029', (255, 216, 74)),
+    'video_18': (0, 0.5, "PLUS D'EAU\nQUE SUR TERRE", (255, 216, 74)),
+    'video_19': (0, 0.5, 'IL PLEUT\nDU MÉTHANE', (255, 216, 74)),
+    'video_20': (0, 0.6, "L'OBJET LE\nPLUS RAPIDE\nDE L'HISTOIRE", (255, 216, 74)),
+    'video_21': (0, 0.5, 'LES ANNEAUX\nDISPARAISSENT', (255, 216, 74)),
+    'video_22': (0, 0.5, 'DE LA GLACE\nSUR MERCURE', (255, 216, 74)),
+    'video_23': (0, 0.5, 'UN COUCHER\nDE SOLEIL\nBLEU', (255, 216, 74)),
+    'video_24': (0, 0.5, "CETTE LUNE\nCRACHE DE L'EAU", (255, 216, 74)),
+    'video_25': (0, 0.5, 'À 1 JOUR-\nLUMIÈRE DE\nNOUS', (255, 216, 74)),
 }
 
 def main():
