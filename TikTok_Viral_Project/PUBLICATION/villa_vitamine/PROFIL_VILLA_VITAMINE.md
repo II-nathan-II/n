@@ -20,6 +20,10 @@ Autres bios possibles (toutes sous la limite de 80 caractères) :
 - Validation en deux étapes activée.
 - Créer la playlist « Villa Vitamine — Saison 1 » dès le 2e épisode publié.
 
-## Publication automatique
+## Publication (décision du 6 novembre 2026)
 
-Dans Metricool : créer une marque « Villa Vitamine », y connecter ce compte TikTok (et la chaîne YouTube de la niche si elle est créée). Une niche = une marque = un compte : les vidéos de fruits ne seront jamais publiées sur @vertige.cosmique.
+Metricool gratuit n'accepte qu'une marque (déjà utilisée par Vertige Cosmique). Pour Villa Vitamine :
+1. Claude produit chaque épisode, le contrôle et l'envoie dans le chat, avec la légende, les hashtags et l'horaire conseillé (19 h).
+2. L'utilisateur le publie lui-même sur le compte Villa Vitamine : sur ordinateur, tiktok.com → TikTok Studio → Importer → « Programmer » (jusqu'à 10 jours à l'avance), en activant « Contenu généré par IA ».
+
+Une niche = un compte : les vidéos de fruits ne sont jamais publiées sur @vertige.cosmique.
