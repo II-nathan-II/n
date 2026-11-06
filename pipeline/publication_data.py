@@ -1,7 +1,7 @@
 """Métadonnées de publication TikTok pour les 10 vidéos (heures : Europe/Paris, à tester)."""
 
 NICHES = {
-    'NICHE_1': dict(nom='Les secrets de l\'Univers', compte='ex. @univers.secret', theme='Espace, astronomie, phénomènes cosmiques réels'),
+    'NICHE_1': dict(nom='Les secrets de l\'Univers', compte='@vertige.cosmique (Vertige Cosmique)', theme='Espace, astronomie, phénomènes cosmiques réels'),
     'NICHE_2': dict(nom='Planète extrême', compte='ex. @planete.extreme', theme='Phénomènes naturels réels filmés depuis l\'espace et la Terre'),
 }
 
