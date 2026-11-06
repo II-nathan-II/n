@@ -305,6 +305,7 @@ class Backdrop(Layer):
         self.__dict__.update(locals()); del self.__dict__['self']
     def draw(self, f, t, dur):
         h = self.y1 - self.y0
-        prof = np.sin(np.linspace(0, np.pi, h, dtype=np.float32)) ** 0.7 * self.alpha
+        x = np.linspace(0, 1, h, dtype=np.float32)
+        prof = (np.clip(np.minimum(x, 1 - x) / 0.35, 0, 1) ** 2 * (3 - 2 * np.clip(np.minimum(x, 1 - x) / 0.35, 0, 1))) * self.alpha
         f[self.y0:self.y1] *= (1 - prof)[:, None, None]
         return f

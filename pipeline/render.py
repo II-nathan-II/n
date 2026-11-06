@@ -179,8 +179,14 @@ def render_video(video, out_path, workdir, preview=False, max_seconds=None, forc
             if captions.norm(w['w']) in emph:
                 emph_times.append(w['s'])
     master = os.path.join(workdir, f'{vid}_master.mkv' if max_seconds is None else f'{vid}_master_preview.mkv')
-    need_frames = force_frames or not os.path.exists(master) or max_seconds is not None
-    shots = build_shots(video, tl, setup=need_frames)
+    shots = build_shots(video, tl, setup=False)
+    sig = shots_signature(shots, video)
+    sig_path = master + '.sig'
+    old_sig = open(sig_path).read() if os.path.exists(sig_path) else ''
+    need_frames = force_frames or not os.path.exists(master) or max_seconds is not None or sig != old_sig
+    if need_frames:
+        for sh in shots:
+            sh.scene.setup(sh.dur)
     # whoosh automatique sur les transitions marquées
     for sh in shots[1:]:
         if sh.trans in ('whip', 'zoom', 'slide') and not any(abs(e[0] - sh.start) < 0.3 for e in sfx_events):
@@ -196,6 +202,7 @@ def render_video(video, out_path, workdir, preview=False, max_seconds=None, forc
     # 4. images → master sans sous-titres (quasi sans perte), réutilisable
     if need_frames:
         render_frames(video, shots, tl, master, total, emph_times, shake_times)
+        open(sig_path, 'w').write(sig)
     # 5. encodage final : master + sous-titres + mix audio
     vf = f"ass={ass_path}:fontsdir={FONTS}"
     cmd = ['ffmpeg', '-y', '-loglevel', 'error', '-i', master, '-i', wav_path, '-map', '0:v:0', '-map', '1:a:0', '-vf', vf,
@@ -206,6 +213,24 @@ def render_video(video, out_path, workdir, preview=False, max_seconds=None, forc
     subprocess.run(cmd, check=True)
     print(f'[{vid}] terminé en {time.time() - t_start:.0f}s → {out_path}', flush=True)
     return tl
+
+def shots_signature(shots, video):
+    """Empreinte du montage (plans, paramètres des couches, durées) : un master n'est réutilisé que s'il correspond."""
+    import hashlib
+    def prim(v):
+        if isinstance(v, (str, int, float, bool)) or v is None:
+            return v
+        if isinstance(v, (tuple, list)):
+            return [prim(x) for x in v]
+        return type(v).__name__
+    items = []
+    for sh in shots:
+        layers = []
+        for l in getattr(sh.scene, 'layers', []):
+            layers.append([type(l).__name__, sorted((k, prim(v)) for k, v in vars(l).items() if not k.startswith('_'))])
+        items.append([round(sh.start, 3), round(sh.dur, 3), sh.trans, prim(list(sh.cam.items())), layers])
+    items.append([video.get('theme'), video.get('grain'), video.get('vignette')])
+    return hashlib.md5(json.dumps(items, sort_keys=True, default=str).encode()).hexdigest()
 
 def render_frames(video, shots, tl, master, total, emph_times, shake_times):
     vid = video['id']
