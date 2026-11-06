@@ -291,8 +291,8 @@ R07 = dict(
         seg("Elle est montée jusqu'à {57|cinquante-sept} kilomètres d'altitude. Plus haut que n'importe quel panache volcanique jamais observé.",
             V(HHTH, 18.0, speed=0.3, zoom=1.1, extra=[back(170, 560), counter(0, 57, y=340, size=200, suffix=' km', color=(255, 140, 70), t1=2.0)]), 'push', 'cut', emph=['57']),
         seg("Selon la NASA, l'explosion était des centaines de fois plus puissante que la bombe d'Hiroshima.", V(HHTH, 18.6, speed=0.3, zoom=1.6, extra=[lambda: Flash(0.2, (255, 220, 180), 0.5, 0.9)]), 'in', 'flash', sfx=['impact'], emph=['centaines']),
-        seg("L'onde de choc a fait plusieurs fois le tour de la Terre.", V(GW17, 0.0, speed=0.55), 'slow_in', 'zoom', emph=['plusieurs', 'fois'], music=0.6),
-        seg("En France aussi, les baromètres l'ont enregistrée.", V(GW16, 1.0, speed=0.6), 'drift', 'whip', emph=['France']),
+        seg("L'onde de choc a fait plusieurs fois le tour de la Terre.", V(GW_TONGA, 0.0, speed=0.55), 'slow_in', 'zoom', emph=['plusieurs', 'fois'], music=0.6),
+        seg("En France aussi, les baromètres l'ont enregistrée.", V(GW_TONGA, 1.5, speed=0.6, zoom=1.5, cx=0.4), 'drift', 'whip', emph=['France']),
         seg("Son bruit a été entendu jusqu'en Alaska, à près de dix mille kilomètres.", V(GW_TONGA, 1.0, speed=0.5, zoom=1.2), 'in', 'cut'),
         seg("Un tsunami a traversé tout l'océan Pacifique, jusqu'aux côtes du Pérou.", V(EARTH, 21.0), 'right', 'fade'),
         seg("Pendant l'éruption, les satellites ont compté jusqu'à {2 600|deux mille six cents} éclairs par minute. Un record absolu.",
@@ -306,7 +306,7 @@ R07 = dict(
         seg("Et cette eau va y rester plusieurs années, avec des effets que les scientifiques étudient encore.", V(ISS, 118.0), 'slow_in', 'zoom'),
         seg("Et l'île ? Avant l'éruption, la NASA l'étudiait pour mieux comprendre… certains paysages de Mars.", P(MARS, cx=0.5), 'slow_in', 'fade', music=0.5),
         seg("En une seule matinée, elle a presque entièrement disparu.", V(HHTH, 17.0, speed=0.3, zoom=1.8), 'out', 'cut', emph=['disparu']),
-        seg("Tu avais entendu parler de cette éruption ? Dis-le en commentaire.", V(GW17, 1.5, speed=0.5), 'slow_in', 'fade', music=0.3),
+        seg("Tu avais entendu parler de cette éruption ? Dis-le en commentaire.", V(GW_TONGA, 2.5, speed=0.5, zoom=1.15, cx=0.6), 'slow_in', 'fade', music=0.3),
     ])
 
 R08 = dict(
