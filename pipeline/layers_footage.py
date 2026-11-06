@@ -33,8 +33,10 @@ class Clip(Layer):
         self.path = os.path.join(CLIPS, key + '.mp4')
         if not os.path.exists(self.path):
             if self.mode == 'cover':
-                cw = min(sw, sh * 9 / 16) / self.zoom
+                cw = min(sw, sh * 9 / 16) / max(self.zoom, 1.0)
                 ch = cw * 16 / 9
+                if ch > sh:
+                    ch = sh; cw = ch * 9 / 16
                 x = max(0, min(sw - cw, self.cx * sw - cw / 2)); y = max(0, min(sh - ch, self.cy * sh - ch / 2))
                 vf = f'crop={int(cw)}:{int(ch)}:{int(x)}:{int(y)},scale={W}:{H}:flags=lanczos'
                 if cw < W * 0.8:
@@ -85,7 +87,7 @@ class Photo(Layer):
         img = cv2.cvtColor(img, cv2.COLOR_BGR2RGB).astype(np.float32) / 255
         sh, sw = img.shape[:2]
         if self.mode == 'cover':
-            cw = min(sw, sh * 9 / 16) / self.zoom; ch = cw * 16 / 9
+            cw = min(sw, sh * 9 / 16) / max(self.zoom, 1.0); ch = cw * 16 / 9
             x = int(max(0, min(sw - cw, self.cx * sw - cw / 2))); y = int(max(0, min(sh - ch, self.cy * sh - ch / 2)))
             crop = img[y:y + int(ch), x:x + int(cw)]
             self.img = cv2.resize(crop, (W, H), interpolation=cv2.INTER_AREA if cw > W else cv2.INTER_CUBIC)
