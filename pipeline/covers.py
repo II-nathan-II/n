@@ -13,7 +13,7 @@ COVERS = {  # (index du segment, fraction du plan, texte, couleur)
     'video_04': (0, 0.5, 'TU TOMBES DANS\nUN TROU NOIR', (255, 216, 74)),
     'video_05': (0, 0.5, '1 JOUR\n> 1 AN', (255, 216, 74)),
     'video_06': (0, 0.5, "UN OURAGAN\nVU DE L'ESPACE", (255, 216, 74)),
-    'video_07': (2, 0.5, "100× PLUS PUISSANT\nQU'HIROSHIMA", (255, 216, 74)),
+    'video_07': (2, 0.5, "100× PLUS\nPUISSANT\nQU'HIROSHIMA", (255, 216, 74)),
     'video_08': (0, 0.5, "CE N'EST PAS UN\nEFFET SPÉCIAL", (255, 216, 74)),
     'video_09': (0, 0.5, "LES AURORES\nVUES DE L'ESPACE", (255, 216, 74)),
     'video_10': (0, 0.5, "LE SAHARA NOURRIT\nL'AMAZONIE", (255, 216, 74)),
@@ -38,12 +38,17 @@ def main():
         t = sh.start + sh.dur * frac
         img = sh.scene.render(t - sh.start, sh.dur)
         if not getattr(sh.scene, 'clean', False):
-            img = render.tonemap(np.maximum(img, 0)) * vignette(0.4)
+            img = render.tonemap(np.maximum(img, 0)) * vignette(v.get('vignette', 0.4))
         g = np.linspace(0, 1, H, dtype=np.float32)[:, None, None]
         img = img * (1 - 0.45 * np.clip((0.32 - g) / 0.32, 0, 1))
-        spr = text_sprite(txt, 'anton' if v['theme'] != 'psy' else 'poppins_black', 150 if v['theme'] != 'psy' else 120, col,
-                          10, (0, 0, 0), None, 10, None, 0, 'center')
-        blit_rgba(img, spr, W / 2, 330)
+        size = 150 if v['theme'] != 'psy' else 120
+        while True:  # le titre doit tenir dans 92 % de la largeur
+            spr = text_sprite(txt, 'anton' if v['theme'] != 'psy' else 'poppins_black', size, col,
+                              10, (0, 0, 0), None, 10, None, 0, 'center')
+            if spr.shape[1] <= W * 0.92 or size <= 90:
+                break
+            size -= 6
+        blit_rgba(img, spr, W / 2, max(330, spr.shape[0] / 2 + 150))  # titre sous la zone d'interface TikTok
         cv2.imwrite(os.path.join(out, f'{vid}_couverture.jpg'), cv2.cvtColor(to_u8(np.clip(img, 0, 1)), cv2.COLOR_RGB2BGR), [cv2.IMWRITE_JPEG_QUALITY, 92])
         print('couverture', vid, flush=True)
 

@@ -1,41 +1,45 @@
-# Video 09 — Tu as un trou dans ta vision
+# Video 09 — Les aurores boréales vues depuis l'espace
 
-**Niche :** Ton cerveau te ment  
-**Accroche à l'écran :** TU AS UN TROU DANS TA VISION  
-**Durée :** 95.8 s  
-**Musique :** composition originale procédurale (lofi, 88 BPM, progression lofi_d)
+**Niche :** Planète extrême  
+**Accroche à l'écran :** LES AURORES VUES DE L'ESPACE  
+**Durée :** 76.0 s  
+**Musique :** composition originale procédurale (space, 70 BPM, progression minor_wonder)
 
 | Timecode | Narration | Visuel | Montage |
 |---|---|---|---|
-| 00:00.15 | Il y a un trou dans ta vision. En ce moment même. Et ton cerveau te le cache. | test de la tache aveugle | transition cut, caméra static, sfx pop, musique intensité 0.3 |
-| 00:04.71 | Je vais te le prouver en quinze secondes. | ↳ (même plan) |  |
-| 00:07.07 | Ferme ton œil gauche. Avec ton œil droit, fixe la croix, à gauche de l'écran. | ↳ (même plan) |  |
-| 00:11.66 | Maintenant, rapproche lentement ton téléphone de ton visage… jusqu'à quinze ou vingt centimètres. | ↳ (même plan) |  |
-| 00:17.02 | Continue de fixer la croix. Ne regarde surtout pas le point. | ↳ (même plan) |  |
-| 00:20.59 | À un moment précis… le point noir disparaît complètement. | ↳ (même plan) |  |
-| 00:23.88 | *(silence 3.0 s — le spectateur observe l'effet)* | ↳ (même plan) |  |
-| 00:26.88 | Tu l'as perdu ? Recule un peu : il revient. | ↳ (même plan) |  |
-| 00:29.26 | Ce n'est pas un trucage. Tu viens de trouver ta tache aveugle. | ↳ (même plan) | sfx ding, musique intensité 0.5 |
-| 00:32.89 | Au fond de ton œil, il y a un endroit où le nerf optique quitte la rétine pour rejoindre le cerveau. | fond dégradé animé, coupe de l'œil | transition zoom, caméra slow_in |
-| 00:38.44 | À cet endroit précis, il n'y a aucune cellule capable de capter la lumière. Aucune. | ↳ (même plan) |  |
-| 00:43.46 | Chacun de tes yeux a donc un trou dans son champ de vision. | fond dégradé animé, coupe de l'œil | transition cut, caméra in |
-| 00:46.84 | Alors pourquoi tu ne l'as jamais remarqué ? | fond dégradé animé, texte animé | transition whip, caméra in, sfx pop, musique intensité 0.6 |
-| 00:49.20 | D'abord, tes deux yeux se complètent. Mais surtout… ton cerveau invente ce qui manque. | fond dégradé animé, réseau de neurones animé | transition fade, caméra slow_in |
-| 00:53.99 | Regarde. Même expérience, mais cette fois, le point coupe une ligne. | test de la tache aveugle | transition flash, caméra static, musique intensité 0.35 |
-| 00:57.75 | Œil gauche fermé, fixe la croix, et rapproche-toi doucement. | ↳ (même plan) |  |
-| 01:00.99 | Le point disparaît… mais la ligne, elle, paraît continue. | ↳ (même plan) |  |
-| 01:03.94 | *(silence 2.5 s — le spectateur observe l'effet)* | ↳ (même plan) |  |
-| 01:06.44 | Ton cerveau a bouché le trou avec ce qui lui semblait logique. Il a littéralement dessiné une partie de l'image. | fond dégradé animé, texte animé | transition zoom, caméra in, musique intensité 0.65 |
-| 01:12.96 | La tache aveugle a été découverte vers 1660 par le physicien français Edme Mariotte. | fond dégradé animé, fiche archive (nom, date) | transition fade, caméra slow_in, sfx type |
-| 01:19.29 | Il s'amusait même à faire disparaître la tête des courtisans… à la cour du roi d'Angleterre. | ↳ (même plan) |  |
-| 01:24.81 | Alors la prochaine fois que tu es sûr de ce que tu as vu… souviens-toi qu'une partie, ton cerveau l'a inventée. | fond dégradé animé, texte animé | transition whip, caméra slow_in, musique intensité 0.5 |
-| 01:30.60 | À quelle distance le point a disparu pour toi ? Réponds en commentaire. | test de la tache aveugle | transition fade, caméra static, musique intensité 0.35 |
+| 00:00.15 | Voici des aurores boréales… vues d'en haut, depuis la Station spatiale. | Vidéo réelle : « ISS views Aurora from the November 11-13, 2025 Geomagnetic S » (à 16 s) | transition cut, caméra in, sfx shimmer, musique intensité 0.35 |
+| 00:04.08 | Pour les astronautes, ce rideau de lumière ondule juste sous leurs pieds. | Vidéo réelle : « Aurora Australis as seen from ISS » (à 14 s) | transition whip, caméra slow_in |
+| 00:07.65 | Mais d'où vient cette lumière ? | Vidéo réelle : « ISS views Aurora from the November 11-13, 2025 Geomagnetic S » (à 48 s) | transition cut, caméra push |
+| 00:09.34 | Tout commence sur le Soleil, à 150 millions de kilomètres. | Vidéo réelle : « Largest Flare yet from Solar Cycle 25 » (à 1 s) | transition zoom, caméra in |
+| 00:13.08 | Il projette en permanence des particules électriques dans l'espace : le vent solaire. | Vidéo réelle : « Carrington Class Coronal Mass Ejection - ENLIL Simulation of » (à 2 s) | transition fade, caméra slow_in |
+| 00:17.54 | Parfois, une éruption en envoie des milliards de tonnes d'un coup… vers nous. | Vidéo réelle : « Largest Flare yet from Solar Cycle 25 » (à 3 s) | transition flash, caméra push, sfx impact, musique intensité 0.6 |
+| 00:21.06 | Le champ magnétique de la Terre nous protège… mais près des pôles, il guide une partie de ces particules vers l'atmosphère. | Vidéo réelle : « The Aurora Named STEVE » (à 39 s) | transition zoom, caméra slow_in |
+| 00:27.48 | En percutant l'air, entre 100 et 300 kilomètres d'altitude, elles font briller les gaz. | Vidéo réelle : « The Aurora Named STEVE » (à 56 s) | transition fade, caméra in |
+| 00:32.57 | L'oxygène donne le vert… et le rouge tout en haut. L'azote donne les teintes bleues et violettes. | Vidéo réelle : « Aurora Australis as seen from ISS » (à 24 s) | transition whip, caméra up, musique intensité 0.75 |
+| 00:37.42 | En mai 2024, la tempête solaire la plus forte depuis vingt ans a fait descendre les aurores très au sud. | Vidéo réelle : « What Happened During the Biggest Geomagnetic Storm in Over 2 » (à 0 s) | transition flash, caméra slow_in, étiquette « 10 MAI 2024 » |
+| 00:44.11 | On les a vues partout en France, jusque sur la Côte d'Azur. | Vidéo réelle : « What Happened During the Biggest Geomagnetic Storm in Over 2 » (à 2 s) | transition cut, caméra in |
+| 00:47.47 | Mais en 1859, il y a eu bien pire : l'événement de Carrington. | Vidéo réelle : « Largest Flare yet from Solar Cycle 25 » (à 6 s) | transition black, caméra push, sfx riser, étiquette « 1859 » |
+| 00:52.42 | Des aurores visibles jusqu'aux Caraïbes, et des télégraphes qui crépitaient d'étincelles. | Vidéo réelle : « Carrington Class Coronal Mass Ejection - ENLIL Simulation of » (à 14 s) | transition zoom, caméra slow_in, musique intensité 0.9 |
+| 00:57.08 | Aujourd'hui, une tempête de cette ampleur pourrait perturber satellites, GPS et réseaux électriques. | Vidéo réelle : « ISS views Aurora from the November 11-13, 2025 Geomagnetic S » (à 68 s) | transition fade, caméra drift |
+| 01:02.73 | Et en 2018, des photographes amateurs ont même aidé la NASA à étudier une lueur inconnue, violette et rectiligne… qu'ils ont baptisée STEVE. | Vidéo réelle : « Aurora Australis as seen from ISS » (à 36 s) | transition whip, caméra slow_in, étiquette « STEVE », musique intensité 0.5 |
+| 01:11.17 | Tu les as vues en mai 2024 ? Dis-moi d'où en commentaire. | Vidéo réelle : « ISS views Aurora from the November 11-13, 2025 Geomagnetic S » (à 58 s) | transition fade, caméra out, musique intensité 0.3 |
+
+**Crédits images (séquences réelles utilisées) :**
+
+- ISS views Aurora from the November 11-13, 2025 Geomagnetic Storm — NASA's Goddard Space Flight Center Scientific Visualization Studio — NASA Scientific Visualization Studio — Domaine public (NASA — image uniquement, bande-son non utilisée) — https://svs.gsfc.nasa.gov/31375/
+- Aurora Australis as seen from ISS — NASA's Goddard Space Flight Center Scientific Visualization Studio — NASA Scientific Visualization Studio — Domaine public (NASA — image uniquement, bande-son non utilisée) — https://svs.gsfc.nasa.gov/31281/
+- Largest Flare yet from Solar Cycle 25 — NASA's Goddard Space Flight Center Scientific Visualization Studio — NASA Scientific Visualization Studio — Domaine public (NASA — image uniquement, bande-son non utilisée) — https://svs.gsfc.nasa.gov/14592/
+- Carrington Class Coronal Mass Ejection - ENLIL Simulation of A Series of CMEs — NASA's Goddard Space Flight Center Scientific Visualization Studio — NASA Scientific Visualization Studio — Domaine public (NASA — image uniquement, bande-son non utilisée) — https://svs.gsfc.nasa.gov/5375/
+- Largest Flare yet from Solar Cycle 25 — NASA's Goddard Space Flight Center Scientific Visualization Studio — NASA Scientific Visualization Studio — Domaine public (NASA — image uniquement, bande-son non utilisée) — https://svs.gsfc.nasa.gov/14592/
+- The Aurora Named STEVE — Genna Duberstein, Kasha Patel, Krystofer Kim — NASA Image and Video Library — Domaine public (média NASA — usage libre, sans logo NASA ni suggestion de soutien) — https://images.nasa.gov/details/GSFC_20180314_Aurora_m12865_Steve
+- What Happened During the Biggest Geomagnetic Storm in Over 20 Years — NASA's Goddard Space Flight Center Scientific Visualization Studio — NASA Scientific Visualization Studio — Domaine public (NASA — image uniquement, bande-son non utilisée) — https://svs.gsfc.nasa.gov/14835/
 
 **Sources / vérification des faits :**
 
-- Mariotte (vers 1660, publié en 1668) — découverte de la tache aveugle
-- Anatomie : papille optique dépourvue de photorécepteurs
+- NASA/NOAA — tempête géomagnétique G5 du 10 mai 2024, la plus forte depuis 2003
+- Événement de Carrington (1859) — aurores aux Caraïbes, télégraphes perturbés
+- NASA (2018) — STEVE, étudié avec des photographes amateurs (Alberta Aurora Chasers)
 
 **Texte prononcé (pour réenregistrement éventuel) :**
 
-> Il y a un trou dans ta vision. En ce moment même. Et ton cerveau te le cache. Je vais te le prouver en quinze secondes. Ferme ton œil gauche. Avec ton œil droit, fixe la croix, à gauche de l'écran. Maintenant, rapproche lentement ton téléphone de ton visage… jusqu'à quinze ou vingt centimètres. Continue de fixer la croix. Ne regarde surtout pas le point. À un moment précis… le point noir disparaît complètement. Tu l'as perdu? Recule un peu: il revient. Ce n'est pas un trucage. Tu viens de trouver ta tache aveugle. Au fond de ton œil, il y a un endroit où le nerf optique quitte la rétine pour rejoindre le cerveau. À cet endroit précis, il n'y a aucune cellule capable de capter la lumière. Aucune. Chacun de tes yeux a donc un trou dans son champ de vision. Alors pourquoi tu ne l'as jamais remarqué? D'abord, tes deux yeux se complètent. Mais surtout… ton cerveau invente ce qui manque. Regarde. Même expérience, mais cette fois, le point coupe une ligne. Œil gauche fermé, fixe la croix, et rapproche-toi doucement. Le point disparaît… mais la ligne, elle, paraît continue. Ton cerveau a bouché le trou avec ce qui lui semblait logique. Il a littéralement dessiné une partie de l'image. La tache aveugle a été découverte vers seize cent soixante par le physicien français Edme Mariotte. Il s'amusait même à faire disparaître la tête des courtisans… à la cour du roi d'Angleterre. Alors la prochaine fois que tu es sûr de ce que tu as vu… souviens-toi qu'une partie, ton cerveau l'a inventée. À quelle distance le point a disparu pour toi? Réponds en commentaire.
+> Voici des aurores boréales… vues d'en haut, depuis la Station spatiale. Pour les astronautes, ce rideau de lumière ondule juste sous leurs pieds. Mais d'où vient cette lumière? Tout commence sur le Soleil, à cent cinquante millions de kilomètres. Il projette en permanence des particules électriques dans l'espace: le vent solaire. Parfois, une éruption en envoie des milliards de tonnes d'un coup… vers nous. Le champ magnétique de la Terre nous protège… mais près des pôles, il guide une partie de ces particules vers l'atmosphère. En percutant l'air, entre cent et trois cents kilomètres d'altitude, elles font briller les gaz. L'oxygène donne le vert… et le rouge tout en haut. L'azote donne les teintes bleues et violettes. En mai deux mille vingt-quatre, la tempête solaire la plus forte depuis vingt ans a fait descendre les aurores très au sud. On les a vues partout en France, jusque sur la Côte d'Azur. Mais en dix-huit cent cinquante-neuf, il y a eu bien pire: l'événement de Carrington. Des aurores visibles jusqu'aux Caraïbes, et des télégraphes qui crépitaient d'étincelles. Aujourd'hui, une tempête de cette ampleur pourrait perturber satellites, GPS et réseaux électriques. Et en deux mille dix-huit, des photographes amateurs ont même aidé la NASA à étudier une lueur inconnue, violette et rectiligne… qu'ils ont baptisée STEVE. Tu les as vues en mai deux mille vingt-quatre? Dis-moi d'où en commentaire.

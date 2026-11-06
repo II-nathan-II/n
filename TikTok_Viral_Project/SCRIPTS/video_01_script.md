@@ -7,29 +7,40 @@
 
 | Timecode | Narration | Visuel | Montage |
 |---|---|---|---|
-| 00:00.15 | Il existe une planète où il pleut du verre. | fond étoilé/nébuleuse procédural, planète 3D en rotation | transition cut, caméra in, sfx boom, musique intensité 0.35 |
-| 00:02.45 | Et pas doucement : il tombe de côté, à plus de 7 000 km/h. | nuages en défilement, pluie de verre horizontale | transition whip, caméra drift |
-| 00:06.75 | Elle s'appelle HD 189733 b. | fond étoilé/nébuleuse procédural, planète 3D en rotation | transition zoom, caméra slow_in, étiquette « HD 189733 b » |
-| 00:10.49 | Elle se trouve à 64 années-lumière de nous, dans la constellation du Petit Renard. | fond étoilé/nébuleuse procédural, étoile/Soleil animé | transition flash, caméra push, sfx whoosh, étiquette « 64 ANNÉES-LUMIÈRE » |
-| 00:15.41 | Vue de loin, elle ressemble à une bille bleu cobalt… presque comme la Terre. | fond étoilé/nébuleuse procédural, planète 3D en rotation, texte animé | transition fade, caméra left |
-| 00:19.34 | Mais ce bleu n'a rien à voir avec un océan. | fond étoilé/nébuleuse procédural, planète 3D en rotation | transition cut, caméra drift |
-| 00:21.93 | C'est une géante gazeuse, un peu plus grosse que Jupiter. | fond étoilé/nébuleuse procédural, planète 3D en rotation, texte animé | transition whip, caméra slow_in, sfx pop |
-| 00:25.14 | Et elle tourne près de treize fois plus près de son étoile que Mercure autour du Soleil. | fond étoilé/nébuleuse procédural, schéma d'orbites, texte animé | transition zoom, caméra in |
-| 00:29.80 | Résultat : une année là-bas dure à peine plus de deux jours. | fond étoilé/nébuleuse procédural, schéma d'orbites | transition cut, caméra out, étiquette « UN AN = 2,2 JOURS » |
-| 00:32.92 | Elle montre toujours la même face à son étoile. | fond étoilé/nébuleuse procédural, étoile/Soleil animé, planète 3D en rotation | transition fade, caméra left |
-| 00:35.52 | Côté jour, il fait plus de 1 000 °C. | fond étoilé/nébuleuse procédural, planète 3D en rotation, texte animé | transition cut, caméra in, sfx impact |
-| 00:37.85 | Cette différence de température crée des vents parmi les plus violents jamais mesurés. | fond étoilé/nébuleuse procédural, planète 3D en rotation, pluie de verre horizontale | transition whip, caméra drift, musique intensité 0.55 |
-| 00:42.28 | Et c'est là que ça devient fou. | fond étoilé/nébuleuse procédural, planète 3D en rotation | transition black, caméra push, sfx riser, musique intensité 0.2 |
-| 00:43.99 | En 2013, le télescope spatial Hubble a réussi à mesurer sa couleur. | fond uni, décomposition de la lumière | transition flash, caméra slow_in, sfx shimmer, étiquette « 2013 • HUBBLE », musique intensité 0.8 |
+| 00:00.15 | Il existe une planète où il pleut du verre. | Vidéo réelle : « NASA’s TESS Provides New Insights Into an Ultrahot World » (à 0 s) | transition cut, caméra in, sfx boom, musique intensité 0.35 |
+| 00:02.45 | Et pas doucement : il tombe de côté, à plus de 7 000 km/h. | Vidéo réelle : « NASA’s TESS Provides New Insights Into an Ultrahot World » (à 5 s), pluie de verre horizontale | transition whip, caméra drift |
+| 00:06.75 | Elle s'appelle HD 189733 b. | Photo réelle : « NASA Spitzer Finds Water Vapor on Hot, Alien Planet Artist C » | transition zoom, caméra slow_in, étiquette « HD 189733 b » |
+| 00:10.49 | Elle se trouve à 64 années-lumière de nous, dans la constellation du Petit Renard. | Vidéo réelle : « OpenUniverse: Simulated Universe Views for Roman » (à 3 s) | transition flash, caméra push, sfx whoosh, étiquette « 64 ANNÉES-LUMIÈRE » |
+| 00:15.41 | Vue de loin, elle ressemble à une bille bleu cobalt… presque comme la Terre. | Vidéo réelle : « Eroding Exoplanet » (à 116 s) | transition fade, caméra left |
+| 00:19.34 | Mais ce bleu n'a rien à voir avec un océan. | Vidéo réelle : « NASA’s TESS Provides New Insights Into an Ultrahot World » (à 8 s) | transition cut, caméra drift |
+| 00:21.93 | C'est une géante gazeuse, un peu plus grosse que Jupiter. | Vidéo réelle : « NASA’s TESS Provides New Insights Into an Ultrahot World » (à 1 s) | transition whip, caméra slow_in, sfx pop |
+| 00:25.14 | Et elle tourne près de treize fois plus près de son étoile que Mercure autour du Soleil. | Vidéo réelle : « Eroding Exoplanet » (à 38 s), texte animé | transition zoom, caméra in |
+| 00:29.80 | Résultat : une année là-bas dure à peine plus de deux jours. | Vidéo réelle : « NASA’s TESS Provides New Insights Into an Ultrahot World » (à 8 s) | transition cut, caméra out, étiquette « UN AN = 2,2 JOURS » |
+| 00:32.92 | Elle montre toujours la même face à son étoile. | Photo réelle : « NASA Spitzer Finds Water Vapor on Hot, Alien Planet Artist C » | transition fade, caméra left |
+| 00:35.52 | Côté jour, il fait plus de 1 000 °C. | Vidéo réelle : « NASA’s TESS Provides New Insights Into an Ultrahot World » (à 10 s), texte animé | transition cut, caméra in, sfx impact |
+| 00:37.85 | Cette différence de température crée des vents parmi les plus violents jamais mesurés. | Vidéo réelle : « NASA’s TESS Provides New Insights Into an Ultrahot World » (à 2 s), pluie de verre horizontale | transition whip, caméra drift, musique intensité 0.55 |
+| 00:42.28 | Et c'est là que ça devient fou. | Vidéo réelle : « Largest Flare yet from Solar Cycle 25 » (à 1 s) | transition black, caméra push, sfx riser, musique intensité 0.2 |
+| 00:43.99 | En 2013, le télescope spatial Hubble a réussi à mesurer sa couleur. | Vidéo réelle : « Hubble Space Telescope's 30th Anniversary Beauty Passes » (à 1 s) | transition flash, caméra slow_in, sfx shimmer, étiquette « 2013 • HUBBLE », musique intensité 0.8 |
 | 00:49.09 | Une première pour une planète située hors du système solaire. | ↳ (même plan) |  |
-| 00:52.42 | Pour les astronomes, ce bleu viendrait de minuscules particules de silicate dans ses nuages. | nuages en défilement, éclats de verre | transition zoom, caméra in |
-| 00:57.42 | Le silicate, c'est la matière première du verre. | fond uni, particules, éclats de verre | transition cut, caméra drift |
-| 01:00.15 | Dans cette chaleur extrême, il formerait de minuscules gouttelettes de verre… balayées par des vents supersoniques. | nuages en défilement, pluie de verre horizontale | transition whip, caméra right, sfx whoosh, musique intensité 0.95 |
-| 01:05.96 | Et en 2024, le télescope James Webb a ajouté un dernier détail. | fond étoilé/nébuleuse procédural, miroir du télescope James Webb (stylisé) | transition zoom, caméra slow_in, étiquette « 2024 • JAMES WEBB », musique intensité 0.6 |
-| 01:11.14 | Son atmosphère contient du sulfure d'hydrogène. | fond dégradé animé, molécule 3D | transition cut, caméra in, sfx pop |
+| 00:52.42 | Pour les astronomes, ce bleu viendrait de minuscules particules de silicate dans ses nuages. | Vidéo réelle : « NASA’s TESS Provides New Insights Into an Ultrahot World » (à 4 s) | transition zoom, caméra in |
+| 00:57.42 | Le silicate, c'est la matière première du verre. | Vidéo réelle : « NASA’s TESS Provides New Insights Into an Ultrahot World » (à 11 s) | transition cut, caméra drift |
+| 01:00.15 | Dans cette chaleur extrême, il formerait de minuscules gouttelettes de verre… balayées par des vents supersoniques. | Vidéo réelle : « NASA’s TESS Provides New Insights Into an Ultrahot World » (à 0 s), pluie de verre horizontale | transition whip, caméra right, sfx whoosh, musique intensité 0.95 |
+| 01:05.96 | Et en 2024, le télescope James Webb a ajouté un dernier détail. | Vidéo réelle : « Astrophysics: Observing the Universe Vertical Video » (à 0 s) | transition zoom, caméra slow_in, étiquette « 2024 • JAMES WEBB », musique intensité 0.6 |
+| 01:11.14 | Son atmosphère contient du sulfure d'hydrogène. | Vidéo réelle : « Astrophysics: Observing the Universe Vertical Video » (à 2 s), texte animé | transition cut, caméra in, sfx pop |
 | 01:13.92 | Le gaz qui donne aux œufs pourris leur odeur. | ↳ (même plan) |  |
-| 01:16.13 | Une magnifique planète bleue, où il pleut du verre à l'horizontale… et qui sent l'œuf pourri. | fond étoilé/nébuleuse procédural, planète 3D en rotation, pluie de verre horizontale | transition fade, caméra out, musique intensité 0.5 |
-| 01:20.54 | Alors, tu préfères la Terre… ou un séjour sous la pluie de verre ? Dis-le en commentaire. | fond étoilé/nébuleuse procédural, planète 3D en rotation, texte animé | transition whip, caméra slow_in, sfx pop, musique intensité 0.3 |
+| 01:16.13 | Une magnifique planète bleue, où il pleut du verre à l'horizontale… et qui sent l'œuf pourri. | Photo réelle : « NASA Spitzer Finds Water Vapor on Hot, Alien Planet Artist C » | transition fade, caméra out, musique intensité 0.5 |
+| 01:20.54 | Alors, tu préfères la Terre… ou un séjour sous la pluie de verre ? Dis-le en commentaire. | Vidéo réelle : « Eroding Exoplanet » (à 116 s) | transition whip, caméra slow_in, sfx pop, musique intensité 0.3 |
+
+**Crédits images (séquences réelles utilisées) :**
+
+- NASA’s TESS Provides New Insights Into an Ultrahot World — NASA's Goddard Space Flight Center — NASA Scientific Visualization Studio — Domaine public (NASA — image uniquement, bande-son non utilisée) — https://svs.gsfc.nasa.gov/13635/
+- NASA Spitzer Finds Water Vapor on Hot, Alien Planet Artist Concept — ESA/C. Carreau — NASA Image and Video Library — Domaine public (média NASA — usage libre, sans logo NASA ni suggestion de soutien) — https://images.nasa.gov/details/PIA10364
+- OpenUniverse: Simulated Universe Views for Roman — NASA’s Goddard Space Flight Center and M. Troxel || OpenUniverseFullZoom_4k_Best.00001_print.jpg (1024x576) [111.9 KB] || OpenUniverseFullZoom_4k_Good.mp4 (3840x2160) [101.9 MB] || OpenUniverseFullZoo — NASA Scientific Visualization Studio — Domaine public (NASA — image uniquement, bande-son non utilisée) — https://svs.gsfc.nasa.gov/14749/
+- Eroding Exoplanet — NASA's Goddard Space Flight Center Scientific Visualization Studio — NASA Scientific Visualization Studio — Domaine public (NASA — image uniquement, bande-son non utilisée) — https://svs.gsfc.nasa.gov/11686/
+- NASA’s TESS Provides New Insights Into an Ultrahot World — NASA's Goddard Space Flight Center — NASA Scientific Visualization Studio — Domaine public (NASA — image uniquement, bande-son non utilisée) — https://svs.gsfc.nasa.gov/13635/
+- Largest Flare yet from Solar Cycle 25 — NASA's Goddard Space Flight Center Scientific Visualization Studio — NASA Scientific Visualization Studio — Domaine public (NASA — image uniquement, bande-son non utilisée) — https://svs.gsfc.nasa.gov/14592/
+- Hubble Space Telescope's 30th Anniversary Beauty Passes — NASA's Goddard Space Flight Center Scientific Visualization Studio — NASA Scientific Visualization Studio — Domaine public (NASA — image uniquement, bande-son non utilisée) — https://svs.gsfc.nasa.gov/20314/
+- Astrophysics: Observing the Universe Vertical Video — NASA's Goddard Space Flight Center Scientific Visualization Studio — NASA Scientific Visualization Studio — Domaine public (NASA — image uniquement, bande-son non utilisée) — https://svs.gsfc.nasa.gov/14799/
 
 **Sources / vérification des faits :**
 

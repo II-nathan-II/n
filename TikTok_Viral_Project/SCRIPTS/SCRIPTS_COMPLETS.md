@@ -14,29 +14,40 @@ Timecodes issus de la narration réelle (synthèse Kokoro). Le texte affiché co
 
 | Timecode | Narration | Visuel | Montage |
 |---|---|---|---|
-| 00:00.15 | Il existe une planète où il pleut du verre. | fond étoilé/nébuleuse procédural, planète 3D en rotation | transition cut, caméra in, sfx boom, musique intensité 0.35 |
-| 00:02.45 | Et pas doucement : il tombe de côté, à plus de 7 000 km/h. | nuages en défilement, pluie de verre horizontale | transition whip, caméra drift |
-| 00:06.75 | Elle s'appelle HD 189733 b. | fond étoilé/nébuleuse procédural, planète 3D en rotation | transition zoom, caméra slow_in, étiquette « HD 189733 b » |
-| 00:10.49 | Elle se trouve à 64 années-lumière de nous, dans la constellation du Petit Renard. | fond étoilé/nébuleuse procédural, étoile/Soleil animé | transition flash, caméra push, sfx whoosh, étiquette « 64 ANNÉES-LUMIÈRE » |
-| 00:15.41 | Vue de loin, elle ressemble à une bille bleu cobalt… presque comme la Terre. | fond étoilé/nébuleuse procédural, planète 3D en rotation, texte animé | transition fade, caméra left |
-| 00:19.34 | Mais ce bleu n'a rien à voir avec un océan. | fond étoilé/nébuleuse procédural, planète 3D en rotation | transition cut, caméra drift |
-| 00:21.93 | C'est une géante gazeuse, un peu plus grosse que Jupiter. | fond étoilé/nébuleuse procédural, planète 3D en rotation, texte animé | transition whip, caméra slow_in, sfx pop |
-| 00:25.14 | Et elle tourne près de treize fois plus près de son étoile que Mercure autour du Soleil. | fond étoilé/nébuleuse procédural, schéma d'orbites, texte animé | transition zoom, caméra in |
-| 00:29.80 | Résultat : une année là-bas dure à peine plus de deux jours. | fond étoilé/nébuleuse procédural, schéma d'orbites | transition cut, caméra out, étiquette « UN AN = 2,2 JOURS » |
-| 00:32.92 | Elle montre toujours la même face à son étoile. | fond étoilé/nébuleuse procédural, étoile/Soleil animé, planète 3D en rotation | transition fade, caméra left |
-| 00:35.52 | Côté jour, il fait plus de 1 000 °C. | fond étoilé/nébuleuse procédural, planète 3D en rotation, texte animé | transition cut, caméra in, sfx impact |
-| 00:37.85 | Cette différence de température crée des vents parmi les plus violents jamais mesurés. | fond étoilé/nébuleuse procédural, planète 3D en rotation, pluie de verre horizontale | transition whip, caméra drift, musique intensité 0.55 |
-| 00:42.28 | Et c'est là que ça devient fou. | fond étoilé/nébuleuse procédural, planète 3D en rotation | transition black, caméra push, sfx riser, musique intensité 0.2 |
-| 00:43.99 | En 2013, le télescope spatial Hubble a réussi à mesurer sa couleur. | fond uni, décomposition de la lumière | transition flash, caméra slow_in, sfx shimmer, étiquette « 2013 • HUBBLE », musique intensité 0.8 |
+| 00:00.15 | Il existe une planète où il pleut du verre. | Vidéo réelle : « NASA’s TESS Provides New Insights Into an Ultrahot World » (à 0 s) | transition cut, caméra in, sfx boom, musique intensité 0.35 |
+| 00:02.45 | Et pas doucement : il tombe de côté, à plus de 7 000 km/h. | Vidéo réelle : « NASA’s TESS Provides New Insights Into an Ultrahot World » (à 5 s), pluie de verre horizontale | transition whip, caméra drift |
+| 00:06.75 | Elle s'appelle HD 189733 b. | Photo réelle : « NASA Spitzer Finds Water Vapor on Hot, Alien Planet Artist C » | transition zoom, caméra slow_in, étiquette « HD 189733 b » |
+| 00:10.49 | Elle se trouve à 64 années-lumière de nous, dans la constellation du Petit Renard. | Vidéo réelle : « OpenUniverse: Simulated Universe Views for Roman » (à 3 s) | transition flash, caméra push, sfx whoosh, étiquette « 64 ANNÉES-LUMIÈRE » |
+| 00:15.41 | Vue de loin, elle ressemble à une bille bleu cobalt… presque comme la Terre. | Vidéo réelle : « Eroding Exoplanet » (à 116 s) | transition fade, caméra left |
+| 00:19.34 | Mais ce bleu n'a rien à voir avec un océan. | Vidéo réelle : « NASA’s TESS Provides New Insights Into an Ultrahot World » (à 8 s) | transition cut, caméra drift |
+| 00:21.93 | C'est une géante gazeuse, un peu plus grosse que Jupiter. | Vidéo réelle : « NASA’s TESS Provides New Insights Into an Ultrahot World » (à 1 s) | transition whip, caméra slow_in, sfx pop |
+| 00:25.14 | Et elle tourne près de treize fois plus près de son étoile que Mercure autour du Soleil. | Vidéo réelle : « Eroding Exoplanet » (à 38 s), texte animé | transition zoom, caméra in |
+| 00:29.80 | Résultat : une année là-bas dure à peine plus de deux jours. | Vidéo réelle : « NASA’s TESS Provides New Insights Into an Ultrahot World » (à 8 s) | transition cut, caméra out, étiquette « UN AN = 2,2 JOURS » |
+| 00:32.92 | Elle montre toujours la même face à son étoile. | Photo réelle : « NASA Spitzer Finds Water Vapor on Hot, Alien Planet Artist C » | transition fade, caméra left |
+| 00:35.52 | Côté jour, il fait plus de 1 000 °C. | Vidéo réelle : « NASA’s TESS Provides New Insights Into an Ultrahot World » (à 10 s), texte animé | transition cut, caméra in, sfx impact |
+| 00:37.85 | Cette différence de température crée des vents parmi les plus violents jamais mesurés. | Vidéo réelle : « NASA’s TESS Provides New Insights Into an Ultrahot World » (à 2 s), pluie de verre horizontale | transition whip, caméra drift, musique intensité 0.55 |
+| 00:42.28 | Et c'est là que ça devient fou. | Vidéo réelle : « Largest Flare yet from Solar Cycle 25 » (à 1 s) | transition black, caméra push, sfx riser, musique intensité 0.2 |
+| 00:43.99 | En 2013, le télescope spatial Hubble a réussi à mesurer sa couleur. | Vidéo réelle : « Hubble Space Telescope's 30th Anniversary Beauty Passes » (à 1 s) | transition flash, caméra slow_in, sfx shimmer, étiquette « 2013 • HUBBLE », musique intensité 0.8 |
 | 00:49.09 | Une première pour une planète située hors du système solaire. | ↳ (même plan) |  |
-| 00:52.42 | Pour les astronomes, ce bleu viendrait de minuscules particules de silicate dans ses nuages. | nuages en défilement, éclats de verre | transition zoom, caméra in |
-| 00:57.42 | Le silicate, c'est la matière première du verre. | fond uni, particules, éclats de verre | transition cut, caméra drift |
-| 01:00.15 | Dans cette chaleur extrême, il formerait de minuscules gouttelettes de verre… balayées par des vents supersoniques. | nuages en défilement, pluie de verre horizontale | transition whip, caméra right, sfx whoosh, musique intensité 0.95 |
-| 01:05.96 | Et en 2024, le télescope James Webb a ajouté un dernier détail. | fond étoilé/nébuleuse procédural, miroir du télescope James Webb (stylisé) | transition zoom, caméra slow_in, étiquette « 2024 • JAMES WEBB », musique intensité 0.6 |
-| 01:11.14 | Son atmosphère contient du sulfure d'hydrogène. | fond dégradé animé, molécule 3D | transition cut, caméra in, sfx pop |
+| 00:52.42 | Pour les astronomes, ce bleu viendrait de minuscules particules de silicate dans ses nuages. | Vidéo réelle : « NASA’s TESS Provides New Insights Into an Ultrahot World » (à 4 s) | transition zoom, caméra in |
+| 00:57.42 | Le silicate, c'est la matière première du verre. | Vidéo réelle : « NASA’s TESS Provides New Insights Into an Ultrahot World » (à 11 s) | transition cut, caméra drift |
+| 01:00.15 | Dans cette chaleur extrême, il formerait de minuscules gouttelettes de verre… balayées par des vents supersoniques. | Vidéo réelle : « NASA’s TESS Provides New Insights Into an Ultrahot World » (à 0 s), pluie de verre horizontale | transition whip, caméra right, sfx whoosh, musique intensité 0.95 |
+| 01:05.96 | Et en 2024, le télescope James Webb a ajouté un dernier détail. | Vidéo réelle : « Astrophysics: Observing the Universe Vertical Video » (à 0 s) | transition zoom, caméra slow_in, étiquette « 2024 • JAMES WEBB », musique intensité 0.6 |
+| 01:11.14 | Son atmosphère contient du sulfure d'hydrogène. | Vidéo réelle : « Astrophysics: Observing the Universe Vertical Video » (à 2 s), texte animé | transition cut, caméra in, sfx pop |
 | 01:13.92 | Le gaz qui donne aux œufs pourris leur odeur. | ↳ (même plan) |  |
-| 01:16.13 | Une magnifique planète bleue, où il pleut du verre à l'horizontale… et qui sent l'œuf pourri. | fond étoilé/nébuleuse procédural, planète 3D en rotation, pluie de verre horizontale | transition fade, caméra out, musique intensité 0.5 |
-| 01:20.54 | Alors, tu préfères la Terre… ou un séjour sous la pluie de verre ? Dis-le en commentaire. | fond étoilé/nébuleuse procédural, planète 3D en rotation, texte animé | transition whip, caméra slow_in, sfx pop, musique intensité 0.3 |
+| 01:16.13 | Une magnifique planète bleue, où il pleut du verre à l'horizontale… et qui sent l'œuf pourri. | Photo réelle : « NASA Spitzer Finds Water Vapor on Hot, Alien Planet Artist C » | transition fade, caméra out, musique intensité 0.5 |
+| 01:20.54 | Alors, tu préfères la Terre… ou un séjour sous la pluie de verre ? Dis-le en commentaire. | Vidéo réelle : « Eroding Exoplanet » (à 116 s) | transition whip, caméra slow_in, sfx pop, musique intensité 0.3 |
+
+**Crédits images (séquences réelles utilisées) :**
+
+- NASA’s TESS Provides New Insights Into an Ultrahot World — NASA's Goddard Space Flight Center — NASA Scientific Visualization Studio — Domaine public (NASA — image uniquement, bande-son non utilisée) — https://svs.gsfc.nasa.gov/13635/
+- NASA Spitzer Finds Water Vapor on Hot, Alien Planet Artist Concept — ESA/C. Carreau — NASA Image and Video Library — Domaine public (média NASA — usage libre, sans logo NASA ni suggestion de soutien) — https://images.nasa.gov/details/PIA10364
+- OpenUniverse: Simulated Universe Views for Roman — NASA’s Goddard Space Flight Center and M. Troxel || OpenUniverseFullZoom_4k_Best.00001_print.jpg (1024x576) [111.9 KB] || OpenUniverseFullZoom_4k_Good.mp4 (3840x2160) [101.9 MB] || OpenUniverseFullZoo — NASA Scientific Visualization Studio — Domaine public (NASA — image uniquement, bande-son non utilisée) — https://svs.gsfc.nasa.gov/14749/
+- Eroding Exoplanet — NASA's Goddard Space Flight Center Scientific Visualization Studio — NASA Scientific Visualization Studio — Domaine public (NASA — image uniquement, bande-son non utilisée) — https://svs.gsfc.nasa.gov/11686/
+- NASA’s TESS Provides New Insights Into an Ultrahot World — NASA's Goddard Space Flight Center — NASA Scientific Visualization Studio — Domaine public (NASA — image uniquement, bande-son non utilisée) — https://svs.gsfc.nasa.gov/13635/
+- Largest Flare yet from Solar Cycle 25 — NASA's Goddard Space Flight Center Scientific Visualization Studio — NASA Scientific Visualization Studio — Domaine public (NASA — image uniquement, bande-son non utilisée) — https://svs.gsfc.nasa.gov/14592/
+- Hubble Space Telescope's 30th Anniversary Beauty Passes — NASA's Goddard Space Flight Center Scientific Visualization Studio — NASA Scientific Visualization Studio — Domaine public (NASA — image uniquement, bande-son non utilisée) — https://svs.gsfc.nasa.gov/20314/
+- Astrophysics: Observing the Universe Vertical Video — NASA's Goddard Space Flight Center Scientific Visualization Studio — NASA Scientific Visualization Studio — Domaine public (NASA — image uniquement, bande-son non utilisée) — https://svs.gsfc.nasa.gov/14799/
 
 **Sources / vérification des faits :**
 
@@ -59,27 +70,39 @@ Timecodes issus de la narration réelle (synthèse Kokoro). Le texte affiché co
 
 | Timecode | Narration | Visuel | Montage |
 |---|---|---|---|
-| 00:00.15 | Si le Soleil disparaissait maintenant… tu ne le saurais pas avant huit minutes. | fond étoilé/nébuleuse procédural, étoile/Soleil animé | transition cut, caméra in, sfx boom, musique intensité 0.35 |
-| 00:04.09 | Pendant huit minutes et vingt secondes, tout continuerait normalement. | fond étoilé/nébuleuse procédural, halo, planète 3D en rotation | transition fade, caméra slow_in |
-| 00:07.54 | Le ciel resterait bleu. Tu sentirais encore sa chaleur sur ta peau. | fond dégradé animé, halo, ciel nocturne | transition whip, caméra up |
-| 00:11.28 | Parce que la lumière met exactement ce temps pour parcourir les 150 millions de kilomètres qui nous séparent. | fond étoilé/nébuleuse procédural, étoile/Soleil animé, planète 3D en rotation, trajet de la lumière + chrono | transition zoom, caméra static |
-| 00:17.48 | Mais voici le détail que presque personne ne connaît. | fond étoilé/nébuleuse procédural, planète 3D en rotation | transition black, caméra push, sfx riser, musique intensité 0.2 |
-| 00:20.42 | La Terre continuerait, elle aussi, de tourner autour… du vide. | fond étoilé/nébuleuse procédural, schéma d'orbites, texte animé | transition flash, caméra in, musique intensité 0.6 |
-| 00:23.87 | Car la gravité, elle non plus, n'est pas instantanée : elle voyage à la vitesse de la lumière. | fond étoilé/nébuleuse procédural, grille d'espace-temps | transition zoom, caméra drift |
-| 00:28.84 | En 2017, des astronomes l'ont vérifié grâce à la collision de deux étoiles à neutrons, à 130 millions d'années-lumière. | fond étoilé/nébuleuse procédural, fusion d'étoiles à neutrons + ondes gravitationnelles | transition flash, caméra slow_in, sfx shimmer, étiquette « 17 AOÛT 2017 » |
-| 00:36.18 | Les ondes gravitationnelles et la lumière sont arrivées à moins de deux secondes d'écart… après 130 millions d'années de voyage. | fond étoilé/nébuleuse procédural, fusion d'étoiles à neutrons + ondes gravitationnelles | transition cut, caméra in, sfx impact |
-| 00:43.26 | Donc, au bout de huit minutes vingt : la nuit. Partout. | fond étoilé/nébuleuse procédural, planète 3D en rotation | transition black, caméra slow_in, sfx boom, musique coupée |
-| 00:45.93 | La Lune s'éteindrait aussi, puisqu'elle ne fait que renvoyer la lumière du Soleil. | fond étoilé/nébuleuse procédural, planète 3D en rotation | transition fade, caméra in, musique intensité 0.3 |
-| 00:50.25 | Et la Terre filerait tout droit dans l'espace, à 107 000 km/h. | fond étoilé/nébuleuse procédural, planète 3D en rotation | transition whip, caméra right, sfx whoosh, musique intensité 0.6 |
-| 00:54.72 | Mais le plus étrange, ce serait le ciel. | fond étoilé/nébuleuse procédural, ciel nocturne | transition fade, caméra up |
-| 00:57.17 | Jupiter resterait visible encore plus d'une heure. Saturne, plus de deux heures. | scène interactive synchronisée sur la narration | transition cut, caméra static |
-| 01:01.60 | Les dernières lumières du système solaire s'éteindraient une à une. | ↳ (même plan) |  |
-| 01:05.02 | En une semaine, la température moyenne passerait sous les -18 °C. Après un an, sous les -73 °C. | fond étoilé/nébuleuse procédural, planète 3D en rotation, particules, compteur animé | transition flash, caméra in, sfx impact, musique intensité 0.45 |
-| 01:11.89 | Les océans gèleraient en surface… mais cette couche de glace protégerait l'eau en dessous. | fond étoilé/nébuleuse procédural, planète 3D en rotation | transition fade, caméra drift |
-| 01:16.39 | Et tout au fond, près des sources hydrothermales, certaines formes de vie pourraient continuer à vivre. | source hydrothermale abyssale, particules | transition zoom, caméra up, musique intensité 0.7 |
+| 00:00.15 | Si le Soleil disparaissait maintenant… tu ne le saurais pas avant huit minutes. | Vidéo réelle : « Largest Flare yet from Solar Cycle 25 » (à 0 s) | transition cut, caméra in, sfx boom, musique intensité 0.35 |
+| 00:04.09 | Pendant huit minutes et vingt secondes, tout continuerait normalement. | Vidéo réelle : « Spinning Earth with clouds, atmosphere, and night lights » (à 8 s) | transition fade, caméra slow_in |
+| 00:07.54 | Le ciel resterait bleu. Tu sentirais encore sa chaleur sur ta peau. | Vidéo réelle : « jsc2021m000138_4K_Earth_Views_Extended_Cut_for_Earth_Day_ 20 » (à 592 s) | transition whip, caméra up |
+| 00:11.28 | Parce que la lumière met exactement ce temps pour parcourir les 150 millions de kilomètres qui nous séparent. | Vidéo réelle : « Largest Flare yet from Solar Cycle 25 » (à 3 s), compteur animé | transition zoom, caméra static |
+| 00:17.48 | Mais voici le détail que presque personne ne connaît. | Vidéo réelle : « Spinning Earth with clouds, atmosphere, and night lights » (à 40 s) | transition black, caméra push, sfx riser, musique intensité 0.2 |
+| 00:20.42 | La Terre continuerait, elle aussi, de tourner autour… du vide. | Vidéo réelle : « Spinning Earth with clouds, atmosphere, and night lights » (à 62 s), texte animé | transition flash, caméra in, musique intensité 0.6 |
+| 00:23.87 | Car la gravité, elle non plus, n'est pas instantanée : elle voyage à la vitesse de la lumière. | Vidéo réelle : « Doomed Neutron Stars Create Blast of Light and Gravitational » (à 2 s) | transition zoom, caméra drift |
+| 00:28.84 | En 2017, des astronomes l'ont vérifié grâce à la collision de deux étoiles à neutrons, à 130 millions d'années-lumière. | Vidéo réelle : « Doomed Neutron Stars Create Blast of Light and Gravitational » (à 8 s) | transition flash, caméra slow_in, sfx shimmer, étiquette « 17 AOÛT 2017 » |
+| 00:36.18 | Les ondes gravitationnelles et la lumière sont arrivées à moins de deux secondes d'écart… après 130 millions d'années de voyage. | Vidéo réelle : « Doomed Neutron Stars Create Blast of Light and Gravitational » (à 14 s) | transition cut, caméra in, sfx impact |
+| 00:43.26 | Donc, au bout de huit minutes vingt : la nuit. Partout. | Vidéo réelle : « Spinning Earth with clouds, atmosphere, and night lights » (à 80 s) | transition black, caméra slow_in, sfx boom, musique coupée |
+| 00:45.93 | La Lune s'éteindrait aussi, puisqu'elle ne fait que renvoyer la lumière du Soleil. | Vidéo réelle : « Moon Phase and Libration, 2026 » (à 164 s) | transition fade, caméra in, musique intensité 0.3 |
+| 00:50.25 | Et la Terre filerait tout droit dans l'espace, à 107 000 km/h. | Vidéo réelle : « Spinning Earth with clouds, atmosphere, and night lights » (à 70 s) | transition whip, caméra right, sfx whoosh, musique intensité 0.6 |
+| 00:54.72 | Mais le plus étrange, ce serait le ciel. | Vidéo réelle : « OpenUniverse: Simulated Universe Views for Roman » (à 3 s) | transition fade, caméra up |
+| 00:57.17 | Jupiter resterait visible encore plus d'une heure. Saturne, plus de deux heures. | Vidéo réelle : « Hubble Maps Jupiter in 4k Ultra HD » (à 8 s), texte animé | transition cut, caméra static |
+| 01:01.60 | Les dernières lumières du système solaire s'éteindraient une à une. | Photo réelle : « Splendid Saturn », texte animé | transition fade, caméra static |
+| 01:05.02 | En une semaine, la température moyenne passerait sous les -18 °C. Après un an, sous les -73 °C. | Vidéo réelle : « jsc2021m000138_4K_Earth_Views_Extended_Cut_for_Earth_Day_ 20 » (à 2958 s), compteur animé | transition flash, caméra in, sfx impact, musique intensité 0.45 |
+| 01:11.89 | Les océans gèleraient en surface… mais cette couche de glace protégerait l'eau en dessous. | Vidéo réelle : « jsc2021m000138_4K_Earth_Views_Extended_Cut_for_Earth_Day_ 20 » (à 2563 s) | transition fade, caméra drift |
+| 01:16.39 | Et tout au fond, près des sources hydrothermales, certaines formes de vie pourraient continuer à vivre. | Vidéo réelle : « jsc2021m000138_4K_Earth_Views_Extended_Cut_for_Earth_Day_ 20 » (à 1617 s) | transition zoom, caméra down, musique intensité 0.7 |
 | 01:22.04 | Sans le Soleil. Uniquement grâce à la chaleur de la Terre elle-même. | ↳ (même plan) |  |
-| 01:25.75 | Rassure-toi : le Soleil ne peut pas disparaître comme ça. Il lui reste environ cinq milliards d'années. | fond étoilé/nébuleuse procédural, étoile/Soleil animé | transition flash, caméra out, sfx shimmer, étiquette « ≈ 5 MILLIARDS D'ANNÉES », musique intensité 0.5 |
-| 01:31.20 | Toi, tu ferais quoi pendant ces huit minutes ? Dis-le en commentaire. | fond étoilé/nébuleuse procédural, étoile/Soleil animé, planète 3D en rotation, trajet de la lumière + chrono | transition whip, caméra static, musique intensité 0.35 |
+| 01:25.75 | Rassure-toi : le Soleil ne peut pas disparaître comme ça. Il lui reste environ cinq milliards d'années. | Vidéo réelle : « Largest Flare yet from Solar Cycle 25 » (à 2 s) | transition flash, caméra out, sfx shimmer, étiquette « ≈ 5 MILLIARDS D'ANNÉES », musique intensité 0.5 |
+| 01:31.20 | Toi, tu ferais quoi pendant ces huit minutes ? Dis-le en commentaire. | Vidéo réelle : « Spinning Earth with clouds, atmosphere, and night lights » (à 30 s) | transition whip, caméra static, musique intensité 0.35 |
+
+**Crédits images (séquences réelles utilisées) :**
+
+- Largest Flare yet from Solar Cycle 25 — NASA's Goddard Space Flight Center Scientific Visualization Studio — NASA Scientific Visualization Studio — Domaine public (NASA — image uniquement, bande-son non utilisée) — https://svs.gsfc.nasa.gov/14592/
+- Spinning Earth with clouds, atmosphere, and night lights — NASA's Goddard Space Flight Center Scientific Visualization Studio — NASA Scientific Visualization Studio — Domaine public (NASA — image uniquement, bande-son non utilisée) — https://svs.gsfc.nasa.gov/5570/
+- jsc2021m000138_4K_Earth_Views_Extended_Cut_for_Earth_Day_ 2021_210422-4KMP4 — JSC — NASA Image and Video Library — Domaine public (média NASA — image uniquement) — https://images.nasa.gov/details/jsc2021m000138_4K_Earth_Views_Extended_Cut_for_Earth_Day_%202021_210422-4KMP4
+- Doomed Neutron Stars Create Blast of Light and Gravitational Waves — NASA's Goddard Space Flight Center/CI Lab — NASA Scientific Visualization Studio — Domaine public (NASA — image uniquement, bande-son non utilisée) — https://svs.gsfc.nasa.gov/12740/
+- Moon Phase and Libration, 2026 — NASA's Goddard Space Flight Center Scientific Visualization Studio — NASA Scientific Visualization Studio — Domaine public (NASA — image uniquement, bande-son non utilisée) — https://svs.gsfc.nasa.gov/5587/
+- OpenUniverse: Simulated Universe Views for Roman — NASA’s Goddard Space Flight Center and M. Troxel || OpenUniverseFullZoom_4k_Best.00001_print.jpg (1024x576) [111.9 KB] || OpenUniverseFullZoom_4k_Good.mp4 (3840x2160) [101.9 MB] || OpenUniverseFullZoo — NASA Scientific Visualization Studio — Domaine public (NASA — image uniquement, bande-son non utilisée) — https://svs.gsfc.nasa.gov/14749/
+- Hubble Maps Jupiter in 4k Ultra HD — NASA's Goddard Space Flight Center Scientific Visualization Studio — NASA Scientific Visualization Studio — Domaine public (NASA — image uniquement, bande-son non utilisée) — https://svs.gsfc.nasa.gov/12021/
+- Splendid Saturn — NASA/JPL/Space Science Institute — NASA Image and Video Library — Domaine public (média NASA — usage libre, sans logo NASA ni suggestion de soutien) — https://images.nasa.gov/details/PIA06594
+- Largest Flare yet from Solar Cycle 25 — NASA's Goddard Space Flight Center Scientific Visualization Studio — NASA Scientific Visualization Studio — Domaine public (NASA — image uniquement, bande-son non utilisée) — https://svs.gsfc.nasa.gov/14592/
 
 **Sources / vérification des faits :**
 
@@ -102,25 +125,32 @@ Timecodes issus de la narration réelle (synthèse Kokoro). Le texte affiché co
 
 | Timecode | Narration | Visuel | Montage |
 |---|---|---|---|
-| 00:00.15 | Il existe une zone de l'Univers tellement vide qu'on la surnomme simplement : le Grand Vide. | fond uni, toile cosmique 3D | transition cut, caméra in, sfx boom, musique intensité 0.35 |
-| 00:05.08 | Son nom officiel : le vide du Bouvier, d'après la constellation dans laquelle on l'observe. | fond étoilé/nébuleuse procédural, constellation | transition fade, caméra slow_in |
-| 00:10.19 | Il a été découvert en 1981… et sa taille donne le vertige. | fond étoilé/nébuleuse procédural, fiche archive (nom, date) | transition whip, caméra slow_in, sfx type |
-| 00:14.65 | 330 millions d'années-lumière de diamètre. | fond étoilé/nébuleuse procédural, compteur animé | transition zoom, caméra in, sfx impact |
-| 00:17.59 | Pour te donner une idée : on pourrait aligner plus de 3 000 Voies lactées, d'un bord à l'autre. | fond étoilé/nébuleuse procédural, rangée de galaxies (échelle), texte animé | transition whip, caméra right |
-| 00:22.43 | Normalement, une zone de cette taille devrait contenir environ 2 000 galaxies. | fond étoilé/nébuleuse procédural, particules, compteur animé | transition fade, caméra slow_in, musique intensité 0.5 |
-| 00:26.77 | Les astronomes en ont trouvé… une soixantaine. | fond étoilé/nébuleuse procédural, particules, compteur animé | transition cut, caméra in, sfx impact |
-| 00:29.45 | Une soixantaine de galaxies, perdues dans un océan de noir. | fond étoilé/nébuleuse procédural, particules | transition black, caméra out, musique intensité 0.25 |
-| 00:32.87 | Un astronome a résumé ça avec une phrase vertigineuse. | fond étoilé/nébuleuse procédural, texte animé | transition fade, caméra slow_in |
-| 00:36.31 | Si la Voie lactée se trouvait au centre de ce vide, on n'aurait découvert l'existence des autres galaxies que dans les années 1960. | fond étoilé/nébuleuse procédural, galaxie spirale (particules) | transition zoom, caméra in, musique intensité 0.6 |
-| 00:43.69 | Imagine : un ciel rempli de nos étoiles… et, au-delà, plus aucune galaxie visible à l'œil nu. | fond étoilé/nébuleuse procédural, ciel nocturne | transition fade, caméra up |
-| 00:49.32 | Évidemment, Internet s'est emballé : civilisation extraterrestre ? Monstre cosmique ? | fond étoilé/nébuleuse procédural, texte animé | transition glitch, caméra drift, musique intensité 0.75 |
-| 00:54.53 | La réalité est encore plus fascinante. | fond uni, toile cosmique 3D | transition flash, caméra slow_in, sfx shimmer |
+| 00:00.15 | Il existe une zone de l'Univers tellement vide qu'on la surnomme simplement : le Grand Vide. | Vidéo réelle : « OpenUniverse: Simulated Universe Views for Roman » (à 1 s) | transition cut, caméra in, sfx boom, musique intensité 0.35 |
+| 00:05.08 | Son nom officiel : le vide du Bouvier, d'après la constellation dans laquelle on l'observe. | Vidéo réelle : « OpenUniverse: Simulated Universe Views for Roman » (à 6 s), constellation | transition fade, caméra slow_in |
+| 00:10.19 | Il a été découvert en 1981… et sa taille donne le vertige. | Vidéo réelle : « OpenUniverse: Simulated Universe Views for Roman » (à 12 s), texte animé | transition whip, caméra slow_in, sfx type |
+| 00:14.65 | 330 millions d'années-lumière de diamètre. | Vidéo réelle : « OpenUniverse: Simulated Universe Views for Roman » (à 18 s), compteur animé | transition zoom, caméra in, sfx impact |
+| 00:17.59 | Pour te donner une idée : on pourrait aligner plus de 3 000 Voies lactées, d'un bord à l'autre. | Photo réelle : « Our Milky Way Gets a Makeover  Artist Concept », texte animé | transition whip, caméra right |
+| 00:22.43 | Normalement, une zone de cette taille devrait contenir environ 2 000 galaxies. | Vidéo réelle : « OpenUniverse: Simulated Universe Views for Roman » (à 36 s), compteur animé | transition fade, caméra slow_in, musique intensité 0.5 |
+| 00:26.77 | Les astronomes en ont trouvé… une soixantaine. | Vidéo réelle : « OpenUniverse: Simulated Universe Views for Roman » (à 2 s), compteur animé | transition cut, caméra in, sfx impact |
+| 00:29.45 | Une soixantaine de galaxies, perdues dans un océan de noir. | Vidéo réelle : « OpenUniverse: Simulated Universe Views for Roman » (à 3 s) | transition black, caméra out, musique intensité 0.25 |
+| 00:32.87 | Un astronome a résumé ça avec une phrase vertigineuse. | Photo réelle : « Our Milky Way Gets a Makeover  Artist Concept » | transition fade, caméra slow_in |
+| 00:36.31 | Si la Voie lactée se trouvait au centre de ce vide, on n'aurait découvert l'existence des autres galaxies que dans les années 1960. | Photo réelle : « Our Milky Way Gets a Makeover  Artist Concept » | transition zoom, caméra push, musique intensité 0.6 |
+| 00:43.69 | Imagine : un ciel rempli de nos étoiles… et, au-delà, plus aucune galaxie visible à l'œil nu. | Vidéo réelle : « OpenUniverse: Simulated Universe Views for Roman » (à 5 s) | transition fade, caméra up |
+| 00:49.32 | Évidemment, Internet s'est emballé : civilisation extraterrestre ? Monstre cosmique ? | Vidéo réelle : « OpenUniverse: Simulated Universe Views for Roman » (à 8 s), texte animé | transition glitch, caméra drift, musique intensité 0.75 |
+| 00:54.53 | La réalité est encore plus fascinante. | Vidéo réelle : « Journey Through the Cosmic Web: Cosmic Cruising 2 » (à 2 s) | transition flash, caméra slow_in, sfx shimmer |
 | 00:56.91 | À très grande échelle, l'Univers ressemble à une immense toile. | ↳ (même plan) |  |
-| 01:00.30 | Des filaments de galaxies… et entre eux, d'énormes bulles presque vides. | fond uni, toile cosmique 3D | transition zoom, caméra in, musique intensité 0.9 |
+| 01:00.30 | Des filaments de galaxies… et entre eux, d'énormes bulles presque vides. | Vidéo réelle : « Journey Through the Cosmic Web: Cosmic Cruising 2 » (à 20 s) | transition zoom, caméra in, musique intensité 0.9 |
 | 01:03.90 | Le Grand Vide serait né de la fusion de plusieurs bulles plus petites, au fil de milliards d'années. | ↳ (même plan) |  |
-| 01:09.15 | Il n'a donc rien d'impossible. Il est juste… extrême. | fond uni, toile cosmique 3D | transition cut, caméra push |
-| 01:12.27 | Et le plus troublant ? Notre propre galaxie se trouve, elle aussi, au bord d'un vide : le Vide local. | fond étoilé/nébuleuse procédural, galaxie spirale (particules), halo, texte animé | transition whip, caméra left, sfx riser, étiquette « LE VIDE LOCAL », musique intensité 0.5 |
-| 01:17.81 | Tu aurais préféré naître au centre du Grand Vide… ou ici ? Dis-le en commentaire. | fond uni, toile cosmique 3D | transition fade, caméra slow_in, musique intensité 0.3 |
+| 01:09.15 | Il n'a donc rien d'impossible. Il est juste… extrême. | Vidéo réelle : « OpenUniverse: Simulated Universe Views for Roman » (à 40 s) | transition cut, caméra push |
+| 01:12.27 | Et le plus troublant ? Notre propre galaxie se trouve, elle aussi, au bord d'un vide : le Vide local. | Photo réelle : « Our Milky Way Gets a Makeover  Artist Concept » | transition whip, caméra left, sfx riser, étiquette « LE VIDE LOCAL », musique intensité 0.5 |
+| 01:17.81 | Tu aurais préféré naître au centre du Grand Vide… ou ici ? Dis-le en commentaire. | Vidéo réelle : « Journey Through the Cosmic Web: Cosmic Cruising 2 » (à 40 s) | transition fade, caméra slow_in, musique intensité 0.3 |
+
+**Crédits images (séquences réelles utilisées) :**
+
+- OpenUniverse: Simulated Universe Views for Roman — NASA’s Goddard Space Flight Center and M. Troxel || OpenUniverseFullZoom_4k_Best.00001_print.jpg (1024x576) [111.9 KB] || OpenUniverseFullZoom_4k_Good.mp4 (3840x2160) [101.9 MB] || OpenUniverseFullZoo — NASA Scientific Visualization Studio — Domaine public (NASA — image uniquement, bande-son non utilisée) — https://svs.gsfc.nasa.gov/14749/
+- Our Milky Way Gets a Makeover  Artist Concept — NASA/JPL-Caltech — NASA Image and Video Library — Domaine public (média NASA — usage libre, sans logo NASA ni suggestion de soutien) — https://images.nasa.gov/details/PIA10748
+- OpenUniverse: Simulated Universe Views for Roman — NASA’s Goddard Space Flight Center and M. Troxel || OpenUniverseFullZoom_4k_Best.00001_print.jpg (1024x576) [111.9 KB] || OpenUniverseFullZoom_4k_Good.mp4 (3840x2160) [101.9 MB] || OpenUniverseFullZoo — NASA Scientific Visualization Studio — Domaine public (NASA — image uniquement, bande-son non utilisée) — https://svs.gsfc.nasa.gov/14749/
+- Journey Through the Cosmic Web: Cosmic Cruising 2 — NASA's Goddard Space Flight Center Scientific Visualization Studio — NASA Scientific Visualization Studio — Domaine public (NASA — image uniquement, bande-son non utilisée) — https://svs.gsfc.nasa.gov/10118/
 
 **Sources / vérification des faits :**
 
@@ -143,26 +173,34 @@ Timecodes issus de la narration réelle (synthèse Kokoro). Le texte affiché co
 
 | Timecode | Narration | Visuel | Montage |
 |---|---|---|---|
-| 00:00.15 | Voici ce qui t'arriverait si tu tombais dans un trou noir. | fond étoilé/nébuleuse procédural, trou noir avec disque d'accrétion et lentille gravitationnelle | transition cut, caméra in, sfx boom, musique intensité 0.4 |
-| 00:03.29 | Et attention : tout dépend de sa taille. | fond étoilé/nébuleuse procédural, trou noir avec disque d'accrétion et lentille gravitationnelle, texte animé | transition whip, caméra slow_in |
-| 00:05.49 | Prenons d'abord un petit trou noir, d'environ dix fois la masse du Soleil. | fond étoilé/nébuleuse procédural, trou noir avec disque d'accrétion et lentille gravitationnelle | transition zoom, caméra in, étiquette « ≈ 10 MASSES SOLAIRES » |
-| 00:09.57 | En t'approchant, la gravité tirerait beaucoup plus fort sur tes pieds que sur ta tête. | fond étoilé/nébuleuse procédural, trou noir avec disque d'accrétion et lentille gravitationnelle, astronaute | transition fade, caméra down |
-| 00:13.88 | Ton corps serait étiré comme un spaghetti. Les scientifiques appellent vraiment ça : la spaghettification. | fond étoilé/nébuleuse procédural, trou noir avec disque d'accrétion et lentille gravitationnelle, astronaute | transition cut, caméra in, sfx reverse, musique intensité 0.6 |
-| 00:19.71 | Et tu serais déchiré bien avant d'atteindre l'horizon des événements. | fond étoilé/nébuleuse procédural, trou noir avec disque d'accrétion et lentille gravitationnelle, flash lumineux | transition flash, caméra push, sfx impact |
-| 00:23.42 | Mais avec un trou noir supermassif, comme celui au centre de notre galaxie, tout change. | fond étoilé/nébuleuse procédural, trou noir avec disque d'accrétion et lentille gravitationnelle | transition zoom, caméra slow_in, étiquette « SAGITTARIUS A* », musique intensité 0.45 |
-| 00:28.35 | Il pèse environ quatre millions de fois le Soleil. Et paradoxalement… la chute serait plus douce. | fond étoilé/nébuleuse procédural, trou noir avec disque d'accrétion et lentille gravitationnelle, compteur animé | transition cut, caméra static |
-| 00:33.60 | Tu pourrais franchir l'horizon… sans rien ressentir de particulier. | fond étoilé/nébuleuse procédural, trou noir avec disque d'accrétion et lentille gravitationnelle, astronaute | transition fade, caméra down |
-| 00:37.28 | Pas de mur, pas de choc. Juste un point de non-retour, invisible. | fond étoilé/nébuleuse procédural, trou noir avec disque d'accrétion et lentille gravitationnelle, texte animé | transition cut, caméra in |
-| 00:41.02 | Maintenant, imagine qu'un ami te regarde depuis un vaisseau, bien à l'abri. | fond étoilé/nébuleuse procédural, trou noir avec disque d'accrétion et lentille gravitationnelle, astronaute | transition whip, caméra out, musique intensité 0.6 |
-| 00:44.99 | Pour lui, tu sembles ralentir… de plus en plus. | fond dégradé animé, horloges (dilatation du temps) | transition fade, caméra static |
-| 00:47.60 | Ta lumière devient de plus en plus rouge… puis de plus en plus faible. | fond étoilé/nébuleuse procédural, trou noir avec disque d'accrétion et lentille gravitationnelle, astronaute | transition fade, caméra slow_in |
+| 00:00.15 | Voici ce qui t'arriverait si tu tombais dans un trou noir. | Vidéo réelle : « Black Hole Accretion Disk Visualization » (à 2 s) | transition cut, caméra in, sfx boom, musique intensité 0.4 |
+| 00:03.29 | Et attention : tout dépend de sa taille. | Vidéo réelle : « Isolated Black Hole Visualization » (à 1 s) | transition whip, caméra slow_in |
+| 00:05.49 | Prenons d'abord un petit trou noir, d'environ dix fois la masse du Soleil. | Vidéo réelle : « Isolated Black Hole Visualization » (à 0 s) | transition zoom, caméra in, étiquette « ≈ 10 MASSES SOLAIRES » |
+| 00:09.57 | En t'approchant, la gravité tirerait beaucoup plus fort sur tes pieds que sur ta tête. | Vidéo réelle : « Massive Black Hole Shreds Passing Star » (à 10 s) | transition fade, caméra down |
+| 00:13.88 | Ton corps serait étiré comme un spaghetti. Les scientifiques appellent vraiment ça : la spaghettification. | Vidéo réelle : « Massive Black Hole Shreds Passing Star » (à 17 s) | transition cut, caméra in, sfx reverse, musique intensité 0.6 |
+| 00:19.71 | Et tu serais déchiré bien avant d'atteindre l'horizon des événements. | Vidéo réelle : « Massive Black Hole Shreds Passing Star » (à 23 s), flash lumineux | transition flash, caméra push, sfx impact |
+| 00:23.42 | Mais avec un trou noir supermassif, comme celui au centre de notre galaxie, tout change. | Vidéo réelle : « Black Hole Accretion Disk Visualization » (à 12 s) | transition zoom, caméra slow_in, étiquette « SAGITTARIUS A* », musique intensité 0.45 |
+| 00:28.35 | Il pèse environ quatre millions de fois le Soleil. Et paradoxalement… la chute serait plus douce. | Vidéo réelle : « Black Hole Accretion Disk Visualization » (à 18 s), compteur animé | transition cut, caméra static |
+| 00:33.60 | Tu pourrais franchir l'horizon… sans rien ressentir de particulier. | Vidéo réelle : « NASA Black Hole Visualization Takes Viewers Beyond the Brink » (à 0 s) | transition fade, caméra down |
+| 00:37.28 | Pas de mur, pas de choc. Juste un point de non-retour, invisible. | Vidéo réelle : « Isolated Black Hole Visualization » (à 8 s), texte animé | transition cut, caméra in |
+| 00:41.02 | Maintenant, imagine qu'un ami te regarde depuis un vaisseau, bien à l'abri. | Vidéo réelle : « Isolated Black Hole Visualization » (à 6 s) | transition whip, caméra out, musique intensité 0.6 |
+| 00:44.99 | Pour lui, tu sembles ralentir… de plus en plus. | Vidéo réelle : « Black Hole Accretion Disk Visualization » (à 30 s) | transition fade, caméra static |
+| 00:47.60 | Ta lumière devient de plus en plus rouge… puis de plus en plus faible. | Vidéo réelle : « Black Hole Accretion Disk Visualization » (à 33 s) | transition fade, caméra slow_in |
 | 00:51.33 | Tu as l'air figé au bord du trou noir, avant de t'effacer doucement. | ↳ (même plan) |  |
-| 00:54.92 | Pourtant, de ton point de vue, tu continues de tomber, tout à fait normalement. | fond étoilé/nébuleuse procédural, trou noir avec disque d'accrétion et lentille gravitationnelle, astronaute | transition whip, caméra down |
-| 00:58.88 | C'est la relativité d'Einstein : le temps ne s'écoule pas au même rythme pour vous deux. | fond étoilé/nébuleuse procédural, grille d'espace-temps | transition zoom, caméra drift, étiquette « RELATIVITÉ GÉNÉRALE », musique intensité 0.75 |
-| 01:03.83 | Une fois à l'intérieur, plus aucune direction ne mène vers la sortie. Toutes mènent au centre. | fond uni, trajectoires convergentes | transition black, caméra push, sfx whoosh, musique intensité 0.85 |
-| 01:09.02 | Pour le trou noir de notre galaxie, il te resterait quelques dizaines de secondes. | fond uni, trajectoires convergentes | transition cut, caméra in |
-| 01:13.34 | Et ce qui se passe au centre ? Personne ne le sait. Nos lois de la physique s'y effondrent. | fond étoilé/nébuleuse procédural, trou noir avec disque d'accrétion et lentille gravitationnelle | transition flash, caméra push, sfx boom, musique intensité 0.95 |
-| 01:17.85 | Alors, petit ou supermassif : tu choisirais lequel ? Réponds en commentaire. | fond étoilé/nébuleuse procédural, trou noir avec disque d'accrétion et lentille gravitationnelle, texte animé | transition whip, caméra slow_in, musique intensité 0.35 |
+| 00:54.92 | Pourtant, de ton point de vue, tu continues de tomber, tout à fait normalement. | Vidéo réelle : « NASA Black Hole Visualization Takes Viewers Beyond the Brink » (à 10 s) | transition whip, caméra down |
+| 00:58.88 | C'est la relativité d'Einstein : le temps ne s'écoule pas au même rythme pour vous deux. | Vidéo réelle : « Isolated Black Hole Visualization » (à 11 s) | transition zoom, caméra drift, étiquette « RELATIVITÉ GÉNÉRALE », musique intensité 0.75 |
+| 01:03.83 | Une fois à l'intérieur, plus aucune direction ne mène vers la sortie. Toutes mènent au centre. | Vidéo réelle : « NASA Black Hole Visualization Takes Viewers Beyond the Brink » (à 28 s) | transition black, caméra push, sfx whoosh, musique intensité 0.85 |
+| 01:09.02 | Pour le trou noir de notre galaxie, il te resterait quelques dizaines de secondes. | Vidéo réelle : « NASA Black Hole Visualization Takes Viewers Beyond the Brink » (à 36 s) | transition cut, caméra in |
+| 01:13.34 | Et ce qui se passe au centre ? Personne ne le sait. Nos lois de la physique s'y effondrent. | Vidéo réelle : « Black Hole Accretion Disk Visualization » (à 16 s) | transition flash, caméra push, sfx boom, musique intensité 0.95 |
+| 01:17.85 | Alors, petit ou supermassif : tu choisirais lequel ? Réponds en commentaire. | Vidéo réelle : « Black Hole Accretion Disk Visualization » (à 3 s) | transition whip, caméra slow_in, musique intensité 0.35 |
+
+**Crédits images (séquences réelles utilisées) :**
+
+- Black Hole Accretion Disk Visualization — NASA’s Goddard Space Flight Center/Jeremy Schnittman || BH_Accretion_Disk_Sim_360_4k_Prores.00001_print.jpg (1024x1024) [33.2 KB] || BH_Accretion_Disk_Sim_360_4k_Prores.00001_searchweb.png (320x180) [ — NASA Scientific Visualization Studio — Domaine public (NASA — image uniquement, bande-son non utilisée) — https://svs.gsfc.nasa.gov/13326/
+- Isolated Black Hole Visualization — NASA's Goddard Space Flight Center Scientific Visualization Studio — NASA Scientific Visualization Studio — Domaine public (NASA — image uniquement, bande-son non utilisée) — https://svs.gsfc.nasa.gov/14620/
+- Isolated Black Hole Visualization — NASA's Goddard Space Flight Center Scientific Visualization Studio — NASA Scientific Visualization Studio — Domaine public (NASA — image uniquement, bande-son non utilisée) — https://svs.gsfc.nasa.gov/14620/
+- Massive Black Hole Shreds Passing Star — NASA's Goddard Space Flight Center/CI Lab — NASA Scientific Visualization Studio — Domaine public (NASA — image uniquement, bande-son non utilisée) — https://svs.gsfc.nasa.gov/12005/
+- NASA Black Hole Visualization Takes Viewers Beyond the Brink — NASA's Goddard Space Flight Center/J. Schnittman and B. Powell — NASA Scientific Visualization Studio — Domaine public (NASA — image uniquement, bande-son non utilisée) — https://svs.gsfc.nasa.gov/14576/
 
 **Sources / vérification des faits :**
 
@@ -185,27 +223,34 @@ Timecodes issus de la narration réelle (synthèse Kokoro). Le texte affiché co
 
 | Timecode | Narration | Visuel | Montage |
 |---|---|---|---|
-| 00:00.15 | Sur Vénus, une journée dure plus longtemps qu'une année. | fond étoilé/nébuleuse procédural, planète 3D en rotation | transition cut, caméra in, sfx boom, musique intensité 0.35 |
-| 00:02.94 | Et ce n'est pas une image : c'est littéralement vrai. | fond étoilé/nébuleuse procédural, planète 3D en rotation | transition whip, caméra drift |
-| 00:05.56 | Vénus met 243 jours terrestres pour faire un tour sur elle-même… | scène interactive synchronisée sur la narration | transition zoom, caméra static |
+| 00:00.15 | Sur Vénus, une journée dure plus longtemps qu'une année. | Vidéo réelle : « NASA’s New Views of Venus’ Surface From Space » (à 163 s) | transition cut, caméra in, sfx boom, musique intensité 0.35 |
+| 00:02.94 | Et ce n'est pas une image : c'est littéralement vrai. | Vidéo réelle : « NASA’s New Views of Venus’ Surface From Space » (à 14 s) | transition whip, caméra drift |
+| 00:05.56 | Vénus met 243 jours terrestres pour faire un tour sur elle-même… | Vidéo réelle : « NASA’s New Views of Venus’ Surface From Space » (à 168 s), barres comparatives | transition zoom, caméra static |
 | 00:10.16 | … mais seulement 225 jours pour faire le tour du Soleil. | ↳ (même plan) |  |
-| 00:13.83 | Et elle tourne à l'envers : là-bas, le Soleil se lève à l'ouest et se couche à l'est. | paysage vénusien | transition fade, caméra slow_in |
-| 00:18.11 | On la surnomme parfois la jumelle de la Terre : presque la même taille, presque la même masse. | fond étoilé/nébuleuse procédural, planète 3D en rotation, texte animé | transition whip, caméra slow_in, musique intensité 0.5 |
-| 00:22.91 | Mais c'est un véritable enfer. | paysage vénusien, flash lumineux | transition cut, caméra push, sfx impact |
-| 00:24.68 | À sa surface, il fait 465 °C. Assez pour faire fondre du plomb. | paysage vénusien, assombrissement, thermomètre animé | transition fade, caméra static |
-| 00:29.68 | C'est plus chaud que Mercure, alors que Vénus est presque deux fois plus loin du Soleil. | fond étoilé/nébuleuse procédural, schéma d'orbites | transition zoom, caméra in |
-| 00:34.28 | La faute à son atmosphère : 96 % de dioxyde de carbone, et un effet de serre qui s'est emballé. | fond dégradé animé, molécule 3D | transition fade, caméra slow_in, musique intensité 0.65 |
-| 00:40.63 | Au-dessus de ta tête : des nuages d'acide sulfurique. | nuages en défilement, particules | transition whip, caméra up |
-| 00:43.72 | Et au sol, la pression est 90 fois celle de la Terre. Comme si tu étais à 900 m sous l'océan. | jauge de profondeur | transition slide, caméra static, sfx heartbeat |
-| 00:49.71 | En 1982, l'Union soviétique y a posé une sonde : Venera 13. | paysage vénusien, sonde Venera (stylisée) | transition fade, caméra slow_in, étiquette « VENERA 13 • 1982 », musique intensité 0.5 |
-| 00:54.56 | Elle a résisté deux heures et sept minutes. | paysage vénusien, assombrissement, sonde Venera (stylisée), compteur animé | transition cut, caméra in |
-| 00:56.89 | Juste le temps d'envoyer les premières photos en couleur de sa surface : un sol orange, sous un ciel jaune-orangé. | paysage vénusien | transition flash, caméra right, sfx shimmer |
-| 01:03.58 | Puis la chaleur et la pression l'ont réduite au silence. | paysage vénusien, assombrissement, sonde Venera (stylisée) | transition glitch, caméra slow_in, musique intensité 0.2 |
-| 01:06.58 | Mais voici le twist. | fond étoilé/nébuleuse procédural, planète 3D en rotation | transition black, caméra push, sfx riser |
-| 01:08.10 | À une cinquantaine de kilomètres d'altitude, dans les nuages, la pression et la température sont presque les mêmes que sur Terre. | mer de nuages vénusienne | transition flash, caméra slow_in, étiquette « ≈ 50 KM D'ALTITUDE », musique intensité 0.85 |
-| 01:15.19 | La NASA a même étudié un projet de dirigeables habités pour s'y installer. | mer de nuages vénusienne, dirigeable | transition whip, caméra in, étiquette « PROJET HAVOC • NASA » |
+| 00:13.83 | Et elle tourne à l'envers : là-bas, le Soleil se lève à l'ouest et se couche à l'est. | Vidéo réelle : « DAVINCI: Venus' Alpha Regio » (à 24 s), texte animé | transition fade, caméra slow_in |
+| 00:18.11 | On la surnomme parfois la jumelle de la Terre : presque la même taille, presque la même masse. | Vidéo réelle : « NASA’s New Views of Venus’ Surface From Space » (à 37 s) | transition whip, caméra slow_in, musique intensité 0.5 |
+| 00:22.91 | Mais c'est un véritable enfer. | Vidéo réelle : « Ten Mysteries of Venus » (à 137 s), flash lumineux | transition cut, caméra push, sfx impact |
+| 00:24.68 | À sa surface, il fait 465 °C. Assez pour faire fondre du plomb. | Vidéo réelle : « Ten Mysteries of Venus » (à 198 s), thermomètre animé | transition fade, caméra static |
+| 00:29.68 | C'est plus chaud que Mercure, alors que Vénus est presque deux fois plus loin du Soleil. | Vidéo réelle : « Largest Flare yet from Solar Cycle 25 » (à 4 s), texte animé | transition zoom, caméra in |
+| 00:34.28 | La faute à son atmosphère : 96 % de dioxyde de carbone, et un effet de serre qui s'est emballé. | Vidéo réelle : « Ten Mysteries of Venus » (à 108 s), texte animé | transition fade, caméra slow_in, musique intensité 0.65 |
+| 00:40.63 | Au-dessus de ta tête : des nuages d'acide sulfurique. | Vidéo réelle : « Ten Mysteries of Venus » (à 104 s) | transition whip, caméra up |
+| 00:43.72 | Et au sol, la pression est 90 fois celle de la Terre. Comme si tu étais à 900 m sous l'océan. | Vidéo réelle : « DAVINCI: Venus' Alpha Regio » (à 69 s), texte animé | transition slide, caméra static, sfx heartbeat |
+| 00:49.71 | En 1982, l'Union soviétique y a posé une sonde : Venera 13. | Vidéo réelle : « Ten Mysteries of Venus » (à 138 s) | transition fade, caméra slow_in, étiquette « VENERA 13 • 1982 », musique intensité 0.5 |
+| 00:54.56 | Elle a résisté deux heures et sept minutes. | Vidéo réelle : « Ten Mysteries of Venus » (à 198 s), compteur animé | transition cut, caméra in |
+| 00:56.89 | Juste le temps d'envoyer les premières photos en couleur de sa surface : un sol orange, sous un ciel jaune-orangé. | Vidéo réelle : « DAVINCI: Venus' Alpha Regio » (à 70 s) | transition flash, caméra right, sfx shimmer |
+| 01:03.58 | Puis la chaleur et la pression l'ont réduite au silence. | Vidéo réelle : « DAVINCI: Venus' Alpha Regio » (à 24 s) | transition glitch, caméra slow_in, musique intensité 0.2 |
+| 01:06.58 | Mais voici le twist. | Vidéo réelle : « NASA’s New Views of Venus’ Surface From Space » (à 89 s) | transition black, caméra push, sfx riser |
+| 01:08.10 | À une cinquantaine de kilomètres d'altitude, dans les nuages, la pression et la température sont presque les mêmes que sur Terre. | Vidéo réelle : « Ten Mysteries of Venus » (à 106 s) | transition flash, caméra slow_in, étiquette « ≈ 50 KM D'ALTITUDE », musique intensité 0.85 |
+| 01:15.19 | La NASA a même étudié un projet de dirigeables habités pour s'y installer. | Vidéo réelle : « DAVINCI: Venus' Alpha Regio » (à 22 s) | transition whip, caméra in, étiquette « PROJET HAVOC • NASA » |
 | 01:19.75 | Des humains, flottant au-dessus de l'enfer. | ↳ (même plan) |  |
-| 01:22.00 | Tu monterais à bord ? Oui ou non, en commentaire. | mer de nuages vénusienne, dirigeable | transition fade, caméra out, musique intensité 0.35 |
+| 01:22.00 | Tu monterais à bord ? Oui ou non, en commentaire. | Vidéo réelle : « NASA’s New Views of Venus’ Surface From Space » (à 165 s) | transition fade, caméra out, musique intensité 0.35 |
+
+**Crédits images (séquences réelles utilisées) :**
+
+- NASA’s New Views of Venus’ Surface From Space — NASA's Goddard Space Flight Center Scientific Visualization Studio — NASA Scientific Visualization Studio — Domaine public (NASA — image uniquement, bande-son non utilisée) — https://svs.gsfc.nasa.gov/14095/
+- DAVINCI: Venus' Alpha Regio — NASA's Goddard Space Flight Center Scientific Visualization Studio — NASA Scientific Visualization Studio — Domaine public (NASA — image uniquement, bande-son non utilisée) — https://svs.gsfc.nasa.gov/14735/
+- Ten Mysteries of Venus — NASA's Goddard Space Flight Center Scientific Visualization Studio — NASA Scientific Visualization Studio — Domaine public (NASA — image uniquement, bande-son non utilisée) — https://svs.gsfc.nasa.gov/13972/
+- Largest Flare yet from Solar Cycle 25 — NASA's Goddard Space Flight Center Scientific Visualization Studio — NASA Scientific Visualization Studio — Domaine public (NASA — image uniquement, bande-son non utilisée) — https://svs.gsfc.nasa.gov/14592/
 
 **Sources / vérification des faits :**
 
@@ -219,217 +264,247 @@ Timecodes issus de la narration réelle (synthèse Kokoro). Le texte affiché co
 
 ---
 
-# Video 06 — Ton cerveau va recolorer ce drapeau
+# Video 06 — Un ouragan vu depuis la Station spatiale
 
-**Niche :** Ton cerveau te ment  
-**Accroche à l'écran :** TON CERVEAU VA RECOLORER CE DRAPEAU  
-**Durée :** 97.0 s  
-**Musique :** composition originale procédurale (lofi, 84 BPM, progression lofi_a)
+**Niche :** Planète extrême  
+**Accroche à l'écran :** UN OURAGAN VU DE L'ESPACE  
+**Durée :** 98.5 s  
+**Musique :** composition originale procédurale (space, 78 BPM, progression minor_epic)
 
 | Timecode | Narration | Visuel | Montage |
 |---|---|---|---|
-| 00:00.15 | Ce drapeau n'a pas les bonnes couleurs. Mais dans trente secondes, tu vas voir le vrai. | scène interactive synchronisée sur la narration | transition cut, caméra static, sfx pop, musique intensité 0.3 |
-| 00:04.72 | Fais l'expérience avec moi. | ↳ (même plan) |  |
-| 00:06.56 | Fixe le petit point blanc, au centre du drapeau. Ne bouge surtout pas les yeux. | ↳ (même plan) |  |
-| 00:11.05 | Évite de cligner des yeux. Concentre-toi uniquement sur le point. | ↳ (même plan) |  |
-| 00:14.75 | Pendant que tu regardes, des cellules au fond de ton œil travaillent sans relâche. | ↳ (même plan) |  |
-| 00:19.24 | On les appelle les cônes. Il en existe trois sortes, sensibles surtout au rouge, au vert et au bleu. | ↳ (même plan) |  |
-| 00:24.85 | Et en ce moment même, certaines d'entre elles sont en train de s'épuiser. | ↳ (même plan) |  |
-| 00:28.74 | Reste bien sur le point… encore quelques secondes. | ↳ (même plan) |  |
-| 00:31.55 | Trois… deux… un… | ↳ (même plan) | sfx tick, sfx tick, sfx tick |
-| 00:33.03 | Maintenant ! | ↳ (même plan) | sfx ding, musique coupée |
-| 00:34.12 | *(silence 5.5 s — le spectateur observe l'effet)* | ↳ (même plan) |  |
-| 00:39.62 | Tu l'as vu ? Un drapeau bleu, blanc, rouge… sur un écran complètement blanc. | ↳ (même plan) | musique intensité 0.35 |
-| 00:43.70 | Ce drapeau n'a jamais été affiché. C'est ton cerveau qui l'a peint. | fond dégradé animé, drapeau inversé → drapeau perçu | transition fade, caméra slow_in, musique intensité 0.5 |
-| 00:47.50 | C'est ce qu'on appelle une image rémanente. | fond dégradé animé, texte animé | transition zoom, caméra in, sfx pop |
-| 00:50.02 | Là où tu fixais du cyan, tes cônes du vert et du bleu se sont fatigués. | fond dégradé animé, cônes de la rétine (fatigue) | transition whip, caméra slow_in |
-| 00:54.06 | Sur le blanc, ce sont donc les cônes du rouge qui ont parlé le plus fort. Résultat : du rouge. | ↳ (même plan) |  |
-| 00:59.23 | Et là où il y avait de l'orange, c'est l'inverse : ton cerveau a vu du bleu. | fond dégradé animé, cônes de la rétine (fatigue) | transition whip, caméra slow_in |
-| 01:03.25 | Ce mécanisme a été décrit à la fin du dix-neuvième siècle par le physiologiste allemand Ewald Hering. | fond dégradé animé, fiche archive (nom, date) | transition fade, caméra slow_in, sfx type, musique intensité 0.6 |
-| 01:09.57 | Pour lui, notre vision fonctionne par paires de couleurs opposées. | fond dégradé animé, paires de couleurs opposées | transition zoom, caméra static |
-| 01:13.11 | Rouge contre vert. Bleu contre jaune. Noir contre blanc. | ↳ (même plan) |  |
-| 01:16.42 | Quand un côté se fatigue, c'est l'autre que tu vois. | ↳ (même plan) |  |
-| 01:19.31 | C'est d'ailleurs l'une des raisons souvent avancées pour expliquer pourquoi les chirurgiens portent du vert ou du bleu. | démonstration d'image rémanente | transition whip, caméra slow_in, musique intensité 0.7 |
-| 01:25.45 | Après des heures à fixer du rouge, un mur blanc se couvrirait de taches vertes. Sur du vert, elles se fondent. | ↳ (même plan) |  |
-| 01:31.72 | Ça a marché sur toi ? Écris « bleu blanc rouge » en commentaire si tu l'as vu. | drapeau aux couleurs inversées + point de fixation | transition fade, caméra static, musique intensité 0.35 |
+| 00:00.15 | Voici ce que voient les astronautes quand un ouragan passe sous la Station spatiale. | Vidéo réelle : « Expedition 71 International Space Station Flyover of Hurrica » (à 46 s) | transition cut, caméra in, sfx boom, musique intensité 0.35 |
+| 00:04.78 | On est à 400 kilomètres d'altitude, et cette spirale de nuages fait plusieurs centaines de kilomètres de large. | Vidéo réelle : « Expedition 71 International Space Station Flyover of Hurrica » (à 410 s) | transition whip, caméra slow_in, étiquette « 400 KM D'ALTITUDE » |
+| 00:11.40 | Celui-ci, c'est Beryl, en juillet 2024 : le premier ouragan de catégorie cinq jamais observé aussi tôt dans la saison atlantique. | Vidéo réelle : « Expedition 71 International Space Station Flyover of Hurrica » (à 502 s) | transition zoom, caméra in, étiquette « BERYL • JUILLET 2024 » |
+| 00:19.76 | Et l'énergie qu'il libère est vertigineuse. | Vidéo réelle : « HURRICANE FRANKLIN IS SEEN FROM THE INTERNATIONAL SPACE STAT » (à 318 s) | transition cut, caméra push, sfx riser, musique intensité 0.6 |
+| 00:22.13 | Un ouragan moyen dégage, sous forme de chaleur, l'équivalent de cinquante à deux cents fois toute la capacité électrique de la planète. | Vidéo réelle : « HURRICANE FRANKLIN IS SEEN FROM THE INTERNATIONAL SPACE STAT » (à 388 s), texte animé | transition flash, caméra slow_in |
+| 00:29.76 | Il peut déverser plus de 9 000 milliards de litres de pluie… en une seule journée. | Vidéo réelle : « Powerful Hurricane Milton forms in the Gulf of Mexico, sweep » (à 0 s), texte animé | transition zoom, caméra in |
+| 00:34.32 | Tout commence au-dessus d'un océan chauffé à plus de 26 °C. | Vidéo réelle : « Live Views of Hurricane Helene from the International Space  » (à 38 s), texte animé | transition fade, caméra slow_in |
+| 00:37.87 | L'air chaud et humide s'élève, se refroidit, et la vapeur se transforme en nuages… en libérant sa chaleur. | Vidéo réelle : « INTERNATIONAL SPACE STATION CAMERAS CAPTURE NEW VIEWS OF HUR » (à 18 s) | transition whip, caméra up |
+| 00:43.72 | Cette chaleur aspire encore plus d'air vers le haut. Le moteur s'emballe. | Vidéo réelle : « INTERNATIONAL SPACE STATION CAMERAS CAPTURE NEW VIEWS OF HUR » (à 57 s) | transition cut, caméra push |
+| 00:47.53 | Et la rotation de la Terre fait tourner l'ensemble : dans le sens inverse des aiguilles d'une montre au nord… et dans l'autre sens au sud. | Vidéo réelle : « HURRICANE FRANKLIN IS SEEN FROM THE INTERNATIONAL SPACE STAT » (à 34 s) | transition zoom, caméra tilt, musique intensité 0.7 |
+| 00:54.78 | Au centre, il y a ce trou parfait : l'œil. | Vidéo réelle : « Expedition 71 International Space Station Flyover of Hurrica » (à 44 s) | transition cut, caméra in, sfx impact |
+| 00:57.07 | Là-dedans, le vent tombe presque à zéro… et on peut parfois apercevoir le ciel bleu. | Vidéo réelle : « Expedition 71 International Space Station Flyover of Hurrica » (à 48 s) | transition fade, caméra slow_in |
+| 01:01.89 | Mais tout autour, dans le mur de l'œil, soufflent les vents les plus violents : plus de 250 km/h en catégorie cinq. | Vidéo réelle : « HURRICANE FRANKLIN IS SEEN FROM THE INTERNATIONAL SPACE STAT » (à 320 s), texte animé | transition whip, caméra push |
+| 01:09.25 | En octobre 2024, les vents de l'ouragan Milton ont augmenté de plus de 140 km/h en vingt-quatre heures. | Vidéo réelle : « INTERNATIONAL SPACE STATION CAMERAS CAPTURE NEW VIEWS OF HUR » (à 95 s) | transition flash, caméra in, étiquette « MILTON • OCTOBRE 2024 », musique intensité 0.85 |
+| 01:16.80 | Les scientifiques appellent ça l'intensification rapide. Et avec des océans plus chauds, elle devient plus fréquente. | Vidéo réelle : « Powerful Hurricane Milton forms in the Gulf of Mexico, sweep » (à 4 s) | transition zoom, caméra slow_in |
+| 01:23.19 | Ouragan, typhon, cyclone : c'est en réalité le même phénomène. Seul le nom change selon l'océan. | Vidéo réelle : « Spinning Earth with clouds, atmosphere, and night lights » (à 70 s) | transition fade, caméra drift, musique intensité 0.5 |
+| 01:28.74 | Et vu d'en haut, c'est l'une des choses les plus belles… et les plus terrifiantes de notre planète. | Vidéo réelle : « Expedition 71 International Space Station Flyover of Hurrica » (à 594 s) | transition whip, caméra slow_in |
+| 01:33.47 | Tu as déjà vécu une tempête ou un cyclone ? Raconte en commentaire. | Vidéo réelle : « Expedition 71 International Space Station Flyover of Hurrica » (à 138 s) | transition fade, caméra out, musique intensité 0.3 |
+
+**Crédits images (séquences réelles utilisées) :**
+
+- Expedition 71 International Space Station Flyover of Hurricane Beryl - Monday, July 1, 2024 — JSC — NASA Image and Video Library — Domaine public (média NASA — image uniquement) — https://images.nasa.gov/details/jsc2024m000130_Expedition_71_International_Space_Station_Flyover_of_Hurricane_Beryl_240701
+- HURRICANE FRANKLIN IS SEEN FROM THE INTERNATIONAL SPACE STATION — JSC — NASA Image and Video Library — Domaine public (média NASA — image uniquement) — https://images.nasa.gov/details/Expedition_69_Space_Station_Flies_Over_Hurricane_Franklin_Replay
+- Powerful Hurricane Milton forms in the Gulf of Mexico, sweeps into Florida — NASA's Goddard Space Flight Center Scientific Visualization Studio — NASA Scientific Visualization Studio — Domaine public (NASA — image uniquement, bande-son non utilisée) — https://svs.gsfc.nasa.gov/5401/
+- Live Views of Hurricane Helene from the International Space Station – Thursday, September 26, 2024 — JSC — NASA Image and Video Library — Domaine public (média NASA — image uniquement) — https://images.nasa.gov/details/iss072m262701649_Live_Views_of_Hurricane_Helene_from_the_International_Space_Station_240926
+- INTERNATIONAL SPACE STATION CAMERAS CAPTURE NEW VIEWS OF HURRICANE MILTON — JSC — NASA Image and Video Library — Domaine public (média NASA — image uniquement) — https://images.nasa.gov/details/jsc2024m000173_International_Space_Station_Cameras_Capture_New_Views_Of_Hurricane_Milton_241008
+- Powerful Hurricane Milton forms in the Gulf of Mexico, sweeps into Florida — NASA's Goddard Space Flight Center Scientific Visualization Studio — NASA Scientific Visualization Studio — Domaine public (NASA — image uniquement, bande-son non utilisée) — https://svs.gsfc.nasa.gov/5401/
+- Spinning Earth with clouds, atmosphere, and night lights — NASA's Goddard Space Flight Center Scientific Visualization Studio — NASA Scientific Visualization Studio — Domaine public (NASA — image uniquement, bande-son non utilisée) — https://svs.gsfc.nasa.gov/5570/
 
 **Sources / vérification des faits :**
 
-- Hering (1878) — théorie des processus antagonistes
-- Image rémanente négative : adaptation des cônes (manuels de perception visuelle)
+- NOAA/AOML — FAQ ouragans (énergie : 50 à 200 fois la capacité électrique mondiale ; pluie ≈ 2,4 billions de gallons/jour)
+- NHC — Beryl (juillet 2024), premier catégorie 5 aussi tôt ; Milton (octobre 2024), intensification rapide
+- Seuils : océan ≥ 26 °C ; catégorie 5 ≥ 252 km/h (échelle Saffir-Simpson)
 
 **Texte prononcé (pour réenregistrement éventuel) :**
 
-> Ce drapeau n'a pas les bonnes couleurs. Mais dans trente secondes, tu vas voir le vrai. Fais l'expérience avec moi. Fixe le petit point blanc, au centre du drapeau. Ne bouge surtout pas les yeux. Évite de cligner des yeux. Concentre-toi uniquement sur le point. Pendant que tu regardes, des cellules au fond de ton œil travaillent sans relâche. On les appelle les cônes. Il en existe trois sortes, sensibles surtout au rouge, au vert et au bleu. Et en ce moment même, certaines d'entre elles sont en train de s'épuiser. Reste bien sur le point… encore quelques secondes. Trois… deux… un… Maintenant! Tu l'as vu? Un drapeau bleu, blanc, rouge… sur un écran complètement blanc. Ce drapeau n'a jamais été affiché. C'est ton cerveau qui l'a peint. C'est ce qu'on appelle une image rémanente. Là où tu fixais du cyan, tes cônes du vert et du bleu se sont fatigués. Sur le blanc, ce sont donc les cônes du rouge qui ont parlé le plus fort. Résultat: du rouge. Et là où il y avait de l'orange, c'est l'inverse: ton cerveau a vu du bleu. Ce mécanisme a été décrit à la fin du dix-neuvième siècle par le physiologiste allemand Évald Érinng. Pour lui, notre vision fonctionne par paires de couleurs opposées. Rouge contre vert. Bleu contre jaune. Noir contre blanc. Quand un côté se fatigue, c'est l'autre que tu vois. C'est d'ailleurs l'une des raisons souvent avancées pour expliquer pourquoi les chirurgiens portent du vert ou du bleu. Après des heures à fixer du rouge, un mur blanc se couvrirait de taches vertes. Sur du vert, elles se fondent. Ça a marché sur toi? Écris « bleu blanc rouge» en commentaire si tu l'as vu.
+> Voici ce que voient les astronautes quand un ouragan passe sous la Station spatiale. On est à quatre cents kilomètres d'altitude, et cette spirale de nuages fait plusieurs centaines de kilomètres de large. Celui-ci, c'est Beryl, en juillet deux mille vingt-quatre: le premier ouragan de catégorie cinq jamais observé aussi tôt dans la saison atlantique. Et l'énergie qu'il libère est vertigineuse. Un ouragan moyen dégage, sous forme de chaleur, l'équivalent de cinquante à deux cents fois toute la capacité électrique de la planète. Il peut déverser plus de neuf mille milliards de litres de pluie… en une seule journée. Tout commence au-dessus d'un océan chauffé à plus de vingt-six degrés. L'air chaud et humide s'élève, se refroidit, et la vapeur se transforme en nuages… en libérant sa chaleur. Cette chaleur aspire encore plus d'air vers le haut. Le moteur s'emballe. Et la rotation de la Terre fait tourner l'ensemble: dans le sens inverse des aiguilles d'une montre au nord… et dans l'autre sens au sud. Au centre, il y a ce trou parfait: l'œil. Là-dedans, le vent tombe presque à zéro… et on peut parfois apercevoir le ciel bleu. Mais tout autour, dans le mur de l'œil, soufflent les vents les plus violents: plus de deux cent cinquante kilomètres par heure en catégorie cinq. En octobre deux mille vingt-quatre, les vents de l'ouragan Milton ont augmenté de plus de cent quarante kilomètres par heure en vingt-quatre heures. Les scientifiques appellent ça l'intensification rapide. Et avec des océans plus chauds, elle devient plus fréquente. Ouragan, typhon, cyclone: c'est en réalité le même phénomène. Seul le nom change selon l'océan. Et vu d'en haut, c'est l'une des choses les plus belles… et les plus terrifiantes de notre planète. Tu as déjà vécu une tempête ou un cyclone? Raconte en commentaire.
 
 ---
 
-# Video 07 — Fixe cette spirale 30 secondes
+# Video 07 — Hunga Tonga : l'explosion la plus puissante jamais mesurée
 
-**Niche :** Ton cerveau te ment  
-**Accroche à l'écran :** FIXE LE CENTRE 30 SECONDES  
-**Durée :** 93.1 s  
-**Musique :** composition originale procédurale (lofi, 86 BPM, progression lofi_b)
+**Niche :** Planète extrême  
+**Accroche à l'écran :** L'EXPLOSION LA PLUS PUISSANTE JAMAIS MESURÉE  
+**Durée :** 87.8 s  
+**Musique :** composition originale procédurale (space, 72 BPM, progression minor_dark)
 
 | Timecode | Narration | Visuel | Montage |
 |---|---|---|---|
-| 00:00.15 | Regarde cette spirale pendant trente secondes… et le monde autour de toi va se mettre à bouger. | scène interactive synchronisée sur la narration | transition cut, caméra static, sfx pop, musique intensité 0.3 |
-| 00:05.84 | Fixe le point rouge au centre. Ne quitte pas le point des yeux. | ↳ (même plan) |  |
-| 00:09.25 | Ce que tu es en train de vivre porte un nom : l'effet consécutif de mouvement. | ↳ (même plan) |  |
-| 00:13.69 | Aristote l'avait déjà remarqué il y a plus de deux mille ans, en regardant une rivière. | ↳ (même plan) |  |
-| 00:18.62 | Mais c'est en 1834 qu'un certain Robert Addams l'a décrit précisément, devant une cascade écossaise : les chutes de Foyers. | ↳ (même plan) |  |
-| 00:26.54 | Après avoir fixé l'eau qui tombait, il a regardé les rochers à côté… et ils semblaient remonter. | ↳ (même plan) |  |
-| 00:31.96 | C'est pour ça qu'on l'appelle aussi : l'illusion de la cascade. | ↳ (même plan) |  |
-| 00:35.41 | Continue de fixer le centre. Encore un tout petit peu. | ↳ (même plan) |  |
-| 00:38.77 | Trois… deux… un… | ↳ (même plan) | sfx tick, sfx tick, sfx tick |
-| 00:40.26 | Maintenant, regarde cette image. | mosaïque fixe détaillée | transition cut, sfx ding, musique coupée |
-| 00:42.25 | *(silence 4.5 s — le spectateur observe l'effet)* | ↳ (même plan) |  |
-| 00:46.75 | Elle bouge, non ? Elle semble rétrécir, comme aspirée vers l'intérieur. | ↳ (même plan) | musique intensité 0.3 |
-| 00:50.75 | Tu peux aussi regarder ta main, ou le mur autour de toi. | ↳ (même plan) |  |
-| 00:53.96 | Pourtant, rien ne bouge. L'image est parfaitement immobile. | ↳ (même plan) |  |
-| 00:57.43 | Dans ton cerveau, certains neurones sont spécialisés dans la détection du mouvement. | fond dégradé animé, réseau de neurones animé | transition zoom, caméra slow_in, étiquette « AIRE V5 : LE MOUVEMENT », musique intensité 0.55 |
-| 01:01.95 | Certains réagissent quand les choses s'éloignent du centre. D'autres, quand elles s'en rapprochent. | fond dégradé animé, réseau de neurones animé | transition fade, caméra static |
-| 01:06.93 | Normalement, les deux groupes s'équilibrent. | ↳ (même plan) |  |
-| 01:09.22 | Mais pendant trente secondes, tu as surmené ceux qui détectent l'expansion. Ils se sont fatigués. | fond dégradé animé, réseau de neurones animé | transition cut, caméra slow_in, musique intensité 0.7 |
-| 01:14.62 | Quand la spirale s'arrête, l'autre groupe l'emporte… et ton cerveau voit un mouvement qui n'existe pas. | ↳ (même plan) |  |
-| 01:20.09 | La preuve que tu ne vois pas le monde tel qu'il est. Tu vois ce que ton cerveau en déduit. | fond dégradé animé, texte animé | transition whip, caméra in, sfx pop |
-| 01:24.87 | Pas d'inquiétude : l'effet disparaît au bout de quelques secondes. | mosaïque fixe détaillée | transition fade, caméra static, musique intensité 0.45 |
-| 01:28.61 | Combien de temps ça a duré pour toi ? Dis-le en commentaire. | spirale en rotation | transition fade, caméra static, musique intensité 0.35 |
+| 00:00.15 | Le 15 janvier 2022, un volcan sous-marin a explosé avec une puissance jamais enregistrée par nos instruments modernes. | Vidéo réelle : « How NASA Sees the Life Cycle of Volcanic Island Hunga Tonga- » (à 17 s) | transition cut, caméra in, sfx boom, musique intensité 0.35 |
+| 00:07.79 | Son nom : Hunga Tonga-Hunga Haʻapai, dans le Pacifique Sud. | Vidéo réelle : « Spinning Earth with clouds, atmosphere, and night lights » (à 17 s) | transition whip, caméra slow_in, étiquette « PACIFIQUE SUD • TONGA » |
+| 00:12.40 | Regarde ces images satellites : en quelques minutes, une colonne de cendres a jailli de l'océan. | Vidéo réelle : « How NASA Sees the Life Cycle of Volcanic Island Hunga Tonga- » (à 17 s) | transition zoom, caméra in |
+| 00:17.67 | Elle est montée jusqu'à 57 kilomètres d'altitude. Plus haut que n'importe quel panache volcanique jamais observé. | Vidéo réelle : « How NASA Sees the Life Cycle of Volcanic Island Hunga Tonga- » (à 18 s), compteur animé | transition cut, caméra push |
+| 00:24.46 | Selon la NASA, l'explosion était des centaines de fois plus puissante que la bombe d'Hiroshima. | Vidéo réelle : « How NASA Sees the Life Cycle of Volcanic Island Hunga Tonga- » (à 19 s), flash lumineux | transition flash, caméra in, sfx impact |
+| 00:29.65 | L'onde de choc a fait plusieurs fois le tour de la Terre. | Vidéo réelle : « Gravity waves from Hunga Tonga Eruption » (à 0 s) | transition zoom, caméra slow_in, musique intensité 0.6 |
+| 00:32.75 | En France aussi, les baromètres l'ont enregistrée. | Vidéo réelle : « Gravity waves from Hunga Tonga Eruption » (à 2 s) | transition whip, caméra drift |
+| 00:35.53 | Son bruit a été entendu jusqu'en Alaska, à près de dix mille kilomètres. | Vidéo réelle : « Gravity waves from Hunga Tonga Eruption » (à 1 s) | transition cut, caméra in |
+| 00:39.79 | Un tsunami a traversé tout l'océan Pacifique, jusqu'aux côtes du Pérou. | Vidéo réelle : « Spinning Earth with clouds, atmosphere, and night lights » (à 21 s) | transition fade, caméra right |
+| 00:43.81 | Pendant l'éruption, les satellites ont compté jusqu'à 2 600 éclairs par minute. Un record absolu. | Vidéo réelle : « NASA ScienceCasts: Observing Lightning from the Internationa » (à 10 s), texte animé | transition flash, caméra in, musique intensité 0.75 |
+| 00:49.90 | Mais le plus étrange, ce n'est pas l'explosion. C'est ce qu'elle a envoyé dans le ciel. | Vidéo réelle : « jsc2021m000138_4K_Earth_Views_Extended_Cut_for_Earth_Day_ 20 » (à 592 s) | transition black, caméra push, sfx riser |
+| 00:54.53 | Pas seulement des cendres : de l'eau. | Vidéo réelle : « jsc2021m000138_4K_Earth_Views_Extended_Cut_for_Earth_Day_ 20 » (à 1065 s) | transition cut, caméra in |
+| 00:56.30 | Environ 146 millions de tonnes de vapeur d'eau, propulsées dans la stratosphère. | Vidéo réelle : « jsc2021m000138_4K_Earth_Views_Extended_Cut_for_Earth_Day_ 20 » (à 986 s), compteur animé | transition zoom, caméra slow_in, musique intensité 0.9 |
+| 01:01.16 | De quoi remplir plus de 58 000 piscines olympiques. | Vidéo réelle : « jsc2021m000138_4K_Earth_Views_Extended_Cut_for_Earth_Day_ 20 » (à 1144 s), texte animé | transition whip, caméra in |
+| 01:04.46 | Cela a augmenté d'environ dix pour cent la quantité d'eau présente dans toute la stratosphère. | Vidéo réelle : « jsc2021m000138_4K_Earth_Views_Extended_Cut_for_Earth_Day_ 20 » (à 39 s) | transition fade, caméra up |
+| 01:09.61 | Et cette eau va y rester plusieurs années, avec des effets que les scientifiques étudient encore. | Vidéo réelle : « jsc2021m000138_4K_Earth_Views_Extended_Cut_for_Earth_Day_ 20 » (à 118 s) | transition zoom, caméra slow_in |
+| 01:14.84 | Et l'île ? Avant l'éruption, la NASA l'étudiait pour mieux comprendre… certains paysages de Mars. | Photo réelle : « Crisp View from Inside Gale Crater » | transition fade, caméra slow_in, musique intensité 0.5 |
+| 01:20.02 | En une seule matinée, elle a presque entièrement disparu. | Vidéo réelle : « How NASA Sees the Life Cycle of Volcanic Island Hunga Tonga- » (à 17 s) | transition cut, caméra out |
+| 01:23.16 | Tu avais entendu parler de cette éruption ? Dis-le en commentaire. | Vidéo réelle : « Gravity waves from Hunga Tonga Eruption » (à 2 s) | transition fade, caméra slow_in, musique intensité 0.3 |
+
+**Crédits images (séquences réelles utilisées) :**
+
+- How NASA Sees the Life Cycle of Volcanic Island Hunga Tonga-Hunga Ha’apai — NASA's Goddard Space Flight Center Scientific Visualization Studio — NASA Scientific Visualization Studio — Domaine public (NASA — image uniquement, bande-son non utilisée) — https://svs.gsfc.nasa.gov/14214/
+- Spinning Earth with clouds, atmosphere, and night lights — NASA's Goddard Space Flight Center Scientific Visualization Studio — NASA Scientific Visualization Studio — Domaine public (NASA — image uniquement, bande-son non utilisée) — https://svs.gsfc.nasa.gov/5570/
+- Gravity waves from Hunga Tonga Eruption — NASA's Goddard Space Flight Center Scientific Visualization Studio — NASA Scientific Visualization Studio — Domaine public (NASA — image uniquement, bande-son non utilisée) — https://svs.gsfc.nasa.gov/31277/
+- NASA ScienceCasts: Observing Lightning from the International Space Station — HQ — NASA Image and Video Library — Domaine public (média NASA — usage libre, sans logo NASA ni suggestion de soutien) — https://images.nasa.gov/details/311_ScienceCasts-observing-lightning-ISS
+- jsc2021m000138_4K_Earth_Views_Extended_Cut_for_Earth_Day_ 2021_210422-4KMP4 — JSC — NASA Image and Video Library — Domaine public (média NASA — image uniquement) — https://images.nasa.gov/details/jsc2021m000138_4K_Earth_Views_Extended_Cut_for_Earth_Day_%202021_210422-4KMP4
+- Crisp View from Inside Gale Crater — NASA/JPL-Caltech — NASA Image and Video Library — Domaine public (média NASA — usage libre, sans logo NASA ni suggestion de soutien) — https://images.nasa.gov/details/PIA16026
 
 **Sources / vérification des faits :**
 
-- Addams (1834) — observation aux chutes de Foyers (« waterfall illusion »)
-- Aristote, *Parva Naturalia* — mention de l'effet
-- Aires MT/V5 et MST : sélectivité au mouvement/expansion
+- NASA (Carr et al., 2022) — panache à 57 km, mésosphère
+- NASA JPL / Aura MLS (Millán et al., 2022) — 146 Tg de vapeur d'eau, ≈ 10 % de la stratosphère, 58 000 piscines olympiques
+- NASA Goddard — énergie : des centaines de fois Hiroshima ; NOAA GLM — record d'éclairs ; Météo-France — onde de pression enregistrée en France
 
 **Texte prononcé (pour réenregistrement éventuel) :**
 
-> Regarde cette spirale pendant trente secondes… et le monde autour de toi va se mettre à bouger. Fixe le point rouge au centre. Ne quitte pas le point des yeux. Ce que tu es en train de vivre porte un nom: l'effet consécutif de mouvement. Aristote l'avait déjà remarqué il y a plus de deux mille ans, en regardant une rivière. Mais c'est en dix-huit cent trente-quatre qu'un certain Robert Addams l'a décrit précisément, devant une cascade écossaise: les chutes de Foyers. Après avoir fixé l'eau qui tombait, il a regardé les rochers à côté… et ils semblaient remonter. C'est pour ça qu'on l'appelle aussi: l'illusion de la cascade. Continue de fixer le centre. Encore un tout petit peu. Trois… deux… un… Maintenant, regarde cette image. Elle bouge, non? Elle semble rétrécir, comme aspirée vers l'intérieur. Tu peux aussi regarder ta main, ou le mur autour de toi. Pourtant, rien ne bouge. L'image est parfaitement immobile. Dans ton cerveau, certains neurones sont spécialisés dans la détection du mouvement. Certains réagissent quand les choses s'éloignent du centre. D'autres, quand elles s'en rapprochent. Normalement, les deux groupes s'équilibrent. Mais pendant trente secondes, tu as surmené ceux qui détectent l'expansion. Ils se sont fatigués. Quand la spirale s'arrête, l'autre groupe l'emporte… et ton cerveau voit un mouvement qui n'existe pas. La preuve que tu ne vois pas le monde tel qu'il est. Tu vois ce que ton cerveau en déduit. Pas d'inquiétude: l'effet disparaît au bout de quelques secondes. Combien de temps ça a duré pour toi? Dis-le en commentaire.
+> Le quinze janvier deux mille vingt-deux, un volcan sous-marin a explosé avec une puissance jamais enregistrée par nos instruments modernes. Son nom: Hunga Tonga-Hunga Haʻapai, dans le Pacifique Sud. Regarde ces images satellites: en quelques minutes, une colonne de cendres a jailli de l'océan. Elle est montée jusqu'à cinquante-sept kilomètres d'altitude. Plus haut que n'importe quel panache volcanique jamais observé. Selon la NASA, l'explosion était des centaines de fois plus puissante que la bombe d'Hiroshima. L'onde de choc a fait plusieurs fois le tour de la Terre. En France aussi, les baromètres l'ont enregistrée. Son bruit a été entendu jusqu'en Alaska, à près de dix mille kilomètres. Un tsunami a traversé tout l'océan Pacifique, jusqu'aux côtes du Pérou. Pendant l'éruption, les satellites ont compté jusqu'à deux mille six cents éclairs par minute. Un record absolu. Mais le plus étrange, ce n'est pas l'explosion. C'est ce qu'elle a envoyé dans le ciel. Pas seulement des cendres: de l'eau. Environ cent quarante-six millions de tonnes de vapeur d'eau, propulsées dans la stratosphère. De quoi remplir plus de cinquante-huit mille piscines olympiques. Cela a augmenté d'environ dix pour cent la quantité d'eau présente dans toute la stratosphère. Et cette eau va y rester plusieurs années, avec des effets que les scientifiques étudient encore. Et l'île? Avant l'éruption, la NASA l'étudiait pour mieux comprendre… certains paysages de Mars. En une seule matinée, elle a presque entièrement disparu. Tu avais entendu parler de cette éruption? Dis-le en commentaire.
 
 ---
 
-# Video 08 — Fixe la croix : les couleurs vont disparaître
+# Video 08 — Ce qui se passe au-dessus des orages
 
-**Niche :** Ton cerveau te ment  
-**Accroche à l'écran :** LES COULEURS VONT DISPARAÎTRE  
-**Durée :** 95.3 s  
-**Musique :** composition originale procédurale (lofi, 82 BPM, progression lofi_c)
+**Niche :** Planète extrême  
+**Accroche à l'écran :** CE QUI SE PASSE AU-DESSUS DES ORAGES  
+**Durée :** 79.9 s  
+**Musique :** composition originale procédurale (space, 76 BPM, progression minor_float)
 
 | Timecode | Narration | Visuel | Montage |
 |---|---|---|---|
-| 00:00.15 | Fixe la croix au centre… et ces couleurs vont disparaître sous tes yeux. | taches floues (effet Troxler) | transition cut, caméra static, sfx pop, musique intensité 0.3 |
-| 00:04.07 | Ne bouge pas les yeux. Garde-les bien sur la petite croix noire. | ↳ (même plan) |  |
-| 00:07.66 | Autour, il y a des taches de couleur. Elles ne bougent pas. Elles ne changent pas. | ↳ (même plan) |  |
-| 00:11.53 | Et pourtant… petit à petit, elles commencent à s'effacer. | ↳ (même plan) |  |
-| 00:14.78 | Certaines virent au gris. D'autres se fondent complètement dans le fond. | ↳ (même plan) |  |
-| 00:18.57 | *(silence 2.5 s — le spectateur observe l'effet)* | ↳ (même plan) |  |
-| 00:21.07 | Si tu bouges les yeux, même un tout petit peu, elles reviennent d'un coup. | ↳ (même plan) |  |
-| 00:24.76 | C'est l'effet Troxler, décrit par le médecin suisse Ignaz Troxler, en 1804. | fond dégradé animé, fiche archive (nom, date) | transition fade, caméra slow_in, sfx type, musique intensité 0.5 |
-| 00:30.11 | Ton cerveau ignore ce qui ne change pas. Ce qui est flou, immobile et sur le côté finit par être effacé. | taches floues (effet Troxler) | transition zoom, caméra slow_in |
-| 00:36.21 | C'est une économie d'énergie : inutile de traiter mille fois la même information. | fond dégradé animé, réseau de neurones animé | transition fade, caméra static |
-| 00:40.97 | Maintenant, on passe au niveau supérieur. | fond dégradé animé, texte animé | transition glitch, caméra in, sfx riser, musique intensité 0.75 |
-| 00:43.33 | Fixe la croix au centre. Des points roses disparaissent l'un après l'autre. | lilac chaser (recréé en code) | transition flash, caméra static, musique intensité 0.4 |
-| 00:47.40 | Ne les suis pas des yeux. Reste sur la croix, et attends. | ↳ (même plan) |  |
-| 00:50.36 | Au bout de quelques secondes, quelque chose d'étrange va se produire. | ↳ (même plan) |  |
-| 00:54.35 | Un point vert apparaît… et se met à tourner. | ↳ (même plan) |  |
-| 00:56.92 | Et si tu tiens bon, les points roses finissent par s'effacer. Il ne reste qu'un point vert qui tourne dans le vide. | ↳ (même plan) |  |
-| 01:02.87 | *(silence 4.0 s — le spectateur observe l'effet)* | ↳ (même plan) |  |
-| 01:06.87 | Sauf qu'il n'y a aucun point vert à l'écran. Il n'y en a jamais eu. | ↳ (même plan) | musique intensité 0.55 |
-| 01:10.42 | Cette illusion s'appelle le lilac chaser. Elle a été créée par Jeremy Hinton vers 2005. | fond dégradé animé, fiche archive (nom, date) | transition fade, caméra slow_in, sfx type |
-| 01:16.40 | Le vert, c'est une image rémanente : la couleur opposée du rose, que tes yeux créent chaque fois qu'un point disparaît. | lilac chaser (recréé en code) | transition zoom, caméra slow_in, musique intensité 0.7 |
-| 01:22.94 | Et les points roses s'effacent grâce à l'effet Troxler, que tu viens de découvrir. | lilac chaser (recréé en code) | transition cut, caméra static |
-| 01:27.36 | Deux bugs de ton cerveau… réunis dans une seule image. | fond dégradé animé, texte animé | transition whip, caméra in, sfx pop |
-| 01:30.53 | Tu as vu le point vert ? Écris « vert » en commentaire si ça a marché. | lilac chaser (recréé en code) | transition fade, caméra static, musique intensité 0.35 |
+| 00:00.15 | Ce flash rouge au-dessus des nuages, ce n'est pas un effet spécial. Il a été filmé depuis la Station spatiale. | Vidéo réelle : « Elusive Red Sprite » (à 18 s) | transition cut, caméra in, sfx boom, musique intensité 0.35 |
+| 00:07.01 | Ça s'appelle un sprite. Et pendant longtemps, presque personne n'y croyait. | Vidéo réelle : « NASA ScienceCasts: Observing Lightning from the Internationa » (à 62 s) | transition whip, caméra slow_in, étiquette « SPRITE » |
+| 00:10.88 | Les pilotes de ligne en parlaient depuis des décennies. Mais aucune preuve… jusqu'en 1989. | Vidéo réelle : « ER-2 DCOTTS Mission Explores Intense Summertime Thunderstorm » (à 437 s) | transition fade, caméra slow_in |
+| 00:16.84 | Cette année-là, des chercheurs de l'université du Minnesota en ont filmé un par hasard, en testant une caméra. | Vidéo réelle : « NASA ScienceCasts: Observing Lightning from the Internationa » (à 11 s) | transition zoom, caméra in, étiquette « 1989 • MINNESOTA » |
+| 00:22.88 | Un sprite, c'est une décharge électrique géante qui jaillit vers le haut, entre 50 et 90 kilomètres d'altitude. | Vidéo réelle : « NASA ScienceCasts: Observing Lightning from the Internationa » (à 152 s), texte animé | transition cut, caméra slow_in |
+| 00:29.55 | Il dure à peine quelques millisecondes. Voilà pourquoi personne ne le voyait. | Vidéo réelle : « Elusive Red Sprite » (à 20 s) | transition flash, caméra in |
+| 00:33.67 | Et ce n'est qu'un des secrets de la foudre. | Vidéo réelle : « NASA ScienceCasts: Observing Lightning from the Internationa » (à 33 s) | transition black, caméra push, sfx riser, musique intensité 0.6 |
+| 00:35.63 | Sur Terre, il tombe environ 44 éclairs… chaque seconde. | Vidéo réelle : « Hurricane Ian's Clouds, Lightning, Humidity and Winds » (à 6 s), compteur animé | transition cut, caméra in |
+| 00:39.34 | Un éclair peut atteindre 30 000 °C : cinq fois plus chaud que la surface du Soleil. | Vidéo réelle : « NASA ScienceCasts: Observing Lightning from the Internationa » (à 243 s), texte animé | transition flash, caméra in, sfx impact |
+| 00:44.41 | Le record ? Un seul éclair de 829 kilomètres de long, au-dessus des États-Unis, en 2017. | Vidéo réelle : « Hurricane Ian's Clouds, Lightning, Humidity and Winds » (à 14 s), texte animé | transition zoom, caméra slow_in, musique intensité 0.8 |
+| 00:50.92 | Plus que la distance entre Paris et Marseille. | Vidéo réelle : « Studying Thunderstorms with NASA’s ER-2 Aircraft » (à 191 s) | transition cut, caméra in |
+| 00:53.30 | Et ça devient encore plus fou : certains orages produisent… des rayons gamma. | Vidéo réelle : « Terrestrial Gamma-ray Flashes Create Antimatter » (à 71 s) | transition glitch, caméra push |
+| 00:57.40 | En 2011, un télescope spatial de la NASA a même détecté de l'antimatière, projetée vers l'espace par des orages. | Vidéo réelle : « Fermi Terrestrial Gamma-ray Flash (TGF) Animations » (à 12 s) | transition zoom, caméra slow_in, musique intensité 0.9 |
+| 01:04.52 | L'endroit le plus foudroyé de la planète ? Le lac Maracaibo, au Venezuela. | Vidéo réelle : « Spinning Earth with clouds, atmosphere, and night lights » (à 4 s) | transition fade, caméra in, étiquette « LAC MARACAIBO • VENEZUELA » |
+| 01:08.91 | Les orages y éclatent plus de 140 nuits par an. | Vidéo réelle : « NASA ScienceCasts: Observing Lightning from the Internationa » (à 242 s) | transition whip, caméra drift |
+| 01:11.94 | Les marins l'appelaient même : le phare de Maracaibo. | Vidéo réelle : « Studying Thunderstorms with NASA’s ER-2 Aircraft » (à 196 s) | transition fade, caméra slow_in, musique intensité 0.5 |
+| 01:14.63 | Tu as déjà vu un éclair tomber tout près de toi ? Raconte en commentaire. | Vidéo réelle : « Elusive Red Sprite » (à 24 s) | transition whip, caméra out, musique intensité 0.3 |
+
+**Crédits images (séquences réelles utilisées) :**
+
+- Elusive Red Sprite — NASA's Goddard Space Flight Center Scientific Visualization Studio — NASA Scientific Visualization Studio — Domaine public (NASA — image uniquement, bande-son non utilisée) — https://svs.gsfc.nasa.gov/11059/
+- NASA ScienceCasts: Observing Lightning from the International Space Station — HQ — NASA Image and Video Library — Domaine public (média NASA — usage libre, sans logo NASA ni suggestion de soutien) — https://images.nasa.gov/details/311_ScienceCasts-observing-lightning-ISS
+- ER-2 DCOTTS Mission Explores Intense Summertime Thunderstorms — Lori Losey — NASA Image and Video Library — Domaine public (média NASA — usage libre, sans logo NASA ni suggestion de soutien) — https://images.nasa.gov/details/AFRC-2022-13772-ER-2_DCOTTS_VideoFile_May2022
+- Hurricane Ian's Clouds, Lightning, Humidity and Winds — NASA's Goddard Space Flight Center Scientific Visualization Studio — NASA Scientific Visualization Studio — Domaine public (NASA — image uniquement, bande-son non utilisée) — https://svs.gsfc.nasa.gov/5131/
+- Studying Thunderstorms with NASA’s ER-2 Aircraft — Jacob Shaw — NASA Image and Video Library — Domaine public (média NASA — usage libre, sans logo NASA ni suggestion de soutien) — https://images.nasa.gov/details/AFRC_2023_14007_02_Studying%20Thunderstorms%20with%20NASA%E2%80%99s%20ER-2%20Aircraft_HD
+- Terrestrial Gamma-ray Flashes Create Antimatter — NASA's Goddard Space Flight Center Scientific Visualization Studio — NASA Scientific Visualization Studio — Domaine public (NASA — image uniquement, bande-son non utilisée) — https://svs.gsfc.nasa.gov/10706/
+- Fermi Terrestrial Gamma-ray Flash (TGF) Animations — NASA's Goddard Space Flight Center Scientific Visualization Studio — NASA Scientific Visualization Studio — Domaine public (NASA — image uniquement, bande-son non utilisée) — https://svs.gsfc.nasa.gov/10707/
+- Spinning Earth with clouds, atmosphere, and night lights — NASA's Goddard Space Flight Center Scientific Visualization Studio — NASA Scientific Visualization Studio — Domaine public (NASA — image uniquement, bande-son non utilisée) — https://svs.gsfc.nasa.gov/5570/
 
 **Sources / vérification des faits :**
 
-- Troxler (1804) — disparition des stimuli périphériques fixés
-- Lilac chaser — Jeremy Hinton (vers 2005)
+- Franz, Nemzek & Winckler (Science, 1990) — premier sprite filmé en 1989 (Université du Minnesota)
+- NOAA — ≈ 44 éclairs par seconde ; OMM (2025) — record de 829 km (22 octobre 2017)
+- NASA Fermi (2011) — faisceaux d'antimatière issus d'orages ; NASA LIS — lac Maracaibo, point le plus foudroyé
 
 **Texte prononcé (pour réenregistrement éventuel) :**
 
-> Fixe la croix au centre… et ces couleurs vont disparaître sous tes yeux. Ne bouge pas les yeux. Garde-les bien sur la petite croix noire. Autour, il y a des taches de couleur. Elles ne bougent pas. Elles ne changent pas. Et pourtant… petit à petit, elles commencent à s'effacer. Certaines virent au gris. D'autres se fondent complètement dans le fond. Si tu bouges les yeux, même un tout petit peu, elles reviennent d'un coup. C'est l'effet Troxleur, décrit par le médecin suisse Ignaz Troxleur, en dix-huit cent quatre. Ton cerveau ignore ce qui ne change pas. Ce qui est flou, immobile et sur le côté finit par être effacé. C'est une économie d'énergie: inutile de traiter mille fois la même information. Maintenant, on passe au niveau supérieur. Fixe la croix au centre. Des points roses disparaissent l'un après l'autre. Ne les suis pas des yeux. Reste sur la croix, et attends. Au bout de quelques secondes, quelque chose d'étrange va se produire. Un point vert apparaît… et se met à tourner. Et si tu tiens bon, les points roses finissent par s'effacer. Il ne reste qu'un point vert qui tourne dans le vide. Sauf qu'il n'y a aucun point vert à l'écran. Il n'y en a jamais eu. Cette illusion s'appelle le laïlac tchéïseur. Elle a été créée par Djérémi Hinntone vers deux mille cinq. Le vert, c'est une image rémanente: la couleur opposée du rose, que tes yeux créent chaque fois qu'un point disparaît. Et les points roses s'effacent grâce à l'effet Troxleur, que tu viens de découvrir. Deux bugs de ton cerveau… réunis dans une seule image. Tu as vu le point vert? Écris « vert» en commentaire si ça a marché.
+> Ce flash rouge au-dessus des nuages, ce n'est pas un effet spécial. Il a été filmé depuis la Station spatiale. Ça s'appelle un sprite. Et pendant longtemps, presque personne n'y croyait. Les pilotes de ligne en parlaient depuis des décennies. Mais aucune preuve… jusqu'en mille neuf cent quatre-vingt-neuf. Cette année-là, des chercheurs de l'université du Minnesota en ont filmé un par hasard, en testant une caméra. Un sprite, c'est une décharge électrique géante qui jaillit vers le haut, entre cinquante et quatre-vingt-dix kilomètres d'altitude. Il dure à peine quelques millisecondes. Voilà pourquoi personne ne le voyait. Et ce n'est qu'un des secrets de la foudre. Sur Terre, il tombe environ quarante-quatre éclairs… chaque seconde. Un éclair peut atteindre trente mille degrés: cinq fois plus chaud que la surface du Soleil. Le record? Un seul éclair de huit cent vingt-neuf kilomètres de long, au-dessus des États-Unis, en deux mille dix-sept. Plus que la distance entre Paris et Marseille. Et ça devient encore plus fou: certains orages produisent… des rayons gamma. En deux mille onze, un télescope spatial de la NASA a même détecté de l'antimatière, projetée vers l'espace par des orages. L'endroit le plus foudroyé de la planète? Le lac Maracaibo, au Venezuela. Les orages y éclatent plus de cent quarante nuits par an. Les marins l'appelaient même: le phare de Maracaibo. Tu as déjà vu un éclair tomber tout près de toi? Raconte en commentaire.
 
 ---
 
-# Video 09 — Tu as un trou dans ta vision
+# Video 09 — Les aurores boréales vues depuis l'espace
 
-**Niche :** Ton cerveau te ment  
-**Accroche à l'écran :** TU AS UN TROU DANS TA VISION  
-**Durée :** 95.8 s  
-**Musique :** composition originale procédurale (lofi, 88 BPM, progression lofi_d)
+**Niche :** Planète extrême  
+**Accroche à l'écran :** LES AURORES VUES DE L'ESPACE  
+**Durée :** 76.0 s  
+**Musique :** composition originale procédurale (space, 70 BPM, progression minor_wonder)
 
 | Timecode | Narration | Visuel | Montage |
 |---|---|---|---|
-| 00:00.15 | Il y a un trou dans ta vision. En ce moment même. Et ton cerveau te le cache. | test de la tache aveugle | transition cut, caméra static, sfx pop, musique intensité 0.3 |
-| 00:04.71 | Je vais te le prouver en quinze secondes. | ↳ (même plan) |  |
-| 00:07.07 | Ferme ton œil gauche. Avec ton œil droit, fixe la croix, à gauche de l'écran. | ↳ (même plan) |  |
-| 00:11.66 | Maintenant, rapproche lentement ton téléphone de ton visage… jusqu'à quinze ou vingt centimètres. | ↳ (même plan) |  |
-| 00:17.02 | Continue de fixer la croix. Ne regarde surtout pas le point. | ↳ (même plan) |  |
-| 00:20.59 | À un moment précis… le point noir disparaît complètement. | ↳ (même plan) |  |
-| 00:23.88 | *(silence 3.0 s — le spectateur observe l'effet)* | ↳ (même plan) |  |
-| 00:26.88 | Tu l'as perdu ? Recule un peu : il revient. | ↳ (même plan) |  |
-| 00:29.26 | Ce n'est pas un trucage. Tu viens de trouver ta tache aveugle. | ↳ (même plan) | sfx ding, musique intensité 0.5 |
-| 00:32.89 | Au fond de ton œil, il y a un endroit où le nerf optique quitte la rétine pour rejoindre le cerveau. | fond dégradé animé, coupe de l'œil | transition zoom, caméra slow_in |
-| 00:38.44 | À cet endroit précis, il n'y a aucune cellule capable de capter la lumière. Aucune. | ↳ (même plan) |  |
-| 00:43.46 | Chacun de tes yeux a donc un trou dans son champ de vision. | fond dégradé animé, coupe de l'œil | transition cut, caméra in |
-| 00:46.84 | Alors pourquoi tu ne l'as jamais remarqué ? | fond dégradé animé, texte animé | transition whip, caméra in, sfx pop, musique intensité 0.6 |
-| 00:49.20 | D'abord, tes deux yeux se complètent. Mais surtout… ton cerveau invente ce qui manque. | fond dégradé animé, réseau de neurones animé | transition fade, caméra slow_in |
-| 00:53.99 | Regarde. Même expérience, mais cette fois, le point coupe une ligne. | test de la tache aveugle | transition flash, caméra static, musique intensité 0.35 |
-| 00:57.75 | Œil gauche fermé, fixe la croix, et rapproche-toi doucement. | ↳ (même plan) |  |
-| 01:00.99 | Le point disparaît… mais la ligne, elle, paraît continue. | ↳ (même plan) |  |
-| 01:03.94 | *(silence 2.5 s — le spectateur observe l'effet)* | ↳ (même plan) |  |
-| 01:06.44 | Ton cerveau a bouché le trou avec ce qui lui semblait logique. Il a littéralement dessiné une partie de l'image. | fond dégradé animé, texte animé | transition zoom, caméra in, musique intensité 0.65 |
-| 01:12.96 | La tache aveugle a été découverte vers 1660 par le physicien français Edme Mariotte. | fond dégradé animé, fiche archive (nom, date) | transition fade, caméra slow_in, sfx type |
-| 01:19.29 | Il s'amusait même à faire disparaître la tête des courtisans… à la cour du roi d'Angleterre. | ↳ (même plan) |  |
-| 01:24.81 | Alors la prochaine fois que tu es sûr de ce que tu as vu… souviens-toi qu'une partie, ton cerveau l'a inventée. | fond dégradé animé, texte animé | transition whip, caméra slow_in, musique intensité 0.5 |
-| 01:30.60 | À quelle distance le point a disparu pour toi ? Réponds en commentaire. | test de la tache aveugle | transition fade, caméra static, musique intensité 0.35 |
+| 00:00.15 | Voici des aurores boréales… vues d'en haut, depuis la Station spatiale. | Vidéo réelle : « ISS views Aurora from the November 11-13, 2025 Geomagnetic S » (à 16 s) | transition cut, caméra in, sfx shimmer, musique intensité 0.35 |
+| 00:04.08 | Pour les astronautes, ce rideau de lumière ondule juste sous leurs pieds. | Vidéo réelle : « Aurora Australis as seen from ISS » (à 14 s) | transition whip, caméra slow_in |
+| 00:07.65 | Mais d'où vient cette lumière ? | Vidéo réelle : « ISS views Aurora from the November 11-13, 2025 Geomagnetic S » (à 48 s) | transition cut, caméra push |
+| 00:09.34 | Tout commence sur le Soleil, à 150 millions de kilomètres. | Vidéo réelle : « Largest Flare yet from Solar Cycle 25 » (à 1 s) | transition zoom, caméra in |
+| 00:13.08 | Il projette en permanence des particules électriques dans l'espace : le vent solaire. | Vidéo réelle : « Carrington Class Coronal Mass Ejection - ENLIL Simulation of » (à 2 s) | transition fade, caméra slow_in |
+| 00:17.54 | Parfois, une éruption en envoie des milliards de tonnes d'un coup… vers nous. | Vidéo réelle : « Largest Flare yet from Solar Cycle 25 » (à 3 s) | transition flash, caméra push, sfx impact, musique intensité 0.6 |
+| 00:21.06 | Le champ magnétique de la Terre nous protège… mais près des pôles, il guide une partie de ces particules vers l'atmosphère. | Vidéo réelle : « The Aurora Named STEVE » (à 39 s) | transition zoom, caméra slow_in |
+| 00:27.48 | En percutant l'air, entre 100 et 300 kilomètres d'altitude, elles font briller les gaz. | Vidéo réelle : « The Aurora Named STEVE » (à 56 s) | transition fade, caméra in |
+| 00:32.57 | L'oxygène donne le vert… et le rouge tout en haut. L'azote donne les teintes bleues et violettes. | Vidéo réelle : « Aurora Australis as seen from ISS » (à 24 s) | transition whip, caméra up, musique intensité 0.75 |
+| 00:37.42 | En mai 2024, la tempête solaire la plus forte depuis vingt ans a fait descendre les aurores très au sud. | Vidéo réelle : « What Happened During the Biggest Geomagnetic Storm in Over 2 » (à 0 s) | transition flash, caméra slow_in, étiquette « 10 MAI 2024 » |
+| 00:44.11 | On les a vues partout en France, jusque sur la Côte d'Azur. | Vidéo réelle : « What Happened During the Biggest Geomagnetic Storm in Over 2 » (à 2 s) | transition cut, caméra in |
+| 00:47.47 | Mais en 1859, il y a eu bien pire : l'événement de Carrington. | Vidéo réelle : « Largest Flare yet from Solar Cycle 25 » (à 6 s) | transition black, caméra push, sfx riser, étiquette « 1859 » |
+| 00:52.42 | Des aurores visibles jusqu'aux Caraïbes, et des télégraphes qui crépitaient d'étincelles. | Vidéo réelle : « Carrington Class Coronal Mass Ejection - ENLIL Simulation of » (à 14 s) | transition zoom, caméra slow_in, musique intensité 0.9 |
+| 00:57.08 | Aujourd'hui, une tempête de cette ampleur pourrait perturber satellites, GPS et réseaux électriques. | Vidéo réelle : « ISS views Aurora from the November 11-13, 2025 Geomagnetic S » (à 68 s) | transition fade, caméra drift |
+| 01:02.73 | Et en 2018, des photographes amateurs ont même aidé la NASA à étudier une lueur inconnue, violette et rectiligne… qu'ils ont baptisée STEVE. | Vidéo réelle : « Aurora Australis as seen from ISS » (à 36 s) | transition whip, caméra slow_in, étiquette « STEVE », musique intensité 0.5 |
+| 01:11.17 | Tu les as vues en mai 2024 ? Dis-moi d'où en commentaire. | Vidéo réelle : « ISS views Aurora from the November 11-13, 2025 Geomagnetic S » (à 58 s) | transition fade, caméra out, musique intensité 0.3 |
+
+**Crédits images (séquences réelles utilisées) :**
+
+- ISS views Aurora from the November 11-13, 2025 Geomagnetic Storm — NASA's Goddard Space Flight Center Scientific Visualization Studio — NASA Scientific Visualization Studio — Domaine public (NASA — image uniquement, bande-son non utilisée) — https://svs.gsfc.nasa.gov/31375/
+- Aurora Australis as seen from ISS — NASA's Goddard Space Flight Center Scientific Visualization Studio — NASA Scientific Visualization Studio — Domaine public (NASA — image uniquement, bande-son non utilisée) — https://svs.gsfc.nasa.gov/31281/
+- Largest Flare yet from Solar Cycle 25 — NASA's Goddard Space Flight Center Scientific Visualization Studio — NASA Scientific Visualization Studio — Domaine public (NASA — image uniquement, bande-son non utilisée) — https://svs.gsfc.nasa.gov/14592/
+- Carrington Class Coronal Mass Ejection - ENLIL Simulation of A Series of CMEs — NASA's Goddard Space Flight Center Scientific Visualization Studio — NASA Scientific Visualization Studio — Domaine public (NASA — image uniquement, bande-son non utilisée) — https://svs.gsfc.nasa.gov/5375/
+- Largest Flare yet from Solar Cycle 25 — NASA's Goddard Space Flight Center Scientific Visualization Studio — NASA Scientific Visualization Studio — Domaine public (NASA — image uniquement, bande-son non utilisée) — https://svs.gsfc.nasa.gov/14592/
+- The Aurora Named STEVE — Genna Duberstein, Kasha Patel, Krystofer Kim — NASA Image and Video Library — Domaine public (média NASA — usage libre, sans logo NASA ni suggestion de soutien) — https://images.nasa.gov/details/GSFC_20180314_Aurora_m12865_Steve
+- What Happened During the Biggest Geomagnetic Storm in Over 20 Years — NASA's Goddard Space Flight Center Scientific Visualization Studio — NASA Scientific Visualization Studio — Domaine public (NASA — image uniquement, bande-son non utilisée) — https://svs.gsfc.nasa.gov/14835/
 
 **Sources / vérification des faits :**
 
-- Mariotte (vers 1660, publié en 1668) — découverte de la tache aveugle
-- Anatomie : papille optique dépourvue de photorécepteurs
+- NASA/NOAA — tempête géomagnétique G5 du 10 mai 2024, la plus forte depuis 2003
+- Événement de Carrington (1859) — aurores aux Caraïbes, télégraphes perturbés
+- NASA (2018) — STEVE, étudié avec des photographes amateurs (Alberta Aurora Chasers)
 
 **Texte prononcé (pour réenregistrement éventuel) :**
 
-> Il y a un trou dans ta vision. En ce moment même. Et ton cerveau te le cache. Je vais te le prouver en quinze secondes. Ferme ton œil gauche. Avec ton œil droit, fixe la croix, à gauche de l'écran. Maintenant, rapproche lentement ton téléphone de ton visage… jusqu'à quinze ou vingt centimètres. Continue de fixer la croix. Ne regarde surtout pas le point. À un moment précis… le point noir disparaît complètement. Tu l'as perdu? Recule un peu: il revient. Ce n'est pas un trucage. Tu viens de trouver ta tache aveugle. Au fond de ton œil, il y a un endroit où le nerf optique quitte la rétine pour rejoindre le cerveau. À cet endroit précis, il n'y a aucune cellule capable de capter la lumière. Aucune. Chacun de tes yeux a donc un trou dans son champ de vision. Alors pourquoi tu ne l'as jamais remarqué? D'abord, tes deux yeux se complètent. Mais surtout… ton cerveau invente ce qui manque. Regarde. Même expérience, mais cette fois, le point coupe une ligne. Œil gauche fermé, fixe la croix, et rapproche-toi doucement. Le point disparaît… mais la ligne, elle, paraît continue. Ton cerveau a bouché le trou avec ce qui lui semblait logique. Il a littéralement dessiné une partie de l'image. La tache aveugle a été découverte vers seize cent soixante par le physicien français Edme Mariotte. Il s'amusait même à faire disparaître la tête des courtisans… à la cour du roi d'Angleterre. Alors la prochaine fois que tu es sûr de ce que tu as vu… souviens-toi qu'une partie, ton cerveau l'a inventée. À quelle distance le point a disparu pour toi? Réponds en commentaire.
+> Voici des aurores boréales… vues d'en haut, depuis la Station spatiale. Pour les astronautes, ce rideau de lumière ondule juste sous leurs pieds. Mais d'où vient cette lumière? Tout commence sur le Soleil, à cent cinquante millions de kilomètres. Il projette en permanence des particules électriques dans l'espace: le vent solaire. Parfois, une éruption en envoie des milliards de tonnes d'un coup… vers nous. Le champ magnétique de la Terre nous protège… mais près des pôles, il guide une partie de ces particules vers l'atmosphère. En percutant l'air, entre cent et trois cents kilomètres d'altitude, elles font briller les gaz. L'oxygène donne le vert… et le rouge tout en haut. L'azote donne les teintes bleues et violettes. En mai deux mille vingt-quatre, la tempête solaire la plus forte depuis vingt ans a fait descendre les aurores très au sud. On les a vues partout en France, jusque sur la Côte d'Azur. Mais en dix-huit cent cinquante-neuf, il y a eu bien pire: l'événement de Carrington. Des aurores visibles jusqu'aux Caraïbes, et des télégraphes qui crépitaient d'étincelles. Aujourd'hui, une tempête de cette ampleur pourrait perturber satellites, GPS et réseaux électriques. Et en deux mille dix-huit, des photographes amateurs ont même aidé la NASA à étudier une lueur inconnue, violette et rectiligne… qu'ils ont baptisée STEVE. Tu les as vues en mai deux mille vingt-quatre? Dis-moi d'où en commentaire.
 
 ---
 
-# Video 10 — A et B sont de la même couleur
+# Video 10 — Le Sahara nourrit l'Amazonie
 
-**Niche :** Ton cerveau te ment  
-**Accroche à l'écran :** A ET B SONT IDENTIQUES  
-**Durée :** 81.8 s  
-**Musique :** composition originale procédurale (lofi, 90 BPM, progression lofi_e)
+**Niche :** Planète extrême  
+**Accroche à l'écran :** LE SAHARA NOURRIT L'AMAZONIE  
+**Durée :** 78.2 s  
+**Musique :** composition originale procédurale (space, 74 BPM, progression minor_drift)
 
 | Timecode | Narration | Visuel | Montage |
 |---|---|---|---|
-| 00:00.15 | Les cases A et B sont exactement de la même couleur. | échiquier à l'ombre (cases A/B identiques) | transition cut, caméra static, sfx pop, musique intensité 0.35 |
-| 00:03.35 | Oui, je sais. Ça paraît impossible. | ↳ (même plan) |  |
-| 00:05.47 | La case A paraît foncée. La case B paraît claire. C'est évident, non ? | ↳ (même plan) |  |
-| 00:09.60 | Pourtant, à l'écran, ce sont exactement les mêmes pixels. Le même gris. | ↳ (même plan) |  |
-| 00:13.70 | Regarde : je relie les deux cases avec une bande de ce même gris. | échiquier à l'ombre (cases A/B identiques) | transition cut, caméra static, sfx reverse, musique intensité 0.5 |
-| 00:17.26 | La bande ne change jamais de couleur, d'un bout à l'autre. | ↳ (même plan) |  |
-| 00:20.42 | Et maintenant, j'efface tout le reste. | échiquier à l'ombre (cases A/B identiques) | transition cut, caméra static, sfx whoosh_soft |
-| 00:22.47 | Voilà. Deux carrés identiques. | ↳ (même plan) | sfx ding |
-| 00:24.29 | Je remets l'échiquier… et ton cerveau recommence à te mentir. | échiquier à l'ombre (cases A/B identiques) | transition cut, caméra static |
-| 00:27.91 | Même en connaissant la vérité, impossible de les voir pareilles. | ↳ (même plan) |  |
-| 00:31.42 | Cette illusion reprend le principe d'une image célèbre publiée en 1995 par Edward Adelson, chercheur au MIT. | fond dégradé animé, fiche archive (nom, date) | transition fade, caméra slow_in, sfx type, musique intensité 0.55 |
-| 00:39.53 | Ton cerveau ne mesure pas la lumière qui arrive dans tes yeux. Il essaie de deviner la vraie couleur des objets. | fond dégradé animé, réseau de neurones animé | transition zoom, caméra slow_in |
-| 00:45.57 | Il repère l'ombre du cylindre et se dit : cette case est à l'ombre, donc en réalité, elle doit être plus claire. | échiquier à l'ombre (cases A/B identiques) | transition fade, caméra static |
-| 00:51.87 | Alors il corrige, automatiquement. C'est ce qu'on appelle la constance des couleurs. | fond dégradé animé, texte animé | transition whip, caméra in, sfx pop, musique intensité 0.7 |
-| 00:56.39 | Sans ce réflexe, une feuille blanche te paraîtrait grise dès qu'elle passe à l'ombre. | feuille à l'ombre | transition fade, caméra slow_in |
-| 01:00.81 | C'est une compétence vitale… qui devient un piège dès qu'on la teste. | ↳ (même plan) |  |
-| 01:04.90 | C'est exactement ce qui s'est passé avec la fameuse robe de 2015 : bleue et noire, ou blanche et dorée ? | couleurs de « la robe » | transition whip, caméra slow_in, musique intensité 0.6 |
-| 01:11.28 | Selon l'éclairage que ton cerveau imaginait, il corrigeait les couleurs dans un sens… ou dans l'autre. | ↳ (même plan) |  |
-| 01:16.85 | Et toi, à l'époque, tu la voyais de quelle couleur ? Dis-le en commentaire. | couleurs de « la robe » | transition fade, caméra in, musique intensité 0.35 |
+| 00:00.15 | Chaque année, le plus grand désert chaud du monde nourrit la plus grande forêt tropicale du monde. | Vidéo réelle : « Godzilla Dust Storm » (à 28 s) | transition cut, caméra in, sfx boom, musique intensité 0.35 |
+| 00:05.33 | Et ce n'est pas une image : c'est une découverte des satellites de la NASA. | Vidéo réelle : « Satellite Tracks Saharan Dust To Amazon In 3-D: Dust Transpo » (à 9 s) | transition whip, caméra slow_in |
+| 00:09.26 | Regarde ces nuages orange : c'est de la poussière du Sahara, soulevée par le vent. | Vidéo réelle : « Godzilla Dust Storm » (à 34 s) | transition zoom, caméra in |
+| 00:13.79 | Environ 182 millions de tonnes s'envolent chaque année. | Vidéo réelle : « Godzilla Dust Storm » (à 30 s), compteur animé | transition cut, caméra push |
+| 00:17.21 | Elles traversent tout l'océan Atlantique, sur des milliers de kilomètres. | Vidéo réelle : « Satellite Tracks Saharan Dust To Amazon In 3-D: Saharan Dust » (à 0 s) | transition whip, caméra right |
+| 00:20.88 | Et environ 28 millions de tonnes retombent sur l'Amazonie. | Vidéo réelle : « Satellite Tracks Saharan Dust To Amazon In 3-D: Amazon Trans » (à 0 s), compteur animé | transition zoom, caméra in, musique intensité 0.6 |
+| 00:24.29 | Pourquoi c'est important ? Parce que le sol de l'Amazonie est étonnamment pauvre. | Vidéo réelle : « Amazon Canopy Comes to Life through Laser Data » (à 15 s) | transition fade, caméra slow_in |
+| 00:28.48 | Les pluies torrentielles lessivent sans cesse ses nutriments, notamment le phosphore, indispensable aux plantes. | Vidéo réelle : « Amazon Canopy Comes to Life through Laser Data » (à 18 s) | transition whip, caméra up |
+| 00:34.29 | Or, la poussière du Sahara en apporte environ 22 000 tonnes par an… à peu près ce que la forêt perd. | Vidéo réelle : « Satellite Tracks Saharan Dust To Amazon In 3-D: Dust Transpo » (à 15 s), texte animé | transition flash, caméra in, musique intensité 0.75 |
+| 00:40.01 | Et le plus incroyable, c'est d'où vient ce phosphore. | Vidéo réelle : « Satellite Tracks Saharan Dust To Amazon In 3-D: Sahara Map » (à 0 s) | transition black, caméra push, sfx riser |
+| 00:43.01 | Une grande partie de la poussière part d'un seul endroit : la dépression du Bodélé, au Tchad. | Vidéo réelle : « Satellite Tracks Saharan Dust To Amazon In 3-D: Sahara Map » (à 3 s) | transition zoom, caméra in, étiquette « BODÉLÉ • TCHAD » |
+| 00:48.12 | Il y a des milliers d'années, c'était le fond d'un immense lac. | Vidéo réelle : « Satellite Tracks Saharan Dust To Amazon In 3-D: Sahara Map » (à 5 s) | transition fade, caméra slow_in |
+| 00:51.23 | Le phosphore vient des restes de micro-organismes qui y vivaient. | Vidéo réelle : « Satellite Tracks Saharan Dust To Amazon In 3-D: Saharan Dust » (à 4 s) | transition cut, caméra in, musique intensité 0.9 |
+| 00:54.64 | Autrement dit, une forêt vivante est en partie nourrie par les restes d'un ancien lac du Sahara. | Vidéo réelle : « Amazon Canopy Comes to Life through Laser Data » (à 16 s) | transition whip, caméra slow_in |
+| 00:59.67 | Et parfois, cette poussière arrive jusqu'à nous : les ciels orange et les voitures couvertes de sable en France, c'est elle. | Vidéo réelle : « Godzilla Dust Storm » (à 14 s) | transition fade, caméra drift, musique intensité 0.6 |
+| 01:06.02 | En juin 2020, un nuage de poussière si énorme qu'on l'a surnommé « Godzilla » a même atteint les États-Unis. | Vidéo réelle : « Godzilla Dust Storm » (à 44 s) | transition zoom, caméra in, étiquette « JUIN 2020 • « GODZILLA » » |
+| 01:12.31 | Tu as déjà retrouvé ta voiture couverte de sable du Sahara ? Dis-le en commentaire. | Vidéo réelle : « Godzilla Dust Storm » (à 40 s) | transition fade, caméra out, musique intensité 0.3 |
+
+**Crédits images (séquences réelles utilisées) :**
+
+- Godzilla Dust Storm — NASA's Goddard Space Flight Center Scientific Visualization Studio — NASA Scientific Visualization Studio — Domaine public (NASA — image uniquement, bande-son non utilisée) — https://svs.gsfc.nasa.gov/4849/
+- Satellite Tracks Saharan Dust To Amazon In 3-D: Dust Transport — Joy Ng, Kel Elkins, Greg Shirah, Horace Mitchell, Hongbin Yu, Kayvon Sharghi, Brian Monroe, Norman Kuring, Ellen T. Gray — NASA Image and Video Library — Domaine public (média NASA — usage libre, sans logo NASA ni suggestion de soutien) — https://images.nasa.gov/details/GSFC_20150224_CALIPSO_m11775_Dust_Transport
+- Godzilla Dust Storm — NASA's Goddard Space Flight Center Scientific Visualization Studio — NASA Scientific Visualization Studio — Domaine public (NASA — image uniquement, bande-son non utilisée) — https://svs.gsfc.nasa.gov/4849/
+- Satellite Tracks Saharan Dust To Amazon In 3-D: Saharan Dust Close Up — Joy Ng, Kel Elkins, Greg Shirah, Horace Mitchell, Hongbin Yu, Kayvon Sharghi, Brian Monroe, Norman Kuring, Ellen T. Gray — NASA Image and Video Library — Domaine public (média NASA — usage libre, sans logo NASA ni suggestion de soutien) — https://images.nasa.gov/details/GSFC_20150224_CALIPSO_m11775_Saharan_Dust_CloseUp
+- Satellite Tracks Saharan Dust To Amazon In 3-D: Amazon Transport Close Up — Joy Ng, Kel Elkins, Greg Shirah, Horace Mitchell, Hongbin Yu, Kayvon Sharghi, Brian Monroe, Norman Kuring, Ellen T. Gray — NASA Image and Video Library — Domaine public (média NASA — usage libre, sans logo NASA ni suggestion de soutien) — https://images.nasa.gov/details/GSFC_20150224_CALIPSO_m11775_Amazon_Transport_CloseUp
+- Amazon Canopy Comes to Life through Laser Data — Jefferson Beck, Doug C. Morton, Alex Kekesi, Ellen T. Gray — NASA Image and Video Library — Domaine public (média NASA — usage libre, sans logo NASA ni suggestion de soutien) — https://images.nasa.gov/details/GSFC_20180612_Amazon_m12982_Lidar_2018yr
+- Satellite Tracks Saharan Dust To Amazon In 3-D: Sahara Map — Joy Ng, Kel Elkins, Greg Shirah, Horace Mitchell, Hongbin Yu, Kayvon Sharghi, Brian Monroe, Norman Kuring, Ellen T. Gray — NASA Image and Video Library — Domaine public (média NASA — usage libre, sans logo NASA ni suggestion de soutien) — https://images.nasa.gov/details/GSFC_20150224_CALIPSO_m11775_Sahara_Map
 
 **Sources / vérification des faits :**
 
-- Adelson (1995) — « checkershadow illusion » (MIT) ; visuel de la vidéo recréé en code (image originale non utilisée)
-- « La robe » (février 2015) — études sur les présupposés d'éclairage
+- Yu et al., Geophysical Research Letters (2015), NASA CALIPSO — 182 Mt/an, 27,7 Mt sur l'Amazonie, ≈ 22 000 t de phosphore
+- Dépression du Bodélé (Tchad), ancien lac Méga-Tchad riche en diatomées
+- NASA — nuage de poussière « Godzilla », juin 2020
 
 **Texte prononcé (pour réenregistrement éventuel) :**
 
-> Les cases A et B sont exactement de la même couleur. Oui, je sais. Ça paraît impossible. La case A paraît foncée. La case B paraît claire. C'est évident, non? Pourtant, à l'écran, ce sont exactement les mêmes pixels. Le même gris. Regarde: je relie les deux cases avec une bande de ce même gris. La bande ne change jamais de couleur, d'un bout à l'autre. Et maintenant, j'efface tout le reste. Voilà. Deux carrés identiques. Je remets l'échiquier… et ton cerveau recommence à te mentir. Même en connaissant la vérité, impossible de les voir pareilles. Cette illusion reprend le principe d'une image célèbre publiée en mille neuf cent quatre-vingt-quinze par Èdouard Adèlsonne, chercheur au èm-i-té. Ton cerveau ne mesure pas la lumière qui arrive dans tes yeux. Il essaie de deviner la vraie couleur des objets. Il repère l'ombre du cylindre et se dit: cette case est à l'ombre, donc en réalité, elle doit être plus claire. Alors il corrige, automatiquement. C'est ce qu'on appelle la constance des couleurs. Sans ce réflexe, une feuille blanche te paraîtrait grise dès qu'elle passe à l'ombre. C'est une compétence vitale… qui devient un piège dès qu'on la teste. C'est exactement ce qui s'est passé avec la fameuse robe de deux mille quinze: bleue et noire, ou blanche et dorée? Selon l'éclairage que ton cerveau imaginait, il corrigeait les couleurs dans un sens… ou dans l'autre. Et toi, à l'époque, tu la voyais de quelle couleur? Dis-le en commentaire.
+> Chaque année, le plus grand désert chaud du monde nourrit la plus grande forêt tropicale du monde. Et ce n'est pas une image: c'est une découverte des satellites de la NASA. Regarde ces nuages orange: c'est de la poussière du Sahara, soulevée par le vent. Environ cent quatre-vingt-deux millions de tonnes s'envolent chaque année. Elles traversent tout l'océan Atlantique, sur des milliers de kilomètres. Et environ vingt-huit millions de tonnes retombent sur l'Amazonie. Pourquoi c'est important? Parce que le sol de l'Amazonie est étonnamment pauvre. Les pluies torrentielles lessivent sans cesse ses nutriments, notamment le phosphore, indispensable aux plantes. Or, la poussière du Sahara en apporte environ vingt-deux mille tonnes par an… à peu près ce que la forêt perd. Et le plus incroyable, c'est d'où vient ce phosphore. Une grande partie de la poussière part d'un seul endroit: la dépression du Bodélé, au Tchad. Il y a des milliers d'années, c'était le fond d'un immense lac. Le phosphore vient des restes de micro-organismes qui y vivaient. Autrement dit, une forêt vivante est en partie nourrie par les restes d'un ancien lac du Sahara. Et parfois, cette poussière arrive jusqu'à nous: les ciels orange et les voitures couvertes de sable en France, c'est elle. En juin deux mille vingt, un nuage de poussière si énorme qu'on l'a surnommé « Godzilla» a même atteint les États-Unis. Tu as déjà retrouvé ta voiture couverte de sable du Sahara? Dis-le en commentaire.

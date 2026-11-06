@@ -157,7 +157,7 @@ def gen():
 
     # RÉCAPITULATIF
     rm = ['# Récapitulatif des 10 vidéos\n',
-          '| Vidéo | Niche | Titre | Durée | Résolution | Codecs | Débit | Taille | Loudness | Narration (Whisper) | Sous-titres synchro | QC |',
+          '| Vidéo | Niche | Titre | Durée | Résolution | Codecs | Débit | Taille | Loudness | Narration (Whisper, hors nombres) | Sous-titres synchro | QC |',
           '|---|---|---|---|---|---|---|---|---|---|---|---|']
     for vid in sorted(vids):
         v = vids[vid]; r = qc.get(vid, {})
@@ -183,7 +183,7 @@ def gen():
             if r.get('exists'):
                 q.append(f"\nMesures : durée {r['duration']:.1f} s · {r['lufs']:.1f} LUFS · true peak {r['true_peak_db']:.1f} dBTP · niveau parole {r['level_speech_db']:.1f} dBFS vs pauses {r['level_gaps_db']:.1f} dBFS · "
                          f"{r['caption_words']} mots sous-titrés, {r['caption_words_voiced'] * 100:.1f} % tombent sur de la voix, {r['caption_words_outside_segment']} hors segment · "
-                         f"reconnaissance Whisper : {r.get('asr_word_recall', 0) * 100:.1f} % des mots du script · luminosité min {r['frame_mean_min']} · variation moyenne entre images {r['frame_change_mean']}")
+                         f"reconnaissance Whisper : {r.get('asr_word_recall', 0) * 100:.1f} % des mots du script (nombres exclus : Whisper les écrit en chiffres) · luminosité min {r['frame_mean_min']} · variation moyenne entre images {r['frame_change_mean']}")
                 if r.get('asr_excerpt'):
                     q.append(f"\nExtrait de transcription automatique : « {r['asr_excerpt']}… »")
                 q.append(f"\n![planche]({vid}_planche.jpg)\n")

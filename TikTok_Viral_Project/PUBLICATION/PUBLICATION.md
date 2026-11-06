@@ -6,12 +6,13 @@ Heures en **heure de Paris**, à tester sur 2 à 3 semaines puis à ajuster avec
 
 **Fichier :** `NICHE_1/video_01.mp4`  
 **1. Titre :** Il pleut du verre sur cette planète 😳  
-**2. Description :** HD 189733 b : une planète bleue à 64 années-lumière où il pleuvrait du verre… à l'horizontale. Et Webb y a détecté une odeur d'œuf pourri. Tu irais la voir ? 👇 (Illustrations générées par ordinateur, vue d'artiste.)  
+**2. Description :** HD 189733 b : une planète bleue à 64 années-lumière où il pleuvrait du verre… à l'horizontale. Et Webb y a détecté une odeur d'œuf pourri. Tu irais la voir ? 👇 (Images : NASA — illustrations scientifiques et vues d'artiste.)  
 **3. Hashtags :** #espace #astronomie #exoplanete #jameswebb #science  
 **4. Phrase d'accroche :** « Il existe une planète où il pleut du verre. »  
 **5. Couverture :** Gros plan de la planète bleu cobalt avec traînées de verre ; texte : « IL PLEUT DU VERRE ICI » en jaune sur fond bleu nuit. — image prête : `PUBLICATION/couvertures/video_01_couverture.jpg`  
 **6. Créneau à tester :** Mardi 19 h 00  
-**7. Potentiel viral :** Hook visuel + paradoxe (« pluie de verre ») immédiatement compréhensible, fait réel vérifiable (NASA/Hubble 2013, Webb 2024), chute humoristique (œuf pourri) qui favorise les partages et une question binaire en fin de vidéo qui pousse aux commentaires.
+**7. Potentiel viral :** Hook visuel + paradoxe (« pluie de verre ») immédiatement compréhensible, fait réel vérifiable (NASA/Hubble 2013, Webb 2024), chute humoristique (œuf pourri) qui favorise les partages et une question binaire en fin de vidéo qui pousse aux commentaires.  
+**Crédits à mentionner (fin de description) :** Images : ESA/C. Carreau ; NASA's Goddard Space Flight Center ; NASA's Goddard Space Flight Center Scientific Visualization Studio ; NASA’s Goddard Space Flight Center and M. Troxel || OpenUniverseFullZoom_4k_Best.00001_print.jpg (1024x576) [111.9 KB] || OpenUniverseFullZoom_4k_Good.mp4 (3840x2160) [101.9 MB] || OpenUniverseFullZoo
 
 ## video_02 — Les secrets de l'Univers
 
@@ -22,7 +23,8 @@ Heures en **heure de Paris**, à tester sur 2 à 3 semaines puis à ajuster avec
 **4. Phrase d'accroche :** « Si le Soleil disparaissait maintenant… tu ne le saurais pas avant huit minutes. »  
 **5. Couverture :** Soleil qui s'éteint à moitié (dégradé noir) + chrono « 08:20 » en grand. — image prête : `PUBLICATION/couvertures/video_02_couverture.jpg`  
 **6. Créneau à tester :** Mercredi 12 h 30  
-**7. Potentiel viral :** Scénario « et si… » universel, détail contre-intuitif (la gravité n'est pas instantanée) prouvé par un événement réel (GW170817), compte à rebours qui crée de la tension et question ouverte très facile à commenter.
+**7. Potentiel viral :** Scénario « et si… » universel, détail contre-intuitif (la gravité n'est pas instantanée) prouvé par un événement réel (GW170817), compte à rebours qui crée de la tension et question ouverte très facile à commenter.  
+**Crédits à mentionner (fin de description) :** Images : JSC ; NASA's Goddard Space Flight Center Scientific Visualization Studio ; NASA's Goddard Space Flight Center/CI Lab ; NASA/JPL/Space Science Institute ; NASA’s Goddard Space Flight Center and M. Troxel || OpenUniverseFullZoom_4k_Best.00001_print.jpg (1024x576) [111.9 KB] || OpenUniverseFullZoom_4k_Good.mp4 (3840x2160) [101.9 MB] || OpenUniverseFullZoo
 
 ## video_03 — Les secrets de l'Univers
 
@@ -33,18 +35,20 @@ Heures en **heure de Paris**, à tester sur 2 à 3 semaines puis à ajuster avec
 **4. Phrase d'accroche :** « Il existe une zone de l'Univers tellement vide qu'on la surnomme simplement : le Grand Vide. »  
 **5. Couverture :** Toile cosmique bleue avec un cercle doré vide au centre ; texte : « 60 GALAXIES AU LIEU DE 2 000 ». — image prête : `PUBLICATION/couvertures/video_03_couverture.jpg`  
 **6. Créneau à tester :** Jeudi 21 h 00  
-**7. Potentiel viral :** Mystère cosmique avec chiffres chocs (2 000 → 60), citation vertigineuse, démystification des théories farfelues (renforce la crédibilité) et twist final personnel (« le Vide local »).
+**7. Potentiel viral :** Mystère cosmique avec chiffres chocs (2 000 → 60), citation vertigineuse, démystification des théories farfelues (renforce la crédibilité) et twist final personnel (« le Vide local »).  
+**Crédits à mentionner (fin de description) :** Images : NASA's Goddard Space Flight Center Scientific Visualization Studio ; NASA/JPL-Caltech ; NASA’s Goddard Space Flight Center and M. Troxel || OpenUniverseFullZoom_4k_Best.00001_print.jpg (1024x576) [111.9 KB] || OpenUniverseFullZoom_4k_Good.mp4 (3840x2160) [101.9 MB] || OpenUniverseFullZoo
 
 ## video_04 — Les secrets de l'Univers
 
 **Fichier :** `NICHE_1/video_04.mp4`  
 **1. Titre :** Voici ce qui t'arrive si tu tombes dans un trou noir  
-**2. Description :** Petit trou noir : spaghettification. Supermassif : tu ne sens rien… mais ton ami te voit te figer pour toujours. Tu choisis lequel ? 👇 (Illustrations générées par ordinateur.)  
+**2. Description :** Petit trou noir : spaghettification. Supermassif : tu ne sens rien… mais ton ami te voit te figer pour toujours. Tu choisis lequel ? 👇 (Images : NASA Goddard — visualisations scientifiques.)  
 **3. Hashtags :** #trounoir #espace #relativite #einstein #astronomie  
 **4. Phrase d'accroche :** « Voici ce qui t'arriverait si tu tombais dans un trou noir. »  
 **5. Couverture :** Trou noir doré façon disque d'accrétion + silhouette d'astronaute étirée ; texte : « TU TOMBES… ». — image prête : `PUBLICATION/couvertures/video_04_couverture.jpg`  
 **6. Créneau à tester :** Vendredi 18 h 00  
-**7. Potentiel viral :** Sujet spatial le plus recherché, narration à la 2e personne (immersion), mot mémorable (« spaghettification »), opposition petit/supermassif qui structure la vidéo et alimente les commentaires.
+**7. Potentiel viral :** Sujet spatial le plus recherché, narration à la 2e personne (immersion), mot mémorable (« spaghettification »), opposition petit/supermassif qui structure la vidéo et alimente les commentaires.  
+**Crédits à mentionner (fin de description) :** Images : NASA's Goddard Space Flight Center Scientific Visualization Studio ; NASA's Goddard Space Flight Center/CI Lab ; NASA's Goddard Space Flight Center/J. Schnittman and B. Powell ; NASA’s Goddard Space Flight Center/Jeremy Schnittman || BH_Accretion_Disk_Sim_360_4k_Prores.00001_print.jpg (1024x1024) [33.2 KB] || BH_Accretion_Disk_Sim_360_4k_Prores.00001_searchweb.png (320x180) [
 
 ## video_05 — Les secrets de l'Univers
 
@@ -55,60 +59,66 @@ Heures en **heure de Paris**, à tester sur 2 à 3 semaines puis à ajuster avec
 **4. Phrase d'accroche :** « Sur Vénus, une journée dure plus longtemps qu'une année. »  
 **5. Couverture :** Vénus jaune-orangé + dirigeable au-dessus des nuages ; texte : « 1 JOUR > 1 AN ». — image prête : `PUBLICATION/couvertures/video_05_couverture.jpg`  
 **6. Créneau à tester :** Samedi 11 h 00  
-**7. Potentiel viral :** Paradoxe dès la 1re seconde, avalanche de faits extrêmes (plomb fondu, 900 m sous l'eau), histoire vraie de la sonde Venera 13 et twist final optimiste (villes flottantes) ; CTA oui/non à faible friction.
+**7. Potentiel viral :** Paradoxe dès la 1re seconde, avalanche de faits extrêmes (plomb fondu, 900 m sous l'eau), histoire vraie de la sonde Venera 13 et twist final optimiste (villes flottantes) ; CTA oui/non à faible friction.  
+**Crédits à mentionner (fin de description) :** Images : NASA's Goddard Space Flight Center Scientific Visualization Studio
 
-## video_06 — Ton cerveau te ment
+## video_06 — Planète extrême
 
 **Fichier :** `NICHE_2/video_06.mp4`  
-**1. Titre :** Fixe le point 30 secondes : ton cerveau va recolorer ce drapeau 🇫🇷  
-**2. Description :** Expérience : fixe le point blanc sans bouger les yeux… puis regarde l'écran blanc. Tu as vu bleu-blanc-rouge ? Écris-le en commentaire ! Explication : image rémanente et couleurs opposées (Hering).  
-**3. Hashtags :** #illusionoptique #cerveau #psychologie #experience #drapeaufrancais  
-**4. Phrase d'accroche :** « Ce drapeau n'a pas les bonnes couleurs. Mais dans trente secondes, tu vas voir le vrai. »  
-**5. Couverture :** Drapeau aux couleurs inversées (orange-noir-cyan) avec le point blanc ; texte : « FIXE LE POINT 30 s ». — image prête : `PUBLICATION/couvertures/video_06_couverture.jpg`  
-**6. Créneau à tester :** Mardi 20 h 30  
-**7. Potentiel viral :** Expérience interactive à fort taux de complétion (il faut rester jusqu'au bout pour voir l'effet), forte identité française (drapeau), rejouabilité (re-visionnages) et commentaire guidé « bleu blanc rouge ».
+**1. Titre :** Un ouragan vu depuis la Station spatiale 🌀  
+**2. Description :** Images réelles de l'ISS au-dessus des ouragans Beryl, Franklin et Milton. Énergie, œil, vents à 250 km/h : voici comment naît un monstre. Tu as déjà vécu une tempête ? 👇 (Images : NASA)  
+**3. Hashtags :** #ouragan #espace #meteo #nasa #planete  
+**4. Phrase d'accroche :** « Voici ce que voient les astronautes quand un ouragan passe sous la Station spatiale. »  
+**5. Couverture :** Œil de l'ouragan Beryl vu de l'ISS ; texte : « UN OURAGAN VU DE L'ESPACE ». — image prête : `PUBLICATION/couvertures/video_06_couverture.jpg`  
+**6. Créneau à tester :** Mardi 19 h 30  
+**7. Potentiel viral :** Images réelles et spectaculaires dès la 1re seconde, point de vue rare (astronautes), chiffres chocs et question personnelle en fin de vidéo qui déclenche des témoignages.  
+**Crédits à mentionner (fin de description) :** Images : JSC ; NASA's Goddard Space Flight Center Scientific Visualization Studio
 
-## video_07 — Ton cerveau te ment
+## video_07 — Planète extrême
 
 **Fichier :** `NICHE_2/video_07.mp4`  
-**1. Titre :** Regarde cette spirale 30 secondes… puis regarde ta main  
-**2. Description :** L'illusion de la cascade (effet consécutif de mouvement), décrite dès Aristote. Fixe le point rouge jusqu'au bout. Ça a duré combien de temps pour toi ? 👇 ⚠️ Arrête si tu ressens un inconfort.  
-**3. Hashtags :** #illusionoptique #cerveau #spirale #neurosciences #psychologie  
-**4. Phrase d'accroche :** « Regarde cette spirale pendant trente secondes… et le monde autour de toi va se mettre à bouger. »  
-**5. Couverture :** Spirale noir et blanc hypnotique avec point rouge ; texte : « NE QUITTE PAS LE CENTRE ». — image prête : `PUBLICATION/couvertures/video_07_couverture.jpg`  
-**6. Créneau à tester :** Mercredi 21 h 00  
-**7. Potentiel viral :** Format « défi » éprouvé sur TikTok, effet spectaculaire ressenti physiquement, explication neuroscientifique claire (neurones du mouvement) et question chiffrée qui génère beaucoup de réponses.
+**1. Titre :** L'explosion la plus puissante jamais mesurée 🌋  
+**2. Description :** Hunga Tonga, 15 janvier 2022 : panache à 57 km, onde de choc qui fait le tour de la Terre, 146 millions de tonnes d'eau dans la stratosphère. Tu en avais entendu parler ? 👇 (Images : NASA / NOAA GOES)  
+**3. Hashtags :** #volcan #tonga #eruption #science #planete  
+**4. Phrase d'accroche :** « Un volcan sous-marin a explosé avec une puissance jamais enregistrée par nos instruments modernes. »  
+**5. Couverture :** Panache vu par satellite ; texte : « PLUS PUISSANT QU'HIROSHIMA ×100 ». — image prête : `PUBLICATION/couvertures/video_07_couverture.jpg`  
+**6. Créneau à tester :** Mercredi 20 h 30  
+**7. Potentiel viral :** Événement réel récent et méconnu, données satellites inédites (onde de choc visible), lien avec la France (baromètres) et twist final (l'eau dans la stratosphère).  
+**Crédits à mentionner (fin de description) :** Images : HQ ; JSC ; NASA's Goddard Space Flight Center Scientific Visualization Studio ; NASA/JPL-Caltech
 
-## video_08 — Ton cerveau te ment
+## video_08 — Planète extrême
 
 **Fichier :** `NICHE_2/video_08.mp4`  
-**1. Titre :** Fixe la croix : les couleurs vont disparaître  
-**2. Description :** Niveau 1 : l'effet Troxler (1804). Niveau 2 : le « lilac chaser » où un point vert qui n'existe pas apparaît. Tu l'as vu ? Écris « vert » 👇  
-**3. Hashtags :** #illusionoptique #cerveau #testvisuel #psychologie #couleurs  
-**4. Phrase d'accroche :** « Fixe la croix au centre… et ces couleurs vont disparaître sous tes yeux. »  
-**5. Couverture :** Cercle de points roses flous autour d'une croix ; texte : « TU VAS VOIR UN POINT VERT ». — image prête : `PUBLICATION/couvertures/video_08_couverture.jpg`  
-**6. Créneau à tester :** Jeudi 12 h 30  
-**7. Potentiel viral :** Deux illusions en escalade (« niveau 2 ») qui retiennent jusqu'à la fin, révélation « il n'y a jamais eu de vert » très partageable et engagement par mot-clé simple en commentaire.
+**1. Titre :** Ce qui se passe AU-DESSUS des orages ⚡  
+**2. Description :** Sprites rouges filmés depuis l'ISS, 44 éclairs par seconde, éclair de 829 km, rayons gamma et antimatière… La foudre est bien plus folle que tu crois. Raconte ton orage le plus fou 👇 (Images : NASA)  
+**3. Hashtags :** #foudre #orage #espace #science #nasa  
+**4. Phrase d'accroche :** « Ce flash rouge au-dessus des nuages, ce n'est pas un effet spécial. »  
+**5. Couverture :** Flash rouge au-dessus d'un orage vu de l'ISS ; texte : « CE N'EST PAS UN EFFET SPÉCIAL ». — image prête : `PUBLICATION/couvertures/video_08_couverture.jpg`  
+**6. Créneau à tester :** Jeudi 21 h 00  
+**7. Potentiel viral :** Hook mystérieux (phénomène que peu connaissent), accumulation de records et faits contre-intuitifs (antimatière), sujet universel qui pousse aux anecdotes en commentaire.  
+**Crédits à mentionner (fin de description) :** Images : HQ ; Jacob Shaw ; Lori Losey ; NASA's Goddard Space Flight Center Scientific Visualization Studio
 
-## video_09 — Ton cerveau te ment
+## video_09 — Planète extrême
 
 **Fichier :** `NICHE_2/video_09.mp4`  
-**1. Titre :** Tu as un trou dans ta vision (et je te le prouve)  
-**2. Description :** Ferme l'œil gauche, fixe la croix avec l'œil droit, approche ton téléphone… le point disparaît. C'est ta tache aveugle, découverte par Edme Mariotte vers 1660. À quelle distance pour toi ? 👇  
-**3. Hashtags :** #tacheaveugle #cerveau #illusionoptique #oeil #science  
-**4. Phrase d'accroche :** « Il y a un trou dans ta vision. En ce moment même. Et ton cerveau te le cache. »  
-**5. Couverture :** Fond blanc, croix noire à gauche et gros point noir à droite ; texte : « FERME L'ŒIL GAUCHE ». — image prête : `PUBLICATION/couvertures/video_09_couverture.jpg`  
-**6. Créneau à tester :** Vendredi 20 h 00  
-**7. Potentiel viral :** Test participatif réalisable par 100 % des spectateurs sur téléphone, révélation corporelle surprenante, anecdote historique amusante (la tête des courtisans) et question de distance qui déclenche des comparaisons.
+**1. Titre :** Les aurores boréales vues depuis l'espace 🌌  
+**2. Description :** Vues de l'ISS, les aurores ondulent sous les astronautes. D'où vient la lumière, pourquoi le vert et le rouge, la tempête de mai 2024 vue en France… Tu les as vues ? Dis-moi d'où 👇 (Images : NASA)  
+**3. Hashtags :** #aurore #auroreboreale #espace #nasa #soleil  
+**4. Phrase d'accroche :** « Voici des aurores boréales… vues d'en haut, depuis la Station spatiale. »  
+**5. Couverture :** Aurore verte et rouge au-dessus de la Terre vue de l'ISS ; texte : « VUES DE L'ESPACE ». — image prête : `PUBLICATION/couvertures/video_09_couverture.jpg`  
+**6. Créneau à tester :** Vendredi 21 h 30  
+**7. Potentiel viral :** Visuel parmi les plus partagés sur TikTok, souvenir collectif récent (mai 2024 en France) et question de localisation qui génère beaucoup de commentaires.  
+**Crédits à mentionner (fin de description) :** Images : Genna Duberstein, Kasha Patel, Krystofer Kim ; NASA's Goddard Space Flight Center Scientific Visualization Studio
 
-## video_10 — Ton cerveau te ment
+## video_10 — Planète extrême
 
 **Fichier :** `NICHE_2/video_10.mp4`  
-**1. Titre :** A et B sont EXACTEMENT de la même couleur  
-**2. Description :** Je relie les deux cases, j'efface le reste… et pourtant ton cerveau continue de mentir. Constance des couleurs, l'illusion d'Adelson et… la robe de 2015. Bleue/noire ou blanche/dorée ? 👇  
-**3. Hashtags :** #illusionoptique #cerveau #psychologie #couleurs #larobe  
-**4. Phrase d'accroche :** « Les cases A et B sont exactement de la même couleur. »  
-**5. Couverture :** Échiquier avec cylindre vert, cases A et B entourées ; texte : « MÊME COULEUR ?! ». — image prête : `PUBLICATION/couvertures/video_10_couverture.jpg`  
-**6. Créneau à tester :** Dimanche 18 h 30  
-**7. Potentiel viral :** Affirmation incroyable prouvée en direct (bande de gris, effacement), débat garanti en commentaires, rappel de « la robe » (référence virale connue) qui relance la discussion.
+**1. Titre :** Le Sahara nourrit l'Amazonie (et c'est prouvé)  
+**2. Description :** 182 millions de tonnes de poussière par an, 22 000 tonnes de phosphore pour la forêt, et une source étonnante : un ancien lac du Tchad. Ta voiture déjà couverte de sable ? 👇 (Images : NASA)  
+**3. Hashtags :** #sahara #amazonie #nature #nasa #science  
+**4. Phrase d'accroche :** « Chaque année, le plus grand désert chaud du monde nourrit la plus grande forêt tropicale du monde. »  
+**5. Couverture :** Globe avec le panache de poussière vers l'Amérique ; texte : « LE SAHARA NOURRIT L'AMAZONIE ». — image prête : `PUBLICATION/couvertures/video_10_couverture.jpg`  
+**6. Créneau à tester :** Dimanche 18 h 00  
+**7. Potentiel viral :** Paradoxe immédiat (désert → forêt), découverte satellite crédible, lien concret avec le quotidien en France (sable sur les voitures) et CTA d'expérience vécue.  
+**Crédits à mentionner (fin de description) :** Images : Jefferson Beck, Doug C. Morton, Alex Kekesi, Ellen T. Gray ; Joy Ng, Kel Elkins, Greg Shirah, Horace Mitchell, Hongbin Yu, Kayvon Sharghi, Brian Monroe, Norman Kuring, Ellen T. Gray ; NASA's Goddard Space Flight Center Scientific Visualization Studio
 

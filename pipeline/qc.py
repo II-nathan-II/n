@@ -25,10 +25,16 @@ def true_peak_db(a):
     up = resample_poly(a, 4, 1, axis=0)
     return 20 * np.log10(np.abs(up).max() + 1e-12)
 
+# Nombres : le script les écrit en toutes lettres (« deux mille vingt-deux ») et Whisper en chiffres
+# (« 2022 ») ; ils sont exclus des deux côtés pour que la mesure porte sur les mots, pas sur la graphie.
+NUM_WORDS = set('''zéro un une deux trois quatre cinq six sept huit neuf dix onze douze treize quatorze quinze seize
+vingt vingts trente quarante cinquante soixante cent cents mille million millions milliard milliards'''.split())
+
 def norm_words(s):
-    s = s.lower().replace('’', "'")
+    s = s.lower().replace('’', "'").replace('%', ' pour cent ')
+    s = re.sub(r"\bkm\b", 'kilomètres', s)
     s = re.sub(r"[^a-zà-ÿœæç0-9' -]", ' ', s)
-    return [w for w in re.split(r"[\s'-]+", s) if w]
+    return [w for w in re.split(r"[\s'-]+", s) if w and not w[0].isdigit() and w not in NUM_WORDS]
 
 def word_recall(ref, hyp):
     """Part des mots du script retrouvés (dans l'ordre) dans la transcription — LCS / longueur du script."""
