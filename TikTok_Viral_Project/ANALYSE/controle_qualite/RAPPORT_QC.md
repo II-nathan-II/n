@@ -202,3 +202,103 @@ Extrait de transcription automatique : « Chaque année, le plus grand désert c
 
 ![planche](video_10_planche.jpg)
 
+## video_11 — ✅ conforme
+
+- ✅ fichier présent
+- ✅ durée 65–115 s
+- ✅ 1080×1920 (9:16)
+- ✅ H.264 / yuv420p
+- ✅ AAC 48 kHz stéréo
+- ✅ décodage sans erreur
+- ✅ loudness −15 à −13 LUFS
+- ✅ true peak ≤ −0,5 dBTP
+- ✅ sous-titres sur la voix (≥ 95 %)
+- ✅ narration reconnue (Whisper ≥ 85 %)
+- ✅ pas d'écran noir / image figée
+
+Mesures : durée 76.8 s · -14.1 LUFS · true peak -1.6 dBTP · niveau parole -16.9 dBFS vs pauses -30.6 dBFS · 237 mots sous-titrés, 100.0 % tombent sur de la voix, 0 hors segment · reconnaissance Whisper : 94.3 % des mots du script (nombres exclus : Whisper les écrit en chiffres) · luminosité min 28.0 · variation moyenne entre images 55.4
+
+Extrait de transcription automatique : « Une petite cuillère de cet étoile pèserait environ un milliard de tonnes. Bienvenue sur une étoile à neutrons, ce qui reste d'une étoile géante après sa mort. Tout commence avec une étoile bien plus massive que le soleil… »
+
+![planche](video_11_planche.jpg)
+
+## video_12 — ✅ conforme
+
+- ✅ fichier présent
+- ✅ durée 65–115 s
+- ✅ 1080×1920 (9:16)
+- ✅ H.264 / yuv420p
+- ✅ AAC 48 kHz stéréo
+- ✅ décodage sans erreur
+- ✅ loudness −15 à −13 LUFS
+- ✅ true peak ≤ −0,5 dBTP
+- ✅ sous-titres sur la voix (≥ 95 %)
+- ✅ narration reconnue (Whisper ≥ 85 %)
+- ✅ pas d'écran noir / image figée
+
+Mesures : durée 81.5 s · -14.1 LUFS · true peak -1.4 dBTP · niveau parole -16.9 dBFS vs pauses -30.3 dBFS · 255 mots sous-titrés, 100.0 % tombent sur de la voix, 0 hors segment · reconnaissance Whisper : 96.0 % des mots du script (nombres exclus : Whisper les écrit en chiffres) · luminosité min 13.0 · variation moyenne entre images 44.4
+
+Extrait de transcription automatique : « Chaque année, la Lune s'éloigne un peu plus de nous. De combien ? Environ 3,8 cm par an. À peu près la vitesse à laquelle poussent tes ongles. Et ce sont les missions Apollo qui nous permettent de le mesurer. En 1969, le… »
+
+![planche](video_12_planche.jpg)
+
+## video_13 — ✅ conforme
+
+- ✅ fichier présent
+- ✅ durée 65–115 s
+- ✅ 1080×1920 (9:16)
+- ✅ H.264 / yuv420p
+- ✅ AAC 48 kHz stéréo
+- ✅ décodage sans erreur
+- ✅ loudness −15 à −13 LUFS
+- ✅ true peak ≤ −0,5 dBTP
+- ✅ sous-titres sur la voix (≥ 95 %)
+- ✅ narration reconnue (Whisper ≥ 85 %)
+- ✅ pas d'écran noir / image figée
+
+Mesures : durée 78.4 s · -14.1 LUFS · true peak -1.1 dBTP · niveau parole -16.9 dBFS vs pauses -30.3 dBFS · 244 mots sous-titrés, 100.0 % tombent sur de la voix, 0 hors segment · reconnaissance Whisper : 89.7 % des mots du script (nombres exclus : Whisper les écrit en chiffres) · luminosité min 33.7 · variation moyenne entre images 32.5
+
+Extrait de transcription automatique : « Sur Mars, il existe un volcan si grand qu'au sommet, tu aurais du mal à voir que tu es sur une montagne. Il s'appelle Olympiumon, c'est le plus grand volcan connu du système solaire. Il s'élève à plus de 20 km au-dessus … »
+
+![planche](video_13_planche.jpg)
+
+## video_14 — ✅ conforme
+
+- ✅ fichier présent
+- ✅ durée 65–115 s
+- ✅ 1080×1920 (9:16)
+- ✅ H.264 / yuv420p
+- ✅ AAC 48 kHz stéréo
+- ✅ décodage sans erreur
+- ✅ loudness −15 à −13 LUFS
+- ✅ true peak ≤ −0,5 dBTP
+- ✅ sous-titres sur la voix (≥ 95 %)
+- ✅ narration reconnue (Whisper ≥ 85 %)
+- ✅ pas d'écran noir / image figée
+
+Mesures : durée 68.3 s · -14.1 LUFS · true peak -1.1 dBTP · niveau parole -16.9 dBFS vs pauses -30.6 dBFS · 204 mots sous-titrés, 100.0 % tombent sur de la voix, 0 hors segment · reconnaissance Whisper : 91.4 % des mots du script (nombres exclus : Whisper les écrit en chiffres) · luminosité min 9.4 · variation moyenne entre images 38.8
+
+Extrait de transcription automatique : « Il existe une tempête plus grande que la Terre et elle souffle depuis au moins 150 ans. Elle s'appelle la Grande Tâche Rouge et elle tourbillonne sur Jupiter. Jupiter est la plus grande planète du système solaire, on pou… »
+
+![planche](video_14_planche.jpg)
+
+## video_15 — ✅ conforme
+
+- ✅ fichier présent
+- ✅ durée 65–115 s
+- ✅ 1080×1920 (9:16)
+- ✅ H.264 / yuv420p
+- ✅ AAC 48 kHz stéréo
+- ✅ décodage sans erreur
+- ✅ loudness −15 à −13 LUFS
+- ✅ true peak ≤ −0,5 dBTP
+- ✅ sous-titres sur la voix (≥ 95 %)
+- ✅ narration reconnue (Whisper ≥ 85 %)
+- ✅ pas d'écran noir / image figée
+
+Mesures : durée 72.6 s · -14.1 LUFS · true peak -1.2 dBTP · niveau parole -16.9 dBFS vs pauses -30.5 dBFS · 229 mots sous-titrés, 99.6 % tombent sur de la voix, 0 hors segment · reconnaissance Whisper : 96.9 % des mots du script (nombres exclus : Whisper les écrit en chiffres) · luminosité min 30.9 · variation moyenne entre images 46.8
+
+Extrait de transcription automatique : « La lumière qui te réchauffe aujourd'hui a commencé son voyage il y a peut-être plus de 100 000 ans. Elle nette au cœur du soleil à environ 15 millions de degrés. Là, chaque seconde, le soleil fusionne environ 600 million… »
+
+![planche](video_15_planche.jpg)
+

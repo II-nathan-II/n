@@ -12,6 +12,11 @@
 | video_08 | Planète extrême | Ce qui se passe au-dessus des orages | 79.9 s | 1080×1920 @ 30 i/s | H264 (High) / AAC 48 kHz | 4395 kb/s | 43.9 Mo | -14.1 LUFS, TP -1.6 dBTP | 93 % des mots | 100 % | ✅ |
 | video_09 | Planète extrême | Les aurores boréales vues depuis l'espace | 76.0 s | 1080×1920 @ 30 i/s | H264 (High) / AAC 48 kHz | 6094 kb/s | 57.9 Mo | -14.1 LUFS, TP -0.6 dBTP | 89 % des mots | 100 % | ✅ |
 | video_10 | Planète extrême | Le Sahara nourrit l'Amazonie | 78.2 s | 1080×1920 @ 30 i/s | H264 (High) / AAC 48 kHz | 6238 kb/s | 61.0 Mo | -14.1 LUFS, TP -1.6 dBTP | 96 % des mots | 100 % | ✅ |
+| video_11 | Les secrets de l'Univers | Une cuillère de cette étoile pèse un milliard de tonnes | 76.8 s | 1080×1920 @ 30 i/s | H264 (High) / AAC 48 kHz | 5407 kb/s | 51.9 Mo | -14.1 LUFS, TP -1.6 dBTP | 94 % des mots | 100 % | ✅ |
+| video_12 | Les secrets de l'Univers | La Lune s'éloigne de nous chaque année | 81.5 s | 1080×1920 @ 30 i/s | H264 (High) / AAC 48 kHz | 5114 kb/s | 52.1 Mo | -14.1 LUFS, TP -1.4 dBTP | 96 % des mots | 100 % | ✅ |
+| video_13 | Les secrets de l'Univers | Le plus grand volcan du système solaire est sur Mars | 78.4 s | 1080×1920 @ 30 i/s | H264 (High) / AAC 48 kHz | 4551 kb/s | 44.6 Mo | -14.1 LUFS, TP -1.1 dBTP | 90 % des mots | 100 % | ✅ |
+| video_14 | Les secrets de l'Univers | Une tempête plus grande que la Terre | 68.3 s | 1080×1920 @ 30 i/s | H264 (High) / AAC 48 kHz | 3951 kb/s | 33.7 Mo | -14.1 LUFS, TP -1.1 dBTP | 91 % des mots | 100 % | ✅ |
+| video_15 | Les secrets de l'Univers | La lumière du Soleil a des milliers d'années | 72.6 s | 1080×1920 @ 30 i/s | H264 (High) / AAC 48 kHz | 5669 kb/s | 51.4 Mo | -14.1 LUFS, TP -1.2 dBTP | 97 % des mots | 100 % | ✅ |
 
 Format commun : MP4 (faststart), vidéo H.264 High 4.2 yuv420p BT.709, 1080×1920 (9:16), 30 i/s, audio AAC 192 kb/s 48 kHz stéréo, sous-titres incrustés, voix française Kokoro (ff_siwis), musique et effets sonores 100 % générés.
 

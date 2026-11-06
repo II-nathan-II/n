@@ -122,3 +122,63 @@ Heures en **heure de Paris**, à tester sur 2 à 3 semaines puis à ajuster avec
 **7. Potentiel viral :** Paradoxe immédiat (désert → forêt), découverte satellite crédible, lien concret avec le quotidien en France (sable sur les voitures) et CTA d'expérience vécue.  
 **Crédits à mentionner (fin de description) :** Images : Jefferson Beck, Doug C. Morton, Alex Kekesi, Ellen T. Gray ; Joy Ng, Kel Elkins, Greg Shirah, Horace Mitchell, Hongbin Yu, Kayvon Sharghi, Brian Monroe, Norman Kuring, Ellen T. Gray ; NASA's Goddard Space Flight Center Scientific Visualization Studio
 
+## video_11 — Les secrets de l'Univers
+
+**Fichier :** `NICHE_1/video_11.mp4`  
+**1. Titre :** Une cuillère de cette étoile pèse un milliard de tonnes 🤯  
+**2. Description :** Étoile à neutrons : plus lourde que le Soleil dans 20 km, 716 tours par seconde… et quand deux d'entre elles se percutent, elles fabriquent de l'or. Tu le savais ? 👇 (Images : NASA — visualisations scientifiques.)  
+**3. Hashtags :** #espace #astronomie #etoile #science #univers  
+**4. Phrase d'accroche :** « Une petite cuillère de cette étoile pèserait environ un milliard de tonnes. »  
+**5. Couverture :** Étoile à neutrons bleue en gros plan ; texte : « 1 CUILLÈRE = 1 MILLIARD DE TONNES ». — image prête : `PUBLICATION/couvertures/video_11_couverture.jpg`  
+**6. Créneau à tester :** 12 h 30  
+**7. Potentiel viral :** Chiffre choc dès la 1re seconde, avalanche de records (716 tours/s, gravité, magnétars) et chute personnelle inattendue (l'or des bijoux) qui pousse au partage.  
+**Crédits à mentionner (fin de description) :** Images : NASA's Goddard Space Flight Center Conceptual Image Lab || 02_MAGNETAR_Wide_view_BlipOnly_Still.png (1920x1080) [2.3 MB] || 02_MAGNETAR_Wide_view_BlipOnly_Still_print.jpg (1024x576) [44.5 KB] || 02_MA ; NASA's Goddard Space Flight Center Conceptual Image Lab || SN_HQ_Full_H264_V001.00750_print.jpg (1024x576) [120.0 KB] || SN_HQ_Full_H264_V001.00750_searchweb.png (320x180) [77.3 KB] || SN_HQ_Full_H264 ; NASA's Goddard Space Flight Center Scientific Visualization Studio ; NASA's Goddard Space Flight Center/CI Lab
+
+## video_12 — Les secrets de l'Univers
+
+**Fichier :** `NICHE_1/video_12.mp4`  
+**1. Titre :** La Lune s'éloigne de nous chaque année 🌕  
+**2. Description :** 3,8 cm par an, mesurés au millimètre grâce aux miroirs posés par Apollo. Nos journées s'allongent… et un jour, plus d'éclipse totale. Tu le savais ? 👇 (Images : NASA)  
+**3. Hashtags :** #lune #espace #apollo #astronomie #science  
+**4. Phrase d'accroche :** « Chaque année, la Lune s'éloigne un peu plus de nous. »  
+**5. Couverture :** Lune pleine sur fond noir ; texte : « LA LUNE S'ÉLOIGNE ». — image prête : `PUBLICATION/couvertures/video_12_couverture.jpg`  
+**6. Créneau à tester :** 19 h 00  
+**7. Potentiel viral :** Fait surprenant et vérifiable, comparaison concrète (les ongles), preuve historique (Apollo) et rendez-vous réel à venir (éclipse du 2 août 2027 en Espagne).  
+**Crédits à mentionner (fin de description) :** Images : JSC ; NASA's Goddard Space Flight Center Scientific Visualization Studio
+
+## video_13 — Les secrets de l'Univers
+
+**Fichier :** `NICHE_1/video_13.mp4`  
+**1. Titre :** Le plus grand volcan du système solaire est sur Mars 🌋  
+**2. Description :** Olympus Mons : plus de 20 km de haut, 600 km de large, une caldeira de 80 km… et du sommet, on ne verrait presque pas la pente. Tu tenterais l'ascension ? 👇 (Images : NASA)  
+**3. Hashtags :** #mars #volcan #espace #astronomie #science  
+**4. Phrase d'accroche :** « Sur Mars, il existe un volcan si grand qu'au sommet, tu aurais du mal à voir que tu es sur une montagne. »  
+**5. Couverture :** Mosaïque d'Olympus Mons vue du ciel ; texte : « LE VOLCAN GÉANT DE MARS ». — image prête : `PUBLICATION/couvertures/video_13_couverture.jpg`  
+**6. Créneau à tester :** 12 h 30  
+**7. Potentiel viral :** Paradoxe visuel dès l'accroche, comparaisons parlantes (Everest, Paris–Bordeaux), explication claire du « pourquoi » et question d'engagement simple.  
+**Crédits à mentionner (fin de description) :** Images : NASA's Goddard Space Flight Center Scientific Visualization Studio ; NASA/JPL
+
+## video_14 — Les secrets de l'Univers
+
+**Fichier :** `NICHE_1/video_14.mp4`  
+**1. Titre :** Une tempête plus grande que la Terre 🌪️  
+**2. Description :** La Grande Tache rouge de Jupiter souffle depuis au moins 150 ans, à plus de 400 km/h. Elle rétrécit… et Hubble l'a vue trembler. Encore là dans 100 ans ? 👇 (Images : NASA)  
+**3. Hashtags :** #jupiter #espace #astronomie #nasa #science  
+**4. Phrase d'accroche :** « Il existe une tempête plus grande que la Terre. Et elle souffle depuis au moins cent cinquante ans. »  
+**5. Couverture :** Gros plan de la Grande Tache rouge ; texte : « PLUS GRANDE QUE LA TERRE ». — image prête : `PUBLICATION/couvertures/video_14_couverture.jpg`  
+**6. Créneau à tester :** 19 h 00  
+**7. Potentiel viral :** Image iconique, échelle vertigineuse (plus grande que la Terre), mystère non résolu (la couleur) et question ouverte sur l'avenir qui fait commenter.  
+**Crédits à mentionner (fin de description) :** Images : NASA's Goddard Space Flight Center Scientific Visualization Studio
+
+## video_15 — Les secrets de l'Univers
+
+**Fichier :** `NICHE_1/video_15.mp4`  
+**1. Titre :** La lumière du Soleil a des milliers d'années ☀️  
+**2. Description :** Elle met des dizaines de milliers d'années à sortir du Soleil… puis 8 min 20 s pour arriver sur ta peau. Tu le savais ? 👇 (Images : NASA — SDO et visualisations scientifiques.)  
+**3. Hashtags :** #soleil #espace #astronomie #science #lumiere  
+**4. Phrase d'accroche :** « La lumière qui te réchauffe aujourd'hui a commencé son voyage il y a peut-être plus de cent mille ans. »  
+**5. Couverture :** Soleil SDO doré ; texte : « CETTE LUMIÈRE A 100 000 ANS ». — image prête : `PUBLICATION/couvertures/video_15_couverture.jpg`  
+**6. Créneau à tester :** 12 h 30  
+**7. Potentiel viral :** Fait contre-intuitif lié au quotidien (le soleil sur la peau), image mentale forte (la foule) et mise en perspective historique (avant l'écriture).  
+**Crédits à mentionner (fin de description) :** Images : JSC ; NASA's Goddard Space Flight Center Scientific Visualization Studio ; NASA/SDO || Oct_26_X1pt8_Flare_multi_big.jpg (5120x3072) [3.4 MB] || Oct_26_X1pt8_Flare_multi_big_searchweb.png (320x180) [95.8 KB] || Oct_26_X1pt8_Flare_multi_big_thm.png (80x40) [7.6 KB] || ; NASA/SDO || SDO_X3pt3_10-23-2024_0340_131-304-171.jpg (4096x4096) [4.7 MB] || SDO_X3pt3_10-23-2024_0340_131-304-171_searchweb.png (320x180) [104.1 KB] || SDO_X3pt3_10-23-2024_0340_131-304-171_thm.png
+

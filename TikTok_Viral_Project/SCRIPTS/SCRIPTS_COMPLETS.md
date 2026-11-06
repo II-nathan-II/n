@@ -508,3 +508,234 @@ Timecodes issus de la narration réelle (synthèse Kokoro). Le texte affiché co
 **Texte prononcé (pour réenregistrement éventuel) :**
 
 > Chaque année, le plus grand désert chaud du monde nourrit la plus grande forêt tropicale du monde. Et ce n'est pas une image: c'est une découverte des satellites de la NASA. Regarde ces nuages orange: c'est de la poussière du Sahara, soulevée par le vent. Environ cent quatre-vingt-deux millions de tonnes s'envolent chaque année. Elles traversent tout l'océan Atlantique, sur des milliers de kilomètres. Et environ vingt-huit millions de tonnes retombent sur l'Amazonie. Pourquoi c'est important? Parce que le sol de l'Amazonie est étonnamment pauvre. Les pluies torrentielles lessivent sans cesse ses nutriments, notamment le phosphore, indispensable aux plantes. Or, la poussière du Sahara en apporte environ vingt-deux mille tonnes par an… à peu près ce que la forêt perd. Et le plus incroyable, c'est d'où vient ce phosphore. Une grande partie de la poussière part d'un seul endroit: la dépression du Bodélé, au Tchad. Il y a des milliers d'années, c'était le fond d'un immense lac. Le phosphore vient des restes de micro-organismes qui y vivaient. Autrement dit, une forêt vivante est en partie nourrie par les restes d'un ancien lac du Sahara. Et parfois, cette poussière arrive jusqu'à nous: les ciels orange et les voitures couvertes de sable en France, c'est elle. En juin deux mille vingt, un nuage de poussière si énorme qu'on l'a surnommé « Godzilla» a même atteint les États-Unis. Tu as déjà retrouvé ta voiture couverte de sable du Sahara? Dis-le en commentaire.
+
+---
+
+# Video 11 — Une cuillère de cette étoile pèse un milliard de tonnes
+
+**Niche :** Les secrets de l'Univers  
+**Accroche à l'écran :** UNE CUILLÈRE = 1 MILLIARD DE TONNES  
+**Durée :** 76.8 s  
+**Musique :** composition originale procédurale (space, 74 BPM, progression minor_wonder)
+
+| Timecode | Narration | Visuel | Montage |
+|---|---|---|---|
+| 00:00.15 | Une petite cuillère de cette étoile pèserait environ un milliard de tonnes. | Vidéo réelle : « Migrating Magnetar Hot Spot Animations » (à 3 s) | transition cut, caméra in, sfx boom, musique intensité 0.35 |
+| 00:04.14 | Bienvenue sur une étoile à neutrons : ce qui reste d'une étoile géante après sa mort. | Vidéo réelle : « Wind-Accreting Pulsar Visualization » (à 2 s) | transition whip, caméra slow_in, étiquette « ÉTOILE À NEUTRONS » |
+| 00:08.83 | Tout commence avec une étoile bien plus massive que le Soleil, qui arrive au bout de son carburant. | Vidéo réelle : « Supernova explosion animation, with & without pulsar » (à 0 s) | transition fade, caméra slow_in |
+| 00:13.81 | Son cœur s'effondre en une fraction de seconde… et l'étoile explose : c'est une supernova. | Vidéo réelle : « Supernova explosion animation, with & without pulsar » (à 6 s), flash lumineux | transition flash, caméra in, sfx impact, musique intensité 0.6 |
+| 00:18.83 | Au centre, il reste un objet incroyable : plus lourd que le Soleil, mais écrasé dans une boule d'une vingtaine de kilomètres. | Vidéo réelle : « Supernova explosion animation, with & without pulsar » (à 26 s), compteur animé | transition zoom, caméra push |
+| 00:25.73 | La matière y est tellement tassée que les atomes sont écrasés : il ne reste presque que des neutrons. D'où son nom. | Vidéo réelle : « Migrating Magnetar Hot Spot Animations » (à 10 s) | transition fade, caméra slow_in |
+| 00:31.72 | Et cette étoile tourne sur elle-même. Vite. Très vite. | Vidéo réelle : « Wind-Accreting Pulsar Visualization » (à 7 s) | transition whip, caméra push, sfx riser |
+| 00:34.54 | Le record connu : 716 tours… par seconde. | Vidéo réelle : « Wind-Accreting Pulsar Visualization » (à 10 s), compteur animé | transition cut, caméra in |
+| 00:37.61 | En tournant, elle balaie l'espace de faisceaux, comme un phare. On appelle ça un pulsar. | Vidéo réelle : « Wind-Accreting Pulsar Visualization » (à 4 s) | transition fade, caméra slow_in |
+| 00:41.95 | Sa gravité est monstrueuse : un objet lâché d'un mètre de haut toucherait le sol à plusieurs millions de kilomètres par heure. | Vidéo réelle : « Migrating Magnetar Hot Spot Animations » (à 18 s) | transition zoom, caméra in |
+| 00:48.66 | Et certaines, les magnétars, ont un champ magnétique des millions de milliards de fois plus puissant que celui de la Terre. | Vidéo réelle : « Migrating Magnetar Hot Spot Animations » (à 8 s) | transition flash, caméra push, étiquette « MAGNÉTAR », musique intensité 0.7 |
+| 00:55.16 | Mais le plus fou arrive quand deux étoiles à neutrons se percutent. | Vidéo réelle : « Doomed Neutron Stars Create Blast of Light and Gravitational » (à 4 s) | transition black, caméra slow_in, sfx riser |
+| 00:58.62 | Le 17 août 2017, des détecteurs ont capté une collision de ce type. | Vidéo réelle : « Doomed Neutron Stars Create Blast of Light and Gravitational » (à 12 s) | transition cut, caméra in, étiquette « 17 AOÛT 2017 » |
+| 01:03.50 | Elle a projeté dans l'espace des métaux lourds, comme l'or et le platine… en quantités gigantesques. | Vidéo réelle : « Doomed Neutron Stars Create Blast of Light and Gravitational » (à 18 s), flash lumineux | transition flash, caméra in, sfx impact, musique intensité 0.85 |
+| 01:08.69 | Une partie de l'or de tes bijoux vient peut-être… d'une collision d'étoiles. | Vidéo réelle : « Doomed Neutron Stars Create Blast of Light and Gravitational » (à 22 s) | transition zoom, caméra slow_in |
+| 01:12.70 | Tu le savais ? Dis-moi en commentaire si ça t'a surpris. | Vidéo réelle : « Wind-Accreting Pulsar Visualization » (à 13 s) | transition fade, caméra out, musique intensité 0.3 |
+
+**Crédits images (séquences réelles utilisées) :**
+
+- Migrating Magnetar Hot Spot Animations — NASA's Goddard Space Flight Center Conceptual Image Lab || 02_MAGNETAR_Wide_view_BlipOnly_Still.png (1920x1080) [2.3 MB] || 02_MAGNETAR_Wide_view_BlipOnly_Still_print.jpg (1024x576) [44.5 KB] || 02_MA — NASA Scientific Visualization Studio — Domaine public (NASA — image uniquement, bande-son non utilisée) — https://svs.gsfc.nasa.gov/20359/
+- Wind-Accreting Pulsar Visualization — NASA's Goddard Space Flight Center Scientific Visualization Studio — NASA Scientific Visualization Studio — Domaine public (NASA — image uniquement, bande-son non utilisée) — https://svs.gsfc.nasa.gov/20417/
+- Supernova explosion animation, with & without pulsar — NASA's Goddard Space Flight Center Conceptual Image Lab || SN_HQ_Full_H264_V001.00750_print.jpg (1024x576) [120.0 KB] || SN_HQ_Full_H264_V001.00750_searchweb.png (320x180) [77.3 KB] || SN_HQ_Full_H264 — NASA Scientific Visualization Studio — Domaine public (NASA — image uniquement, bande-son non utilisée) — https://svs.gsfc.nasa.gov/20413/
+- Migrating Magnetar Hot Spot Animations — NASA's Goddard Space Flight Center Conceptual Image Lab || 02_MAGNETAR_Wide_view_BlipOnly_Still.png (1920x1080) [2.3 MB] || 02_MAGNETAR_Wide_view_BlipOnly_Still_print.jpg (1024x576) [44.5 KB] || 02_MA — NASA Scientific Visualization Studio — Domaine public (NASA — image uniquement, bande-son non utilisée) — https://svs.gsfc.nasa.gov/20359/
+- Doomed Neutron Stars Create Blast of Light and Gravitational Waves — NASA's Goddard Space Flight Center/CI Lab — NASA Scientific Visualization Studio — Domaine public (NASA — image uniquement, bande-son non utilisée) — https://svs.gsfc.nasa.gov/12740/
+
+**Sources / vérification des faits :**
+
+- NASA — étoile à neutrons : environ 1,4 masse solaire dans une sphère d'une vingtaine de kilomètres ; « une cuillère ≈ un milliard de tonnes » est l'ordre de grandeur le plus cité
+- PSR J1748-2446ad (2006) et 4U 1820-30 (2024) — 716 tours par seconde
+- LIGO/Virgo — GW170817 (17 août 2017) : kilonova et production d'éléments lourds (or, platine)
+- NASA NICER / Swift — magnétars, champs magnétiques de l'ordre de 10^15 gauss
+
+**Texte prononcé (pour réenregistrement éventuel) :**
+
+> Une petite cuillère de cette étoile pèserait environ un milliard de tonnes. Bienvenue sur une étoile à neutrons: ce qui reste d'une étoile géante après sa mort. Tout commence avec une étoile bien plus massive que le Soleil, qui arrive au bout de son carburant. Son cœur s'effondre en une fraction de seconde… et l'étoile explose: c'est une supernova. Au centre, il reste un objet incroyable: plus lourd que le Soleil, mais écrasé dans une boule d'une vingtaine de kilomètres. La matière y est tellement tassée que les atomes sont écrasés: il ne reste presque que des neutrons. D'où son nom. Et cette étoile tourne sur elle-même. Vite. Très vite. Le record connu: sept cent seize tours… par seconde. En tournant, elle balaie l'espace de faisceaux, comme un phare. On appelle ça un pulsar. Sa gravité est monstrueuse: un objet lâché d'un mètre de haut toucherait le sol à plusieurs millions de kilomètres par heure. Et certaines, les magnétars, ont un champ magnétique des millions de milliards de fois plus puissant que celui de la Terre. Mais le plus fou arrive quand deux étoiles à neutrons se percutent. Le dix-sept août deux mille dix-sept, des détecteurs ont capté une collision de ce type. Elle a projeté dans l'espace des métaux lourds, comme l'or et le platine… en quantités gigantesques. Une partie de l'or de tes bijoux vient peut-être… d'une collision d'étoiles. Tu le savais? Dis-moi en commentaire si ça t'a surpris.
+
+---
+
+# Video 12 — La Lune s'éloigne de nous chaque année
+
+**Niche :** Les secrets de l'Univers  
+**Accroche à l'écran :** LA LUNE S'ÉLOIGNE DE NOUS  
+**Durée :** 81.5 s  
+**Musique :** composition originale procédurale (space, 70 BPM, progression minor_float)
+
+| Timecode | Narration | Visuel | Montage |
+|---|---|---|---|
+| 00:00.15 | Chaque année, la Lune s'éloigne un peu plus de nous. | Vidéo réelle : « Tour of the Moon 4K Redux » (à 270 s) | transition cut, caméra out, sfx boom, musique intensité 0.35 |
+| 00:02.56 | De combien ? Environ trois virgule huit centimètres par an. | Vidéo réelle : « Tour of the Moon 4K Redux » (à 22 s), compteur animé | transition whip, caméra slow_in |
+| 00:05.84 | À peu près la vitesse à laquelle poussent tes ongles. | Vidéo réelle : « Tour of the Moon 4K Redux » (à 44 s) | transition cut, caméra drift |
+| 00:08.32 | Et ce sont les missions Apollo qui nous permettent de le mesurer. | Vidéo réelle : « A New Look at the Apollo 11 Landing Site » (à 2 s) | transition fade, caméra in, étiquette « APOLLO 11 • 1969 » |
+| 00:11.51 | En 1969, les astronautes d'Apollo 11 ont posé sur la Lune un panneau de petits miroirs. | Vidéo réelle : « A New Look at the Apollo 11 Landing Site » (à 12 s) | transition zoom, caméra slow_in |
+| 00:17.47 | D'autres ont été installés ensuite par Apollo 14 et Apollo 15. | Vidéo réelle : « Tour of the Moon 4K Redux » (à 166 s) | transition whip, caméra right |
+| 00:21.48 | Depuis la Terre, des observatoires tirent un rayon laser sur ces miroirs… et chronomètrent le retour de la lumière. | Vidéo réelle : « Tour of the Moon 4K Redux » (à 183 s) | transition flash, caméra push, sfx whoosh |
+| 00:27.90 | Environ deux secondes et demie pour l'aller-retour. Et on obtient la distance… au millimètre près. | Vidéo réelle : « Tour of the Moon 4K Redux » (à 148 s), texte animé | transition cut, caméra in |
+| 00:33.09 | Mais pourquoi la Lune s'en va-t-elle ? À cause des marées. | Vidéo réelle : « Spinning Earth with clouds, atmosphere, and night lights » (à 50 s) | transition black, caméra slow_in, musique intensité 0.6 |
+| 00:35.82 | La Lune attire les océans de la Terre et forme un renflement d'eau, qui agit comme un frein sur la rotation de notre planète. | Vidéo réelle : « jsc2021m000138_4K_Earth_Views_Extended_Cut_for_Earth_Day_ 20 » (à 1400 s) | transition fade, caméra drift |
+| 00:42.66 | L'énergie perdue par la Terre est transmise à la Lune… qui grimpe peu à peu sur une orbite plus haute. | Vidéo réelle : « Tour of the Moon 4K Redux » (à 255 s) | transition zoom, caméra out |
+| 00:47.94 | Conséquence : nos journées s'allongent. D'environ deux millièmes de seconde par siècle. | Vidéo réelle : « Spinning Earth with clouds, atmosphere, and night lights » (à 85 s) | transition whip, caméra slow_in |
+| 00:52.64 | Il y a environ 400 millions d'années, une journée ne durait qu'à peu près vingt-deux heures… et une année comptait plus de quatre cents jours. | Vidéo réelle : « Spinning Earth with clouds, atmosphere, and night lights » (à 92 s), texte animé | transition flash, caméra in, étiquette « IL Y A 400 MILLIONS D'ANNÉES » |
+| 00:59.89 | Et dans un futur très lointain, la Lune paraîtra trop petite pour cacher entièrement le Soleil. | Vidéo réelle : « Tour of the Moon 4K Redux » (à 264 s) | transition fade, caméra slow_in, musique intensité 0.7 |
+| 01:05.14 | Les éclipses totales de Soleil disparaîtront. Mais pas de panique : il faudra des centaines de millions d'années. | Vidéo réelle : « Tour of the Moon 4K Redux » (à 260 s) | transition black, caméra in |
+| 01:10.88 | D'ici là, la prochaine éclipse totale près de chez nous aura lieu le 2 août 2027, dans le sud de l'Espagne. | Vidéo réelle : « Tour of the Moon 4K Redux » (à 26 s) | transition zoom, caméra push, étiquette « 2 AOÛT 2027 », musique intensité 0.5 |
+| 01:17.35 | Tu savais que la Lune s'éloignait ? Dis-le en commentaire. | Vidéo réelle : « Tour of the Moon 4K Redux » (à 274 s) | transition fade, caméra out, musique intensité 0.3 |
+
+**Crédits images (séquences réelles utilisées) :**
+
+- Tour of the Moon 4K Redux — NASA's Goddard Space Flight Center Scientific Visualization Studio — NASA Scientific Visualization Studio — Domaine public (NASA — image uniquement, bande-son non utilisée) — https://svs.gsfc.nasa.gov/4619/
+- A New Look at the Apollo 11 Landing Site — NASA's Goddard Space Flight Center Scientific Visualization Studio — NASA Scientific Visualization Studio — Domaine public (NASA — image uniquement, bande-son non utilisée) — https://svs.gsfc.nasa.gov/4185/
+- Spinning Earth with clouds, atmosphere, and night lights — NASA's Goddard Space Flight Center Scientific Visualization Studio — NASA Scientific Visualization Studio — Domaine public (NASA — image uniquement, bande-son non utilisée) — https://svs.gsfc.nasa.gov/5570/
+- jsc2021m000138_4K_Earth_Views_Extended_Cut_for_Earth_Day_ 2021_210422-4KMP4 — JSC — NASA Image and Video Library — Domaine public (média NASA — image uniquement) — https://images.nasa.gov/details/jsc2021m000138_4K_Earth_Views_Extended_Cut_for_Earth_Day_%202021_210422-4KMP4
+
+**Sources / vérification des faits :**
+
+- NASA Goddard (eclipse.gsfc.nasa.gov) — la Lune s'éloigne d'environ 3,8 cm par an, mesuré par télémétrie laser sur les réflecteurs d'Apollo 11, 14 et 15
+- Allongement du jour d'environ 1,7 à 2,3 ms par siècle ; coraux fossiles (environ 400 jours par an il y a ~400 millions d'années)
+- Éclipse totale de Soleil du 2 août 2027 (sud de l'Espagne, Afrique du Nord)
+
+**Texte prononcé (pour réenregistrement éventuel) :**
+
+> Chaque année, la Lune s'éloigne un peu plus de nous. De combien? Environ trois virgule huit centimètres par an. À peu près la vitesse à laquelle poussent tes ongles. Et ce sont les missions Apollo qui nous permettent de le mesurer. En mille neuf cent soixante-neuf, les astronautes d'Apollo onze ont posé sur la Lune un panneau de petits miroirs. D'autres ont été installés ensuite par Apollo quatorze et Apollo quinze. Depuis la Terre, des observatoires tirent un rayon laser sur ces miroirs… et chronomètrent le retour de la lumière. Environ deux secondes et demie pour l'aller-retour. Et on obtient la distance… au millimètre près. Mais pourquoi la Lune s'en va-t-elle? À cause des marées. La Lune attire les océans de la Terre et forme un renflement d'eau, qui agit comme un frein sur la rotation de notre planète. L'énergie perdue par la Terre est transmise à la Lune… qui grimpe peu à peu sur une orbite plus haute. Conséquence: nos journées s'allongent. D'environ deux millièmes de seconde par siècle. Il y a environ quatre cents millions d'années, une journée ne durait qu'à peu près vingt-deux heures… et une année comptait plus de quatre cents jours. Et dans un futur très lointain, la Lune paraîtra trop petite pour cacher entièrement le Soleil. Les éclipses totales de Soleil disparaîtront. Mais pas de panique: il faudra des centaines de millions d'années. D'ici là, la prochaine éclipse totale près de chez nous aura lieu le deux août deux mille vingt-sept, dans le sud de l'Espagne. Tu savais que la Lune s'éloignait? Dis-le en commentaire.
+
+---
+
+# Video 13 — Le plus grand volcan du système solaire est sur Mars
+
+**Niche :** Les secrets de l'Univers  
+**Accroche à l'écran :** LE PLUS GRAND VOLCAN DU SYSTÈME SOLAIRE  
+**Durée :** 78.4 s  
+**Musique :** composition originale procédurale (space, 76 BPM, progression minor_epic)
+
+| Timecode | Narration | Visuel | Montage |
+|---|---|---|---|
+| 00:00.15 | Sur Mars, il existe un volcan si grand… qu'au sommet, tu aurais du mal à voir que tu es sur une montagne. | Vidéo réelle : « Visualizations of Hunga Tonga Hunga Ha'apai and the Martian  » (à 4 s) | transition cut, caméra in, sfx boom, musique intensité 0.35 |
+| 00:05.79 | Il s'appelle Olympus Mons. C'est le plus grand volcan connu du système solaire. | Photo réelle : « Color Mosaic of Olympus Mons » | transition whip, caméra slow_in, étiquette « OLYMPUS MONS • MARS » |
+| 00:10.18 | Il s'élève à plus de vingt kilomètres au-dessus des plaines : environ deux fois et demie l'Everest. | Photo réelle : « Color Mosaic of Olympus Mons », compteur animé | transition zoom, caméra push |
+| 00:16.16 | Et il est encore plus impressionnant en largeur : environ six cents kilomètres. | Vidéo réelle : « Visualizations of Hunga Tonga Hunga Ha'apai and the Martian  » (à 14 s) | transition cut, caméra drift |
+| 00:20.30 | Plus que la distance entre Paris et Bordeaux. | Vidéo réelle : « Visualizations of Hunga Tonga Hunga Ha'apai and the Martian  » (à 22 s), texte animé | transition whip, caméra right |
+| 00:22.64 | Ses pentes sont si douces, quelques degrés à peine, que ses bords disparaissent derrière l'horizon. | Vidéo réelle : « Visualizations of Hunga Tonga Hunga Ha'apai and the Martian  » (à 31 s) | transition fade, caméra slow_in |
+| 00:27.60 | Au sommet s'ouvre un cratère géant, la caldeira, d'environ quatre-vingts kilomètres de long. | Photo réelle : « Color Mosaic of Olympus Mons » | transition zoom, caméra in |
+| 00:32.53 | Et sa base est bordée de falaises qui dépassent par endroits six kilomètres de haut. | Photo réelle : « Color Mosaic of Olympus Mons » | transition flash, caméra tilt |
+| 00:36.78 | Mais comment un volcan peut-il devenir aussi énorme ? Il y a deux raisons. | Vidéo réelle : « Mars Roll » (à 2 s) | transition black, caméra slow_in, sfx riser, musique intensité 0.6 |
+| 00:40.74 | D'abord, Mars n'a pas de tectonique des plaques comme la Terre. | Vidéo réelle : « Mars Roll » (à 8 s) | transition cut, caméra in |
+| 00:43.98 | Sur Terre, les plaques glissent au-dessus des points chauds : à Hawaï, ça a formé toute une chaîne d'îles. | Vidéo réelle : « Spinning Earth with clouds, atmosphere, and night lights » (à 30 s) | transition whip, caméra drift |
+| 00:48.97 | Sur Mars, la croûte ne bouge pas : la lave s'est empilée au même endroit pendant des centaines de millions d'années. | Vidéo réelle : « Visualizations of Hunga Tonga Hunga Ha'apai and the Martian  » (à 40 s) | transition fade, caméra slow_in |
+| 00:54.94 | Ensuite, la gravité martienne est près de trois fois plus faible : les montagnes peuvent monter plus haut sans s'effondrer sous leur propre poids. | Vidéo réelle : « Mars Roll » (à 14 s), texte animé | transition zoom, caméra push, musique intensité 0.75 |
+| 01:02.16 | Et il n'est pas seul : juste à côté, trois autres volcans géants s'alignent sur le plateau de Tharsis. | Vidéo réelle : « Mars Roll » (à 0 s) | transition flash, caméra in, étiquette « PLATEAU DE THARSIS » |
+| 01:07.84 | Est-il éteint ? Certaines coulées de lave sur ses flancs n'auraient que quelques millions d'années. À l'échelle d'une planète… c'est presque hier. | Vidéo réelle : « Visualizations of Hunga Tonga Hunga Ha'apai and the Martian  » (à 52 s) | transition zoom, caméra slow_in |
+| 01:14.59 | Tu tenterais l'ascension ? Réponds en commentaire. | Vidéo réelle : « Mars Roll » (à 30 s) | transition fade, caméra out, musique intensité 0.3 |
+
+**Crédits images (séquences réelles utilisées) :**
+
+- Visualizations of Hunga Tonga Hunga Ha'apai and the Martian Landscape — NASA's Goddard Space Flight Center Scientific Visualization Studio — NASA Scientific Visualization Studio — Domaine public (NASA — image uniquement, bande-son non utilisée) — https://svs.gsfc.nasa.gov/4635/
+- Color Mosaic of Olympus Mons — NASA/JPL — NASA Image and Video Library — Domaine public (média NASA — usage libre, sans logo NASA ni suggestion de soutien) — https://images.nasa.gov/details/PIA02982
+- Mars Roll — NASA's Goddard Space Flight Center Scientific Visualization Studio — NASA Scientific Visualization Studio — Domaine public (NASA — image uniquement, bande-son non utilisée) — https://svs.gsfc.nasa.gov/3896/
+- Spinning Earth with clouds, atmosphere, and night lights — NASA's Goddard Space Flight Center Scientific Visualization Studio — NASA Scientific Visualization Studio — Domaine public (NASA — image uniquement, bande-son non utilisée) — https://svs.gsfc.nasa.gov/5570/
+
+**Sources / vérification des faits :**
+
+- NASA (APOD, Goddard) — Olympus Mons : environ 22 km au-dessus des plaines (jusqu'à ~26 km selon la référence), environ 600 km de diamètre, pentes de 3 à 6°
+- Caldeira d'environ 80 × 60 km ; escarpement de base jusqu'à 6–8 km
+- Gravité martienne ≈ 0,38 g ; pas de tectonique des plaques ; coulées récentes de quelques millions d'années (Mars Express, 2004)
+
+**Texte prononcé (pour réenregistrement éventuel) :**
+
+> Sur Mars, il existe un volcan si grand… qu'au sommet, tu aurais du mal à voir que tu es sur une montagne. Il s'appelle Olympus Mons. C'est le plus grand volcan connu du système solaire. Il s'élève à plus de vingt kilomètres au-dessus des plaines: environ deux fois et demie l'Everest. Et il est encore plus impressionnant en largeur: environ six cents kilomètres. Plus que la distance entre Paris et Bordeaux. Ses pentes sont si douces, quelques degrés à peine, que ses bords disparaissent derrière l'horizon. Au sommet s'ouvre un cratère géant, la caldeira, d'environ quatre-vingts kilomètres de long. Et sa base est bordée de falaises qui dépassent par endroits six kilomètres de haut. Mais comment un volcan peut-il devenir aussi énorme? Il y a deux raisons. D'abord, Mars n'a pas de tectonique des plaques comme la Terre. Sur Terre, les plaques glissent au-dessus des points chauds: à Hawaï, ça a formé toute une chaîne d'îles. Sur Mars, la croûte ne bouge pas: la lave s'est empilée au même endroit pendant des centaines de millions d'années. Ensuite, la gravité martienne est près de trois fois plus faible: les montagnes peuvent monter plus haut sans s'effondrer sous leur propre poids. Et il n'est pas seul: juste à côté, trois autres volcans géants s'alignent sur le plateau de Tharsis. Est-il éteint? Certaines coulées de lave sur ses flancs n'auraient que quelques millions d'années. À l'échelle d'une planète… c'est presque hier. Tu tenterais l'ascension? Réponds en commentaire.
+
+---
+
+# Video 14 — Une tempête plus grande que la Terre
+
+**Niche :** Les secrets de l'Univers  
+**Accroche à l'écran :** UNE TEMPÊTE PLUS GRANDE QUE LA TERRE  
+**Durée :** 68.3 s  
+**Musique :** composition originale procédurale (space, 72 BPM, progression minor_dark)
+
+| Timecode | Narration | Visuel | Montage |
+|---|---|---|---|
+| 00:00.15 | Il existe une tempête plus grande que la Terre. Et elle souffle depuis au moins cent cinquante ans. | Vidéo réelle : « Jupiter's Great Red Spot Shrinks and Grows » (à 35 s) | transition cut, caméra in, sfx boom, musique intensité 0.35 |
+| 00:05.21 | Elle s'appelle la Grande Tache rouge, et elle tourbillonne sur Jupiter. | Vidéo réelle : « Jupiter's Great Red Spot Shrinks and Grows » (à 75 s) | transition whip, caméra slow_in, étiquette « JUPITER » |
+| 00:09.01 | Jupiter est la plus grande planète du système solaire : on pourrait y faire entrer plus de mille Terres. | Vidéo réelle : « Jupiter's Great Red Spot Shrinks and Grows » (à 4 s), texte animé | transition fade, caméra out |
+| 00:14.35 | Et cette tempête, à elle seule, est plus large que notre planète entière. | Vidéo réelle : « Jupiter's Great Red Spot Shrinks and Grows » (à 114 s) | transition cut, caméra in |
+| 00:18.21 | Au dix-neuvième siècle, elle était encore bien plus grande : environ quarante mille kilomètres. De quoi aligner trois Terres. | Vidéo réelle : « Jupiter's Great Red Spot Shrinks and Grows » (à 12 s), compteur animé | transition zoom, caméra push |
+| 00:24.90 | Mais depuis, elle rétrécit. Aujourd'hui, elle n'est plus qu'un peu plus large que la Terre. | Vidéo réelle : « Jupiter's Great Red Spot Shrinks and Grows » (à 43 s) | transition fade, caméra slow_in |
+| 00:29.30 | Ses vents tournent à plus de 400 km/h. | Vidéo réelle : « Jupiter's Great Red Spot Shrinks and Grows » (à 36 s), compteur animé | transition flash, caméra in, sfx impact, musique intensité 0.65 |
+| 00:32.50 | Plus vite que les pires ouragans jamais mesurés sur Terre. | Vidéo réelle : « Jupiter's Great Red Spot Shrinks and Grows » (à 76 s) | transition whip, caméra push |
+| 00:35.60 | Et elle est profonde : d'après la sonde Juno, ses racines plongent jusqu'à environ cinq cents kilomètres sous les nuages. | Vidéo réelle : « Hubble Maps Jupiter in 4k Ultra HD » (à 2 s) | transition zoom, caméra slow_in, étiquette « SONDE JUNO » |
+| 00:42.05 | Pourquoi dure-t-elle aussi longtemps ? Parce que Jupiter n'a pas de sol. | Vidéo réelle : « Jupiter's Great Red Spot Shrinks and Grows » (à 20 s) | transition black, caméra in, sfx riser |
+| 00:45.60 | Sur Terre, un ouragan s'épuise quand il touche la terre ferme. Là-bas, rien ne le freine. | Vidéo réelle : « Jupiter's Great Red Spot Shrinks and Grows » (à 24 s) | transition fade, caméra drift |
+| 00:50.65 | Et sa couleur rouge ? Les scientifiques ne savent toujours pas exactement d'où elle vient. | Vidéo réelle : « Jupiter's Great Red Spot Shrinks and Grows » (à 112 s) | transition zoom, caméra slow_in, musique intensité 0.75 |
+| 00:55.24 | En 2024, le télescope Hubble l'a même vue… trembler, comme de la gelée. | Vidéo réelle : « Jupiter's Great Red Spot Shrinks and Grows » (à 28 s) | transition flash, caméra in, étiquette « HUBBLE • 2024 » |
+| 01:00.27 | Va-t-elle disparaître un jour ? Personne ne le sait encore. | Vidéo réelle : « Hubble Maps Jupiter in 4k Ultra HD » (à 4 s) | transition fade, caméra slow_in |
+| 01:03.65 | Tu crois qu'elle sera encore là dans cent ans ? Dis-le en commentaire. | Vidéo réelle : « Jupiter's Great Red Spot Shrinks and Grows » (à 6 s) | transition fade, caméra out, musique intensité 0.3 |
+
+**Crédits images (séquences réelles utilisées) :**
+
+- Jupiter's Great Red Spot Shrinks and Grows — NASA's Goddard Space Flight Center Scientific Visualization Studio — NASA Scientific Visualization Studio — Domaine public (NASA — image uniquement, bande-son non utilisée) — https://svs.gsfc.nasa.gov/12878/
+- Hubble Maps Jupiter in 4k Ultra HD — NASA's Goddard Space Flight Center Scientific Visualization Studio — NASA Scientific Visualization Studio — Domaine public (NASA — image uniquement, bande-son non utilisée) — https://svs.gsfc.nasa.gov/12021/
+
+**Sources / vérification des faits :**
+
+- NASA / Hubble — Grande Tache rouge : environ 41 000 km au XIXe siècle, environ 16 500 km en 2014, observée depuis au moins 150 ans
+- Vents de 430 à 680 km/h selon les mesures
+- Juno (2021) — racines jusqu'à environ 500 km de profondeur
+- Hubble (2024) — la tache oscille « comme de la gelée »
+
+**Texte prononcé (pour réenregistrement éventuel) :**
+
+> Il existe une tempête plus grande que la Terre. Et elle souffle depuis au moins cent cinquante ans. Elle s'appelle la Grande Tache rouge, et elle tourbillonne sur Jupiter. Jupiter est la plus grande planète du système solaire: on pourrait y faire entrer plus de mille Terres. Et cette tempête, à elle seule, est plus large que notre planète entière. Au dix-neuvième siècle, elle était encore bien plus grande: environ quarante mille kilomètres. De quoi aligner trois Terres. Mais depuis, elle rétrécit. Aujourd'hui, elle n'est plus qu'un peu plus large que la Terre. Ses vents tournent à plus de quatre cents kilomètres par heure. Plus vite que les pires ouragans jamais mesurés sur Terre. Et elle est profonde: d'après la sonde Juno, ses racines plongent jusqu'à environ cinq cents kilomètres sous les nuages. Pourquoi dure-t-elle aussi longtemps? Parce que Jupiter n'a pas de sol. Sur Terre, un ouragan s'épuise quand il touche la terre ferme. Là-bas, rien ne le freine. Et sa couleur rouge? Les scientifiques ne savent toujours pas exactement d'où elle vient. En deux mille vingt-quatre, le télescope Hubble l'a même vue… trembler, comme de la gelée. Va-t-elle disparaître un jour? Personne ne le sait encore. Tu crois qu'elle sera encore là dans cent ans? Dis-le en commentaire.
+
+---
+
+# Video 15 — La lumière du Soleil a des milliers d'années
+
+**Niche :** Les secrets de l'Univers  
+**Accroche à l'écran :** CETTE LUMIÈRE A DES MILLIERS D'ANNÉES  
+**Durée :** 72.6 s  
+**Musique :** composition originale procédurale (space, 70 BPM, progression minor_drift)
+
+| Timecode | Narration | Visuel | Montage |
+|---|---|---|---|
+| 00:00.15 | La lumière qui te réchauffe aujourd'hui a commencé son voyage… il y a peut-être plus de cent mille ans. | Vidéo réelle : « Largest Flare yet from Solar Cycle 25 » (à 2 s) | transition cut, caméra in, sfx boom, musique intensité 0.35 |
+| 00:05.60 | Elle naît au cœur du Soleil, à environ quinze millions de degrés. | Vidéo réelle : « Origin Of Light » (à 24 s), texte animé | transition whip, caméra slow_in |
+| 00:09.19 | Là, chaque seconde, le Soleil fusionne environ six cents millions de tonnes d'hydrogène. | Vidéo réelle : « Origin Of Light » (à 2 s) | transition fade, caméra in |
+| 00:13.81 | Et au passage, il perd quatre millions de tonnes de matière… transformées en énergie. | Vidéo réelle : « Origin Of Light » (à 12 s), flash lumineux | transition flash, caméra push, sfx impact, musique intensité 0.55 |
+| 00:18.25 | Mais cette énergie ne sort pas tout de suite. | Vidéo réelle : « Simulating Solar Flows » (à 2 s) | transition black, caméra slow_in, sfx riser |
+| 00:20.69 | Le Soleil est si dense que la lumière est sans cesse absorbée… puis réémise, dans n'importe quelle direction. | Vidéo réelle : « Simulating Solar Flows » (à 9 s) | transition fade, caméra drift |
+| 00:26.53 | Elle avance au hasard, comme quelqu'un qui chercherait la sortie dans une foule immense. | Vidéo réelle : « Simulating Solar Flows » (à 16 s) | transition cut, caméra in |
+| 00:30.85 | Résultat : l'énergie met des dizaines, voire des centaines de milliers d'années pour remonter jusqu'à la surface. | Vidéo réelle : « Sun Releases Strong Solar Flare on October 23, 2024 » (à 0 s), texte animé | transition zoom, caméra push, musique intensité 0.7 |
+| 00:36.79 | Puis, une fois dehors… tout s'accélère. | Vidéo réelle : « Sun Erupts with X-class flare on October 26, 2024 » (à 0 s) | transition flash, caméra in, sfx whoosh |
+| 00:38.78 | Il ne lui faut plus que huit minutes et vingt secondes pour parcourir les cent cinquante millions de kilomètres jusqu'à la Terre. | Vidéo réelle : « Spinning Earth with clouds, atmosphere, and night lights » (à 12 s), texte animé | transition whip, caméra slow_in |
+| 00:45.14 | Autrement dit, cette lumière a passé bien plus de temps à sortir du Soleil… qu'à voyager dans l'espace. | Vidéo réelle : « Largest Flare yet from Solar Cycle 25 » (à 1 s) | transition fade, caméra push |
+| 00:50.60 | Quand elle a quitté le cœur du Soleil, il n'y avait sur Terre ni villes, ni agriculture, ni écriture. | Vidéo réelle : « jsc2021m000138_4K_Earth_Views_Extended_Cut_for_Earth_Day_ 20 » (à 2600 s) | transition black, caméra drift, musique intensité 0.6 |
+| 00:56.08 | Le Soleil contient à lui seul plus de quatre-vingt-dix-neuf pour cent de la masse du système solaire. | Vidéo réelle : « Sun Releases Strong Solar Flare on October 23, 2024 » (à 0 s), texte animé | transition zoom, caméra in |
+| 01:01.66 | Et il continuera de briller pendant encore environ cinq milliards d'années. | Vidéo réelle : « Largest Flare yet from Solar Cycle 25 » (à 1 s) | transition fade, caméra slow_in, musique intensité 0.75 |
+| 01:05.51 | La prochaine fois que tu sens le soleil sur ta peau, pense à ce voyage. Tu le savais ? Dis-le en commentaire. | Vidéo réelle : « Largest Flare yet from Solar Cycle 25 » (à 5 s) | transition fade, caméra out, musique intensité 0.3 |
+
+**Crédits images (séquences réelles utilisées) :**
+
+- Largest Flare yet from Solar Cycle 25 — NASA's Goddard Space Flight Center Scientific Visualization Studio — NASA Scientific Visualization Studio — Domaine public (NASA — image uniquement, bande-son non utilisée) — https://svs.gsfc.nasa.gov/14592/
+- Origin Of Light — NASA's Goddard Space Flight Center Scientific Visualization Studio — NASA Scientific Visualization Studio — Domaine public (NASA — image uniquement, bande-son non utilisée) — https://svs.gsfc.nasa.gov/11084/
+- Simulating Solar Flows — NASA's Goddard Space Flight Center Scientific Visualization Studio — NASA Scientific Visualization Studio — Domaine public (NASA — image uniquement, bande-son non utilisée) — https://svs.gsfc.nasa.gov/31400/
+- Sun Releases Strong Solar Flare on October 23, 2024 — NASA/SDO || SDO_X3pt3_10-23-2024_0340_131-304-171.jpg (4096x4096) [4.7 MB] || SDO_X3pt3_10-23-2024_0340_131-304-171_searchweb.png (320x180) [104.1 KB] || SDO_X3pt3_10-23-2024_0340_131-304-171_thm.png  — NASA Scientific Visualization Studio — Domaine public (NASA — image uniquement, bande-son non utilisée) — https://svs.gsfc.nasa.gov/14709/
+- Sun Erupts with X-class flare on October 26, 2024 — NASA/SDO || Oct_26_X1pt8_Flare_multi_big.jpg (5120x3072) [3.4 MB] || Oct_26_X1pt8_Flare_multi_big_searchweb.png (320x180) [95.8 KB] || Oct_26_X1pt8_Flare_multi_big_thm.png (80x40) [7.6 KB] || — NASA Scientific Visualization Studio — Domaine public (NASA — image uniquement, bande-son non utilisée) — https://svs.gsfc.nasa.gov/14710/
+- Spinning Earth with clouds, atmosphere, and night lights — NASA's Goddard Space Flight Center Scientific Visualization Studio — NASA Scientific Visualization Studio — Domaine public (NASA — image uniquement, bande-son non utilisée) — https://svs.gsfc.nasa.gov/5570/
+- Largest Flare yet from Solar Cycle 25 — NASA's Goddard Space Flight Center Scientific Visualization Studio — NASA Scientific Visualization Studio — Domaine public (NASA — image uniquement, bande-son non utilisée) — https://svs.gsfc.nasa.gov/14592/
+- jsc2021m000138_4K_Earth_Views_Extended_Cut_for_Earth_Day_ 2021_210422-4KMP4 — JSC — NASA Image and Video Library — Domaine public (média NASA — image uniquement) — https://images.nasa.gov/details/jsc2021m000138_4K_Earth_Views_Extended_Cut_for_Earth_Day_%202021_210422-4KMP4
+- Sun Releases Strong Solar Flare on October 23, 2024 — NASA/SDO || SDO_X3pt3_10-23-2024_0340_131-304-171.jpg (4096x4096) [4.7 MB] || SDO_X3pt3_10-23-2024_0340_131-304-171_searchweb.png (320x180) [104.1 KB] || SDO_X3pt3_10-23-2024_0340_131-304-171_thm.png  — NASA Scientific Visualization Studio — Domaine public (NASA — image uniquement, bande-son non utilisée) — https://svs.gsfc.nasa.gov/14709/
+- Largest Flare yet from Solar Cycle 25 — NASA's Goddard Space Flight Center Scientific Visualization Studio — NASA Scientific Visualization Studio — Domaine public (NASA — image uniquement, bande-son non utilisée) — https://svs.gsfc.nasa.gov/14592/
+
+**Sources / vérification des faits :**
+
+- NASA SVS « Origin of Light » — des dizaines de milliers d'années pour que l'énergie sorte du Soleil (estimations courantes : 100 000 à 170 000 ans)
+- Cœur à environ 15 millions °C ; environ 600 millions de tonnes d'hydrogène fusionnées et 4 millions de tonnes converties en énergie par seconde
+- Le Soleil représente environ 99,8 % de la masse du système solaire ; encore environ 5 milliards d'années de vie
+
+**Texte prononcé (pour réenregistrement éventuel) :**
+
+> La lumière qui te réchauffe aujourd'hui a commencé son voyage… il y a peut-être plus de cent mille ans. Elle naît au cœur du Soleil, à environ quinze millions de degrés. Là, chaque seconde, le Soleil fusionne environ six cents millions de tonnes d'hydrogène. Et au passage, il perd quatre millions de tonnes de matière… transformées en énergie. Mais cette énergie ne sort pas tout de suite. Le Soleil est si dense que la lumière est sans cesse absorbée… puis réémise, dans n'importe quelle direction. Elle avance au hasard, comme quelqu'un qui chercherait la sortie dans une foule immense. Résultat: l'énergie met des dizaines, voire des centaines de milliers d'années pour remonter jusqu'à la surface. Puis, une fois dehors… tout s'accélère. Il ne lui faut plus que huit minutes et vingt secondes pour parcourir les cent cinquante millions de kilomètres jusqu'à la Terre. Autrement dit, cette lumière a passé bien plus de temps à sortir du Soleil… qu'à voyager dans l'espace. Quand elle a quitté le cœur du Soleil, il n'y avait sur Terre ni villes, ni agriculture, ni écriture. Le Soleil contient à lui seul plus de quatre-vingt-dix-neuf pour cent de la masse du système solaire. Et il continuera de briller pendant encore environ cinq milliards d'années. La prochaine fois que tu sens le soleil sur ta peau, pense à ce voyage. Tu le savais? Dis-le en commentaire.
