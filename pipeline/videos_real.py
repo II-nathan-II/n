@@ -121,7 +121,7 @@ DCOTSS = 'nasa:AFRC-2022-13772-ER-2_DCOTTS_VideoFile_May2022'
 TGF = 'svs:10706/10706_Fermi_TGF_H264_Best_1280x720_59.94.mov'
 TGF2 = 'svs:10707/10707_Fermi_Spots_TGF_MPEG4_1280X720_29.97.mp4'
 
-REAL = dict(grain=0.006, vignette=0.38)
+REAL = dict(grain=0.0, vignette=0.32)
 
 # ============================================================================= NICHE 1 — vidéos 01 à 05
 R01 = remap(VS.V01, [

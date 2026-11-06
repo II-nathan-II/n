@@ -28,11 +28,18 @@ class Clip(Layer):
         info = _probe(src)
         sw, sh = info['w'], info['h']
         need = (dur + 1.2) * self.speed
-        key = hashlib.md5(json.dumps([src, self.at, round(need, 2), self.speed, self.mode, self.cx, self.cy, self.zoom, self.flip, self.fit_scale]).encode()).hexdigest()[:16]
+        key = hashlib.md5(json.dumps(['q2', src, self.at, round(need, 2), self.speed, self.mode, self.cx, self.cy, self.zoom, self.flip, self.fit_scale]).encode()).hexdigest()[:16]
         os.makedirs(CLIPS, exist_ok=True)
         self.path = os.path.join(CLIPS, key + '.mp4')
         if not os.path.exists(self.path):
-            if self.mode == 'cover':
+            mode = self.mode
+            vertical = sh > sw
+            # Qualité : une source < 2K n'est plus agrandie ×1,8–2,7 pour remplir l'écran ;
+            # elle est montrée nette en grand cadre sur fond flouté (sauf mode 'cover!').
+            if mode == 'cover' and not vertical and sh < 1500:
+                mode = 'fit'
+                self.fit_scale = max(self.fit_scale, 1.9 if sh >= 1000 else 1.7)
+            if mode in ('cover', 'cover!'):
                 cw = min(sw, sh * 9 / 16) / max(self.zoom, 1.0)
                 ch = cw * 16 / 9
                 if ch > sh:
@@ -40,17 +47,23 @@ class Clip(Layer):
                 x = max(0, min(sw - cw, self.cx * sw - cw / 2)); y = max(0, min(sh - ch, self.cy * sh - ch / 2))
                 vf = f'crop={int(cw)}:{int(ch)}:{int(x)}:{int(y)},scale={W}:{H}:flags=lanczos'
                 if cw < W * 0.8:
-                    vf += ',unsharp=5:5:0.7:5:5:0.0'
+                    vf += ',unsharp=5:5:0.6:5:5:0.0'
+                vf += ',eq=saturation=1.1:contrast=1.03'
             else:
+                z = max(self.zoom, 1.0)
+                cw, ch = sw / z, sh / z
+                x = max(0, min(sw - cw, self.cx * sw - cw / 2)); y = max(0, min(sh - ch, self.cy * sh - ch / 2))
                 fw = int(W * self.fit_scale) // 2 * 2
-                vf = (f'split[a][b];[a]scale={W}:{H}:force_original_aspect_ratio=increase,crop={W}:{H},boxblur=40:4,eq=brightness=-0.12:saturation=1.1[bg];'
-                      f'[b]scale={fw}:-2:flags=lanczos,unsharp=5:5:0.5[fg];[bg][fg]overlay=(W-w)/2:(H-h)/2-40')
+                pre = f'crop={int(cw) // 2 * 2}:{int(ch) // 2 * 2}:{int(x)}:{int(y)},eq=saturation=1.1:contrast=1.03,split[a][b];'
+                vf = (pre + f'[a]scale={W}:{H}:force_original_aspect_ratio=increase,crop={W}:{H},boxblur=40:4,eq=brightness=-0.16:saturation=1.05[bg];'
+                      f'[b]scale={fw}:-2:flags=lanczos[fg0];[fg0]crop=min(iw\\,{W}):ih[fg];[bg][fg]overlay=(W-w)/2:(H-h)/2-40')
+                self.mode = 'fit'
             if self.flip:
                 vf += ',hflip'
             if self.speed != 1.0:
                 vf += f',setpts=PTS/{self.speed}'
             vf += f',fps={FPS},format=yuv420p'
-            cmd = ['ffmpeg', '-v', 'error', '-y', '-ss', f'{self.at:.3f}', '-t', f'{need:.3f}', '-i', src, '-an', '-filter_complex' if self.mode == 'fit' else '-vf', vf,
+            cmd = ['ffmpeg', '-v', 'error', '-y', '-ss', f'{self.at:.3f}', '-t', f'{need:.3f}', '-i', src, '-an', '-filter_complex' if mode != 'cover' and mode != 'cover!' else '-vf', vf,
                    '-c:v', 'libx264', '-preset', 'veryfast', '-crf', '15', self.path + '.part.mp4']
             subprocess.run(cmd, check=True)
             os.replace(self.path + '.part.mp4', self.path)
