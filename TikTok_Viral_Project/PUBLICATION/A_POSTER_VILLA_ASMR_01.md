@@ -16,11 +16,12 @@ sans cette étiquette, TikTok peut retirer la vidéo ou limiter le compte.
 - **Heure conseillée :** dimanche 8 novembre, **18 h 30**
 - **Légende :**
 
-  6 fruits, 1 villa… et un secret dès le premier soir 🍍🔑 Épisode 1. Ton fruit préféré pour l'instant ? 👇
+  Le présentateur triche déjà… 🍍🔑 Épisode 1 de Villa Vitamine. Ton fruit préféré pour l'instant ? 👇
 
 - **Hashtags :** #villavitamine #telerealite #humour #fruits #serie #animation
 - **Couverture :** choisis l'image de Kiki avec ses lunettes devant la piscine (vers 0:15).
 - **Son :** garde le son d'origine (ce sont les voix des personnages).
+- **Accroche à l'écran (0–3 s) :** « LE PRÉSENTATEUR TRICHE DÉJÀ… » en bandeau jaune.
 - **Contenu :** générique, Monsieur Ananas, arrivées de Kiki, Bérénice, Cyril, chute de Pépin (compteur), annonce de Fanny,
   et le secret de Monsieur Ananas au portail. Version sans les 3 confessionnaux (crédits épuisés pendant la génération).
 
@@ -31,8 +32,9 @@ sans cette étiquette, TikTok peut retirer la vidéo ou limiter le compte.
 - **Heure conseillée :** dimanche 8 novembre, **21 h 30** (l'ASMR marche bien le soir)
 - **Légende :**
 
-  Le n°11 m'a donné des frissons 🫧 Fruits rouges en verre, mets le son 🔊 Ton préféré ? Mets le numéro en commentaire 👇
+  Attends le n°11… 🫧 Fruits rouges en verre, mets le son 🔊 Ton préféré ? Mets le numéro en commentaire 👇
 
 - **Hashtags :** #asmr #satisfying #asmrfrance #verre #oddlysatisfying #fruits
 - **Couverture :** la fraise en verre coupée (tout début de la vidéo).
 - **Son :** garde le son d'origine (les sons de verre font tout l'intérêt) ; n'ajoute pas de musique.
+- **Accroche à l'écran (0–3 s) :** « ATTENDS LE N°11… (mets le son) » en bandeau jaune.

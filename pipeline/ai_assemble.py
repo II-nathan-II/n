@@ -138,6 +138,8 @@ Style: Hook,Poppins ExtraBold,126,{bgr('FFFFFF')},{bgr('FFFFFF')},{bgr('000000')
 Style: Name,Poppins Black,104,{bgr('111111')},{bgr('111111')},{bgr('FFFFFF')},{bgr('000000', 0xFF)},0,0,0,0,100,100,0,0,3,16,0,7,70,60,0,1
 Style: Role,Poppins SemiBold,64,{bgr('FFFFFF')},{bgr('FFFFFF')},{bgr('111111')},{bgr('000000', 0xFF)},0,0,0,0,100,100,0,0,3,12,0,7,70,60,0,1
 Style: Conf,Poppins Black,60,{bgr('FFFFFF')},{bgr('FFFFFF')},{bgr('FF3D8B')},{bgr('000000', 0xFF)},0,0,0,0,100,100,3,0,3,12,0,9,60,60,170,1
+Style: HookBox,Poppins Black,100,{bgr('111111')},{bgr('111111')},{bgr('FFE135')},{bgr('000000', 0x60)},0,0,0,0,100,100,0,0,3,22,4,5,70,70,0,1
+Style: HookSub,Poppins ExtraBold,60,{bgr('FFFFFF')},{bgr('FFFFFF')},{bgr('000000')},{bgr('000000', 0x70)},0,0,0,0,100,100,0,0,1,6,2,5,70,70,0,1
 Style: Count,Poppins ExtraBold,150,{bgr('FFE135')},{bgr('FFE135')},{bgr('000000')},{bgr('000000', 0x70)},0,0,0,0,100,100,0,0,1,9,3,5,60,60,0,1
 Style: End,Poppins Black,150,{bgr('FFFFFF')},{bgr('FFFFFF')},{bgr('000000')},{bgr('000000', 0x70)},0,0,0,0,100,100,0,0,1,9,3,5,70,70,0,1
 Style: Recap,Poppins SemiBold,74,{bgr('FFFFFF')},{bgr('FFFFFF')},{bgr('000000', 0x50)},{bgr('000000', 0xFF)},0,0,0,0,100,100,0,0,3,16,0,5,90,90,0,1
@@ -188,6 +190,17 @@ def shot_caps(sh, a, dur, t_base, lo=0.0, hi=None):
     cuts = w0 + np.concatenate([[0], np.cumsum(lens)]) / lens.sum() * (w1 - w0)
     return ''.join(captions_for_line(a0, b0, who, txt, lo, hi, t_base - lo)
                    for (who, txt), a0, b0 in zip(sh['lines'], cuts[:-1], cuts[1:]))
+
+
+def hook_box(spec, t0, t1, y):
+    """Accroche d'ouverture : texte court en bandeau jaune (+ sous-titre éventuel), apparition « pop »."""
+    lines = spec.get('accroche_ecran') or [spec['accroche']]
+    out = ''
+    for k, l in enumerate(lines[:2]):
+        out += ev('HookBox', t0 + 0.08 * k, t1, POP + r'{\pos(540,%d)}' % (y + k * 150) + esc(l), layer=3)
+    if spec.get('accroche_sous'):
+        out += ev('HookSub', t0 + 0.3, t1, r'{\fad(120,0)\pos(540,%d)}' % (y + len(lines[:2]) * 150 + 10) + esc(spec['accroche_sous']), layer=3)
+    return out
 
 
 def flash(t):
@@ -330,7 +343,7 @@ def build(vid, use_placeholders=False, eliminated='coco', skip_missing=False):
         if cold:
             src = cold['src']
             ass += ev('Ep', 0, cold['dur'], r'{\fad(100,0)}CE SOIR À LA VILLA…')
-            ass += ev('Hook', 0.1, cold['dur'], POP + r'{\pos(540,640)}' + esc(spec['accroche']))
+            ass += hook_box(spec, 0.1, cold['dur'], 560)
             ass += shot_caps(src['shot'], shot_audio.get(src['i']), src['dur'], 0.0, cold['off'], cold['off'] + cold['dur'])
             ass += flash(cold['dur'])
         ass += ev('Show', ts, ts + 3.2, r'{\fad(0,250)}VILLA VITAMINE')
@@ -367,7 +380,7 @@ def build(vid, use_placeholders=False, eliminated='coco', skip_missing=False):
         ass += ev('EndSub', te + 0.45, total, r'{\fad(150,0)\pos(540,1160)\c&HFFFFFF&}' + esc(cta))
         ass += ev('Ep', te + 0.65, total, r'{\fad(150,0)\pos(540,1290)}Abonne-toi pour ne rien rater')
     else:
-        ass += ev('Hook', 0.1, 3.0, POP + r'{\pos(540,330)}' + esc(spec['accroche']))
+        ass += hook_box(spec, 0.1, 3.2, 360)
         ass += ev('Ep', 3.0, t, r'{\fad(200,0)}' + esc(f"CRISTAL ASMR · {spec['titre'].upper()}"))
         N = len(segs)
         for s in segs:

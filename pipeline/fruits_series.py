@@ -78,6 +78,7 @@ def S(kind, dur, where, who, action, lines=(), text=None, sfx=None, off=False, g
 EPISODES = [
     dict(id='episode_01', num=1, titre="Bienvenue à la Villa",
          accroche="6 fruits, 1 villa… et un secret dès le premier soir",
+         accroche_ecran=["LE PRÉSENTATEUR", "TRICHE DÉJÀ…"],
          cold=(12, 0.0, 3.0),
          question="Ton fruit préféré pour l'instant ?",
          suite="Épisode 2 : la nouvelle arrive",
@@ -434,6 +435,7 @@ def A(subject_fr, material):
 ASMR = [
     # version produite le 7 novembre (Veo 3.1 fast, plans de 8 s coupés à 7 s) : 12 plans
     dict(id='asmr_01', num=1, titre="Fruits rouges en verre", accroche="Le n°11 m'a donné des frissons", shot=7.0,
+         accroche_ecran=["ATTENDS LE N°11…"], accroche_sous="(mets le son)",
          plans=[A(f, 'verre') for f in ['fraise', 'framboise', 'cerise', 'mûre', 'grenade', 'pastèque', 'myrtille', 'prune', 'figue',
                                          'raisin', 'myrtille géante', 'pastèque']]),
     dict(id='asmr_02', num=2, titre="Agrumes en cristal", accroche="Écoute le son du n°7",
