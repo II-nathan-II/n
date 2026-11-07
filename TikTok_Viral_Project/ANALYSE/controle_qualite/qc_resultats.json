@@ -1005,16 +1005,16 @@
   "size_mb": 50.9,
   "bitrate_kbps": 5012,
   "decode_errors": "",
-  "lufs": -14.1,
-  "true_peak_db": 1.5,
+  "lufs": -14.2,
+  "true_peak_db": -2.200000047683716,
   "caption_words": 234,
   "caption_words_voiced": 1.0,
   "caption_words_outside_segment": 0,
-  "level_speech_db": -16.899999618530273,
+  "level_speech_db": -17.0,
   "level_gaps_db": -30.100000381469727,
   "frame_mean_min": 4.6,
   "frame_change_mean": 41.5,
-  "asr_word_recall": 0.925,
+  "asr_word_recall": 0.921,
   "asr_excerpt": "Dans quelques jours, cette sonde sera un jour lumière de la Terre. Ces voyages 1, lancés en 1977, elles voyagent depuis 49 ans. Vers le 18 novembre, elles sera à environ 25,9 milliards de kilomètres. Si loin qu'un messag",
   "checks": {
    "fichier présent": true,
@@ -1024,11 +1024,11 @@
    "AAC 48 kHz stéréo": true,
    "décodage sans erreur": true,
    "loudness −15 à −13 LUFS": true,
-   "true peak ≤ −0,5 dBTP": false,
+   "true peak ≤ −0,5 dBTP": true,
    "sous-titres sur la voix (≥ 95 %)": true,
    "narration reconnue (Whisper ≥ 85 %)": true,
    "pas d'écran noir / image figée": true
   },
-  "ok": false
+  "ok": true
  }
 ]
