@@ -11,6 +11,8 @@ sans cette étiquette, TikTok peut retirer la vidéo ou limiter le compte.
 
 ## 1. Villa Vitamine — Épisode 1 : Bienvenue à la Villa
 
+> ✅ **Publié** le samedi 7 novembre 2026 au soir (par toi, sur le compte Villa Vitamine).
+
 - **Fichier :** `NICHE_3_VILLA_VITAMINE/episode_01.mp4` (66,9 s)
 - **Compte :** Villa Vitamine
 - **Heure conseillée :** dimanche 8 novembre, **18 h 30**
