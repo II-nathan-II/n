@@ -11,6 +11,8 @@
 | ambiance_07 | Les secrets de l'Univers | Neptune n'a fait qu'un tour | 14.9 s | 1080×1920 @ 30 i/s | H264 / AAC 48 kHz | — | 11.7 Mo | ≈ −14 LUFS | sans voix | texte fixe | ✅ (contrôle manuel) |
 | ambiance_08 | Les secrets de l'Univers | Une cuillère d'étoile à neutrons | 14.9 s | 1080×1920 @ 30 i/s | H264 / AAC 48 kHz | — | 15.5 Mo | ≈ −14 LUFS | sans voix | texte fixe | ✅ (contrôle manuel) |
 | ambiance_09 | Les secrets de l'Univers | Plus d'arbres que d'étoiles | 14.9 s | 1080×1920 @ 30 i/s | H264 / AAC 48 kHz | — | 13.5 Mo | ≈ −14 LUFS | sans voix | texte fixe | ✅ (contrôle manuel) |
+| anim_01 | Les secrets de l'Univers | Si le Soleil était un ballon de foot | 69.6 s | 1080×1920 @ 30 i/s | H264 (High) / AAC 48 kHz | 8292 kb/s | 72.2 Mo | -14.1 LUFS, TP -1.3 dBTP | 93 % des mots | 100 % | ✅ |
+| anim_02 | Les secrets de l'Univers | Et si la Terre s'arrêtait de tourner ? | 69.0 s | 1080×1920 @ 30 i/s | H264 (High) / AAC 48 kHz | 7743 kb/s | 66.7 Mo | -14.1 LUFS, TP -0.6 dBTP | 88 % des mots | 100 % | ✅ |
 | edit_01 | Les secrets de l'Univers | L'Univers en 20 secondes | 22.0 s | 1080×1920 @ 30 i/s | H264 / AAC 48 kHz | — | 20.8 Mo | ≈ −14 LUFS | sans voix | texte fixe | ✅ (contrôle manuel) |
 | edit_02 | Les secrets de l'Univers | Les trous noirs en 20 secondes | 19.2 s | 1080×1920 @ 30 i/s | H264 / AAC 48 kHz | — | 18.5 Mo | ≈ −14 LUFS | sans voix | texte fixe | ✅ (contrôle manuel) |
 | edit_03 | Les secrets de l'Univers | Le système solaire en 20 secondes | 19.2 s | 1080×1920 @ 30 i/s | H264 / AAC 48 kHz | — | 14.4 Mo | ≈ −14 LUFS | sans voix | texte fixe | ✅ (contrôle manuel) |
@@ -19,6 +21,8 @@
 | edit_06 | Les secrets de l'Univers | Ce n'est pas une peinture | 19.2 s | 1080×1920 @ 30 i/s | H264 / AAC 48 kHz | — | 19.1 Mo | ≈ −14 LUFS | sans voix | texte fixe | ✅ (contrôle manuel) |
 | edit_07 | Les secrets de l'Univers | La Terre vue de l'espace | 19.2 s | 1080×1920 @ 30 i/s | H264 / AAC 48 kHz | — | 18.6 Mo | ≈ −14 LUFS | sans voix | texte fixe | ✅ (contrôle manuel) |
 | edit_08 | Les secrets de l'Univers | Voyage à travers l'Univers | 19.2 s | 1080×1920 @ 30 i/s | H264 / AAC 48 kHz | — | 19.2 Mo | ≈ −14 LUFS | sans voix | texte fixe | ✅ (contrôle manuel) |
+| flash_01 | Les secrets de l'Univers | Pulsars et étoiles à neutrons | 19.9 s | 1080×1920 @ 30 i/s | H264 / AAC 48 kHz | — | 21.2 Mo | ≈ −14 LUFS | sans voix | texte fixe | ✅ (contrôle manuel) |
+| flash_02 | Les secrets de l'Univers | Trous noirs | 19.1 s | 1080×1920 @ 30 i/s | H264 / AAC 48 kHz | — | 20.4 Mo | ≈ −14 LUFS | sans voix | texte fixe | ✅ (contrôle manuel) |
 | reflexion_01 | Les secrets de l'Univers | L'infime et l'infini | 64.3 s | 1080×1920 @ 30 i/s | H264 (High) / AAC 48 kHz | 6143 kb/s | 49.4 Mo | -14.2 LUFS, TP -1.1 dBTP | 96 % des mots | 100 % | ⚠️ |
 | video_01 | Les secrets de l'Univers | La planète où il pleut du verre | 86.3 s | 1080×1920 @ 30 i/s | H264 (High) / AAC 48 kHz | 4146 kb/s | 44.7 Mo | -14.2 LUFS, TP -1.4 dBTP | 86 % des mots | 100 % | ✅ |
 | video_02 | Les secrets de l'Univers | Si le Soleil disparaissait maintenant | 95.7 s | 1080×1920 @ 30 i/s | H264 (High) / AAC 48 kHz | 5294 kb/s | 63.3 Mo | -14.1 LUFS, TP -1.1 dBTP | 87 % des mots | 100 % | ✅ |

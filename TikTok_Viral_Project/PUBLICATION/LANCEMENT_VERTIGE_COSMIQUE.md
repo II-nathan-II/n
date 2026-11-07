@@ -46,15 +46,15 @@ Même heure sur TikTok et YouTube (programmation Metricool). 08 h 00 : phrase + 
 | Lun. 9 nov. | 12 h 30 | 12 — La Lune s'éloigne de nous chaque année 🌕 |
 | Lun. 9 nov. | 19 h 00 | 13 — Le plus grand volcan du système solaire est sur Mars 🌋 |
 | Lun. 9 nov. | 21 h 30 | edit_02 — Les trous noirs en 20 secondes 🕳️ |
-| Mar. 10 nov. | 08 h 00 | ambiance_04 — L'espace est à une heure de route 🚗 |
+| Mar. 10 nov. | 08 h 00 | anim_02 — Et si la Terre s'arrêtait de tourner ? 🌍 |
 | Mar. 10 nov. | 12 h 30 | 14 — Une tempête plus grande que la Terre 🌪️ |
 | Mar. 10 nov. | 19 h 00 | 15 — La lumière du Soleil a des milliers d'années ☀️ |
 | Mar. 10 nov. | 21 h 30 | edit_05 — Les lunes les plus folles du système solaire 🌙 |
 | Mer. 11 nov. | 08 h 00 | ambiance_05 — Les traces de pas sur la Lune sont toujours là 👣 |
 | Mer. 11 nov. | 12 h 30 | 16 — 16 levers de soleil par jour 🌅 |
 | Mer. 11 nov. | 19 h 00 | 17 — Vendredi 13 avril 2029, un astéroïde va frôler la Terre ☄️ |
-| Mer. 11 nov. | 21 h 30 | edit_03 — Le système solaire en 20 secondes 🪐 |
-| Jeu. 12 nov. | 08 h 00 | ambiance_06 — Tu es fait d'étoiles ✨ |
+| Mer. 11 nov. | 21 h 30 | flash_01 — Il tourne 716 fois par seconde 🌀 |
+| Jeu. 12 nov. | 08 h 00 | anim_01 — Si le Soleil était un ballon de foot ⚽☀️ |
 | Jeu. 12 nov. | 12 h 30 | 18 — Plus d'eau que dans tous les océans de la Terre 🌊 |
 | Jeu. 12 nov. | 19 h 00 | 19 — Sur cette lune, il pleut… mais pas de l'eau 🌧️ |
 | Jeu. 12 nov. | 21 h 30 | edit_07 — La Terre vue de l'espace 🌍 |
@@ -65,11 +65,15 @@ Même heure sur TikTok et YouTube (programmation Metricool). 08 h 00 : phrase + 
 | Sam. 14 nov. | 08 h 00 | ambiance_03 — Sur Vénus, un jour dure plus qu'un an 🪐 |
 | Sam. 14 nov. | 12 h 30 | 22 — La planète la plus proche du Soleil cache de la glace 🧊 |
 | Sam. 14 nov. | 19 h 00 | 23 — Sur Mars, les couchers de soleil sont bleus 🔵 |
-| Sam. 14 nov. | 21 h 30 | edit_04 — Le Soleil comme tu ne l'as jamais vu ☀️ |
+| Sam. 14 nov. | 21 h 30 | flash_02 — Même la lumière ne s'en échappe pas 🕳️ |
 | Dim. 15 nov. | 08 h 00 | ambiance_09 — Plus d'arbres sur Terre que d'étoiles dans la galaxie 🌳 |
 | Dim. 15 nov. | 12 h 30 | 24 — Cette lune crache de l'eau dans l'espace 💦 |
 | Dim. 15 nov. | 19 h 00 | 25 — Cette sonde sera bientôt à un jour-lumière de la Terre 🛰️ |
 | Dim. 15 nov. | 21 h 30 | edit_08 — Voyage à travers l'Univers 🚀 |
+| Lun. 16 nov. | 08 h 00 | ambiance_04 — L'espace est à une heure de route 🚗 |
+| Lun. 16 nov. | 21 h 30 | edit_03 — Le système solaire en 20 secondes 🪐 |
+| Mar. 17 nov. | 08 h 00 | ambiance_06 — Tu es fait d'étoiles ✨ |
+| Mar. 17 nov. | 21 h 30 | edit_04 — Le Soleil comme tu ne l'as jamais vu ☀️ |
 
 ## 5. Textes à copier-coller
 
@@ -604,7 +608,7 @@ Le plus important est la régularité : 20 vidéos couvrent 10 jours à 2 par jo
 
 ## 7. Programmation Metricool (faite le 6 novembre 2026)
 
-Les 20 vidéos (01 à 05 et 11 à 25) sont programmées dans Metricool (marque 7923410) sur TikTok et YouTube, aux heures du § 4, en publication automatique : 01 à 15 le 6 novembre, 16 à 25 le 7 novembre (fichiers en haute qualité). Les publications du 6 au soir et du 7 midi sont bien parties sur les deux réseaux. Le 7 novembre, ajout des formats courts : `edit_01` (7 nov. 21 h 30), `ambiance_01` (7 nov. 17 h 00), `reflexion_01` (8 nov. 21 h 30), `ambiance_02` à `09` (8 au 15 nov. à 08 h 00) et `edit_02` à `08` (9 au 15 nov. à 21 h 30), soit 4 publications par jour. Ordre choisi pour ne jamais publier le même sujet deux fois de suite : Vénus et l'étoile à neutrons (déjà traitées le 8 en format long) reviennent en ambiance les 13 et 14 ; l'edit « lunes » passe le 10 pour ne pas tomber le jour de la vidéo sur Titan (12 nov.). Tous les fichiers ont été vérifiés image par image avant envoi (plans recadrés en plein écran, volume −14 LUFS). Les formats courts (moins d'une minute) ne comptent pas pour Creator Rewards : ils servent à gagner des abonnés.
+Les 20 vidéos (01 à 05 et 11 à 25) sont programmées dans Metricool (marque 7923410) sur TikTok et YouTube, aux heures du § 4, en publication automatique : 01 à 15 le 6 novembre, 16 à 25 le 7 novembre (fichiers en haute qualité). Les publications du 6 au soir et du 7 midi sont bien parties sur les deux réseaux. Le 7 novembre, ajout des formats courts : `edit_01` (7 nov. 21 h 30), `ambiance_01` (7 nov. 17 h 00), `reflexion_01` (8 nov. 21 h 30), `ambiance_02` à `09` (8 au 15 nov. à 08 h 00) et `edit_02` à `08` (9 au 15 nov. à 21 h 30), soit 4 publications par jour. Ordre choisi pour ne jamais publier le même sujet deux fois de suite : Vénus et l'étoile à neutrons (déjà traitées le 8 en format long) reviennent en ambiance les 13 et 14 ; l'edit « lunes » passe le 10 pour ne pas tomber le jour de la vidéo sur Titan (12 nov.). Tous les fichiers ont été vérifiés image par image avant envoi (plans recadrés en plein écran, volume −14 LUFS). Le soir même, deux nouveaux formats ont été ajoutés pour varier : « animation 2D » (`anim_01` le 12 à 08 h 00, `anim_02` le 10 à 08 h 00 ; plus d'une minute, éligibles Creator Rewards) et « flash noir et blanc » (`flash_01` le 11 à 21 h 30, `flash_02` le 14 à 21 h 30). Les vidéos qu'ils remplacent (`ambiance_04`, `ambiance_06`, `edit_03`, `edit_04`) sont reprogrammées les 16 et 17 novembre à 08 h 00 et 21 h 30 : on reste à 4 publications par jour. Les formats courts (moins d'une minute) ne comptent pas pour Creator Rewards : ils servent à gagner des abonnés.
 
 Réglages appliqués à chaque publication :
 - **TikTok** : public, commentaires, duos et collages autorisés (favorise la diffusion), aucun contenu commercial déclaré, label « contenu généré par IA » activé (voix de synthèse).

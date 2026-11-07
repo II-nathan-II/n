@@ -331,6 +331,88 @@ dans toute la Voie lactée.
 
 ---
 
+# Anim 01 — Si le Soleil était un ballon de foot
+
+**Niche :** Les secrets de l'Univers  
+**Accroche à l'écran :** ET SI LE SOLEIL ÉTAIT UN BALLON ?  
+**Durée :** 69.6 s  
+**Musique :** composition originale procédurale (lofi, 84 BPM, progression lofi_c)
+
+| Timecode | Narration | Visuel | Montage |
+|---|---|---|---|
+| 00:00.15 | Si le Soleil avait la taille d'un ballon de foot… où serait la Terre ? | FlatBG, Sprite | transition cut, caméra static, sfx pop, sfx pop, musique intensité 0.45 |
+| 00:04.46 | Le Soleil mesure près de 1 400 000 kilomètres de diamètre. | FlatBG, Sprite, Ruler | transition cut, caméra static, sfx ding |
+| 00:09.15 | On le réduit à 22 centimètres : la taille d'un ballon. | FlatBG, Sprite | transition cut, caméra static, sfx pop, sfx ding |
+| 00:12.48 | À cette échelle, la Terre serait… un grain de poivre de 2 millimètres ! | FlatBG, Sprite, Lensed | transition cut, caméra static, sfx pop, sfx ding |
+| 00:16.42 | Et elle tournerait autour du ballon… à 24 mètres de distance. | FlatBG, Sprite, Ring, Mover | transition cut, caméra static, sfx ding |
+| 00:20.57 | Et la Lune ? Un grain de sable… à seulement 6 centimètres de la Terre. | FlatBG, FlatGlobe, Sprite, Dashed | transition cut, caméra static, sfx pop, sfx ding |
+| 00:24.76 | Jupiter, la plus grosse planète ? Une bille… à 120 mètres. | FlatBG, Sprite, Dashed | transition cut, caméra static, sfx pop, sfx ding |
+| 00:28.51 | Neptune, la plus lointaine ? Un petit pois… à 700 mètres ! | FlatBG, Sprite, Dashed | transition cut, caméra static, sfx pop, sfx ding |
+| 00:32.32 | Et la lumière du Soleil ? À cette échelle, elle avancerait à 5 centimètres par seconde… comme une tortue. | FlatBG, Sprite, Dashed | transition cut, caméra static, sfx ding |
+| 00:38.62 | Tout le système solaire tiendrait dans un cercle d'un kilomètre et demi. | FlatBG, Sprite, Ring | transition cut, caméra slow_in, sfx ding |
+| 00:42.62 | Mais alors… où serait l'étoile la plus proche ? | FlatBG, Sprite | transition fade, caméra static, sfx pop, musique intensité 0.6 |
+| 00:45.31 | Proxima du Centaure, une petite étoile rouge… serait une balle de ping-pong. | FlatBG, Sprite | transition cut, caméra static, sfx pop |
+| 00:50.61 | Et elle serait posée à 6 300 kilomètres de notre ballon. | FlatBG, Sprite, Dashed | transition cut, caméra static, sfx ding |
+| 00:54.34 | Même la lumière met plus de quatre ans pour faire ce trajet. | FlatBG, Sprite, Dashed | transition cut, caméra static, sfx ding |
+| 00:57.95 | Si le ballon était à Paris… la balle serait plus loin que New York ! | FlatBG, Ground, Sprite, Dashed | transition cut, caméra static, sfx pop, sfx whoosh |
+| 01:02.24 | Et entre les deux ? Presque rien. Du vide. | FlatBG, Sprite | transition fade, caméra out, musique intensité 0.3 |
+| 01:04.74 | Voilà à quel point l'espace est immense… et vide. Tu t'en doutais ? | FlatBG, FlatGlobe, Sprite | transition cut, caméra slow_in, sfx pop, musique intensité 0.5 |
+
+**Sources / vérification des faits :**
+
+- NASA — diamètre du Soleil : 1 392 700 km ; Terre : 12 742 km ; Jupiter : 139 820 km ; Neptune : 49 244 km
+- Distances moyennes au Soleil : Terre 149,6 millions de km, Jupiter 778,5 millions de km, Neptune 4,5 milliards de km
+- Ballon de football taille 5 : 68 à 70 cm de circonférence, soit environ 22 cm de diamètre (Lois du jeu, IFAB)
+- Échelle 22 cm / 1 392 700 km : Terre ≈ 2 mm à 23,6 m ; Jupiter ≈ 2,2 cm à 123 m ; Neptune ≈ 7,8 mm à 710 m
+- Proxima du Centaure : naine rouge de 0,15 rayon solaire (≈ 3,4 cm à l'échelle), à 4,24 années-lumière (≈ 6 340 km à l'échelle)
+- Distance orthodromique Paris – New York : environ 5 840 km
+
+**Texte prononcé (pour réenregistrement éventuel) :**
+
+> Si le Soleil avait la taille d'un ballon de foot… où serait la Terre? Le Soleil mesure près de un million quatre cent mille kilomètres de diamètre. On le réduit à vingt-deux centimètres: la taille d'un ballon. À cette échelle, la Terre serait… un grain de poivre de deux millimètres! Et elle tournerait autour du ballon… à vingt-quatre mètres de distance. Et la Lune? Un grain de sable… à seulement six centimètres de la Terre. Jupiter, la plus grosse planète? Une bille… à cent vingt mètres. Neptune, la plus lointaine? Un petit pois… à sept cents mètres! Et la lumière du Soleil? À cette échelle, elle avancerait à cinq centimètres par seconde… comme une tortue. Tout le système solaire tiendrait dans un cercle d'un kilomètre et demi. Mais alors… où serait l'étoile la plus proche? Proxima du Centaure, une petite étoile rouge… serait une balle de ping-pong. Et elle serait posée à six mille trois cents kilomètres de notre ballon. Même la lumière met plus de quatre ans pour faire ce trajet. Si le ballon était à Paris… la balle serait plus loin que New York! Et entre les deux? Presque rien. Du vide. Voilà à quel point l'espace est immense… et vide. Tu t'en doutais?
+
+---
+
+# Anim 02 — Et si la Terre s'arrêtait de tourner ?
+
+**Niche :** Les secrets de l'Univers  
+**Accroche à l'écran :** ET SI LA TERRE S'ARRÊTAIT ?  
+**Durée :** 68.9 s  
+**Musique :** composition originale procédurale (lofi, 86 BPM, progression lofi_a)
+
+| Timecode | Narration | Visuel | Montage |
+|---|---|---|---|
+| 00:00.15 | Et si la Terre s'arrêtait de tourner… d'un seul coup ? | FlatBG, FlatGlobe, Sprite | transition cut, caméra static, sfx impact, musique intensité 0.45 |
+| 00:02.87 | À l'équateur, le sol file à 1 670 kilomètres-heure… plus vite que le son ! | FlatBG, FlatGlobe, Dashed, Sprite | transition cut, caméra static, sfx ding |
+| 00:08.28 | Et en France, tu files déjà à plus de 1 100 kilomètres-heure… sans rien sentir. | FlatBG, FlatGlobe, Sprite | transition cut, caméra static, sfx pop, sfx ding |
+| 00:13.16 | Tu ne sens rien, parce que tout tourne avec toi : le sol, l'air, les océans. | FlatBG, FlatGlobe, Sprite, Ring | transition cut, caméra static, sfx pop |
+| 00:17.54 | Mais si la planète freinait brutalement… l'air, lui, continuerait sur sa lancée. | FlatBG, Ground, Sprite, Wind | transition cut, caméra static, sfx whoosh |
+| 00:21.98 | Des vents quatre fois plus forts que la pire rafale jamais mesurée balaieraient tout. | FlatBG, Ground, Wind, Flying, Sprite | transition cut, caméra static, sfx whoosh, sfx impact, musique intensité 0.7 |
+| 00:26.57 | Arbres, maisons, voitures : tout ce qui n'est pas solidement ancré serait emporté. | FlatBG, Ground, Wind, Flying | transition cut, caméra static, sfx whoosh |
+| 00:31.03 | Les océans aussi : des vagues géantes déferleraient sur les côtes. | FlatBG, Ground, Sprite | transition cut, caméra static, sfx whoosh |
+| 00:34.82 | Puis, lentement, l'eau glisserait vers les pôles… | FlatBG, FlatGlobe | transition fade, caméra static, musique intensité 0.5 |
+| 00:37.42 | …et un seul continent géant apparaîtrait autour de l'équateur. | FlatBG, FlatGlobe, Sprite | transition cut, caméra static, sfx ding |
+| 00:41.12 | Une journée durerait un an : six mois de jour… et six mois de nuit. | FlatBG, FlatGlobe, Sprite | transition cut, caméra static, sfx ding |
+| 00:44.78 | Côté jour, une chaleur écrasante. Côté nuit, un froid glacial. | FlatBG, FlatGlobe, Sprite | transition cut, caméra static, sfx pop, sfx pop |
+| 00:48.73 | Heureusement, aucune force connue ne pourrait stopper la Terre aussi brutalement. | FlatBG, FlatGlobe, Sprite | transition cut, caméra static, sfx pop, musique intensité 0.4 |
+| 00:52.96 | La Terre ralentit bien… mais d'environ 2 millisecondes par siècle. | FlatBG, Sprite, Hands | transition cut, caméra static, sfx ding |
+| 00:56.96 | À ce rythme, il faudrait des dizaines de milliards d'années pour qu'elle s'arrête… bien plus que la vie du Soleil. | FlatBG, Sprite | transition cut, caméra static, sfx ding |
+| 01:03.36 | Alors, tu choisirais six mois de jour… ou six mois de nuit ? Dis-le en commentaire ! | FlatBG, Split, Sprite | transition cut, caméra static, sfx pop, sfx pop, musique intensité 0.6 |
+
+**Sources / vérification des faits :**
+
+- Vitesse de rotation à l'équateur : 40 075 km / 23,93 h ≈ 1 670 km/h ; vitesse du son dans l'air ≈ 1 235 km/h
+- Record de rafale mesurée : 408 km/h, île Barrow (Australie), cyclone Olivia, 10 avril 1996 (OMM)
+- Si la rotation s'arrêtait, l'atmosphère et les océans continueraient sur leur lancée (vents et vagues), puis les océans migreraient vers les pôles avec la disparition du renflement équatorial (simulation ESRI, W. Fraczek, 2007)
+- Sans rotation propre, un jour solaire durerait une année : environ six mois de jour et six mois de nuit
+- La durée du jour s'allonge d'environ 1,7 à 2,3 millisecondes par siècle (freinage par les marées ; Stephenson et al., 2016)
+
+**Texte prononcé (pour réenregistrement éventuel) :**
+
+> Et si la Terre s'arrêtait de tourner… d'un seul coup? À l'équateur, le sol file à mille six cent soixante-dix kilomètres-heure… plus vite que le son! Et en France, tu files déjà à plus de mille cent kilomètres-heure… sans rien sentir. Tu ne sens rien, parce que tout tourne avec toi: le sol, l'air, les océans. Mais si la planète freinait brutalement… l'air, lui, continuerait sur sa lancée. Des vents quatre fois plus forts que la pire rafale jamais mesurée balaieraient tout. Arbres, maisons, voitures: tout ce qui n'est pas solidement ancré serait emporté. Les océans aussi: des vagues géantes déferleraient sur les côtes. Puis, lentement, l'eau glisserait vers les pôles… …et un seul continent géant apparaîtrait autour de l'équateur. Une journée durerait un an: six mois de jour… et six mois de nuit. Côté jour, une chaleur écrasante. Côté nuit, un froid glacial. Heureusement, aucune force connue ne pourrait stopper la Terre aussi brutalement. La Terre ralentit bien… mais d'environ deux millisecondes par siècle. À ce rythme, il faudrait des dizaines de milliards d'années pour qu'elle s'arrête… bien plus que la vie du Soleil. Alors, tu choisirais six mois de jour… ou six mois de nuit? Dis-le en commentaire!
+
+---
+
 # Edit 01 — L'Univers en 20 secondes
 
 **Niche :** Les secrets de l'Univers  
@@ -696,6 +778,149 @@ dans toute la Voie lactée.
 
 **Sources / vérification des faits :**
 
+
+**Texte prononcé (pour réenregistrement éventuel) :**
+
+> 
+
+---
+
+# Flash 01 — Pulsars et étoiles à neutrons
+
+**Niche :** Les secrets de l'Univers  
+**Accroche à l'écran :** UN PULSAR PEUT TOURNER 716 FOIS PAR SECONDE  
+**Durée :** 19.9 s  
+**Musique :** composition originale procédurale (phonk, 120 BPM, progression phonk)
+
+| Timecode | Narration | Visuel | Montage |
+|---|---|---|---|
+| 00:00.15 | *(silence 0.5 s — le spectateur observe l'effet)* | Vidéo réelle : « Wind-Accreting Pulsar Visualization » (à 1 s), assombrissement | transition cut, caméra in, musique intensité 0.9 |
+| 00:00.65 | *(silence 0.5 s — le spectateur observe l'effet)* | fond uni | transition cut, caméra static, musique intensité 0.9 |
+| 00:01.15 | *(silence 0.5 s — le spectateur observe l'effet)* | Vidéo réelle : « Migrating Magnetar Hot Spot Animations » (à 4 s), assombrissement | transition cut, caméra in, musique intensité 0.9 |
+| 00:01.65 | *(silence 0.5 s — le spectateur observe l'effet)* | fond uni | transition cut, caméra static, musique intensité 0.9 |
+| 00:02.15 | *(silence 0.5 s — le spectateur observe l'effet)* | Vidéo réelle : « Supernova explosion animation, with & without pulsar » (à 11 s), assombrissement | transition cut, caméra in, musique intensité 0.9 |
+| 00:02.65 | *(silence 0.5 s — le spectateur observe l'effet)* | fond uni | transition cut, caméra static, musique intensité 0.9 |
+| 00:03.15 | *(silence 0.5 s — le spectateur observe l'effet)* | Vidéo réelle : « Wind-Accreting Pulsar Visualization » (à 9 s), assombrissement | transition cut, caméra in, musique intensité 0.9 |
+| 00:03.65 | *(silence 0.25 s — le spectateur observe l'effet)* | fond uni | transition cut, caméra static, musique intensité 0.9 |
+| 00:03.90 | *(silence 0.25 s — le spectateur observe l'effet)* | fond uni | transition cut, caméra static, musique intensité 0.9 |
+| 00:04.15 | *(silence 1.0 s — le spectateur observe l'effet)* | Vidéo réelle : « Doomed Neutron Stars Create Blast of Light and Gravitational » (à 13 s), assombrissement | transition cut, caméra in, musique intensité 0.9 |
+| 00:05.15 | *(silence 0.25 s — le spectateur observe l'effet)* | fond uni | transition cut, caméra static, musique intensité 0.9 |
+| 00:05.40 | *(silence 0.5 s — le spectateur observe l'effet)* | Vidéo réelle : « Doomed Neutron Stars Create Blast of Light and Gravitational » (à 18 s), assombrissement | transition cut, caméra in, musique intensité 0.9 |
+| 00:05.90 | *(silence 0.25 s — le spectateur observe l'effet)* | fond uni | transition cut, caméra static, musique intensité 0.9 |
+| 00:06.15 | *(silence 0.5 s — le spectateur observe l'effet)* | Vidéo réelle : « Supernova explosion animation, with & without pulsar » (à 15 s), assombrissement | transition cut, caméra in, musique intensité 0.9 |
+| 00:06.65 | *(silence 0.25 s — le spectateur observe l'effet)* | fond uni | transition cut, caméra static, musique intensité 0.9 |
+| 00:06.90 | *(silence 0.25 s — le spectateur observe l'effet)* | Vidéo réelle : « Migrating Magnetar Hot Spot Animations » (à 6 s), assombrissement | transition cut, caméra in, musique intensité 0.9 |
+| 00:07.15 | *(silence 0.25 s — le spectateur observe l'effet)* | fond uni | transition cut, caméra static, musique intensité 0.9 |
+| 00:07.40 | *(silence 0.5 s — le spectateur observe l'effet)* | Vidéo réelle : « Wind-Accreting Pulsar Visualization » (à 14 s), assombrissement | transition cut, caméra in, musique intensité 0.9 |
+| 00:07.90 | *(silence 0.25 s — le spectateur observe l'effet)* | fond uni | transition cut, caméra static, musique intensité 0.9 |
+| 00:08.15 | *(silence 1.0 s — le spectateur observe l'effet)* | Vidéo réelle : « Supernova explosion animation, with & without pulsar » (à 22 s), assombrissement | transition cut, caméra in, musique intensité 0.9 |
+| 00:09.15 | *(silence 0.25 s — le spectateur observe l'effet)* | fond uni | transition cut, caméra static, musique intensité 0.9 |
+| 00:09.40 | *(silence 0.5 s — le spectateur observe l'effet)* | Vidéo réelle : « Doomed Neutron Stars Create Blast of Light and Gravitational » (à 9 s), assombrissement | transition cut, caméra in, musique intensité 0.9 |
+| 00:09.90 | *(silence 0.25 s — le spectateur observe l'effet)* | fond uni | transition cut, caméra static, musique intensité 0.9 |
+| 00:10.15 | *(silence 0.5 s — le spectateur observe l'effet)* | StarField, assombrissement | transition cut, caméra in, musique intensité 0.9 |
+| 00:10.65 | *(silence 0.25 s — le spectateur observe l'effet)* | fond uni | transition cut, caméra static, musique intensité 0.9 |
+| 00:10.90 | *(silence 0.25 s — le spectateur observe l'effet)* | fond uni | transition cut, caméra static, musique intensité 0.9 |
+| 00:11.15 | *(silence 0.5 s — le spectateur observe l'effet)* | Vidéo réelle : « Migrating Magnetar Hot Spot Animations » (à 18 s), assombrissement | transition cut, caméra in, musique intensité 0.9 |
+| 00:11.65 | *(silence 0.25 s — le spectateur observe l'effet)* | fond uni | transition cut, caméra static, musique intensité 0.9 |
+| 00:11.90 | *(silence 0.25 s — le spectateur observe l'effet)* | Vidéo réelle : « Wind-Accreting Pulsar Visualization » (à 4 s), assombrissement | transition cut, caméra in, musique intensité 0.9 |
+| 00:12.15 | *(silence 0.25 s — le spectateur observe l'effet)* | fond uni | transition cut, caméra static, musique intensité 0.9 |
+| 00:12.40 | *(silence 0.5 s — le spectateur observe l'effet)* | Vidéo réelle : « Supernova explosion animation, with & without pulsar » (à 30 s), assombrissement | transition cut, caméra in, musique intensité 0.9 |
+| 00:12.90 | *(silence 0.25 s — le spectateur observe l'effet)* | fond uni | transition cut, caméra static, musique intensité 0.9 |
+| 00:13.15 | *(silence 0.5 s — le spectateur observe l'effet)* | Vidéo réelle : « Doomed Neutron Stars Create Blast of Light and Gravitational » (à 22 s), assombrissement | transition cut, caméra in, musique intensité 0.9 |
+| 00:13.65 | *(silence 0.25 s — le spectateur observe l'effet)* | fond uni | transition cut, caméra static, musique intensité 0.9 |
+| 00:13.90 | *(silence 0.5 s — le spectateur observe l'effet)* | Vidéo réelle : « Migrating Magnetar Hot Spot Animations » (à 16 s), assombrissement | transition cut, caméra in, musique intensité 0.9 |
+| 00:14.40 | *(silence 0.25 s — le spectateur observe l'effet)* | fond uni | transition cut, caméra static, musique intensité 0.9 |
+| 00:14.65 | *(silence 0.5 s — le spectateur observe l'effet)* | Vidéo réelle : « Supernova explosion animation, with & without pulsar » (à 34 s), assombrissement | transition cut, caméra in, musique intensité 0.9 |
+| 00:15.15 | *(silence 0.25 s — le spectateur observe l'effet)* | fond uni | transition cut, caméra static, musique intensité 0.9 |
+| 00:15.40 | *(silence 0.25 s — le spectateur observe l'effet)* | Vidéo réelle : « Doomed Neutron Stars Create Blast of Light and Gravitational » (à 16 s), assombrissement | transition cut, caméra in, musique intensité 0.9 |
+| 00:15.65 | *(silence 0.25 s — le spectateur observe l'effet)* | fond uni | transition cut, caméra static, musique intensité 0.9 |
+| 00:15.90 | *(silence 0.5 s — le spectateur observe l'effet)* | StarField, assombrissement | transition cut, caméra in, musique intensité 0.9 |
+| 00:16.40 | *(silence 0.25 s — le spectateur observe l'effet)* | fond uni | transition cut, caméra static, musique intensité 0.9 |
+| 00:16.65 | *(silence 1.5 s — le spectateur observe l'effet)* | Vidéo réelle : « Wind-Accreting Pulsar Visualization » (à 18 s), assombrissement | transition cut, caméra slow_in, musique intensité 0.9 |
+| 00:18.15 | *(silence 0.5 s — le spectateur observe l'effet)* | fond uni | transition cut, caméra static, musique intensité 0.9 |
+
+**Crédits images (séquences réelles utilisées) :**
+
+- Wind-Accreting Pulsar Visualization — NASA's Goddard Space Flight Center Scientific Visualization Studio — NASA Scientific Visualization Studio — Domaine public (NASA — image uniquement, bande-son non utilisée) — https://svs.gsfc.nasa.gov/20417/
+- Migrating Magnetar Hot Spot Animations — NASA's Goddard Space Flight Center Conceptual Image Lab || 02_MAGNETAR_Wide_view_BlipOnly_Still.png (1920x1080) [2.3 MB] || 02_MAGNETAR_Wide_view_BlipOnly_Still_print.jpg (1024x576) [44.5 KB] || 02_MA — NASA Scientific Visualization Studio — Domaine public (NASA — image uniquement, bande-son non utilisée) — https://svs.gsfc.nasa.gov/20359/
+- Supernova explosion animation, with & without pulsar — NASA's Goddard Space Flight Center Conceptual Image Lab || SN_HQ_Full_H264_V001.00750_print.jpg (1024x576) [120.0 KB] || SN_HQ_Full_H264_V001.00750_searchweb.png (320x180) [77.3 KB] || SN_HQ_Full_H264 — NASA Scientific Visualization Studio — Domaine public (NASA — image uniquement, bande-son non utilisée) — https://svs.gsfc.nasa.gov/20413/
+- Doomed Neutron Stars Create Blast of Light and Gravitational Waves — NASA's Goddard Space Flight Center/CI Lab — NASA Scientific Visualization Studio — Domaine public (NASA — image uniquement, bande-son non utilisée) — https://svs.gsfc.nasa.gov/12740/
+- Migrating Magnetar Hot Spot Animations — NASA's Goddard Space Flight Center Conceptual Image Lab || 02_MAGNETAR_Wide_view_BlipOnly_Still.png (1920x1080) [2.3 MB] || 02_MAGNETAR_Wide_view_BlipOnly_Still_print.jpg (1024x576) [44.5 KB] || 02_MA — NASA Scientific Visualization Studio — Domaine public (NASA — image uniquement, bande-son non utilisée) — https://svs.gsfc.nasa.gov/20359/
+
+**Sources / vérification des faits :**
+
+- NASA Goddard / SVS : visualisations « pulsar et vent de son compagnon » (XRISM, 20417), magnétar (20359), supernova (20413), fusion d'étoiles à neutrons (12740)
+- Pulsar le plus rapide connu : PSR J1748-2446ad, 716 rotations par seconde (Hessels et al., Science, 2006)
+
+**Texte prononcé (pour réenregistrement éventuel) :**
+
+> 
+
+---
+
+# Flash 02 — Trous noirs
+
+**Niche :** Les secrets de l'Univers  
+**Accroche à l'écran :** MÊME LA LUMIÈRE NE S'EN ÉCHAPPE PAS  
+**Durée :** 19.1 s  
+**Musique :** composition originale procédurale (phonk, 120 BPM, progression phonk)
+
+| Timecode | Narration | Visuel | Montage |
+|---|---|---|---|
+| 00:00.15 | *(silence 0.5 s — le spectateur observe l'effet)* | Vidéo réelle : « Black Hole Accretion Disk Visualization » (à 2 s), assombrissement | transition cut, caméra in, musique intensité 0.9 |
+| 00:00.65 | *(silence 0.5 s — le spectateur observe l'effet)* | fond uni | transition cut, caméra static, musique intensité 0.9 |
+| 00:01.15 | *(silence 0.5 s — le spectateur observe l'effet)* | Vidéo réelle : « Isolated Black Hole Visualization » (à 1 s), assombrissement | transition cut, caméra in, musique intensité 0.9 |
+| 00:01.65 | *(silence 0.5 s — le spectateur observe l'effet)* | fond uni | transition cut, caméra static, musique intensité 0.9 |
+| 00:02.15 | *(silence 0.5 s — le spectateur observe l'effet)* | Vidéo réelle : « Isolated Black Hole Visualization » (à 2 s), assombrissement | transition cut, caméra in, musique intensité 0.9 |
+| 00:02.65 | *(silence 0.5 s — le spectateur observe l'effet)* | fond uni | transition cut, caméra static, musique intensité 0.9 |
+| 00:03.15 | *(silence 0.5 s — le spectateur observe l'effet)* | Vidéo réelle : « Massive Black Hole Shreds Passing Star » (à 26 s), assombrissement | transition cut, caméra in, musique intensité 0.9 |
+| 00:03.65 | *(silence 0.25 s — le spectateur observe l'effet)* | fond uni | transition cut, caméra static, musique intensité 0.9 |
+| 00:03.90 | *(silence 0.25 s — le spectateur observe l'effet)* | fond uni | transition cut, caméra static, musique intensité 0.9 |
+| 00:04.15 | *(silence 1.0 s — le spectateur observe l'effet)* | Vidéo réelle : « Black Hole Accretion Disk Visualization » (à 16 s), assombrissement | transition cut, caméra in, musique intensité 0.9 |
+| 00:05.15 | *(silence 0.25 s — le spectateur observe l'effet)* | fond uni | transition cut, caméra static, musique intensité 0.9 |
+| 00:05.40 | *(silence 0.5 s — le spectateur observe l'effet)* | Vidéo réelle : « Massive Black Hole Shreds Passing Star » (à 30 s), assombrissement | transition cut, caméra in, musique intensité 0.9 |
+| 00:05.90 | *(silence 0.25 s — le spectateur observe l'effet)* | fond uni | transition cut, caméra static, musique intensité 0.9 |
+| 00:06.15 | *(silence 0.5 s — le spectateur observe l'effet)* | Vidéo réelle : « Isolated Black Hole Visualization » (à 6 s), assombrissement | transition cut, caméra in, musique intensité 0.9 |
+| 00:06.65 | *(silence 0.25 s — le spectateur observe l'effet)* | fond uni | transition cut, caméra static, musique intensité 0.9 |
+| 00:06.90 | *(silence 0.25 s — le spectateur observe l'effet)* | Vidéo réelle : « Black Hole Accretion Disk Visualization » (à 8 s), assombrissement | transition cut, caméra in, musique intensité 0.9 |
+| 00:07.15 | *(silence 0.25 s — le spectateur observe l'effet)* | fond uni | transition cut, caméra static, musique intensité 0.9 |
+| 00:07.40 | *(silence 0.5 s — le spectateur observe l'effet)* | Vidéo réelle : « Massive Black Hole Shreds Passing Star » (à 13 s), assombrissement | transition cut, caméra in, musique intensité 0.9 |
+| 00:07.90 | *(silence 0.25 s — le spectateur observe l'effet)* | fond uni | transition cut, caméra static, musique intensité 0.9 |
+| 00:08.15 | *(silence 1.0 s — le spectateur observe l'effet)* | Vidéo réelle : « Isolated Black Hole Visualization » (à 8 s), assombrissement | transition cut, caméra in, musique intensité 0.9 |
+| 00:09.15 | *(silence 0.25 s — le spectateur observe l'effet)* | fond uni | transition cut, caméra static, musique intensité 0.9 |
+| 00:09.40 | *(silence 0.5 s — le spectateur observe l'effet)* | StarField, assombrissement | transition cut, caméra in, musique intensité 0.9 |
+| 00:09.90 | *(silence 0.25 s — le spectateur observe l'effet)* | fond uni | transition cut, caméra static, musique intensité 0.9 |
+| 00:10.15 | *(silence 0.25 s — le spectateur observe l'effet)* | fond uni | transition cut, caméra static, musique intensité 0.9 |
+| 00:10.40 | *(silence 0.5 s — le spectateur observe l'effet)* | Vidéo réelle : « Black Hole Accretion Disk Visualization » (à 24 s), assombrissement | transition cut, caméra in, musique intensité 0.9 |
+| 00:10.90 | *(silence 0.25 s — le spectateur observe l'effet)* | fond uni | transition cut, caméra static, musique intensité 0.9 |
+| 00:11.15 | *(silence 0.25 s — le spectateur observe l'effet)* | Vidéo réelle : « Isolated Black Hole Visualization » (à 11 s), assombrissement | transition cut, caméra in, musique intensité 0.9 |
+| 00:11.40 | *(silence 0.25 s — le spectateur observe l'effet)* | fond uni | transition cut, caméra static, musique intensité 0.9 |
+| 00:11.65 | *(silence 0.5 s — le spectateur observe l'effet)* | Vidéo réelle : « Massive Black Hole Shreds Passing Star » (à 33 s), assombrissement | transition cut, caméra in, musique intensité 0.9 |
+| 00:12.15 | *(silence 0.25 s — le spectateur observe l'effet)* | fond uni | transition cut, caméra static, musique intensité 0.9 |
+| 00:12.40 | *(silence 0.5 s — le spectateur observe l'effet)* | Vidéo réelle : « Black Hole Accretion Disk Visualization » (à 30 s), assombrissement | transition cut, caméra in, musique intensité 0.9 |
+| 00:12.90 | *(silence 0.25 s — le spectateur observe l'effet)* | fond uni | transition cut, caméra static, musique intensité 0.9 |
+| 00:13.15 | *(silence 0.5 s — le spectateur observe l'effet)* | Vidéo réelle : « Isolated Black Hole Visualization » (à 12 s), assombrissement | transition cut, caméra in, musique intensité 0.9 |
+| 00:13.65 | *(silence 0.25 s — le spectateur observe l'effet)* | fond uni | transition cut, caméra static, musique intensité 0.9 |
+| 00:13.90 | *(silence 0.5 s — le spectateur observe l'effet)* | Vidéo réelle : « Massive Black Hole Shreds Passing Star » (à 20 s), assombrissement | transition cut, caméra in, musique intensité 0.9 |
+| 00:14.40 | *(silence 0.25 s — le spectateur observe l'effet)* | fond uni | transition cut, caméra static, musique intensité 0.9 |
+| 00:14.65 | *(silence 0.25 s — le spectateur observe l'effet)* | Vidéo réelle : « Isolated Black Hole Visualization » (à 13 s), assombrissement | transition cut, caméra in, musique intensité 0.9 |
+| 00:14.90 | *(silence 0.25 s — le spectateur observe l'effet)* | fond uni | transition cut, caméra static, musique intensité 0.9 |
+| 00:15.15 | *(silence 0.5 s — le spectateur observe l'effet)* | StarField, assombrissement | transition cut, caméra in, musique intensité 0.9 |
+| 00:15.65 | *(silence 0.25 s — le spectateur observe l'effet)* | fond uni | transition cut, caméra static, musique intensité 0.9 |
+| 00:15.90 | *(silence 1.5 s — le spectateur observe l'effet)* | Vidéo réelle : « Black Hole Accretion Disk Visualization » (à 33 s), assombrissement | transition cut, caméra slow_in, musique intensité 0.9 |
+| 00:17.40 | *(silence 0.5 s — le spectateur observe l'effet)* | fond uni | transition cut, caméra static, musique intensité 0.9 |
+
+**Crédits images (séquences réelles utilisées) :**
+
+- Black Hole Accretion Disk Visualization — NASA’s Goddard Space Flight Center/Jeremy Schnittman || BH_Accretion_Disk_Sim_360_4k_Prores.00001_print.jpg (1024x1024) [33.2 KB] || BH_Accretion_Disk_Sim_360_4k_Prores.00001_searchweb.png (320x180) [ — NASA Scientific Visualization Studio — Domaine public (NASA — image uniquement, bande-son non utilisée) — https://svs.gsfc.nasa.gov/13326/
+- Isolated Black Hole Visualization — NASA's Goddard Space Flight Center Scientific Visualization Studio — NASA Scientific Visualization Studio — Domaine public (NASA — image uniquement, bande-son non utilisée) — https://svs.gsfc.nasa.gov/14620/
+- Isolated Black Hole Visualization — NASA's Goddard Space Flight Center Scientific Visualization Studio — NASA Scientific Visualization Studio — Domaine public (NASA — image uniquement, bande-son non utilisée) — https://svs.gsfc.nasa.gov/14620/
+- Massive Black Hole Shreds Passing Star — NASA's Goddard Space Flight Center/CI Lab — NASA Scientific Visualization Studio — Domaine public (NASA — image uniquement, bande-son non utilisée) — https://svs.gsfc.nasa.gov/12005/
+
+**Sources / vérification des faits :**
+
+- NASA Goddard / SVS : simulation du disque d'accrétion (13326), trou noir « nu » en orbite et en approche (14620), étoile déchirée par un trou noir (12005)
+- Horizon des événements : rien, pas même la lumière, ne peut s'en échapper (NASA Science, Black Holes)
 
 **Texte prononcé (pour réenregistrement éventuel) :**
 

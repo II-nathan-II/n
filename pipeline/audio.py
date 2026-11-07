@@ -203,6 +203,8 @@ def intensity_curve(markers, n):
 
 def compose(cfg, duration, markers):
     """cfg : style, key (midi tonique), bpm, prog, seed. Retourne stéréo float32."""
+    if cfg['style'] == 'phonk':
+        return compose_phonk(cfg, duration, markers)
     rng = np.random.default_rng(cfg.get('seed', 1))
     style = cfg['style']
     bpm = cfg['bpm']; beat = 60.0 / bpm; bar = beat * 4
@@ -302,6 +304,96 @@ def compose(cfg, duration, markers):
     mix[-fo:] *= np.linspace(1, 0, fo)[:, None] ** 1.5
     fi = int(0.8 * SR)
     mix[:fi] *= np.linspace(0, 1, fi)[:, None]
+    return mix.astype(np.float32)
+
+
+# ----------------------------------------------------------------------------- phonk (format « flash noir et blanc »)
+def cowbell(freq, dur=0.22, vel=1.0):
+    """Cloche phonk : deux carrés désaccordés (rapport ≈ 1,48) passés en passe-bande, attaque sèche."""
+    n = int(dur * SR); t = np.arange(n) / SR
+    s = np.sign(np.sin(2 * np.pi * freq * t)) + 0.8 * np.sign(np.sin(2 * np.pi * freq * 1.48 * t))
+    s = sosfilt(butter(2, [freq * 0.9, min(freq * 6, 9000)], 'bandpass', fs=SR, output='sos'), s)
+    e = np.exp(-t * 16) * (1 - np.exp(-t * 900))
+    return (s * e * vel * 0.22).astype(np.float32)
+
+def boom808(freq, dur=0.9, vel=1.0, glide=0.0):
+    """808 grave saturée avec léger glissando."""
+    n = int(dur * SR); t = np.arange(n) / SR
+    f = freq * (1 + 1.6 * np.exp(-t * 40)) * (1 + glide * np.clip(t / dur, 0, 1))
+    ph = 2 * np.pi * np.cumsum(f) / SR
+    s = np.sin(ph) * np.exp(-t * 2.2)
+    s = np.tanh(s * 3.2) * 0.9
+    s[:int(0.004 * SR)] *= np.linspace(0, 1, int(0.004 * SR))
+    return (s * vel * 0.6).astype(np.float32)
+
+def clap(vel=1.0, seed=0):
+    rng = np.random.default_rng(seed)
+    n = int(0.3 * SR); t = np.arange(n) / SR
+    s = sosfilt(butter(2, [1000, 6000], 'bandpass', fs=SR, output='sos'), rng.normal(0, 1, n))
+    e = np.exp(-t * 18)
+    for d in (0.0, 0.011, 0.022):  # triple attaque façon « clap »
+        k = int(d * SR); e[k:k + 60] += 0.8
+    return (s * e * vel * 0.45).astype(np.float32)
+
+def compose_phonk(cfg, duration, markers):
+    """Phonk original (cloche + 808 + charleston en doubles croches) ; intro filtrée puis « drop »."""
+    rng = np.random.default_rng(cfg.get('seed', 7))
+    bpm = cfg.get('bpm', 120); beat = 60.0 / bpm; s16 = beat / 4
+    root = cfg.get('key', 41)
+    n = int(duration * SR) + SR
+    L = {k: np.zeros((n, 2), np.float32) for k in ('bell', 'bass', 'drums', 'fx')}
+    scale = [0, 3, 5, 7, 10, 12, 15]
+    riffs = cfg.get('riffs') or [
+        [0, None, 3, None, 4, None, 3, 2, None, 0, None, 2, 3, None, 2, None],
+        [0, None, 3, None, 4, None, 5, 4, None, 3, None, 2, 1, None, 0, None]]
+    bass_pat = cfg.get('bass_pat') or [(0, 0, 3), (6, 0, 2), (10, -2, 2), (12, 3, 3)]   # (pas, demi-tons, longueur en pas×2)
+    drop = cfg.get('drop', 2)   # mesures d'intro
+    nbars = int(duration / (beat * 4)) + 2
+    for b in range(nbars):
+        t0 = b * beat * 4
+        riff = riffs[(b // 2) % len(riffs)]
+        for st, deg in enumerate(riff):
+            if deg is None:
+                continue
+            f = midi_hz(root + 24 + scale[deg % len(scale)])
+            add_at(L['bell'], cowbell(f, 0.2, 0.85 + 0.15 * rng.random()), t0 + st * s16, pan=0.15 * np.sin(st))
+        if b < drop:
+            continue
+        for (st, semi, ln) in bass_pat:
+            add_at(L['bass'], boom808(midi_hz(root - 12 + semi), ln * s16 * 2, 1.0, glide=-0.04 if semi < 0 else 0.0), t0 + st * s16)
+        for k in range(4):
+            tb = t0 + k * beat
+            if k in (1, 3):
+                add_at(L['drums'], clap(0.9, b * 4 + k), tb)
+            if k == 0 or (k == 2 and b % 2 == 1):
+                add_at(L['drums'], kick(1.0), tb)
+            for h in range(4):
+                roll = (b % 4 == 3 and k == 3)
+                if roll:
+                    for r in range(3):
+                        add_at(L['drums'], hat(0.5, seed=b * 99 + h * 3 + r), tb + h * s16 + r * s16 / 3, pan=0.3)
+                else:
+                    add_at(L['drums'], hat(0.75 if h % 2 == 0 else 0.45, seed=b * 99 + k * 7 + h), tb + h * s16, pan=0.3)
+    # montée de bruit avant le drop
+    td = drop * beat * 4
+    if td > 1:
+        k = int(1.6 * SR); a = int(max(0, td - 1.6) * SR)
+        nz = hp(rng.normal(0, 1, k), 2000) * np.linspace(0, 1, k) ** 2 * 0.08
+        L['fx'][a:a + k] += np.stack([nz, nz], 1)[:len(L['fx'][a:a + k])]
+    # intro filtrée (passe-bas) puis drop
+    bell = L['bell']
+    cut = int(td * SR)
+    if cut > 0:
+        bell[:cut] = lp(bell[:cut], 1400)
+    # pompage (sidechain) sur la cloche, au temps
+    tt = np.arange(n) / SR
+    pump = 1 - 0.45 * np.exp(-((tt % beat) / 0.09)) * (tt > td)
+    mix = bell * pump[:, None] * 0.9 + L['bass'] * 0.95 + L['drums'] * 0.85 + L['fx']
+    mix = np.tanh(mix * 1.6) / 1.3
+    gain_mute, _ = intensity_curve(markers, n)
+    mix = mix * gain_mute[:, None]
+    mix = mix[:int(duration * SR)]
+    fo = int(0.6 * SR); mix[-fo:] *= np.linspace(1, 0, fo)[:, None]
     return mix.astype(np.float32)
 
 

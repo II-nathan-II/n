@@ -2,6 +2,46 @@
 
 Généré automatiquement par `pipeline/qc.py` sur les fichiers finaux.
 
+## anim_01 — ✅ conforme
+
+- ✅ fichier présent
+- ✅ durée 65–115 s
+- ✅ 1080×1920 (9:16)
+- ✅ H.264 / yuv420p
+- ✅ AAC 48 kHz stéréo
+- ✅ décodage sans erreur
+- ✅ loudness −15 à −13 LUFS
+- ✅ true peak ≤ −0,5 dBTP
+- ✅ sous-titres sur la voix (≥ 95 %)
+- ✅ narration reconnue (Whisper ≥ 85 %)
+- ✅ pas d'écran noir / image figée
+
+Mesures : durée 69.6 s · -14.1 LUFS · true peak -1.3 dBTP · niveau parole -17.0 dBFS vs pauses -32.9 dBFS · 197 mots sous-titrés, 100.0 % tombent sur de la voix, 0 hors segment · reconnaissance Whisper : 92.9 % des mots du script (nombres exclus : Whisper les écrit en chiffres) · luminosité min 36.9 · variation moyenne entre images 23.7
+
+Extrait de transcription automatique : « Si le soleil avait la taille d'un ballon d'une foot fleu où serait la Terre, le soleil mesure près d'un million quatre cent mille kilomètres de diamètre. On le réduit à 22 cm, la taille d'un ballon. A cette échelle, la T… »
+
+![planche](anim_01_planche.jpg)
+
+## anim_02 — ✅ conforme
+
+- ✅ fichier présent
+- ✅ durée 65–115 s
+- ✅ 1080×1920 (9:16)
+- ✅ H.264 / yuv420p
+- ✅ AAC 48 kHz stéréo
+- ✅ décodage sans erreur
+- ✅ loudness −15 à −13 LUFS
+- ✅ true peak ≤ −0,5 dBTP
+- ✅ sous-titres sur la voix (≥ 95 %)
+- ✅ narration reconnue (Whisper ≥ 85 %)
+- ✅ pas d'écran noir / image figée
+
+Mesures : durée 69.0 s · -14.1 LUFS · true peak -0.6 dBTP · niveau parole -16.9 dBFS vs pauses -32.4 dBFS · 196 mots sous-titrés, 100.0 % tombent sur de la voix, 0 hors segment · reconnaissance Whisper : 88.3 % des mots du script (nombres exclus : Whisper les écrit en chiffres) · luminosité min 43.3 · variation moyenne entre images 28.8
+
+Extrait de transcription automatique : « Et si la Terre s'arrêtait de tourner d'un seul coup ? À l'équateur, le sol file à 1670 km/h plus vite que le son. Et en France, tu files déjà à plus de 1100 km/h sans rien sentir. Tu ne sens rien parce que tout tourne av… »
+
+![planche](anim_02_planche.jpg)
+
 ## reflexion_01 — ⚠️ à vérifier
 
 > Vérification manuelle : Vidéo test du style « réflexion » : fonds noirs et fondus au noir voulus (une image mesurée à 2,8 de luminosité moyenne pour un seuil de 3). Durée 64,3 s : sous notre fourchette habituelle de 65 s, mais au-dessus de la minute exigée par Creator Rewards.

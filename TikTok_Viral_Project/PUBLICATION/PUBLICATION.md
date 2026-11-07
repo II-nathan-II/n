@@ -110,6 +110,28 @@ Heures en **heure de Paris**, à tester sur 2 à 3 semaines puis à ajuster avec
 **7. Potentiel viral :** Format « phrase + ambiance » : court, regardé en boucle et partagé ; sert la croissance (moins d'une minute).  
 **Crédits à mentionner (fin de description) :** Images : JSC ; NASA's Goddard Space Flight Center Scientific Visualization Studio ; NASA/JPL-Caltech
 
+## anim_01 — Les secrets de l'Univers
+
+**Fichier :** `NICHE_1/anim_01.mp4`  
+**1. Titre :** Si le Soleil était un ballon de foot ⚽☀️  
+**2. Description :** Si le Soleil faisait 22 cm, la Terre serait un grain de poivre à 24 m… et l'étoile la plus proche serait plus loin que New York. Tu t'en doutais ? 👇 (Animation originale.)  
+**3. Hashtags :** #espace #soleil #systemesolaire #astronomie #science  
+**4. Phrase d'accroche :** « ET SI LE SOLEIL ÉTAIT UN BALLON ? »  
+**5. Couverture :** Soleil et ballon de foot en dessin animé. — image prête : `PUBLICATION/couvertures/anim_01_couverture.jpg`  
+**6. Créneau à tester :** 08 h 00 (12 nov.)  
+**7. Potentiel viral :** Format « animation 2D » : explication illustrée de plus d'une minute, éligible Creator Rewards ; très partageable (comparaisons du quotidien).  
+
+## anim_02 — Les secrets de l'Univers
+
+**Fichier :** `NICHE_1/anim_02.mp4`  
+**1. Titre :** Et si la Terre s'arrêtait de tourner ? 🌍  
+**2. Description :** Vents à 1 670 km/h, vagues géantes, un seul continent… et six mois de nuit. Tu choisis le jour ou la nuit ? 👇 (Animation originale.)  
+**3. Hashtags :** #terre #espace #science #etsi #planete  
+**4. Phrase d'accroche :** « ET SI LA TERRE S'ARRÊTAIT ? »  
+**5. Couverture :** La Terre en dessin animé avec un panneau STOP. — image prête : `PUBLICATION/couvertures/anim_02_couverture.jpg`  
+**6. Créneau à tester :** 08 h 00 (10 nov.)  
+**7. Potentiel viral :** Format « animation 2D » : explication illustrée de plus d'une minute, éligible Creator Rewards ; très partageable (comparaisons du quotidien).  
+
 ## edit_01 — Les secrets de l'Univers
 
 **Fichier :** `NICHE_1/edit_01.mp4`  
@@ -205,6 +227,30 @@ Heures en **heure de Paris**, à tester sur 2 à 3 semaines puis à ajuster avec
 **6. Créneau à tester :** 21 h 30 (bonus)  
 **7. Potentiel viral :** Format « edit » court, coupé sur le rythme : sert la croissance (abonnés), pas Creator Rewards (moins d'une minute).  
 **Crédits à mentionner (fin de description) :** Images : GSFC ; NASA ESA CSA STScI ; NASA's Goddard Space Flight Center Conceptual Image Lab || SN_HQ_Full_H264_V001.00750_print.jpg (1024x576) [120.0 KB] || SN_HQ_Full_H264_V001.00750_searchweb.png (320x180) [77.3 KB] || SN_HQ_Full_H264 ; NASA's Goddard Space Flight Center/CI Lab ; NASA/ESA/JPL/Arizona State Univ. ; NASA/JPL-Caltech/STScI ; NASA’s Goddard Space Flight Center/Jeremy Schnittman || BH_Accretion_Disk_Sim_360_4k_Prores.00001_print.jpg (1024x1024) [33.2 KB] || BH_Accretion_Disk_Sim_360_4k_Prores.00001_searchweb.png (320x180) [
+
+## flash_01 — Les secrets de l'Univers
+
+**Fichier :** `NICHE_1/flash_01.mp4`  
+**1. Titre :** Il tourne 716 fois par seconde 🌀  
+**2. Description :** Un pulsar : une étoile morte de 20 km qui tourne jusqu'à 716 fois par seconde. 👇 (Visualisations scientifiques NASA Goddard. Musique originale.)  
+**3. Hashtags :** #pulsar #espace #univers #nasa #phonk  
+**4. Phrase d'accroche :** « UN PULSAR PEUT TOURNER 716 FOIS PAR SECONDE »  
+**5. Couverture :** Pulsar en noir et blanc. — image prête : `PUBLICATION/couvertures/flash_01_couverture.jpg`  
+**6. Créneau à tester :** 21 h 30  
+**7. Potentiel viral :** Format « flash noir et blanc » court et hypnotique, regardé en boucle : sert la croissance (moins d'une minute).  
+**Crédits à mentionner (fin de description) :** Images : NASA's Goddard Space Flight Center Conceptual Image Lab || 02_MAGNETAR_Wide_view_BlipOnly_Still.png (1920x1080) [2.3 MB] || 02_MAGNETAR_Wide_view_BlipOnly_Still_print.jpg (1024x576) [44.5 KB] || 02_MA ; NASA's Goddard Space Flight Center Conceptual Image Lab || SN_HQ_Full_H264_V001.00750_print.jpg (1024x576) [120.0 KB] || SN_HQ_Full_H264_V001.00750_searchweb.png (320x180) [77.3 KB] || SN_HQ_Full_H264 ; NASA's Goddard Space Flight Center Scientific Visualization Studio ; NASA's Goddard Space Flight Center/CI Lab
+
+## flash_02 — Les secrets de l'Univers
+
+**Fichier :** `NICHE_1/flash_02.mp4`  
+**1. Titre :** Même la lumière ne s'en échappe pas 🕳️  
+**2. Description :** Trous noirs : là où même la lumière reste prisonnière. 👇 (Visualisations scientifiques NASA Goddard. Musique originale.)  
+**3. Hashtags :** #trounoir #espace #univers #nasa #phonk  
+**4. Phrase d'accroche :** « MÊME LA LUMIÈRE NE S'EN ÉCHAPPE PAS »  
+**5. Couverture :** Disque d'un trou noir en noir et blanc. — image prête : `PUBLICATION/couvertures/flash_02_couverture.jpg`  
+**6. Créneau à tester :** 21 h 30  
+**7. Potentiel viral :** Format « flash noir et blanc » court et hypnotique, regardé en boucle : sert la croissance (moins d'une minute).  
+**Crédits à mentionner (fin de description) :** Images : NASA's Goddard Space Flight Center Scientific Visualization Studio ; NASA's Goddard Space Flight Center/CI Lab ; NASA’s Goddard Space Flight Center/Jeremy Schnittman || BH_Accretion_Disk_Sim_360_4k_Prores.00001_print.jpg (1024x1024) [33.2 KB] || BH_Accretion_Disk_Sim_360_4k_Prores.00001_searchweb.png (320x180) [
 
 ## reflexion_01 — Les secrets de l'Univers
 

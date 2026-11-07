@@ -20,6 +20,11 @@ THEMES = {
     'reflexion': dict(font='DM Serif Display', size=176, upper=False, color='FFFFFF', active='FFFFFF', emph='F7C6A3', outline=0, shadow=0,
                       hook_font='DM Serif Display', hook_size=104, hook_color='FFFFFF', hook_box='000000', label_box='000000', label_color='F7C6A3',
                       y=1250, mode='word'),
+    # style « animation 2D » : un mot à la fois, police ronde très grasse, contour épais bleu nuit
+    'cartoon': dict(font='Poppins Black', size=112, upper=True, color='FFFFFF', active='FFFFFF', emph='FFD43D', outline=9, shadow=0,
+                    word_oc='16173A', word_oa=0, word_shadow=0,
+                    hook_font='Poppins Black', hook_size=92, hook_color='FFFFFF', hook_box='16173A', label_box='FFD43D', label_color='16173A',
+                    y=1460, mode='word'),
     'psy': dict(font='Poppins ExtraBold', size=118, upper=False, color='FFFFFF', active='FFE135', emph='FF6FB5', outline=7, shadow=3,
                 hook_font='Poppins Black', hook_size=128, hook_color='111111', hook_box='FFE135', label_box='FFFFFF', label_color='111111', y=1340),
 }
@@ -38,7 +43,7 @@ Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour,
 Style: Cap,{th['font']},{th['size']},{bgr(th['color'])},{bgr(th['active'])},{bgr('000000')},{bgr('000000', 0x70)},0,0,0,0,100,100,1,0,1,{th['outline']},{th['shadow']},5,60,60,0,1
 Style: Calm,{th['font']},{int(th['size'] * 0.86)},{bgr('FFFFFF')},{bgr('FFFFFF')},{bgr('000000')},{bgr('000000', 0x80)},0,0,0,0,100,100,0,0,1,6,2,5,60,60,0,1
 Style: Hook,{th['hook_font']},{th['hook_size']},{bgr(th['hook_color'])},{bgr(th['hook_color'])},{bgr(th['hook_box'])},{bgr('000000', 0x80)},0,0,0,0,100,100,0,0,3,18,0,5,70,70,0,1
-Style: Word,{th['font']},{th['size']},{bgr(th['color'])},{bgr(th['color'])},{bgr('000000', 0x60)},{bgr('000000', 0x60)},0,0,0,0,100,100,1,0,1,{max(th['outline'], 0)},2,5,60,60,0,1
+Style: Word,{th['font']},{th['size']},{bgr(th['color'])},{bgr(th['color'])},{bgr(th.get('word_oc', '000000'), th.get('word_oa', 0x60))},{bgr('000000', 0x60)},0,0,0,0,100,100,1,0,1,{max(th['outline'], 0)},{th.get('word_shadow', 2)},5,60,60,0,1
 Style: Label,Poppins ExtraBold,94,{bgr(th['label_color'])},{bgr(th['label_color'])},{bgr(th['label_box'])},{bgr('000000', 0x90)},0,0,0,0,100,100,0,0,3,12,0,5,60,60,0,1
 
 [Events]
@@ -95,6 +100,8 @@ def build_ass(video, timeline, path):
                 s = w['s']
                 e = words[wi + 1]['s'] if wi + 1 < len(words) and words[wi + 1]['s'] - w['e'] < 0.5 else min(w['e'] + 0.3, seg['end'])
                 t = esc(w['w'].strip(',;:.!?…«»"'))
+                if th.get('upper'):
+                    t = t.upper()
                 if not t:
                     continue
                 col = th['emph'] if norm(w['w']) in emph else th['color']

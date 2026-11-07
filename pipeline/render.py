@@ -205,7 +205,18 @@ def render_video(video, out_path, workdir, preview=False, max_seconds=None, forc
         open(sig_path, 'w').write(sig)
     # 5. encodage final : master + sous-titres + mix audio
     vf = f"ass={ass_path}:fontsdir={FONTS}"
-    cmd = ['ffmpeg', '-y', '-loglevel', 'error', '-i', master, '-i', wav_path, '-map', '0:v:0', '-map', '1:a:0', '-vf', vf,
+    if video.get('visualizer'):
+        # barres d'égaliseur latérales (format « flash ») : formes d'onde de la musique, verticales, de chaque côté
+        bw = 92
+        fc = (f"[1:a]asplit=2[a1][a2];"
+              f"[a1]highpass=f=500,volume=1.6,showwaves=s={H // 4}x{bw}:mode=p2p:rate={FPS}:colors=0xFFFFFF:scale=lin:draw=full,scale={H}:{bw},transpose=1[wl];"
+              f"[a2]volume=0.6,showwaves=s={H // 8}x{bw}:mode=cline:rate={FPS}:colors=0xFF2A3A:scale=lin:draw=full,scale={H}:{bw},transpose=2[wr];"
+              f"[0:v]drawbox=x=0:y=0:w={bw}:h=ih:color=black@0.65:t=fill,drawbox=x=iw-{bw}:y=0:w={bw}:h=ih:color=black@0.65:t=fill[bg];"
+              f"[bg][wl]overlay=0:0[v1];[v1][wr]overlay=W-w:0,{vf}[vout]")
+        vargs = ['-filter_complex', fc, '-map', '[vout]', '-map', '1:a:0']
+    else:
+        vargs = ['-map', '0:v:0', '-map', '1:a:0', '-vf', vf]
+    cmd = ['ffmpeg', '-y', '-loglevel', 'error', '-i', master, '-i', wav_path] + vargs + [
            '-c:v', 'libx264', '-preset', 'veryfast' if preview else 'slow', '-crf', '26' if preview else '17',
            '-maxrate', '8M', '-bufsize', '16M', '-tune', 'film', '-profile:v', 'high', '-level', '4.2', '-pix_fmt', 'yuv420p', '-g', '60',
            '-colorspace', 'bt709', '-color_primaries', 'bt709', '-color_trc', 'bt709', '-color_range', 'tv',
