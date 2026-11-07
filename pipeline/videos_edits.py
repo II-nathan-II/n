@@ -113,7 +113,7 @@ AMB01 = dict(
 # ============================================================================= série du 8 au 15 novembre (4 publications par jour)
 from videos_real import BH_ORBIT, BH_TDE, BH_PLUNGE, EARTH, ISS, AUR_ISS, BERYL, PV, DAV, VM, MILKYWAY, SUN171, SUN193, SUN131
 from videos_space2 import SDO304, SDO131, MAG, PULSAR, APOLLO11, MARS_ROLL
-from videos_space3 import MERC, P_PULL, P_SHIELD, EUR, CASSINI, TITAN_PIC, VOY_FLY, HELIO
+from videos_space3 import MERC, P_PULL, P_SHIELD, EUR, CASSINI, TITAN_PIC, VOY_FLY, HELIO, ENC_JETS
 
 CRAB = 'nasa:PIA03606'
 ORION = 'nasa:PIA01322'
@@ -123,6 +123,7 @@ EARTHSET = 'nasa:art002e021278'          # Artemis II, la Terre se couche derri�
 NEPTUNE = 'nasa:PIA01492'                # Neptune vue par Voyager 2
 
 
+F0 = 'fit0'    # cadre entier sur fond noir (sources HD sur fond d'espace)
 CV = 'cover!'  # plein écran même pour une source HD (ambiances : pas de bandes floutées)
 
 
@@ -198,8 +199,8 @@ AMB07 = amb('ambiance_07', "Neptune n'a fait qu'un tour",
 
 AMB08 = amb('ambiance_08', "Une cuillère d'étoile à neutrons",
             "Une petite cuillère d'étoile à neutrons\npèserait environ\nun milliard de tonnes.",
-            [clipd(V(MAG, 3.0, speed=0.6)), clipd(V(PULSAR, 2.0, speed=0.6)), clipd(V(SN, 26.0, speed=0.5)),
-             clipd(V(NSM, 11.5, speed=0.5)), clipd(V(MAG, 10.0, speed=0.6)), clipd(V(PULSAR, 7.0, speed=0.6)),
+            [clipd(V(MAG, 3.0, speed=0.6, mode=F0)), clipd(V(PULSAR, 2.0, speed=0.6)), clipd(V(SN, 26.0, speed=0.5)),
+             clipd(V(NSM, 11.5, speed=0.5)), clipd(V(MAG, 10.0, speed=0.6, mode=F0)), clipd(V(PULSAR, 7.0, speed=0.6)),
              clipd(V(SN, 30.0, speed=0.5)), clipd(V(NSM, 18.0, speed=0.5), 2)], 3307, prog='minor_dark', key=44)
 
 AMB09 = amb('ambiance_09', "Plus d'arbres que d'étoiles",
@@ -210,37 +211,37 @@ AMB09 = amb('ambiance_09', "Plus d'arbres que d'étoiles",
 
 # ----------------------------------------------------------------------------- format C : edits rythmés
 EDIT02 = edit('edit_02', "Les trous noirs en 20 secondes", "TU NE VEUX PAS\\NTOMBER ICI", "PERSONNE N'EN EST JAMAIS REVENU.", [
-    cut(V(BH_DISK, 2.0), 2, cam='in', sfx=['boom']), cut(V(BH_ORBIT, 1.0, speed=1.2), sfx=['impact']), cut(V(BH_APPROACH, 8.0, speed=1.2)),
-    cut(V(BH_PLUNGE, 28.0, speed=1.0), trans='flash', sfx=['impact']), cut(V(BH_TDE, 10.0, speed=1.2)), cut(V(BH_DISK, 16.0, zoom=1.3)),
-    cut(V(BH_ORBIT, 6.0, speed=1.2), trans='zoom', sfx=['whoosh']), cut(V(BH_PLUNGE, 36.0, speed=1.0)), cut(V(BH_TDE, 23.0)),
-    cut(V(BH_ORBIT, 11.0, speed=1.2), trans='flash', sfx=['impact']), cut(V(BH_APPROACH, 0.5, speed=1.3)), cut(V(BH_DISK, 30.0, speed=0.6)),
+    cut(V(BH_DISK, 2.0), 2, cam='in', sfx=['boom']), cut(V(BH_ORBIT, 1.0, speed=1.2), sfx=['impact']), cut(V(BH_TDE, 12.5, mode=F0)),
+    cut(V(BH_TDE, 15.0, mode=F0), trans='flash', sfx=['impact']), cut(V(BH_TDE, 26.0, mode=F0)), cut(V(BH_DISK, 16.0, zoom=1.3)),
+    cut(V(BH_ORBIT, 6.0, speed=1.2), trans='zoom', sfx=['whoosh']), cut(V(BH_DISK, 24.0, zoom=1.15)), cut(V(BH_TDE, 30.0, mode=F0)),
+    cut(V(BH_ORBIT, 11.0, speed=1.2), trans='flash', sfx=['impact']), cut(V(BH_DISK, 8.0, zoom=1.6)), cut(V(BH_DISK, 30.0, speed=0.6)),
     cut(sc(lambda: L.StarField(seed=21, n=1500, bright=1.0, speed=0.8)), trans='zoom', sfx=['whoosh']), cut(V(BH_DISK, 33.0, speed=0.5)),
-    cut(V(BH_TDE, 17.0), sfx=[('riser', 0.0)])], 3401, prog='minor_dark', key=44)
+    cut(V(BH_TDE, 33.5, mode=F0), sfx=[('riser', 0.0)])], 3401, prog='minor_dark', key=44)
 
 EDIT03 = edit('edit_03', "Le système solaire en 20 secondes", "TON QUARTIER\\NDANS L'UNIVERS", "ET TOUT ÇA TOURNE AUTOUR D'UNE ÉTOILE.", [
-    cut(V(SDO171, 0.0, speed=0.8), 2, cam='in', sfx=['boom']), cut(V(MERC, 0.0, mode='fit', fit_scale=2.0), sfx=['impact']),
-    cut(V(PV, 166.0)), cut(V(EARTH, 30.0), trans='flash', sfx=['impact']),
+    cut(V(SDO171, 0.0, speed=0.8), 2, cam='in', sfx=['boom']), cut(V(MERC, 0.0, mode=F0, fit_scale=2.0), sfx=['impact']),
+    cut(V(PV, 166.0, mode=F0)), cut(V(EARTH, 30.0), trans='flash', sfx=['impact']),
     cut(sc(lambda: L.StarField(seed=3, bright=0.8), lambda: L.Globe(day='moon_lroc_4k.jpg', r=600, c=MID, lon0=0, spin=8.0, atmos_w=0.001, spec=0, atmos=(0, 0, 0)))),
-    cut(V(MARS_ROLL, 10.0)), cut(V(GRS, 75.0, speed=1.2), trans='zoom', sfx=['whoosh']), cut(V(SAT_RINGS, 9.0)),
-    cut(V(SAT_RINGS, 42.0), trans='flash', sfx=['impact']), cut(V(VOY_FLY, 2.0, speed=1.2)), cut(P(NEPTUNE)),
-    cut(V(HELIO, 1.5, speed=1.0), trans='zoom', sfx=['whoosh']), cut(V(MOONTOUR, 264.0, speed=1.5)),
-    cut(V(TITAN_TL, 18.0, speed=1.3)), cut(V(ENC_GEY, 2.0), sfx=[('riser', 0.0)])], 3402)
+    cut(V(MARS_ROLL, 10.0, mode=F0)), cut(V(GRS, 75.0, speed=1.2, mode=F0), trans='zoom', sfx=['whoosh']), cut(V(SAT_RINGS, 9.0)),
+    cut(V(SAT_RINGS, 42.0), trans='flash', sfx=['impact']), cut(P(TITAN_PIC)), cut(P(NEPTUNE)),
+    cut(V(HELIO, 1.5, speed=1.0), trans='zoom', sfx=['whoosh']), cut(V(MOONTOUR, 183.0, speed=1.5)),
+    cut(V(TITAN_TL, 18.0, speed=1.3, mode=CV)), cut(V(ENC_GEY, 2.0, mode=CV), sfx=[('riser', 0.0)])], 3402)
 
 EDIT04 = edit('edit_04', "Le Soleil comme tu ne l'as jamais vu", "NE REGARDE PAS\\NTROP LONGTEMPS", "IL BRÛLE DEPUIS 4,6 MILLIARDS D'ANNÉES.", [
-    cut(V(SUN171, 1.0, speed=0.8), 2, cam='in', sfx=['boom']), cut(V(HELICITY, 2.0, speed=1.2), sfx=['impact']), cut(V(SDO304, 0.0, speed=0.8)),
+    cut(V(SUN171, 1.0, speed=0.8), 2, cam='in', sfx=['boom']), cut(V(P_PULL, 10.5, speed=1.0), sfx=['impact']), cut(V(SDO304, 0.0, speed=0.8)),
     cut(V(P_SWING, 4.0, speed=1.2, cx=0.4), trans='flash', sfx=['impact']), cut(V(SUN193, 1.0)), cut(V(SDO131, 0.0, speed=0.8)),
     cut(V(P_PULL, 0.3, speed=1.0), trans='zoom', sfx=['whoosh']), cut(V(SUN131, 1.0)), cut(V(P_SHIELD, 0.0, cx=0.15)),
-    cut(V(SDO171, 2.0, speed=0.8), trans='flash', sfx=['impact']), cut(V(HELICITY, 6.0, speed=1.2)), cut(V(SUN171, 5.0)),
+    cut(V(SDO171, 2.0, speed=0.8), trans='flash', sfx=['impact']), cut(V(P_PULL, 2.5, speed=1.0)), cut(V(SUN171, 5.0)),
     cut(V(P_PULL, 6.0, speed=1.0), trans='zoom', sfx=['whoosh']), cut(V(SDO304, 2.0, speed=0.8)), cut(V(SUN193, 6.0), sfx=[('riser', 0.0)])],
     3403, prog='minor_epic', key=47)
 
 EDIT05 = edit('edit_05', "Les lunes les plus folles", "CES LUNES\\NSONT INCROYABLES", "PLUS DE 400 LUNES DANS LE SYSTÈME SOLAIRE.", [
-    cut(V(ENC_GEY, 1.0, speed=1.0), 2, cam='in', sfx=['boom']), cut(V(EUR, 566.0, mode='cover!'), sfx=['impact']), cut(V(TITAN_TL, 20.0, speed=1.3)),
-    cut(V(MOONTOUR, 183.0, speed=1.5), trans='flash', sfx=['impact']), cut(V(CASSINI, 177.5, speed=0.6)), cut(P(TITAN_PIC)),
-    cut(V(EUR, 459.0, mode='cover!'), trans='zoom', sfx=['whoosh']), cut(V(APOLLO11, 2.0, speed=1.2)), cut(V(ENC_GEY, 6.0)),
-    cut(V(TITAN_TL, 28.0, speed=1.3), trans='flash', sfx=['impact']), cut(V(EUR, 593.0, mode='cover!')), cut(V(MOONTOUR, 26.0, speed=1.5)),
+    cut(V(ENC_GEY, 1.0, speed=1.0, mode=CV), 2, cam='in', sfx=['boom']), cut(V(EUR, 566.0, mode='cover!'), sfx=['impact']), cut(V(TITAN_TL, 20.0, speed=1.3, mode=CV)),
+    cut(V(MOONTOUR, 183.0, speed=1.5), trans='flash', sfx=['impact']), cut(V(CASSINI, 178.4, speed=0.6, mode=CV, cx=0.56)), cut(P(TITAN_PIC)),
+    cut(V(EUR, 459.0, mode='cover!'), trans='zoom', sfx=['whoosh']), cut(V(APOLLO11, 2.0, speed=1.2, mode=CV)), cut(V(ENC_GEY, 6.0, mode=CV)),
+    cut(V(TITAN_TL, 28.0, speed=1.3, mode=CV), trans='flash', sfx=['impact']), cut(V(EUR, 593.0, mode='cover!')), cut(V(MOONTOUR, 26.0, speed=1.5)),
     cut(sc(lambda: L.StarField(seed=3, bright=0.8), lambda: L.Globe(day='moon_lroc_4k.jpg', r=700, c=MID, lon0=60, spin=10.0, atmos_w=0.001, spec=0, atmos=(0, 0, 0))), trans='zoom', sfx=['whoosh']),
-    cut(V(CASSINI, 175.0)), cut(V(ENC_GEY, 9.0), sfx=[('riser', 0.0)])], 3404, prog='minor_wonder', key=46)
+    cut(P(ENC_JETS)), cut(V(ENC_GEY, 9.0, mode=CV), sfx=[('riser', 0.0)])], 3404, prog='minor_wonder', key=46)
 
 EDIT06 = edit('edit_06', "Ce n'est pas une peinture", "CE N'EST PAS\\NUNE PEINTURE", "CE SONT DE VRAIES IMAGES DE TÉLESCOPES.", [
     cut(P(CARINA, cx=0.45), 2, cam='in', sfx=['boom']), cut(P(PILLARS, cx=0.42), sfx=['impact']), cut(P(CRAB)),
@@ -251,11 +252,11 @@ EDIT06 = edit('edit_06', "Ce n'est pas une peinture", "CE N'EST PAS\\NUNE PEINTU
     3405, prog='minor_wonder', key=44)
 
 EDIT07 = edit('edit_07', "La Terre vue de l'espace", "TA MAISON\\NVUE D'EN HAUT", "C'EST LA SEULE QU'ON A.", [
-    cut(V(ISS, 1830.0, cx=0.85), 2, cam='in', sfx=['boom']), cut(V(AUR_ISS, 24.0), sfx=['impact']), cut(V(BERYL, 46.0, cx=0.45)),
+    cut(V(ISS, 1830.0, cx=0.85), 2, cam='in', sfx=['boom']), cut(V(AUR_ISS, 24.0), sfx=['impact']), cut(V(BERYL, 46.0, cx=0.36, mode=CV)),
     cut(P(EARTHSET, cx=0.72), trans='flash', sfx=['impact']), cut(V(ISS, 1310.0, speed=1.5)), cut(V(EARTH, 30.0)),
-    cut(V(AUR_ISS, 72.0), trans='zoom', sfx=['whoosh']), cut(V(ISS, 2014.0)), cut(V(BERYL, 502.0, cx=0.5)),
+    cut(V(AUR_ISS, 72.0), trans='zoom', sfx=['whoosh']), cut(V(ISS, 2014.0)), cut(V(BERYL, 502.0, cx=0.47, mode=CV)),
     cut(V(ISS, 990.0, speed=1.5), trans='flash', sfx=['impact']), cut(sc(lambda: L.StarField(seed=2, bright=0.8), lambda: L.Globe(night=EARTH_N, r=[(0, 900), (1.0, 640)], c=MID, lon0=-90, spin=6.0))),
-    cut(V(ISS, 606.0)), cut(V(AUR_ISS, 0.0, cx=0.15), trans='zoom', sfx=['whoosh']), cut(V(ISS, 2930.0)), cut(V(EARTH, 70.0), sfx=[('riser', 0.0)])],
+    cut(V(ISS, 3038.0)), cut(V(AUR_ISS, 0.0, cx=0.15), trans='zoom', sfx=['whoosh']), cut(V(ISS, 2930.0)), cut(V(EARTH, 70.0), sfx=[('riser', 0.0)])],
     3406, prog='minor_float', key=45)
 
 EDIT08 = edit('edit_08', "Voyage à travers l'Univers", "ACCROCHE-TOI", "BIENVENUE DANS L'UNIVERS.", [

@@ -55,8 +55,13 @@ class Clip(Layer):
                 x = max(0, min(sw - cw, self.cx * sw - cw / 2)); y = max(0, min(sh - ch, self.cy * sh - ch / 2))
                 fw = int(W * self.fit_scale) // 2 * 2
                 pre = f'crop={int(cw) // 2 * 2}:{int(ch) // 2 * 2}:{int(x)}:{int(y)},eq=saturation=1.1:contrast=1.03,split[a][b];'
-                vf = (pre + f'[a]scale={W}:{H}:force_original_aspect_ratio=increase,crop={W}:{H},boxblur=40:4,eq=brightness=-0.16:saturation=1.05[bg];'
-                      f'[b]scale={fw}:-2:flags=lanczos[fg0];[fg0]crop=min(iw\\,{W}):ih[fg];[bg][fg]overlay=(W-w)/2:(H-h)/2-40')
+                if mode == 'fit0':
+                    # fond noir (sources sur fond d'espace : pas de bandes floutées visibles)
+                    vf = (pre + f'[a]scale={W}:{H}:force_original_aspect_ratio=increase,crop={W}:{H},eq=brightness=-1.0[bg];'
+                          f'[b]scale={fw}:-2:flags=lanczos[fg0];[fg0]crop=min(iw\\,{W}):ih[fg];[bg][fg]overlay=(W-w)/2:(H-h)/2-40')
+                else:
+                    vf = (pre + f'[a]scale={W}:{H}:force_original_aspect_ratio=increase,crop={W}:{H},boxblur=40:4,eq=brightness=-0.16:saturation=1.05[bg];'
+                          f'[b]scale={fw}:-2:flags=lanczos[fg0];[fg0]crop=min(iw\\,{W}):ih[fg];[bg][fg]overlay=(W-w)/2:(H-h)/2-40')
                 self.mode = 'fit'
             if self.flip:
                 vf += ',hflip'
