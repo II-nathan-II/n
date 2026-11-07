@@ -54,10 +54,16 @@ SOURCES = {
     'video_23': ['NASA/JPL — PIA19400 : coucher de soleil bleu photographié par Curiosity le 15 avril 2015 (sol 956), cratère Gale ; couleurs proches de la vision humaine', "NASA — la poussière martienne très fine laisse passer la lumière bleue plus efficacement près de la direction du Soleil ; ciel ocre le jour ; crépuscule jusqu'à environ deux heures", 'NASA/JPL — PIA23202 : coucher de soleil vu par InSight (avril 2019)', "Données NASA — Soleil vu de Mars environ deux tiers de sa taille apparente terrestre, ensoleillement d'environ 43 % ; sol de 24 h 39 min ; poussière riche en oxydes de fer"],
     'video_24': ["NASA — Encelade : environ 500 km de diamètre, l'un des corps les plus réfléchissants du système solaire, surface vers −200 °C", "NASA/Cassini — jets découverts en 2005 au pôle sud (« rayures de tigre ») ; une centaine de geysers recensés ; ils alimentent l'anneau E ; océan global sous la glace ; hydrogène moléculaire détecté (2017), signe possible d'activité hydrothermale", "NASA/ESA/CSA — Webb (2023) : panache d'environ 9 600 km, environ 300 litres d'eau par seconde", "Postberg et al., Nature (2023) — phosphates détectés dans des grains de glace d'Encelade (données Cassini)"],
     'video_25': ["NASA/JPL — Voyager 1 lancée le 5 septembre 1977 ; un jour-lumière (environ 25,9 milliards de km) atteint vers le 18 novembre 2026 ; vitesse d'environ 61 000 km/h", "NASA — survols de Jupiter (1979) et de Saturne (1980) ; entrée dans l'espace interstellaire le 25 août 2012", "NASA/JPL — « Pale Blue Dot », 14 février 1990, à environ 6 milliards de km (PIA23645, version retraitée en 2020) ; expression de Carl Sagan ; la Terre occupe moins d'un pixel", "NASA/JPL — émetteur d'environ 22 W (comparaison NASA : ampoule de réfrigérateur), énergie en baisse, fin attendue dans les années 2030 ; disque d'or avec salutations en 55 langues ; passage à 1,6 année-lumière de l'étoile Gliese 445 dans environ 40 000 ans"],
+    'reflexion_01': ["Estimation courante (Jefferson Lab, Freitas) : environ 7 × 10^27 atomes dans un corps humain de 70 kg", "Le noyau occupe environ un cent-millième du diamètre de l'atome (analogie classique de la bille au centre d'un stade)", "ONU — population mondiale passée à 8 milliards en novembre 2022 (environ 8,2 milliards en 2025)", "NASA/JPL — « Pale Blue Dot » (PIA23645), Voyager 1, 14 février 1990, à environ 6 milliards de km", "NASA — la Voie lactée compte environ 100 à 400 milliards d'étoiles ; des centaines de milliards de galaxies dans l'Univers observable (Conselice et al. 2016 ; New Horizons 2021)", "Ordres de grandeur couramment cités : environ 10^22 à 10^24 étoiles contre environ 10^18 à 10^19 grains de sable sur les plages", "NASA — le fer et le calcium sont produits dans les étoiles et dispersés par les supernovas", "Carl Sagan, *Cosmos* (1980) : « We are a way for the cosmos to know itself »"],
     'video_07_v1': ["Addams (1834) — observation aux chutes de Foyers (« waterfall illusion »)", "Aristote, *Parva Naturalia* — mention de l'effet", "Aires MT/V5 et MST : sélectivité au mouvement/expansion"],
     'video_08_v1': ["Troxler (1804) — disparition des stimuli périphériques fixés", "Lilac chaser — Jeremy Hinton (vers 2005)"],
     'video_09_v1': ["Mariotte (vers 1660, publié en 1668) — découverte de la tache aveugle", "Anatomie : papille optique dépourvue de photorécepteurs"],
     'video_10_v1': ["Adelson (1995) — « checkershadow illusion » (MIT) ; visuel de la vidéo recréé en code (image originale non utilisée)", "« La robe » (février 2015) — études sur les présupposés d'éclairage"],
+}
+
+# Écarts du contrôle automatique vérifiés à la main
+QC_NOTES = {
+    'video_22': "Whisper a sauté une phrase en transcrivant la vidéo entière (« Autre surprise : Mercure rétrécit… »). Transcrite seule (48–64 s), elle est parfaitement reconnue ; niveaux identiques aux autres vidéos (−14,2 LUFS). Vidéo validée.",
 }
 
 def tc(t):
@@ -193,6 +199,8 @@ def gen():
         for vid in sorted(qc):
             r = qc[vid]
             q.append(f"## {vid} — {'✅ conforme' if r.get('ok') else '⚠️ à vérifier'}\n")
+            if vid in QC_NOTES:
+                q.append(f"> Vérification manuelle : {QC_NOTES[vid]}\n")
             for k, ok in r.get('checks', {}).items():
                 q.append(f"- {'✅' if ok else '❌'} {k}")
             if r.get('exists'):

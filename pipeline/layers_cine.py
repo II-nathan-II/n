@@ -288,7 +288,7 @@ class Atom(Layer):
         buf = np.zeros((H // 2, W // 2, 3), np.float32)
         jit = np.random.default_rng(int(t * 30)).normal(0, 0.012, E.shape).astype(np.float32)
         Ej = E + jit
-        splat(buf, (cx + Ej[:, 0] * sc) / 2, (cy - Ej[:, 1] * sc) / 2, self.ec * 0.5 * (560 / sc) ** 0.6)
+        splat(buf, (cx + Ej[:, 0] * sc) / 2, (cy - Ej[:, 1] * sc) / 2, self.ec * 0.5 * (560 / sc) ** 0.15)
         buf = cv2.GaussianBlur(buf, (0, 0), 1.4)
         buf = buf / (1 + buf * 0.6)  # compression douce des zones denses
         buf = bloom(buf, 0.9, (3, 10, 26), (0.7, 0.45, 0.3))

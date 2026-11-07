@@ -5,6 +5,52 @@ Timecodes issus de la narration réelle (synthèse Kokoro). Le texte affiché co
 
 ---
 
+# Reflexion 01 — L'infime et l'infini
+
+**Niche :** Les secrets de l'Univers  
+**Accroche à l'écran :** L'infime et l'infini  
+**Durée :** 64.3 s  
+**Musique :** composition originale procédurale (space, 62 BPM, progression minor_wonder)
+
+| Timecode | Narration | Visuel | Montage |
+|---|---|---|---|
+| 00:00.15 | Tu es fait d'environ sept milliards de milliards de milliards d'atomes. | StarField, Filaments | transition cut, caméra slow_in, sfx boom, musique intensité 0.45 |
+| 00:03.86 | Et pourtant, un atome… c'est presque du vide. | Nebula, StarField, Atom | transition fade, caméra slow_in |
+| 00:06.35 | Si son noyau avait la taille d'une bille posée au centre d'un stade, ses électrons tourneraient quelque part… dans les tribunes. | Nebula, Atom | transition fade, caméra out |
+| 00:13.42 | Toi, moi, tout ce que tu touches… c'est surtout du vide. | StarField, Filaments | transition black, caméra slow_in |
+| 00:16.34 | Maintenant, recule. | StarField, Globe | transition fade, caméra static, sfx whoosh, musique intensité 0.6 |
+| 00:17.76 | La Terre. Plus de huit milliards d'humains sur une petite boule de roche, qui tourne dans le noir. | StarField, Rays, Globe | transition cut, caméra slow_in |
+| 00:22.74 | Recule encore. Vue de six milliards de kilomètres, elle n'est plus qu'un point bleu pâle. | StarField, Globe, Halo | transition fade, caméra static |
+| 00:27.48 | Notre Soleil n'est qu'une étoile parmi cent à quatre cents milliards, rien que dans notre galaxie. | StarField, galaxie spirale (particules) | transition fade, caméra slow_in |
+| 00:33.01 | Et notre galaxie n'est qu'une parmi des centaines de milliards d'autres. | Nebula, DeepField | transition fade, caméra slow_in |
+| 00:36.72 | Il y aurait plus d'étoiles dans l'Univers que de grains de sable sur toutes les plages de la Terre. | StarField, galaxie spirale (particules) | transition fade, caméra slow_in |
+| 00:41.87 | De quoi se sentir minuscule. | Nebula, StarField | transition black, caméra static, musique intensité 0.35 |
+| 00:43.85 | Mais regarde de plus près : le fer de ton sang, le calcium de tes os… ont été fabriqués au cœur d'étoiles, il y a des milliards d'années. | Vidéo réelle : « Supernova explosion animation, with & without pulsar » (à 20 s) | transition flash, caméra slow_in, sfx impact, musique intensité 0.7 |
+| 00:51.70 | Tu es, littéralement, de la poussière d'étoiles. | StarField, Filaments | transition fade, caméra slow_in |
+| 00:54.32 | L'astronome Carl Sagan disait : nous sommes un moyen pour le cosmos de se connaître lui-même. | StarField, Filaments | transition fade, caméra slow_in, musique intensité 0.75 |
+| 01:00.04 | Alors… infime, ou infini ? Dis-le-moi en commentaire. | StarField, Rays, Globe | transition fade, caméra slow_in, musique intensité 0.4 |
+
+**Crédits images (séquences réelles utilisées) :**
+
+- Supernova explosion animation, with & without pulsar — NASA's Goddard Space Flight Center Conceptual Image Lab || SN_HQ_Full_H264_V001.00750_print.jpg (1024x576) [120.0 KB] || SN_HQ_Full_H264_V001.00750_searchweb.png (320x180) [77.3 KB] || SN_HQ_Full_H264 — NASA Scientific Visualization Studio — Domaine public (NASA — image uniquement, bande-son non utilisée) — https://svs.gsfc.nasa.gov/20413/
+
+**Sources / vérification des faits :**
+
+- Estimation courante (Jefferson Lab, Freitas) : environ 7 × 10^27 atomes dans un corps humain de 70 kg
+- Le noyau occupe environ un cent-millième du diamètre de l'atome (analogie classique de la bille au centre d'un stade)
+- ONU — population mondiale passée à 8 milliards en novembre 2022 (environ 8,2 milliards en 2025)
+- NASA/JPL — « Pale Blue Dot » (PIA23645), Voyager 1, 14 février 1990, à environ 6 milliards de km
+- NASA — la Voie lactée compte environ 100 à 400 milliards d'étoiles ; des centaines de milliards de galaxies dans l'Univers observable (Conselice et al. 2016 ; New Horizons 2021)
+- Ordres de grandeur couramment cités : environ 10^22 à 10^24 étoiles contre environ 10^18 à 10^19 grains de sable sur les plages
+- NASA — le fer et le calcium sont produits dans les étoiles et dispersés par les supernovas
+- Carl Sagan, *Cosmos* (1980) : « We are a way for the cosmos to know itself »
+
+**Texte prononcé (pour réenregistrement éventuel) :**
+
+> Tu es fait d'environ sept milliards de milliards de milliards d'atomes. Et pourtant, un atome… c'est presque du vide. Si son noyau avait la taille d'une bille posée au centre d'un stade, ses électrons tourneraient quelque part… dans les tribunes. Toi, moi, tout ce que tu touches… c'est surtout du vide. Maintenant, recule. La Terre. Plus de huit milliards d'humains sur une petite boule de roche, qui tourne dans le noir. Recule encore. Vue de six milliards de kilomètres, elle n'est plus qu'un point bleu pâle. Notre Soleil n'est qu'une étoile parmi cent à quatre cents milliards, rien que dans notre galaxie. Et notre galaxie n'est qu'une parmi des centaines de milliards d'autres. Il y aurait plus d'étoiles dans l'Univers que de grains de sable sur toutes les plages de la Terre. De quoi se sentir minuscule. Mais regarde de plus près: le fer de ton sang, le calcium de tes os… ont été fabriqués au cœur d'étoiles, il y a des milliards d'années. Tu es, littéralement, de la poussière d'étoiles. L'astronome Carl Sagan disait: nous sommes un moyen pour le cosmos de se connaître lui-même. Alors… infime, ou infini? Dis-le-moi en commentaire.
+
+---
+
 # Video 01 — La planète où il pleut du verre
 
 **Niche :** Les secrets de l'Univers  
@@ -739,3 +785,480 @@ Timecodes issus de la narration réelle (synthèse Kokoro). Le texte affiché co
 **Texte prononcé (pour réenregistrement éventuel) :**
 
 > La lumière qui te réchauffe aujourd'hui a commencé son voyage… il y a peut-être plus de cent mille ans. Elle naît au cœur du Soleil, à environ quinze millions de degrés. Là, chaque seconde, le Soleil fusionne environ six cents millions de tonnes d'hydrogène. Et au passage, il perd quatre millions de tonnes de matière… transformées en énergie. Mais cette énergie ne sort pas tout de suite. Le Soleil est si dense que la lumière est sans cesse absorbée… puis réémise, dans n'importe quelle direction. Elle avance au hasard, comme quelqu'un qui chercherait la sortie dans une foule immense. Résultat: l'énergie met des dizaines, voire des centaines de milliers d'années pour remonter jusqu'à la surface. Puis, une fois dehors… tout s'accélère. Il ne lui faut plus que huit minutes et vingt secondes pour parcourir les cent cinquante millions de kilomètres jusqu'à la Terre. Autrement dit, cette lumière a passé bien plus de temps à sortir du Soleil… qu'à voyager dans l'espace. Quand elle a quitté le cœur du Soleil, il n'y avait sur Terre ni villes, ni agriculture, ni écriture. Le Soleil contient à lui seul plus de quatre-vingt-dix-neuf pour cent de la masse du système solaire. Et il continuera de briller pendant encore environ cinq milliards d'années. La prochaine fois que tu sens le soleil sur ta peau, pense à ce voyage. Tu le savais? Dis-le en commentaire.
+
+---
+
+# Video 16 — 16 levers de soleil par jour
+
+**Niche :** Les secrets de l'Univers  
+**Accroche à l'écran :** 16 LEVERS DE SOLEIL PAR JOUR  
+**Durée :** 85.7 s  
+**Musique :** composition originale procédurale (space, 72 BPM, progression minor_float)
+
+| Timecode | Narration | Visuel | Montage |
+|---|---|---|---|
+| 00:00.15 | Les astronautes de la Station spatiale voient le Soleil se lever seize fois par jour. | Vidéo réelle : « jsc2021m000138_4K_Earth_Views_Extended_Cut_for_Earth_Day_ 20 » (à 1830 s) | transition cut, caméra in, sfx boom, musique intensité 0.35 |
+| 00:04.97 | Et se coucher seize fois. Parce que la station fait le tour de la Terre en à peu près une heure et demie. | Vidéo réelle : « ISS views Aurora from the November 11-13, 2025 Geomagnetic S » (à 0 s) | transition whip, caméra slow_in, étiquette « 1 TOUR ≈ 90 MINUTES » |
+| 00:10.04 | Elle file à environ vingt-huit mille kilomètres par heure, à quatre cents kilomètres au-dessus de nos têtes. | Vidéo réelle : « jsc2021m000138_4K_Earth_Views_Extended_Cut_for_Earth_Day_ 20 » (à 1310 s), compteur animé | transition zoom, caméra push |
+| 00:15.68 | À cette vitesse, Paris-Marseille, c'est moins d'une minute et demie. | Vidéo réelle : « jsc2021m000138_4K_Earth_Views_Extended_Cut_for_Earth_Day_ 20 » (à 1374 s), texte animé | transition cut, caméra drift |
+| 00:19.05 | Résultat : un jour et une nuit toutes les quatre-vingt-dix minutes environ. Le Soleil se lève, se couche… et recommence. | Vidéo réelle : « jsc2021m000138_4K_Earth_Views_Extended_Cut_for_Earth_Day_ 20 » (à 350 s) | transition fade, caméra slow_in |
+| 00:25.59 | La nuit, ils survolent les aurores polaires… par-dessus. | Vidéo réelle : « ISS views Aurora from the November 11-13, 2025 Geomagnetic S » (à 24 s) | transition flash, caméra in, sfx shimmer, musique intensité 0.5 |
+| 00:28.42 | Alors comment dormir ? Ils vivent à l'heure de Greenwich, ferment les volets des hublots, et dorment dans des sacs de couchage accrochés au mur. | Vidéo réelle : « jsc2021m000138_4K_Earth_Views_Extended_Cut_for_Earth_Day_ 20 » (à 2014 s) | transition whip, caméra right |
+| 00:36.19 | Et pourquoi flottent-ils ? Ce n'est pas parce qu'il n'y a pas de gravité. | Vidéo réelle : « jsc2021m000138_4K_Earth_Views_Extended_Cut_for_Earth_Day_ 20 » (à 1950 s) | transition black, caméra slow_in, sfx riser |
+| 00:39.70 | À quatre cents kilomètres, la gravité atteint encore environ quatre-vingt-dix pour cent de celle qu'on ressent au sol. | Vidéo réelle : « jsc2021m000138_4K_Earth_Views_Extended_Cut_for_Earth_Day_ 20 » (à 990 s), compteur animé | transition cut, caméra in |
+| 00:45.88 | En réalité, ils tombent. En permanence. | Vidéo réelle : « jsc2021m000138_4K_Earth_Views_Extended_Cut_for_Earth_Day_ 20 » (à 606 s) | transition whip, caméra push, sfx whoosh, musique intensité 0.65 |
+| 00:48.19 | Mais ils vont tellement vite sur le côté qu'ils ratent la Terre à chaque fois. C'est ça, une orbite : une chute sans fin. | Vidéo réelle : « jsc2021m000138_4K_Earth_Views_Extended_Cut_for_Earth_Day_ 20 » (à 1118 s) | transition zoom, caméra drift |
+| 00:54.28 | La station est la plus grande structure jamais assemblée dans l'espace : à peu près la taille d'un terrain de foot, pour plus de quatre cents tonnes. | Vidéo réelle : « jsc2021m000138_4K_Earth_Views_Extended_Cut_for_Earth_Day_ 20 » (à 2075 s) | transition fade, caméra slow_in |
+| 01:02.31 | Et on peut la voir à l'œil nu : un point très brillant qui traverse le ciel en quelques minutes, sans clignoter. | Vidéo réelle : « ISS views Aurora from the November 11-13, 2025 Geomagnetic S » (à 72 s) | transition cut, caméra in |
+| 01:08.03 | Depuis le 2 novembre 2000, il y a toujours eu des humains à bord. Plus de vingt-six ans sans interruption. | Vidéo réelle : « jsc2021m000138_4K_Earth_Views_Extended_Cut_for_Earth_Day_ 20 » (à 2930 s) | transition flash, caméra push, étiquette « DEPUIS LE 2 NOVEMBRE 2000 », musique intensité 0.75 |
+| 01:14.05 | Mais son histoire touche à sa fin : elle doit prendre sa retraite vers 2030, puis retomber dans l'océan Pacifique. | Vidéo réelle : « jsc2021m000138_4K_Earth_Views_Extended_Cut_for_Earth_Day_ 20 » (à 3038 s) | transition fade, caméra slow_in |
+| 01:20.63 | Tu aimerais voir seize levers de soleil par jour ? Dis-le en commentaire. | Vidéo réelle : « jsc2021m000138_4K_Earth_Views_Extended_Cut_for_Earth_Day_ 20 » (à 1870 s) | transition fade, caméra out, musique intensité 0.3 |
+
+**Crédits images (séquences réelles utilisées) :**
+
+- jsc2021m000138_4K_Earth_Views_Extended_Cut_for_Earth_Day_ 2021_210422-4KMP4 — JSC — NASA Image and Video Library — Domaine public (média NASA — image uniquement) — https://images.nasa.gov/details/jsc2021m000138_4K_Earth_Views_Extended_Cut_for_Earth_Day_%202021_210422-4KMP4
+- ISS views Aurora from the November 11-13, 2025 Geomagnetic Storm — NASA's Goddard Space Flight Center Scientific Visualization Studio — NASA Scientific Visualization Studio — Domaine public (NASA — image uniquement, bande-son non utilisée) — https://svs.gsfc.nasa.gov/31375/
+
+**Sources / vérification des faits :**
+
+- NASA — Station spatiale internationale : environ 400 km d'altitude, environ 28 000 km/h, un tour de la Terre en 90 minutes environ, soit environ 16 levers et couchers de soleil par jour
+- NASA — à l'altitude de l'ISS la gravité vaut environ 90 % de celle de la surface ; l'apesanteur vient de la chute libre permanente (orbite)
+- NASA — longueur de 109 m environ (un terrain de football américain), masse d'environ 420 tonnes ; occupation humaine continue depuis le 2 novembre 2000
+- NASA — fin d'exploitation prévue vers 2030, désorbitation contrôlée au-dessus du Pacifique (véhicule USDV)
+
+**Texte prononcé (pour réenregistrement éventuel) :**
+
+> Les astronautes de la Station spatiale voient le Soleil se lever seize fois par jour. Et se coucher seize fois. Parce que la station fait le tour de la Terre en à peu près une heure et demie. Elle file à environ vingt-huit mille kilomètres par heure, à quatre cents kilomètres au-dessus de nos têtes. À cette vitesse, Paris-Marseille, c'est moins d'une minute et demie. Résultat: un jour et une nuit toutes les quatre-vingt-dix minutes environ. Le Soleil se lève, se couche… et recommence. La nuit, ils survolent les aurores polaires… par-dessus. Alors comment dormir? Ils vivent à l'heure de Greenwich, ferment les volets des hublots, et dorment dans des sacs de couchage accrochés au mur. Et pourquoi flottent-ils? Ce n'est pas parce qu'il n'y a pas de gravité. À quatre cents kilomètres, la gravité atteint encore environ quatre-vingt-dix pour cent de celle qu'on ressent au sol. En réalité, ils tombent. En permanence. Mais ils vont tellement vite sur le côté qu'ils ratent la Terre à chaque fois. C'est ça, une orbite: une chute sans fin. La station est la plus grande structure jamais assemblée dans l'espace: à peu près la taille d'un terrain de foot, pour plus de quatre cents tonnes. Et on peut la voir à l'œil nu: un point très brillant qui traverse le ciel en quelques minutes, sans clignoter. Depuis le deux novembre deux mille, il y a toujours eu des humains à bord. Plus de vingt-six ans sans interruption. Mais son histoire touche à sa fin: elle doit prendre sa retraite vers deux mille trente, puis retomber dans l'océan Pacifique. Tu aimerais voir seize levers de soleil par jour? Dis-le en commentaire.
+
+---
+
+# Video 17 — Vendredi 13 avril 2029, un astéroïde va frôler la Terre
+
+**Niche :** Les secrets de l'Univers  
+**Accroche à l'écran :** VENDREDI 13 AVRIL 2029  
+**Durée :** 82.7 s  
+**Musique :** composition originale procédurale (space, 74 BPM, progression minor_dark)
+
+| Timecode | Narration | Visuel | Montage |
+|---|---|---|---|
+| 00:00.15 | Le vendredi 13 avril 2029, un astéroïde va frôler la Terre. | Vidéo réelle : « Asteroid Apophis 2029 Earth Flyby – Animations » (à 26 s) | transition cut, caméra in, sfx boom, musique intensité 0.35 |
+| 00:04.68 | Il s'appelle Apophis, comme le dieu égyptien du chaos. | Vidéo réelle : « Asteroid Apophis 2029 Earth Flyby – Animations » (à 0 s) | transition whip, caméra slow_in, étiquette « APOPHIS » |
+| 00:07.60 | Il mesure environ trois cent quarante mètres : à peu près la hauteur de la tour Eiffel. | Vidéo réelle : « Asteroid Apophis 2029 Earth Flyby – Animations » (à 4 s) | transition cut, caméra drift |
+| 00:12.17 | Et il va passer à environ trente-deux mille kilomètres de nous. | Vidéo réelle : « Asteroid Apophis 2029 Earth Flyby – Animations » (à 28 s), compteur animé | transition zoom, caméra push, sfx impact |
+| 00:15.43 | Plus près que les satellites de télévision, en orbite à près de trente-six mille kilomètres. | Vidéo réelle : « Asteroid Apophis 2029 Earth Flyby – Animations » (à 20 s) | transition fade, caméra slow_in |
+| 00:20.30 | Jamais un astéroïde aussi gros n'a été observé en passant aussi près. | Vidéo réelle : « Asteroid Apophis 2029 Earth Flyby – Animations » (à 30 s) | transition flash, caméra in, musique intensité 0.6 |
+| 00:24.37 | Ce soir-là, il sera visible à l'œil nu, comme un point lumineux qui glisse parmi les étoiles. Notamment depuis l'Europe et l'Afrique. | Photo réelle : « Our Milky Way Gets a Makeover  Artist Concept » | transition fade, caméra slow_in |
+| 00:31.45 | Au début, il a fait très peur. Après sa découverte en 2004, les calculs lui donnaient près de trois chances sur cent de nous percuter en 2029. | Vidéo réelle : « Asteroid Apophis 2029 Earth Flyby – Animations » (à 10 s) | transition black, caméra push, sfx riser, étiquette « DÉCOUVERT EN 2004 » |
+| 00:40.25 | Il a atteint le niveau quatre sur l'échelle de Turin, qui mesure le danger des astéroïdes. Du jamais-vu. | Vidéo réelle : « Asteroid Apophis 2029 Earth Flyby – Animations » (à 28 s), texte animé | transition cut, caméra in |
+| 00:45.76 | Mais rassure-toi : avec des mesures plus précises, la NASA a exclu tout risque de collision pour au moins cent ans. | Vidéo réelle : « Spinning Earth with clouds, atmosphere, and night lights » (à 40 s) | transition fade, caméra slow_in, musique intensité 0.4 |
+| 00:51.63 | En revanche, c'est la Terre qui va le secouer. | Vidéo réelle : « Spinning Earth with clouds, atmosphere, and night lights » (à 60 s) | transition whip, caméra push |
+| 00:54.02 | Notre gravité va modifier son orbite, changer sa rotation… et peut-être provoquer de petits glissements de terrain à sa surface. | Vidéo réelle : « Asteroid Apophis 2029 Earth Flyby – Animations » (à 24 s) | transition zoom, caméra drift, musique intensité 0.65 |
+| 01:01.43 | Et une sonde sera là pour l'observer : OSIRIS-APEX. | Vidéo réelle : « Asteroid Apophis 2029 Earth Flyby – Animations » (à 11 s) | transition flash, caméra in, étiquette « OSIRIS-APEX » |
+| 01:04.54 | C'est l'ancienne sonde OSIRIS-REx, celle qui a rapporté sur Terre des échantillons de l'astéroïde Bennu. | Vidéo réelle : « Asteroid Apophis 2029 Earth Flyby – Animations » (à 1 s) | transition cut, caméra slow_in |
+| 01:10.38 | Elle doit rejoindre Apophis juste après son passage, et l'étudier pendant environ un an et demi. | Vidéo réelle : « Asteroid Apophis 2029 Earth Flyby – Animations » (à 17 s) | transition fade, caméra push |
+| 01:15.70 | Vendredi 13 avril 2029 : note bien la date. Tu le regarderas ? Dis-le en commentaire. | Vidéo réelle : « Asteroid Apophis 2029 Earth Flyby – Animations » (à 29 s) | transition fade, caméra out, musique intensité 0.3 |
+
+**Crédits images (séquences réelles utilisées) :**
+
+- Asteroid Apophis 2029 Earth Flyby – Animations — NASA's Goddard Space Flight Center Scientific Visualization Studio — NASA Scientific Visualization Studio — Domaine public (NASA — image uniquement, bande-son non utilisée) — https://svs.gsfc.nasa.gov/20414/
+- Asteroid Apophis 2029 Earth Flyby – Animations — NASA's Goddard Space Flight Center Scientific Visualization Studio — NASA Scientific Visualization Studio — Domaine public (NASA — image uniquement, bande-son non utilisée) — https://svs.gsfc.nasa.gov/20414/
+- Asteroid Apophis 2029 Earth Flyby – Animations — NASA's Goddard Space Flight Center Scientific Visualization Studio — NASA Scientific Visualization Studio — Domaine public (NASA — image uniquement, bande-son non utilisée) — https://svs.gsfc.nasa.gov/20414/
+- Our Milky Way Gets a Makeover  Artist Concept — NASA/JPL-Caltech — NASA Image and Video Library — Domaine public (média NASA — usage libre, sans logo NASA ni suggestion de soutien) — https://images.nasa.gov/details/PIA10748
+- Spinning Earth with clouds, atmosphere, and night lights — NASA's Goddard Space Flight Center Scientific Visualization Studio — NASA Scientific Visualization Studio — Domaine public (NASA — image uniquement, bande-son non utilisée) — https://svs.gsfc.nasa.gov/5570/
+
+**Sources / vérification des faits :**
+
+- NASA/JPL CNEOS — (99942) Apophis : passage le 13 avril 2029 à environ 32 000 km de la surface, plus près que les satellites géostationnaires (35 786 km) ; visible à l'œil nu depuis l'hémisphère est (Europe, Afrique)
+- NASA — diamètre moyen d'environ 340 m (animation NASA : comparaison avec la tour Eiffel, 324 m)
+- NASA (mars 2021) — risque d'impact exclu pour au moins 100 ans ; découverte en 2004, probabilité initiale d'impact en 2029 d'environ 2,7 %, niveau 4 sur l'échelle de Turin (record)
+- NASA — OSIRIS-APEX (ex-OSIRIS-REx, échantillons de Bennu) : rendez-vous avec Apophis en 2029, étude d'environ 18 mois ; effets de marée possibles sur la rotation et la surface
+
+**Texte prononcé (pour réenregistrement éventuel) :**
+
+> Le vendredi treize avril deux mille vingt-neuf, un astéroïde va frôler la Terre. Il s'appelle Apophis, comme le dieu égyptien du chaos. Il mesure environ trois cent quarante mètres: à peu près la hauteur de la tour Eiffel. Et il va passer à environ trente-deux mille kilomètres de nous. Plus près que les satellites de télévision, en orbite à près de trente-six mille kilomètres. Jamais un astéroïde aussi gros n'a été observé en passant aussi près. Ce soir-là, il sera visible à l'œil nu, comme un point lumineux qui glisse parmi les étoiles. Notamment depuis l'Europe et l'Afrique. Au début, il a fait très peur. Après sa découverte en deux mille quatre, les calculs lui donnaient près de trois chances sur cent de nous percuter en deux mille vingt-neuf. Il a atteint le niveau quatre sur l'échelle de Turin, qui mesure le danger des astéroïdes. Du jamais-vu. Mais rassure-toi: avec des mesures plus précises, la NASA a exclu tout risque de collision pour au moins cent ans. En revanche, c'est la Terre qui va le secouer. Notre gravité va modifier son orbite, changer sa rotation… et peut-être provoquer de petits glissements de terrain à sa surface. Et une sonde sera là pour l'observer: OSIRIS-APEX. C'est l'ancienne sonde OSIRIS-REx, celle qui a rapporté sur Terre des échantillons de l'astéroïde Bennu. Elle doit rejoindre Apophis juste après son passage, et l'étudier pendant environ un an et demi. Vendredi treize avril deux mille vingt-neuf: note bien la date. Tu le regarderas? Dis-le en commentaire.
+
+---
+
+# Video 18 — Plus d'eau que dans tous les océans de la Terre
+
+**Niche :** Les secrets de l'Univers  
+**Accroche à l'écran :** PLUS D'EAU QUE SUR TOUTE LA TERRE  
+**Durée :** 91.2 s  
+**Musique :** composition originale procédurale (space, 70 BPM, progression minor_wonder)
+
+| Timecode | Narration | Visuel | Montage |
+|---|---|---|---|
+| 00:00.15 | Sous la glace de cette lune, il y aurait plus d'eau que dans tous les océans de la Terre réunis. | Vidéo réelle : « NASA’s Europa Clipper Mission Animations » (à 566 s) | transition cut, caméra in, sfx boom, musique intensité 0.35 |
+| 00:04.76 | Elle s'appelle Europe, et elle tourne autour de Jupiter. | Vidéo réelle : « NASA’s Europa Clipper Mission Animations » (à 449 s) | transition whip, caméra slow_in, étiquette « EUROPE • LUNE DE JUPITER » |
+| 00:07.75 | Elle est un peu plus petite que notre Lune, et sa surface est une coquille de glace, striée de fissures. | Vidéo réelle : « NASA’s Europa Clipper Mission Animations » (à 461 s) | transition cut, caméra drift |
+| 00:13.09 | Cette glace ferait quinze à vingt-cinq kilomètres d'épaisseur. | Vidéo réelle : « NASA’s Europa Clipper Mission Animations » (à 520 s), texte animé | transition zoom, caméra push |
+| 00:16.41 | Et dessous, un océan d'eau salée, profond de peut-être cent kilomètres. Environ deux fois plus d'eau que sur toute la Terre. | Vidéo réelle : « Spinning Earth with clouds, atmosphere, and night lights » (à 30 s), texte animé | transition fade, caméra slow_in |
+| 00:22.91 | Mais comment cette eau peut-elle rester liquide, si loin du Soleil, alors qu'en surface il fait moins cent soixante degrés ? | Vidéo réelle : « NASA’s Europa Clipper Mission Animations » (à 414 s) | transition black, caméra in, sfx riser |
+| 00:29.49 | Grâce à Jupiter. Sa gravité étire et comprime Europe en permanence, ce qui chauffe son intérieur. Comme une balle antistress qu'on malaxe. | Vidéo réelle : « Hubble Maps Jupiter in 4k Ultra HD » (à 6 s) | transition flash, caméra push, musique intensité 0.6 |
+| 00:38.05 | Au fond de cet océan, il pourrait même y avoir des sources chaudes. Sur Terre, ces endroits grouillent de vie. | Vidéo réelle : « Enceladus » (à 0 s), assombrissement | transition fade, caméra slow_in |
+| 00:43.59 | Pour en avoir le cœur net, la NASA a lancé en octobre 2024 la sonde Europa Clipper. | Vidéo réelle : « NASA’s Europa Clipper Mission Animations » (à 17 s) | transition cut, caméra in, étiquette « EUROPA CLIPPER • 2024 » |
+| 00:49.19 | C'est le plus grand engin jamais construit par la NASA pour explorer une planète : ses panneaux solaires mesurent environ trente mètres d'un bout à l'autre. | Vidéo réelle : « NASA’s Europa Clipper Mission Animations » (à 380 s), texte animé | transition zoom, caméra out |
+| 00:57.40 | Elle est passée près de Mars en 2025 pour prendre de l'élan, et doit frôler la Terre le 3 décembre. | Vidéo réelle : « NASA’s Europa Clipper Mission Animations » (à 244 s) | transition whip, caméra drift, étiquette « 3 DÉCEMBRE 2026 » |
+| 01:03.34 | Elle arrivera autour de Jupiter en 2030, et survolera Europe près de cinquante fois, parfois à seulement vingt-cinq kilomètres de sa surface. | Vidéo réelle : « NASA’s Europa Clipper Mission Animations » (à 467 s), texte animé | transition flash, caméra push, musique intensité 0.75 |
+| 01:11.77 | Son but n'est pas de trouver des extraterrestres, mais de savoir si cet océan pourrait abriter la vie. | Vidéo réelle : « NASA’s Europa Clipper Mission Animations » (à 512 s) | transition fade, caméra slow_in |
+| 01:17.48 | Elle emporte même une plaque gravée d'un poème… et les noms de plus de deux millions et demi de personnes. | Vidéo réelle : « NASA’s Europa Clipper Mission Animations » (à 387 s) | transition cut, caméra in |
+| 01:22.97 | Le premier signe de vie hors de la Terre se cache peut-être… sous cette glace. | Vidéo réelle : « NASA’s Europa Clipper Mission Animations » (à 593 s) | transition zoom, caméra slow_in |
+| 01:27.00 | Tu crois qu'il y a de la vie là-dessous ? Réponds en commentaire. | Vidéo réelle : « NASA’s Europa Clipper Mission Animations » (à 568 s) | transition fade, caméra out, musique intensité 0.3 |
+
+**Crédits images (séquences réelles utilisées) :**
+
+- NASA’s Europa Clipper Mission Animations — JPL — NASA Image and Video Library — Domaine public (média NASA — usage libre, sans logo NASA ni suggestion de soutien) — https://images.nasa.gov/details/JPL-20220310-CLIPPRf-0001-Europa%20Clipper%20Mission%20Animations
+- Spinning Earth with clouds, atmosphere, and night lights — NASA's Goddard Space Flight Center Scientific Visualization Studio — NASA Scientific Visualization Studio — Domaine public (NASA — image uniquement, bande-son non utilisée) — https://svs.gsfc.nasa.gov/5570/
+- Hubble Maps Jupiter in 4k Ultra HD — NASA's Goddard Space Flight Center Scientific Visualization Studio — NASA Scientific Visualization Studio — Domaine public (NASA — image uniquement, bande-son non utilisée) — https://svs.gsfc.nasa.gov/12021/
+- Enceladus — NASA's Goddard Space Flight Center Scientific Visualization Studio — NASA Scientific Visualization Studio — Domaine public (NASA — image uniquement, bande-son non utilisée) — https://svs.gsfc.nasa.gov/20384/
+
+**Sources / vérification des faits :**
+
+- NASA — Europe : océan global d'eau salée sous une croûte de glace estimée à 15–25 km, profond de 60 à 150 km ; environ deux fois le volume des océans terrestres
+- NASA — chauffage par les marées dues à Jupiter ; température de surface d'environ −160 °C à l'équateur
+- NASA/JPL — Europa Clipper lancée le 14 octobre 2024, plus grand engin planétaire de la NASA (panneaux d'environ 30 m) ; assistance gravitationnelle de Mars (mars 2025) et de la Terre (3 décembre 2026) ; arrivée prévue le 11 avril 2030 ; 49 survols, jusqu'à 25 km d'altitude
+- NASA — plaque avec le poème « In Praise of Mystery » (Ada Limón) et puce portant plus de 2,6 millions de noms
+
+**Texte prononcé (pour réenregistrement éventuel) :**
+
+> Sous la glace de cette lune, il y aurait plus d'eau que dans tous les océans de la Terre réunis. Elle s'appelle Europe, et elle tourne autour de Jupiter. Elle est un peu plus petite que notre Lune, et sa surface est une coquille de glace, striée de fissures. Cette glace ferait quinze à vingt-cinq kilomètres d'épaisseur. Et dessous, un océan d'eau salée, profond de peut-être cent kilomètres. Environ deux fois plus d'eau que sur toute la Terre. Mais comment cette eau peut-elle rester liquide, si loin du Soleil, alors qu'en surface il fait moins cent soixante degrés? Grâce à Jupiter. Sa gravité étire et comprime Europe en permanence, ce qui chauffe son intérieur. Comme une balle antistress qu'on malaxe. Au fond de cet océan, il pourrait même y avoir des sources chaudes. Sur Terre, ces endroits grouillent de vie. Pour en avoir le cœur net, la NASA a lancé en octobre deux mille vingt-quatre la sonde Europa Clipper. C'est le plus grand engin jamais construit par la NASA pour explorer une planète: ses panneaux solaires mesurent environ trente mètres d'un bout à l'autre. Elle est passée près de Mars en deux mille vingt-cinq pour prendre de l'élan, et doit frôler la Terre le trois décembre. Elle arrivera autour de Jupiter en deux mille trente, et survolera Europe près de cinquante fois, parfois à seulement vingt-cinq kilomètres de sa surface. Son but n'est pas de trouver des extraterrestres, mais de savoir si cet océan pourrait abriter la vie. Elle emporte même une plaque gravée d'un poème… et les noms de plus de deux millions et demi de personnes. Le premier signe de vie hors de la Terre se cache peut-être… sous cette glace. Tu crois qu'il y a de la vie là-dessous? Réponds en commentaire.
+
+---
+
+# Video 19 — Sur cette lune, il pleut… mais pas de l'eau
+
+**Niche :** Les secrets de l'Univers  
+**Accroche à l'écran :** DES LACS, DE LA PLUIE… MAIS PAS D'EAU  
+**Durée :** 78.0 s  
+**Musique :** composition originale procédurale (space, 70 BPM, progression minor_drift)
+
+| Timecode | Narration | Visuel | Montage |
+|---|---|---|---|
+| 00:00.15 | Il existe un monde avec des lacs, des rivières et de la pluie. Mais ce n'est pas de l'eau. | Vidéo réelle : « Titan science results from James Webb Space Telescope: anima » (à 17 s) | transition cut, caméra in, sfx boom, musique intensité 0.35 |
+| 00:04.49 | Bienvenue sur Titan, la plus grande lune de Saturne. | Vidéo réelle : « Titan science results from James Webb Space Telescope: anima » (à 28 s) | transition whip, caméra slow_in, étiquette « TITAN • LUNE DE SATURNE » |
+| 00:07.63 | Elle est plus grande que la planète Mercure, et c'est la seule lune connue à avoir une atmosphère épaisse. | Photo réelle : « Titan Up Front » | transition zoom, caméra push |
+| 00:13.06 | Son air est même plus dense que le nôtre : au sol, la pression est environ une fois et demie celle de la Terre. | Vidéo réelle : « Titan science results from James Webb Space Telescope: anima » (à 0 s), texte animé | transition cut, caméra drift |
+| 00:19.22 | Mais il y fait environ moins cent quatre-vingts degrés. | Vidéo réelle : « Titan science results from James Webb Space Telescope: anima » (à 3 s), compteur animé | transition flash, caméra in, sfx impact |
+| 00:22.05 | À cette température, le méthane, le principal composant du gaz de nos cuisinières, devient liquide. | Vidéo réelle : « Titan science results from James Webb Space Telescope: anima » (à 0 s) | transition fade, caméra slow_in |
+| 00:28.44 | Alors sur Titan, il pleut du méthane. Il coule en rivières, et remplit des lacs et des mers. | Vidéo réelle : « Titan science results from James Webb Space Telescope: anima » (à 8 s) | transition whip, caméra push, musique intensité 0.6 |
+| 00:33.77 | La plus grande, Kraken Mare, est à peu près aussi vaste que la mer Caspienne. | Vidéo réelle : « Titan science results from James Webb Space Telescope: anima » (à 20 s) | transition cut, caméra drift, étiquette « KRAKEN MARE » |
+| 00:38.66 | À part la Terre, c'est le seul endroit connu où des liquides restent stables à la surface. | Vidéo réelle : « Titan science results from James Webb Space Telescope: anima » (à 24 s) | transition fade, caméra slow_in |
+| 00:43.29 | Et avec sa faible gravité et son air épais, un humain pourrait, en théorie, y voler… avec des ailes attachées aux bras. | Vidéo réelle : « Titan science results from James Webb Space Telescope: anima » (à 28 s) | transition zoom, caméra in, musique intensité 0.7 |
+| 00:49.49 | En 2005, la sonde européenne Huygens s'y est posée : l'atterrissage le plus lointain jamais réalisé. | Vidéo réelle : « Titan science results from James Webb Space Telescope: anima » (à 4 s) | transition black, caméra push, sfx riser, étiquette « HUYGENS • JANVIER 2005 » |
+| 00:55.47 | Et la prochaine mission est encore plus folle : Dragonfly, un drone de la taille d'une voiture, qui volera de site en site. | Vidéo réelle : « Dragonfly Animation Resource Page » (à 0 s) | transition flash, caméra slow_in, étiquette « DRAGONFLY » |
+| 01:02.65 | Lancement prévu en 2028, arrivée sur Titan en 2034. | Vidéo réelle : « Dragonfly Animation Resource Page » (à 6 s), texte animé | transition cut, caméra in |
+| 01:07.30 | Son objectif : chercher les ingrédients chimiques de la vie, sur un monde qui rappelle la Terre à ses débuts. | Vidéo réelle : « Titan science results from James Webb Space Telescope: anima » (à 31 s) | transition fade, caméra slow_in |
+| 01:12.82 | Tu irais te baigner dans un lac de méthane ? Dis-le en commentaire. | Vidéo réelle : « Titan science results from James Webb Space Telescope: anima » (à 15 s) | transition fade, caméra out, musique intensité 0.3 |
+
+**Crédits images (séquences réelles utilisées) :**
+
+- Titan science results from James Webb Space Telescope: animation resource page — NASA's Goddard Space Flight Center Scientific Visualization Studio — NASA Scientific Visualization Studio — Domaine public (NASA — image uniquement, bande-son non utilisée) — https://svs.gsfc.nasa.gov/20403/
+- Titan science results from James Webb Space Telescope: animation resource page — NASA's Goddard Space Flight Center Scientific Visualization Studio — NASA Scientific Visualization Studio — Domaine public (NASA — image uniquement, bande-son non utilisée) — https://svs.gsfc.nasa.gov/20403/
+- Titan Up Front — NASA/JPL-Caltech/Space Science Institute — NASA Image and Video Library — Domaine public (média NASA — usage libre, sans logo NASA ni suggestion de soutien) — https://images.nasa.gov/details/PIA14909
+- Titan science results from James Webb Space Telescope: animation resource page — NASA's Goddard Space Flight Center Scientific Visualization Studio — NASA Scientific Visualization Studio — Domaine public (NASA — image uniquement, bande-son non utilisée) — https://svs.gsfc.nasa.gov/20403/
+- Titan science results from James Webb Space Telescope: animation resource page — NASA's Goddard Space Flight Center Scientific Visualization Studio — NASA Scientific Visualization Studio — Domaine public (NASA — image uniquement, bande-son non utilisée) — https://svs.gsfc.nasa.gov/20403/
+- Dragonfly Animation Resource Page — NASA/Johns Hopkins APL || Dragonfly_Landed_Closeup_print.jpg (1024x713) [191.2 KB] || Dragonfly_Landed_Closeup.png (2250x1567) [5.8 MB] || Dragonfly_Landed_Closeup_searchweb.png (320x180) [89.8 KB] || — NASA Scientific Visualization Studio — Domaine public (NASA — image uniquement, bande-son non utilisée) — https://svs.gsfc.nasa.gov/20311/
+
+**Sources / vérification des faits :**
+
+- NASA — Titan : plus grande lune de Saturne, plus grande que Mercure, seule lune à atmosphère dense (azote) ; pression au sol d'environ 1,5 bar ; environ −179 °C
+- NASA/Cassini — pluie, rivières, lacs et mers de méthane et d'éthane ; seul corps connu, avec la Terre, à liquides stables en surface ; Kraken Mare, environ 400 000 km² (ordre de grandeur de la mer Caspienne)
+- ESA — Huygens posée sur Titan le 14 janvier 2005, atterrissage le plus lointain jamais réalisé
+- NASA/APL — Dragonfly, aérogyre de la taille d'une voiture : lancement prévu en juillet 2028, arrivée en 2034 ; l'idée de voler à la force des bras sur Titan (gravité faible, air dense) est une estimation théorique courante
+
+**Texte prononcé (pour réenregistrement éventuel) :**
+
+> Il existe un monde avec des lacs, des rivières et de la pluie. Mais ce n'est pas de l'eau. Bienvenue sur Titan, la plus grande lune de Saturne. Elle est plus grande que la planète Mercure, et c'est la seule lune connue à avoir une atmosphère épaisse. Son air est même plus dense que le nôtre: au sol, la pression est environ une fois et demie celle de la Terre. Mais il y fait environ moins cent quatre-vingts degrés. À cette température, le méthane, le principal composant du gaz de nos cuisinières, devient liquide. Alors sur Titan, il pleut du méthane. Il coule en rivières, et remplit des lacs et des mers. La plus grande, Kraken Mare, est à peu près aussi vaste que la mer Caspienne. À part la Terre, c'est le seul endroit connu où des liquides restent stables à la surface. Et avec sa faible gravité et son air épais, un humain pourrait, en théorie, y voler… avec des ailes attachées aux bras. En deux mille cinq, la sonde européenne Huygens s'y est posée: l'atterrissage le plus lointain jamais réalisé. Et la prochaine mission est encore plus folle: Dragonfly, un drone de la taille d'une voiture, qui volera de site en site. Lancement prévu en deux mille vingt-huit, arrivée sur Titan en deux mille trente-quatre. Son objectif: chercher les ingrédients chimiques de la vie, sur un monde qui rappelle la Terre à ses débuts. Tu irais te baigner dans un lac de méthane? Dis-le en commentaire.
+
+---
+
+# Video 20 — L'objet le plus rapide jamais construit
+
+**Niche :** Les secrets de l'Univers  
+**Accroche à l'écran :** L'OBJET LE PLUS RAPIDE JAMAIS CONSTRUIT  
+**Durée :** 81.2 s  
+**Musique :** composition originale procédurale (space, 78 BPM, progression minor_epic)
+
+| Timecode | Narration | Visuel | Montage |
+|---|---|---|---|
+| 00:00.15 | L'objet le plus rapide jamais construit par l'humanité… fonce droit vers le Soleil. | Vidéo réelle : « NASA's Parker Solar Probe Touches The Sun For The First Time » (à 3 s) | transition cut, caméra in, sfx boom, musique intensité 0.35 |
+| 00:04.66 | C'est la sonde Parker Solar Probe, lancée par la NASA en 2018. | Vidéo réelle : « NASA's Parker Solar Probe Touches The Sun For The First Time » (à 0 s) | transition whip, caméra slow_in, étiquette « PARKER SOLAR PROBE » |
+| 00:09.43 | Le 24 décembre 2024, elle est passée à environ six millions de kilomètres de la surface du Soleil. | Vidéo réelle : « NASA's Parker Solar Probe Touches The Sun For The First Time » (à 0 s) | transition zoom, caméra push, étiquette « 24 DÉCEMBRE 2024 » |
+| 00:16.14 | Jamais un engin n'était allé aussi près. | Vidéo réelle : « Largest Flare yet from Solar Cycle 25 » (à 1 s) | transition flash, caméra in |
+| 00:18.49 | À ce moment-là, elle filait à environ six cent quatre-vingt-dix mille kilomètres par heure. | Vidéo réelle : « NASA's Parker Solar Probe Touches The Sun For The First Time » (à 5 s), compteur animé | transition cut, caméra push, sfx impact |
+| 00:23.04 | À cette vitesse, Paris-New York, ça prend… une trentaine de secondes. | Vidéo réelle : « NASA’s New Views of Venus’ Surface From Space » (à 180 s), texte animé | transition whip, caméra drift, musique intensité 0.6 |
+| 00:27.29 | Mais comment ne fond-elle pas ? | Vidéo réelle : « Simulating Solar Flows » (à 2 s) | transition black, caméra slow_in, sfx riser |
+| 00:28.84 | Grâce à un bouclier thermique d'à peine onze centimètres d'épaisseur, en composite de carbone. | Vidéo réelle : « NASA's Parker Solar Probe Touches The Sun For The First Time » (à 2 s) | transition cut, caméra in |
+| 00:34.24 | Côté Soleil, il encaisse près de mille quatre cents degrés. Juste derrière, les instruments restent autour de trente degrés. | Vidéo réelle : « NASA's Parker Solar Probe Touches The Sun For The First Time » (à 2 s), compteur animé | transition zoom, caméra push |
+| 00:40.99 | Et il y a un paradoxe : la couronne du Soleil, son atmosphère, dépasse le million de degrés. | Vidéo réelle : « Sun Releases Strong Solar Flare on October 23, 2024 » (à 0 s) | transition fade, caméra slow_in |
+| 00:46.14 | Mais elle est si peu dense qu'elle chauffe peu. Comme dans un four : l'air est brûlant, mais il te brûle bien moins vite que la plaque en métal. | Vidéo réelle : « Largest Flare yet from Solar Cycle 25 » (à 1 s) | transition whip, caméra drift |
+| 00:53.25 | En 2021, Parker est devenue le premier engin à « toucher » le Soleil, en traversant sa couronne. | Vidéo réelle : « Sun Releases Strong Solar Flare on October 23, 2024 » (à 0 s) | transition flash, caméra in, étiquette « 2021 », musique intensité 0.75 |
+| 00:59.55 | Pour se rapprocher autant, elle s'est servie sept fois de la gravité de Vénus pour freiner. | Vidéo réelle : « NASA’s New Views of Venus’ Surface From Space » (à 184 s) | transition cut, caméra slow_in |
+| 01:04.22 | Son nom rend hommage à Eugene Parker, l'astrophysicien qui avait prédit le vent solaire. Il a assisté au lancement, à quatre-vingt-onze ans. | Vidéo réelle : « Animation: Heliosphere » (à 2 s) | transition fade, caméra push |
+| 01:12.18 | Depuis, elle repasse à cette distance record environ tous les trois mois. | Vidéo réelle : « NASA's Parker Solar Probe Touches The Sun For The First Time » (à 6 s) | transition cut, caméra in |
+| 01:16.07 | Tu aurais cru qu'on était allés aussi près du Soleil ? Dis-le en commentaire. | Vidéo réelle : « NASA's Parker Solar Probe Touches The Sun For The First Time » (à 6 s) | transition fade, caméra out, musique intensité 0.3 |
+
+**Crédits images (séquences réelles utilisées) :**
+
+- NASA's Parker Solar Probe Touches The Sun For The First Time — NASA's Goddard Space Flight Center Scientific Visualization Studio — NASA Scientific Visualization Studio — Domaine public (NASA — image uniquement, bande-son non utilisée) — https://svs.gsfc.nasa.gov/14045/
+- NASA's Parker Solar Probe Touches The Sun For The First Time — NASA's Goddard Space Flight Center Scientific Visualization Studio — NASA Scientific Visualization Studio — Domaine public (NASA — image uniquement, bande-son non utilisée) — https://svs.gsfc.nasa.gov/14045/
+- NASA's Parker Solar Probe Touches The Sun For The First Time — NASA's Goddard Space Flight Center Scientific Visualization Studio — NASA Scientific Visualization Studio — Domaine public (NASA — image uniquement, bande-son non utilisée) — https://svs.gsfc.nasa.gov/14045/
+- Largest Flare yet from Solar Cycle 25 — NASA's Goddard Space Flight Center Scientific Visualization Studio — NASA Scientific Visualization Studio — Domaine public (NASA — image uniquement, bande-son non utilisée) — https://svs.gsfc.nasa.gov/14592/
+- NASA’s New Views of Venus’ Surface From Space — NASA's Goddard Space Flight Center Scientific Visualization Studio — NASA Scientific Visualization Studio — Domaine public (NASA — image uniquement, bande-son non utilisée) — https://svs.gsfc.nasa.gov/14095/
+- Simulating Solar Flows — NASA's Goddard Space Flight Center Scientific Visualization Studio — NASA Scientific Visualization Studio — Domaine public (NASA — image uniquement, bande-son non utilisée) — https://svs.gsfc.nasa.gov/31400/
+- Sun Releases Strong Solar Flare on October 23, 2024 — NASA/SDO || SDO_X3pt3_10-23-2024_0340_131-304-171.jpg (4096x4096) [4.7 MB] || SDO_X3pt3_10-23-2024_0340_131-304-171_searchweb.png (320x180) [104.1 KB] || SDO_X3pt3_10-23-2024_0340_131-304-171_thm.png  — NASA Scientific Visualization Studio — Domaine public (NASA — image uniquement, bande-son non utilisée) — https://svs.gsfc.nasa.gov/14709/
+- Largest Flare yet from Solar Cycle 25 — NASA's Goddard Space Flight Center Scientific Visualization Studio — NASA Scientific Visualization Studio — Domaine public (NASA — image uniquement, bande-son non utilisée) — https://svs.gsfc.nasa.gov/14592/
+- Sun Releases Strong Solar Flare on October 23, 2024 — NASA/SDO || SDO_X3pt3_10-23-2024_0340_131-304-171.jpg (4096x4096) [4.7 MB] || SDO_X3pt3_10-23-2024_0340_131-304-171_searchweb.png (320x180) [104.1 KB] || SDO_X3pt3_10-23-2024_0340_131-304-171_thm.png  — NASA Scientific Visualization Studio — Domaine public (NASA — image uniquement, bande-son non utilisée) — https://svs.gsfc.nasa.gov/14709/
+- Animation: Heliosphere — NASA's Goddard Space Flight Center Scientific Visualization Studio — NASA Scientific Visualization Studio — Domaine public (NASA — image uniquement, bande-son non utilisée) — https://svs.gsfc.nasa.gov/20363/
+
+**Sources / vérification des faits :**
+
+- NASA — Parker Solar Probe lancée le 12 août 2018 ; périhélie du 24 décembre 2024 à environ 6,1 millions de km de la surface, à environ 692 000 km/h (record de vitesse d'un objet construit par l'humain)
+- NASA/APL — bouclier thermique en composite carbone-carbone d'environ 11,4 cm, face au Soleil vers 1 400 °C, instruments maintenus autour de 30 °C
+- NASA — couronne à plus d'un million de degrés mais très peu dense ; premier passage dans la couronne en avril 2021 (annoncé en décembre 2021) ; sept assistances gravitationnelles de Vénus
+- NASA — premier engin baptisé du nom d'une personne vivante : Eugene Parker (1927–2022), présent au lancement à 91 ans ; orbite de 88 jours
+
+**Texte prononcé (pour réenregistrement éventuel) :**
+
+> L'objet le plus rapide jamais construit par l'humanité… fonce droit vers le Soleil. C'est la sonde Parker Solar Probe, lancée par la NASA en deux mille dix-huit. Le vingt-quatre décembre deux mille vingt-quatre, elle est passée à environ six millions de kilomètres de la surface du Soleil. Jamais un engin n'était allé aussi près. À ce moment-là, elle filait à environ six cent quatre-vingt-dix mille kilomètres par heure. À cette vitesse, Paris-New York, ça prend… une trentaine de secondes. Mais comment ne fond-elle pas? Grâce à un bouclier thermique d'à peine onze centimètres d'épaisseur, en composite de carbone. Côté Soleil, il encaisse près de mille quatre cents degrés. Juste derrière, les instruments restent autour de trente degrés. Et il y a un paradoxe: la couronne du Soleil, son atmosphère, dépasse le million de degrés. Mais elle est si peu dense qu'elle chauffe peu. Comme dans un four: l'air est brûlant, mais il te brûle bien moins vite que la plaque en métal. En deux mille vingt et un, Parker est devenue le premier engin à « toucher» le Soleil, en traversant sa couronne. Pour se rapprocher autant, elle s'est servie sept fois de la gravité de Vénus pour freiner. Son nom rend hommage à Eugene Parker, l'astrophysicien qui avait prédit le vent solaire. Il a assisté au lancement, à quatre-vingt-onze ans. Depuis, elle repasse à cette distance record environ tous les trois mois. Tu aurais cru qu'on était allés aussi près du Soleil? Dis-le en commentaire.
+
+---
+
+# Video 21 — Les anneaux de Saturne sont en train de disparaître
+
+**Niche :** Les secrets de l'Univers  
+**Accroche à l'écran :** LES ANNEAUX DE SATURNE DISPARAISSENT  
+**Durée :** 75.8 s  
+**Musique :** composition originale procédurale (space, 72 BPM, progression minor_wonder)
+
+| Timecode | Narration | Visuel | Montage |
+|---|---|---|---|
+| 00:00.15 | Les anneaux de Saturne… sont en train de disparaître. | Vidéo réelle : « Saturn's Rings Are Disappearing » (à 3 s) | transition cut, caméra in, sfx boom, musique intensité 0.35 |
+| 00:03.23 | Ils sont faits de milliards de morceaux de glace, du grain de poussière au bloc gros comme une maison. | Vidéo réelle : « Saturn's Rings Are Disappearing » (à 24 s) | transition whip, caméra slow_in |
+| 00:08.21 | Ils s'étendent sur près de trois cent mille kilomètres d'un bord à l'autre… mais ils ne font souvent qu'une dizaine de mètres d'épaisseur. | Vidéo réelle : « Saturn's Rings Are Disappearing » (à 86 s), texte animé | transition zoom, caméra push |
+| 00:14.86 | Et peu à peu, ils tombent sur la planète. | Vidéo réelle : « Saturn's Rings Are Disappearing » (à 33 s) | transition cut, caméra in |
+| 00:17.13 | Le champ magnétique et la gravité de Saturne attirent la glace des anneaux vers son atmosphère. C'est la « pluie des anneaux ». | Vidéo réelle : « Saturn's Rings Are Disappearing » (à 36 s) | transition fade, caméra slow_in, étiquette « PLUIE DES ANNEAUX » |
+| 00:23.66 | Selon la NASA, il en tombe de quoi remplir une piscine olympique… toutes les demi-heures. | Vidéo réelle : « Saturn's Rings Are Disappearing » (à 46 s), texte animé | transition flash, caméra push, sfx impact, musique intensité 0.6 |
+| 00:28.31 | À ce rythme, les anneaux pourraient disparaître d'ici trois cents millions d'années. Peut-être même moins. | Vidéo réelle : « Saturn's Rings Are Disappearing » (à 52 s) | transition whip, caméra drift |
+| 00:33.76 | Et ils seraient plutôt jeunes : quelques centaines de millions d'années tout au plus, selon plusieurs études. | Vidéo réelle : « Saturn's Rings Are Disappearing » (à 64 s) | transition black, caméra slow_in, sfx riser |
+| 00:39.02 | À l'échelle de l'Univers, on a eu de la chance d'arriver au bon moment pour les voir. | Vidéo réelle : « Saturn's Rings Are Disappearing » (à 9 s) | transition cut, caméra in |
+| 00:43.30 | En mars 2025, ils ont même semblé disparaître depuis la Terre. | Vidéo réelle : « Saturn's Rings Are Disappearing » (à 88 s) | transition zoom, caméra push, étiquette « MARS 2025 », musique intensité 0.7 |
+| 00:47.61 | Vus pile par la tranche, ils étaient trop fins pour être visibles. Ce phénomène revient environ tous les quinze ans. | Photo réelle : « Splendid Saturn » | transition fade, caméra slow_in |
+| 00:53.71 | Autre bizarrerie : Saturne est moins dense que l'eau. Dans une baignoire assez grande, elle flotterait. | Vidéo réelle : « Saturn's Rings Are Disappearing » (à 77 s) | transition whip, caméra in |
+| 00:58.65 | Et c'est en plongeant entre la planète et ses anneaux que la sonde Cassini a terminé sa mission, le 15 septembre 2017. | Vidéo réelle : « Cassini's Infrared Saturn (Short Version) » (à 354 s) | transition flash, caméra drift, étiquette « CASSINI • 2017 » |
+| 01:05.94 | Après treize ans autour de Saturne, elle s'est désintégrée dans son atmosphère. | Vidéo réelle : « Cassini's Infrared Saturn (Short Version) » (à 375 s) | transition fade, caméra slow_in |
+| 01:10.46 | Tu savais que les anneaux de Saturne allaient disparaître ? Dis-le en commentaire. | Vidéo réelle : « Saturn's Rings Are Disappearing » (à 12 s) | transition fade, caméra out, musique intensité 0.3 |
+
+**Crédits images (séquences réelles utilisées) :**
+
+- Saturn's Rings Are Disappearing — NASA's Goddard Space Flight Center Scientific Visualization Studio — NASA Scientific Visualization Studio — Domaine public (NASA — image uniquement, bande-son non utilisée) — https://svs.gsfc.nasa.gov/12672/
+- Splendid Saturn — NASA/JPL/Space Science Institute — NASA Image and Video Library — Domaine public (média NASA — usage libre, sans logo NASA ni suggestion de soutien) — https://images.nasa.gov/details/PIA06594
+- Cassini's Infrared Saturn (Short Version) — Dan Gallagher — NASA Image and Video Library — Domaine public (média NASA — usage libre, sans logo NASA ni suggestion de soutien) — https://images.nasa.gov/details/GSFC_20170912_Cassini_m12709_CIRS_Short
+
+**Sources / vérification des faits :**
+
+- NASA (2018) — « pluie des anneaux » : de quoi remplir une piscine olympique en une demi-heure ; anneaux pouvant disparaître d'ici environ 300 millions d'années, voire 100 millions selon les données de Cassini
+- NASA — anneaux principaux d'environ 280 000 km de diamètre, épaisseur souvent proche de 10 m ; blocs de glace d'eau de la taille de grains à celle de maisons
+- Études Cassini (Iess et al. 2019 ; Kempf et al. 2023) — anneaux jeunes, quelques centaines de millions d'années au plus (débat en cours)
+- Passage de la Terre dans le plan des anneaux le 23 mars 2025 (anneaux vus par la tranche, environ tous les 13 à 16 ans) ; densité moyenne de Saturne 0,69 g/cm³ ; fin de Cassini le 15 septembre 2017 après 13 ans en orbite
+
+**Texte prononcé (pour réenregistrement éventuel) :**
+
+> Les anneaux de Saturne… sont en train de disparaître. Ils sont faits de milliards de morceaux de glace, du grain de poussière au bloc gros comme une maison. Ils s'étendent sur près de trois cent mille kilomètres d'un bord à l'autre… mais ils ne font souvent qu'une dizaine de mètres d'épaisseur. Et peu à peu, ils tombent sur la planète. Le champ magnétique et la gravité de Saturne attirent la glace des anneaux vers son atmosphère. C'est la « pluie des anneaux». Selon la NASA, il en tombe de quoi remplir une piscine olympique… toutes les demi-heures. À ce rythme, les anneaux pourraient disparaître d'ici trois cents millions d'années. Peut-être même moins. Et ils seraient plutôt jeunes: quelques centaines de millions d'années tout au plus, selon plusieurs études. À l'échelle de l'Univers, on a eu de la chance d'arriver au bon moment pour les voir. En mars deux mille vingt-cinq, ils ont même semblé disparaître depuis la Terre. Vus pile par la tranche, ils étaient trop fins pour être visibles. Ce phénomène revient environ tous les quinze ans. Autre bizarrerie: Saturne est moins dense que l'eau. Dans une baignoire assez grande, elle flotterait. Et c'est en plongeant entre la planète et ses anneaux que la sonde Cassini a terminé sa mission, le quinze septembre deux mille dix-sept. Après treize ans autour de Saturne, elle s'est désintégrée dans son atmosphère. Tu savais que les anneaux de Saturne allaient disparaître? Dis-le en commentaire.
+
+---
+
+# Video 22 — La planète la plus proche du Soleil cache de la glace
+
+**Niche :** Les secrets de l'Univers  
+**Accroche à l'écran :** DE LA GLACE SUR MERCURE  
+**Durée :** 76.3 s  
+**Musique :** composition originale procédurale (space, 74 BPM, progression minor_float)
+
+| Timecode | Narration | Visuel | Montage |
+|---|---|---|---|
+| 00:00.15 | La planète la plus proche du Soleil… cache de la glace. | Vidéo réelle : « Global View of Mercury – Animation » (à 0 s) | transition cut, caméra in, sfx boom, musique intensité 0.35 |
+| 00:03.31 | Sur Mercure, le jour, il fait environ quatre cent trente degrés. Assez pour faire fondre du plomb. | Vidéo réelle : « Largest Flare yet from Solar Cycle 25 » (à 0 s), compteur animé | transition whip, caméra push, sfx impact |
+| 00:08.98 | Et la nuit, la température chute à environ moins cent quatre-vingts degrés. | Vidéo réelle : « Global View of Mercury – Animation » (à 18 s), compteur animé | transition cut, caméra slow_in |
+| 00:12.71 | Pourquoi un tel écart ? Parce que Mercure n'a presque pas d'atmosphère pour garder la chaleur. | Vidéo réelle : « Global View of Mercury – Animation » (à 28 s) | transition fade, caméra drift |
+| 00:17.56 | Et ses journées sont interminables : entre deux levers de soleil, il s'écoule cent soixante-seize jours terrestres. | Vidéo réelle : « Global View of Mercury – Animation » (à 38 s), compteur animé | transition zoom, caméra push |
+| 00:23.67 | Alors que son année ne dure que quatre-vingt-huit jours. Sur Mercure, une journée dure… deux ans. | Vidéo réelle : « Animation: Heliosphere » (à 2 s), texte animé | transition flash, caméra in, musique intensité 0.6 |
+| 00:28.74 | Mais alors, de la glace, où ça ? | Photo réelle : « Water Ice on Mercury » | transition black, caméra slow_in, sfx riser |
+| 00:30.66 | Au fond de cratères, près des pôles. | Photo réelle : « Water Ice on Mercury » | transition cut, caméra in, étiquette « EN JAUNE : LA GLACE » |
+| 00:32.65 | L'axe de Mercure est presque parfaitement droit. Résultat : le fond de ces cratères ne voit jamais le Soleil. | Photo réelle : « Water Ice on Mercury » | transition fade, caméra push |
+| 00:38.70 | Il y fait si froid que la glace d'eau peut y rester piégée pendant des millions d'années. | Photo réelle : « Water Ice on Mercury » | transition zoom, caméra slow_in |
+| 00:43.08 | C'est la sonde MESSENGER de la NASA qui l'a confirmé en 2012. | Photo réelle : « Water Ice on Mercury » | transition cut, caméra in, étiquette « MESSENGER • 2012 » |
+| 00:47.58 | Et il y en aurait beaucoup : entre cent milliards et mille milliards de tonnes. | Vidéo réelle : « Global View of Mercury – Animation » (à 46 s), texte animé | transition flash, caméra push, musique intensité 0.75 |
+| 00:51.19 | Autre surprise : Mercure rétrécit. En refroidissant, son rayon a diminué de plusieurs kilomètres, et sa surface s'est ridée comme une pomme qui sèche. | Vidéo réelle : « Global View of Mercury – Animation » (à 52 s) | transition whip, caméra drift |
+| 00:59.62 | Et une nouvelle visite approche : la mission BepiColombo, des agences spatiales européenne et japonaise. | Vidéo réelle : « Global View of Mercury – Animation » (à 30 s) | transition fade, caméra slow_in, étiquette « BEPICOLOMBO » |
+| 01:05.75 | Après huit ans de voyage, elle doit se placer en orbite autour de Mercure le 21 novembre. | Vidéo réelle : « Global View of Mercury – Animation » (à 4 s) | transition cut, caméra in, étiquette « 21 NOVEMBRE 2026 » |
+| 01:11.37 | Tu aurais cru qu'il y avait de la glace sur Mercure ? Dis-le en commentaire. | Vidéo réelle : « Global View of Mercury – Animation » (à 0 s) | transition fade, caméra out, musique intensité 0.3 |
+
+**Crédits images (séquences réelles utilisées) :**
+
+- Global View of Mercury – Animation — NASA's Goddard Space Flight Center Scientific Visualization Studio — NASA Scientific Visualization Studio — Domaine public (NASA — image uniquement, bande-son non utilisée) — https://svs.gsfc.nasa.gov/14110/
+- Largest Flare yet from Solar Cycle 25 — NASA's Goddard Space Flight Center Scientific Visualization Studio — NASA Scientific Visualization Studio — Domaine public (NASA — image uniquement, bande-son non utilisée) — https://svs.gsfc.nasa.gov/14592/
+- Animation: Heliosphere — NASA's Goddard Space Flight Center Scientific Visualization Studio — NASA Scientific Visualization Studio — Domaine public (NASA — image uniquement, bande-son non utilisée) — https://svs.gsfc.nasa.gov/20363/
+- Water Ice on Mercury — NASA/Johns Hopkins University Applied Physics Laboratory/Carnegie Institution of Washington — NASA Image and Video Library — Domaine public (média NASA — usage libre, sans logo NASA ni suggestion de soutien) — https://images.nasa.gov/details/PIA19411
+
+**Sources / vérification des faits :**
+
+- NASA — Mercure : environ 430 °C le jour, environ −180 °C la nuit ; pas d'atmosphère dense ; année de 88 jours, jour solaire de 176 jours terrestres
+- NASA/MESSENGER (2012) — glace d'eau dans les cratères polaires en ombre permanente (axe presque droit) ; estimation de 100 milliards à 1 000 milliards de tonnes
+- NASA/MESSENGER (2014) — contraction de Mercure : rayon diminué jusqu'à environ 7 km, escarpements en « rides »
+- ESA/JAXA — BepiColombo lancée en octobre 2018 ; mise en orbite autour de Mercure prévue le 21 novembre 2026
+
+**Texte prononcé (pour réenregistrement éventuel) :**
+
+> La planète la plus proche du Soleil… cache de la glace. Sur Mercure, le jour, il fait environ quatre cent trente degrés. Assez pour faire fondre du plomb. Et la nuit, la température chute à environ moins cent quatre-vingts degrés. Pourquoi un tel écart? Parce que Mercure n'a presque pas d'atmosphère pour garder la chaleur. Et ses journées sont interminables: entre deux levers de soleil, il s'écoule cent soixante-seize jours terrestres. Alors que son année ne dure que quatre-vingt-huit jours. Sur Mercure, une journée dure… deux ans. Mais alors, de la glace, où ça? Au fond de cratères, près des pôles. L'axe de Mercure est presque parfaitement droit. Résultat: le fond de ces cratères ne voit jamais le Soleil. Il y fait si froid que la glace d'eau peut y rester piégée pendant des millions d'années. C'est la sonde MESSENGER de la NASA qui l'a confirmé en deux mille douze. Et il y en aurait beaucoup: entre cent milliards et mille milliards de tonnes. Autre surprise: Mercure rétrécit. En refroidissant, son rayon a diminué de plusieurs kilomètres, et sa surface s'est ridée comme une pomme qui sèche. Et une nouvelle visite approche: la mission BepiColombo, des agences spatiales européenne et japonaise. Après huit ans de voyage, elle doit se placer en orbite autour de Mercure le vingt et un novembre. Tu aurais cru qu'il y avait de la glace sur Mercure? Dis-le en commentaire.
+
+---
+
+# Video 23 — Sur Mars, les couchers de soleil sont bleus
+
+**Niche :** Les secrets de l'Univers  
+**Accroche à l'écran :** SUR MARS, LE COUCHER DE SOLEIL EST BLEU  
+**Durée :** 78.3 s  
+**Musique :** composition originale procédurale (space, 70 BPM, progression minor_drift)
+
+| Timecode | Narration | Visuel | Montage |
+|---|---|---|---|
+| 00:00.15 | Sur Mars, les couchers de soleil sont bleus. | Photo réelle : « Sunset in Mars Gale Crater » | transition cut, caméra in, sfx boom, musique intensité 0.35 |
+| 00:02.57 | Cette photo a été prise par le robot Curiosity, en avril 2015, dans le cratère Gale. | Photo réelle : « Sunset in Mars Gale Crater » | transition whip, caméra slow_in, étiquette « CURIOSITY • AVRIL 2015 » |
+| 00:08.64 | Ce n'est pas un filtre : c'est à peu près ce que verraient tes yeux. | Vidéo réelle : « NASA On Air: NASA’s Curiosity Sees Blue Sunset On Mars (5/21 » (à 0 s) | transition cut, caméra drift |
+| 00:11.92 | Et c'est l'inverse de chez nous : sur Terre, le ciel est bleu le jour et rouge au coucher du soleil. | Vidéo réelle : « jsc2021m000138_4K_Earth_Views_Extended_Cut_for_Earth_Day_ 20 » (à 606 s) | transition fade, caméra push |
+| 00:16.89 | Sur Mars, le ciel est plutôt beige orangé en journée… et bleu quand le Soleil se couche. | Vidéo réelle : « Visualizations of Hunga Tonga Hunga Ha'apai and the Martian  » (à 10 s) | transition whip, caméra slow_in |
+| 00:21.80 | Pourquoi ? À cause de la poussière. | Vidéo réelle : « Mars Roll » (à 10 s) | transition black, caméra in, sfx riser |
+| 00:23.71 | Mars est rouge parce que sa poussière contient de l'oxyde de fer : en gros, de la rouille. | Vidéo réelle : « Mars Roll » (à 20 s) | transition cut, caméra drift |
+| 00:28.44 | Et ces grains, très fins, ont la bonne taille pour laisser passer la lumière bleue plus facilement… dans la direction du Soleil. | Vidéo réelle : « Visualizations of Hunga Tonga Hunga Ha'apai and the Martian  » (à 25 s) | transition zoom, caméra push, musique intensité 0.6 |
+| 00:34.62 | Le jour, la poussière répand des teintes ocre dans tout le ciel. Mais au coucher, il ne reste qu'un halo bleu autour du Soleil. | Vidéo réelle : « NASA On Air: NASA’s Curiosity Sees Blue Sunset On Mars (5/21 » (à 3 s) | transition fade, caméra slow_in |
+| 00:41.45 | En 2019, l'atterrisseur InSight a lui aussi photographié un coucher de soleil martien. | Photo réelle : « InSight Images a Sunset on Mars » | transition flash, caméra in, étiquette « INSIGHT • 2019 » |
+| 00:47.50 | Là-bas, le Soleil paraît plus petit : environ deux tiers de la taille qu'on lui voit depuis la Terre. | Photo réelle : « Sunset in Mars Gale Crater », texte animé | transition cut, caméra push |
+| 00:52.55 | Et sa lumière est moins forte : moins de la moitié de ce qu'on reçoit chez nous. | Vidéo réelle : « Mars Roll » (à 30 s) | transition whip, caméra drift |
+| 00:56.75 | Le crépuscule, lui, dure longtemps : la poussière en altitude continue d'éclairer le ciel jusqu'à deux heures après le coucher. | Vidéo réelle : « NASA On Air: NASA’s Curiosity Sees Blue Sunset On Mars (5/21 » (à 0 s) | transition fade, caméra slow_in, musique intensité 0.7 |
+| 01:03.62 | Et une journée martienne ne dure que quarante minutes de plus qu'une journée sur Terre. | Vidéo réelle : « Visualizations of Hunga Tonga Hunga Ha'apai and the Martian  » (à 40 s), texte animé | transition cut, caméra in |
+| 01:08.22 | Un jour, peut-être, des humains regarderont ce Soleil bleu se coucher… depuis Mars. | Vidéo réelle : « Visualizations of Hunga Tonga Hunga Ha'apai and the Martian  » (à 50 s) | transition zoom, caméra push |
+| 01:12.87 | Et toi, tu préfères les couchers de soleil d'ici ou de là-bas ? Dis-le en commentaire. | Photo réelle : « Sunset in Mars Gale Crater » | transition fade, caméra out, musique intensité 0.3 |
+
+**Crédits images (séquences réelles utilisées) :**
+
+- Sunset in Mars Gale Crater — NASA/JPL-Caltech/MSSS/Texas A&M Univ. — NASA Image and Video Library — Domaine public (média NASA — usage libre, sans logo NASA ni suggestion de soutien) — https://images.nasa.gov/details/PIA19400
+- NASA On Air: NASA’s Curiosity Sees Blue Sunset On Mars (5/21/2015) — NASA's Goddard Space Flight Center Scientific Visualization Studio — NASA Scientific Visualization Studio — Domaine public (NASA — image uniquement, bande-son non utilisée) — https://svs.gsfc.nasa.gov/11875/
+- jsc2021m000138_4K_Earth_Views_Extended_Cut_for_Earth_Day_ 2021_210422-4KMP4 — JSC — NASA Image and Video Library — Domaine public (média NASA — image uniquement) — https://images.nasa.gov/details/jsc2021m000138_4K_Earth_Views_Extended_Cut_for_Earth_Day_%202021_210422-4KMP4
+- Visualizations of Hunga Tonga Hunga Ha'apai and the Martian Landscape — NASA's Goddard Space Flight Center Scientific Visualization Studio — NASA Scientific Visualization Studio — Domaine public (NASA — image uniquement, bande-son non utilisée) — https://svs.gsfc.nasa.gov/4635/
+- Mars Roll — NASA's Goddard Space Flight Center Scientific Visualization Studio — NASA Scientific Visualization Studio — Domaine public (NASA — image uniquement, bande-son non utilisée) — https://svs.gsfc.nasa.gov/3896/
+- InSight Images a Sunset on Mars — NASA/JPL-Caltech — NASA Image and Video Library — Domaine public (média NASA — usage libre, sans logo NASA ni suggestion de soutien) — https://images.nasa.gov/details/PIA23202
+
+**Sources / vérification des faits :**
+
+- NASA/JPL — PIA19400 : coucher de soleil bleu photographié par Curiosity le 15 avril 2015 (sol 956), cratère Gale ; couleurs proches de la vision humaine
+- NASA — la poussière martienne très fine laisse passer la lumière bleue plus efficacement près de la direction du Soleil ; ciel ocre le jour ; crépuscule jusqu'à environ deux heures
+- NASA/JPL — PIA23202 : coucher de soleil vu par InSight (avril 2019)
+- Données NASA — Soleil vu de Mars environ deux tiers de sa taille apparente terrestre, ensoleillement d'environ 43 % ; sol de 24 h 39 min ; poussière riche en oxydes de fer
+
+**Texte prononcé (pour réenregistrement éventuel) :**
+
+> Sur Mars, les couchers de soleil sont bleus. Cette photo a été prise par le robot Curiosity, en avril deux mille quinze, dans le cratère Gale. Ce n'est pas un filtre: c'est à peu près ce que verraient tes yeux. Et c'est l'inverse de chez nous: sur Terre, le ciel est bleu le jour et rouge au coucher du soleil. Sur Mars, le ciel est plutôt beige orangé en journée… et bleu quand le Soleil se couche. Pourquoi? À cause de la poussière. Mars est rouge parce que sa poussière contient de l'oxyde de fer: en gros, de la rouille. Et ces grains, très fins, ont la bonne taille pour laisser passer la lumière bleue plus facilement… dans la direction du Soleil. Le jour, la poussière répand des teintes ocre dans tout le ciel. Mais au coucher, il ne reste qu'un halo bleu autour du Soleil. En deux mille dix-neuf, l'atterrisseur InSight a lui aussi photographié un coucher de soleil martien. Là-bas, le Soleil paraît plus petit: environ deux tiers de la taille qu'on lui voit depuis la Terre. Et sa lumière est moins forte: moins de la moitié de ce qu'on reçoit chez nous. Le crépuscule, lui, dure longtemps: la poussière en altitude continue d'éclairer le ciel jusqu'à deux heures après le coucher. Et une journée martienne ne dure que quarante minutes de plus qu'une journée sur Terre. Un jour, peut-être, des humains regarderont ce Soleil bleu se coucher… depuis Mars. Et toi, tu préfères les couchers de soleil d'ici ou de là-bas? Dis-le en commentaire.
+
+---
+
+# Video 24 — Cette lune crache de l'eau dans l'espace
+
+**Niche :** Les secrets de l'Univers  
+**Accroche à l'écran :** UNE LUNE QUI CRACHE DE L'EAU  
+**Durée :** 83.3 s  
+**Musique :** composition originale procédurale (space, 72 BPM, progression minor_float)
+
+| Timecode | Narration | Visuel | Montage |
+|---|---|---|---|
+| 00:00.15 | Cette petite lune de Saturne crache de l'eau dans l'espace. | Vidéo réelle : « Enceladus » (à 1 s) | transition cut, caméra in, sfx boom, musique intensité 0.35 |
+| 00:03.42 | Elle s'appelle Encelade, et elle ne fait qu'environ cinq cents kilomètres de diamètre. | Vidéo réelle : « Cassini's Infrared Saturn (Short Version) » (à 178 s), compteur animé | transition whip, caméra slow_in, étiquette « ENCELADE • LUNE DE SATURNE » |
+| 00:08.01 | C'est l'un des objets les plus brillants du système solaire : sa glace renvoie presque toute la lumière du Soleil. | Vidéo réelle : « Cassini's Infrared Saturn (Short Version) » (à 175 s) | transition cut, caméra drift |
+| 00:14.20 | Et en surface, il fait environ moins deux cents degrés. | Vidéo réelle : « Enceladus » (à 9 s), compteur animé | transition zoom, caméra push |
+| 00:17.14 | En 2005, la sonde Cassini a découvert quelque chose d'incroyable près de son pôle sud. | Photo réelle : « Bursting at the Seams: the Geyser Basin of Enceladus » | transition black, caméra slow_in, sfx riser, étiquette « CASSINI • 2005 » |
+| 00:22.80 | Des geysers. Une centaine de jets de vapeur d'eau et de glace, qui jaillissent de grandes fractures surnommées les « rayures de tigre ». | Photo réelle : « Bursting at the Seams: the Geyser Basin of Enceladus » | transition flash, caméra in, sfx impact, musique intensité 0.6 |
+| 00:29.32 | Cette glace est si abondante qu'elle alimente l'un des anneaux de Saturne : l'anneau E. | Vidéo réelle : « Enceladus » (à 6 s) | transition whip, caméra drift |
+| 00:33.69 | En 2023, le télescope James Webb a repéré un panache de vapeur d'eau long d'environ dix mille kilomètres. | Vidéo réelle : « Titan science results from James Webb Space Telescope: anima » (à 12 s) | transition cut, caméra push, étiquette « JAMES WEBB • 2023 » |
+| 00:40.89 | Près de vingt fois la taille d'Encelade elle-même. | Photo réelle : « Bursting at the Seams: the Geyser Basin of Enceladus » | transition zoom, caméra in |
+| 00:43.18 | Il rejette environ trois cents litres d'eau par seconde. De quoi remplir une piscine olympique en quelques heures. | Vidéo réelle : « Enceladus » (à 7 s), texte animé | transition fade, caméra slow_in |
+| 00:49.40 | D'où vient toute cette eau ? D'un océan caché sous la glace, qui fait le tour de la lune entière. | Photo réelle : « Global Ocean on Enceladus Artist Rendering » | transition whip, caméra push |
+| 00:54.24 | En traversant ces panaches, Cassini y a trouvé du sel, des molécules organiques… et de l'hydrogène, le signe possible de sources chaudes au fond de l'océan. | Vidéo réelle : « Enceladus » (à 0 s), assombrissement | transition fade, caméra slow_in |
+| 01:02.60 | Et en 2023, des chercheurs y ont aussi détecté du phosphore, un ingrédient indispensable à la vie telle qu'on la connaît. | Vidéo réelle : « Cassini's Infrared Saturn (Short Version) » (à 222 s) | transition flash, caméra in, musique intensité 0.75 |
+| 01:09.78 | Eau liquide, énergie, chimie : Encelade réunit presque tout ce qu'il faut pour abriter la vie. | Vidéo réelle : « Enceladus » (à 7 s) | transition zoom, caméra drift |
+| 01:14.58 | C'est l'un des meilleurs endroits du système solaire pour chercher des êtres vivants. | Vidéo réelle : « Saturn's Rings Are Disappearing » (à 15 s) | transition fade, caméra slow_in |
+| 01:18.71 | Tu penses qu'il y a de la vie dans cet océan ? Dis-le en commentaire. | Vidéo réelle : « Enceladus » (à 2 s) | transition fade, caméra out, musique intensité 0.3 |
+
+**Crédits images (séquences réelles utilisées) :**
+
+- Enceladus — NASA's Goddard Space Flight Center Scientific Visualization Studio — NASA Scientific Visualization Studio — Domaine public (NASA — image uniquement, bande-son non utilisée) — https://svs.gsfc.nasa.gov/20384/
+- Cassini's Infrared Saturn (Short Version) — Dan Gallagher — NASA Image and Video Library — Domaine public (média NASA — usage libre, sans logo NASA ni suggestion de soutien) — https://images.nasa.gov/details/GSFC_20170912_Cassini_m12709_CIRS_Short
+- Bursting at the Seams: the Geyser Basin of Enceladus — NASA/JPL/Space Science Institute — NASA Image and Video Library — Domaine public (média NASA — usage libre, sans logo NASA ni suggestion de soutien) — https://images.nasa.gov/details/PIA11688
+- Titan science results from James Webb Space Telescope: animation resource page — NASA's Goddard Space Flight Center Scientific Visualization Studio — NASA Scientific Visualization Studio — Domaine public (NASA — image uniquement, bande-son non utilisée) — https://svs.gsfc.nasa.gov/20403/
+- Global Ocean on Enceladus Artist Rendering — NASA/JPL-Caltech — NASA Image and Video Library — Domaine public (média NASA — usage libre, sans logo NASA ni suggestion de soutien) — https://images.nasa.gov/details/PIA19656
+- Enceladus — NASA's Goddard Space Flight Center Scientific Visualization Studio — NASA Scientific Visualization Studio — Domaine public (NASA — image uniquement, bande-son non utilisée) — https://svs.gsfc.nasa.gov/20384/
+- Saturn's Rings Are Disappearing — NASA's Goddard Space Flight Center Scientific Visualization Studio — NASA Scientific Visualization Studio — Domaine public (NASA — image uniquement, bande-son non utilisée) — https://svs.gsfc.nasa.gov/12672/
+
+**Sources / vérification des faits :**
+
+- NASA — Encelade : environ 500 km de diamètre, l'un des corps les plus réfléchissants du système solaire, surface vers −200 °C
+- NASA/Cassini — jets découverts en 2005 au pôle sud (« rayures de tigre ») ; une centaine de geysers recensés ; ils alimentent l'anneau E ; océan global sous la glace ; hydrogène moléculaire détecté (2017), signe possible d'activité hydrothermale
+- NASA/ESA/CSA — Webb (2023) : panache d'environ 9 600 km, environ 300 litres d'eau par seconde
+- Postberg et al., Nature (2023) — phosphates détectés dans des grains de glace d'Encelade (données Cassini)
+
+**Texte prononcé (pour réenregistrement éventuel) :**
+
+> Cette petite lune de Saturne crache de l'eau dans l'espace. Elle s'appelle Encelade, et elle ne fait qu'environ cinq cents kilomètres de diamètre. C'est l'un des objets les plus brillants du système solaire: sa glace renvoie presque toute la lumière du Soleil. Et en surface, il fait environ moins deux cents degrés. En deux mille cinq, la sonde Cassini a découvert quelque chose d'incroyable près de son pôle sud. Des geysers. Une centaine de jets de vapeur d'eau et de glace, qui jaillissent de grandes fractures surnommées les « rayures de tigre». Cette glace est si abondante qu'elle alimente l'un des anneaux de Saturne: l'anneau E. En deux mille vingt-trois, le télescope James Webb a repéré un panache de vapeur d'eau long d'environ dix mille kilomètres. Près de vingt fois la taille d'Encelade elle-même. Il rejette environ trois cents litres d'eau par seconde. De quoi remplir une piscine olympique en quelques heures. D'où vient toute cette eau? D'un océan caché sous la glace, qui fait le tour de la lune entière. En traversant ces panaches, Cassini y a trouvé du sel, des molécules organiques… et de l'hydrogène, le signe possible de sources chaudes au fond de l'océan. Et en deux mille vingt-trois, des chercheurs y ont aussi détecté du phosphore, un ingrédient indispensable à la vie telle qu'on la connaît. Eau liquide, énergie, chimie: Encelade réunit presque tout ce qu'il faut pour abriter la vie. C'est l'un des meilleurs endroits du système solaire pour chercher des êtres vivants. Tu penses qu'il y a de la vie dans cet océan? Dis-le en commentaire.
+
+---
+
+# Video 25 — Cette sonde sera bientôt à un jour-lumière de la Terre
+
+**Niche :** Les secrets de l'Univers  
+**Accroche à l'écran :** À 1 JOUR-LUMIÈRE DE LA TERRE  
+**Durée :** 81.2 s  
+**Musique :** composition originale procédurale (space, 68 BPM, progression minor_wonder)
+
+| Timecode | Narration | Visuel | Montage |
+|---|---|---|---|
+| 00:00.15 | Dans quelques jours, cette sonde sera à un jour-lumière de la Terre. | Vidéo réelle : « Exploring Planet Uranus Resource Page » (à 0 s) | transition cut, caméra in, sfx boom, musique intensité 0.35 |
+| 00:03.65 | C'est Voyager 1, lancée en 1977. Elle voyage depuis quarante-neuf ans. | Photo réelle : « Voyager in Deep Space (Artist Concept) » | transition whip, caméra slow_in, étiquette « VOYAGER 1 • 1977 » |
+| 00:09.18 | Vers le 18 novembre, elle sera à environ vingt-cinq milliards neuf cents millions de kilomètres. | Vidéo réelle : « Animation: Heliosphere » (à 7 s), compteur animé | transition zoom, caméra push, étiquette « 18 NOVEMBRE 2026 » |
+| 00:14.49 | Si loin qu'un message envoyé depuis la Terre mettra une journée entière pour l'atteindre. Et autant pour revenir. | Photo réelle : « Voyager in Space Artist Concept », texte animé | transition fade, caméra slow_in |
+| 00:20.41 | Elle file à environ soixante et un mille kilomètres par heure. | Photo réelle : « NASA's Voyager Probe Speeds Through Space (Artist's Concept) », compteur animé | transition cut, caméra in, sfx impact |
+| 00:23.73 | En chemin, elle a survolé Jupiter en 1979… | Vidéo réelle : « Jupiter's Great Red Spot Shrinks and Grows » (à 35 s) | transition whip, caméra drift, étiquette « JUPITER • 1979 » |
+| 00:27.79 | … et Saturne en 1980. | Vidéo réelle : « Saturn's Rings Are Disappearing » (à 6 s) | transition cut, caméra push, étiquette « SATURNE • 1980 » |
+| 00:30.02 | En 2012, elle est devenue le premier objet humain à entrer dans l'espace interstellaire, hors de la bulle du vent solaire. | Vidéo réelle : « Animation: Heliosphere » (à 11 s) | transition flash, caméra slow_in, étiquette « 2012 », musique intensité 0.6 |
+| 00:36.80 | Mais sa photo la plus célèbre, elle l'a prise en se retournant. | StarField, Halo | transition black, caméra slow_in, sfx riser |
+| 00:40.14 | Le 14 février 1990, à six milliards de kilomètres, elle a photographié la Terre. | Photo réelle : « Pale Blue Dot Revisited » | transition fade, caméra {'z': (1.0, 1.3), 'focus': (540, 960)}, étiquette « 14 FÉVRIER 1990 » |
+| 00:46.12 | La voici. | Photo réelle : « Pale Blue Dot Revisited », assombrissement | transition zoom, caméra {'z': (1.0, 1.3), 'focus': (540, 960)}, musique intensité 0.2 |
+| 00:47.19 | Ce petit point, plus petit qu'un pixel, c'est nous. Tous les humains qui ont jamais vécu sont là. | Photo réelle : « Pale Blue Dot Revisited », assombrissement | transition cut, caméra {'z': (1.0, 1.3), 'focus': (540, 960)} |
+| 00:52.08 | L'astronome Carl Sagan l'a appelée : le « point bleu pâle ». | Vidéo réelle : « Spinning Earth with clouds, atmosphere, and night lights » (à 50 s) | transition fade, caméra slow_in, musique intensité 0.7 |
+| 00:55.54 | Aujourd'hui, Voyager 1 émet avec la puissance d'une ampoule de frigo… et on capte encore son signal. | Vidéo réelle : « Spinning Earth with clouds, atmosphere, and night lights » (à 70 s) | transition whip, caméra drift |
+| 01:01.21 | Mais son énergie baisse chaque année. Elle devrait se taire dans les années 2030. | Vidéo réelle : « Animation: Heliosphere » (à 20 s) | transition fade, caméra slow_in |
+| 01:05.75 | À bord, un disque en or : des sons, de la musique, et des salutations en cinquante-cinq langues. Un message pour qui le trouvera. | Vidéo réelle : « Exploring Planet Uranus Resource Page » (à 0 s) | transition zoom, caméra push |
+| 01:12.72 | Dans environ quarante mille ans, elle passera près d'une autre étoile. | Photo réelle : « Our Milky Way Gets a Makeover  Artist Concept » | transition cut, caméra in |
+| 01:16.26 | Tu imagines ? Dis-moi en commentaire ce que tu mettrais sur ce disque. | Photo réelle : « Pale Blue Dot Revisited » | transition fade, caméra out, musique intensité 0.3 |
+
+**Crédits images (séquences réelles utilisées) :**
+
+- Exploring Planet Uranus Resource Page — NASA's Goddard Space Flight Center Scientific Visualization Studio — NASA Scientific Visualization Studio — Domaine public (NASA — image uniquement, bande-son non utilisée) — https://svs.gsfc.nasa.gov/20390/
+- Voyager in Deep Space (Artist Concept) — NASA/JPL-Caltech — NASA Image and Video Library — Domaine public (média NASA — usage libre, sans logo NASA ni suggestion de soutien) — https://images.nasa.gov/details/PIA21839
+- Animation: Heliosphere — NASA's Goddard Space Flight Center Scientific Visualization Studio — NASA Scientific Visualization Studio — Domaine public (NASA — image uniquement, bande-son non utilisée) — https://svs.gsfc.nasa.gov/20363/
+- Voyager in Space Artist Concept — NASA/JPL-Caltech — NASA Image and Video Library — Domaine public (média NASA — usage libre, sans logo NASA ni suggestion de soutien) — https://images.nasa.gov/details/PIA17049
+- NASA's Voyager Probe Speeds Through Space (Artist's Concept) — NASA/JPL-Caltech — NASA Image and Video Library — Domaine public (média NASA — usage libre, sans logo NASA ni suggestion de soutien) — https://images.nasa.gov/details/PIA26353
+- Jupiter's Great Red Spot Shrinks and Grows — NASA's Goddard Space Flight Center Scientific Visualization Studio — NASA Scientific Visualization Studio — Domaine public (NASA — image uniquement, bande-son non utilisée) — https://svs.gsfc.nasa.gov/12878/
+- Saturn's Rings Are Disappearing — NASA's Goddard Space Flight Center Scientific Visualization Studio — NASA Scientific Visualization Studio — Domaine public (NASA — image uniquement, bande-son non utilisée) — https://svs.gsfc.nasa.gov/12672/
+- Pale Blue Dot Revisited — NASA/JPL-Caltech — NASA Image and Video Library — Domaine public (média NASA — usage libre, sans logo NASA ni suggestion de soutien) — https://images.nasa.gov/details/PIA23645
+- Spinning Earth with clouds, atmosphere, and night lights — NASA's Goddard Space Flight Center Scientific Visualization Studio — NASA Scientific Visualization Studio — Domaine public (NASA — image uniquement, bande-son non utilisée) — https://svs.gsfc.nasa.gov/5570/
+- Our Milky Way Gets a Makeover  Artist Concept — NASA/JPL-Caltech — NASA Image and Video Library — Domaine public (média NASA — usage libre, sans logo NASA ni suggestion de soutien) — https://images.nasa.gov/details/PIA10748
+
+**Sources / vérification des faits :**
+
+- NASA/JPL — Voyager 1 lancée le 5 septembre 1977 ; un jour-lumière (environ 25,9 milliards de km) atteint vers le 18 novembre 2026 ; vitesse d'environ 61 000 km/h
+- NASA — survols de Jupiter (1979) et de Saturne (1980) ; entrée dans l'espace interstellaire le 25 août 2012
+- NASA/JPL — « Pale Blue Dot », 14 février 1990, à environ 6 milliards de km (PIA23645, version retraitée en 2020) ; expression de Carl Sagan ; la Terre occupe moins d'un pixel
+- NASA/JPL — émetteur d'environ 22 W (comparaison NASA : ampoule de réfrigérateur), énergie en baisse, fin attendue dans les années 2030 ; disque d'or avec salutations en 55 langues ; passage à 1,6 année-lumière de l'étoile Gliese 445 dans environ 40 000 ans
+
+**Texte prononcé (pour réenregistrement éventuel) :**
+
+> Dans quelques jours, cette sonde sera à un jour-lumière de la Terre. C'est Voyager un, lancée en mille neuf cent soixante-dix-sept. Elle voyage depuis quarante-neuf ans. Vers le dix-huit novembre, elle sera à environ vingt-cinq milliards neuf cents millions de kilomètres. Si loin qu'un message envoyé depuis la Terre mettra une journée entière pour l'atteindre. Et autant pour revenir. Elle file à environ soixante et un mille kilomètres par heure. En chemin, elle a survolé Jupiter en mille neuf cent soixante-dix-neuf… … et Saturne en mille neuf cent quatre-vingts. En deux mille douze, elle est devenue le premier objet humain à entrer dans l'espace interstellaire, hors de la bulle du vent solaire. Mais sa photo la plus célèbre, elle l'a prise en se retournant. Le quatorze février mille neuf cent quatre-vingt-dix, à six milliards de kilomètres, elle a photographié la Terre. La voici. Ce petit point, plus petit qu'un pixel, c'est nous. Tous les humains qui ont jamais vécu sont là. L'astronome Carl Sagan l'a appelée: le « point bleu pâle». Aujourd'hui, Voyager un émet avec la puissance d'une ampoule de frigo… et on capte encore son signal. Mais son énergie baisse chaque année. Elle devrait se taire dans les années deux mille trente. À bord, un disque en or: des sons, de la musique, et des salutations en cinquante-cinq langues. Un message pour qui le trouvera. Dans environ quarante mille ans, elle passera près d'une autre étoile. Tu imagines? Dis-moi en commentaire ce que tu mettrais sur ce disque.

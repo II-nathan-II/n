@@ -2,6 +2,18 @@
 
 Heures en **heure de Paris**, à tester sur 2 à 3 semaines puis à ajuster avec TikTok Analytics (onglet *Abonnés → activité*). Activer le label **« Contenu généré par IA »** à la publication (voix de synthèse). Une vidéo par jour et par compte au maximum au début.
 
+## reflexion_01 — Les secrets de l'Univers
+
+**Fichier :** `NICHE_1/reflexion_01.mp4`  
+**1. Titre :** L'infime et l'infini 🌌  
+**2. Description :** Tu es fait de 7 milliards de milliards de milliards d'atomes… presque vides. Et le fer de ton sang vient d'étoiles mortes. Infime ou infini ? 👇 (Animations 3D originales avec cartes NASA du domaine public ; voix de synthèse.)  
+**3. Hashtags :** #espace #univers #philosophie #reflexion #cosmos  
+**4. Phrase d'accroche :** « Tu es fait d'environ sept milliards de milliards de milliards d'atomes. »  
+**5. Couverture :** La Terre de nuit entre des lignes de lumière ; texte : « L'INFIME ET L'INFINI ». — image prête : `PUBLICATION/couvertures/reflexion_01_couverture.jpg`  
+**6. Créneau à tester :** 21 h 00  
+**7. Potentiel viral :** Format « réflexion » qui marche sur TikTok (philosophie + espace), animations originales lumineuses, un mot à la fois, question finale qui pousse à commenter.  
+**Crédits à mentionner (fin de description) :** Images : NASA's Goddard Space Flight Center Conceptual Image Lab || SN_HQ_Full_H264_V001.00750_print.jpg (1024x576) [120.0 KB] || SN_HQ_Full_H264_V001.00750_searchweb.png (320x180) [77.3 KB] || SN_HQ_Full_H264
+
 ## video_01 — Les secrets de l'Univers
 
 **Fichier :** `NICHE_1/video_01.mp4`  
@@ -181,4 +193,124 @@ Heures en **heure de Paris**, à tester sur 2 à 3 semaines puis à ajuster avec
 **6. Créneau à tester :** 12 h 30  
 **7. Potentiel viral :** Fait contre-intuitif lié au quotidien (le soleil sur la peau), image mentale forte (la foule) et mise en perspective historique (avant l'écriture).  
 **Crédits à mentionner (fin de description) :** Images : JSC ; NASA's Goddard Space Flight Center Scientific Visualization Studio ; NASA/SDO || Oct_26_X1pt8_Flare_multi_big.jpg (5120x3072) [3.4 MB] || Oct_26_X1pt8_Flare_multi_big_searchweb.png (320x180) [95.8 KB] || Oct_26_X1pt8_Flare_multi_big_thm.png (80x40) [7.6 KB] || ; NASA/SDO || SDO_X3pt3_10-23-2024_0340_131-304-171.jpg (4096x4096) [4.7 MB] || SDO_X3pt3_10-23-2024_0340_131-304-171_searchweb.png (320x180) [104.1 KB] || SDO_X3pt3_10-23-2024_0340_131-304-171_thm.png
+
+## video_16 — Les secrets de l'Univers
+
+**Fichier :** `NICHE_1/video_16.mp4`  
+**1. Titre :** 16 levers de soleil par jour 🌅  
+**2. Description :** La Station spatiale fait le tour de la Terre en 90 minutes, à 28 000 km/h. Et non, les astronautes ne flottent pas faute de gravité : ils tombent… en permanence. Tu aimerais vivre ça ? 👇 (Images : NASA — vues réelles depuis l'ISS.)  
+**3. Hashtags :** #espace #iss #astronaute #nasa #science  
+**4. Phrase d'accroche :** « Les astronautes de la Station spatiale voient le Soleil se lever seize fois par jour. »  
+**5. Couverture :** Panneau solaire de l'ISS au-dessus de la Terre ; texte : « 16 LEVERS DE SOLEIL PAR JOUR ». — image prête : `PUBLICATION/couvertures/video_16_couverture.jpg`  
+**6. Créneau à tester :** 12 h 30  
+**7. Potentiel viral :** Chiffre surprenant dès la 1re seconde, vraies images de l'ISS, idée reçue démontée (l'apesanteur) et anniversaire récent (26 ans de présence humaine continue).  
+**Crédits à mentionner (fin de description) :** Images : JSC ; NASA's Goddard Space Flight Center Scientific Visualization Studio
+
+## video_17 — Les secrets de l'Univers
+
+**Fichier :** `NICHE_1/video_17.mp4`  
+**1. Titre :** Vendredi 13 avril 2029, un astéroïde va frôler la Terre ☄️  
+**2. Description :** Apophis : la taille de la tour Eiffel, à 32 000 km de nous, plus près que les satellites TV. Visible à l'œil nu depuis la France. Aucun risque d'impact… mais la Terre va le secouer. Tu le regarderas ? 👇 (Images : NASA — animations.)  
+**3. Hashtags :** #asteroide #apophis #espace #nasa #science  
+**4. Phrase d'accroche :** « Le vendredi 13 avril 2029, un astéroïde va frôler la Terre. »  
+**5. Couverture :** Astéroïde Apophis en gros plan ; texte : « VENDREDI 13 AVRIL 2029 ». — image prête : `PUBLICATION/couvertures/video_17_couverture.jpg`  
+**6. Créneau à tester :** 19 h 00  
+**7. Potentiel viral :** Date mémorable (vendredi 13), menace rassurée (pas d'impact), comparaison parlante (tour Eiffel) et rendez-vous que le public pourra voir lui-même : beaucoup d'enregistrements et de partages.  
+**Crédits à mentionner (fin de description) :** Images : NASA's Goddard Space Flight Center Scientific Visualization Studio ; NASA/JPL-Caltech
+
+## video_18 — Les secrets de l'Univers
+
+**Fichier :** `NICHE_1/video_18.mp4`  
+**1. Titre :** Plus d'eau que dans tous les océans de la Terre 🌊  
+**2. Description :** Sous 15 à 25 km de glace, Europe, une lune de Jupiter, cache un océan deux fois plus grand que les nôtres. Europa Clipper y arrive en 2030 et frôle la Terre le 3 décembre. De la vie là-dessous ? 👇 (Images : NASA/JPL — animations.)  
+**3. Hashtags :** #espace #jupiter #europe #nasa #science  
+**4. Phrase d'accroche :** « Sous la glace de cette lune, il y aurait plus d'eau que dans tous les océans de la Terre réunis. »  
+**5. Couverture :** Europe et ses fissures en gros plan ; texte : « PLUS D'EAU QUE SUR TERRE ». — image prête : `PUBLICATION/couvertures/video_18_couverture.jpg`  
+**6. Créneau à tester :** 12 h 30  
+**7. Potentiel viral :** Comparaison choc avec la Terre, question de la vie extraterrestre (très commentée) et actualité réelle (survol de la Terre le 3 décembre 2026).  
+**Crédits à mentionner (fin de description) :** Images : JPL ; NASA's Goddard Space Flight Center Scientific Visualization Studio
+
+## video_19 — Les secrets de l'Univers
+
+**Fichier :** `NICHE_1/video_19.mp4`  
+**1. Titre :** Sur cette lune, il pleut… mais pas de l'eau 🌧️  
+**2. Description :** Titan : des lacs, des rivières et de la pluie de méthane à −180 °C. On pourrait presque y voler avec des ailes. Et un drone de la NASA part en 2028. Tu irais te baigner ? 👇 (Images : NASA — visualisations et animations.)  
+**3. Hashtags :** #titan #saturne #espace #nasa #science  
+**4. Phrase d'accroche :** « Il existe un monde avec des lacs, des rivières et de la pluie. Mais ce n'est pas de l'eau. »  
+**5. Couverture :** Lac de Titan avec Saturne dans le ciel ; texte : « IL PLEUT DU MÉTHANE ». — image prête : `PUBLICATION/couvertures/video_19_couverture.jpg`  
+**6. Créneau à tester :** 19 h 00  
+**7. Potentiel viral :** Paysage spectaculaire, devinette dès l'accroche (« mais pas de l'eau »), détail fou facile à partager (voler avec des ailes) et mission à venir.  
+**Crédits à mentionner (fin de description) :** Images : NASA's Goddard Space Flight Center Scientific Visualization Studio ; NASA/JPL-Caltech/Space Science Institute ; NASA/Johns Hopkins APL || Dragonfly_Landed_Closeup_print.jpg (1024x713) [191.2 KB] || Dragonfly_Landed_Closeup.png (2250x1567) [5.8 MB] || Dragonfly_Landed_Closeup_searchweb.png (320x180) [89.8 KB] ||
+
+## video_20 — Les secrets de l'Univers
+
+**Fichier :** `NICHE_1/video_20.mp4`  
+**1. Titre :** L'objet le plus rapide jamais construit ☀️🚀  
+**2. Description :** Parker Solar Probe : 692 000 km/h, à 6 millions de km du Soleil. Paris–New York en 30 secondes, et un bouclier de 11 cm face à 1 400 °C. Tu l'aurais cru ? 👇 (Images : NASA — animations et images SDO.)  
+**3. Hashtags :** #soleil #nasa #espace #record #science  
+**4. Phrase d'accroche :** « L'objet le plus rapide jamais construit par l'humanité fonce droit vers le Soleil. »  
+**5. Couverture :** Sonde Parker devant le Soleil ; texte : « L'OBJET LE PLUS RAPIDE DE L'HISTOIRE ». — image prête : `PUBLICATION/couvertures/video_20_couverture.jpg`  
+**6. Créneau à tester :** 12 h 30  
+**7. Potentiel viral :** Record absolu (vitesse), comparaison concrète (Paris–New York), paradoxe expliqué (couronne à un million de degrés) : très bon taux de visionnage complet.  
+**Crédits à mentionner (fin de description) :** Images : NASA's Goddard Space Flight Center Scientific Visualization Studio ; NASA/SDO || SDO_X3pt3_10-23-2024_0340_131-304-171.jpg (4096x4096) [4.7 MB] || SDO_X3pt3_10-23-2024_0340_131-304-171_searchweb.png (320x180) [104.1 KB] || SDO_X3pt3_10-23-2024_0340_131-304-171_thm.png
+
+## video_21 — Les secrets de l'Univers
+
+**Fichier :** `NICHE_1/video_21.mp4`  
+**1. Titre :** Les anneaux de Saturne sont en train de disparaître 🪐  
+**2. Description :** Une piscine olympique de glace tombe sur Saturne toutes les demi-heures. Les anneaux pourraient disparaître d'ici 300 millions d'années… et en mars 2025, ils sont devenus presque invisibles depuis la Terre. Tu le savais ? 👇 (Images : NASA — animations et images Cassini.)  
+**3. Hashtags :** #saturne #espace #astronomie #nasa #science  
+**4. Phrase d'accroche :** « Les anneaux de Saturne sont en train de disparaître. »  
+**5. Couverture :** Saturne et ses anneaux ; texte : « LES ANNEAUX DISPARAISSENT ». — image prête : `PUBLICATION/couvertures/video_21_couverture.jpg`  
+**6. Créneau à tester :** 19 h 00  
+**7. Potentiel viral :** Planète la plus reconnaissable, titre alarmant mais vrai, image concrète (piscine olympique) et fait fun final (Saturne flotterait).  
+**Crédits à mentionner (fin de description) :** Images : Dan Gallagher ; NASA's Goddard Space Flight Center Scientific Visualization Studio ; NASA/JPL/Space Science Institute
+
+## video_22 — Les secrets de l'Univers
+
+**Fichier :** `NICHE_1/video_22.mp4`  
+**1. Titre :** La planète la plus proche du Soleil cache de la glace 🧊  
+**2. Description :** Mercure : 430 °C le jour, −180 °C la nuit, une journée qui dure deux ans… et jusqu'à 1 000 milliards de tonnes de glace au fond de cratères. La mission BepiColombo arrive le 21 novembre. Tu l'aurais cru ? 👇 (Images : NASA — MESSENGER, SDO.)  
+**3. Hashtags :** #mercure #espace #astronomie #nasa #science  
+**4. Phrase d'accroche :** « La planète la plus proche du Soleil cache de la glace. »  
+**5. Couverture :** Globe de Mercure ; texte : « DE LA GLACE SUR MERCURE ». — image prête : `PUBLICATION/couvertures/video_22_couverture.jpg`  
+**6. Créneau à tester :** 12 h 30  
+**7. Potentiel viral :** Paradoxe immédiat (glace près du Soleil), records de température, « une journée dure deux ans » très partageable et actualité (BepiColombo le 21 novembre).  
+**Crédits à mentionner (fin de description) :** Images : NASA's Goddard Space Flight Center Scientific Visualization Studio ; NASA/Johns Hopkins University Applied Physics Laboratory/Carnegie Institution of Washington
+
+## video_23 — Les secrets de l'Univers
+
+**Fichier :** `NICHE_1/video_23.mp4`  
+**1. Titre :** Sur Mars, les couchers de soleil sont bleus 🔵  
+**2. Description :** Vraie photo du robot Curiosity : sur Mars, le ciel est ocre le jour et bleu au coucher du soleil, l'inverse de chez nous. La faute à la poussière. Tu préfères lequel ? 👇 (Images : NASA/JPL — Curiosity, InSight.)  
+**3. Hashtags :** #mars #espace #coucherdesoleil #nasa #science  
+**4. Phrase d'accroche :** « Sur Mars, les couchers de soleil sont bleus. »  
+**5. Couverture :** Coucher de soleil bleu de Curiosity ; texte : « UN COUCHER DE SOLEIL BLEU ». — image prête : `PUBLICATION/couvertures/video_23_couverture.jpg`  
+**6. Créneau à tester :** 19 h 00  
+**7. Potentiel viral :** Image réelle magnifique et surprenante, contraste direct avec la Terre, explication simple et question de préférence qui fait commenter.  
+**Crédits à mentionner (fin de description) :** Images : JSC ; NASA's Goddard Space Flight Center Scientific Visualization Studio ; NASA/JPL-Caltech ; NASA/JPL-Caltech/MSSS/Texas A&M Univ.
+
+## video_24 — Les secrets de l'Univers
+
+**Fichier :** `NICHE_1/video_24.mp4`  
+**1. Titre :** Cette lune crache de l'eau dans l'espace 💦  
+**2. Description :** Encelade, lune de Saturne : une centaine de geysers, un panache de 10 000 km vu par Webb, un océan caché et du phosphore, ingrédient de la vie. Tu crois qu'il y a de la vie là-dessous ? 👇 (Images : NASA — animations et images Cassini.)  
+**3. Hashtags :** #encelade #saturne #espace #nasa #science  
+**4. Phrase d'accroche :** « Cette petite lune de Saturne crache de l'eau dans l'espace. »  
+**5. Couverture :** Geyser d'Encelade devant Saturne ; texte : « CETTE LUNE CRACHE DE L'EAU ». — image prête : `PUBLICATION/couvertures/video_24_couverture.jpg`  
+**6. Créneau à tester :** 12 h 30  
+**7. Potentiel viral :** Visuel spectaculaire (geyser devant Saturne), découvertes récentes (Webb 2023, phosphore) et question de la vie extraterrestre qui génère des débats.  
+**Crédits à mentionner (fin de description) :** Images : Dan Gallagher ; NASA's Goddard Space Flight Center Scientific Visualization Studio ; NASA/JPL-Caltech ; NASA/JPL/Space Science Institute
+
+## video_25 — Les secrets de l'Univers
+
+**Fichier :** `NICHE_1/video_25.mp4`  
+**1. Titre :** Cette sonde sera bientôt à un jour-lumière de la Terre 🛰️  
+**2. Description :** Voyager 1, lancée en 1977, atteint vers le 18 novembre une distance d'un jour-lumière : 25,9 milliards de km. Et sa photo la plus célèbre, c'est… nous. Qu'est-ce que tu mettrais sur son disque d'or ? 👇 (Images : NASA/JPL.)  
+**3. Hashtags :** #voyager #nasa #espace #palebluedot #science  
+**4. Phrase d'accroche :** « Dans quelques jours, cette sonde sera à un jour-lumière de la Terre. »  
+**5. Couverture :** Sonde Voyager ; texte : « À 1 JOUR-LUMIÈRE DE NOUS ». — image prête : `PUBLICATION/couvertures/video_25_couverture.jpg`  
+**6. Créneau à tester :** 19 h 00  
+**7. Potentiel viral :** Actualité datée (18 novembre 2026), émotion forte (Pale Blue Dot), records de distance et CTA créatif (le disque d'or) qui fait écrire de longs commentaires.  
+**Crédits à mentionner (fin de description) :** Images : NASA's Goddard Space Flight Center Scientific Visualization Studio ; NASA/JPL-Caltech
 

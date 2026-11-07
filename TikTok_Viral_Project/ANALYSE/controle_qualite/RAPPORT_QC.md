@@ -302,3 +302,205 @@ Extrait de transcription automatique : « La lumière qui te réchauffe aujourd'
 
 ![planche](video_15_planche.jpg)
 
+## video_16 — ✅ conforme
+
+- ✅ fichier présent
+- ✅ durée 65–115 s
+- ✅ 1080×1920 (9:16)
+- ✅ H.264 / yuv420p
+- ✅ AAC 48 kHz stéréo
+- ✅ décodage sans erreur
+- ✅ loudness −15 à −13 LUFS
+- ✅ true peak ≤ −0,5 dBTP
+- ✅ sous-titres sur la voix (≥ 95 %)
+- ✅ narration reconnue (Whisper ≥ 85 %)
+- ✅ pas d'écran noir / image figée
+
+Mesures : durée 85.7 s · -14.1 LUFS · true peak -1.3 dBTP · niveau parole -16.9 dBFS vs pauses -30.6 dBFS · 274 mots sous-titrés, 100.0 % tombent sur de la voix, 0 hors segment · reconnaissance Whisper : 90.6 % des mots du script (nombres exclus : Whisper les écrit en chiffres) · luminosité min 23.8 · variation moyenne entre images 45.5
+
+Extrait de transcription automatique : « Les astronautes de la station spatiale voient le soleil se lever 16 fois par jour et se coucher 16 fois parce que la station fait le tour de la Terre en à peu près une heure et demi. Elle file à environ 28 000 km par heu… »
+
+![planche](video_16_planche.jpg)
+
+## video_17 — ✅ conforme
+
+- ✅ fichier présent
+- ✅ durée 65–115 s
+- ✅ 1080×1920 (9:16)
+- ✅ H.264 / yuv420p
+- ✅ AAC 48 kHz stéréo
+- ✅ décodage sans erreur
+- ✅ loudness −15 à −13 LUFS
+- ✅ true peak ≤ −0,5 dBTP
+- ✅ sous-titres sur la voix (≥ 95 %)
+- ✅ narration reconnue (Whisper ≥ 85 %)
+- ✅ pas d'écran noir / image figée
+
+Mesures : durée 82.7 s · -14.1 LUFS · true peak -0.6 dBTP · niveau parole -16.9 dBFS vs pauses -30.3 dBFS · 243 mots sous-titrés, 100.0 % tombent sur de la voix, 0 hors segment · reconnaissance Whisper : 98.8 % des mots du script (nombres exclus : Whisper les écrit en chiffres) · luminosité min 9.4 · variation moyenne entre images 41.1
+
+Extrait de transcription automatique : « Le vendredi 13 avril 2029, un astéroïde va frôler la Terre. Il s'appelle Apophie, comme le dieu égyptien du chaos. Il mesure environ 340 mètres, à peu près la hauteur de la Tour Eiffel. Et il va passer à environ 32 000 k… »
+
+![planche](video_17_planche.jpg)
+
+## video_18 — ✅ conforme
+
+- ✅ fichier présent
+- ✅ durée 65–115 s
+- ✅ 1080×1920 (9:16)
+- ✅ H.264 / yuv420p
+- ✅ AAC 48 kHz stéréo
+- ✅ décodage sans erreur
+- ✅ loudness −15 à −13 LUFS
+- ✅ true peak ≤ −0,5 dBTP
+- ✅ sous-titres sur la voix (≥ 95 %)
+- ✅ narration reconnue (Whisper ≥ 85 %)
+- ✅ pas d'écran noir / image figée
+
+Mesures : durée 91.2 s · -14.1 LUFS · true peak -1.2 dBTP · niveau parole -16.9 dBFS vs pauses -29.9 dBFS · 289 mots sous-titrés, 100.0 % tombent sur de la voix, 0 hors segment · reconnaissance Whisper : 95.4 % des mots du script (nombres exclus : Whisper les écrit en chiffres) · luminosité min 6.8 · variation moyenne entre images 50.8
+
+Extrait de transcription automatique : « Sous la glace de cette lune, il y aurait plus d'eau que dans tous les océans de la Terre réunie. Elle s'appelle Europe et elle tourne autour de Jupiter. Elle est un peu plus petite que notre lune et sa surface est une co… »
+
+![planche](video_18_planche.jpg)
+
+## video_19 — ✅ conforme
+
+- ✅ fichier présent
+- ✅ durée 65–115 s
+- ✅ 1080×1920 (9:16)
+- ✅ H.264 / yuv420p
+- ✅ AAC 48 kHz stéréo
+- ✅ décodage sans erreur
+- ✅ loudness −15 à −13 LUFS
+- ✅ true peak ≤ −0,5 dBTP
+- ✅ sous-titres sur la voix (≥ 95 %)
+- ✅ narration reconnue (Whisper ≥ 85 %)
+- ✅ pas d'écran noir / image figée
+
+Mesures : durée 78.0 s · -14.1 LUFS · true peak -1.3 dBTP · niveau parole -16.9 dBFS vs pauses -30.6 dBFS · 243 mots sous-titrés, 100.0 % tombent sur de la voix, 0 hors segment · reconnaissance Whisper : 94.1 % des mots du script (nombres exclus : Whisper les écrit en chiffres) · luminosité min 19.0 · variation moyenne entre images 35.6
+
+Extrait de transcription automatique : « Il existe un monde avec des lacs, des rivières et de la pluie, mais ce n'est pas de l'eau. Bienvenue sur Titan, la plus grande lune de Saturn. Elle est plus grande que la planète Mercure et c'est la seule lune connue à a… »
+
+![planche](video_19_planche.jpg)
+
+## video_20 — ✅ conforme
+
+- ✅ fichier présent
+- ✅ durée 65–115 s
+- ✅ 1080×1920 (9:16)
+- ✅ H.264 / yuv420p
+- ✅ AAC 48 kHz stéréo
+- ✅ décodage sans erreur
+- ✅ loudness −15 à −13 LUFS
+- ✅ true peak ≤ −0,5 dBTP
+- ✅ sous-titres sur la voix (≥ 95 %)
+- ✅ narration reconnue (Whisper ≥ 85 %)
+- ✅ pas d'écran noir / image figée
+
+Mesures : durée 81.2 s · -14.1 LUFS · true peak -1.3 dBTP · niveau parole -16.9 dBFS vs pauses -30.4 dBFS · 238 mots sous-titrés, 100.0 % tombent sur de la voix, 0 hors segment · reconnaissance Whisper : 95.2 % des mots du script (nombres exclus : Whisper les écrit en chiffres) · luminosité min 10.7 · variation moyenne entre images 43.3
+
+Extrait de transcription automatique : « L'objet le plus rapide jamais construit par l'humanité fonce droit vers le Soleil. C'est la sonde Enpoc-Fleux Solar Probe lancée par la NASA en 2018. Le 24 décembre 2024, elle est passée à environ 6 millions de kilomètre… »
+
+![planche](video_20_planche.jpg)
+
+## video_21 — ✅ conforme
+
+- ✅ fichier présent
+- ✅ durée 65–115 s
+- ✅ 1080×1920 (9:16)
+- ✅ H.264 / yuv420p
+- ✅ AAC 48 kHz stéréo
+- ✅ décodage sans erreur
+- ✅ loudness −15 à −13 LUFS
+- ✅ true peak ≤ −0,5 dBTP
+- ✅ sous-titres sur la voix (≥ 95 %)
+- ✅ narration reconnue (Whisper ≥ 85 %)
+- ✅ pas d'écran noir / image figée
+
+Mesures : durée 75.8 s · -14.1 LUFS · true peak -1.4 dBTP · niveau parole -16.9 dBFS vs pauses -30.6 dBFS · 237 mots sous-titrés, 100.0 % tombent sur de la voix, 0 hors segment · reconnaissance Whisper : 91.1 % des mots du script (nombres exclus : Whisper les écrit en chiffres) · luminosité min 8.4 · variation moyenne entre images 39.2
+
+Extrait de transcription automatique : « Les anneaux de Saturn sont en train de disparaître. Ils sont faits de milliards de morceaux de glace, du grain de poussière au bloc gros comme une maison. Ils s'étendent sur près de 300 000 km d'un bord à l'autre, mais i… »
+
+![planche](video_21_planche.jpg)
+
+## video_22 — ⚠️ à vérifier
+
+> Vérification manuelle : Whisper a sauté une phrase en transcrivant la vidéo entière (« Autre surprise : Mercure rétrécit… »). Transcrite seule (48–64 s), elle est parfaitement reconnue ; niveaux identiques aux autres vidéos (−14,2 LUFS). Vidéo validée.
+
+- ✅ fichier présent
+- ✅ durée 65–115 s
+- ✅ 1080×1920 (9:16)
+- ✅ H.264 / yuv420p
+- ✅ AAC 48 kHz stéréo
+- ✅ décodage sans erreur
+- ✅ loudness −15 à −13 LUFS
+- ✅ true peak ≤ −0,5 dBTP
+- ✅ sous-titres sur la voix (≥ 95 %)
+- ❌ narration reconnue (Whisper ≥ 85 %)
+- ✅ pas d'écran noir / image figée
+
+Mesures : durée 76.3 s · -14.2 LUFS · true peak -1.4 dBTP · niveau parole -16.9 dBFS vs pauses -30.7 dBFS · 230 mots sous-titrés, 100.0 % tombent sur de la voix, 0 hors segment · reconnaissance Whisper : 80.9 % des mots du script (nombres exclus : Whisper les écrit en chiffres) · luminosité min 23.1 · variation moyenne entre images 48.6
+
+Extrait de transcription automatique : « La planète, la plus proche du soleil, cache de la glace. Sur Mercure, le jour, il fait environ 430 degrés, assez pour faire fondre du plomb. Et la nuit, la température chute à environ -180 degrés. Pourquoi un télécard ? … »
+
+![planche](video_22_planche.jpg)
+
+## video_23 — ✅ conforme
+
+- ✅ fichier présent
+- ✅ durée 65–115 s
+- ✅ 1080×1920 (9:16)
+- ✅ H.264 / yuv420p
+- ✅ AAC 48 kHz stéréo
+- ✅ décodage sans erreur
+- ✅ loudness −15 à −13 LUFS
+- ✅ true peak ≤ −0,5 dBTP
+- ✅ sous-titres sur la voix (≥ 95 %)
+- ✅ narration reconnue (Whisper ≥ 85 %)
+- ✅ pas d'écran noir / image figée
+
+Mesures : durée 78.3 s · -14.1 LUFS · true peak -1.4 dBTP · niveau parole -16.8 dBFS vs pauses -30.4 dBFS · 253 mots sous-titrés, 100.0 % tombent sur de la voix, 0 hors segment · reconnaissance Whisper : 95.0 % des mots du script (nombres exclus : Whisper les écrit en chiffres) · luminosité min 37.0 · variation moyenne entre images 40.7
+
+Extrait de transcription automatique : « Sur Mars, les couchets de soleil sont bleus. Cette photo a été prise par le robot Encurious Tifle en avril 2015 dans le Crater Galle. Ce n'est pas en filtre, c'est à peu près ce que verrait tes yeux. Et c'est l'inverse d… »
+
+![planche](video_23_planche.jpg)
+
+## video_24 — ✅ conforme
+
+- ✅ fichier présent
+- ✅ durée 65–115 s
+- ✅ 1080×1920 (9:16)
+- ✅ H.264 / yuv420p
+- ✅ AAC 48 kHz stéréo
+- ✅ décodage sans erreur
+- ✅ loudness −15 à −13 LUFS
+- ✅ true peak ≤ −0,5 dBTP
+- ✅ sous-titres sur la voix (≥ 95 %)
+- ✅ narration reconnue (Whisper ≥ 85 %)
+- ✅ pas d'écran noir / image figée
+
+Mesures : durée 83.3 s · -14.1 LUFS · true peak -1.5 dBTP · niveau parole -16.9 dBFS vs pauses -30.2 dBFS · 256 mots sous-titrés, 100.0 % tombent sur de la voix, 0 hors segment · reconnaissance Whisper : 92.3 % des mots du script (nombres exclus : Whisper les écrit en chiffres) · luminosité min 10.6 · variation moyenne entre images 46.6
+
+Extrait de transcription automatique : « Cette petite lune de Saturne Grache de l'eau dans l'espace, elle s'appelle en slade et elle ne fait qu'environ 500 km de diamètre. C'est l'un des objets les plus brillants du système solaire, sa glace renvoie presque tou… »
+
+![planche](video_24_planche.jpg)
+
+## video_25 — ✅ conforme
+
+- ✅ fichier présent
+- ✅ durée 65–115 s
+- ✅ 1080×1920 (9:16)
+- ✅ H.264 / yuv420p
+- ✅ AAC 48 kHz stéréo
+- ✅ décodage sans erreur
+- ✅ loudness −15 à −13 LUFS
+- ✅ true peak ≤ −0,5 dBTP
+- ✅ sous-titres sur la voix (≥ 95 %)
+- ✅ narration reconnue (Whisper ≥ 85 %)
+- ✅ pas d'écran noir / image figée
+
+Mesures : durée 81.2 s · -14.2 LUFS · true peak -2.2 dBTP · niveau parole -17.0 dBFS vs pauses -30.1 dBFS · 234 mots sous-titrés, 100.0 % tombent sur de la voix, 0 hors segment · reconnaissance Whisper : 92.1 % des mots du script (nombres exclus : Whisper les écrit en chiffres) · luminosité min 4.6 · variation moyenne entre images 41.5
+
+Extrait de transcription automatique : « Dans quelques jours, cette sonde sera un jour lumière de la Terre. Ces voyages 1, lancés en 1977, elles voyagent depuis 49 ans. Vers le 18 novembre, elles sera à environ 25,9 milliards de kilomètres. Si loin qu'un messag… »
+
+![planche](video_25_planche.jpg)
+

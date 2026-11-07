@@ -32,6 +32,7 @@ COVERS = {  # (index du segment, fraction du plan, texte, couleur)
     'video_23': (0, 0.5, 'UN COUCHER\nDE SOLEIL\nBLEU', (255, 216, 74)),
     'video_24': (0, 0.5, "CETTE LUNE\nCRACHE DE L'EAU", (255, 216, 74)),
     'video_25': (0, 0.5, 'À 1 JOUR-\nLUMIÈRE DE\nNOUS', (255, 216, 74)),
+    'reflexion_01': (5, 0.5, "L'INFIME\nET L'INFINI", (247, 198, 163)),
 }
 
 def main():
@@ -58,7 +59,8 @@ def main():
         img = img * (1 - 0.45 * np.clip((0.32 - g) / 0.32, 0, 1))
         size = 150 if v['theme'] != 'psy' else 120
         while True:  # le titre doit tenir dans 92 % de la largeur
-            spr = text_sprite(txt, 'anton' if v['theme'] != 'psy' else 'poppins_black', size, col,
+            font = {'psy': 'poppins_black', 'reflexion': 'serif'}.get(v['theme'], 'anton')
+            spr = text_sprite(txt, font, size, col,
                               10, (0, 0, 0), None, 10, None, 0, 'center')
             if spr.shape[1] <= W * 0.92 or size <= 90:
                 break

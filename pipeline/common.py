@@ -21,6 +21,7 @@ FONT_FILES = {
     'montserrat': 'Montserrat[wght].ttf',
     'orbitron': 'Orbitron[wght].ttf',
     'archivo': 'ArchivoBlack-Regular.ttf',
+    'serif': 'DMSerifDisplay-Regular.ttf',
 }
 
 

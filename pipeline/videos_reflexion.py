@@ -62,7 +62,7 @@ REF01 = dict(
         seg("De quoi se sentir minuscule.",
             sc(lambda: L.Nebula(seed=9, amount=0.32), lambda: L.StarField(seed=14, bright=0.8, drift=(0, 8))), 'static', 'black', music=0.35, emph=['minuscule']),
         seg("Mais regarde de plus près : le fer de ton sang, le calcium de tes os… ont été fabriqués au cœur d'étoiles, il y a des milliards d'années.",
-            V(SN, 18.0, speed=0.7), 'slow_in', 'flash', sfx=['impact'], emph=['fer', 'calcium'], music=0.7),
+            V(SN, 20.5, speed=0.6), 'slow_in', 'flash', sfx=['impact'], emph=['fer', 'calcium'], music=0.7),
         seg("Tu es, littéralement, de la poussière d'étoiles.",
             sc(lambda: L.StarField(seed=15, bright=0.35), lambda: L.Filaments(seed=8, palette=BLOOD, grow=[(0, 0.2), (4, 1.0)], center=MID, spin=0.1, scale=1.6)),
             'slow_in', 'fade', emph=['poussière', 'étoiles']),

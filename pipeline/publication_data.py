@@ -206,4 +206,12 @@ PUB = {
         couverture='Sonde Voyager ; texte : « À 1 JOUR-LUMIÈRE DE NOUS ».',
         horaire='19 h 00',
         potentiel="Actualité datée (18 novembre 2026), émotion forte (Pale Blue Dot), records de distance et CTA créatif (le disque d'or) qui fait écrire de longs commentaires."),
+    'reflexion_01': dict(
+        titre="L'infime et l'infini 🌌",
+        description="Tu es fait de 7 milliards de milliards de milliards d'atomes… presque vides. Et le fer de ton sang vient d'étoiles mortes. Infime ou infini ? 👇 (Animations 3D originales avec cartes NASA du domaine public ; voix de synthèse.)",
+        hashtags=['#espace', '#univers', '#philosophie', '#reflexion', '#cosmos'],
+        accroche="Tu es fait d'environ sept milliards de milliards de milliards d'atomes.",
+        couverture="La Terre de nuit entre des lignes de lumière ; texte : « L'INFIME ET L'INFINI ».",
+        horaire="21 h 00",
+        potentiel="Format « réflexion » qui marche sur TikTok (philosophie + espace), animations originales lumineuses, un mot à la fois, question finale qui pousse à commenter."),
 }
