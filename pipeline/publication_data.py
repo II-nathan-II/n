@@ -214,4 +214,12 @@ PUB = {
         couverture="La Terre de nuit entre des lignes de lumière ; texte : « L'INFIME ET L'INFINI ».",
         horaire="21 h 00",
         potentiel="Format « réflexion » qui marche sur TikTok (philosophie + espace), animations originales lumineuses, un mot à la fois, question finale qui pousse à commenter."),
+    'edit_01': dict(
+        titre="L'Univers est terrifiant 🌌",
+        description="L'Univers en 20 secondes 🌌 Trous noirs, Jupiter, Saturne, supernova… et nous, quelque part au milieu. Quel plan t'a mis une claque ? 👇 (Images : NASA + animations 3D originales. Musique originale.)",
+        hashtags=['#espace', '#univers', '#astronomie', '#nasa', '#edit'],
+        accroche="(sans voix) L'UNIVERS EST TERRIFIANT",
+        couverture="Trou noir et son disque ; texte : « L'UNIVERS EST TERRIFIANT ».",
+        horaire="21 h 30 (bonus)",
+        potentiel="Format « edit » court, coupé sur le rythme : fait pour la croissance (abonnés), pas pour Creator Rewards (moins d'une minute)."),
 }

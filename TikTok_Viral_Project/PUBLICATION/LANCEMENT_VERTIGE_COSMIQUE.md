@@ -36,6 +36,7 @@ Même heure sur TikTok et YouTube (programmation Metricool).
 | Ven. 6 nov. | 22 h 00 | 02 — Si le Soleil disparaissait, tu ne le saurais pas avant 8 min |
 | Sam. 7 nov. | 12 h 30 | 03 — La zone la plus vide de l'Univers existe vraiment |
 | Sam. 7 nov. | 19 h 00 | 04 — Voici ce qui t'arrive si tu tombes dans un trou noir |
+| Sam. 7 nov. | 21 h 30 | 01 — L'Univers est terrifiant 🌌 |
 | Dim. 8 nov. | 12 h 30 | 05 — Sur Vénus, un jour dure plus longtemps qu'un an |
 | Dim. 8 nov. | 19 h 00 | 11 — Une cuillère de cette étoile pèse un milliard de tonnes 🤯 |
 | Lun. 9 nov. | 12 h 30 | 12 — La Lune s'éloigne de nous chaque année 🌕 |

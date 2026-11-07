@@ -7,7 +7,7 @@ VIDS = ['video_01', 'video_02', 'video_03', 'video_04', 'video_05', 'video_11', 
         'video_16', 'video_17', 'video_18', 'video_19', 'video_20', 'video_21', 'video_22', 'video_23', 'video_24', 'video_25']
 # 2 vidéos par jour (décision de l'utilisateur), à partir du vendredi 6 novembre 2026
 CALENDRIER = [('Ven. 6 nov.', '20 h 45', 'video_01'), ('Ven. 6 nov.', '22 h 00', 'video_02'),
-              ('Sam. 7 nov.', '12 h 30', 'video_03'), ('Sam. 7 nov.', '19 h 00', 'video_04'),
+              ('Sam. 7 nov.', '12 h 30', 'video_03'), ('Sam. 7 nov.', '19 h 00', 'video_04'), ('Sam. 7 nov.', '21 h 30', 'edit_01'),
               ('Dim. 8 nov.', '12 h 30', 'video_05'), ('Dim. 8 nov.', '19 h 00', 'video_11'),
               ('Lun. 9 nov.', '12 h 30', 'video_12'), ('Lun. 9 nov.', '19 h 00', 'video_13'),
               ('Mar. 10 nov.', '12 h 30', 'video_14'), ('Mar. 10 nov.', '19 h 00', 'video_15'),
