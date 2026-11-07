@@ -102,5 +102,13 @@
    "task_id": "740817dc-c820-4fe0-8442-3e92585a257e",
    "url": "https://platform2.cdn.acedata.cloud/veo/740817dc-c820-4fe0-8442-3e92585a257e.mp4"
   }
+ },
+ "episode_02": {
+  "1": {
+   "service": "veo31-fast (Ace Data)",
+   "task_id": "7efd5975-071a-4bfd-a367-5af676354f77",
+   "url": "https://platform2.cdn.acedata.cloud/veo/7efd5975-071a-4bfd-a367-5af676354f77.mp4",
+   "note": "plan d'ouverture (villa au lever du soleil), lancé le 7 novembre"
+  }
  }
 }
