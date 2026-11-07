@@ -9,13 +9,16 @@ L'utilisateur veut alterner plusieurs genres de vidéos sur le même compte (tou
 | **C. Edit rythmé** (plans spectaculaires coupés sur le temps, sans voix) | 15–25 s | Croissance : abonnés, vues | `edit_01` |
 | **D. Phrase + ambiance** (une phrase vraie sur un diaporama lent, noir et blanc ou couleur) | 10–15 s | Croissance : enregistrements, partages, boucles | `ambiance_01` |
 
-## Semaine type
+## Semaine type (4 publications par jour depuis le 8 novembre)
 
-| Créneau | Lun | Mar | Mer | Jeu | Ven | Sam | Dim |
-|---|---|---|---|---|---|---|---|
-| 12 h 30 | A | A | A | A | A | A | A |
-| 19 h 00 | B | A | B | A | B | A | B |
-| 21 h 30 (bonus) | C | — | D | — | C | D | — |
+| Créneau | Format | Rôle |
+|---|---|---|
+| 08 h 00 | D. Phrase + ambiance | boucles, enregistrements, partages |
+| 12 h 30 | A. Fait commenté | monétisation |
+| 19 h 00 | A. Fait commenté (ou B. Réflexion) | monétisation |
+| 21 h 30 | C. Edit rythmé (ou B. Réflexion) | abonnés |
+
+Programmé jusqu'au 15 novembre : `ambiance_01` à `09`, `edit_01` à `08`, `reflexion_01`, faits 01 à 05 et 11 à 25 (détail dans `PUBLICATION/LANCEMENT_VERTIGE_COSMIQUE.md`, § 4).
 
 Règles :
 - Les formats C et D font moins d'une minute : ils ne rapportent rien avec Creator Rewards mais font grandir le compte. Les formats A et B paient.

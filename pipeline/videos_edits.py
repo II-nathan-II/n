@@ -123,6 +123,9 @@ EARTHSET = 'nasa:art002e021278'          # Artemis II, la Terre se couche derri�
 NEPTUNE = 'nasa:PIA01492'                # Neptune vue par Voyager 2
 
 
+CV = 'cover!'  # plein écran même pour une source HD (ambiances : pas de bandes floutées)
+
+
 def clipd(scene, n=1):
     """Plan d'ambiance (vidéo) de n × 1,5 s."""
     return seg('', scene, 'slow_in', 'fade', hold=round(1.5 * n, 3), music=0.8)
@@ -159,15 +162,15 @@ def cuts_end(text):
 # ----------------------------------------------------------------------------- format D : phrase + ambiance
 AMB02 = amb('ambiance_02', "Le Soleil avec 8 minutes de retard",
             "Tu ne vois jamais le Soleil tel qu'il est.\nSa lumière met 8 minutes\npour arriver jusqu'à toi.",
-            [clipd(V(SDO171, 0.0, speed=0.4)), clipd(V(SUN193, 1.0, speed=0.5)), clipd(V(HELICITY, 2.0, speed=0.6)),
+            [clipd(V(SDO171, 0.0, speed=0.4)), clipd(V(SUN193, 1.0, speed=0.5)), clipd(V(P_PULL, 0.5, speed=0.5)),
              clipd(V(SDO304, 0.0, speed=0.4)), clipd(V(P_PULL, 7.0, speed=0.5)), clipd(V(SUN131, 1.0, speed=0.5)),
              clipd(V(SDO131, 0.0, speed=0.4)), clipd(V(SUN171, 2.0, speed=0.5), 2)], 3301)
 
 AMB03 = amb('ambiance_03', "Une journée plus longue qu'une année",
             "Sur Vénus, une journée\ndure plus longtemps\nqu'une année entière.",
-            [clipd(V(PV, 163.0, speed=0.6)), clipd(V(VM, 104.0, speed=0.6)), clipd(V(DAV, 21.5, speed=0.6)),
-             clipd(V(PV, 166.0, speed=0.6)), clipd(V(VM, 137.5, speed=0.6)), clipd(V(DAV, 70.0, speed=0.6)),
-             clipd(V(PV, 168.5, speed=0.5)), clipd(V(VM, 106.0, speed=0.5), 2)], 3302, key=41)
+            [clipd(V(PV, 163.0, speed=0.6, mode=CV)), clipd(V(VM, 104.0, speed=0.6, mode=CV)), clipd(V(DAV, 21.5, speed=0.6)),
+             clipd(V(PV, 166.0, speed=0.6, mode=CV)), clipd(V(VM, 137.5, speed=0.6, mode=CV)), clipd(V(DAV, 70.0, speed=0.6)),
+             clipd(V(PV, 168.5, speed=0.5, mode=CV)), clipd(V(VM, 106.0, speed=0.5, mode=CV), 2)], 3302, key=41)
 
 AMB04 = amb('ambiance_04', "L'espace est à une heure de route",
             "Si tu pouvais rouler en voiture\nvers le ciel, tu serais\ndans l'espace en une heure.",
@@ -177,9 +180,9 @@ AMB04 = amb('ambiance_04', "L'espace est à une heure de route",
 
 AMB05 = amb('ambiance_05', "Les traces de pas sur la Lune",
             "Les traces de pas des astronautes\nsont toujours sur la Lune.\nAucun vent ne peut les effacer.",
-            [clipd(V(APOLLO11, 2.0, speed=0.6)), clipd(V(MOONTOUR, 183.0, speed=0.6)), still(EARTHSET, cx=0.72, bw=True),
-             clipd(V(APOLLO11, 12.0, speed=0.6)), clipd(V(MOONTOUR, 26.0, speed=0.6)), clipd(V(MOONTOUR, 148.0, speed=0.6)),
-             clipd(V(MOONTOUR, 264.0, speed=0.5)), clipd(V(APOLLO11, 8.0, speed=0.5), 2)], 3304, bw=True)
+            [clipd(V(APOLLO11, 2.0, speed=0.6, mode=CV)), clipd(V(MOONTOUR, 183.0, speed=0.6)), still(EARTHSET, cx=0.72, bw=True),
+             clipd(V(APOLLO11, 12.0, speed=0.6, mode=CV)), clipd(V(MOONTOUR, 26.0, speed=0.6)), clipd(V(MOONTOUR, 148.0, speed=0.6)),
+             clipd(V(MOONTOUR, 264.0, speed=0.5)), clipd(V(APOLLO11, 8.0, speed=0.5, mode=CV), 2)], 3304, bw=True)
 
 AMB06 = amb('ambiance_06', "Tu es fait d'étoiles",
             "Le carbone, l'oxygène et le fer\nde ton corps ont été fabriqués\ndans des étoiles.",
@@ -189,9 +192,9 @@ AMB06 = amb('ambiance_06', "Tu es fait d'étoiles",
 
 AMB07 = amb('ambiance_07', "Neptune n'a fait qu'un tour",
             "Depuis sa découverte en 1846,\nNeptune n'a fait qu'un seul tour\ndu Soleil.",
-            [still(NEPTUNE, bw=False), clipd(sc(lambda: L.StarField(seed=31, bright=0.8), lambda: L.Nebula(seed=7, amount=0.3))),
+            [still(NEPTUNE, bw=False), clipd(sc(lambda: L.StarField(seed=31, n=1500, bright=1.0, speed=0.35))),
              still(NEPTUNE, zoom=1.6, cy=0.45, bw=False), clipd(V(HELIO, 1.5, speed=0.5)), still(NEPTUNE, zoom=2.4, cx=0.55, cy=0.45, bw=False),
-             clipd(V(VOY_FLY, 0.0, speed=0.5)), clipd(sc(lambda: L.StarField(seed=32, bright=0.8))), still(NEPTUNE, bw=False, n=2)], 3306, key=40)
+             clipd(sc(lambda: L.StarField(seed=33, bright=0.8, drift=(0, -10)), lambda: L.Halo(center=(W * 0.5, H * 0.32), color=(0.45, 0.65, 1.0), size=1.8))), clipd(sc(lambda: L.StarField(seed=32, bright=0.9), lambda: L.Halo(center=(W / 2, H * 0.3), color=(1.0, 0.88, 0.65), size=2.2))), still(NEPTUNE, bw=False, n=2)], 3306, key=40)
 
 AMB08 = amb('ambiance_08', "Une cuillère d'étoile à neutrons",
             "Une petite cuillère d'étoile à neutrons\npèserait environ\nun milliard de tonnes.",

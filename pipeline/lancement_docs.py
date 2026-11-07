@@ -6,17 +6,45 @@ from common import PROJECT
 VIDS = ['video_01', 'video_02', 'video_03', 'video_04', 'video_05', 'video_11', 'video_12', 'video_13', 'video_14', 'video_15',
         'video_16', 'video_17', 'video_18', 'video_19', 'video_20', 'video_21', 'video_22', 'video_23', 'video_24', 'video_25']
 # 2 vidéos par jour (décision de l'utilisateur), à partir du vendredi 6 novembre 2026
-CALENDRIER = [('Ven. 6 nov.', '20 h 45', 'video_01'), ('Ven. 6 nov.', '22 h 00', 'video_02'),
-              ('Sam. 7 nov.', '12 h 30', 'video_03'), ('Sam. 7 nov.', '19 h 00', 'video_04'), ('Sam. 7 nov.', '21 h 30', 'edit_01'),
-              ('Dim. 8 nov.', '12 h 30', 'video_05'), ('Dim. 8 nov.', '19 h 00', 'video_11'),
-              ('Lun. 9 nov.', '12 h 30', 'video_12'), ('Lun. 9 nov.', '19 h 00', 'video_13'),
-              ('Mar. 10 nov.', '12 h 30', 'video_14'), ('Mar. 10 nov.', '19 h 00', 'video_15'),
-              # série 3 : Mercure avant l'arrivée de BepiColombo (21 nov.), Voyager avant le jour-lumière (18 nov.)
-              ('Mer. 11 nov.', '12 h 30', 'video_16'), ('Mer. 11 nov.', '19 h 00', 'video_17'),
-              ('Jeu. 12 nov.', '12 h 30', 'video_18'), ('Jeu. 12 nov.', '19 h 00', 'video_19'),
-              ('Ven. 13 nov.', '12 h 30', 'video_20'), ('Ven. 13 nov.', '19 h 00', 'video_21'),
-              ('Sam. 14 nov.', '12 h 30', 'video_22'), ('Sam. 14 nov.', '19 h 00', 'video_23'),
-              ('Dim. 15 nov.', '12 h 30', 'video_24'), ('Dim. 15 nov.', '19 h 00', 'video_25')]
+CALENDRIER = [
+              ('Ven. 6 nov.', '20 h 45', 'video_01'),
+              ('Ven. 6 nov.', '22 h 00', 'video_02'),
+              ('Sam. 7 nov.', '12 h 30', 'video_03'),
+              ('Sam. 7 nov.', '17 h 00', 'ambiance_01'),
+              ('Sam. 7 nov.', '19 h 00', 'video_04'),
+              ('Sam. 7 nov.', '21 h 30', 'edit_01'),
+              ('Dim. 8 nov.', '08 h 00', 'ambiance_02'),
+              ('Dim. 8 nov.', '12 h 30', 'video_05'),
+              ('Dim. 8 nov.', '19 h 00', 'video_11'),
+              ('Dim. 8 nov.', '21 h 30', 'reflexion_01'),
+              ('Lun. 9 nov.', '08 h 00', 'ambiance_03'),
+              ('Lun. 9 nov.', '12 h 30', 'video_12'),
+              ('Lun. 9 nov.', '19 h 00', 'video_13'),
+              ('Lun. 9 nov.', '21 h 30', 'edit_02'),
+              ('Mar. 10 nov.', '08 h 00', 'ambiance_04'),
+              ('Mar. 10 nov.', '12 h 30', 'video_14'),
+              ('Mar. 10 nov.', '19 h 00', 'video_15'),
+              ('Mar. 10 nov.', '21 h 30', 'edit_03'),
+              ('Mer. 11 nov.', '08 h 00', 'ambiance_05'),
+              ('Mer. 11 nov.', '12 h 30', 'video_16'),
+              ('Mer. 11 nov.', '19 h 00', 'video_17'),
+              ('Mer. 11 nov.', '21 h 30', 'edit_04'),
+              ('Jeu. 12 nov.', '08 h 00', 'ambiance_06'),
+              ('Jeu. 12 nov.', '12 h 30', 'video_18'),
+              ('Jeu. 12 nov.', '19 h 00', 'video_19'),
+              ('Jeu. 12 nov.', '21 h 30', 'edit_05'),
+              ('Ven. 13 nov.', '08 h 00', 'ambiance_07'),
+              ('Ven. 13 nov.', '12 h 30', 'video_20'),
+              ('Ven. 13 nov.', '19 h 00', 'video_21'),
+              ('Ven. 13 nov.', '21 h 30', 'edit_06'),
+              ('Sam. 14 nov.', '08 h 00', 'ambiance_08'),
+              ('Sam. 14 nov.', '12 h 30', 'video_22'),
+              ('Sam. 14 nov.', '19 h 00', 'video_23'),
+              ('Sam. 14 nov.', '21 h 30', 'edit_07'),
+              ('Dim. 15 nov.', '08 h 00', 'ambiance_09'),
+              ('Dim. 15 nov.', '12 h 30', 'video_24'),
+              ('Dim. 15 nov.', '19 h 00', 'video_25'),
+              ('Dim. 15 nov.', '21 h 30', 'edit_08')]
 
 
 def main():
@@ -38,11 +66,11 @@ def main():
          "## 3. Réglages à chaque publication", "",
          "- **TikTok** : activer « Contenu généré par IA » (la voix est synthétique). Mettre les 5 hashtags, épingler un commentaire avec la question de la vidéo.",
          "- **YouTube** : format Short (vertical, moins de 3 min : nos vidéos font 68 à 96 s), public « Non conçu pour les enfants ». La case « Contenu modifié ou synthétique » vise surtout les contenus réalistes qui imitent une vraie personne ou un faux événement : en principe, elle ne concerne pas un narrateur de synthèse sur de vraies images NASA. En cas de doute, coche-la : ça n'empêche pas la monétisation. Mentionne « Voix de synthèse » dans la description.", "",
-         "## 4. Calendrier : 2 vidéos par jour", "",
-         "Même heure sur TikTok et YouTube (programmation Metricool).", "",
+         "## 4. Calendrier : 4 publications par jour (depuis le 8 novembre)", "",
+         "Même heure sur TikTok et YouTube (programmation Metricool). 08 h 00 : phrase + ambiance (format D) ; 12 h 30 et 19 h 00 : faits commentés (format A) ; 21 h 30 : edit rythmé (format C) ou réflexion (format B). Voir `ANALYSE/ROTATION_FORMATS.md`.", "",
          "| Jour | Heure | Vidéo |", "|---|---|---|"]
     for day, hour, v in CALENDRIER:
-        L.append(f"| {day} | {hour} | {v[-2:]} — {P.PUB[v]['titre']} |")
+        L.append(f"| {day} | {hour} | {v[-2:] if v.startswith('video') else v} — {P.PUB[v]['titre']} |")
     L += ["", "## 5. Textes à copier-coller", ""]
     for v in VIDS:
         p = P.PUB[v]
@@ -61,7 +89,7 @@ def main():
           "| YouTube Partner Program | 1 000 abonnés et 10 millions de vues de Shorts sur 90 jours (ou 4 000 h de visionnage de vidéos longues sur 12 mois). YouTube a annoncé en août 2026 des seuils plus élevés pour les nouveaux candidats : vérifie dans YouTube Studio → Revenus | ✅ Shorts originaux |",
           "", "Le plus important est la régularité : 20 vidéos couvrent 10 jours à 2 par jour (jusqu'au dimanche 15 novembre). Cette niche coûte 0 € à produire (images NASA, voix et musique générées localement), donc de nouvelles vidéos peuvent suivre chaque semaine.",
           "", "## 7. Programmation Metricool (faite le 6 novembre 2026)", "",
-          "Les 20 vidéos (01 à 05 et 11 à 25) sont programmées dans Metricool (marque 7923410) sur TikTok et YouTube, aux heures du § 4, en publication automatique : 01 à 15 le 6 novembre, 16 à 25 le 7 novembre (fichiers en haute qualité). Les publications du 6 au soir et du 7 midi sont bien parties sur les deux réseaux.",
+          "Les 20 vidéos (01 à 05 et 11 à 25) sont programmées dans Metricool (marque 7923410) sur TikTok et YouTube, aux heures du § 4, en publication automatique : 01 à 15 le 6 novembre, 16 à 25 le 7 novembre (fichiers en haute qualité). Les publications du 6 au soir et du 7 midi sont bien parties sur les deux réseaux. Le 7 novembre, ajout des formats courts : `edit_01` (7 nov. 21 h 30), `ambiance_01` (7 nov. 17 h 00), `reflexion_01` (8 nov. 21 h 30), `ambiance_02` à `09` (8 au 15 nov. à 08 h 00) et `edit_02` à `08` (9 au 15 nov. à 21 h 30). Les formats courts (moins d'une minute) ne comptent pas pour Creator Rewards : ils servent à gagner des abonnés.",
           "", "Réglages appliqués à chaque publication :",
           "- **TikTok** : public, commentaires, duos et collages autorisés (favorise la diffusion), aucun contenu commercial déclaré, label « contenu généré par IA » activé (voix de synthèse).",
           "- **YouTube** : Short, public, « non conçu pour les enfants » (sinon pas de publicités personnalisées ni de commentaires), catégorie Science et technologie, mots-clés, case « contenu synthétique » non cochée (vraies images NASA, narrateur de synthèse mentionné dans la description).",

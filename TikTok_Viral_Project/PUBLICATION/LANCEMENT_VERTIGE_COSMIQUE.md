@@ -26,33 +26,50 @@ Description de la chaîne YouTube :
 - **TikTok** : activer « Contenu généré par IA » (la voix est synthétique). Mettre les 5 hashtags, épingler un commentaire avec la question de la vidéo.
 - **YouTube** : format Short (vertical, moins de 3 min : nos vidéos font 68 à 96 s), public « Non conçu pour les enfants ». La case « Contenu modifié ou synthétique » vise surtout les contenus réalistes qui imitent une vraie personne ou un faux événement : en principe, elle ne concerne pas un narrateur de synthèse sur de vraies images NASA. En cas de doute, coche-la : ça n'empêche pas la monétisation. Mentionne « Voix de synthèse » dans la description.
 
-## 4. Calendrier : 2 vidéos par jour
+## 4. Calendrier : 4 publications par jour (depuis le 8 novembre)
 
-Même heure sur TikTok et YouTube (programmation Metricool).
+Même heure sur TikTok et YouTube (programmation Metricool). 08 h 00 : phrase + ambiance (format D) ; 12 h 30 et 19 h 00 : faits commentés (format A) ; 21 h 30 : edit rythmé (format C) ou réflexion (format B). Voir `ANALYSE/ROTATION_FORMATS.md`.
 
 | Jour | Heure | Vidéo |
 |---|---|---|
 | Ven. 6 nov. | 20 h 45 | 01 — Il pleut du verre sur cette planète 😳 |
 | Ven. 6 nov. | 22 h 00 | 02 — Si le Soleil disparaissait, tu ne le saurais pas avant 8 min |
 | Sam. 7 nov. | 12 h 30 | 03 — La zone la plus vide de l'Univers existe vraiment |
+| Sam. 7 nov. | 17 h 00 | ambiance_01 — Plus d'étoiles que de grains de sable ✨ |
 | Sam. 7 nov. | 19 h 00 | 04 — Voici ce qui t'arrive si tu tombes dans un trou noir |
-| Sam. 7 nov. | 21 h 30 | 01 — L'Univers est terrifiant 🌌 |
+| Sam. 7 nov. | 21 h 30 | edit_01 — L'Univers est terrifiant 🌌 |
+| Dim. 8 nov. | 08 h 00 | ambiance_02 — Tu vois le Soleil avec 8 minutes de retard ☀️ |
 | Dim. 8 nov. | 12 h 30 | 05 — Sur Vénus, un jour dure plus longtemps qu'un an |
 | Dim. 8 nov. | 19 h 00 | 11 — Une cuillère de cette étoile pèse un milliard de tonnes 🤯 |
+| Dim. 8 nov. | 21 h 30 | reflexion_01 — L'infime et l'infini 🌌 |
+| Lun. 9 nov. | 08 h 00 | ambiance_03 — Sur Vénus, un jour dure plus qu'un an 🪐 |
 | Lun. 9 nov. | 12 h 30 | 12 — La Lune s'éloigne de nous chaque année 🌕 |
 | Lun. 9 nov. | 19 h 00 | 13 — Le plus grand volcan du système solaire est sur Mars 🌋 |
+| Lun. 9 nov. | 21 h 30 | edit_02 — Les trous noirs en 20 secondes 🕳️ |
+| Mar. 10 nov. | 08 h 00 | ambiance_04 — L'espace est à une heure de route 🚗 |
 | Mar. 10 nov. | 12 h 30 | 14 — Une tempête plus grande que la Terre 🌪️ |
 | Mar. 10 nov. | 19 h 00 | 15 — La lumière du Soleil a des milliers d'années ☀️ |
+| Mar. 10 nov. | 21 h 30 | edit_03 — Le système solaire en 20 secondes 🪐 |
+| Mer. 11 nov. | 08 h 00 | ambiance_05 — Les traces de pas sur la Lune sont toujours là 👣 |
 | Mer. 11 nov. | 12 h 30 | 16 — 16 levers de soleil par jour 🌅 |
 | Mer. 11 nov. | 19 h 00 | 17 — Vendredi 13 avril 2029, un astéroïde va frôler la Terre ☄️ |
+| Mer. 11 nov. | 21 h 30 | edit_04 — Le Soleil comme tu ne l'as jamais vu ☀️ |
+| Jeu. 12 nov. | 08 h 00 | ambiance_06 — Tu es fait d'étoiles ✨ |
 | Jeu. 12 nov. | 12 h 30 | 18 — Plus d'eau que dans tous les océans de la Terre 🌊 |
 | Jeu. 12 nov. | 19 h 00 | 19 — Sur cette lune, il pleut… mais pas de l'eau 🌧️ |
+| Jeu. 12 nov. | 21 h 30 | edit_05 — Les lunes les plus folles du système solaire 🌙 |
+| Ven. 13 nov. | 08 h 00 | ambiance_07 — Neptune n'a fait qu'un seul tour du Soleil 🔵 |
 | Ven. 13 nov. | 12 h 30 | 20 — L'objet le plus rapide jamais construit ☀️🚀 |
 | Ven. 13 nov. | 19 h 00 | 21 — Les anneaux de Saturne sont en train de disparaître 🪐 |
+| Ven. 13 nov. | 21 h 30 | edit_06 — Ce n'est pas une peinture 🎨 |
+| Sam. 14 nov. | 08 h 00 | ambiance_08 — Une cuillère pèserait un milliard de tonnes 🤯 |
 | Sam. 14 nov. | 12 h 30 | 22 — La planète la plus proche du Soleil cache de la glace 🧊 |
 | Sam. 14 nov. | 19 h 00 | 23 — Sur Mars, les couchers de soleil sont bleus 🔵 |
+| Sam. 14 nov. | 21 h 30 | edit_07 — La Terre vue de l'espace 🌍 |
+| Dim. 15 nov. | 08 h 00 | ambiance_09 — Plus d'arbres sur Terre que d'étoiles dans la galaxie 🌳 |
 | Dim. 15 nov. | 12 h 30 | 24 — Cette lune crache de l'eau dans l'espace 💦 |
 | Dim. 15 nov. | 19 h 00 | 25 — Cette sonde sera bientôt à un jour-lumière de la Terre 🛰️ |
+| Dim. 15 nov. | 21 h 30 | edit_08 — Voyage à travers l'Univers 🚀 |
 
 ## 5. Textes à copier-coller
 
@@ -587,7 +604,7 @@ Le plus important est la régularité : 20 vidéos couvrent 10 jours à 2 par jo
 
 ## 7. Programmation Metricool (faite le 6 novembre 2026)
 
-Les 20 vidéos (01 à 05 et 11 à 25) sont programmées dans Metricool (marque 7923410) sur TikTok et YouTube, aux heures du § 4, en publication automatique : 01 à 15 le 6 novembre, 16 à 25 le 7 novembre (fichiers en haute qualité). Les publications du 6 au soir et du 7 midi sont bien parties sur les deux réseaux.
+Les 20 vidéos (01 à 05 et 11 à 25) sont programmées dans Metricool (marque 7923410) sur TikTok et YouTube, aux heures du § 4, en publication automatique : 01 à 15 le 6 novembre, 16 à 25 le 7 novembre (fichiers en haute qualité). Les publications du 6 au soir et du 7 midi sont bien parties sur les deux réseaux. Le 7 novembre, ajout des formats courts : `edit_01` (7 nov. 21 h 30), `ambiance_01` (7 nov. 17 h 00), `reflexion_01` (8 nov. 21 h 30), `ambiance_02` à `09` (8 au 15 nov. à 08 h 00) et `edit_02` à `08` (9 au 15 nov. à 21 h 30). Les formats courts (moins d'une minute) ne comptent pas pour Creator Rewards : ils servent à gagner des abonnés.
 
 Réglages appliqués à chaque publication :
 - **TikTok** : public, commentaires, duos et collages autorisés (favorise la diffusion), aucun contenu commercial déclaré, label « contenu généré par IA » activé (voix de synthèse).
