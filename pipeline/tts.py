@@ -118,6 +118,14 @@ def word_timings(units, dur, silences):
             out[i] = (t, t + d); t += d
     return out
 
+def voice_style(name):
+    """« ff_siwis » ou mélange « mix:ff_siwis=0.5,im_nicola=0.5 » (timbres différents, prononciation française)."""
+    if not name.startswith('mix:'):
+        return name
+    V = np.load(VOICES)
+    parts = [p.split('=') for p in name[4:].split(',')]
+    return sum(float(w) * V[n] for n, w in parts).astype(np.float32)
+
 DEFAULT_PAUSE = {'.': 0.30, '!': 0.32, '?': 0.36, '…': 0.45, ',': 0.14, ':': 0.24, ';': 0.2}
 
 def synthesize(video, workdir):
@@ -140,12 +148,13 @@ def synthesize(video, workdir):
         units = parse_units(text)
         spk = ' '.join(s for _, s in units)
         sp = seg.get('speed', speed)
-        key = re.sub(r'\W+', '_', f'{voice}_{sp}_{spk}')[:120] + '_' + hashlib.md5(spk.encode()).hexdigest()[:10] + '.wav'
+        vname = seg.get('voice', voice)
+        key = re.sub(r'\W+', '_', f'{vname}_{sp}_{spk}')[:120] + '_' + hashlib.md5((vname + spk).encode()).hexdigest()[:10] + '.wav'
         path = os.path.join(cache, key)
         if os.path.exists(path):
             a, sr = sf.read(path, dtype='float32')
         else:
-            a, sr = kokoro().create(spk, voice=voice, speed=sp, lang='fr-fr')
+            a, sr = kokoro().create(spk, voice=voice_style(vname), speed=sp, lang='fr-fr')
             a = np.asarray(a, np.float32)
             sf.write(path, a, sr)
         a = _trim(a, sr)

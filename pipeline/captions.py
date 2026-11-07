@@ -25,6 +25,9 @@ THEMES = {
                     word_oc='16173A', word_oa=0, word_shadow=0,
                     hook_font='Poppins Black', hook_size=92, hook_color='FFFFFF', hook_box='16173A', label_box='FFD43D', label_color='16173A',
                     y=1460, mode='word'),
+    # « Villa Vitamine » (dessin animé) : répliques en blocs de 3 mots, mot actif à la couleur du personnage qui parle
+    'villa': dict(font='Poppins Black', size=84, upper=False, color='FFFFFF', active='FFD43D', emph='FFD43D', outline=8, shadow=0,
+                  hook_font='Poppins Black', hook_size=66, hook_color='FFFFFF', hook_box='E8457E', label_box='FFD43D', label_color='16173A', y=1545),
     'psy': dict(font='Poppins ExtraBold', size=118, upper=False, color='FFFFFF', active='FFE135', emph='FF6FB5', outline=7, shadow=3,
                 hook_font='Poppins Black', hook_size=128, hook_color='111111', hook_box='FFE135', label_box='FFFFFF', label_color='111111', y=1340),
 }
@@ -107,6 +110,7 @@ def build_ass(video, timeline, path):
                 col = th['emph'] if norm(w['w']) in emph else th['color']
                 out.append(f"Dialogue: 1,{ass_time(s)},{ass_time(e)},Word,,0,0,0,,{{\\pos({W // 2},{cy})\\c{bgr(col)}\\blur0.6\\fad(70,40)\\fscx94\\fscy94\\t(0,140,\\fscx100\\fscy100)}}{t}")
             continue
+        act = seg_spec.get('active', th['active'])
         chunks = chunk_words(words, 3 if style != 'calm' else 4, 17 if style != 'calm' else 21)
         for ci, ch in enumerate(chunks):
             c_start = ch[0]['s']
@@ -132,7 +136,7 @@ def build_ass(video, timeline, path):
                 for wj, w2 in enumerate(ch):
                     t = esc(w2['w'].upper() if th['upper'] else w2['w'])
                     if wj == wi:
-                        parts.append(f"{{\\c{bgr(th['active'])}\\fscx108\\fscy108}}{t}{{\\c{bgr(th['color'])}\\fscx100\\fscy100}}")
+                        parts.append(f"{{\\c{bgr(act)}\\fscx108\\fscy108}}{t}{{\\c{bgr(th['color'])}\\fscx100\\fscy100}}")
                     elif norm(w2['w']) in emph:
                         parts.append(f"{{\\c{bgr(th['emph'])}}}{t}{{\\c{bgr(th['color'])}}}")
                     else:

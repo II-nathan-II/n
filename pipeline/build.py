@@ -9,8 +9,8 @@ def all_videos():
     if os.environ.get('TT_VERSION') == 'v1':
         import videos_space, videos_psy
         return {v['id']: v for v in videos_space.VIDEOS + videos_psy.VIDEOS}
-    import videos_real, videos_space2, videos_space3, videos_reflexion, videos_edits, videos_anim, videos_flash
-    return {v['id']: v for v in videos_real.VIDEOS + videos_space2.VIDEOS + videos_space3.VIDEOS + videos_reflexion.VIDEOS + videos_edits.VIDEOS + videos_anim.VIDEOS + videos_flash.VIDEOS}
+    import videos_real, videos_space2, videos_space3, videos_reflexion, videos_edits, videos_anim, videos_flash, videos_villa2d
+    return {v['id']: v for v in videos_real.VIDEOS + videos_space2.VIDEOS + videos_space3.VIDEOS + videos_reflexion.VIDEOS + videos_edits.VIDEOS + videos_anim.VIDEOS + videos_flash.VIDEOS + videos_villa2d.VIDEOS}
 
 def run_one(vid, preview, seconds, force=False):
     import render
