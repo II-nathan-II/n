@@ -29,6 +29,8 @@ sans cette étiquette, TikTok peut retirer la vidéo ou limiter le compte.
 
 ## 2. Cristal ASMR — n° 1 : Fruits rouges en verre
 
+> ✅ **Publié** le samedi 7 novembre 2026 au soir (par toi, sur le compte Cristal ASMR).
+
 - **Fichier :** `NICHE_4_CRISTAL_ASMR/asmr_01.mp4` (87,5 s)
 - **Compte :** Cristal ASMR
 - **Heure conseillée :** dimanche 8 novembre, **21 h 30** (l'ASMR marche bien le soir)
