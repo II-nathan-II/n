@@ -172,6 +172,8 @@ class StarField(Layer):
         a = 1.0 if self.fade is None else float(kf(self.fade, t))
         if a <= 0:
             return f
+        if self.speed > 0.2:
+            return self._warp(f, t, a)
         z = (self.p[:, 2] - self.speed * t) % 1.0 + 0.02
         xs = W / 2 + self.p[:, 0] / z * self.fov * 0.5 + self.drift[0] * t
         ys = H / 2 + self.p[:, 1] / z * self.fov * 0.5 + self.drift[1] * t
@@ -185,6 +187,25 @@ class StarField(Layer):
         splat(buf, xs, ys, br.astype(np.float32))
         buf = cv2.GaussianBlur(buf, (0, 0), 0.75) * 6.0
         f += bloom(buf, 1.2, (2, 6, 16), (0.8, 0.45, 0.2))
+        return f
+
+
+    def _warp(self, f, t, a):
+        """Plongée rapide : traînées d'étoiles qui jaillissent du centre (effet « hyperespace »)."""
+        dt = 1 / 30
+        z1 = (self.p[:, 2] - self.speed * t) % 1.0 + 0.04
+        z0 = np.minimum(z1 + self.speed * dt * 2.5, 1.04)
+        sc = self.fov * 0.18
+        x1 = W / 2 + self.p[:, 0] / z1 * sc; y1 = H / 2 + self.p[:, 1] / z1 * sc
+        x0 = W / 2 + self.p[:, 0] / z0 * sc; y0 = H / 2 + self.p[:, 1] / z0 * sc
+        br = np.clip((1.05 - z1) ** 1.5, 0, 1) * self.bright * a
+        buf = np.zeros((H // 2, W // 2, 3), np.float32)
+        ok = (np.abs(x1 - W / 2) < W) & (np.abs(y1 - H / 2) < H)
+        for i in np.nonzero(ok)[0]:
+            c = tuple(float(v) for v in self.col[i] * br[i] * 1.6)
+            cv2.line(buf, (int(x0[i] * 8), int(y0[i] * 8)), (int(x1[i] * 8), int(y1[i] * 8)), c, 1, cv2.LINE_AA, 4)
+        buf = bloom(buf, 1.0, (2, 6, 16), (0.7, 0.4, 0.2))
+        f += cv2.resize(buf, (W, H), interpolation=cv2.INTER_LINEAR)
         return f
 
 
