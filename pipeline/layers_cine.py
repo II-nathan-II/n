@@ -178,13 +178,13 @@ class StarField(Layer):
         xs = (xs + W) % (W * 1.0) if self.speed == 0 else xs
         ys = (ys + H) % (H * 1.0) if self.speed == 0 else ys
         tw = 0.8 + 0.2 * np.sin(t * 2.3 + self.ph)
-        br = (self.mag * 0.06 * tw * (0.35 + 0.65 * (1 - z) if self.speed else 1.0) * self.bright * a)[:, None] * self.col
+        br = (self.mag * 0.13 * tw * (0.35 + 0.65 * (1 - z) if self.speed else 1.0) * self.bright * a)[:, None] * self.col
         if self.tint is not None:
             br = br * np.array(self.tint, np.float32)
         buf = np.zeros((H, W, 3), np.float32)
         splat(buf, xs, ys, br.astype(np.float32))
-        buf = cv2.GaussianBlur(buf, (0, 0), 0.7) * 2.2
-        f += bloom(buf, 0.8, (2, 6, 16), (0.6, 0.3, 0.12))
+        buf = cv2.GaussianBlur(buf, (0, 0), 0.75) * 6.0
+        f += bloom(buf, 1.2, (2, 6, 16), (0.8, 0.45, 0.2))
         return f
 
 
@@ -288,7 +288,7 @@ class Atom(Layer):
         buf = np.zeros((H // 2, W // 2, 3), np.float32)
         jit = np.random.default_rng(int(t * 30)).normal(0, 0.012, E.shape).astype(np.float32)
         Ej = E + jit
-        splat(buf, (cx + Ej[:, 0] * sc) / 2, (cy - Ej[:, 1] * sc) / 2, self.ec * 0.22)
+        splat(buf, (cx + Ej[:, 0] * sc) / 2, (cy - Ej[:, 1] * sc) / 2, self.ec * 0.5 * (560 / sc) ** 0.6)
         buf = cv2.GaussianBlur(buf, (0, 0), 1.4)
         buf = buf / (1 + buf * 0.6)  # compression douce des zones denses
         buf = bloom(buf, 0.9, (3, 10, 26), (0.7, 0.45, 0.3))
@@ -492,4 +492,68 @@ class Halo(Layer):
             k = smoothstep(self.t_ring, self.t_ring + 0.5, t)
             if k > 0:
                 cv2.circle(f, (int(cx), int(cy)), int(self.ring + 30 * (1 - k)), (1.0 * k * a, 0.85 * k * a, 0.4 * k * a), 3, cv2.LINE_AA)
+        return f
+
+
+# ============================================================================= fond de nébuleuse
+@functools.lru_cache(maxsize=8)
+def _nebula_tex(seed, c1, c2):
+    from common import fbm_noise
+    h, w = H // 4, W // 4
+    n1 = fbm_noise(h, w * 2, beta=2.6, seed=seed); n2 = fbm_noise(h, w * 2, beta=2.2, seed=seed + 1)
+    m = np.clip((n1 - 0.45) * 2.2, 0, 1) ** 1.6
+    col = (np.array(c1, np.float32) * (1 - n2[..., None]) + np.array(c2, np.float32) * n2[..., None]) * m[..., None]
+    return col.astype(np.float32)
+
+
+class Nebula(Layer):
+    """Voile de nébuleuse très discret qui dérive (évite le noir total)."""
+    def __init__(self, seed=1, c1=(0.16, 0.28, 0.75), c2=(0.6, 0.2, 0.65), amount=0.3, drift=6.0, fade=None):
+        self.__dict__.update(locals()); del self.__dict__['self']
+
+    def draw(self, f, t, dur):
+        a = 1.0 if self.fade is None else float(kf(self.fade, t))
+        if a <= 0:
+            return f
+        tex = _nebula_tex(self.seed, tuple(self.c1), tuple(self.c2))
+        h, w2 = tex.shape[:2]; w = w2 // 2
+        off = int(t * self.drift / 4) % w
+        crop = tex[:, off:off + w]
+        f += cv2.resize(crop, (W, H), interpolation=cv2.INTER_CUBIC) * self.amount * a
+        return f
+
+
+# ============================================================================= champ profond (galaxies lointaines)
+class DeepField(Layer):
+    """Des centaines de galaxies lointaines (ellipses lumineuses aux couleurs variées), en lent zoom avant."""
+    def __init__(self, n=420, seed=17, zoom=(1.0, 1.25), fade=None):
+        self.__dict__.update(locals()); del self.__dict__['self']
+
+    def setup(self, dur):
+        rng = np.random.default_rng(self.seed)
+        n = self.n
+        self.x = rng.uniform(-0.1, 1.1, n) * W; self.y = rng.uniform(-0.1, 1.1, n) * H
+        self.size = (rng.pareto(1.6, n) + 1).clip(1, 14) * 3.2
+        self.ax = rng.uniform(0.25, 1.0, n); self.ang = rng.uniform(0, 180, n)
+        pal = np.array([(1.0, 0.85, 0.65), (0.95, 0.9, 1.0), (0.65, 0.75, 1.0), (1.0, 0.6, 0.45), (0.9, 0.7, 1.0)], np.float32)
+        self.col = pal[rng.integers(0, len(pal), n)] * rng.uniform(0.5, 1.0, n)[:, None]
+        self.dur = dur
+
+    def draw(self, f, t, dur):
+        a = 1.0 if self.fade is None else float(kf(self.fade, t))
+        if a <= 0:
+            return f
+        z = lerp(self.zoom[0], self.zoom[1], min(1.0, t / max(dur, 1e-3)))
+        buf = np.zeros((H // 2, W // 2, 3), np.float32)
+        for x, y, sz, ax, ang, c in zip(self.x, self.y, self.size, self.ax, self.ang, self.col):
+            X = (W / 2 + (x - W / 2) * z) / 2; Y = (H / 2 + (y - H / 2) * z) / 2
+            r = sz * z / 2
+            if X < -r or X > W / 2 + r or Y < -r or Y > H / 2 + r:
+                continue
+            cv2.ellipse(buf, (int(X * 16), int(Y * 16)), (max(1, int(r * 16)), max(1, int(r * ax * 16))), float(ang), 0, 360,
+                        tuple(float(v) * 0.35 for v in c), -1, cv2.LINE_AA, 4)
+            cv2.circle(buf, (int(X), int(Y)), max(1, int(r * 0.25)), tuple(float(v) * 1.2 for v in c), -1, cv2.LINE_AA)
+        buf = cv2.GaussianBlur(buf, (0, 0), 1.2)
+        buf = bloom(buf, 0.9, (2, 6, 16), (0.7, 0.4, 0.2))
+        f += cv2.resize(buf, (W, H), interpolation=cv2.INTER_LINEAR) * a
         return f
