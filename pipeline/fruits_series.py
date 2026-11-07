@@ -432,9 +432,10 @@ def A(subject_fr, material):
 
 
 ASMR = [
-    dict(id='asmr_01', num=1, titre="Fruits rouges en verre", accroche="Le n°11 m'a donné des frissons",
+    # version produite le 7 novembre (Veo 3.1 fast, plans de 8 s coupés à 7 s) : 12 plans
+    dict(id='asmr_01', num=1, titre="Fruits rouges en verre", accroche="Le n°11 m'a donné des frissons", shot=7.0,
          plans=[A(f, 'verre') for f in ['fraise', 'framboise', 'cerise', 'mûre', 'grenade', 'pastèque', 'myrtille', 'prune', 'figue',
-                                         'raisin', 'fraise', 'cerise', 'framboise', 'grenade', 'pastèque', 'myrtille géante', 'mûre', 'fraise']]),
+                                         'raisin', 'myrtille géante', 'pastèque']]),
     dict(id='asmr_02', num=2, titre="Agrumes en cristal", accroche="Écoute le son du n°7",
          plans=[A(f, 'cristal') for f in ['citron', 'orange', 'pamplemousse', 'citron vert', 'mandarine', 'citron', 'orange', 'pamplemousse',
                                            'citron vert', 'mandarine', 'citron', 'orange', 'pamplemousse', 'citron vert', 'mandarine', 'orange', 'citron', 'pamplemousse']]),

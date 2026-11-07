@@ -1,13 +1,14 @@
 """Montage des vidéos IA (niche 3 « Villa Vitamine », niche 4 « Cristal ASMR ») à partir des plans générés.
 
 Plans attendus : $TT_AI_CLIPS/<video_id>/<NN>.mp4 (NN = numéro du plan, 01…), produits par Wan 3.0
-via Higgsfield avec le son natif (dialogues, ambiance, sons ASMR). Le manifeste
+via Higgsfield ou par Veo 3.1 (Ace Data) avec le son natif (dialogues, ambiance, sons ASMR). Le manifeste
 `ai_clips_manifest.json` garde l'identifiant et l'URL de chaque génération pour pouvoir les retélécharger.
 
     python3 ai_assemble.py episode_01                # monte l'épisode (plans manquants → erreur)
     python3 ai_assemble.py episode_01 --placeholder  # animatique : plans manquants remplacés par des cartons
     python3 ai_assemble.py episode_10 --eliminated cyril
     python3 ai_assemble.py --fetch                   # retélécharge les plans listés dans le manifeste
+    python3 ai_assemble.py episode_01 --skip-missing # version courte sans les plans non générés
 """
 import os, sys, json, subprocess, re, shutil
 import numpy as np
@@ -209,7 +210,22 @@ def loud_limit(x, target, ceiling=-2.0):
 
 # ─────────────────────────── montage ───────────────────────────
 
-def build(vid, use_placeholders=False, eliminated='coco'):
+def react_from(prev_mp4, path_mp4, path_wav, dur):
+    """Plan de réaction fabriqué au montage : dernière image du plan précédent, zoom dramatique (aucune génération)."""
+    png = path_mp4 + '.png'
+    run(['ffmpeg', '-v', 'error', '-y', '-sseof', '-0.15', '-i', prev_mp4, '-frames:v', '1', '-update', '1', png])
+    n = int(round(dur * FPS))
+    run(['ffmpeg', '-v', 'error', '-y', '-loop', '1', '-i', png, '-t', f'{dur:.3f}',
+         '-vf', f"scale={W * 2}:{H * 2},zoompan=z='1+0.30*on/{n}':x='iw/2-(iw/zoom/2)':y='ih/2.4-(ih/zoom/2.4)':d={n}:s={W}x{H}:fps={FPS},"
+                f"eq=contrast=1.08:saturation=1.1,vignette=PI/4,format=yuv420p",
+         '-frames:v', str(n), '-c:v', 'libx264', '-preset', 'veryfast', '-crf', '14', path_mp4])
+    sf.write(path_wav, np.zeros((int(round(dur * SR)), 2), np.float32), SR)
+
+
+def build(vid, use_placeholders=False, eliminated='coco', skip_missing=False):
+    """skip_missing : version courte quand des plans n'ont pas pu être générés (crédits) — les plans manquants sont
+    retirés, un plan de réaction manquant est fabriqué à partir du plan précédent, et les plans dialogués sont gardés
+    presque entiers (les répliques générées durent souvent plus que la durée prévue)."""
     is_trailer = vid in ('bande_annonce', 'teaser')
     is_ep = vid.startswith('episode') or is_trailer
     spec = {'bande_annonce': FS.TRAILER, 'teaser': FS.TEASER}.get(vid) or next(v for v in (FS.EPISODES if is_ep else FS.ASMR) if v['id'] == vid)
@@ -217,7 +233,7 @@ def build(vid, use_placeholders=False, eliminated='coco'):
         shots = FS.episode_shots(spec, eliminated)
         items = [(s['dur'], s) for s in shots]
     else:
-        items = [(FS.ASMR_SHOT, dict(kind='asmr', plan=p)) for p in spec['plans']]
+        items = [(spec.get('shot', FS.ASMR_SHOT), dict(kind='asmr', plan=p)) for p in spec['plans']]
     wd = os.path.join(WORK, 'ai', vid)
     os.makedirs(wd, exist_ok=True)
 
@@ -226,12 +242,21 @@ def build(vid, use_placeholders=False, eliminated='coco'):
         src = os.path.join(CLIPS, vid, f'{i:02d}.mp4')
         mp4, wav = os.path.join(wd, f'n{i:02d}.mp4'), os.path.join(wd, f'n{i:02d}.wav')
         if os.path.exists(src):
-            d = min(dur, probe_dur(src))
+            pd = probe_dur(src)
+            d = min(dur, pd)
+            if skip_missing and is_ep and sh.get('kind') not in ('etab', 'react'):
+                d = max(d, pd - 0.3)
             normalize(src, mp4, wav, d, sh.get('crop') if is_ep else None)
             real = True
         else:
             missing.append(i)
-            if not use_placeholders:
+            if skip_missing and is_ep and sh.get('kind') == 'react' and segs:
+                d = min(dur, 2.4)
+                react_from(segs[-1]['mp4'], mp4, wav, d)
+                segs.append(dict(i=i, t0=t, dur=d, shot=sh, mp4=mp4, wav=wav, real=False))
+                t += d
+                continue
+            if skip_missing or not use_placeholders:
                 continue
             d = dur
             if is_ep:
@@ -245,7 +270,7 @@ def build(vid, use_placeholders=False, eliminated='coco'):
             real = False
         segs.append(dict(i=i, t0=t, dur=d, shot=sh, mp4=mp4, wav=wav, real=real))
         t += d
-    if missing and not use_placeholders:
+    if missing and not use_placeholders and not skip_missing:
         raise SystemExit(f'{vid} : plans manquants {missing} dans {os.path.join(CLIPS, vid)} (ou --placeholder)')
 
     # ouverture choc : 3 s d'un plan fort de l'épisode, placées avant le générique (aucune génération en plus)
@@ -398,4 +423,4 @@ if __name__ == '__main__':
     for vid in ids:
         if vid == 'cyril':
             continue
-        build(vid, '--placeholder' in sys.argv, elim)
+        build(vid, '--placeholder' in sys.argv, elim, '--skip-missing' in sys.argv)
