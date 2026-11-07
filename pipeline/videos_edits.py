@@ -61,4 +61,51 @@ EDIT01 = dict(
                final_text("ET NOUS, ON EST LÀ.", t0=0.6)), 3, trans='black', cam='slow_in', sfx=['boom']),
     ])
 
-VIDEOS = [EDIT01]
+
+
+# ============================================================================= format « phrase + ambiance »
+# Une seule phrase (fait vérifié) posée sur un diaporama lent d'images NASA/Hubble/Webb, musique d'ambiance, 10–15 s.
+import numpy as np
+from layers_base import Fn
+from videos_real import P, SATURN
+
+CARINA = 'nasa:carina_nebula'                                   # Webb, « falaises cosmiques » de la nébuleuse de la Carène
+PILLARS = 'nasa:GSFC_20171208_Archive_e000842'                  # Hubble, piliers de la Création (infrarouge)
+HORSEHEAD = 'nasa:GSFC_20171208_Archive_e001518'                # Hubble, nébuleuse de la Tête de Cheval
+SUNFLOWER = 'nasa:hubble-sees-a-galactic-sunflower_21136469209_o'  # Hubble, galaxie du Tournesol (M63)
+SOMBRERO = 'nasa:PIA15426'                                      # Spitzer/Hubble, galaxie du Sombrero
+
+
+def mono(contrast=1.15):
+    """Noir et blanc contrasté (style « edit » monochrome)."""
+    def make():
+        def draw(f, t, dur):
+            g = f[..., 0] * 0.3 + f[..., 1] * 0.59 + f[..., 2] * 0.11
+            g = np.clip((g - 0.5) * contrast + 0.5, 0, 1)
+            return np.repeat(g[..., None], 3, axis=2)
+        return Fn(draw)
+    return make
+
+
+def still(ref, cx=0.5, cy=0.5, zoom=1.0, bw=True, n=1):
+    extra = [mono()] if bw else []
+    return seg('', P(ref, cx=cx, cy=cy, zoom=zoom, extra=extra), 'slow_in', 'fade', hold=round(1.5 * n, 3), music=0.8)
+
+
+AMB01 = dict(
+    id='ambiance_01', niche='NICHE_1', theme='space', speed=1.0, grain=0.04, vignette=0.35,
+    title="Plus d'étoiles que de grains de sable",
+    overlay=dict(text="Il y a plus d'étoiles dans l'Univers\nque de grains de sable\nsur toutes les plages de la Terre.", y=960, size=56),
+    music=dict(style='space', prog='minor_drift', key=43, bpm=80, seed=3201, start=0.0),
+    segments=[
+        still(CARINA, cx=0.45),
+        still(PILLARS, cx=0.42, cy=0.5),
+        still(SUNFLOWER),
+        still(HORSEHEAD, cx=0.45, cy=0.45),
+        still(SOMBRERO),
+        still(SATURN),
+        still(CARINA, cx=0.75, zoom=1.4),
+        still(PILLARS, cx=0.5, cy=0.4, zoom=1.6, n=2),
+    ])
+
+VIDEOS = [EDIT01, AMB01]

@@ -141,6 +141,12 @@ def build_ass(video, timeline, path):
         end = max(first['end'], video.get('hook_min', 3.0))
         lines = hook.split('\\N')
         out.append(f"Dialogue: 2,{ass_time(0.0)},{ass_time(end)},Hook,,0,0,0,,{{\\pos({W // 2},{video.get('hook_y', 400)})\\fscx40\\fscy40\\t(0,140,\\fscx108\\fscy108)\\t(140,220,\\fscx100\\fscy100)\\fad(0,200)}}{hook}")
+    # texte fixe sur toute la vidéo (format « phrase + ambiance »)
+    ov = video.get('overlay')
+    if ov:
+        end = timeline['segments'][-1]['end']
+        txt = esc(ov['text']).replace(chr(10), chr(92) + 'N')
+        out.append(f"Dialogue: 3,{ass_time(0.15)},{ass_time(end)},Calm,,0,0,0,,{{\\pos({W // 2},{ov.get('y', 960)})\\fn{ov.get('font', 'Poppins SemiBold')}\\fs{ov.get('size', 58)}\\bord0\\shad3\\fad(600,400)}}{txt}")
     # étiquettes
     for seg_spec, seg in zip(segs, timeline['segments']):
         lab = seg_spec.get('label')
