@@ -9,7 +9,9 @@ import numpy as np
 from videos_real import V, P, txt, back, counter, shade, seg, REAL, \
     EARTH, ISS, JUPITER, SUN171, SUN193, SUN131, PV, AUR_ISS, MILKYWAY, SATURN
 from videos_space2 import GRS, MARS_TOPO, MARS_ROLL, HELICITY, SDO171, SDO304
-from layers_base import Flash, Fn
+from layers_base import Flash, Fn, Composite as C
+from common import W, H
+import layers_cine as L
 
 # ----------------------------------------------------------------------------- nouvelles sources
 # Apophis (NASA Goddard / OSIRIS-APEX)
@@ -391,7 +393,9 @@ R25 = dict(
         seg("… et Saturne en {1980|mille neuf cent quatre-vingts}.", V(SAT_RINGS, 6.0, speed=0.6), 'push', 'cut', label='SATURNE • 1980'),
         seg("En {2012|deux mille douze}, elle est devenue le premier objet humain à entrer dans l'espace interstellaire, hors de la bulle du vent solaire.",
             V(HELIO, 11.0, speed=0.7), 'slow_in', 'flash', label='2012', emph=['interstellaire'], music=0.6),
-        seg("Mais sa photo la plus célèbre, elle l'a prise en se retournant.", V(VOY_FLY, 8.5, speed=0.4), 'in', 'black', sfx=[('riser', 0.0)], emph=['retournant']),
+        seg("Mais sa photo la plus célèbre, elle l'a prise en se retournant.",
+            lambda: C([L.StarField(seed=4, bright=0.8), L.Halo(center=(W / 2, H * 0.44), color=(1.0, 0.88, 0.65), size=5.0)]),
+            'slow_in', 'black', sfx=[('riser', 0.0)], emph=['retournant']),
         seg("Le {14|quatorze} février {1990|mille neuf cent quatre-vingt-dix}, à six milliards de kilomètres, elle a photographié la Terre.",
             P(PBD, cx=PBD_X, cy=PBD_Y), PBD_CENTER, 'fade', label='14 FÉVRIER 1990', emph=['Terre']),
         seg("La voici.", P(PBD, cx=PBD_X, cy=PBD_Y, zoom=2.6, extra=[ring(r=60, t0=0.3)]), PBD_CENTER, 'zoom', emph=['voici'], music=0.2),

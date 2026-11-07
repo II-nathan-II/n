@@ -16,6 +16,10 @@ THEMES = {
                   hook_font='Anton', hook_size=150, hook_color='FFFFFF', hook_box='0B1630', label_box='FFD84A', label_color='0B1630', y=1330),
     'earth': dict(font='Anton', size=148, upper=True, color='FFFFFF', active='FFD84A', emph='FF8A3D', outline=8, shadow=3,
                   hook_font='Anton', hook_size=150, hook_color='FFFFFF', hook_box='3A1206', label_box='FF8A3D', label_color='1A0A04', y=1330),
+    # style « réflexion » : un mot à la fois, police à empattements, au centre
+    'reflexion': dict(font='DM Serif Display', size=176, upper=False, color='FFFFFF', active='FFFFFF', emph='F7C6A3', outline=0, shadow=0,
+                      hook_font='DM Serif Display', hook_size=104, hook_color='FFFFFF', hook_box='000000', label_box='000000', label_color='F7C6A3',
+                      y=1250, mode='word'),
     'psy': dict(font='Poppins ExtraBold', size=118, upper=False, color='FFFFFF', active='FFE135', emph='FF6FB5', outline=7, shadow=3,
                 hook_font='Poppins Black', hook_size=128, hook_color='111111', hook_box='FFE135', label_box='FFFFFF', label_color='111111', y=1340),
 }
@@ -34,6 +38,7 @@ Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour,
 Style: Cap,{th['font']},{th['size']},{bgr(th['color'])},{bgr(th['active'])},{bgr('000000')},{bgr('000000', 0x70)},0,0,0,0,100,100,1,0,1,{th['outline']},{th['shadow']},5,60,60,0,1
 Style: Calm,{th['font']},{int(th['size'] * 0.86)},{bgr('FFFFFF')},{bgr('FFFFFF')},{bgr('000000')},{bgr('000000', 0x80)},0,0,0,0,100,100,0,0,1,6,2,5,60,60,0,1
 Style: Hook,{th['hook_font']},{th['hook_size']},{bgr(th['hook_color'])},{bgr(th['hook_color'])},{bgr(th['hook_box'])},{bgr('000000', 0x80)},0,0,0,0,100,100,0,0,3,18,0,5,70,70,0,1
+Style: Word,{th['font']},{th['size']},{bgr(th['color'])},{bgr(th['color'])},{bgr('000000', 0x60)},{bgr('000000', 0x60)},0,0,0,0,100,100,1,0,1,{max(th['outline'], 0)},2,5,60,60,0,1
 Style: Label,Poppins ExtraBold,94,{bgr(th['label_color'])},{bgr(th['label_color'])},{bgr(th['label_box'])},{bgr('000000', 0x90)},0,0,0,0,100,100,0,0,3,12,0,5,60,60,0,1
 
 [Events]
@@ -85,6 +90,16 @@ def build_ass(video, timeline, path):
             continue
         cy = seg_spec.get('cap_y', y)
         emph = set(norm(e) for e in seg_spec.get('emph', []))
+        if th.get('mode') == 'word':
+            for wi, w in enumerate(words):
+                s = w['s']
+                e = words[wi + 1]['s'] if wi + 1 < len(words) and words[wi + 1]['s'] - w['e'] < 0.5 else min(w['e'] + 0.3, seg['end'])
+                t = esc(w['w'].strip(',;:.!?…«»"'))
+                if not t:
+                    continue
+                col = th['emph'] if norm(w['w']) in emph else th['color']
+                out.append(f"Dialogue: 1,{ass_time(s)},{ass_time(e)},Word,,0,0,0,,{{\\pos({W // 2},{cy})\\c{bgr(col)}\\blur0.6\\fad(70,40)\\fscx94\\fscy94\\t(0,140,\\fscx100\\fscy100)}}{t}")
+            continue
         chunks = chunk_words(words, 3 if style != 'calm' else 4, 17 if style != 'calm' else 21)
         for ci, ch in enumerate(chunks):
             c_start = ch[0]['s']
