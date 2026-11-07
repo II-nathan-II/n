@@ -110,5 +110,129 @@
    "url": "https://platform2.cdn.acedata.cloud/veo/7efd5975-071a-4bfd-a367-5af676354f77.mp4",
    "note": "plan d'ouverture (villa au lever du soleil), lancé le 7 novembre"
   }
+ },
+ "asmr_02": {
+  "1": {
+   "service": "veo31-fast (Ace Data)",
+   "task_id": "2c1ecc84-8c38-4609-9b62-dcb70d0d9d0d",
+   "url": "https://platform2.cdn.acedata.cloud/veo/2c1ecc84-8c38-4609-9b62-dcb70d0d9d0d.mp4"
+  },
+  "2": {
+   "service": "veo31-fast (Ace Data)",
+   "task_id": "eb299de1-f37c-45a3-8e58-db756c8316a3",
+   "url": "https://platform2.cdn.acedata.cloud/veo/eb299de1-f37c-45a3-8e58-db756c8316a3.mp4"
+  },
+  "3": {
+   "service": "veo31-fast (Ace Data)",
+   "task_id": "36f08e53-fd11-40ea-8a6b-737d07dc109c",
+   "url": "https://platform2.cdn.acedata.cloud/veo/36f08e53-fd11-40ea-8a6b-737d07dc109c.mp4"
+  },
+  "4": {
+   "service": "veo31-fast (Ace Data)",
+   "task_id": "4f37d10b-17d6-4833-a05c-488e8cc0c0d8",
+   "url": "https://platform2.cdn.acedata.cloud/veo/4f37d10b-17d6-4833-a05c-488e8cc0c0d8.mp4"
+  },
+  "5": {
+   "service": "veo31-fast (Ace Data)",
+   "task_id": "04eeaf9b-19d4-4074-ac4f-0dd970c366c2",
+   "url": "https://platform2.cdn.acedata.cloud/veo/04eeaf9b-19d4-4074-ac4f-0dd970c366c2.mp4"
+  },
+  "6": {
+   "service": "veo31-fast (Ace Data)",
+   "task_id": "df1ba059-b1c4-4168-910c-ad3ac3df48ea",
+   "url": "https://platform2.cdn.acedata.cloud/veo/df1ba059-b1c4-4168-910c-ad3ac3df48ea.mp4"
+  },
+  "7": {
+   "service": "veo31-fast (Ace Data)",
+   "task_id": "1080cbb1-0970-40f4-88de-bc94cafd5218",
+   "url": "https://platform2.cdn.acedata.cloud/veo/1080cbb1-0970-40f4-88de-bc94cafd5218.mp4"
+  },
+  "8": {
+   "service": "veo31-fast (Ace Data)",
+   "task_id": "73364cea-e55f-4d04-80a8-c041e74f00f3",
+   "url": "https://platform2.cdn.acedata.cloud/veo/73364cea-e55f-4d04-80a8-c041e74f00f3.mp4"
+  },
+  "9": {
+   "service": "veo31-fast (Ace Data)",
+   "task_id": "956d3b29-24de-44f8-b62a-9fc73d1324fb",
+   "url": "https://platform2.cdn.acedata.cloud/veo/956d3b29-24de-44f8-b62a-9fc73d1324fb.mp4"
+  },
+  "10": {
+   "service": "veo31-fast (Ace Data)",
+   "task_id": "df72a836-d376-4e12-a11c-bb675f28b8e3",
+   "url": "https://platform2.cdn.acedata.cloud/veo/df72a836-d376-4e12-a11c-bb675f28b8e3.mp4"
+  },
+  "11": {
+   "service": "veo31-fast (Ace Data)",
+   "task_id": "f055b0e1-993f-4366-8ce2-a9fc26d83db6",
+   "url": "https://platform2.cdn.acedata.cloud/veo/f055b0e1-993f-4366-8ce2-a9fc26d83db6.mp4"
+  },
+  "12": {
+   "service": "veo31-fast (Ace Data)",
+   "task_id": "a263b7f3-f34a-4177-a098-48c3728d189c",
+   "url": "https://platform2.cdn.acedata.cloud/veo/a263b7f3-f34a-4177-a098-48c3728d189c.mp4"
+  }
+ },
+ "episode_02_images_depart": {
+  "2": {
+   "service": "Runway nano-banana-pro",
+   "task_id": "bef5b551-1d69-4f62-988b-9e9d12981d02",
+   "fichier": "TikTok_Viral_Project/NICHE_3_VILLA_VITAMINE/plans/episode_02_images_depart/plan_02.jpg"
+  },
+  "3": {
+   "service": "Runway nano-banana-pro",
+   "task_id": "da180a3f-7747-4911-b617-a2d9eccb994c",
+   "fichier": "TikTok_Viral_Project/NICHE_3_VILLA_VITAMINE/plans/episode_02_images_depart/plan_03.jpg"
+  },
+  "4": {
+   "service": "Runway nano-banana-pro",
+   "task_id": "1356ad4d-1e58-4795-94c9-8062c4804537",
+   "fichier": "TikTok_Viral_Project/NICHE_3_VILLA_VITAMINE/plans/episode_02_images_depart/plan_04.jpg"
+  },
+  "5": {
+   "service": "Runway nano-banana-pro",
+   "task_id": "9559660b-a19e-4c87-9942-082bb04a6506",
+   "fichier": "TikTok_Viral_Project/NICHE_3_VILLA_VITAMINE/plans/episode_02_images_depart/plan_05.jpg"
+  },
+  "6": {
+   "service": "Runway nano-banana-pro",
+   "task_id": "76784afd-ce40-49cb-bc59-e82f6b84fe43",
+   "fichier": "TikTok_Viral_Project/NICHE_3_VILLA_VITAMINE/plans/episode_02_images_depart/plan_06.jpg"
+  },
+  "7": {
+   "service": "Runway nano-banana-pro",
+   "task_id": "0d5f842f-0550-42b1-87db-9c99292faf2a",
+   "fichier": "TikTok_Viral_Project/NICHE_3_VILLA_VITAMINE/plans/episode_02_images_depart/plan_07.jpg"
+  },
+  "8": {
+   "service": "Runway nano-banana-pro",
+   "task_id": "9d59450b-79a7-414b-8d09-513954d3a7a4",
+   "fichier": "TikTok_Viral_Project/NICHE_3_VILLA_VITAMINE/plans/episode_02_images_depart/plan_08.jpg"
+  },
+  "9": {
+   "service": "Runway nano-banana-pro",
+   "task_id": "4abd037a-1160-4199-8b1e-963711814a91",
+   "fichier": "TikTok_Viral_Project/NICHE_3_VILLA_VITAMINE/plans/episode_02_images_depart/plan_09.jpg"
+  },
+  "10": {
+   "service": "Runway nano-banana-pro",
+   "task_id": "3a697a4a-0c40-4df4-ab5c-b1fe31aafcf7",
+   "fichier": "TikTok_Viral_Project/NICHE_3_VILLA_VITAMINE/plans/episode_02_images_depart/plan_10.jpg"
+  },
+  "11": {
+   "service": "Runway nano-banana-pro",
+   "task_id": "7d06893e-d84c-413a-9a34-1051592f64c8",
+   "fichier": "TikTok_Viral_Project/NICHE_3_VILLA_VITAMINE/plans/episode_02_images_depart/plan_11.jpg"
+  },
+  "12": {
+   "service": "Runway nano-banana-pro",
+   "task_id": "edb3f730-fe7a-4811-ac4d-5d6fd31742d2",
+   "fichier": "TikTok_Viral_Project/NICHE_3_VILLA_VITAMINE/plans/episode_02_images_depart/plan_12.jpg"
+  },
+  "13": {
+   "service": "Runway nano-banana-pro",
+   "task_id": "d5e4b726-2283-41f3-90e6-89f41d247ee8",
+   "fichier": "TikTok_Viral_Project/NICHE_3_VILLA_VITAMINE/plans/episode_02_images_depart/plan_13.jpg"
+  }
  }
 }

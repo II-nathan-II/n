@@ -109,6 +109,7 @@ EPISODES = [
     dict(id='episode_02', num=2, titre="La nouvelle",
          recap="Précédemment : une inconnue est arrivée en secret… et Monsieur Ananas la connaît.",
          accroche="Quand la nouvelle arrive, Kiki perd ses lunettes (et la tête)",
+         accroche_ecran=["LA NOUVELLE ARRIVE…", "ET KIKI PERD LA TÊTE"],
          cold=(4, 0.5, 2.5),
          question="Team Bérénice ou Team Margaux ?",
          suite="Épisode 3 : clash à la piscine",
@@ -407,7 +408,7 @@ ACTIONS = [
 
 MATERIALS = {
     'verre':   dict(nom='en verre', desc='made of perfectly translucent glass', detail='The glass is crystal clear with a colored tint; pieces glint and slide apart.', sound='crisp delicate glass crunching and tapping'),
-    'cristal': dict(nom='en cristal', desc='carved from sparkling faceted crystal', detail='Light refracts into tiny rainbows; slices break cleanly.', sound='high-pitched crystal clinks and crisp cracks'),
+    'cristal': dict(nom='en cristal', desc='carved from sparkling faceted crystal tinted in its natural colour', detail='Light refracts into tiny rainbows; slices break cleanly.', sound='high-pitched crystal clinks and crisp cracks'),
     'glace':   dict(nom='en glace', desc='made of frozen clear ice with frost on the surface', detail='Ice crackles, cold mist rises, shards scatter.', sound='crunchy ice cracking and fizzing'),
     'ambre':   dict(nom='en ambre', desc='made of glossy golden amber like hard candy', detail='Thick caramel-like amber shatters into shiny shards.', sound='deep crunchy candy cracks'),
     'gelee':   dict(nom='en gelée', desc='made of wobbly transparent jelly', detail='The jelly wobbles and squishes slowly, glossy and bouncy.', sound='soft squishy jelly sounds and gentle wobbles'),
@@ -425,6 +426,8 @@ FRUITS = {
     'raisin': 'bunch of grapes', 'banane': 'banana', 'ananas': 'pineapple', 'mangue': 'mango', 'fruit du dragon': 'dragon fruit',
     'noix de coco': 'coconut', 'litchi': 'lychee', 'fruit de la passion': 'passion fruit', 'avocat': 'avocado', 'figue': 'fig',
     'abricot': 'apricot', 'prune': 'plum', 'melon': 'melon', 'carambole': 'star fruit', 'myrtille géante': 'giant blueberry',
+    'orange sanguine': 'blood orange', 'kumquat': 'pair of kumquats', 'yuzu': 'yuzu',
+    'clémentine': 'clementine', 'cédrat': "Buddha's hand citron", 'bergamote': 'bergamot',
 }
 
 
@@ -438,9 +441,11 @@ ASMR = [
          accroche_ecran=["ATTENDS LE N°11…"], accroche_sous="(mets le son)",
          plans=[A(f, 'verre') for f in ['fraise', 'framboise', 'cerise', 'mûre', 'grenade', 'pastèque', 'myrtille', 'prune', 'figue',
                                          'raisin', 'myrtille géante', 'pastèque']]),
-    dict(id='asmr_02', num=2, titre="Agrumes en cristal", accroche="Écoute le son du n°7",
-         plans=[A(f, 'cristal') for f in ['citron', 'orange', 'pamplemousse', 'citron vert', 'mandarine', 'citron', 'orange', 'pamplemousse',
-                                           'citron vert', 'mandarine', 'citron', 'orange', 'pamplemousse', 'citron vert', 'mandarine', 'orange', 'citron', 'pamplemousse']]),
+    dict(id='asmr_02', num=2, titre="Agrumes en cristal", accroche="Écoute le son du n°7", shot=7.0,
+         accroche_ecran=["ÉCOUTE LE N°7…"], accroche_sous="(mets le son)",
+         # 12 agrumes différents (comme le n°1) ; le n°7 (orange sanguine coupée au ralenti) est le plus spectaculaire.
+         plans=[A(f, 'cristal') for f in ['citron', 'orange', 'citron vert', 'pamplemousse', 'mandarine', 'kumquat',
+                                           'orange sanguine', 'yuzu', 'clémentine', 'cédrat', 'bergamote', 'pamplemousse']]),
     dict(id='asmr_03', num=3, titre="Fruits gelés qui craquent", accroche="Le craquement du n°14…",
          plans=[A(f, 'glace') for f in ['pastèque', 'kiwi', 'fraise', 'citron', 'raisin', 'pêche', 'mangue', 'framboise', 'ananas',
                                          'pomme', 'cerise', 'orange', 'myrtille', 'banane', 'poire', 'litchi', 'melon', 'grenade']]),
@@ -502,7 +507,10 @@ def asmr_prompt(video, i):
         act, surface = ACTIONS[1]
         subject = f"a small cute cartoon {FRUITS[fr]} character figurine {m['desc']}, {surface}"
     else:
-        subject = f"a {FRUITS[fr]} {m['desc']}, {surface}"
+        name = FRUITS[fr]
+        art = 'an' if name[0].lower() in 'aeiou' else 'a'
+        extra = ', revealing a deep ruby-red crystal inside' if fr == 'orange sanguine' else ''
+        subject = f"{art} {name} {m['desc']}{extra}, {surface}"
     return ASMR_BASE.format(action=act, subject=subject, detail=m['detail'], sound=m['sound'])
 
 
