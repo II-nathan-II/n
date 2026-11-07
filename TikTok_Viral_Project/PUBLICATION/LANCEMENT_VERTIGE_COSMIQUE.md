@@ -5,7 +5,7 @@
 | Élément | TikTok | YouTube |
 |---|---|---|
 | Nom | Vertige Cosmique | Vertige Cosmique |
-| Identifiant | @vertige.cosmique | @vertige.cosmique (ou @vertigecosmique) |
+| Identifiant | @vertige_cosmique | @vertige.cosmique (ou @vertigecosmique) |
 | Photo | `photo_profil_vertige_cosmique.png` | `photo_profil_vertige_cosmique.png` |
 | Bannière | — | `banniere_youtube_vertige_cosmique.png` (2560×1440) |
 | Bio | L'Univers est plus fou que la science-fiction 🌌 Un fait réel par jour. Images : NASA | Description ci-dessous |
@@ -586,7 +586,7 @@ Le plus important est la régularité : 20 vidéos couvrent 10 jours à 2 par jo
 
 ## 7. Programmation Metricool (faite le 6 novembre 2026)
 
-Les 10 vidéos sont programmées dans Metricool (marque 7923410) sur TikTok et YouTube, aux heures du § 4, en publication automatique.
+Les 20 vidéos (01 à 05 et 11 à 25) sont programmées dans Metricool (marque 7923410) sur TikTok et YouTube, aux heures du § 4, en publication automatique : 01 à 15 le 6 novembre, 16 à 25 le 7 novembre (fichiers en haute qualité). Les publications du 6 au soir et du 7 midi sont bien parties sur les deux réseaux.
 
 Réglages appliqués à chaque publication :
 - **TikTok** : public, commentaires, duos et collages autorisés (favorise la diffusion), aucun contenu commercial déclaré, label « contenu généré par IA » activé (voix de synthèse).
