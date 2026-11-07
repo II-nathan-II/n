@@ -349,7 +349,7 @@ R24 = dict(
     segments=[
         seg("Cette petite lune de Saturne crache de l'eau dans l'espace.", V(ENC_GEY, 0.8, speed=0.6), 'in', sfx=['boom'], music=0.35, emph=['eau']),
         seg("Elle s'appelle Encelade, et elle ne fait qu'environ cinq cents kilomètres de diamètre.",
-            V(CASSINI, 180.0, speed=0.6, extra=[back(390, 760), counter(0, 500, y=560, size=200, suffix=' km', color=ICE, t1=1.8, sub='de diamètre')]), 'slow_in', 'whip', label='ENCELADE • LUNE DE SATURNE', emph=['Encelade']),
+            V(CASSINI, 177.5, speed=0.45, extra=[back(390, 760), counter(0, 500, y=560, size=200, suffix=' km', color=ICE, t1=1.8, sub='de diamètre')]), 'slow_in', 'whip', label='ENCELADE • LUNE DE SATURNE', emph=['Encelade']),
         seg("C'est l'un des objets les plus brillants du système solaire : sa glace renvoie presque toute la lumière du Soleil.", V(CASSINI, 175.0), 'drift', 'cut', emph=['brillants']),
         seg("Et en surface, il fait environ moins deux cents degrés.",
             V(ENC_GEY, 9.4, speed=0.5, extra=[back(170, 560), counter(0, -200, y=340, size=210, suffix=' °C', color=ICE, t1=1.8)]), 'push', 'zoom', emph=['deux', 'cents']),
@@ -359,7 +359,7 @@ R24 = dict(
         seg("Cette glace est si abondante qu'elle alimente l'un des anneaux de Saturne : l'anneau E.", V(ENC_GEY, 5.6, speed=0.6), 'drift', 'whip', emph=['anneaux']),
         seg("En {2023|deux mille vingt-trois}, le télescope James Webb a repéré un panache de vapeur d'eau long d'environ dix mille kilomètres.",
             V(TITAN_INTRO, 12.0, speed=0.8), 'push', 'cut', label='JAMES WEBB • 2023', emph=['dix', 'mille']),
-        seg("Près de vingt fois la taille d'Encelade elle-même.", V(CASSINI, 192.0, speed=0.6), 'in', 'zoom', emph=['vingt']),
+        seg("Près de vingt fois la taille d'Encelade elle-même.", P(ENC_JETS, cx=0.4, cy=0.55, zoom=1.3), 'in', 'zoom', emph=['vingt']),
         seg("Il rejette environ trois cents litres d'eau par seconde. De quoi remplir une piscine olympique en quelques heures.",
             V(ENC_GEY, 7.4, speed=0.5, extra=[back(170, 520), txt('300 L / SECONDE', 330, 140)]), 'slow_in', 'fade', emph=['piscine']),
         seg("D'où vient toute cette eau ? D'un océan caché sous la glace, qui fait le tour de la lune entière.", P(ENC_OCEAN, cx=0.53, cy=0.5), 'push', 'whip', emph=['océan']),
