@@ -2,6 +2,28 @@
 
 Généré automatiquement par `pipeline/qc.py` sur les fichiers finaux.
 
+## reflexion_01 — ⚠️ à vérifier
+
+> Vérification manuelle : Vidéo test du style « réflexion » : fonds noirs et fondus au noir voulus (une image mesurée à 2,8 de luminosité moyenne pour un seuil de 3). Durée 64,3 s : sous notre fourchette habituelle de 65 s, mais au-dessus de la minute exigée par Creator Rewards.
+
+- ✅ fichier présent
+- ❌ durée 65–115 s
+- ✅ 1080×1920 (9:16)
+- ✅ H.264 / yuv420p
+- ✅ AAC 48 kHz stéréo
+- ✅ décodage sans erreur
+- ✅ loudness −15 à −13 LUFS
+- ✅ true peak ≤ −0,5 dBTP
+- ✅ sous-titres sur la voix (≥ 95 %)
+- ✅ narration reconnue (Whisper ≥ 85 %)
+- ❌ pas d'écran noir / image figée
+
+Mesures : durée 64.3 s · -14.2 LUFS · true peak -1.1 dBTP · niveau parole -16.8 dBFS vs pauses -30.9 dBFS · 193 mots sous-titrés, 100.0 % tombent sur de la voix, 0 hors segment · reconnaissance Whisper : 96.4 % des mots du script (nombres exclus : Whisper les écrit en chiffres) · luminosité min 2.8 · variation moyenne entre images 31.2
+
+Extrait de transcription automatique : « Tu es fait d'environ 7 milliards de milliards de milliards d'atomes. Et pourtant, un atome, c'est presque du vide. Si son noyau avait la taille d'une bille posée au centre d'un stade, ses électrons tourneraient quelque p… »
+
+![planche](reflexion_01_planche.jpg)
+
 ## video_01 — ✅ conforme
 
 - ✅ fichier présent

@@ -2,7 +2,7 @@
 
 | Vidéo | Niche | Titre | Durée | Résolution | Codecs | Débit | Taille | Loudness | Narration (Whisper, hors nombres) | Sous-titres synchro | QC |
 |---|---|---|---|---|---|---|---|---|---|---|---|
-| reflexion_01 | Les secrets de l'Univers | L'infime et l'infini | — | — | — | — | — | — | — | — | non rendu |
+| reflexion_01 | Les secrets de l'Univers | L'infime et l'infini | 64.3 s | 1080×1920 @ 30 i/s | H264 (High) / AAC 48 kHz | 6143 kb/s | 49.4 Mo | -14.2 LUFS, TP -1.1 dBTP | 96 % des mots | 100 % | ⚠️ |
 | video_01 | Les secrets de l'Univers | La planète où il pleut du verre | 86.3 s | 1080×1920 @ 30 i/s | H264 (High) / AAC 48 kHz | 4146 kb/s | 44.7 Mo | -14.2 LUFS, TP -1.4 dBTP | 86 % des mots | 100 % | ✅ |
 | video_02 | Les secrets de l'Univers | Si le Soleil disparaissait maintenant | 95.7 s | 1080×1920 @ 30 i/s | H264 (High) / AAC 48 kHz | 5294 kb/s | 63.3 Mo | -14.1 LUFS, TP -1.1 dBTP | 87 % des mots | 100 % | ✅ |
 | video_03 | Les secrets de l'Univers | Le Grand Vide : la zone la plus vide de l'Univers | 83.4 s | 1080×1920 @ 30 i/s | H264 (High) / AAC 48 kHz | 5822 kb/s | 60.7 Mo | -14.1 LUFS, TP -0.8 dBTP | 93 % des mots | 100 % | ✅ |

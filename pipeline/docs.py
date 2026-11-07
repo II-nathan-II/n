@@ -63,6 +63,7 @@ SOURCES = {
 
 # Écarts du contrôle automatique vérifiés à la main
 QC_NOTES = {
+    'reflexion_01': "Vidéo test du style « réflexion » : fonds noirs et fondus au noir voulus (une image mesurée à 2,8 de luminosité moyenne pour un seuil de 3). Durée 64,3 s : sous notre fourchette habituelle de 65 s, mais au-dessus de la minute exigée par Creator Rewards.",
     'video_22': "Whisper a sauté une phrase en transcrivant la vidéo entière (« Autre surprise : Mercure rétrécit… »). Transcrite seule (48–64 s), elle est parfaitement reconnue ; niveaux identiques aux autres vidéos (−14,2 LUFS). Vidéo validée.",
 }
 
