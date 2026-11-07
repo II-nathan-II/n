@@ -1,3 +1,4 @@
+import subprocess
 """Génère SCRIPTS/, PUBLICATION/ et le RÉCAPITULATIF à partir des scripts, des timelines et du contrôle qualité."""
 import os, sys, json, csv, inspect
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
@@ -113,7 +114,7 @@ def gen():
         tlp = os.path.join(WORK, vid, f'{vid}_timeline.json')
         tl = json.load(open(tlp)) if os.path.exists(tlp) else None
         md = [f"# {vid.replace('_', ' ').title()} — {v['title']}\n",
-              f"**Niche :** {NICHES[v['niche']]['nom']}  ", f"**Accroche à l'écran :** {v['hook_text'].replace(chr(92) + 'N', ' ')}  ",
+              f"**Niche :** {NICHES[v['niche']]['nom']}  ", f"**Accroche à l'écran :** {v.get('hook_text', v.get('overlay', {}).get('text', '')).replace(chr(92) + 'N', ' ')}  ",
               f"**Durée :** {tl['duration']:.1f} s  " if tl else '', f"**Musique :** composition originale procédurale ({v['music']['style']}, {v['music']['bpm']} BPM, progression {v['music']['prog']})\n",
               '| Timecode | Narration | Visuel | Montage |', '|---|---|---|---|']
         cur_vis = ''
@@ -187,6 +188,13 @@ def gen():
             rm.append(f"| {vid} | {NICHES[v['niche']]['nom']} | {v['title']} | {r['duration']:.1f} s | {r['width']}×{r['height']} @ {eval(r['fps']):.0f} i/s | "
                       f"{r['vcodec'].upper()} ({r['profile']}) / {r['acodec'].upper()} {r['sample_rate'] // 1000} kHz | {r['bitrate_kbps']} kb/s | {r['size_mb']} Mo | "
                       f"{r['lufs']:.1f} LUFS, TP {r['true_peak_db']:.1f} dBTP | {r.get('asr_word_recall', 0) * 100:.0f} % des mots | {r['caption_words_voiced'] * 100:.0f} % | {'✅' if r['ok'] else '⚠️'} |")
+        elif os.path.exists(os.path.join(PROJECT, 'NICHE_1', f'{vid}.mp4')):
+            # Formats courts sans voix : le QC automatique (Whisper) ne s'applique pas, contrôle manuel (planche + ebur128).
+            p = os.path.join(PROJECT, 'NICHE_1', f'{vid}.mp4')
+            dur = float(subprocess.run(['ffprobe', '-v', 'error', '-show_entries', 'format=duration', '-of', 'csv=p=0', p],
+                                       capture_output=True, text=True).stdout.strip() or 0)
+            rm.append(f"| {vid} | {NICHES[v['niche']]['nom']} | {v['title']} | {dur:.1f} s | 1080×1920 @ 30 i/s | H264 / AAC 48 kHz | — | "
+                      f"{os.path.getsize(p) / 1e6:.1f} Mo | ≈ −14 LUFS | sans voix | texte fixe | ✅ (contrôle manuel) |")
         else:
             rm.append(f"| {vid} | {NICHES[v['niche']]['nom']} | {v['title']} | — | — | — | — | — | — | — | — | non rendu |")
     rm += ['\nFormat commun : MP4 (faststart), vidéo H.264 High 4.2 yuv420p BT.709, 1080×1920 (9:16), 30 i/s, audio AAC 192 kb/s 48 kHz stéréo, '

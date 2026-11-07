@@ -5,6 +5,704 @@ Timecodes issus de la narration réelle (synthèse Kokoro). Le texte affiché co
 
 ---
 
+# Ambiance 01 — Plus d'étoiles que de grains de sable
+
+**Niche :** Les secrets de l'Univers  
+**Accroche à l'écran :** Il y a plus d'étoiles dans l'Univers
+que de grains de sable
+sur toutes les plages de la Terre.  
+**Durée :** 14.8 s  
+**Musique :** composition originale procédurale (space, 80 BPM, progression minor_drift)
+
+| Timecode | Narration | Visuel | Montage |
+|---|---|---|---|
+| 00:00.15 | *(silence 1.5 s — le spectateur observe l'effet)* | Photo réelle : « James Webb Space Telescope NIRCam Image of the “Cosmic Cliff », assombrissement | transition fade, caméra slow_in, musique intensité 0.8 |
+| 00:01.65 | *(silence 1.5 s — le spectateur observe l'effet)* | Photo réelle : « Hubble Goes High Def to Revisit the Iconic 'Pillars of Creat », assombrissement | transition fade, caméra slow_in, musique intensité 0.8 |
+| 00:03.15 | *(silence 1.5 s — le spectateur observe l'effet)* | Photo réelle : « A galactic sunflower », assombrissement | transition fade, caméra slow_in, musique intensité 0.8 |
+| 00:04.65 | *(silence 1.5 s — le spectateur observe l'effet)* | Photo réelle : « Horsehead Nebula », assombrissement | transition fade, caméra slow_in, musique intensité 0.8 |
+| 00:06.15 | *(silence 1.5 s — le spectateur observe l'effet)* | Photo réelle : « The Sombrero Galaxy Split Personality », assombrissement | transition fade, caméra slow_in, musique intensité 0.8 |
+| 00:07.65 | *(silence 1.5 s — le spectateur observe l'effet)* | Photo réelle : « Splendid Saturn », assombrissement | transition fade, caméra slow_in, musique intensité 0.8 |
+| 00:09.15 | *(silence 1.5 s — le spectateur observe l'effet)* | Photo réelle : « James Webb Space Telescope NIRCam Image of the “Cosmic Cliff », assombrissement | transition fade, caméra slow_in, musique intensité 0.8 |
+| 00:10.65 | *(silence 3.0 s — le spectateur observe l'effet)* | Photo réelle : « Hubble Goes High Def to Revisit the Iconic 'Pillars of Creat », assombrissement | transition fade, caméra slow_in, musique intensité 0.8 |
+
+**Crédits images (séquences réelles utilisées) :**
+
+- James Webb Space Telescope NIRCam Image of the “Cosmic Cliffs” in Carina Nebula — NASA ESA CSA STScI — NASA Image and Video Library — Domaine public (média NASA — usage libre, sans logo NASA ni suggestion de soutien) — https://images.nasa.gov/details/carina_nebula
+- Hubble Goes High Def to Revisit the Iconic 'Pillars of Creation' — GSFC — NASA Image and Video Library — Domaine public (média NASA — usage libre, sans logo NASA ni suggestion de soutien) — https://images.nasa.gov/details/GSFC_20171208_Archive_e000842
+- A galactic sunflower — GSFC — NASA Image and Video Library — Domaine public (média NASA — usage libre, sans logo NASA ni suggestion de soutien) — https://images.nasa.gov/details/hubble-sees-a-galactic-sunflower_21136469209_o
+- Horsehead Nebula — GSFC — NASA Image and Video Library — Domaine public (média NASA — usage libre, sans logo NASA ni suggestion de soutien) — https://images.nasa.gov/details/GSFC_20171208_Archive_e001518
+- The Sombrero Galaxy Split Personality — NASA/JPL-Caltech — NASA Image and Video Library — Domaine public (média NASA — usage libre, sans logo NASA ni suggestion de soutien) — https://images.nasa.gov/details/PIA15426
+- Splendid Saturn — NASA/JPL/Space Science Institute — NASA Image and Video Library — Domaine public (média NASA — usage libre, sans logo NASA ni suggestion de soutien) — https://images.nasa.gov/details/PIA06594
+
+**Sources / vérification des faits :**
+
+
+**Texte prononcé (pour réenregistrement éventuel) :**
+
+> 
+
+---
+
+# Ambiance 02 — Le Soleil avec 8 minutes de retard
+
+**Niche :** Les secrets de l'Univers  
+**Accroche à l'écran :** Tu ne vois jamais le Soleil tel qu'il est.
+Sa lumière met 8 minutes
+pour arriver jusqu'à toi.  
+**Durée :** 14.8 s  
+**Musique :** composition originale procédurale (space, 80 BPM, progression minor_drift)
+
+| Timecode | Narration | Visuel | Montage |
+|---|---|---|---|
+| 00:00.15 | *(silence 1.5 s — le spectateur observe l'effet)* | Vidéo réelle : « Sun Releases Strong Solar Flare on October 23, 2024 » (à 0 s) | transition fade, caméra slow_in, musique intensité 0.8 |
+| 00:01.65 | *(silence 1.5 s — le spectateur observe l'effet)* | Vidéo réelle : « Largest Flare yet from Solar Cycle 25 » (à 1 s) | transition fade, caméra slow_in, musique intensité 0.8 |
+| 00:03.15 | *(silence 1.5 s — le spectateur observe l'effet)* | Vidéo réelle : « NASA's Parker Solar Probe Touches The Sun For The First Time » (à 0 s) | transition fade, caméra slow_in, musique intensité 0.8 |
+| 00:04.65 | *(silence 1.5 s — le spectateur observe l'effet)* | Vidéo réelle : « Sun Releases Strong Solar Flare on October 23, 2024 » (à 0 s) | transition fade, caméra slow_in, musique intensité 0.8 |
+| 00:06.15 | *(silence 1.5 s — le spectateur observe l'effet)* | Vidéo réelle : « NASA's Parker Solar Probe Touches The Sun For The First Time » (à 7 s) | transition fade, caméra slow_in, musique intensité 0.8 |
+| 00:07.65 | *(silence 1.5 s — le spectateur observe l'effet)* | Vidéo réelle : « Largest Flare yet from Solar Cycle 25 » (à 1 s) | transition fade, caméra slow_in, musique intensité 0.8 |
+| 00:09.15 | *(silence 1.5 s — le spectateur observe l'effet)* | Vidéo réelle : « Sun Erupts with X-class flare on October 26, 2024 » (à 0 s) | transition fade, caméra slow_in, musique intensité 0.8 |
+| 00:10.65 | *(silence 3.0 s — le spectateur observe l'effet)* | Vidéo réelle : « Largest Flare yet from Solar Cycle 25 » (à 2 s) | transition fade, caméra slow_in, musique intensité 0.8 |
+
+**Crédits images (séquences réelles utilisées) :**
+
+- Sun Releases Strong Solar Flare on October 23, 2024 — NASA/SDO || SDO_X3pt3_10-23-2024_0340_131-304-171.jpg (4096x4096) [4.7 MB] || SDO_X3pt3_10-23-2024_0340_131-304-171_searchweb.png (320x180) [104.1 KB] || SDO_X3pt3_10-23-2024_0340_131-304-171_thm.png  — NASA Scientific Visualization Studio — Domaine public (NASA — image uniquement, bande-son non utilisée) — https://svs.gsfc.nasa.gov/14709/
+- Largest Flare yet from Solar Cycle 25 — NASA's Goddard Space Flight Center Scientific Visualization Studio — NASA Scientific Visualization Studio — Domaine public (NASA — image uniquement, bande-son non utilisée) — https://svs.gsfc.nasa.gov/14592/
+- NASA's Parker Solar Probe Touches The Sun For The First Time — NASA's Goddard Space Flight Center Scientific Visualization Studio — NASA Scientific Visualization Studio — Domaine public (NASA — image uniquement, bande-son non utilisée) — https://svs.gsfc.nasa.gov/14045/
+- Sun Releases Strong Solar Flare on October 23, 2024 — NASA/SDO || SDO_X3pt3_10-23-2024_0340_131-304-171.jpg (4096x4096) [4.7 MB] || SDO_X3pt3_10-23-2024_0340_131-304-171_searchweb.png (320x180) [104.1 KB] || SDO_X3pt3_10-23-2024_0340_131-304-171_thm.png  — NASA Scientific Visualization Studio — Domaine public (NASA — image uniquement, bande-son non utilisée) — https://svs.gsfc.nasa.gov/14709/
+- Largest Flare yet from Solar Cycle 25 — NASA's Goddard Space Flight Center Scientific Visualization Studio — NASA Scientific Visualization Studio — Domaine public (NASA — image uniquement, bande-son non utilisée) — https://svs.gsfc.nasa.gov/14592/
+- Sun Erupts with X-class flare on October 26, 2024 — NASA/SDO || Oct_26_X1pt8_Flare_multi_big.jpg (5120x3072) [3.4 MB] || Oct_26_X1pt8_Flare_multi_big_searchweb.png (320x180) [95.8 KB] || Oct_26_X1pt8_Flare_multi_big_thm.png (80x40) [7.6 KB] || — NASA Scientific Visualization Studio — Domaine public (NASA — image uniquement, bande-son non utilisée) — https://svs.gsfc.nasa.gov/14710/
+- Largest Flare yet from Solar Cycle 25 — NASA's Goddard Space Flight Center Scientific Visualization Studio — NASA Scientific Visualization Studio — Domaine public (NASA — image uniquement, bande-son non utilisée) — https://svs.gsfc.nasa.gov/14592/
+
+**Sources / vérification des faits :**
+
+
+**Texte prononcé (pour réenregistrement éventuel) :**
+
+> 
+
+---
+
+# Ambiance 03 — Une journée plus longue qu'une année
+
+**Niche :** Les secrets de l'Univers  
+**Accroche à l'écran :** Sur Vénus, une journée
+dure plus longtemps
+qu'une année entière.  
+**Durée :** 14.8 s  
+**Musique :** composition originale procédurale (space, 80 BPM, progression minor_drift)
+
+| Timecode | Narration | Visuel | Montage |
+|---|---|---|---|
+| 00:00.15 | *(silence 1.5 s — le spectateur observe l'effet)* | Vidéo réelle : « NASA’s New Views of Venus’ Surface From Space » (à 163 s) | transition fade, caméra slow_in, musique intensité 0.8 |
+| 00:01.65 | *(silence 1.5 s — le spectateur observe l'effet)* | Vidéo réelle : « Ten Mysteries of Venus » (à 104 s) | transition fade, caméra slow_in, musique intensité 0.8 |
+| 00:03.15 | *(silence 1.5 s — le spectateur observe l'effet)* | Vidéo réelle : « DAVINCI: Venus' Alpha Regio » (à 22 s) | transition fade, caméra slow_in, musique intensité 0.8 |
+| 00:04.65 | *(silence 1.5 s — le spectateur observe l'effet)* | Vidéo réelle : « NASA’s New Views of Venus’ Surface From Space » (à 166 s) | transition fade, caméra slow_in, musique intensité 0.8 |
+| 00:06.15 | *(silence 1.5 s — le spectateur observe l'effet)* | Vidéo réelle : « Ten Mysteries of Venus » (à 138 s) | transition fade, caméra slow_in, musique intensité 0.8 |
+| 00:07.65 | *(silence 1.5 s — le spectateur observe l'effet)* | Vidéo réelle : « DAVINCI: Venus' Alpha Regio » (à 70 s) | transition fade, caméra slow_in, musique intensité 0.8 |
+| 00:09.15 | *(silence 1.5 s — le spectateur observe l'effet)* | Vidéo réelle : « NASA’s New Views of Venus’ Surface From Space » (à 168 s) | transition fade, caméra slow_in, musique intensité 0.8 |
+| 00:10.65 | *(silence 3.0 s — le spectateur observe l'effet)* | Vidéo réelle : « Ten Mysteries of Venus » (à 106 s) | transition fade, caméra slow_in, musique intensité 0.8 |
+
+**Crédits images (séquences réelles utilisées) :**
+
+- NASA’s New Views of Venus’ Surface From Space — NASA's Goddard Space Flight Center Scientific Visualization Studio — NASA Scientific Visualization Studio — Domaine public (NASA — image uniquement, bande-son non utilisée) — https://svs.gsfc.nasa.gov/14095/
+- Ten Mysteries of Venus — NASA's Goddard Space Flight Center Scientific Visualization Studio — NASA Scientific Visualization Studio — Domaine public (NASA — image uniquement, bande-son non utilisée) — https://svs.gsfc.nasa.gov/13972/
+- DAVINCI: Venus' Alpha Regio — NASA's Goddard Space Flight Center Scientific Visualization Studio — NASA Scientific Visualization Studio — Domaine public (NASA — image uniquement, bande-son non utilisée) — https://svs.gsfc.nasa.gov/14735/
+
+**Sources / vérification des faits :**
+
+
+**Texte prononcé (pour réenregistrement éventuel) :**
+
+> 
+
+---
+
+# Ambiance 04 — L'espace est à une heure de route
+
+**Niche :** Les secrets de l'Univers  
+**Accroche à l'écran :** Si tu pouvais rouler en voiture
+vers le ciel, tu serais
+dans l'espace en une heure.  
+**Durée :** 14.8 s  
+**Musique :** composition originale procédurale (space, 80 BPM, progression minor_float)
+
+| Timecode | Narration | Visuel | Montage |
+|---|---|---|---|
+| 00:00.15 | *(silence 1.5 s — le spectateur observe l'effet)* | Vidéo réelle : « jsc2021m000138_4K_Earth_Views_Extended_Cut_for_Earth_Day_ 20 » (à 606 s) | transition fade, caméra slow_in, musique intensité 0.8 |
+| 00:01.65 | *(silence 1.5 s — le spectateur observe l'effet)* | Vidéo réelle : « jsc2021m000138_4K_Earth_Views_Extended_Cut_for_Earth_Day_ 20 » (à 1830 s) | transition fade, caméra slow_in, musique intensité 0.8 |
+| 00:03.15 | *(silence 1.5 s — le spectateur observe l'effet)* | Vidéo réelle : « jsc2021m000138_4K_Earth_Views_Extended_Cut_for_Earth_Day_ 20 » (à 990 s) | transition fade, caméra slow_in, musique intensité 0.8 |
+| 00:04.65 | *(silence 1.5 s — le spectateur observe l'effet)* | Vidéo réelle : « ISS views Aurora from the November 11-13, 2025 Geomagnetic S » (à 24 s) | transition fade, caméra slow_in, musique intensité 0.8 |
+| 00:06.15 | *(silence 1.5 s — le spectateur observe l'effet)* | Photo réelle : « A Breathtaking Earthset from Orion » | transition fade, caméra slow_in, musique intensité 0.8 |
+| 00:07.65 | *(silence 1.5 s — le spectateur observe l'effet)* | Vidéo réelle : « jsc2021m000138_4K_Earth_Views_Extended_Cut_for_Earth_Day_ 20 » (à 2930 s) | transition fade, caméra slow_in, musique intensité 0.8 |
+| 00:09.15 | *(silence 1.5 s — le spectateur observe l'effet)* | Vidéo réelle : « jsc2021m000138_4K_Earth_Views_Extended_Cut_for_Earth_Day_ 20 » (à 1310 s) | transition fade, caméra slow_in, musique intensité 0.8 |
+| 00:10.65 | *(silence 3.0 s — le spectateur observe l'effet)* | Vidéo réelle : « jsc2021m000138_4K_Earth_Views_Extended_Cut_for_Earth_Day_ 20 » (à 3038 s) | transition fade, caméra slow_in, musique intensité 0.8 |
+
+**Crédits images (séquences réelles utilisées) :**
+
+- jsc2021m000138_4K_Earth_Views_Extended_Cut_for_Earth_Day_ 2021_210422-4KMP4 — JSC — NASA Image and Video Library — Domaine public (média NASA — image uniquement) — https://images.nasa.gov/details/jsc2021m000138_4K_Earth_Views_Extended_Cut_for_Earth_Day_%202021_210422-4KMP4
+- ISS views Aurora from the November 11-13, 2025 Geomagnetic Storm — NASA's Goddard Space Flight Center Scientific Visualization Studio — NASA Scientific Visualization Studio — Domaine public (NASA — image uniquement, bande-son non utilisée) — https://svs.gsfc.nasa.gov/31375/
+- A Breathtaking Earthset from Orion — NASA — NASA Image and Video Library — Domaine public (média NASA — usage libre, sans logo NASA ni suggestion de soutien) — https://images.nasa.gov/details/art002e021278
+
+**Sources / vérification des faits :**
+
+
+**Texte prononcé (pour réenregistrement éventuel) :**
+
+> 
+
+---
+
+# Ambiance 05 — Les traces de pas sur la Lune
+
+**Niche :** Les secrets de l'Univers  
+**Accroche à l'écran :** Les traces de pas des astronautes
+sont toujours sur la Lune.
+Aucun vent ne peut les effacer.  
+**Durée :** 14.8 s  
+**Musique :** composition originale procédurale (space, 80 BPM, progression minor_drift)
+
+| Timecode | Narration | Visuel | Montage |
+|---|---|---|---|
+| 00:00.15 | *(silence 1.5 s — le spectateur observe l'effet)* | Vidéo réelle : « A New Look at the Apollo 11 Landing Site » (à 2 s), assombrissement | transition fade, caméra slow_in, musique intensité 0.8 |
+| 00:01.65 | *(silence 1.5 s — le spectateur observe l'effet)* | Vidéo réelle : « Tour of the Moon 4K Redux » (à 183 s), assombrissement | transition fade, caméra slow_in, musique intensité 0.8 |
+| 00:03.15 | *(silence 1.5 s — le spectateur observe l'effet)* | Photo réelle : « A Breathtaking Earthset from Orion », assombrissement | transition fade, caméra slow_in, musique intensité 0.8 |
+| 00:04.65 | *(silence 1.5 s — le spectateur observe l'effet)* | Vidéo réelle : « A New Look at the Apollo 11 Landing Site » (à 12 s), assombrissement | transition fade, caméra slow_in, musique intensité 0.8 |
+| 00:06.15 | *(silence 1.5 s — le spectateur observe l'effet)* | Vidéo réelle : « Tour of the Moon 4K Redux » (à 26 s), assombrissement | transition fade, caméra slow_in, musique intensité 0.8 |
+| 00:07.65 | *(silence 1.5 s — le spectateur observe l'effet)* | Vidéo réelle : « Tour of the Moon 4K Redux » (à 148 s), assombrissement | transition fade, caméra slow_in, musique intensité 0.8 |
+| 00:09.15 | *(silence 1.5 s — le spectateur observe l'effet)* | Vidéo réelle : « Tour of the Moon 4K Redux » (à 264 s), assombrissement | transition fade, caméra slow_in, musique intensité 0.8 |
+| 00:10.65 | *(silence 3.0 s — le spectateur observe l'effet)* | Vidéo réelle : « A New Look at the Apollo 11 Landing Site » (à 8 s), assombrissement | transition fade, caméra slow_in, musique intensité 0.8 |
+
+**Crédits images (séquences réelles utilisées) :**
+
+- A New Look at the Apollo 11 Landing Site — NASA's Goddard Space Flight Center Scientific Visualization Studio — NASA Scientific Visualization Studio — Domaine public (NASA — image uniquement, bande-son non utilisée) — https://svs.gsfc.nasa.gov/4185/
+- Tour of the Moon 4K Redux — NASA's Goddard Space Flight Center Scientific Visualization Studio — NASA Scientific Visualization Studio — Domaine public (NASA — image uniquement, bande-son non utilisée) — https://svs.gsfc.nasa.gov/4619/
+- A Breathtaking Earthset from Orion — NASA — NASA Image and Video Library — Domaine public (média NASA — usage libre, sans logo NASA ni suggestion de soutien) — https://images.nasa.gov/details/art002e021278
+
+**Sources / vérification des faits :**
+
+
+**Texte prononcé (pour réenregistrement éventuel) :**
+
+> 
+
+---
+
+# Ambiance 06 — Tu es fait d'étoiles
+
+**Niche :** Les secrets de l'Univers  
+**Accroche à l'écran :** Le carbone, l'oxygène et le fer
+de ton corps ont été fabriqués
+dans des étoiles.  
+**Durée :** 14.8 s  
+**Musique :** composition originale procédurale (space, 80 BPM, progression minor_wonder)
+
+| Timecode | Narration | Visuel | Montage |
+|---|---|---|---|
+| 00:00.15 | *(silence 1.5 s — le spectateur observe l'effet)* | Photo réelle : « Most Detailed Image of the Crab Nebula » | transition fade, caméra slow_in, musique intensité 0.8 |
+| 00:01.65 | *(silence 1.5 s — le spectateur observe l'effet)* | Photo réelle : « Chaos at the Heart of Orion » | transition fade, caméra slow_in, musique intensité 0.8 |
+| 00:03.15 | *(silence 1.5 s — le spectateur observe l'effet)* | Photo réelle : « NGC 7293, the Helix Nebula » | transition fade, caméra slow_in, musique intensité 0.8 |
+| 00:04.65 | *(silence 1.5 s — le spectateur observe l'effet)* | Photo réelle : « James Webb Space Telescope Southern Ring Nebula (NIRCam and  » | transition fade, caméra slow_in, musique intensité 0.8 |
+| 00:06.15 | *(silence 1.5 s — le spectateur observe l'effet)* | Photo réelle : « Hubble Goes High Def to Revisit the Iconic 'Pillars of Creat » | transition fade, caméra slow_in, musique intensité 0.8 |
+| 00:07.65 | *(silence 1.5 s — le spectateur observe l'effet)* | Photo réelle : « James Webb Space Telescope NIRCam Image of the “Cosmic Cliff » | transition fade, caméra slow_in, musique intensité 0.8 |
+| 00:09.15 | *(silence 1.5 s — le spectateur observe l'effet)* | Photo réelle : « Horsehead Nebula » | transition fade, caméra slow_in, musique intensité 0.8 |
+| 00:10.65 | *(silence 3.0 s — le spectateur observe l'effet)* | Photo réelle : « Most Detailed Image of the Crab Nebula » | transition fade, caméra slow_in, musique intensité 0.8 |
+
+**Crédits images (séquences réelles utilisées) :**
+
+- Most Detailed Image of the Crab Nebula — NASA/ESA/JPL/Arizona State Univ. — NASA Image and Video Library — Domaine public (média NASA — usage libre, sans logo NASA ni suggestion de soutien) — https://images.nasa.gov/details/PIA03606
+- Chaos at the Heart of Orion — NASA/JPL-Caltech/STScI — NASA Image and Video Library — Domaine public (média NASA — usage libre, sans logo NASA ni suggestion de soutien) — https://images.nasa.gov/details/PIA01322
+- NGC 7293, the Helix Nebula — NASA/JPL-Caltech — NASA Image and Video Library — Domaine public (média NASA — usage libre, sans logo NASA ni suggestion de soutien) — https://images.nasa.gov/details/PIA15658
+- James Webb Space Telescope Southern Ring Nebula (NIRCam and MIRI Images Side by Side) — NASA ESA CSA STScI — NASA Image and Video Library — Domaine public (média NASA — usage libre, sans logo NASA ni suggestion de soutien) — https://images.nasa.gov/details/southern_ring_nebula
+- Hubble Goes High Def to Revisit the Iconic 'Pillars of Creation' — GSFC — NASA Image and Video Library — Domaine public (média NASA — usage libre, sans logo NASA ni suggestion de soutien) — https://images.nasa.gov/details/GSFC_20171208_Archive_e000842
+- James Webb Space Telescope NIRCam Image of the “Cosmic Cliffs” in Carina Nebula — NASA ESA CSA STScI — NASA Image and Video Library — Domaine public (média NASA — usage libre, sans logo NASA ni suggestion de soutien) — https://images.nasa.gov/details/carina_nebula
+- Horsehead Nebula — GSFC — NASA Image and Video Library — Domaine public (média NASA — usage libre, sans logo NASA ni suggestion de soutien) — https://images.nasa.gov/details/GSFC_20171208_Archive_e001518
+
+**Sources / vérification des faits :**
+
+
+**Texte prononcé (pour réenregistrement éventuel) :**
+
+> 
+
+---
+
+# Ambiance 07 — Neptune n'a fait qu'un tour
+
+**Niche :** Les secrets de l'Univers  
+**Accroche à l'écran :** Depuis sa découverte en 1846,
+Neptune n'a fait qu'un seul tour
+du Soleil.  
+**Durée :** 14.8 s  
+**Musique :** composition originale procédurale (space, 80 BPM, progression minor_drift)
+
+| Timecode | Narration | Visuel | Montage |
+|---|---|---|---|
+| 00:00.15 | *(silence 1.5 s — le spectateur observe l'effet)* | Photo réelle : « PIA01492 » | transition fade, caméra slow_in, musique intensité 0.8 |
+| 00:01.65 | *(silence 1.5 s — le spectateur observe l'effet)* | StarField | transition fade, caméra slow_in, musique intensité 0.8 |
+| 00:03.15 | *(silence 1.5 s — le spectateur observe l'effet)* | Photo réelle : « PIA01492 » | transition fade, caméra slow_in, musique intensité 0.8 |
+| 00:04.65 | *(silence 1.5 s — le spectateur observe l'effet)* | Vidéo réelle : « Animation: Heliosphere » (à 2 s) | transition fade, caméra slow_in, musique intensité 0.8 |
+| 00:06.15 | *(silence 1.5 s — le spectateur observe l'effet)* | Photo réelle : « PIA01492 » | transition fade, caméra slow_in, musique intensité 0.8 |
+| 00:07.65 | *(silence 1.5 s — le spectateur observe l'effet)* | Photo réelle : « PIA01492 » | transition fade, caméra slow_in, musique intensité 0.8 |
+| 00:09.15 | *(silence 1.5 s — le spectateur observe l'effet)* | StarField, Halo | transition fade, caméra slow_in, musique intensité 0.8 |
+| 00:10.65 | *(silence 3.0 s — le spectateur observe l'effet)* | Photo réelle : « PIA01492 » | transition fade, caméra slow_in, musique intensité 0.8 |
+
+**Crédits images (séquences réelles utilisées) :**
+
+- PIA01492 — NASA/JPL — NASA Image and Video Library — Domaine public (média NASA — usage libre, sans logo NASA ni suggestion de soutien) — https://images.nasa.gov/details/PIA01492
+- Animation: Heliosphere — NASA's Goddard Space Flight Center Scientific Visualization Studio — NASA Scientific Visualization Studio — Domaine public (NASA — image uniquement, bande-son non utilisée) — https://svs.gsfc.nasa.gov/20363/
+
+**Sources / vérification des faits :**
+
+
+**Texte prononcé (pour réenregistrement éventuel) :**
+
+> 
+
+---
+
+# Ambiance 08 — Une cuillère d'étoile à neutrons
+
+**Niche :** Les secrets de l'Univers  
+**Accroche à l'écran :** Une petite cuillère d'étoile à neutrons
+pèserait environ
+un milliard de tonnes.  
+**Durée :** 14.8 s  
+**Musique :** composition originale procédurale (space, 80 BPM, progression minor_dark)
+
+| Timecode | Narration | Visuel | Montage |
+|---|---|---|---|
+| 00:00.15 | *(silence 1.5 s — le spectateur observe l'effet)* | Vidéo réelle : « Migrating Magnetar Hot Spot Animations » (à 3 s) | transition fade, caméra slow_in, musique intensité 0.8 |
+| 00:01.65 | *(silence 1.5 s — le spectateur observe l'effet)* | Vidéo réelle : « Wind-Accreting Pulsar Visualization » (à 2 s) | transition fade, caméra slow_in, musique intensité 0.8 |
+| 00:03.15 | *(silence 1.5 s — le spectateur observe l'effet)* | Vidéo réelle : « Supernova explosion animation, with & without pulsar » (à 26 s) | transition fade, caméra slow_in, musique intensité 0.8 |
+| 00:04.65 | *(silence 1.5 s — le spectateur observe l'effet)* | Vidéo réelle : « Doomed Neutron Stars Create Blast of Light and Gravitational » (à 12 s) | transition fade, caméra slow_in, musique intensité 0.8 |
+| 00:06.15 | *(silence 1.5 s — le spectateur observe l'effet)* | Vidéo réelle : « Migrating Magnetar Hot Spot Animations » (à 10 s) | transition fade, caméra slow_in, musique intensité 0.8 |
+| 00:07.65 | *(silence 1.5 s — le spectateur observe l'effet)* | Vidéo réelle : « Wind-Accreting Pulsar Visualization » (à 7 s) | transition fade, caméra slow_in, musique intensité 0.8 |
+| 00:09.15 | *(silence 1.5 s — le spectateur observe l'effet)* | Vidéo réelle : « Supernova explosion animation, with & without pulsar » (à 30 s) | transition fade, caméra slow_in, musique intensité 0.8 |
+| 00:10.65 | *(silence 3.0 s — le spectateur observe l'effet)* | Vidéo réelle : « Doomed Neutron Stars Create Blast of Light and Gravitational » (à 18 s) | transition fade, caméra slow_in, musique intensité 0.8 |
+
+**Crédits images (séquences réelles utilisées) :**
+
+- Migrating Magnetar Hot Spot Animations — NASA's Goddard Space Flight Center Conceptual Image Lab || 02_MAGNETAR_Wide_view_BlipOnly_Still.png (1920x1080) [2.3 MB] || 02_MAGNETAR_Wide_view_BlipOnly_Still_print.jpg (1024x576) [44.5 KB] || 02_MA — NASA Scientific Visualization Studio — Domaine public (NASA — image uniquement, bande-son non utilisée) — https://svs.gsfc.nasa.gov/20359/
+- Wind-Accreting Pulsar Visualization — NASA's Goddard Space Flight Center Scientific Visualization Studio — NASA Scientific Visualization Studio — Domaine public (NASA — image uniquement, bande-son non utilisée) — https://svs.gsfc.nasa.gov/20417/
+- Supernova explosion animation, with & without pulsar — NASA's Goddard Space Flight Center Conceptual Image Lab || SN_HQ_Full_H264_V001.00750_print.jpg (1024x576) [120.0 KB] || SN_HQ_Full_H264_V001.00750_searchweb.png (320x180) [77.3 KB] || SN_HQ_Full_H264 — NASA Scientific Visualization Studio — Domaine public (NASA — image uniquement, bande-son non utilisée) — https://svs.gsfc.nasa.gov/20413/
+- Doomed Neutron Stars Create Blast of Light and Gravitational Waves — NASA's Goddard Space Flight Center/CI Lab — NASA Scientific Visualization Studio — Domaine public (NASA — image uniquement, bande-son non utilisée) — https://svs.gsfc.nasa.gov/12740/
+
+**Sources / vérification des faits :**
+
+
+**Texte prononcé (pour réenregistrement éventuel) :**
+
+> 
+
+---
+
+# Ambiance 09 — Plus d'arbres que d'étoiles
+
+**Niche :** Les secrets de l'Univers  
+**Accroche à l'écran :** Il y a plus d'arbres sur Terre
+que d'étoiles
+dans toute la Voie lactée.  
+**Durée :** 14.8 s  
+**Musique :** composition originale procédurale (space, 80 BPM, progression minor_float)
+
+| Timecode | Narration | Visuel | Montage |
+|---|---|---|---|
+| 00:00.15 | *(silence 1.5 s — le spectateur observe l'effet)* | Vidéo réelle : « Spinning Earth with clouds, atmosphere, and night lights » (à 30 s) | transition fade, caméra slow_in, musique intensité 0.8 |
+| 00:01.65 | *(silence 1.5 s — le spectateur observe l'effet)* | StarField, Globe | transition fade, caméra slow_in, musique intensité 0.8 |
+| 00:03.15 | *(silence 1.5 s — le spectateur observe l'effet)* | Photo réelle : « Our Milky Way Gets a Makeover  Artist Concept » | transition fade, caméra slow_in, musique intensité 0.8 |
+| 00:04.65 | *(silence 1.5 s — le spectateur observe l'effet)* | Vidéo réelle : « jsc2021m000138_4K_Earth_Views_Extended_Cut_for_Earth_Day_ 20 » (à 2462 s) | transition fade, caméra slow_in, musique intensité 0.8 |
+| 00:06.15 | *(silence 1.5 s — le spectateur observe l'effet)* | StarField, galaxie spirale (particules) | transition fade, caméra slow_in, musique intensité 0.8 |
+| 00:07.65 | *(silence 1.5 s — le spectateur observe l'effet)* | Vidéo réelle : « Spinning Earth with clouds, atmosphere, and night lights » (à 70 s) | transition fade, caméra slow_in, musique intensité 0.8 |
+| 00:09.15 | *(silence 1.5 s — le spectateur observe l'effet)* | Vidéo réelle : « jsc2021m000138_4K_Earth_Views_Extended_Cut_for_Earth_Day_ 20 » (à 1438 s) | transition fade, caméra slow_in, musique intensité 0.8 |
+| 00:10.65 | *(silence 3.0 s — le spectateur observe l'effet)* | Vidéo réelle : « Spinning Earth with clouds, atmosphere, and night lights » (à 85 s) | transition fade, caméra slow_in, musique intensité 0.8 |
+
+**Crédits images (séquences réelles utilisées) :**
+
+- Spinning Earth with clouds, atmosphere, and night lights — NASA's Goddard Space Flight Center Scientific Visualization Studio — NASA Scientific Visualization Studio — Domaine public (NASA — image uniquement, bande-son non utilisée) — https://svs.gsfc.nasa.gov/5570/
+- Our Milky Way Gets a Makeover  Artist Concept — NASA/JPL-Caltech — NASA Image and Video Library — Domaine public (média NASA — usage libre, sans logo NASA ni suggestion de soutien) — https://images.nasa.gov/details/PIA10748
+- jsc2021m000138_4K_Earth_Views_Extended_Cut_for_Earth_Day_ 2021_210422-4KMP4 — JSC — NASA Image and Video Library — Domaine public (média NASA — image uniquement) — https://images.nasa.gov/details/jsc2021m000138_4K_Earth_Views_Extended_Cut_for_Earth_Day_%202021_210422-4KMP4
+
+**Sources / vérification des faits :**
+
+
+**Texte prononcé (pour réenregistrement éventuel) :**
+
+> 
+
+---
+
+# Edit 01 — L'Univers en 20 secondes
+
+**Niche :** Les secrets de l'Univers  
+**Accroche à l'écran :** L'UNIVERS EST TERRIFIANT  
+**Durée :** 22.0 s  
+**Musique :** composition originale procédurale (space, 128 BPM, progression minor_epic)
+
+| Timecode | Narration | Visuel | Montage |
+|---|---|---|---|
+| 00:00.15 | *(silence 1.875 s — le spectateur observe l'effet)* | Vidéo réelle : « Black Hole Accretion Disk Visualization » (à 12 s) | transition cut, caméra in, sfx boom, musique intensité 0.95 |
+| 00:02.02 | *(silence 0.9375 s — le spectateur observe l'effet)* | StarField, Globe | transition cut, caméra push, sfx impact, musique intensité 0.95 |
+| 00:02.96 | *(silence 0.9375 s — le spectateur observe l'effet)* | Vidéo réelle : « Jupiter's Great Red Spot Shrinks and Grows » (à 35 s) | transition cut, caméra push, musique intensité 0.95 |
+| 00:03.90 | *(silence 0.9375 s — le spectateur observe l'effet)* | Vidéo réelle : « Saturn's Rings Are Disappearing » (à 4 s) | transition flash, caméra push, sfx impact, musique intensité 0.95 |
+| 00:04.84 | *(silence 0.9375 s — le spectateur observe l'effet)* | Vidéo réelle : « Sun Releases Strong Solar Flare on October 23, 2024 » (à 0 s) | transition cut, caméra push, musique intensité 0.95 |
+| 00:05.78 | *(silence 0.9375 s — le spectateur observe l'effet)* | Vidéo réelle : « Supernova explosion animation, with & without pulsar » (à 22 s) | transition cut, caméra push, musique intensité 0.95 |
+| 00:06.71 | *(silence 0.9375 s — le spectateur observe l'effet)* | StarField, galaxie spirale (particules) | transition zoom, caméra push, sfx whoosh, musique intensité 0.95 |
+| 00:07.65 | *(silence 0.9375 s — le spectateur observe l'effet)* | Vidéo réelle : « NASA's Parker Solar Probe Touches The Sun For The First Time » (à 4 s) | transition cut, caméra push, musique intensité 0.95 |
+| 00:08.59 | *(silence 0.9375 s — le spectateur observe l'effet)* | Vidéo réelle : « Tour of the Moon 4K Redux » (à 183 s) | transition cut, caméra push, musique intensité 0.95 |
+| 00:09.53 | *(silence 0.9375 s — le spectateur observe l'effet)* | Vidéo réelle : « Enceladus » (à 2 s) | transition flash, caméra push, sfx impact, musique intensité 0.95 |
+| 00:10.46 | *(silence 0.9375 s — le spectateur observe l'effet)* | Vidéo réelle : « Titan science results from James Webb Space Telescope: anima » (à 18 s) | transition cut, caméra push, musique intensité 0.95 |
+| 00:11.40 | *(silence 0.9375 s — le spectateur observe l'effet)* | Vidéo réelle : « Isolated Black Hole Visualization » (à 0 s) | transition cut, caméra push, musique intensité 0.95 |
+| 00:12.34 | *(silence 0.9375 s — le spectateur observe l'effet)* | Vidéo réelle : « Doomed Neutron Stars Create Blast of Light and Gravitational » (à 14 s) | transition flash, caméra push, sfx impact, musique intensité 0.95 |
+| 00:13.28 | *(silence 0.9375 s — le spectateur observe l'effet)* | Vidéo réelle : « Simulating Solar Flows » (à 2 s) | transition cut, caméra push, musique intensité 0.95 |
+| 00:14.21 | *(silence 0.9375 s — le spectateur observe l'effet)* | StarField, galaxie spirale (particules) | transition zoom, caméra in, sfx whoosh, musique intensité 0.95 |
+| 00:15.15 | *(silence 0.9375 s — le spectateur observe l'effet)* | Filaments | transition cut, caméra push, musique intensité 0.95 |
+| 00:16.09 | *(silence 0.9375 s — le spectateur observe l'effet)* | Vidéo réelle : « Visualizations of Hunga Tonga Hunga Ha'apai and the Martian  » (à 14 s) | transition cut, caméra push, musique intensité 0.95 |
+| 00:17.02 | *(silence 0.9375 s — le spectateur observe l'effet)* | Nebula, DeepField | transition cut, caméra push, sfx riser, musique intensité 0.95 |
+| 00:17.96 | *(silence 2.8125 s — le spectateur observe l'effet)* | StarField, Rays, Globe, texte animé | transition black, caméra slow_in, sfx boom, musique intensité 0.95 |
+
+**Crédits images (séquences réelles utilisées) :**
+
+- Black Hole Accretion Disk Visualization — NASA’s Goddard Space Flight Center/Jeremy Schnittman || BH_Accretion_Disk_Sim_360_4k_Prores.00001_print.jpg (1024x1024) [33.2 KB] || BH_Accretion_Disk_Sim_360_4k_Prores.00001_searchweb.png (320x180) [ — NASA Scientific Visualization Studio — Domaine public (NASA — image uniquement, bande-son non utilisée) — https://svs.gsfc.nasa.gov/13326/
+- Jupiter's Great Red Spot Shrinks and Grows — NASA's Goddard Space Flight Center Scientific Visualization Studio — NASA Scientific Visualization Studio — Domaine public (NASA — image uniquement, bande-son non utilisée) — https://svs.gsfc.nasa.gov/12878/
+- Saturn's Rings Are Disappearing — NASA's Goddard Space Flight Center Scientific Visualization Studio — NASA Scientific Visualization Studio — Domaine public (NASA — image uniquement, bande-son non utilisée) — https://svs.gsfc.nasa.gov/12672/
+- Sun Releases Strong Solar Flare on October 23, 2024 — NASA/SDO || SDO_X3pt3_10-23-2024_0340_131-304-171.jpg (4096x4096) [4.7 MB] || SDO_X3pt3_10-23-2024_0340_131-304-171_searchweb.png (320x180) [104.1 KB] || SDO_X3pt3_10-23-2024_0340_131-304-171_thm.png  — NASA Scientific Visualization Studio — Domaine public (NASA — image uniquement, bande-son non utilisée) — https://svs.gsfc.nasa.gov/14709/
+- Supernova explosion animation, with & without pulsar — NASA's Goddard Space Flight Center Conceptual Image Lab || SN_HQ_Full_H264_V001.00750_print.jpg (1024x576) [120.0 KB] || SN_HQ_Full_H264_V001.00750_searchweb.png (320x180) [77.3 KB] || SN_HQ_Full_H264 — NASA Scientific Visualization Studio — Domaine public (NASA — image uniquement, bande-son non utilisée) — https://svs.gsfc.nasa.gov/20413/
+- NASA's Parker Solar Probe Touches The Sun For The First Time — NASA's Goddard Space Flight Center Scientific Visualization Studio — NASA Scientific Visualization Studio — Domaine public (NASA — image uniquement, bande-son non utilisée) — https://svs.gsfc.nasa.gov/14045/
+- Tour of the Moon 4K Redux — NASA's Goddard Space Flight Center Scientific Visualization Studio — NASA Scientific Visualization Studio — Domaine public (NASA — image uniquement, bande-son non utilisée) — https://svs.gsfc.nasa.gov/4619/
+- Enceladus — NASA's Goddard Space Flight Center Scientific Visualization Studio — NASA Scientific Visualization Studio — Domaine public (NASA — image uniquement, bande-son non utilisée) — https://svs.gsfc.nasa.gov/20384/
+- Titan science results from James Webb Space Telescope: animation resource page — NASA's Goddard Space Flight Center Scientific Visualization Studio — NASA Scientific Visualization Studio — Domaine public (NASA — image uniquement, bande-son non utilisée) — https://svs.gsfc.nasa.gov/20403/
+- Isolated Black Hole Visualization — NASA's Goddard Space Flight Center Scientific Visualization Studio — NASA Scientific Visualization Studio — Domaine public (NASA — image uniquement, bande-son non utilisée) — https://svs.gsfc.nasa.gov/14620/
+- Doomed Neutron Stars Create Blast of Light and Gravitational Waves — NASA's Goddard Space Flight Center/CI Lab — NASA Scientific Visualization Studio — Domaine public (NASA — image uniquement, bande-son non utilisée) — https://svs.gsfc.nasa.gov/12740/
+- Simulating Solar Flows — NASA's Goddard Space Flight Center Scientific Visualization Studio — NASA Scientific Visualization Studio — Domaine public (NASA — image uniquement, bande-son non utilisée) — https://svs.gsfc.nasa.gov/31400/
+- Visualizations of Hunga Tonga Hunga Ha'apai and the Martian Landscape — NASA's Goddard Space Flight Center Scientific Visualization Studio — NASA Scientific Visualization Studio — Domaine public (NASA — image uniquement, bande-son non utilisée) — https://svs.gsfc.nasa.gov/4635/
+
+**Sources / vérification des faits :**
+
+
+**Texte prononcé (pour réenregistrement éventuel) :**
+
+> 
+
+---
+
+# Edit 02 — Les trous noirs en 20 secondes
+
+**Niche :** Les secrets de l'Univers  
+**Accroche à l'écran :** TU NE VEUX PAS TOMBER ICI  
+**Durée :** 19.2 s  
+**Musique :** composition originale procédurale (space, 128 BPM, progression minor_dark)
+
+| Timecode | Narration | Visuel | Montage |
+|---|---|---|---|
+| 00:00.15 | *(silence 1.875 s — le spectateur observe l'effet)* | Vidéo réelle : « Black Hole Accretion Disk Visualization » (à 2 s) | transition cut, caméra in, sfx boom, musique intensité 0.95 |
+| 00:02.02 | *(silence 0.9375 s — le spectateur observe l'effet)* | Vidéo réelle : « Isolated Black Hole Visualization » (à 1 s) | transition cut, caméra push, sfx impact, musique intensité 0.95 |
+| 00:02.96 | *(silence 0.9375 s — le spectateur observe l'effet)* | Vidéo réelle : « Massive Black Hole Shreds Passing Star » (à 12 s) | transition cut, caméra push, musique intensité 0.95 |
+| 00:03.90 | *(silence 0.9375 s — le spectateur observe l'effet)* | Vidéo réelle : « Massive Black Hole Shreds Passing Star » (à 15 s) | transition flash, caméra push, sfx impact, musique intensité 0.95 |
+| 00:04.84 | *(silence 0.9375 s — le spectateur observe l'effet)* | Vidéo réelle : « Massive Black Hole Shreds Passing Star » (à 26 s) | transition cut, caméra push, musique intensité 0.95 |
+| 00:05.78 | *(silence 0.9375 s — le spectateur observe l'effet)* | Vidéo réelle : « Black Hole Accretion Disk Visualization » (à 16 s) | transition cut, caméra push, musique intensité 0.95 |
+| 00:06.71 | *(silence 0.9375 s — le spectateur observe l'effet)* | Vidéo réelle : « Isolated Black Hole Visualization » (à 6 s) | transition zoom, caméra push, sfx whoosh, musique intensité 0.95 |
+| 00:07.65 | *(silence 0.9375 s — le spectateur observe l'effet)* | Vidéo réelle : « Black Hole Accretion Disk Visualization » (à 24 s) | transition cut, caméra push, musique intensité 0.95 |
+| 00:08.59 | *(silence 0.9375 s — le spectateur observe l'effet)* | Vidéo réelle : « Massive Black Hole Shreds Passing Star » (à 30 s) | transition cut, caméra push, musique intensité 0.95 |
+| 00:09.53 | *(silence 0.9375 s — le spectateur observe l'effet)* | Vidéo réelle : « Isolated Black Hole Visualization » (à 11 s) | transition flash, caméra push, sfx impact, musique intensité 0.95 |
+| 00:10.46 | *(silence 0.9375 s — le spectateur observe l'effet)* | Vidéo réelle : « Black Hole Accretion Disk Visualization » (à 8 s) | transition cut, caméra push, musique intensité 0.95 |
+| 00:11.40 | *(silence 0.9375 s — le spectateur observe l'effet)* | Vidéo réelle : « Black Hole Accretion Disk Visualization » (à 30 s) | transition cut, caméra push, musique intensité 0.95 |
+| 00:12.34 | *(silence 0.9375 s — le spectateur observe l'effet)* | StarField | transition zoom, caméra push, sfx whoosh, musique intensité 0.95 |
+| 00:13.28 | *(silence 0.9375 s — le spectateur observe l'effet)* | Vidéo réelle : « Black Hole Accretion Disk Visualization » (à 33 s) | transition cut, caméra push, musique intensité 0.95 |
+| 00:14.21 | *(silence 0.9375 s — le spectateur observe l'effet)* | Vidéo réelle : « Massive Black Hole Shreds Passing Star » (à 34 s) | transition cut, caméra push, sfx riser, musique intensité 0.95 |
+| 00:15.15 | *(silence 2.8125 s — le spectateur observe l'effet)* | StarField, Rays, Globe, texte animé | transition black, caméra slow_in, sfx boom, musique intensité 0.95 |
+
+**Crédits images (séquences réelles utilisées) :**
+
+- Black Hole Accretion Disk Visualization — NASA’s Goddard Space Flight Center/Jeremy Schnittman || BH_Accretion_Disk_Sim_360_4k_Prores.00001_print.jpg (1024x1024) [33.2 KB] || BH_Accretion_Disk_Sim_360_4k_Prores.00001_searchweb.png (320x180) [ — NASA Scientific Visualization Studio — Domaine public (NASA — image uniquement, bande-son non utilisée) — https://svs.gsfc.nasa.gov/13326/
+- Isolated Black Hole Visualization — NASA's Goddard Space Flight Center Scientific Visualization Studio — NASA Scientific Visualization Studio — Domaine public (NASA — image uniquement, bande-son non utilisée) — https://svs.gsfc.nasa.gov/14620/
+- Massive Black Hole Shreds Passing Star — NASA's Goddard Space Flight Center/CI Lab — NASA Scientific Visualization Studio — Domaine public (NASA — image uniquement, bande-son non utilisée) — https://svs.gsfc.nasa.gov/12005/
+
+**Sources / vérification des faits :**
+
+
+**Texte prononcé (pour réenregistrement éventuel) :**
+
+> 
+
+---
+
+# Edit 03 — Le système solaire en 20 secondes
+
+**Niche :** Les secrets de l'Univers  
+**Accroche à l'écran :** TON QUARTIER DANS L'UNIVERS  
+**Durée :** 19.2 s  
+**Musique :** composition originale procédurale (space, 128 BPM, progression minor_epic)
+
+| Timecode | Narration | Visuel | Montage |
+|---|---|---|---|
+| 00:00.15 | *(silence 1.875 s — le spectateur observe l'effet)* | Vidéo réelle : « Sun Releases Strong Solar Flare on October 23, 2024 » (à 0 s) | transition cut, caméra in, sfx boom, musique intensité 0.95 |
+| 00:02.02 | *(silence 0.9375 s — le spectateur observe l'effet)* | Vidéo réelle : « Global View of Mercury – Animation » (à 0 s) | transition cut, caméra push, sfx impact, musique intensité 0.95 |
+| 00:02.96 | *(silence 0.9375 s — le spectateur observe l'effet)* | Vidéo réelle : « NASA’s New Views of Venus’ Surface From Space » (à 166 s) | transition cut, caméra push, musique intensité 0.95 |
+| 00:03.90 | *(silence 0.9375 s — le spectateur observe l'effet)* | Vidéo réelle : « Spinning Earth with clouds, atmosphere, and night lights » (à 30 s) | transition flash, caméra push, sfx impact, musique intensité 0.95 |
+| 00:04.84 | *(silence 0.9375 s — le spectateur observe l'effet)* | StarField, Globe | transition cut, caméra push, musique intensité 0.95 |
+| 00:05.78 | *(silence 0.9375 s — le spectateur observe l'effet)* | Vidéo réelle : « Mars Roll » (à 10 s) | transition cut, caméra push, musique intensité 0.95 |
+| 00:06.71 | *(silence 0.9375 s — le spectateur observe l'effet)* | Vidéo réelle : « Jupiter's Great Red Spot Shrinks and Grows » (à 75 s) | transition zoom, caméra push, sfx whoosh, musique intensité 0.95 |
+| 00:07.65 | *(silence 0.9375 s — le spectateur observe l'effet)* | Vidéo réelle : « Saturn's Rings Are Disappearing » (à 9 s) | transition cut, caméra push, musique intensité 0.95 |
+| 00:08.59 | *(silence 0.9375 s — le spectateur observe l'effet)* | Vidéo réelle : « Saturn's Rings Are Disappearing » (à 42 s) | transition flash, caméra push, sfx impact, musique intensité 0.95 |
+| 00:09.53 | *(silence 0.9375 s — le spectateur observe l'effet)* | Photo réelle : « Titan Up Front » | transition cut, caméra push, musique intensité 0.95 |
+| 00:10.46 | *(silence 0.9375 s — le spectateur observe l'effet)* | Photo réelle : « PIA01492 » | transition cut, caméra push, musique intensité 0.95 |
+| 00:11.40 | *(silence 0.9375 s — le spectateur observe l'effet)* | Vidéo réelle : « Animation: Heliosphere » (à 2 s) | transition zoom, caméra push, sfx whoosh, musique intensité 0.95 |
+| 00:12.34 | *(silence 0.9375 s — le spectateur observe l'effet)* | Vidéo réelle : « Tour of the Moon 4K Redux » (à 183 s) | transition cut, caméra push, musique intensité 0.95 |
+| 00:13.28 | *(silence 0.9375 s — le spectateur observe l'effet)* | Vidéo réelle : « Titan science results from James Webb Space Telescope: anima » (à 18 s) | transition cut, caméra push, musique intensité 0.95 |
+| 00:14.21 | *(silence 0.9375 s — le spectateur observe l'effet)* | Vidéo réelle : « Enceladus » (à 2 s) | transition cut, caméra push, sfx riser, musique intensité 0.95 |
+| 00:15.15 | *(silence 2.8125 s — le spectateur observe l'effet)* | StarField, Rays, Globe, texte animé | transition black, caméra slow_in, sfx boom, musique intensité 0.95 |
+
+**Crédits images (séquences réelles utilisées) :**
+
+- Sun Releases Strong Solar Flare on October 23, 2024 — NASA/SDO || SDO_X3pt3_10-23-2024_0340_131-304-171.jpg (4096x4096) [4.7 MB] || SDO_X3pt3_10-23-2024_0340_131-304-171_searchweb.png (320x180) [104.1 KB] || SDO_X3pt3_10-23-2024_0340_131-304-171_thm.png  — NASA Scientific Visualization Studio — Domaine public (NASA — image uniquement, bande-son non utilisée) — https://svs.gsfc.nasa.gov/14709/
+- Global View of Mercury – Animation — NASA's Goddard Space Flight Center Scientific Visualization Studio — NASA Scientific Visualization Studio — Domaine public (NASA — image uniquement, bande-son non utilisée) — https://svs.gsfc.nasa.gov/14110/
+- NASA’s New Views of Venus’ Surface From Space — NASA's Goddard Space Flight Center Scientific Visualization Studio — NASA Scientific Visualization Studio — Domaine public (NASA — image uniquement, bande-son non utilisée) — https://svs.gsfc.nasa.gov/14095/
+- Spinning Earth with clouds, atmosphere, and night lights — NASA's Goddard Space Flight Center Scientific Visualization Studio — NASA Scientific Visualization Studio — Domaine public (NASA — image uniquement, bande-son non utilisée) — https://svs.gsfc.nasa.gov/5570/
+- Mars Roll — NASA's Goddard Space Flight Center Scientific Visualization Studio — NASA Scientific Visualization Studio — Domaine public (NASA — image uniquement, bande-son non utilisée) — https://svs.gsfc.nasa.gov/3896/
+- Jupiter's Great Red Spot Shrinks and Grows — NASA's Goddard Space Flight Center Scientific Visualization Studio — NASA Scientific Visualization Studio — Domaine public (NASA — image uniquement, bande-son non utilisée) — https://svs.gsfc.nasa.gov/12878/
+- Saturn's Rings Are Disappearing — NASA's Goddard Space Flight Center Scientific Visualization Studio — NASA Scientific Visualization Studio — Domaine public (NASA — image uniquement, bande-son non utilisée) — https://svs.gsfc.nasa.gov/12672/
+- Titan Up Front — NASA/JPL-Caltech/Space Science Institute — NASA Image and Video Library — Domaine public (média NASA — usage libre, sans logo NASA ni suggestion de soutien) — https://images.nasa.gov/details/PIA14909
+- PIA01492 — NASA/JPL — NASA Image and Video Library — Domaine public (média NASA — usage libre, sans logo NASA ni suggestion de soutien) — https://images.nasa.gov/details/PIA01492
+- Animation: Heliosphere — NASA's Goddard Space Flight Center Scientific Visualization Studio — NASA Scientific Visualization Studio — Domaine public (NASA — image uniquement, bande-son non utilisée) — https://svs.gsfc.nasa.gov/20363/
+- Tour of the Moon 4K Redux — NASA's Goddard Space Flight Center Scientific Visualization Studio — NASA Scientific Visualization Studio — Domaine public (NASA — image uniquement, bande-son non utilisée) — https://svs.gsfc.nasa.gov/4619/
+- Titan science results from James Webb Space Telescope: animation resource page — NASA's Goddard Space Flight Center Scientific Visualization Studio — NASA Scientific Visualization Studio — Domaine public (NASA — image uniquement, bande-son non utilisée) — https://svs.gsfc.nasa.gov/20403/
+- Enceladus — NASA's Goddard Space Flight Center Scientific Visualization Studio — NASA Scientific Visualization Studio — Domaine public (NASA — image uniquement, bande-son non utilisée) — https://svs.gsfc.nasa.gov/20384/
+
+**Sources / vérification des faits :**
+
+
+**Texte prononcé (pour réenregistrement éventuel) :**
+
+> 
+
+---
+
+# Edit 04 — Le Soleil comme tu ne l'as jamais vu
+
+**Niche :** Les secrets de l'Univers  
+**Accroche à l'écran :** NE REGARDE PAS TROP LONGTEMPS  
+**Durée :** 19.2 s  
+**Musique :** composition originale procédurale (space, 128 BPM, progression minor_epic)
+
+| Timecode | Narration | Visuel | Montage |
+|---|---|---|---|
+| 00:00.15 | *(silence 1.875 s — le spectateur observe l'effet)* | Vidéo réelle : « Largest Flare yet from Solar Cycle 25 » (à 1 s) | transition cut, caméra in, sfx boom, musique intensité 0.95 |
+| 00:02.02 | *(silence 0.9375 s — le spectateur observe l'effet)* | Vidéo réelle : « NASA's Parker Solar Probe Touches The Sun For The First Time » (à 10 s) | transition cut, caméra push, sfx impact, musique intensité 0.95 |
+| 00:02.96 | *(silence 0.9375 s — le spectateur observe l'effet)* | Vidéo réelle : « Sun Releases Strong Solar Flare on October 23, 2024 » (à 0 s) | transition cut, caméra push, musique intensité 0.95 |
+| 00:03.90 | *(silence 0.9375 s — le spectateur observe l'effet)* | Vidéo réelle : « NASA's Parker Solar Probe Touches The Sun For The First Time » (à 4 s) | transition flash, caméra push, sfx impact, musique intensité 0.95 |
+| 00:04.84 | *(silence 0.9375 s — le spectateur observe l'effet)* | Vidéo réelle : « Largest Flare yet from Solar Cycle 25 » (à 1 s) | transition cut, caméra push, musique intensité 0.95 |
+| 00:05.78 | *(silence 0.9375 s — le spectateur observe l'effet)* | Vidéo réelle : « Sun Erupts with X-class flare on October 26, 2024 » (à 0 s) | transition cut, caméra push, musique intensité 0.95 |
+| 00:06.71 | *(silence 0.9375 s — le spectateur observe l'effet)* | Vidéo réelle : « NASA's Parker Solar Probe Touches The Sun For The First Time » (à 0 s) | transition zoom, caméra push, sfx whoosh, musique intensité 0.95 |
+| 00:07.65 | *(silence 0.9375 s — le spectateur observe l'effet)* | Vidéo réelle : « Largest Flare yet from Solar Cycle 25 » (à 1 s) | transition cut, caméra push, musique intensité 0.95 |
+| 00:08.59 | *(silence 0.9375 s — le spectateur observe l'effet)* | Vidéo réelle : « NASA's Parker Solar Probe Touches The Sun For The First Time » (à 0 s) | transition cut, caméra push, musique intensité 0.95 |
+| 00:09.53 | *(silence 0.9375 s — le spectateur observe l'effet)* | Vidéo réelle : « Sun Releases Strong Solar Flare on October 23, 2024 » (à 2 s) | transition flash, caméra push, sfx impact, musique intensité 0.95 |
+| 00:10.46 | *(silence 0.9375 s — le spectateur observe l'effet)* | Vidéo réelle : « NASA's Parker Solar Probe Touches The Sun For The First Time » (à 2 s) | transition cut, caméra push, musique intensité 0.95 |
+| 00:11.40 | *(silence 0.9375 s — le spectateur observe l'effet)* | Vidéo réelle : « Largest Flare yet from Solar Cycle 25 » (à 5 s) | transition cut, caméra push, musique intensité 0.95 |
+| 00:12.34 | *(silence 0.9375 s — le spectateur observe l'effet)* | Vidéo réelle : « NASA's Parker Solar Probe Touches The Sun For The First Time » (à 6 s) | transition zoom, caméra push, sfx whoosh, musique intensité 0.95 |
+| 00:13.28 | *(silence 0.9375 s — le spectateur observe l'effet)* | Vidéo réelle : « Sun Releases Strong Solar Flare on October 23, 2024 » (à 2 s) | transition cut, caméra push, musique intensité 0.95 |
+| 00:14.21 | *(silence 0.9375 s — le spectateur observe l'effet)* | Vidéo réelle : « Largest Flare yet from Solar Cycle 25 » (à 6 s) | transition cut, caméra push, sfx riser, musique intensité 0.95 |
+| 00:15.15 | *(silence 2.8125 s — le spectateur observe l'effet)* | StarField, Rays, Globe, texte animé | transition black, caméra slow_in, sfx boom, musique intensité 0.95 |
+
+**Crédits images (séquences réelles utilisées) :**
+
+- Largest Flare yet from Solar Cycle 25 — NASA's Goddard Space Flight Center Scientific Visualization Studio — NASA Scientific Visualization Studio — Domaine public (NASA — image uniquement, bande-son non utilisée) — https://svs.gsfc.nasa.gov/14592/
+- NASA's Parker Solar Probe Touches The Sun For The First Time — NASA's Goddard Space Flight Center Scientific Visualization Studio — NASA Scientific Visualization Studio — Domaine public (NASA — image uniquement, bande-son non utilisée) — https://svs.gsfc.nasa.gov/14045/
+- Sun Releases Strong Solar Flare on October 23, 2024 — NASA/SDO || SDO_X3pt3_10-23-2024_0340_131-304-171.jpg (4096x4096) [4.7 MB] || SDO_X3pt3_10-23-2024_0340_131-304-171_searchweb.png (320x180) [104.1 KB] || SDO_X3pt3_10-23-2024_0340_131-304-171_thm.png  — NASA Scientific Visualization Studio — Domaine public (NASA — image uniquement, bande-son non utilisée) — https://svs.gsfc.nasa.gov/14709/
+- NASA's Parker Solar Probe Touches The Sun For The First Time — NASA's Goddard Space Flight Center Scientific Visualization Studio — NASA Scientific Visualization Studio — Domaine public (NASA — image uniquement, bande-son non utilisée) — https://svs.gsfc.nasa.gov/14045/
+- Largest Flare yet from Solar Cycle 25 — NASA's Goddard Space Flight Center Scientific Visualization Studio — NASA Scientific Visualization Studio — Domaine public (NASA — image uniquement, bande-son non utilisée) — https://svs.gsfc.nasa.gov/14592/
+- Sun Erupts with X-class flare on October 26, 2024 — NASA/SDO || Oct_26_X1pt8_Flare_multi_big.jpg (5120x3072) [3.4 MB] || Oct_26_X1pt8_Flare_multi_big_searchweb.png (320x180) [95.8 KB] || Oct_26_X1pt8_Flare_multi_big_thm.png (80x40) [7.6 KB] || — NASA Scientific Visualization Studio — Domaine public (NASA — image uniquement, bande-son non utilisée) — https://svs.gsfc.nasa.gov/14710/
+- Largest Flare yet from Solar Cycle 25 — NASA's Goddard Space Flight Center Scientific Visualization Studio — NASA Scientific Visualization Studio — Domaine public (NASA — image uniquement, bande-son non utilisée) — https://svs.gsfc.nasa.gov/14592/
+- NASA's Parker Solar Probe Touches The Sun For The First Time — NASA's Goddard Space Flight Center Scientific Visualization Studio — NASA Scientific Visualization Studio — Domaine public (NASA — image uniquement, bande-son non utilisée) — https://svs.gsfc.nasa.gov/14045/
+- Sun Releases Strong Solar Flare on October 23, 2024 — NASA/SDO || SDO_X3pt3_10-23-2024_0340_131-304-171.jpg (4096x4096) [4.7 MB] || SDO_X3pt3_10-23-2024_0340_131-304-171_searchweb.png (320x180) [104.1 KB] || SDO_X3pt3_10-23-2024_0340_131-304-171_thm.png  — NASA Scientific Visualization Studio — Domaine public (NASA — image uniquement, bande-son non utilisée) — https://svs.gsfc.nasa.gov/14709/
+
+**Sources / vérification des faits :**
+
+
+**Texte prononcé (pour réenregistrement éventuel) :**
+
+> 
+
+---
+
+# Edit 05 — Les lunes les plus folles
+
+**Niche :** Les secrets de l'Univers  
+**Accroche à l'écran :** CES LUNES SONT INCROYABLES  
+**Durée :** 19.2 s  
+**Musique :** composition originale procédurale (space, 128 BPM, progression minor_wonder)
+
+| Timecode | Narration | Visuel | Montage |
+|---|---|---|---|
+| 00:00.15 | *(silence 1.875 s — le spectateur observe l'effet)* | Vidéo réelle : « Enceladus » (à 1 s) | transition cut, caméra in, sfx boom, musique intensité 0.95 |
+| 00:02.02 | *(silence 0.9375 s — le spectateur observe l'effet)* | Vidéo réelle : « NASA’s Europa Clipper Mission Animations » (à 566 s) | transition cut, caméra push, sfx impact, musique intensité 0.95 |
+| 00:02.96 | *(silence 0.9375 s — le spectateur observe l'effet)* | Vidéo réelle : « Titan science results from James Webb Space Telescope: anima » (à 20 s) | transition cut, caméra push, musique intensité 0.95 |
+| 00:03.90 | *(silence 0.9375 s — le spectateur observe l'effet)* | Vidéo réelle : « Tour of the Moon 4K Redux » (à 183 s) | transition flash, caméra push, sfx impact, musique intensité 0.95 |
+| 00:04.84 | *(silence 0.9375 s — le spectateur observe l'effet)* | Vidéo réelle : « Cassini's Infrared Saturn (Short Version) » (à 178 s) | transition cut, caméra push, musique intensité 0.95 |
+| 00:05.78 | *(silence 0.9375 s — le spectateur observe l'effet)* | Photo réelle : « Titan Up Front » | transition cut, caméra push, musique intensité 0.95 |
+| 00:06.71 | *(silence 0.9375 s — le spectateur observe l'effet)* | Vidéo réelle : « NASA’s Europa Clipper Mission Animations » (à 459 s) | transition zoom, caméra push, sfx whoosh, musique intensité 0.95 |
+| 00:07.65 | *(silence 0.9375 s — le spectateur observe l'effet)* | Vidéo réelle : « A New Look at the Apollo 11 Landing Site » (à 2 s) | transition cut, caméra push, musique intensité 0.95 |
+| 00:08.59 | *(silence 0.9375 s — le spectateur observe l'effet)* | Vidéo réelle : « Enceladus » (à 6 s) | transition cut, caméra push, musique intensité 0.95 |
+| 00:09.53 | *(silence 0.9375 s — le spectateur observe l'effet)* | Vidéo réelle : « Titan science results from James Webb Space Telescope: anima » (à 28 s) | transition flash, caméra push, sfx impact, musique intensité 0.95 |
+| 00:10.46 | *(silence 0.9375 s — le spectateur observe l'effet)* | Vidéo réelle : « NASA’s Europa Clipper Mission Animations » (à 593 s) | transition cut, caméra push, musique intensité 0.95 |
+| 00:11.40 | *(silence 0.9375 s — le spectateur observe l'effet)* | Vidéo réelle : « Tour of the Moon 4K Redux » (à 26 s) | transition cut, caméra push, musique intensité 0.95 |
+| 00:12.34 | *(silence 0.9375 s — le spectateur observe l'effet)* | StarField, Globe | transition zoom, caméra push, sfx whoosh, musique intensité 0.95 |
+| 00:13.28 | *(silence 0.9375 s — le spectateur observe l'effet)* | Photo réelle : « Bursting at the Seams: the Geyser Basin of Enceladus » | transition cut, caméra push, musique intensité 0.95 |
+| 00:14.21 | *(silence 0.9375 s — le spectateur observe l'effet)* | Vidéo réelle : « Enceladus » (à 9 s) | transition cut, caméra push, sfx riser, musique intensité 0.95 |
+| 00:15.15 | *(silence 2.8125 s — le spectateur observe l'effet)* | StarField, Rays, Globe, texte animé | transition black, caméra slow_in, sfx boom, musique intensité 0.95 |
+
+**Crédits images (séquences réelles utilisées) :**
+
+- Enceladus — NASA's Goddard Space Flight Center Scientific Visualization Studio — NASA Scientific Visualization Studio — Domaine public (NASA — image uniquement, bande-son non utilisée) — https://svs.gsfc.nasa.gov/20384/
+- NASA’s Europa Clipper Mission Animations — JPL — NASA Image and Video Library — Domaine public (média NASA — usage libre, sans logo NASA ni suggestion de soutien) — https://images.nasa.gov/details/JPL-20220310-CLIPPRf-0001-Europa%20Clipper%20Mission%20Animations
+- Titan science results from James Webb Space Telescope: animation resource page — NASA's Goddard Space Flight Center Scientific Visualization Studio — NASA Scientific Visualization Studio — Domaine public (NASA — image uniquement, bande-son non utilisée) — https://svs.gsfc.nasa.gov/20403/
+- Tour of the Moon 4K Redux — NASA's Goddard Space Flight Center Scientific Visualization Studio — NASA Scientific Visualization Studio — Domaine public (NASA — image uniquement, bande-son non utilisée) — https://svs.gsfc.nasa.gov/4619/
+- Cassini's Infrared Saturn (Short Version) — Dan Gallagher — NASA Image and Video Library — Domaine public (média NASA — usage libre, sans logo NASA ni suggestion de soutien) — https://images.nasa.gov/details/GSFC_20170912_Cassini_m12709_CIRS_Short
+- Titan Up Front — NASA/JPL-Caltech/Space Science Institute — NASA Image and Video Library — Domaine public (média NASA — usage libre, sans logo NASA ni suggestion de soutien) — https://images.nasa.gov/details/PIA14909
+- A New Look at the Apollo 11 Landing Site — NASA's Goddard Space Flight Center Scientific Visualization Studio — NASA Scientific Visualization Studio — Domaine public (NASA — image uniquement, bande-son non utilisée) — https://svs.gsfc.nasa.gov/4185/
+- Bursting at the Seams: the Geyser Basin of Enceladus — NASA/JPL/Space Science Institute — NASA Image and Video Library — Domaine public (média NASA — usage libre, sans logo NASA ni suggestion de soutien) — https://images.nasa.gov/details/PIA11688
+
+**Sources / vérification des faits :**
+
+
+**Texte prononcé (pour réenregistrement éventuel) :**
+
+> 
+
+---
+
+# Edit 06 — Ce n'est pas une peinture
+
+**Niche :** Les secrets de l'Univers  
+**Accroche à l'écran :** CE N'EST PAS UNE PEINTURE  
+**Durée :** 19.2 s  
+**Musique :** composition originale procédurale (space, 128 BPM, progression minor_wonder)
+
+| Timecode | Narration | Visuel | Montage |
+|---|---|---|---|
+| 00:00.15 | *(silence 1.875 s — le spectateur observe l'effet)* | Photo réelle : « James Webb Space Telescope NIRCam Image of the “Cosmic Cliff » | transition cut, caméra in, sfx boom, musique intensité 0.95 |
+| 00:02.02 | *(silence 0.9375 s — le spectateur observe l'effet)* | Photo réelle : « Hubble Goes High Def to Revisit the Iconic 'Pillars of Creat » | transition cut, caméra push, sfx impact, musique intensité 0.95 |
+| 00:02.96 | *(silence 0.9375 s — le spectateur observe l'effet)* | Photo réelle : « Most Detailed Image of the Crab Nebula » | transition cut, caméra push, musique intensité 0.95 |
+| 00:03.90 | *(silence 0.9375 s — le spectateur observe l'effet)* | Photo réelle : « Chaos at the Heart of Orion » | transition flash, caméra push, sfx impact, musique intensité 0.95 |
+| 00:04.84 | *(silence 0.9375 s — le spectateur observe l'effet)* | Photo réelle : « NGC 7293, the Helix Nebula » | transition cut, caméra push, musique intensité 0.95 |
+| 00:05.78 | *(silence 0.9375 s — le spectateur observe l'effet)* | Photo réelle : « James Webb Space Telescope Southern Ring Nebula (NIRCam and  » | transition cut, caméra push, musique intensité 0.95 |
+| 00:06.71 | *(silence 0.9375 s — le spectateur observe l'effet)* | Photo réelle : « Horsehead Nebula » | transition zoom, caméra push, sfx whoosh, musique intensité 0.95 |
+| 00:07.65 | *(silence 0.9375 s — le spectateur observe l'effet)* | Photo réelle : « A galactic sunflower » | transition cut, caméra push, musique intensité 0.95 |
+| 00:08.59 | *(silence 0.9375 s — le spectateur observe l'effet)* | Photo réelle : « The Sombrero Galaxy Split Personality » | transition cut, caméra push, musique intensité 0.95 |
+| 00:09.53 | *(silence 0.9375 s — le spectateur observe l'effet)* | Photo réelle : « James Webb Space Telescope NIRCam Image of the “Cosmic Cliff » | transition flash, caméra push, sfx impact, musique intensité 0.95 |
+| 00:10.46 | *(silence 0.9375 s — le spectateur observe l'effet)* | Photo réelle : « Most Detailed Image of the Crab Nebula » | transition cut, caméra push, musique intensité 0.95 |
+| 00:11.40 | *(silence 0.9375 s — le spectateur observe l'effet)* | Photo réelle : « Chaos at the Heart of Orion » | transition cut, caméra push, musique intensité 0.95 |
+| 00:12.34 | *(silence 0.9375 s — le spectateur observe l'effet)* | Photo réelle : « James Webb Space Telescope Southern Ring Nebula (NIRCam and  » | transition zoom, caméra push, sfx whoosh, musique intensité 0.95 |
+| 00:13.28 | *(silence 0.9375 s — le spectateur observe l'effet)* | Photo réelle : « Hubble Goes High Def to Revisit the Iconic 'Pillars of Creat » | transition cut, caméra push, musique intensité 0.95 |
+| 00:14.21 | *(silence 0.9375 s — le spectateur observe l'effet)* | Photo réelle : « NGC 7293, the Helix Nebula » | transition cut, caméra push, sfx riser, musique intensité 0.95 |
+| 00:15.15 | *(silence 2.8125 s — le spectateur observe l'effet)* | StarField, Rays, Globe, texte animé | transition black, caméra slow_in, sfx boom, musique intensité 0.95 |
+
+**Crédits images (séquences réelles utilisées) :**
+
+- James Webb Space Telescope NIRCam Image of the “Cosmic Cliffs” in Carina Nebula — NASA ESA CSA STScI — NASA Image and Video Library — Domaine public (média NASA — usage libre, sans logo NASA ni suggestion de soutien) — https://images.nasa.gov/details/carina_nebula
+- Hubble Goes High Def to Revisit the Iconic 'Pillars of Creation' — GSFC — NASA Image and Video Library — Domaine public (média NASA — usage libre, sans logo NASA ni suggestion de soutien) — https://images.nasa.gov/details/GSFC_20171208_Archive_e000842
+- Most Detailed Image of the Crab Nebula — NASA/ESA/JPL/Arizona State Univ. — NASA Image and Video Library — Domaine public (média NASA — usage libre, sans logo NASA ni suggestion de soutien) — https://images.nasa.gov/details/PIA03606
+- Chaos at the Heart of Orion — NASA/JPL-Caltech/STScI — NASA Image and Video Library — Domaine public (média NASA — usage libre, sans logo NASA ni suggestion de soutien) — https://images.nasa.gov/details/PIA01322
+- NGC 7293, the Helix Nebula — NASA/JPL-Caltech — NASA Image and Video Library — Domaine public (média NASA — usage libre, sans logo NASA ni suggestion de soutien) — https://images.nasa.gov/details/PIA15658
+- James Webb Space Telescope Southern Ring Nebula (NIRCam and MIRI Images Side by Side) — NASA ESA CSA STScI — NASA Image and Video Library — Domaine public (média NASA — usage libre, sans logo NASA ni suggestion de soutien) — https://images.nasa.gov/details/southern_ring_nebula
+- Horsehead Nebula — GSFC — NASA Image and Video Library — Domaine public (média NASA — usage libre, sans logo NASA ni suggestion de soutien) — https://images.nasa.gov/details/GSFC_20171208_Archive_e001518
+- A galactic sunflower — GSFC — NASA Image and Video Library — Domaine public (média NASA — usage libre, sans logo NASA ni suggestion de soutien) — https://images.nasa.gov/details/hubble-sees-a-galactic-sunflower_21136469209_o
+- The Sombrero Galaxy Split Personality — NASA/JPL-Caltech — NASA Image and Video Library — Domaine public (média NASA — usage libre, sans logo NASA ni suggestion de soutien) — https://images.nasa.gov/details/PIA15426
+
+**Sources / vérification des faits :**
+
+
+**Texte prononcé (pour réenregistrement éventuel) :**
+
+> 
+
+---
+
+# Edit 07 — La Terre vue de l'espace
+
+**Niche :** Les secrets de l'Univers  
+**Accroche à l'écran :** TA MAISON VUE D'EN HAUT  
+**Durée :** 19.2 s  
+**Musique :** composition originale procédurale (space, 128 BPM, progression minor_float)
+
+| Timecode | Narration | Visuel | Montage |
+|---|---|---|---|
+| 00:00.15 | *(silence 1.875 s — le spectateur observe l'effet)* | Vidéo réelle : « jsc2021m000138_4K_Earth_Views_Extended_Cut_for_Earth_Day_ 20 » (à 1830 s) | transition cut, caméra in, sfx boom, musique intensité 0.95 |
+| 00:02.02 | *(silence 0.9375 s — le spectateur observe l'effet)* | Vidéo réelle : « ISS views Aurora from the November 11-13, 2025 Geomagnetic S » (à 24 s) | transition cut, caméra push, sfx impact, musique intensité 0.95 |
+| 00:02.96 | *(silence 0.9375 s — le spectateur observe l'effet)* | Vidéo réelle : « Expedition 71 International Space Station Flyover of Hurrica » (à 46 s) | transition cut, caméra push, musique intensité 0.95 |
+| 00:03.90 | *(silence 0.9375 s — le spectateur observe l'effet)* | Photo réelle : « A Breathtaking Earthset from Orion » | transition flash, caméra push, sfx impact, musique intensité 0.95 |
+| 00:04.84 | *(silence 0.9375 s — le spectateur observe l'effet)* | Vidéo réelle : « jsc2021m000138_4K_Earth_Views_Extended_Cut_for_Earth_Day_ 20 » (à 1310 s) | transition cut, caméra push, musique intensité 0.95 |
+| 00:05.78 | *(silence 0.9375 s — le spectateur observe l'effet)* | Vidéo réelle : « Spinning Earth with clouds, atmosphere, and night lights » (à 30 s) | transition cut, caméra push, musique intensité 0.95 |
+| 00:06.71 | *(silence 0.9375 s — le spectateur observe l'effet)* | Vidéo réelle : « ISS views Aurora from the November 11-13, 2025 Geomagnetic S » (à 72 s) | transition zoom, caméra push, sfx whoosh, musique intensité 0.95 |
+| 00:07.65 | *(silence 0.9375 s — le spectateur observe l'effet)* | Vidéo réelle : « jsc2021m000138_4K_Earth_Views_Extended_Cut_for_Earth_Day_ 20 » (à 2014 s) | transition cut, caméra push, musique intensité 0.95 |
+| 00:08.59 | *(silence 0.9375 s — le spectateur observe l'effet)* | Vidéo réelle : « Expedition 71 International Space Station Flyover of Hurrica » (à 502 s) | transition cut, caméra push, musique intensité 0.95 |
+| 00:09.53 | *(silence 0.9375 s — le spectateur observe l'effet)* | Vidéo réelle : « jsc2021m000138_4K_Earth_Views_Extended_Cut_for_Earth_Day_ 20 » (à 990 s) | transition flash, caméra push, sfx impact, musique intensité 0.95 |
+| 00:10.46 | *(silence 0.9375 s — le spectateur observe l'effet)* | StarField, Globe | transition cut, caméra push, musique intensité 0.95 |
+| 00:11.40 | *(silence 0.9375 s — le spectateur observe l'effet)* | Vidéo réelle : « jsc2021m000138_4K_Earth_Views_Extended_Cut_for_Earth_Day_ 20 » (à 3038 s) | transition cut, caméra push, musique intensité 0.95 |
+| 00:12.34 | *(silence 0.9375 s — le spectateur observe l'effet)* | Vidéo réelle : « ISS views Aurora from the November 11-13, 2025 Geomagnetic S » (à 0 s) | transition zoom, caméra push, sfx whoosh, musique intensité 0.95 |
+| 00:13.28 | *(silence 0.9375 s — le spectateur observe l'effet)* | Vidéo réelle : « jsc2021m000138_4K_Earth_Views_Extended_Cut_for_Earth_Day_ 20 » (à 2930 s) | transition cut, caméra push, musique intensité 0.95 |
+| 00:14.21 | *(silence 0.9375 s — le spectateur observe l'effet)* | Vidéo réelle : « Spinning Earth with clouds, atmosphere, and night lights » (à 70 s) | transition cut, caméra push, sfx riser, musique intensité 0.95 |
+| 00:15.15 | *(silence 2.8125 s — le spectateur observe l'effet)* | StarField, Rays, Globe, texte animé | transition black, caméra slow_in, sfx boom, musique intensité 0.95 |
+
+**Crédits images (séquences réelles utilisées) :**
+
+- jsc2021m000138_4K_Earth_Views_Extended_Cut_for_Earth_Day_ 2021_210422-4KMP4 — JSC — NASA Image and Video Library — Domaine public (média NASA — image uniquement) — https://images.nasa.gov/details/jsc2021m000138_4K_Earth_Views_Extended_Cut_for_Earth_Day_%202021_210422-4KMP4
+- ISS views Aurora from the November 11-13, 2025 Geomagnetic Storm — NASA's Goddard Space Flight Center Scientific Visualization Studio — NASA Scientific Visualization Studio — Domaine public (NASA — image uniquement, bande-son non utilisée) — https://svs.gsfc.nasa.gov/31375/
+- Expedition 71 International Space Station Flyover of Hurricane Beryl - Monday, July 1, 2024 — JSC — NASA Image and Video Library — Domaine public (média NASA — image uniquement) — https://images.nasa.gov/details/jsc2024m000130_Expedition_71_International_Space_Station_Flyover_of_Hurricane_Beryl_240701
+- A Breathtaking Earthset from Orion — NASA — NASA Image and Video Library — Domaine public (média NASA — usage libre, sans logo NASA ni suggestion de soutien) — https://images.nasa.gov/details/art002e021278
+- Spinning Earth with clouds, atmosphere, and night lights — NASA's Goddard Space Flight Center Scientific Visualization Studio — NASA Scientific Visualization Studio — Domaine public (NASA — image uniquement, bande-son non utilisée) — https://svs.gsfc.nasa.gov/5570/
+
+**Sources / vérification des faits :**
+
+
+**Texte prononcé (pour réenregistrement éventuel) :**
+
+> 
+
+---
+
+# Edit 08 — Voyage à travers l'Univers
+
+**Niche :** Les secrets de l'Univers  
+**Accroche à l'écran :** ACCROCHE-TOI  
+**Durée :** 19.2 s  
+**Musique :** composition originale procédurale (space, 128 BPM, progression minor_epic)
+
+| Timecode | Narration | Visuel | Montage |
+|---|---|---|---|
+| 00:00.15 | *(silence 3.75 s — le spectateur observe l'effet)* | StarField | transition cut, caméra static, sfx boom, musique intensité 0.95 |
+| 00:03.90 | *(silence 0.9375 s — le spectateur observe l'effet)* | Photo réelle : « James Webb Space Telescope NIRCam Image of the “Cosmic Cliff » | transition flash, caméra push, sfx impact, musique intensité 0.95 |
+| 00:04.84 | *(silence 0.9375 s — le spectateur observe l'effet)* | Vidéo réelle : « Black Hole Accretion Disk Visualization » (à 12 s) | transition cut, caméra push, musique intensité 0.95 |
+| 00:05.78 | *(silence 0.9375 s — le spectateur observe l'effet)* | StarField, galaxie spirale (particules) | transition cut, caméra push, musique intensité 0.95 |
+| 00:06.71 | *(silence 0.9375 s — le spectateur observe l'effet)* | Photo réelle : « Most Detailed Image of the Crab Nebula » | transition flash, caméra push, sfx impact, musique intensité 0.95 |
+| 00:07.65 | *(silence 0.9375 s — le spectateur observe l'effet)* | Photo réelle : « James Webb Space Telescope Southern Ring Nebula (NIRCam and  » | transition cut, caméra push, musique intensité 0.95 |
+| 00:08.59 | *(silence 0.9375 s — le spectateur observe l'effet)* | Nebula, DeepField | transition cut, caméra push, musique intensité 0.95 |
+| 00:09.53 | *(silence 0.9375 s — le spectateur observe l'effet)* | Vidéo réelle : « Doomed Neutron Stars Create Blast of Light and Gravitational » (à 14 s) | transition zoom, caméra push, sfx whoosh, musique intensité 0.95 |
+| 00:10.46 | *(silence 0.9375 s — le spectateur observe l'effet)* | Photo réelle : « Chaos at the Heart of Orion » | transition cut, caméra push, musique intensité 0.95 |
+| 00:11.40 | *(silence 0.9375 s — le spectateur observe l'effet)* | Vidéo réelle : « Supernova explosion animation, with & without pulsar » (à 24 s) | transition cut, caméra push, musique intensité 0.95 |
+| 00:12.34 | *(silence 1.875 s — le spectateur observe l'effet)* | StarField | transition zoom, caméra push, sfx whoosh, musique intensité 0.95 |
+| 00:14.21 | *(silence 0.9375 s — le spectateur observe l'effet)* | Photo réelle : « Hubble Goes High Def to Revisit the Iconic 'Pillars of Creat » | transition cut, caméra push, sfx riser, musique intensité 0.95 |
+| 00:15.15 | *(silence 2.8125 s — le spectateur observe l'effet)* | StarField, Rays, Globe, texte animé | transition black, caméra slow_in, sfx boom, musique intensité 0.95 |
+
+**Crédits images (séquences réelles utilisées) :**
+
+- James Webb Space Telescope NIRCam Image of the “Cosmic Cliffs” in Carina Nebula — NASA ESA CSA STScI — NASA Image and Video Library — Domaine public (média NASA — usage libre, sans logo NASA ni suggestion de soutien) — https://images.nasa.gov/details/carina_nebula
+- Black Hole Accretion Disk Visualization — NASA’s Goddard Space Flight Center/Jeremy Schnittman || BH_Accretion_Disk_Sim_360_4k_Prores.00001_print.jpg (1024x1024) [33.2 KB] || BH_Accretion_Disk_Sim_360_4k_Prores.00001_searchweb.png (320x180) [ — NASA Scientific Visualization Studio — Domaine public (NASA — image uniquement, bande-son non utilisée) — https://svs.gsfc.nasa.gov/13326/
+- Most Detailed Image of the Crab Nebula — NASA/ESA/JPL/Arizona State Univ. — NASA Image and Video Library — Domaine public (média NASA — usage libre, sans logo NASA ni suggestion de soutien) — https://images.nasa.gov/details/PIA03606
+- James Webb Space Telescope Southern Ring Nebula (NIRCam and MIRI Images Side by Side) — NASA ESA CSA STScI — NASA Image and Video Library — Domaine public (média NASA — usage libre, sans logo NASA ni suggestion de soutien) — https://images.nasa.gov/details/southern_ring_nebula
+- Doomed Neutron Stars Create Blast of Light and Gravitational Waves — NASA's Goddard Space Flight Center/CI Lab — NASA Scientific Visualization Studio — Domaine public (NASA — image uniquement, bande-son non utilisée) — https://svs.gsfc.nasa.gov/12740/
+- Chaos at the Heart of Orion — NASA/JPL-Caltech/STScI — NASA Image and Video Library — Domaine public (média NASA — usage libre, sans logo NASA ni suggestion de soutien) — https://images.nasa.gov/details/PIA01322
+- Supernova explosion animation, with & without pulsar — NASA's Goddard Space Flight Center Conceptual Image Lab || SN_HQ_Full_H264_V001.00750_print.jpg (1024x576) [120.0 KB] || SN_HQ_Full_H264_V001.00750_searchweb.png (320x180) [77.3 KB] || SN_HQ_Full_H264 — NASA Scientific Visualization Studio — Domaine public (NASA — image uniquement, bande-son non utilisée) — https://svs.gsfc.nasa.gov/20413/
+- Hubble Goes High Def to Revisit the Iconic 'Pillars of Creation' — GSFC — NASA Image and Video Library — Domaine public (média NASA — usage libre, sans logo NASA ni suggestion de soutien) — https://images.nasa.gov/details/GSFC_20171208_Archive_e000842
+
+**Sources / vérification des faits :**
+
+
+**Texte prononcé (pour réenregistrement éventuel) :**
+
+> 
+
+---
+
 # Reflexion 01 — L'infime et l'infini
 
 **Niche :** Les secrets de l'Univers  

@@ -2,6 +2,210 @@
 
 Heures en **heure de Paris**, à tester sur 2 à 3 semaines puis à ajuster avec TikTok Analytics (onglet *Abonnés → activité*). Activer le label **« Contenu généré par IA »** à la publication (voix de synthèse). Une vidéo par jour et par compte au maximum au début.
 
+## ambiance_01 — Les secrets de l'Univers
+
+**Fichier :** `NICHE_1/ambiance_01.mp4`  
+**1. Titre :** Plus d'étoiles que de grains de sable ✨  
+**2. Description :** Il y a plus d'étoiles dans l'Univers que de grains de sable sur toutes les plages de la Terre. Ça te fait quoi ? 👇 (Images : NASA/ESA — Hubble et Webb. Musique originale.)  
+**3. Hashtags :** #espace #univers #etoiles #hubble #jameswebb  
+**4. Phrase d'accroche :** « (texte à l'écran) Il y a plus d'étoiles dans l'Univers que de grains de sable… »  
+**5. Couverture :** Piliers de la Création en noir et blanc. — image prête : `PUBLICATION/couvertures/ambiance_01_couverture.jpg`  
+**6. Créneau à tester :** 17 h 00  
+**7. Potentiel viral :** Format « phrase + ambiance » : court, regardé en boucle et partagé ; sert la croissance (moins d'une minute).  
+**Crédits à mentionner (fin de description) :** Images : GSFC ; NASA ESA CSA STScI ; NASA/JPL-Caltech ; NASA/JPL/Space Science Institute
+
+## ambiance_02 — Les secrets de l'Univers
+
+**Fichier :** `NICHE_1/ambiance_02.mp4`  
+**1. Titre :** Tu vois le Soleil avec 8 minutes de retard ☀️  
+**2. Description :** Tu ne vois jamais le Soleil tel qu'il est : sa lumière met 8 minutes à arriver jusqu'à toi. Tu le savais ? 👇 (Images : NASA — SDO, Parker Solar Probe. Musique originale.)  
+**3. Hashtags :** #soleil #espace #lumiere #nasa #science  
+**4. Phrase d'accroche :** « (texte à l'écran) Tu ne vois jamais le Soleil tel qu'il est… »  
+**5. Couverture :** Le Soleil vu par SDO. — image prête : `PUBLICATION/couvertures/ambiance_02_couverture.jpg`  
+**6. Créneau à tester :** 08 h 00  
+**7. Potentiel viral :** Format « phrase + ambiance » : court, regardé en boucle et partagé ; sert la croissance (moins d'une minute).  
+**Crédits à mentionner (fin de description) :** Images : NASA's Goddard Space Flight Center Scientific Visualization Studio ; NASA/SDO || Oct_26_X1pt8_Flare_multi_big.jpg (5120x3072) [3.4 MB] || Oct_26_X1pt8_Flare_multi_big_searchweb.png (320x180) [95.8 KB] || Oct_26_X1pt8_Flare_multi_big_thm.png (80x40) [7.6 KB] || ; NASA/SDO || SDO_X3pt3_10-23-2024_0340_131-304-171.jpg (4096x4096) [4.7 MB] || SDO_X3pt3_10-23-2024_0340_131-304-171_searchweb.png (320x180) [104.1 KB] || SDO_X3pt3_10-23-2024_0340_131-304-171_thm.png
+
+## ambiance_03 — Les secrets de l'Univers
+
+**Fichier :** `NICHE_1/ambiance_03.mp4`  
+**1. Titre :** Sur Vénus, un jour dure plus qu'un an 🪐  
+**2. Description :** Sur Vénus, une journée (243 jours terrestres) dure plus longtemps qu'une année (225 jours). Tu le savais ? 👇 (Images : NASA. Musique originale.)  
+**3. Hashtags :** #venus #espace #planete #nasa #science  
+**4. Phrase d'accroche :** « (texte à l'écran) Sur Vénus, une journée dure plus longtemps qu'une année. »  
+**5. Couverture :** Vénus vue par Parker Solar Probe. — image prête : `PUBLICATION/couvertures/ambiance_03_couverture.jpg`  
+**6. Créneau à tester :** 08 h 00  
+**7. Potentiel viral :** Format « phrase + ambiance » : court, regardé en boucle et partagé ; sert la croissance (moins d'une minute).  
+**Crédits à mentionner (fin de description) :** Images : NASA's Goddard Space Flight Center Scientific Visualization Studio
+
+## ambiance_04 — Les secrets de l'Univers
+
+**Fichier :** `NICHE_1/ambiance_04.mp4`  
+**1. Titre :** L'espace est à une heure de route 🚗  
+**2. Description :** L'espace commence à 100 km d'altitude : en voiture à 100 km/h vers le ciel, tu y serais en une heure. 👇 (Images : NASA — vues réelles depuis l'ISS et Artemis II. Musique originale.)  
+**3. Hashtags :** #espace #iss #terre #nasa #science  
+**4. Phrase d'accroche :** « (texte à l'écran) Si tu pouvais rouler en voiture vers le ciel… »  
+**5. Couverture :** La Terre depuis l'ISS. — image prête : `PUBLICATION/couvertures/ambiance_04_couverture.jpg`  
+**6. Créneau à tester :** 08 h 00  
+**7. Potentiel viral :** Format « phrase + ambiance » : court, regardé en boucle et partagé ; sert la croissance (moins d'une minute).  
+**Crédits à mentionner (fin de description) :** Images : JSC ; NASA ; NASA's Goddard Space Flight Center Scientific Visualization Studio
+
+## ambiance_05 — Les secrets de l'Univers
+
+**Fichier :** `NICHE_1/ambiance_05.mp4`  
+**1. Titre :** Les traces de pas sur la Lune sont toujours là 👣  
+**2. Description :** Sans vent ni pluie, les empreintes laissées par les astronautes d'Apollo sont toujours sur la Lune. 👇 (Images : NASA — LRO, Artemis II. Musique originale.)  
+**3. Hashtags :** #lune #apollo #espace #nasa #science  
+**4. Phrase d'accroche :** « (texte à l'écran) Les traces de pas des astronautes sont toujours sur la Lune. »  
+**5. Couverture :** Surface lunaire en noir et blanc. — image prête : `PUBLICATION/couvertures/ambiance_05_couverture.jpg`  
+**6. Créneau à tester :** 08 h 00  
+**7. Potentiel viral :** Format « phrase + ambiance » : court, regardé en boucle et partagé ; sert la croissance (moins d'une minute).  
+**Crédits à mentionner (fin de description) :** Images : NASA ; NASA's Goddard Space Flight Center Scientific Visualization Studio
+
+## ambiance_06 — Les secrets de l'Univers
+
+**Fichier :** `NICHE_1/ambiance_06.mp4`  
+**1. Titre :** Tu es fait d'étoiles ✨  
+**2. Description :** Le carbone, l'oxygène et le fer de ton corps ont été fabriqués dans des étoiles, il y a des milliards d'années. 👇 (Images : NASA/ESA — Hubble, Webb, Spitzer. Musique originale.)  
+**3. Hashtags :** #etoiles #univers #espace #jameswebb #science  
+**4. Phrase d'accroche :** « (texte à l'écran) Le carbone, l'oxygène et le fer de ton corps… »  
+**5. Couverture :** Nébuleuse du Crabe. — image prête : `PUBLICATION/couvertures/ambiance_06_couverture.jpg`  
+**6. Créneau à tester :** 08 h 00  
+**7. Potentiel viral :** Format « phrase + ambiance » : court, regardé en boucle et partagé ; sert la croissance (moins d'une minute).  
+**Crédits à mentionner (fin de description) :** Images : GSFC ; NASA ESA CSA STScI ; NASA/ESA/JPL/Arizona State Univ. ; NASA/JPL-Caltech ; NASA/JPL-Caltech/STScI
+
+## ambiance_07 — Les secrets de l'Univers
+
+**Fichier :** `NICHE_1/ambiance_07.mp4`  
+**1. Titre :** Neptune n'a fait qu'un seul tour du Soleil 🔵  
+**2. Description :** Découverte en 1846, Neptune a bouclé son premier tour du Soleil… en 2011. Une année y dure 165 ans. 👇 (Images : NASA — Voyager 2. Musique originale.)  
+**3. Hashtags :** #neptune #espace #planete #nasa #science  
+**4. Phrase d'accroche :** « (texte à l'écran) Depuis sa découverte en 1846, Neptune n'a fait qu'un seul tour du Soleil. »  
+**5. Couverture :** Neptune vue par Voyager 2. — image prête : `PUBLICATION/couvertures/ambiance_07_couverture.jpg`  
+**6. Créneau à tester :** 08 h 00  
+**7. Potentiel viral :** Format « phrase + ambiance » : court, regardé en boucle et partagé ; sert la croissance (moins d'une minute).  
+**Crédits à mentionner (fin de description) :** Images : NASA's Goddard Space Flight Center Scientific Visualization Studio ; NASA/JPL
+
+## ambiance_08 — Les secrets de l'Univers
+
+**Fichier :** `NICHE_1/ambiance_08.mp4`  
+**1. Titre :** Une cuillère pèserait un milliard de tonnes 🤯  
+**2. Description :** Une petite cuillère de matière d'étoile à neutrons pèserait environ un milliard de tonnes. 👇 (Images : NASA — visualisations scientifiques. Musique originale.)  
+**3. Hashtags :** #espace #etoile #univers #astronomie #science  
+**4. Phrase d'accroche :** « (texte à l'écran) Une petite cuillère d'étoile à neutrons… »  
+**5. Couverture :** Magnétar bleu. — image prête : `PUBLICATION/couvertures/ambiance_08_couverture.jpg`  
+**6. Créneau à tester :** 08 h 00  
+**7. Potentiel viral :** Format « phrase + ambiance » : court, regardé en boucle et partagé ; sert la croissance (moins d'une minute).  
+**Crédits à mentionner (fin de description) :** Images : NASA's Goddard Space Flight Center Conceptual Image Lab || 02_MAGNETAR_Wide_view_BlipOnly_Still.png (1920x1080) [2.3 MB] || 02_MAGNETAR_Wide_view_BlipOnly_Still_print.jpg (1024x576) [44.5 KB] || 02_MA ; NASA's Goddard Space Flight Center Conceptual Image Lab || SN_HQ_Full_H264_V001.00750_print.jpg (1024x576) [120.0 KB] || SN_HQ_Full_H264_V001.00750_searchweb.png (320x180) [77.3 KB] || SN_HQ_Full_H264 ; NASA's Goddard Space Flight Center Scientific Visualization Studio ; NASA's Goddard Space Flight Center/CI Lab
+
+## ambiance_09 — Les secrets de l'Univers
+
+**Fichier :** `NICHE_1/ambiance_09.mp4`  
+**1. Titre :** Plus d'arbres sur Terre que d'étoiles dans la galaxie 🌳  
+**2. Description :** Environ 3 000 milliards d'arbres sur Terre, contre 100 à 400 milliards d'étoiles dans la Voie lactée. 👇 (Images : NASA + animations 3D originales. Musique originale.)  
+**3. Hashtags :** #terre #voielactee #espace #nature #science  
+**4. Phrase d'accroche :** « (texte à l'écran) Il y a plus d'arbres sur Terre que d'étoiles dans la Voie lactée. »  
+**5. Couverture :** La Terre vue de l'espace. — image prête : `PUBLICATION/couvertures/ambiance_09_couverture.jpg`  
+**6. Créneau à tester :** 08 h 00  
+**7. Potentiel viral :** Format « phrase + ambiance » : court, regardé en boucle et partagé ; sert la croissance (moins d'une minute).  
+**Crédits à mentionner (fin de description) :** Images : JSC ; NASA's Goddard Space Flight Center Scientific Visualization Studio ; NASA/JPL-Caltech
+
+## edit_01 — Les secrets de l'Univers
+
+**Fichier :** `NICHE_1/edit_01.mp4`  
+**1. Titre :** L'Univers est terrifiant 🌌  
+**2. Description :** L'Univers en 20 secondes 🌌 Trous noirs, Jupiter, Saturne, supernova… et nous, quelque part au milieu. Quel plan t'a mis une claque ? 👇 (Images : NASA + animations 3D originales. Musique originale.)  
+**3. Hashtags :** #espace #univers #astronomie #nasa #edit  
+**4. Phrase d'accroche :** « (sans voix) L'UNIVERS EST TERRIFIANT »  
+**5. Couverture :** Trou noir et son disque ; texte : « L'UNIVERS EST TERRIFIANT ». — image prête : `PUBLICATION/couvertures/edit_01_couverture.jpg`  
+**6. Créneau à tester :** 21 h 30 (bonus)  
+**7. Potentiel viral :** Format « edit » court, coupé sur le rythme : fait pour la croissance (abonnés), pas pour Creator Rewards (moins d'une minute).  
+**Crédits à mentionner (fin de description) :** Images : NASA's Goddard Space Flight Center Conceptual Image Lab || SN_HQ_Full_H264_V001.00750_print.jpg (1024x576) [120.0 KB] || SN_HQ_Full_H264_V001.00750_searchweb.png (320x180) [77.3 KB] || SN_HQ_Full_H264 ; NASA's Goddard Space Flight Center Scientific Visualization Studio ; NASA's Goddard Space Flight Center/CI Lab ; NASA/SDO || SDO_X3pt3_10-23-2024_0340_131-304-171.jpg (4096x4096) [4.7 MB] || SDO_X3pt3_10-23-2024_0340_131-304-171_searchweb.png (320x180) [104.1 KB] || SDO_X3pt3_10-23-2024_0340_131-304-171_thm.png ; NASA’s Goddard Space Flight Center/Jeremy Schnittman || BH_Accretion_Disk_Sim_360_4k_Prores.00001_print.jpg (1024x1024) [33.2 KB] || BH_Accretion_Disk_Sim_360_4k_Prores.00001_searchweb.png (320x180) [
+
+## edit_02 — Les secrets de l'Univers
+
+**Fichier :** `NICHE_1/edit_02.mp4`  
+**1. Titre :** Les trous noirs en 20 secondes 🕳️  
+**2. Description :** Disques brûlants, étoiles déchiquetées, plongée au-delà de l'horizon… Lequel t'a le plus marqué ? 👇 (Visualisations scientifiques NASA Goddard. Musique originale.)  
+**3. Hashtags :** #trounoir #espace #univers #nasa #edit  
+**4. Phrase d'accroche :** « TU NE VEUX PAS TOMBER ICI »  
+**5. Couverture :** Disque d'un trou noir. — image prête : `PUBLICATION/couvertures/edit_02_couverture.jpg`  
+**6. Créneau à tester :** 21 h 30 (bonus)  
+**7. Potentiel viral :** Format « edit » court, coupé sur le rythme : sert la croissance (abonnés), pas Creator Rewards (moins d'une minute).  
+**Crédits à mentionner (fin de description) :** Images : NASA's Goddard Space Flight Center Scientific Visualization Studio ; NASA's Goddard Space Flight Center/CI Lab ; NASA’s Goddard Space Flight Center/Jeremy Schnittman || BH_Accretion_Disk_Sim_360_4k_Prores.00001_print.jpg (1024x1024) [33.2 KB] || BH_Accretion_Disk_Sim_360_4k_Prores.00001_searchweb.png (320x180) [
+
+## edit_03 — Les secrets de l'Univers
+
+**Fichier :** `NICHE_1/edit_03.mp4`  
+**1. Titre :** Le système solaire en 20 secondes 🪐  
+**2. Description :** Du Soleil à Neptune, ton quartier dans l'Univers. Ta planète préférée ? 👇 (Images : NASA + animations 3D originales. Musique originale.)  
+**3. Hashtags :** #systemesolaire #planetes #espace #nasa #edit  
+**4. Phrase d'accroche :** « TON QUARTIER DANS L'UNIVERS »  
+**5. Couverture :** Saturne et ses anneaux. — image prête : `PUBLICATION/couvertures/edit_03_couverture.jpg`  
+**6. Créneau à tester :** 21 h 30 (bonus)  
+**7. Potentiel viral :** Format « edit » court, coupé sur le rythme : sert la croissance (abonnés), pas Creator Rewards (moins d'une minute).  
+**Crédits à mentionner (fin de description) :** Images : NASA's Goddard Space Flight Center Scientific Visualization Studio ; NASA/JPL ; NASA/JPL-Caltech/Space Science Institute ; NASA/SDO || SDO_X3pt3_10-23-2024_0340_131-304-171.jpg (4096x4096) [4.7 MB] || SDO_X3pt3_10-23-2024_0340_131-304-171_searchweb.png (320x180) [104.1 KB] || SDO_X3pt3_10-23-2024_0340_131-304-171_thm.png
+
+## edit_04 — Les secrets de l'Univers
+
+**Fichier :** `NICHE_1/edit_04.mp4`  
+**1. Titre :** Le Soleil comme tu ne l'as jamais vu ☀️  
+**2. Description :** Éruptions, plasma, sonde Parker au ras du Soleil… Il brûle depuis 4,6 milliards d'années. 👇 (Images : NASA — SDO, Parker Solar Probe. Musique originale.)  
+**3. Hashtags :** #soleil #espace #nasa #univers #edit  
+**4. Phrase d'accroche :** « NE REGARDE PAS TROP LONGTEMPS »  
+**5. Couverture :** Le Soleil en ultraviolet. — image prête : `PUBLICATION/couvertures/edit_04_couverture.jpg`  
+**6. Créneau à tester :** 21 h 30 (bonus)  
+**7. Potentiel viral :** Format « edit » court, coupé sur le rythme : sert la croissance (abonnés), pas Creator Rewards (moins d'une minute).  
+**Crédits à mentionner (fin de description) :** Images : NASA's Goddard Space Flight Center Scientific Visualization Studio ; NASA/SDO || Oct_26_X1pt8_Flare_multi_big.jpg (5120x3072) [3.4 MB] || Oct_26_X1pt8_Flare_multi_big_searchweb.png (320x180) [95.8 KB] || Oct_26_X1pt8_Flare_multi_big_thm.png (80x40) [7.6 KB] || ; NASA/SDO || SDO_X3pt3_10-23-2024_0340_131-304-171.jpg (4096x4096) [4.7 MB] || SDO_X3pt3_10-23-2024_0340_131-304-171_searchweb.png (320x180) [104.1 KB] || SDO_X3pt3_10-23-2024_0340_131-304-171_thm.png
+
+## edit_05 — Les secrets de l'Univers
+
+**Fichier :** `NICHE_1/edit_05.mp4`  
+**1. Titre :** Les lunes les plus folles du système solaire 🌙  
+**2. Description :** Geysers, océans cachés, lacs de méthane… et plus de 400 lunes au total. Ta préférée ? 👇 (Images : NASA. Musique originale.)  
+**3. Hashtags :** #lune #espace #saturne #jupiter #edit  
+**4. Phrase d'accroche :** « CES LUNES SONT INCROYABLES »  
+**5. Couverture :** Geyser d'Encelade devant Saturne. — image prête : `PUBLICATION/couvertures/edit_05_couverture.jpg`  
+**6. Créneau à tester :** 21 h 30 (bonus)  
+**7. Potentiel viral :** Format « edit » court, coupé sur le rythme : sert la croissance (abonnés), pas Creator Rewards (moins d'une minute).  
+**Crédits à mentionner (fin de description) :** Images : Dan Gallagher ; JPL ; NASA's Goddard Space Flight Center Scientific Visualization Studio ; NASA/JPL-Caltech/Space Science Institute ; NASA/JPL/Space Science Institute
+
+## edit_06 — Les secrets de l'Univers
+
+**Fichier :** `NICHE_1/edit_06.mp4`  
+**1. Titre :** Ce n'est pas une peinture 🎨  
+**2. Description :** Nébuleuses, galaxies, restes d'étoiles : ce sont de vraies images des télescopes Hubble, Webb et Spitzer. Laquelle en fond d'écran ? 👇 (Images : NASA/ESA/CSA. Musique originale.)  
+**3. Hashtags :** #jameswebb #hubble #nebuleuse #espace #edit  
+**4. Phrase d'accroche :** « CE N'EST PAS UNE PEINTURE »  
+**5. Couverture :** Falaises cosmiques de la Carène (Webb). — image prête : `PUBLICATION/couvertures/edit_06_couverture.jpg`  
+**6. Créneau à tester :** 21 h 30 (bonus)  
+**7. Potentiel viral :** Format « edit » court, coupé sur le rythme : sert la croissance (abonnés), pas Creator Rewards (moins d'une minute).  
+**Crédits à mentionner (fin de description) :** Images : GSFC ; NASA ESA CSA STScI ; NASA/ESA/JPL/Arizona State Univ. ; NASA/JPL-Caltech ; NASA/JPL-Caltech/STScI
+
+## edit_07 — Les secrets de l'Univers
+
+**Fichier :** `NICHE_1/edit_07.mp4`  
+**1. Titre :** La Terre vue de l'espace 🌍  
+**2. Description :** Aurores, ouragans, villes la nuit… vus depuis la Station spatiale. C'est la seule qu'on a. 👇 (Images : NASA — ISS, Artemis II. Musique originale.)  
+**3. Hashtags :** #terre #iss #espace #nasa #edit  
+**4. Phrase d'accroche :** « TA MAISON VUE D'EN HAUT »  
+**5. Couverture :** Panneau solaire de l'ISS au-dessus de la Terre. — image prête : `PUBLICATION/couvertures/edit_07_couverture.jpg`  
+**6. Créneau à tester :** 21 h 30 (bonus)  
+**7. Potentiel viral :** Format « edit » court, coupé sur le rythme : sert la croissance (abonnés), pas Creator Rewards (moins d'une minute).  
+**Crédits à mentionner (fin de description) :** Images : JSC ; NASA ; NASA's Goddard Space Flight Center Scientific Visualization Studio
+
+## edit_08 — Les secrets de l'Univers
+
+**Fichier :** `NICHE_1/edit_08.mp4`  
+**1. Titre :** Voyage à travers l'Univers 🚀  
+**2. Description :** Accroche-toi : plongée dans les étoiles, nébuleuses, trous noirs et galaxies. 👇 (Images : NASA/ESA + animations 3D originales. Musique originale.)  
+**3. Hashtags :** #univers #espace #voyage #galaxie #edit  
+**4. Phrase d'accroche :** « ACCROCHE-TOI »  
+**5. Couverture :** Plongée dans les étoiles. — image prête : `PUBLICATION/couvertures/edit_08_couverture.jpg`  
+**6. Créneau à tester :** 21 h 30 (bonus)  
+**7. Potentiel viral :** Format « edit » court, coupé sur le rythme : sert la croissance (abonnés), pas Creator Rewards (moins d'une minute).  
+**Crédits à mentionner (fin de description) :** Images : GSFC ; NASA ESA CSA STScI ; NASA's Goddard Space Flight Center Conceptual Image Lab || SN_HQ_Full_H264_V001.00750_print.jpg (1024x576) [120.0 KB] || SN_HQ_Full_H264_V001.00750_searchweb.png (320x180) [77.3 KB] || SN_HQ_Full_H264 ; NASA's Goddard Space Flight Center/CI Lab ; NASA/ESA/JPL/Arizona State Univ. ; NASA/JPL-Caltech/STScI ; NASA’s Goddard Space Flight Center/Jeremy Schnittman || BH_Accretion_Disk_Sim_360_4k_Prores.00001_print.jpg (1024x1024) [33.2 KB] || BH_Accretion_Disk_Sim_360_4k_Prores.00001_searchweb.png (320x180) [
+
 ## reflexion_01 — Les secrets de l'Univers
 
 **Fichier :** `NICHE_1/reflexion_01.mp4`  
