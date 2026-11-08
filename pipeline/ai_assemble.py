@@ -15,6 +15,7 @@ import numpy as np
 import soundfile as sf
 from common import W, H, FPS, SR, FONTS, WORK, PROJECT, ASSETS, text_sprite, to_u8
 import fruits_series as FS
+import fruits_histoires as FH
 from captions import ass_time, bgr, chunk_words
 import audio
 
@@ -145,6 +146,7 @@ Style: End,Poppins Black,150,{bgr('FFFFFF')},{bgr('FFFFFF')},{bgr('000000')},{bg
 Style: Recap,Poppins SemiBold,74,{bgr('FFFFFF')},{bgr('FFFFFF')},{bgr('000000', 0x50)},{bgr('000000', 0xFF)},0,0,0,0,100,100,0,0,3,16,0,5,90,90,0,1
 Style: Chute,Poppins Black,56,{bgr('14320A')},{bgr('14320A')},{bgr('B6F36A')},{bgr('000000', 0xFF)},0,0,0,0,100,100,1,0,3,14,0,9,60,60,270,1
 Style: Word,Poppins ExtraBold,88,{bgr('FFFFFF')},{bgr('FFFFFF')},{bgr('000000')},{bgr('000000', 0x60)},0,0,0,0,100,100,1,0,1,7,2,5,60,60,0,1
+Style: Duo,Poppins ExtraBold,76,{bgr('FFFFFF')},{bgr('FFFFFF')},{bgr('000000')},{bgr('000000', 0x60)},0,0,0,0,100,100,1,0,1,7,2,5,60,60,0,1
 Style: EndSub,Poppins ExtraBold,86,{bgr('FFE135')},{bgr('FFE135')},{bgr('000000')},{bgr('000000', 0x70)},0,0,0,0,100,100,0,0,1,7,2,5,70,70,0,1
 
 [Events]
@@ -200,13 +202,72 @@ def voiced_clock(a, w0, w1):
     return np.cumsum(v) * hop, hop
 
 
+def word_times(sh, a, dur):
+    """Mots des répliques d'un plan et leurs instants de début/fin, posés sur la voix (voiced_clock)."""
+    w0, w1 = speech_window(a, dur)
+    words, line_of = [], []
+    for k, ln in enumerate(sh['lines']):
+        for w in ln[1].split():
+            w = re.sub(r'^[«"“(]+|[»"”)]+$', '', w)
+            if not re.search(r'[\wÀ-ÿ]', w):          # « ? », « ! », « ?! » isolés (espace français) : collés au mot d'avant
+                if words and line_of[-1] == k:
+                    words[-1] += w
+                continue
+            words.append(w); line_of.append(k)
+    word_times.line_of = line_of
+    if not words:
+        return [], np.array([])
+    weights = np.array([max(2.0, len(re.sub(r'[^\wÀ-ÿ]', '', w)) + 1.0) for w in words])
+    clock, hop = voiced_clock(a, w0, w1)
+    targets = np.concatenate([[0], np.cumsum(weights)]) / weights.sum() * clock[-1]
+    times = w0 + np.searchsorted(clock, targets) * hop
+    times[-1] = max(times[-1], w1)
+    return words, times
+
+
+PETITS_MOTS = set("c'est est pas que qui quoi les des une un le la mon ton son ma ta sa mes tes ses je tu il elle on nous vous ils "
+                  "et ou mais donc dans pour avec sur sous par de du au aux ce ça cette ces y en ne n'est j'ai t'es t'as moi toi lui "
+                  "oui non bon bah euh alors tout très plus qu'elle qu'il qu'on c'était j'suis".split())
+
+
+def key_score(w, j):
+    """Mot à mettre en jaune : le plus long, hors petits mots ; à égalité, le plus tardif (souvent la chute)."""
+    core = re.sub(r'[^\wÀ-ÿ\']', '', w.lower())
+    return (0 if core in PETITS_MOTS else len(core)) + 0.1 * j
+
+
+def duo_caps(sh, a, dur, t_base, lo=0.0, hi=None):
+    """Sous-titres en blocs de 2–3 mots (majuscules blanches), le mot le plus marquant en jaune."""
+    if not sh['lines']:
+        return ''
+    hi = dur if hi is None else hi
+    words, times = word_times(sh, a, dur)
+    if not words:
+        return ''
+    line_of = word_times.line_of
+    chunks = []
+    for k in sorted(set(line_of)):                  # pas de bloc à cheval sur deux répliques
+        chunks += chunk_words([dict(w=w, i=i) for i, w in enumerate(words) if line_of[i] == k], max_words=3, max_chars=20)
+    out = ''
+    for ch in chunks:
+        a0, b0 = times[ch[0]['i']], max(times[ch[-1]['i'] + 1], times[ch[0]['i']] + 0.25)
+        a1, b1 = max(a0, lo), min(b0, hi)
+        if b1 - a1 < 0.12:
+            continue
+        key = max(range(len(ch)), key=lambda j: key_score(ch[j]['w'], j))
+        txt = ' '.join((r'{\c%s&}' % bgr('FFD21F') + esc(x['w'].upper()) + r'{\c&HFFFFFF&}') if j == key else esc(x['w'].upper())
+                       for j, x in enumerate(ch))
+        out += ev('Duo', a1 + t_base - lo, b1 + t_base - lo, r'{\pos(540,1430)\fscx112\fscy112\t(0,80,\fscx100\fscy100)}' + txt)
+    return out
+
+
 def word_caps(sh, a, dur, t_base, lo=0.0, hi=None):
     """Sous-titres façon « un mot à la fois » (majuscules blanches, contour noir), calés sur la voix du plan."""
     if not sh['lines']:
         return ''
     hi = dur if hi is None else hi
     w0, w1 = speech_window(a, dur)
-    words = [w for _, txt in sh['lines'] for w in txt.split()]
+    words = [w for ln in sh['lines'] for w in ln[1].split()]
     words = [re.sub(r'^[«"“(]+|[»"”).,!?…:;]+$', '', w) for w in words]
     words = [w for w in words if re.search(r'[\wÀ-ÿ]', w)]
     if not words:
@@ -229,6 +290,8 @@ def word_caps(sh, a, dur, t_base, lo=0.0, hi=None):
 def shot_caps(sh, a, dur, t_base, lo=0.0, hi=None, mode='bloc'):
     if mode == 'mot':
         return word_caps(sh, a, dur, t_base, lo, hi)
+    if mode == 'duo':
+        return duo_caps(sh, a, dur, t_base, lo, hi)
     """Sous-titres de toutes les répliques d'un plan, calés sur la fenêtre où l'on parle."""
     if not sh['lines']:
         return ''
@@ -236,8 +299,8 @@ def shot_caps(sh, a, dur, t_base, lo=0.0, hi=None, mode='bloc'):
     w0, w1 = speech_window(a, dur)
     lens = np.array([len(x[1]) for x in sh['lines']], np.float64)
     cuts = w0 + np.concatenate([[0], np.cumsum(lens)]) / lens.sum() * (w1 - w0)
-    return ''.join(captions_for_line(a0, b0, who, txt, lo, hi, t_base - lo)
-                   for (who, txt), a0, b0 in zip(sh['lines'], cuts[:-1], cuts[1:]))
+    return ''.join(captions_for_line(a0, b0, ln[0], ln[1], lo, hi, t_base - lo)
+                   for ln, a0, b0 in zip(sh['lines'], cuts[:-1], cuts[1:]))
 
 
 def hook_box(spec, t0, t1, y):
@@ -307,8 +370,10 @@ def build(vid, use_placeholders=False, eliminated='coco', skip_missing=False):
     retirés, un plan de réaction manquant est fabriqué à partir du plan précédent, et les plans dialogués sont gardés
     presque entiers (les répliques générées durent souvent plus que la durée prévue)."""
     is_trailer = vid in ('bande_annonce', 'teaser')
-    is_ep = vid.startswith('episode') or is_trailer
-    spec = {'bande_annonce': FS.TRAILER, 'teaser': FS.TEASER}.get(vid) or next(v for v in (FS.EPISODES if is_ep else FS.ASMR) if v['id'] == vid)
+    is_story = vid.startswith('histoire')
+    is_ep = vid.startswith('episode') or is_trailer or is_story
+    pool = FH.HISTOIRES if is_story else FS.EPISODES if is_ep else FS.ASMR
+    spec = {'bande_annonce': FS.TRAILER, 'teaser': FS.TEASER}.get(vid) or next(v for v in pool if v['id'] == vid)
     if is_ep:
         shots = FS.episode_shots(spec, eliminated)
         items = [(s['dur'], s) for s in shots]
@@ -414,16 +479,19 @@ def build(vid, use_placeholders=False, eliminated='coco', skip_missing=False):
             ass += hook_box(spec, 0.1, cold['dur'], 560)
             ass += shot_caps(src['shot'], shot_audio.get(src['i']), src['dur'], 0.0, cold['off'], cold['off'] + cold['dur'], mode=caps_mode)
             ass += flash(cold['dur'])
-        ass += ev('Show', ts, ts + 3.2, r'{\fad(0,250)}VILLA VITAMINE')
-        ass += ev('Ep', ts, ts + 3.2, r'{\fad(0,250)}' + esc(f"ÉPISODE {spec['num']}/10 · {spec['titre'].upper()}" if spec['num'] else 'BIENTÔT SUR CE COMPTE'))
+        if is_story:
+            ass += ev('Ep', ts, ts + 3.0, r'{\fad(0,250)}' + esc(f"LES HISTOIRES DE LA VILLA · {spec['titre'].upper()}"))
+        else:
+            ass += ev('Show', ts, ts + 3.2, r'{\fad(0,250)}VILLA VITAMINE')
+            ass += ev('Ep', ts, ts + 3.2, r'{\fad(0,250)}' + esc(f"ÉPISODE {spec['num']}/10 · {spec['titre'].upper()}" if spec['num'] else 'BIENTÔT SUR CE COMPTE'))
         first = segs[1] if cold else segs[0]
         if spec.get('recap'):
             ass += ev('Recap', first['t0'] + 0.2, first['t0'] + first['dur'] - 0.1, r'{\fad(150,150)\pos(540,1250)}' + esc(spec['recap']))
         elif not cold and not first['shot']['lines']:
             ass += ev('Hook', 0.15, first['dur'] - 0.1, POP + r'{\pos(540,1180)}' + esc(spec['accroche']))
-        chute = FS.falls_before(spec['id']) if spec['num'] else 0
+        chute = FS.falls_before(spec['id']) if spec['num'] and not is_story else 0
         for x in segs:
-            if x['shot'].get('gag') == 'chute':
+            if x['shot'].get('gag') == 'chute' and not is_story:
                 chute += 1
                 ass += ev('Chute', x['t0'] + x['dur'] * 0.45, x['t0'] + x['dur'] - 0.05, POP + f'CHUTES DE PÉPIN : {chute}')
         seen = set()
@@ -431,7 +499,7 @@ def build(vid, use_placeholders=False, eliminated='coco', skip_missing=False):
             sh = s['shot']
             if sh['kind'] == 'conf':
                 ass += ev('Conf', s['t0'] + 0.1, s['t0'] + s['dur'] - 0.1, r'{\fad(120,120)}CONFESSION')
-            for c in sh['who']:
+            for c in ([] if is_story else sh['who']):
                 if c in seen or (sh['kind'] in ('react', 'etab') and not sh['lines']):
                     continue
                 seen.add(c)
@@ -442,7 +510,7 @@ def build(vid, use_placeholders=False, eliminated='coco', skip_missing=False):
                 ass += ev('Role', a + 0.1, b, r'{\fad(120,150)\pos(70,%d)}' % (y + 120) + esc(f"{ch['role']} · {ch['fruit']}"))
             ass += shot_caps(sh, shot_audio.get(s['i']), s['dur'], s['t0'], mode=caps_mode)
         te = t
-        ass += ev('End', te + 0.1, total, POP + r'{\pos(540,820)}' + ('VILLA VITAMINE' if not spec['num'] else 'À SUIVRE…' if spec['num'] < 10 else 'FIN DE LA SAISON 1'))
+        ass += ev('End', te + 0.1, total, POP + r'{\pos(540,820)}' + ('FIN' if is_story else 'VILLA VITAMINE' if not spec['num'] else 'À SUIVRE…' if spec['num'] < 10 else 'FIN DE LA SAISON 1'))
         ass += ev('EndSub', te + 0.25, total, r'{\fad(150,0)\pos(540,1010)}' + esc(spec.get('fin') or spec['suite']))
         cta = spec.get('vote') or spec.get('question') or 'Abonne-toi pour la suite'
         ass += ev('EndSub', te + 0.45, total, r'{\fad(150,0)\pos(540,1160)\c&HFFFFFF&}' + esc(cta))
@@ -480,7 +548,7 @@ def build(vid, use_placeholders=False, eliminated='coco', skip_missing=False):
     wav = os.path.join(wd, f'{vid}_mix.wav')
     sf.write(wav, mix.astype(np.float32), SR)
 
-    out_dir = OUT_DIRS['episode' if is_ep else 'asmr']
+    out_dir = os.path.join(OUT_DIRS['episode'], 'histoires') if is_story else OUT_DIRS['episode' if is_ep else 'asmr']
     if use_placeholders and missing:
         out_dir = os.path.join(wd, 'animatique')
     os.makedirs(out_dir, exist_ok=True)
