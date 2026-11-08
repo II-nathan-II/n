@@ -74,7 +74,14 @@ def placeholder(path_mp4, path_wav, dur, title, lines, color):
     sf.write(path_wav, np.zeros((int(dur * SR), 2), np.float32), SR)
 
 
-def normalize(src, path_mp4, path_wav, dur, crop=None):
+def src_aspect(src):
+    r = subprocess.run(['ffprobe', '-v', 'error', '-select_streams', 'v:0', '-show_entries', 'stream=width,height', '-of', 'csv=p=0', src],
+                       capture_output=True, text=True)
+    w, h = (int(x) for x in r.stdout.strip().split(',')[:2])
+    return w / h
+
+
+def normalize(src, path_mp4, path_wav, dur, crop=None, fit=None):
     """Plan généré → 1080×1920, 30 i/s, durée fixée ; son à part en WAV 48 kHz stéréo.
     crop : recadrage 9:16 d'une source horizontale, avec panoramique de x0 à x1 entre t0 et t1 (secondes),
     en excluant le bas de l'image (filigrane) par la hauteur h."""
@@ -87,8 +94,18 @@ def normalize(src, path_mp4, path_wav, dur, crop=None):
     else:
         vf = (f'scale={W}:{H}:force_original_aspect_ratio=increase:flags=lanczos,crop={W}:{H},'
               f'unsharp=5:5:0.45:5:5:0,fps={FPS},format=yuv420p')
-    run(['ffmpeg', '-v', 'error', '-y', '-i', src, '-t', f'{dur:.3f}', '-an', '-vf', vf,
-         '-c:v', 'libx264', '-preset', 'veryfast', '-crf', '14', path_mp4])
+    if fit is None and not crop:
+        fit = src_aspect(src) > (W / H) * 1.15          # source nettement moins haute que 9:16 (carrée, 2:3…) : on l'ajuste
+    if fit and not crop:
+        # image entière au centre (largeur 1080) sur un fond flou de la même vidéo : aucun personnage coupé
+        vf = None
+        fc = (f'[0:v]split=2[a][b];[a]scale={W}:{H}:force_original_aspect_ratio=increase,crop={W}:{H},boxblur=40:4,eq=brightness=-0.08[bg];'
+              f'[b]scale={W}:-2:flags=lanczos,unsharp=5:5:0.5:5:5:0[fg];[bg][fg]overlay=(W-w)/2:(H-h)/2,fps={FPS},format=yuv420p[v]')
+        run(['ffmpeg', '-v', 'error', '-y', '-i', src, '-t', f'{dur:.3f}', '-an', '-filter_complex', fc, '-map', '[v]',
+             '-c:v', 'libx264', '-preset', 'veryfast', '-crf', '14', path_mp4])
+    else:
+      run(['ffmpeg', '-v', 'error', '-y', '-i', src, '-t', f'{dur:.3f}', '-an', '-vf', vf,
+           '-c:v', 'libx264', '-preset', 'veryfast', '-crf', '14', path_mp4])
     tmp = path_wav + '.tmp.wav'
     r = subprocess.run(['ffmpeg', '-v', 'error', '-y', '-i', src, '-t', f'{dur:.3f}', '-vn', '-ac', '2', '-ar', str(SR), tmp])
     n = int(round(dur * SR))
