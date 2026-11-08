@@ -136,8 +136,8 @@ Style: Cap,Poppins ExtraBold,150,{bgr('FFFFFF')},{bgr('FFFFFF')},{bgr('000000')}
 Style: Show,Poppins Black,112,{bgr('FFE135')},{bgr('FFE135')},{bgr('FF3D8B')},{bgr('000000', 0x60)},0,0,0,0,100,100,2,0,1,8,3,8,40,40,140,1
 Style: Ep,Poppins ExtraBold,64,{bgr('FFFFFF')},{bgr('FFFFFF')},{bgr('000000')},{bgr('000000', 0x60)},0,0,0,0,100,100,0,0,1,6,2,8,40,40,290,1
 Style: Hook,Poppins ExtraBold,126,{bgr('FFFFFF')},{bgr('FFFFFF')},{bgr('000000')},{bgr('000000', 0x70)},0,0,0,0,100,100,0,0,1,9,3,5,70,70,0,1
-Style: Name,Poppins Black,104,{bgr('111111')},{bgr('111111')},{bgr('FFFFFF')},{bgr('000000', 0xFF)},0,0,0,0,100,100,0,0,3,16,0,7,70,60,0,1
-Style: Role,Poppins SemiBold,64,{bgr('FFFFFF')},{bgr('FFFFFF')},{bgr('111111')},{bgr('000000', 0xFF)},0,0,0,0,100,100,0,0,3,12,0,7,70,60,0,1
+Style: Name,Poppins Black,92,{bgr('FFD21F')},{bgr('FFD21F')},{bgr('000000')},{bgr('000000', 0x70)},0,-1,0,0,100,100,1,0,1,7,3,7,70,60,0,1
+Style: Role,Poppins ExtraBold,52,{bgr('FFFFFF')},{bgr('FFFFFF')},{bgr('000000')},{bgr('000000', 0x70)},0,-1,0,0,100,100,0,0,1,5,2,7,70,60,0,1
 Style: Conf,Poppins Black,60,{bgr('FFFFFF')},{bgr('FFFFFF')},{bgr('FF3D8B')},{bgr('000000', 0xFF)},0,0,0,0,100,100,3,0,3,12,0,9,60,60,170,1
 Style: HookBox,Poppins Black,100,{bgr('111111')},{bgr('111111')},{bgr('FFE135')},{bgr('000000', 0x60)},0,0,0,0,100,100,0,0,3,22,4,5,70,70,0,1
 Style: HookSub,Poppins ExtraBold,60,{bgr('FFFFFF')},{bgr('FFFFFF')},{bgr('000000')},{bgr('000000', 0x70)},0,0,0,0,100,100,0,0,1,6,2,5,70,70,0,1
@@ -227,7 +227,7 @@ def word_times(sh, a, dur):
 
 PETITS_MOTS = set("c'est est pas que qui quoi les des une un le la mon ton son ma ta sa mes tes ses je tu il elle on nous vous ils "
                   "et ou mais donc dans pour avec sur sous par de du au aux ce ça cette ces y en ne n'est j'ai t'es t'as moi toi lui "
-                  "oui non bon bah euh alors tout très plus qu'elle qu'il qu'on c'était j'suis".split())
+                  "oui non bon bah euh alors tout très plus comme qu'elle qu'il qu'on c'était j'suis".split())
 
 
 def key_score(w, j):
@@ -247,16 +247,20 @@ def duo_caps(sh, a, dur, t_base, lo=0.0, hi=None):
     line_of = word_times.line_of
     chunks = []
     for k in sorted(set(line_of)):                  # pas de bloc à cheval sur deux répliques
-        chunks += chunk_words([dict(w=w, i=i) for i, w in enumerate(words) if line_of[i] == k], max_words=3, max_chars=20)
+        chunks += chunk_words([dict(w=w, i=i) for i, w in enumerate(words) if line_of[i] == k], max_words=4, max_chars=24)
+    colors = ['FFD21F', '3DDC4B', 'FF3B3B']          # mot fort : jaune, vert, rouge à tour de rôle
     out = ''
-    for ch in chunks:
+    for n_ch, ch in enumerate(chunks):
         a0, b0 = times[ch[0]['i']], max(times[ch[-1]['i'] + 1], times[ch[0]['i']] + 0.25)
         a1, b1 = max(a0, lo), min(b0, hi)
         if b1 - a1 < 0.12:
             continue
         key = max(range(len(ch)), key=lambda j: key_score(ch[j]['w'], j))
-        txt = ' '.join((r'{\c%s&}' % bgr('FFD21F') + esc(x['w'].upper()) + r'{\c&HFFFFFF&}') if j == key else esc(x['w'].upper())
-                       for j, x in enumerate(ch))
+        col = colors[n_ch % len(colors)]
+        parts = [(r'{\c%s&}' % bgr(col) + esc(x['w'].upper()) + r'{\c&HFFFFFF&}') if j == key else esc(x['w'].upper())
+                 for j, x in enumerate(ch)]
+        cut = (len(parts) + 1) // 2 if len(parts) >= 3 else len(parts)      # 3–4 mots : sur deux lignes
+        txt = ' '.join(parts[:cut]) + (r'\N' + ' '.join(parts[cut:]) if cut < len(parts) else '')
         out += ev('Duo', a1 + t_base - lo, b1 + t_base - lo, r'{\pos(540,1430)\fscx112\fscy112\t(0,80,\fscx100\fscy100)}' + txt)
     return out
 
@@ -506,8 +510,8 @@ def build(vid, use_placeholders=False, eliminated='coco', skip_missing=False):
                 ch = FS.CHARACTERS[c]
                 a, b = s['t0'] + 0.15, s['t0'] + min(s['dur'], 3.2)
                 y = 420 + 190 * (len([x for x in sh['who'] if x in seen]) - 1)
-                ass += ev('Name', a, b, r'{\fad(120,150)\pos(70,%d)\3c%s&}' % (y, bgr(ch['color'])) + esc(ch['nom'].upper()))
-                ass += ev('Role', a + 0.1, b, r'{\fad(120,150)\pos(70,%d)}' % (y + 120) + esc(f"{ch['role']} · {ch['fruit']}"))
+                ass += ev('Name', a, b, r'{\fad(120,150)\pos(70,%d)}' % y + esc(ch['nom'].upper()))
+                ass += ev('Role', a + 0.1, b, r'{\fad(120,150)\pos(74,%d)}' % (y + 104) + esc(f"{ch['role']} · {ch['fruit']}"))
             ass += shot_caps(sh, shot_audio.get(s['i']), s['dur'], s['t0'], mode=caps_mode)
         te = t
         ass += ev('End', te + 0.1, total, POP + r'{\pos(540,820)}' + ('FIN' if is_story else 'VILLA VITAMINE' if not spec['num'] else 'À SUIVRE…' if spec['num'] < 10 else 'FIN DE LA SAISON 1'))

@@ -17,15 +17,7 @@ STYLE_H = ("Vertical 9:16 shot, hyper-detailed stylized 3D animation like a feat
            "rich detailed set, shallow depth of field.")
 
 # Nouveau style des personnages de la série (tenues de distribution_nouveau_style.jpg)
-LOOK_H = dict(
-    kiki="Kiki, a humanoid kiwi man: kiwi head with a bright green face and fuzzy brown skin, yellow sunglasses on top of his head, gold chain, colorful tropical shirt over a white tank top, beige shorts",
-    berenice="Bérénice, a humanoid banana woman: tall yellow banana head with a brown stem, white cat-eye sunglasses, pink lips, gold hoop earrings, yellow crop top and yellow high-waisted trousers",
-    cyril="Cyril, a humanoid lemon man: bumpy yellow lemon head with a small leaf, thick dark frowning eyebrows, grey t-shirt and blue jeans",
-    pepin="Pépin, a humanoid green apple young man: shiny green apple head with a stem and two leaves, round black glasses, blushing cheeks, green polo shirt and beige shorts, slightly shorter than the others",
-    fanny="Fanny, a humanoid strawberry woman: red strawberry head with yellow seeds and a green leafy hat, big blue eyes, pink sundress, always holding a pink phone",
-    margaux="Margaux, a humanoid mango woman: orange-to-red gradient mango head with a wavy green leaf tuft and a pink hibiscus flower, flowing orange summer dress",
-    ananas="Monsieur Ananas, a humanoid pineapple man: golden pineapple head with a tall leafy crown, red bow tie, white tuxedo jacket and black trousers",
-)
+LOOK_H = FS.LOOK_NEW
 
 # Personnages qui n'apparaissent que dans les histoires
 EXTRA = dict(

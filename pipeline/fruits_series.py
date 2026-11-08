@@ -111,7 +111,7 @@ EPISODES = [
          recap="Précédemment : une inconnue est arrivée en secret… et Monsieur Ananas la connaît.",
          accroche="Quand la nouvelle arrive, Kiki perd ses lunettes (et la tête)",
          accroche_ecran=["LA NOUVELLE ARRIVE…", "ET KIKI PERD LA TÊTE"],
-         couverture='NICHE_3_VILLA_VITAMINE/couvertures/episode_02.jpg', sous_titres='mot',
+         couverture='NICHE_3_VILLA_VITAMINE/couvertures/episode_02.jpg', sous_titres='duo',
          cold=(4, 0.5, 2.5),
          question="Team Bérénice ou Team Margaux ?",
          suite="Épisode 3 : clash à la piscine",
@@ -480,7 +480,46 @@ ASMR_SHOT = 5   # secondes par plan → 18 plans = 90 s
 
 # ───────────────────────────── PROMPTS ─────────────────────────────
 
-def shot_prompt(shot):
+# Nouveau style (à partir de l'épisode 2) : personnages-fruits à corps humain, tenues d'été, lumière de coucher de soleil
+STYLE_NEW = ("Vertical 9:16 shot, hyper-detailed stylized 3D animation like a feature film, vibrant saturated colors, "
+             "warm golden-hour tropical light, humanoid fruit characters with human-proportioned bodies, expressive fruit heads "
+             "and stylish summer outfits, reality-TV parody, shallow depth of field.")
+LOOK_NEW = dict(
+    kiki="Kiki, a humanoid kiwi man: kiwi head with a bright green face and fuzzy brown skin, yellow sunglasses on top of his head, gold chain, colorful tropical shirt over a white tank top, beige shorts",
+    berenice="Bérénice, a humanoid banana woman: tall yellow banana head with a brown stem, white cat-eye sunglasses, pink lips, gold hoop earrings, yellow crop top and yellow high-waisted trousers",
+    cyril="Cyril, a humanoid lemon man: bumpy yellow lemon head with a small leaf, thick dark frowning eyebrows, grey t-shirt and blue jeans",
+    pepin="Pépin, a humanoid green apple young man: shiny green apple head with a stem and two leaves, round black glasses, blushing cheeks, green polo shirt and beige shorts, slightly shorter than the others",
+    fanny="Fanny, a humanoid strawberry woman: red strawberry head with yellow seeds and a green leafy hat, big blue eyes, pink sundress, always holding a pink phone",
+    margaux="Margaux, a humanoid mango woman: orange-to-red gradient mango head with a wavy green leaf tuft and a pink hibiscus flower, flowing orange summer dress",
+    ananas="Monsieur Ananas, a humanoid pineapple man: golden pineapple head with a tall leafy crown, red bow tie, white tuxedo jacket and black trousers, holding presenter cards",
+    coco="Coco, a humanoid coconut man: hairy brown coconut head, dark sunglasses, white tank top on a bodybuilder body, gold chain",
+)
+
+
+def shot_prompt(shot, new_style=None):
+    """new_style=None : nouveau style pour tous les épisodes sauf le 1 (déjà généré dans l'ancien style)."""
+    if new_style is None:
+        new_style = shot.get('_ep', 2) != 1
+    if new_style:
+        parts = [STYLE_NEW, f"Setting: {SETTINGS[shot['where']]}."]
+        for c in shot['who']:
+            parts.append((LOOK_NEW.get(c) or CHARACTERS[c]['look']) + '.')
+        parts.append(f"Action: {shot['action']}.")
+        if shot['kind'] == 'conf':
+            parts.append("Reality-TV confessional framing: the character sits in a pastel pink armchair and faces the camera, medium close-up.")
+        for line in shot['lines']:
+            c = CHARACTERS[line[0]]
+            if shot.get('off') or (len(line) > 2 and line[2] == 'off'):
+                parts.append(f'{c["nom"]} is not visible; the voice is heard off-screen ({c["voix"]}) saying in French: "{line[1]}"')
+            else:
+                parts.append(f'{c["nom"]} says in French ({c["voix"]}): "{line[1]}"')
+        parts.append("Lip-synced French dialogue, light villa ambience, no background music." if shot['lines']
+                     else "No dialogue. Ambient sound only, no music.")
+        return ' '.join(parts)
+    return _shot_prompt_v1(shot)
+
+
+def _shot_prompt_v1(shot):
     """Prompt Wan 3.0 d'un plan de Villa Vitamine (image + son natif, dialogue en français)."""
     parts = [STYLE, f"Setting: {SETTINGS[shot['where']]}."]
     for c in shot['who']:
@@ -527,7 +566,7 @@ def falls_before(ep_id):
 
 
 def episode_shots(ep, eliminated='coco'):
-    shots = list(ep['shots'])
+    shots = [dict(sh, _ep=ep.get('num', 2)) for sh in ep['shots']]
     if ep['id'] == 'episode_10' and eliminated == 'cyril':
         shots[3:5] = ep['variante_cyril']
     return shots
