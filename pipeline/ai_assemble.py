@@ -144,6 +144,7 @@ Style: Count,Poppins ExtraBold,150,{bgr('FFE135')},{bgr('FFE135')},{bgr('000000'
 Style: End,Poppins Black,150,{bgr('FFFFFF')},{bgr('FFFFFF')},{bgr('000000')},{bgr('000000', 0x70)},0,0,0,0,100,100,0,0,1,9,3,5,70,70,0,1
 Style: Recap,Poppins SemiBold,74,{bgr('FFFFFF')},{bgr('FFFFFF')},{bgr('000000', 0x50)},{bgr('000000', 0xFF)},0,0,0,0,100,100,0,0,3,16,0,5,90,90,0,1
 Style: Chute,Poppins Black,56,{bgr('14320A')},{bgr('14320A')},{bgr('B6F36A')},{bgr('000000', 0xFF)},0,0,0,0,100,100,1,0,3,14,0,9,60,60,270,1
+Style: Word,Poppins ExtraBold,88,{bgr('FFFFFF')},{bgr('FFFFFF')},{bgr('000000')},{bgr('000000', 0x60)},0,0,0,0,100,100,1,0,1,7,2,5,60,60,0,1
 Style: EndSub,Poppins ExtraBold,86,{bgr('FFE135')},{bgr('FFE135')},{bgr('000000')},{bgr('000000', 0x70)},0,0,0,0,100,100,0,0,1,7,2,5,70,70,0,1
 
 [Events]
@@ -180,7 +181,54 @@ def captions_for_line(t0, t1, who, text, lo=-1e9, hi=1e9, shift=0.0):
     return out
 
 
-def shot_caps(sh, a, dur, t_base, lo=0.0, hi=None):
+def voiced_clock(a, w0, w1):
+    """Temps « parlé » cumulé entre w0 et w1 (trames de 20 ms au-dessus du seuil de voix) : sert à poser les mots
+    sur les moments où le personnage parle vraiment, pas sur les silences."""
+    hop = 0.02
+    n = max(1, int((w1 - w0) / hop))
+    if a is None or np.abs(a).max() < 1e-4:
+        return np.arange(1, n + 1) * hop, hop
+    from scipy.signal import butter, sosfilt
+    mono = a.mean(1)
+    b = sosfilt(butter(4, [300, 3400], btype='band', fs=SR, output='sos'), mono)
+    seg = b[int(w0 * SR):int(w0 * SR) + n * int(hop * SR)]
+    seg = np.pad(seg, (0, max(0, n * int(hop * SR) - len(seg))))
+    e = np.sqrt((seg.reshape(n, -1) ** 2).mean(1))
+    thr = max(np.percentile(e, 20) * 2.0, np.percentile(e, 90) * 0.18)
+    v = (e > thr).astype(np.float64)
+    v = np.maximum(v, 0.08)                      # une petite part du temps aux silences : rien ne reste figé
+    return np.cumsum(v) * hop, hop
+
+
+def word_caps(sh, a, dur, t_base, lo=0.0, hi=None):
+    """Sous-titres façon « un mot à la fois » (majuscules blanches, contour noir), calés sur la voix du plan."""
+    if not sh['lines']:
+        return ''
+    hi = dur if hi is None else hi
+    w0, w1 = speech_window(a, dur)
+    words = [w for _, txt in sh['lines'] for w in txt.split()]
+    words = [re.sub(r'^[«"“(]+|[»"”).,!?…:;]+$', '', w) for w in words]
+    words = [w for w in words if re.search(r'[\wÀ-ÿ]', w)]
+    if not words:
+        return ''
+    weights = np.array([max(2.0, len(re.sub(r'[^\wÀ-ÿ]', '', w)) + 1.0) for w in words])
+    clock, hop = voiced_clock(a, w0, w1)
+    targets = np.concatenate([[0], np.cumsum(weights)]) / weights.sum() * clock[-1]
+    times = w0 + np.searchsorted(clock, targets) * hop
+    times[-1] = max(times[-1], w1)
+    out = ''
+    for w, a0, b0 in zip(words, times[:-1], times[1:]):
+        b0 = max(b0, a0 + 0.14)
+        a1, b1 = max(a0, lo), min(b0, hi)
+        if b1 - a1 < 0.08:
+            continue
+        out += ev('Word', a1 + t_base - lo, b1 + t_base - lo, r'{\pos(540,1420)\fscx115\fscy115\t(0,70,\fscx100\fscy100)}' + esc(w.upper()))
+    return out
+
+
+def shot_caps(sh, a, dur, t_base, lo=0.0, hi=None, mode='bloc'):
+    if mode == 'mot':
+        return word_caps(sh, a, dur, t_base, lo, hi)
     """Sous-titres de toutes les répliques d'un plan, calés sur la fenêtre où l'on parle."""
     if not sh['lines']:
         return ''
@@ -233,6 +281,25 @@ def react_from(prev_mp4, path_mp4, path_wav, dur):
                 f"eq=contrast=1.08:saturation=1.1,vignette=PI/4,format=yuv420p",
          '-frames:v', str(n), '-c:v', 'libx264', '-preset', 'veryfast', '-crf', '14', path_mp4])
     sf.write(path_wav, np.zeros((int(round(dur * SR)), 2), np.float32), SR)
+
+
+COVER_DUR = 0.4
+
+
+def prepend_cover(img, out, wd):
+    """Met la couverture en toute première image (0,4 s, léger zoom) : c'est la couverture par défaut de TikTok."""
+    n = int(round(COVER_DUR * FPS))
+    cmp4 = os.path.join(wd, 'cover.mp4')
+    run(['ffmpeg', '-v', 'error', '-y', '-loop', '1', '-i', img, '-f', 'lavfi', '-i', f'anullsrc=r=48000:cl=stereo',
+         '-vf', f"scale={W * 2}:{H * 2},zoompan=z='1+0.02*on/{n}':x='iw/2-(iw/zoom/2)':y='ih/2-(ih/zoom/2)':d={n}:s={W}x{H}:fps={FPS},format=yuv420p",
+         '-frames:v', str(n), '-t', f'{COVER_DUR:.3f}', '-c:v', 'libx264', '-preset', 'veryfast', '-crf', '14', '-c:a', 'aac', '-b:a', '192k', cmp4])
+    tmp = out + '.cov.mp4'
+    run(['ffmpeg', '-v', 'error', '-y', '-i', cmp4, '-i', out, '-filter_complex', '[0:v][0:a][1:v][1:a]concat=n=2:v=1:a=1[v][a]',
+         '-map', '[v]', '-map', '[a]', '-c:v', 'libx264', '-preset', 'medium', '-crf', '18', '-maxrate', '8M', '-bufsize', '16M',
+         '-profile:v', 'high', '-level', '4.2', '-pix_fmt', 'yuv420p', '-g', '60',
+         '-color_primaries', 'bt709', '-color_trc', 'bt709', '-colorspace', 'bt709',
+         '-c:a', 'aac', '-b:a', '192k', '-ar', '48000', '-ac', '2', '-movflags', '+faststart', tmp])
+    os.replace(tmp, out)
 
 
 def build(vid, use_placeholders=False, eliminated='coco', skip_missing=False):
@@ -338,13 +405,14 @@ def build(vid, use_placeholders=False, eliminated='coco', skip_missing=False):
 
     # habillage
     ass = ass_header()
+    caps_mode = spec.get('sous_titres', 'bloc')
     if is_ep:
         ts = cold['dur'] if cold else 0.0
         if cold:
             src = cold['src']
             ass += ev('Ep', 0, cold['dur'], r'{\fad(100,0)}CE SOIR À LA VILLA…')
             ass += hook_box(spec, 0.1, cold['dur'], 560)
-            ass += shot_caps(src['shot'], shot_audio.get(src['i']), src['dur'], 0.0, cold['off'], cold['off'] + cold['dur'])
+            ass += shot_caps(src['shot'], shot_audio.get(src['i']), src['dur'], 0.0, cold['off'], cold['off'] + cold['dur'], mode=caps_mode)
             ass += flash(cold['dur'])
         ass += ev('Show', ts, ts + 3.2, r'{\fad(0,250)}VILLA VITAMINE')
         ass += ev('Ep', ts, ts + 3.2, r'{\fad(0,250)}' + esc(f"ÉPISODE {spec['num']}/10 · {spec['titre'].upper()}" if spec['num'] else 'BIENTÔT SUR CE COMPTE'))
@@ -372,7 +440,7 @@ def build(vid, use_placeholders=False, eliminated='coco', skip_missing=False):
                 y = 420 + 190 * (len([x for x in sh['who'] if x in seen]) - 1)
                 ass += ev('Name', a, b, r'{\fad(120,150)\pos(70,%d)\3c%s&}' % (y, bgr(ch['color'])) + esc(ch['nom'].upper()))
                 ass += ev('Role', a + 0.1, b, r'{\fad(120,150)\pos(70,%d)}' % (y + 120) + esc(f"{ch['role']} · {ch['fruit']}"))
-            ass += shot_caps(sh, shot_audio.get(s['i']), s['dur'], s['t0'])
+            ass += shot_caps(sh, shot_audio.get(s['i']), s['dur'], s['t0'], mode=caps_mode)
         te = t
         ass += ev('End', te + 0.1, total, POP + r'{\pos(540,820)}' + ('VILLA VITAMINE' if not spec['num'] else 'À SUIVRE…' if spec['num'] < 10 else 'FIN DE LA SAISON 1'))
         ass += ev('EndSub', te + 0.25, total, r'{\fad(150,0)\pos(540,1010)}' + esc(spec.get('fin') or spec['suite']))
@@ -423,6 +491,10 @@ def build(vid, use_placeholders=False, eliminated='coco', skip_missing=False):
          '-color_primaries', 'bt709', '-color_trc', 'bt709', '-colorspace', 'bt709',
          '-c:a', 'aac', '-b:a', '192k', '-ar', '48000', '-ac', '2', '-movflags', '+faststart', '-t', f'{total:.3f}', out + '.part.mp4'])
     os.replace(out + '.part.mp4', out)
+    cov = spec.get('couverture')
+    if cov and os.path.exists(os.path.join(PROJECT, cov)):
+        prepend_cover(os.path.join(PROJECT, cov), out, wd)
+        total += COVER_DUR
     print(f'[{vid}] {total:.1f} s → {out}' + (f'  (cartons : plans {missing})' if missing else ''), flush=True)
     return out
 

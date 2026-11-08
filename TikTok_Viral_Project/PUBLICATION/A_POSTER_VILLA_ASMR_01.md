@@ -11,9 +11,13 @@ sans cette étiquette, TikTok peut retirer la vidéo ou limiter le compte.
 
 ## 1. Villa Vitamine — Épisode 1 : Bienvenue à la Villa
 
-> ✅ **Publié** le samedi 7 novembre 2026 au soir (par toi, sur le compte Villa Vitamine).
+> ✅ Publié le samedi 7 novembre au soir, puis **à republier** dans la nouvelle version (8 novembre) :
+> couverture « affiche » en toute première image (« LE SECRET DU PRÉSENTATEUR », c'est la couverture par défaut de TikTok)
+> et sous-titres un mot à la fois, en majuscules blanches. Même fichier `episode_01.mp4` (67,3 s).
+> **Heure conseillée pour la republier :** dimanche 8 novembre, 18 h 30. Supprime l'ancienne juste avant.
+> Couverture seule, si TikTok te propose de l'importer : `NICHE_3_VILLA_VITAMINE/couvertures/episode_01.jpg`.
 
-- **Fichier :** `NICHE_3_VILLA_VITAMINE/episode_01.mp4` (66,9 s)
+- **Fichier :** `NICHE_3_VILLA_VITAMINE/episode_01.mp4` (67,3 s)
 - **Compte :** Villa Vitamine
 - **Heure conseillée :** dimanche 8 novembre, **18 h 30**
 - **Légende :**
@@ -21,7 +25,7 @@ sans cette étiquette, TikTok peut retirer la vidéo ou limiter le compte.
   Le présentateur triche déjà… 🍍🔑 Épisode 1 de Villa Vitamine. Ton fruit préféré pour l'instant ? 👇
 
 - **Hashtags :** #villavitamine #telerealite #humour #fruits #serie #animation
-- **Couverture :** choisis l'image de Kiki avec ses lunettes devant la piscine (vers 0:15).
+- **Couverture :** la toute première image (l'affiche « LE SECRET DU PRÉSENTATEUR ») : ne change rien.
 - **Son :** garde le son d'origine (ce sont les voix des personnages).
 - **Accroche à l'écran (0–3 s) :** « LE PRÉSENTATEUR TRICHE DÉJÀ… » en bandeau jaune.
 - **Contenu :** générique, Monsieur Ananas, arrivées de Kiki, Bérénice, Cyril, chute de Pépin (compteur), annonce de Fanny,
