@@ -30,3 +30,11 @@ Coco (noix de coco, l'ex) n'a pas encore de fiche : à faire avant son arrivée 
 Contenu généré par IA : activer l'étiquette « Contenu généré par IA » dans TikTok pour toute vidéo qui les utilise.
 
 `planche_personnages.jpg` : les 7 fiches réunies sur une seule image (pour avoir toute la distribution sous les yeux).
+
+## Nouveau style (à partir de l'épisode 2)
+
+`distribution_nouveau_style.jpg` : les 7 personnages dans le nouveau style demandé (fruits à corps humain, tenues,
+scènes très détaillées). On garde les mêmes têtes et les mêmes signes distinctifs que dans les fiches ci-dessus ; seuls
+le corps et les tenues changent : Cyril t-shirt gris et jean, Bérénice ensemble jaune, Kiki chemise à fleurs,
+Monsieur Ananas veste de smoking blanche, Margaux robe orange, Fanny robe rose, Pépin polo vert et short.
+Pour chaque nouveau plan, donner cette image (et la fiche du personnage) en référence.
