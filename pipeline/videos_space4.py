@@ -20,6 +20,7 @@ TGF_SPOT = 'svs:10707/10707_Fermi_Spots_TGF_MPEG4_1280X720_29.97.mp4'  # Fermi a
 FIREFLY = 'nasa:GSFC_20100917_Firefly_m10651_Pro_Elec_Gamma'           # électrons accélérés au-dessus d'un orage
 ISS_LIGHT = 'nasa:311_ScienceCasts-observing-lightning-ISS'            # orages et éclairs vus de la Station spatiale
 PERSEUS = 'svs:14799/PerseusSimulationReelFINAL.mp4'                   # amas de Persée, simulation verticale (1,8–14 s sans texte)
+GALEVO = 'svs:10661/Galaxy_Evolution_wideshot-1080p.mov'                 # naissance d'une galaxie le long des filaments (simulation)
 WISPR = 'svs:14095/WISPR_4thflyby.mp4'                                 # surface de Vénus vue par Parker (WISPR)
 CRAB = 'nasa:PIA03606'                                                 # nébuleuse du Crabe (Hubble)
 CARINA = 'nasa:carina_nebula'                                          # « Falaises cosmiques » de la Carène (Webb)
@@ -147,20 +148,20 @@ R29 = vid('video_29', "Une étoile qui brille autant qu'une galaxie", "UNE SEULE
 
 # ============================================================================= 30 — La toile cosmique
 R30 = vid('video_30', "L'Univers ressemble à ça", "L'UNIVERS\\NRESSEMBLE À ÇA", 'minor_wonder', 43, 3001, [
-    seg("Si tu pouvais voir l'Univers en entier, il ressemblerait à ça.", V(WEB, 5.0, speed=0.7), CAM_IN, sfx=['boom'], music=0.35, emph=['Univers']),
-    seg("Une immense toile : des filaments de galaxies, autour de gigantesques vides.", V(WEB, 14.0, speed=0.7), CAM_SLOW, 'fade', label='LA TOILE COSMIQUE', emph=['toile']),
-    seg("Chaque petit point lumineux est une galaxie, avec des milliards d'étoiles.", V(WEB, 22.0, speed=0.7), CAM_IN, emph=['galaxie']),
-    seg("Ces filaments mesurent des centaines de millions d'années-lumière.", V(WEB, 29.0, speed=0.7), CAM_SLOW, emph=['centaines']),
+    seg("Si tu pouvais voir l'Univers en entier, il ressemblerait à ça.", V(WEB, 5.0, speed=0.7, mode=CV), CAM_IN, sfx=['boom'], music=0.35, emph=['Univers']),
+    seg("Une immense toile : des filaments de galaxies, autour de gigantesques vides.", V(WEB, 14.0, speed=0.7, mode=CV, cx=0.3), CAM_SLOW, 'fade', label='LA TOILE COSMIQUE', emph=['toile']),
+    seg("Chaque petit point lumineux est une galaxie, avec des milliards d'étoiles.", V(GALEVO, 12.5, speed=0.6, mode=CV), CAM_IN, emph=['galaxie']),
+    seg("Ces filaments mesurent des centaines de millions d'années-lumière.", V(WEB, 22.0, speed=0.7, mode=CV, cx=0.7), CAM_SLOW, emph=['centaines']),
     seg("Et entre eux, des vides presque déserts, où tu pourrais voyager des millions d'années sans croiser une seule galaxie.", V(OU, 12.0), CAM_DRIFT, 'fade', emph=['vides']),
-    seg("Pourquoi cette forme ? À cause de la matière noire.", V(WEB, 33.0, speed=0.6), CAM_SLOW, 'black', sfx=[('riser', 0.0)], emph=['noire'], music=0.6),
+    seg("Pourquoi cette forme ? À cause de la matière noire.", V(WEB, 1.0, speed=0.6, mode=CV), CAM_SLOW, 'black', sfx=[('riser', 0.0)], emph=['noire'], music=0.6),
     seg("Une matière invisible, environ cinq fois plus abondante que la matière ordinaire.",
-        V(WEB, 9.0, speed=0.6, extra=[back(170, 520), txt('× 5', 330, 200, ICE)]), CAM_IN, emph=['invisible']),
+        V(WEB, 9.0, speed=0.6, mode=CV, cx=0.4, extra=[back(170, 520), txt('× 5', 330, 200, ICE)]), CAM_IN, emph=['invisible']),
     seg("Sa gravité a formé une sorte de squelette, et les galaxies s'y sont accrochées comme des gouttes de rosée sur une toile d'araignée.",
-        V(OU, 30.0), CAM_SLOW, 'fade', emph=['rosée']),
+        V(GALEVO, 3.5, speed=0.6, mode=CV), CAM_SLOW, 'fade', emph=['rosée']),
     seg("Personne ne l'a jamais vue directement : on la devine à sa gravité.", V(OU, 36.0), CAM_SLOW, emph=['gravité']),
-    seg("Et en {2025|deux mille vingt-cinq}, des astronomes ont réussi à obtenir une image de l'un de ces filaments de gaz.", V(WEB, 18.0, speed=0.6), CAM_IN, 'fade', label='2025'),
-    seg("Des chercheurs ont même remarqué que cette toile ressemble étrangement… au réseau de neurones de notre cerveau.", V(WEB, 26.0, speed=0.5), CAM_SLOW, emph=['cerveau'], music=0.7),
-    seg("Et si l'Univers était un cerveau géant ? Dis-le en commentaire.", V(WEB, 20.0, speed=0.4), CAM_OUT, 'fade', music=0.3),
+    seg("Et en {2025|deux mille vingt-cinq}, des astronomes ont réussi à obtenir une image de l'un de ces filaments de gaz.", V(GALEVO, 6.0, speed=0.6, mode=CV), CAM_IN, 'fade', label='2025'),
+    seg("Des chercheurs ont même remarqué que cette toile ressemble étrangement… au réseau de neurones de notre cerveau.", V(WEB, 26.0, speed=0.5, mode=CV, cx=0.6), CAM_SLOW, emph=['cerveau'], music=0.7),
+    seg("Et si l'Univers était un cerveau géant ? Dis-le en commentaire.", V(WEB, 18.0, speed=0.4, mode=CV), CAM_OUT, 'fade', music=0.3),
 ])
 
 # ============================================================================= 31 — La face cachée de la Lune
@@ -187,16 +188,16 @@ R32 = vid('video_32', "On a vu la surface de Vénus à travers ses nuages", "ON 
     seg("Pour la première fois, une sonde a photographié la surface de Vénus… à travers ses nuages.", V(WISPR, 0.0, speed=0.5), CAM_IN, sfx=['boom'], music=0.35, emph=['surface']),
     seg("Vénus est couverte d'une épaisse couche de nuages d'acide sulfurique. Impossible de voir le sol en lumière visible.", V(VM, 108.0, speed=0.6, mode=CV), CAM_SLOW, 'fade',
         emph=['acide']),
-    seg("Mais en {2020|deux mille vingt} et {2021|deux mille vingt et un}, la sonde Parker Solar Probe l'a frôlée pour prendre de l'élan.", V(PV, 174.0, speed=0.6, mode=CV), CAM_SLOW,
+    seg("Mais en {2020|deux mille vingt} et {2021|deux mille vingt et un}, la sonde Parker Solar Probe l'a frôlée pour prendre de l'élan.", V(PV, 182.0, speed=0.6, mode=CV), CAM_SLOW,
         label='PARKER SOLAR PROBE', emph=['élan']),
     seg("Sa caméra, pointée vers la face de nuit, a capté une lueur venue du sol.", V(WISPR, 1.6, speed=0.5), CAM_IN, 'fade', emph=['lueur']),
-    seg("Le sol de Vénus est si chaud qu'il brille dans l'obscurité, comme du métal chauffé.", V(PV, 112.0, speed=0.6, mode=CV), CAM_SLOW, emph=['brille']),
+    seg("Le sol de Vénus est si chaud qu'il brille dans l'obscurité, comme du métal chauffé.", V(PV, 108.0, speed=0.5, mode=CV), CAM_SLOW, emph=['brille']),
     seg("Environ quatre cent soixante degrés : assez pour faire fondre le plomb.",
         V(VM, 134.0, speed=0.6, mode=CV, extra=[back(170, 520), txt('≈ 460 °C', 330, 170, HOT)]), CAM_IN, 'fade', emph=['plomb'], music=0.6),
     seg("Sur ces images, on distingue des continents, des plaines et des plateaux.", V(PV, 92.0, speed=0.6, mode=CV), CAM_SLOW, emph=['continents']),
     seg("La pression y est quatre-vingt-dix fois plus forte que sur Terre : comme à neuf cents mètres sous la mer.", V(DAV, 68.0, speed=0.6), CAM_DRIFT, 'fade', emph=['quatre-vingt-dix']),
     seg("Les sondes soviétiques qui s'y sont posées n'ont survécu qu'un peu plus de deux heures au maximum.", V(PV, 154.0, speed=0.6, mode=CV), CAM_SLOW, emph=['survécu']),
-    seg("Pourtant, Vénus est presque la jumelle de la Terre : à peu près la même taille, et presque la même masse.", V(PV, 195.0, speed=0.6, mode=CV), CAM_SLOW, 'fade', emph=['jumelle']),
+    seg("Pourtant, Vénus est presque la jumelle de la Terre : à peu près la même taille, et presque la même masse.", V(PV, 166.0, speed=0.6, mode=CV), CAM_SLOW, 'fade', emph=['jumelle']),
     seg("Elle a peut-être eu des océans, avant qu'un effet de serre incontrôlable ne la transforme en fournaise.", V(VM, 37.0, speed=0.6, mode=CV), CAM_SLOW, emph=['océans'], music=0.7),
     seg("Tu irais sur Vénus ? Dis-le en commentaire.", V(VM, 61.0, speed=0.5, mode=CV), CAM_OUT, 'fade', music=0.3),
 ])
