@@ -269,7 +269,7 @@ R36 = vid('video_36', "Un trou noir déchire une étoile", "UN TROU NOIR\\NDÉCH
     seg("Le trou noir lançait même un jet de matière pointé droit vers la Terre.", V(BH_TDE, 34.0, mode=CV), CAM_IN, emph=['Terre']),
     seg("Ces drames sont rares : dans une galaxie, ça arrive environ une fois tous les dix mille à cent mille ans.", V(BH_DISK, 8.0, speed=0.6), CAM_SLOW, 'fade', emph=['rares']),
     seg("Au centre de notre galaxie aussi, il y a un trou noir géant : Sagittarius A étoile, quatre millions de fois la masse du Soleil.",
-        V(BH_DISK, 16.0, speed=0.6, extra=[back(170, 520), txt('4 MILLIONS DE SOLEILS', 330, 100)]), CAM_SLOW, label='SAGITTARIUS A*', emph=['millions'], music=0.7),
+        V(BH_DISK, 16.0, speed=0.6, extra=[back(400, 700), txt('4 MILLIONS DE SOLEILS', 550, 100)]), CAM_SLOW, label='SAGITTARIUS A*', emph=['millions'], music=0.7),
     seg("Mais rassure-toi : il est à vingt-six mille années-lumière, et le Soleil ne s'en approchera jamais.", V(BH_ORBIT, 5.0, speed=0.6), CAM_DRIFT, 'fade', emph=['jamais']),
     seg("Tu voudrais voir un trou noir de près ? Dis-le en commentaire.", V(BH_DISK, 24.0, speed=0.4), CAM_OUT, 'fade', music=0.3),
 ])
