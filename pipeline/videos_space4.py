@@ -20,6 +20,7 @@ TGF_SPOT = 'svs:10707/10707_Fermi_Spots_TGF_MPEG4_1280X720_29.97.mp4'  # Fermi a
 FIREFLY = 'nasa:GSFC_20100917_Firefly_m10651_Pro_Elec_Gamma'           # électrons accélérés au-dessus d'un orage
 ISS_LIGHT = 'nasa:311_ScienceCasts-observing-lightning-ISS'            # orages et éclairs vus de la Station spatiale
 PERSEUS = 'svs:14799/PerseusSimulationReelFINAL.mp4'                   # amas de Persée, simulation verticale (1,8–14 s sans texte)
+CMB = 'nasa:PIA16873'                                                      # Planck : la lumière du Big Bang (fond diffus cosmologique)
 GALEVO = 'svs:10661/Galaxy_Evolution_wideshot-1080p.mov'                 # naissance d'une galaxie le long des filaments (simulation)
 WISPR = 'svs:14095/WISPR_4thflyby.mp4'                                 # surface de Vénus vue par Parker (WISPR)
 CRAB = 'nasa:PIA03606'                                                 # nébuleuse du Crabe (Hubble)
@@ -297,21 +298,21 @@ R37 = vid('video_37', "Les orages fabriquent de l'antimatière", "LES ORAGES FAB
 
 # ============================================================================= 38 — Pourquoi le ciel est noir la nuit (paradoxe d'Olbers)
 R38 = vid('video_38', "Pourquoi le ciel est noir la nuit ?", "POURQUOI LE CIEL\\NEST NOIR LA NUIT ?", 'minor_drift', 44, 3801, [
-    seg("Pourquoi le ciel est-il noir la nuit ? La question est beaucoup plus profonde qu'elle n'en a l'air.", V(OU, 20.0), CAM_IN, sfx=['boom'], music=0.35, emph=['noir']),
-    seg("Imagine un Univers infini, rempli d'étoiles partout.", V(OU, 32.0), CAM_SLOW, 'fade', emph=['infini']),
+    seg("Pourquoi le ciel est-il noir la nuit ? La question est beaucoup plus profonde qu'elle n'en a l'air.", P(MILKYWAY, cx=0.4, zoom=1.15), CAM_IN, sfx=['boom'], music=0.35, emph=['noir']),
+    seg("Imagine un Univers infini, rempli d'étoiles partout.", V(OU, 36.0), CAM_SLOW, 'fade', emph=['infini']),
     seg("Dans n'importe quelle direction, ton regard finirait toujours par tomber sur une étoile. Comme dans une forêt immense : où que tu regardes, tu vois un tronc.",
-        P(MILKYWAY), CAM_SLOW, emph=['forêt']),
+        P(CARINA, cx=0.6), CAM_SLOW, emph=['forêt']),
     seg("Alors le ciel entier devrait briller… aussi fort que la surface du Soleil.", V(SUN171, 2.0, speed=0.6), CAM_IN, 'fade', emph=['briller'], music=0.6),
     seg("C'est le paradoxe d'Olbers, du nom d'un astronome allemand du dix-neuvième siècle.", V(OU, 30.0), CAM_SLOW, label="PARADOXE D'OLBERS", emph=['Olbers']),
     seg("La réponse : l'Univers a un âge. Environ treize milliards huit cents millions d'années.",
-        V(WEB, 8.0, speed=0.6, extra=[back(170, 520), txt('13,8 MILLIARDS D\'ANNÉES', 330, 90)]), CAM_SLOW, 'fade', emph=['âge']),
-    seg("La lumière des étoiles trop lointaines n'a pas encore eu le temps d'arriver jusqu'à nous.", V(WEB, 16.0, speed=0.6), CAM_DRIFT, emph=['temps']),
-    seg("Et l'Univers est en expansion : la lumière des galaxies lointaines est étirée, affaiblie, jusqu'à devenir invisible à nos yeux.", V(OU, 34.0), CAM_SLOW, 'fade', emph=['expansion']),
+        V(WEB, 8.0, speed=0.6, mode=CV, extra=[back(170, 520), txt('13,8 MILLIARDS D\'ANNÉES', 330, 90)]), CAM_SLOW, 'fade', emph=['âge']),
+    seg("La lumière des étoiles trop lointaines n'a pas encore eu le temps d'arriver jusqu'à nous.", V(OU, 38.0), CAM_DRIFT, emph=['temps']),
+    seg("Et l'Univers est en expansion : la lumière des galaxies lointaines est étirée, affaiblie, jusqu'à devenir invisible à nos yeux.", V(WEB, 16.0, speed=0.6, mode=CV, cx=0.35), CAM_SLOW, 'fade', emph=['expansion']),
     seg("Le premier à avoir eu la bonne intuition n'était pas un astronome, mais l'écrivain Edgar Allan Poe, en {1848|dix-huit cent quarante-huit}.", P(SOMB), CAM_SLOW,
         label='EDGAR ALLAN POE • 1848', emph=['Poe'], music=0.7),
-    seg("Et en vérité, le ciel n'est pas totalement noir : il brille encore de la lumière du Big Bang. Mais en micro-ondes, invisibles pour nous.", V(WEB, 24.0, speed=0.5), CAM_SLOW,
+    seg("Et en vérité, le ciel n'est pas totalement noir : il brille encore de la lumière du Big Bang. Mais en micro-ondes, invisibles pour nous.", P(CMB), CAM_SLOW,
         'fade', emph=['Big', 'Bang']),
-    seg("Tu t'étais déjà posé la question ? Dis-le en commentaire.", P(MILKYWAY), CAM_OUT, 'fade', music=0.3),
+    seg("Tu t'étais déjà posé la question ? Dis-le en commentaire.", P(MILKYWAY, zoom=1.3, cx=0.6), CAM_OUT, 'fade', music=0.3),
 ])
 
 # ============================================================================= 39 — Le Soleil perd 4 millions de tonnes par seconde
@@ -323,8 +324,8 @@ R39 = vid('video_39', "Le Soleil perd 4 millions de tonnes par seconde", "LE SOL
     seg("Où passe toute cette matière ? Elle se transforme… en lumière.", V(SDO304, 0.0, speed=0.5), CAM_SLOW, emph=['lumière']),
     seg("Au cœur du Soleil, à environ quinze millions de degrés, des noyaux d'hydrogène fusionnent pour former de l'hélium.", V(FUSION, 2.0, speed=0.7), CAM_IN, 'fade',
         label='15 MILLIONS DE °C', emph=['fusionnent']),
-    seg("Environ six cents millions de tonnes d'hydrogène, chaque seconde.", V(FUSION, 9.0, speed=0.7), CAM_SLOW, emph=['six', 'cents']),
-    seg("Mais l'hélium obtenu pèse un tout petit peu moins lourd. Et cette différence devient de l'énergie.", V(FUSION, 20.0, speed=0.7), CAM_SLOW, 'fade', emph=['énergie'], music=0.6),
+    seg("Environ six cents millions de tonnes d'hydrogène, chaque seconde.", V(FUSION, 7.0, speed=0.6), CAM_SLOW, emph=['six', 'cents']),
+    seg("Mais l'hélium obtenu pèse un tout petit peu moins lourd. Et cette différence devient de l'énergie.", V(FUSION, 8.6, speed=0.4), CAM_SLOW, 'fade', emph=['énergie'], music=0.6),
     seg("C'est la formule la plus célèbre du monde, celle d'Einstein : E égale m c deux.",
         V(SDO131, 0.0, speed=0.5, extra=[back(170, 520), txt('E = mc²', 330, 190, GOLD)]), CAM_IN, emph=['Einstein']),
     seg("Un tout petit peu de masse donne une énergie gigantesque, parce que la vitesse de la lumière au carré est un nombre énorme.", V(SUN193, 2.0, speed=0.6), CAM_SLOW, 'fade',
