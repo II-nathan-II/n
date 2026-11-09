@@ -204,20 +204,20 @@ R32 = vid('video_32', "On a vu la surface de Vénus à travers ses nuages", "ON 
 
 # ============================================================================= 33 — Jupiter et le barycentre
 R33 = vid('video_33', "Jupiter ne tourne pas autour du Soleil", "JUPITER NE TOURNE PAS\\NAUTOUR DU SOLEIL", 'minor_float', 44, 3301, [
-    seg("Jupiter ne tourne pas vraiment autour du Soleil.", V(JUPITER, 9.0, speed=0.6), CAM_IN, sfx=['boom'], music=0.35, emph=['vraiment']),
-    seg("En réalité, Jupiter et le Soleil tournent tous les deux autour d'un point commun.", V(JUPITER, 15.0, speed=0.6), CAM_SLOW, 'fade', emph=['tous', 'deux']),
+    seg("Jupiter ne tourne pas vraiment autour du Soleil.", V(JUPITER, 4.0, speed=0.6), CAM_IN, sfx=['boom'], music=0.35, emph=['vraiment']),
+    seg("En réalité, Jupiter et le Soleil tournent tous les deux autour d'un point commun.", V(JUPITER, 9.0, speed=0.6), CAM_SLOW, 'fade', emph=['tous', 'deux']),
     seg("Ce point s'appelle le barycentre : leur centre de gravité.", V(HELIO, 2.0, speed=0.6), CAM_SLOW, label='LE BARYCENTRE', emph=['barycentre']),
     seg("Pour la Terre et le Soleil, il se trouve presque au centre du Soleil.", V(SUN171, 1.0, speed=0.6), CAM_SLOW, 'fade'),
     seg("Mais Jupiter est si lourde que ce point se trouve… en dehors du Soleil, juste au-dessus de sa surface.", V(P_PULL, 11.0, speed=0.5), CAM_IN, emph=['dehors'], music=0.6),
     seg("Résultat : le Soleil lui-même dessine de petits cercles dans l'espace, un tour tous les douze ans environ.", V(SDO304, 0.0, speed=0.5), CAM_DRIFT, 'fade', emph=['cercles']),
     seg("Jupiter pèse deux fois et demie plus lourd que toutes les autres planètes réunies.",
-        V(JUPITER, 21.0, speed=0.6, extra=[back(170, 520), txt('× 2,5', 330, 200, GOLD)]), CAM_SLOW, emph=['réunies']),
-    seg("Tu pourrais faire rentrer plus de mille trois cents Terres à l'intérieur.", V(JUPITER, 27.0, speed=0.6), CAM_IN, 'fade', emph=['mille', 'trois', 'cents']),
+        V(JUPITER, 38.5, speed=0.6, extra=[back(170, 520), txt('× 2,5', 330, 200, GOLD)]), CAM_SLOW, emph=['réunies']),
+    seg("Tu pourrais faire rentrer plus de mille trois cents Terres à l'intérieur.", V(GRS, 26.0, speed=0.6, mode=CV), CAM_IN, 'fade', emph=['mille', 'trois', 'cents']),
     seg("Et ce petit mouvement des étoiles nous sert à trouver d'autres planètes.", V(HOTJ_ORBIT, 1.0, speed=0.6), CAM_SLOW, emph=['planètes']),
     seg("Quand une étoile oscille légèrement, c'est qu'une planète tourne autour et la tire. C'est comme ça qu'on a découvert la première planète autour d'une étoile semblable au Soleil, en {1995|dix-neuf cent quatre-vingt-quinze}.",
         V(HOTJ_ORBIT, 6.0, speed=0.5), CAM_DRIFT, 'fade', label='1995', emph=['oscille']),
-    seg("Par deux astronomes suisses, Michel Mayor et Didier Queloz, prix Nobel de physique en {2019|deux mille dix-neuf}.", V(JUPITER, 33.0, speed=0.6), CAM_SLOW, emph=['Nobel'], music=0.7),
-    seg("Tu savais que le Soleil bougeait ? Dis-le en commentaire.", V(JUPITER, 39.0, speed=0.5), CAM_OUT, 'fade', music=0.3),
+    seg("Par deux astronomes suisses, Michel Mayor et Didier Queloz, prix Nobel de physique en {2019|deux mille dix-neuf}.", P(MILKYWAY), CAM_SLOW, emph=['Nobel'], music=0.7),
+    seg("Tu savais que le Soleil bougeait ? Dis-le en commentaire.", V(GRS, 34.0, speed=0.4, mode=CV), CAM_OUT, 'fade', music=0.3),
 ])
 
 # ============================================================================= 34 — Webb voit le passé
@@ -275,8 +275,8 @@ R36 = vid('video_36', "Un trou noir déchire une étoile", "UN TROU NOIR\\NDÉCH
 
 # ============================================================================= 37 — Les orages fabriquent de l'antimatière
 R37 = vid('video_37', "Les orages fabriquent de l'antimatière", "LES ORAGES FABRIQUENT\\NDE L'ANTIMATIÈRE", 'minor_epic', 45, 3701, [
-    seg("Au-dessus de nos têtes, les orages fabriquent… de l'antimatière.", V(ISS_LIGHT, 231.0, speed=0.6), CAM_IN, sfx=['boom'], music=0.35, emph=['antimatière']),
-    seg("Oui, l'antimatière : celle de la science-fiction, la substance la plus chère du monde à produire.", V(ISS_LIGHT, 14.0, speed=0.6), CAM_SLOW, 'fade', emph=['chère']),
+    seg("Au-dessus de nos têtes, les orages fabriquent… de l'antimatière.", V(ISS_LIGHT, 241.0, speed=0.6), CAM_IN, sfx=['boom'], music=0.35, emph=['antimatière']),
+    seg("Oui, l'antimatière : celle de la science-fiction, la substance la plus chère du monde à produire.", V(ISS_LIGHT, 28.0, speed=0.6), CAM_SLOW, 'fade', emph=['chère']),
     seg("Dans un nuage d'orage, des champs électriques géants accélèrent des électrons presque à la vitesse de la lumière.", V(FIREFLY, 1.0, speed=0.6), CAM_SLOW, emph=['lumière']),
     seg("En percutant l'air, ils produisent un éclair invisible : un flash de rayons gamma, la lumière la plus énergétique qui existe.", V(TGF, 74.0, speed=0.6), CAM_IN, 'fade',
         label='FLASH GAMMA', emph=['gamma']),
@@ -292,7 +292,7 @@ R37 = vid('video_37', "Les orages fabriquent de l'antimatière", "LES ORAGES FAB
         V(TGF_SPOT, 4.0, speed=0.6, extra=[back(170, 520), txt('≈ 500 PAR JOUR', 330, 140, GOLD)]), CAM_IN, 'fade', emph=['cinq', 'cents'], music=0.7),
     seg("Rassure-toi : cette antimatière disparaît aussitôt. Dès qu'un positron rencontre un électron, les deux s'annihilent dans un éclair de lumière.", V(FIREFLY, 6.0, speed=0.6), CAM_SLOW,
         emph=['annihilent']),
-    seg("Les orages sont de vrais accélérateurs de particules naturels. Tu le savais ? Dis-le en commentaire.", V(ISS_LIGHT, 233.0, speed=0.5), CAM_OUT, 'fade', music=0.3),
+    seg("Les orages sont de vrais accélérateurs de particules naturels. Tu le savais ? Dis-le en commentaire.", V(ISS_LIGHT, 244.0, speed=0.5), CAM_OUT, 'fade', music=0.3),
 ])
 
 # ============================================================================= 38 — Pourquoi le ciel est noir la nuit (paradoxe d'Olbers)
