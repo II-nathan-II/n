@@ -346,7 +346,7 @@ AMB10 = amb('ambiance_10', "Tu files à 30 km par seconde",
 
 AMB11 = amb('ambiance_11', "Une année galactique",
             "Le Soleil met environ 230 millions d'années\nà faire le tour de la galaxie.\nAu dernier tour, les dinosaures\napparaissaient à peine.",
-            [clipd(P(MILKYWAY)), clipd(V(OU, 30.0)), clipd(P(SOMB)), clipd(V(OU, 38.0)), clipd(P(SUNFL)), clipd(V(WEB, 20.0, speed=0.6)),
+            [clipd(P(MILKYWAY)), clipd(V(OU, 30.0)), clipd(P(SOMB)), clipd(V(OU, 38.0)), clipd(P(SUNFL)), clipd(V(WEB, 20.0, speed=0.6, mode=CV)),
              clipd(P(HELIX)), clipd(P(MILKYWAY, zoom=1.3), 2)], 4311, key=44)
 
 AMB12 = amb('ambiance_12', "Saturne flotterait sur l'eau",
@@ -358,8 +358,8 @@ AMB12 = amb('ambiance_12', "Saturne flotterait sur l'eau",
 
 AMB13 = amb('ambiance_13', "Un éclair plus chaud que le Soleil",
             "Un éclair chauffe l'air\nà près de 30 000 °C :\ncinq fois plus que\nla surface du Soleil.",
-            [clipd(V(ISS_LIGHT, 231.0, speed=0.5)), clipd(V(ISS_LIGHT, 14.0, speed=0.6)), clipd(V(SUN171, 1.0, speed=0.5)), clipd(V(ISS_LIGHT, 233.0, speed=0.5)),
-             clipd(V(SDO304, 0.0, speed=0.4)), clipd(V(ISS_LIGHT, 18.0, speed=0.6)), clipd(V(SUN193, 2.0, speed=0.5)), clipd(V(ISS_LIGHT, 235.0, speed=0.5), 2)], 4313, key=45)
+            [clipd(V(ISS_LIGHT, 241.0, speed=0.5)), clipd(V(ISS_LIGHT, 28.0, speed=0.6)), clipd(V(SUN171, 1.0, speed=0.5)), clipd(V(ISS_LIGHT, 244.0, speed=0.5)),
+             clipd(V(SDO304, 0.0, speed=0.4)), clipd(V(ISS_LIGHT, 30.5, speed=0.6)), clipd(V(SUN193, 2.0, speed=0.5)), clipd(V(ISS_LIGHT, 246.0, speed=0.5), 2)], 4313, key=45)
 
 AMB14 = amb('ambiance_14', "Dans l'espace, tu grandis",
             "Dans l'espace, sans gravité,\nta colonne vertébrale s'étire :\nles astronautes grandissent\nde quelques centimètres.",
@@ -379,7 +379,7 @@ EDIT09 = edit('edit_09', "Les explosions de l'Univers", "LES PLUS GROSSES\\NEXPL
 
 EDIT10 = edit('edit_10', "La Lune comme tu ne l'as jamais vue", "LA LUNE COMME TU NE\\NL'AS JAMAIS VUE", "ELLE S'ÉLOIGNE DE 3,8 CM PAR AN.", [
     c(V(MOON, 73.0, speed=0.6), 2, sfx=['boom']), c(V(MOONTOUR, 14.0, speed=0.8)), c(V(MOONTOUR, 125.0, speed=0.8)), c(V(MOONTOUR, 181.0, speed=0.8)),
-    c(V('svs:4185/apollo11_flyover_1080p30.mp4', 8.0, speed=0.8)), c(V(MOONTOUR, 237.0, speed=0.8)), c(P(EARTHSET)), c(V(MOONTOUR, 265.0, speed=0.8)),
+    c(V('svs:4185/apollo11_flyover_1080p30.mp4', 8.0, speed=0.8)), c(V(MOONTOUR, 237.0, speed=0.8)), c(P(EARTHSET)), c(V(MOONTOUR, 269.0, speed=0.8)),
     c(V(MOON, 219.0, speed=0.5), sfx=[('riser', 0.0)])], 4410, prog='minor_drift', key=43)
 
 EDIT11 = edit('edit_11', "Les plus belles images de l'espace", "LES PLUS BELLES\\NIMAGES DE L'ESPACE", "CE SONT DE VRAIES PHOTOS.", [
