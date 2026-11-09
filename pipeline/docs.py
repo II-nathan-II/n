@@ -83,6 +83,9 @@ QC_NOTES = {
     'video_22': "Whisper a sauté une phrase en transcrivant la vidéo entière (« Autre surprise : Mercure rétrécit… »). Transcrite seule (48–64 s), elle est parfaitement reconnue ; niveaux identiques aux autres vidéos (−14,2 LUFS). Vidéo validée.",
 }
 
+from publication_week4 import SOURCES4 as _SOURCES4
+SOURCES.update(_SOURCES4)
+
 def tc(t):
     m, s = divmod(t, 60)
     return f'{int(m):02d}:{s:05.2f}'

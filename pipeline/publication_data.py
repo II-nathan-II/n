@@ -383,3 +383,6 @@ PUB = {
         horaire='21 h 30',
         potentiel="Format « flash noir et blanc » court et hypnotique, regardé en boucle : sert la croissance (moins d'une minute)."),
 }
+
+from publication_week4 import PUB4 as _PUB4
+PUB.update(_PUB4)

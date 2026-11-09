@@ -51,6 +51,9 @@ CALENDRIER = [
               ('Mar. 17 nov.', '21 h 30', 'edit_04')]
 
 
+from publication_week4 import CALENDRIER4 as _CAL4
+CALENDRIER = [c for c in CALENDRIER] + _CAL4
+
 def main():
     L = ["# Lancement du compte « Vertige Cosmique » (TikTok + YouTube Shorts)", "",
          "## 1. Profil (identique sur les deux plateformes)", "",
