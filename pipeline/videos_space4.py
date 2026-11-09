@@ -167,8 +167,8 @@ R30 = vid('video_30', "L'Univers ressemble à ça", "L'UNIVERS\\NRESSEMBLE À Ç
 R31 = vid('video_31', "On ne voit jamais l'autre face de la Lune", "TU N'AS JAMAIS VU\\NL'AUTRE FACE\\NDE LA LUNE", 'minor_drift', 43, 3101, [
     seg("Depuis la Terre, on voit toujours la même face de la Lune. Jamais l'autre.", V(MOON, 73.0, speed=0.6), CAM_IN, sfx=['boom'], music=0.35, emph=['jamais']),
     seg("Parce qu'elle tourne sur elle-même exactement à la même vitesse qu'elle tourne autour de nous.", V(MOON, 102.0, speed=0.6), CAM_SLOW, 'fade', emph=['vitesse']),
-    seg("Un tour en vingt-sept jours, dans les deux cas.", V(MOONTOUR, 262.0, speed=0.8), CAM_SLOW, label='27 JOURS', emph=['vingt-sept']),
-    seg("Ce n'est pas un hasard : au début, elle tournait plus vite, mais la gravité de la Terre l'a freinée.", V(MOONTOUR, 268.0, speed=0.8), CAM_DRIFT, emph=['freinée']),
+    seg("Un tour en vingt-sept jours, dans les deux cas.", V(MOONTOUR, 268.5, speed=0.8), CAM_SLOW, label='27 JOURS', emph=['vingt-sept']),
+    seg("Ce n'est pas un hasard : au début, elle tournait plus vite, mais la gravité de la Terre l'a freinée.", V(MOONTOUR, 4.5, speed=0.6), CAM_DRIFT, emph=['freinée']),
     seg("On l'appelle la face cachée, mais elle n'est pas dans le noir : elle reçoit autant de soleil que l'autre.", V(MOONTOUR, 150.0, speed=0.8), CAM_SLOW, 'fade', emph=['soleil']),
     seg("Et petit secret : grâce à un léger balancement, on voit en fait cinquante-neuf pour cent de sa surface.",
         V(MOON, 190.0, speed=0.6, extra=[back(170, 520), txt('59 %', 330, 200, GOLD)]), CAM_IN, emph=['cinquante-neuf'], music=0.6),
