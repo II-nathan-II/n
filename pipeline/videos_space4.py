@@ -33,7 +33,25 @@ EARTHSET = 'nasa:art002e021278'                                        # coucher
 CAM_IN, CAM_SLOW, CAM_DRIFT, CAM_OUT = 'in', 'slow_in', 'drift', 'out'
 
 
+def _has_overlay(scene):
+    """Vrai si le plan porte un texte incrusté (txt, compteur, bandeau) : V(..., extra=[...]) ou P(..., extra=[...])."""
+    for c in getattr(scene, '__closure__', None) or ():
+        v = c.cell_contents
+        if isinstance(v, (list, tuple)) and v and all(callable(x) for x in v):
+            return True
+    return False
+
+
+def _clean_transitions(segments):
+    """Un fondu juste après un plan avec texte ou étiquette ferait se chevaucher deux textes : coupe franche à la place."""
+    for a, b in zip(segments, segments[1:]):
+        if b.get('trans') == 'fade' and (a.get('label') or _has_overlay(a.get('scene'))):
+            b['trans'] = 'cut'
+    return segments
+
+
 def vid(id, title, hook, prog, key, seed, segments):
+    segments = _clean_transitions(segments)
     return dict(id=id, niche='NICHE_1', theme='space', speed=1.08, voice_reverb=0.06, **REAL,
                 title=title, hook_text=hook,
                 music=dict(style='space', prog=prog, key=key, bpm=72, seed=seed, start=0.3), segments=segments)
