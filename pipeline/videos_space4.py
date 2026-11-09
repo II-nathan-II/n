@@ -130,10 +130,10 @@ R28 = vid('video_28', "L'aimant le plus puissant de l'Univers", "L'AIMANT LE PLU
 
 # ============================================================================= 29 — La supernova
 R29 = vid('video_29', "Une étoile qui brille autant qu'une galaxie", "UNE SEULE ÉTOILE\\NAUSSI BRILLANTE\\NQU'UNE GALAXIE", 'minor_epic', 45, 2901, [
-    seg("Quand cette étoile explose, elle brille autant que toute sa galaxie : des milliards d'étoiles.", V(SN, 11.0, speed=0.6), CAM_IN, sfx=['boom'], music=0.35, emph=['galaxie']),
+    seg("Quand cette étoile explose, elle brille autant que toute sa galaxie : des milliards d'étoiles.", V(SN, 21.0, speed=0.6), CAM_IN, sfx=['boom'], music=0.35, emph=['galaxie']),
     seg("C'est une supernova : la mort d'une étoile au moins huit fois plus lourde que le Soleil.", V(SN, 3.0, speed=0.7), CAM_SLOW, 'fade', label='SUPERNOVA', emph=['supernova']),
-    seg("À la fin de sa vie, son cœur n'a plus de carburant. Il s'effondre sur lui-même… en moins d'une seconde.", V(SN, 7.0, speed=0.6), CAM_IN, emph=['seconde']),
-    seg("Puis tout rebondit, dans une explosion qui projette la matière à des dizaines de milliers de kilomètres par seconde.", V(SN, 17.0, speed=0.6), CAM_SLOW, emph=['explosion'], music=0.6),
+    seg("À la fin de sa vie, son cœur n'a plus de carburant. Il s'effondre sur lui-même… en moins d'une seconde.", V(SN, 4.5, speed=0.5), CAM_IN, emph=['seconde']),
+    seg("Puis tout rebondit, dans une explosion qui projette la matière à des dizaines de milliers de kilomètres par seconde.", V(SN, 19.5, speed=0.6, mode=F0, fit_scale=1.5), CAM_SLOW, emph=['explosion'], music=0.6),
     seg("En {1054|mille cinquante-quatre}, des astronomes chinois en ont vu une en plein jour, pendant plus de trois semaines.", P(CRAB, zoom=1.4), CAM_SLOW, 'fade', label='AN 1054', emph=['jour']),
     seg("Ce qu'il en reste aujourd'hui, c'est ça : la nébuleuse du Crabe.", P(CRAB), CAM_OUT, emph=['Crabe']),
     seg("Et au centre, une étoile à neutrons qui tourne sur elle-même trente fois par seconde.", V(PULSAR, 2.0, speed=0.6), CAM_SLOW, 'fade', emph=['trente']),
@@ -373,7 +373,7 @@ def c(scene, n=2, **kw):
 
 
 EDIT09 = edit('edit_09', "Les explosions de l'Univers", "LES PLUS GROSSES\\NEXPLOSIONS DE L'UNIVERS", "ET ON EST FAITS DE LEURS POUSSIÈRES.", [
-    c(V(SN, 9.0, speed=0.7), 2, sfx=['boom']), c(V(SN, 18.0, speed=0.7)), c(V(NSM, 15.0, speed=0.8)), c(V(NSM, 20.0, speed=0.8)),
+    c(V(SN, 21.0, speed=0.7), 2, sfx=['boom']), c(V(SN, 19.5, speed=0.7, mode=F0, fit_scale=1.5)), c(V(NSM, 15.0, speed=0.8)), c(V(NSM, 20.0, speed=0.8)),
     c(V(MAG_WIDE, 8.0)), c(V(BH_TDE, 28.0, mode=CV)), c(P(CRAB)), c(V(SN, 26.0, speed=0.6)), c(V(SN, 34.0, speed=0.5), sfx=[('riser', 0.0)])], 4409, prog='minor_dark', key=44)
 
 EDIT10 = edit('edit_10', "La Lune comme tu ne l'as jamais vue", "LA LUNE COMME TU NE\\NL'AS JAMAIS VUE", "ELLE S'ÉLOIGNE DE 3,8 CM PAR AN.", [
