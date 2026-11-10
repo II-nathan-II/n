@@ -91,7 +91,7 @@ def soft_text(canvas, text, font, cy, color=(255, 255, 255), stroke_col=(40, 22,
     ImageDraw.Draw(canvas).text((x, y), text, font=font, fill=color, stroke_width=sw, stroke_fill=stroke_col)
 
 
-def make_cover(bg, out, title, label, title_bottom=1560):
+def make_cover(bg, out, title, label, title_bottom=1560, logo='VILLA VITAMINE'):
     img = cover_fit(Image.open(bg).convert('RGB'))
     # assombrit le bas pour que le titre ressorte
     grad = np.clip((np.arange(H) - 950) / 750, 0, 1) ** 1.3 * 0.62
@@ -111,7 +111,8 @@ def make_cover(bg, out, title, label, title_bottom=1560):
         y += h + gap
     # logo de la série en haut (dans la zone visible de la grille)
     logo_font = ImageFont.truetype(SANS, 46)
-    soft_text(img, 'VILLA VITAMINE', logo_font, 300, color=(255, 214, 90), stroke_col=(70, 30, 0), sw=4)
+    if logo:
+        soft_text(img, logo, logo_font, 300, color=(255, 214, 90), stroke_col=(70, 30, 0), sw=4)
     img.save(out, quality=93)
     return out
 
