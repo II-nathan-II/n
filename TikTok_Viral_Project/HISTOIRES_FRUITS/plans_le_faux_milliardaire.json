@@ -16,66 +16,62 @@
  "cta": "Abonne-toi pour la prochaine histoire",
  "slices": [
   {
-   "s": 6,
-   "t0": 4.02,
-   "t1": 5.1,
-   "x": 390,
-   "zoom": 0.1,
-   "big": true,
+   "s": 1,
+   "t0": 0.3,
+   "t1": 1.0,
+   "x": 0,
    "lines": [
-    "Tu m'as menti",
-    "depuis le début !"
-   ],
-   "sfx": [
-    [
-     "impact",
-     0.0,
-     0.9
-    ]
+    "Attends…"
    ]
   },
   {
-   "s": 5,
-   "t0": 8.6,
-   "t1": 9.95,
-   "x": 0,
-   "zoom": 0.08,
-   "big": true,
+   "s": 1,
+   "t0": 1.0,
+   "t1": 2.35,
+   "x": 354,
    "lines": [
-    "Je peux tout",
-    "expliquer !"
+    "C'est qui cette beauté ?"
    ],
-   "audio": {
-    "s": 6,
-    "t0": 6.55,
-    "t1": 7.55,
-    "delay": 0.08
-   },
-   "sfx": [
-    [
-     "heartbeat",
-     0.35,
-     0.45
-    ],
-    [
-     "impact",
-     1.15,
-     0.5
-    ]
+   "nom": "Bella",
+   "role": "Fraise · influenceuse"
+  },
+  {
+   "s": 1,
+   "t0": 2.35,
+   "t1": 5.5,
+   "x": 120,
+   "lines": [
+    "Elle est incroyable.",
+    "Il faut absolument que je la rencontre."
+   ],
+   "nom": "Léo",
+   "role": "Citron · célibataire"
+  },
+  {
+   "s": 1,
+   "t0": 5.5,
+   "t1": 6.83,
+   "x": 220,
+   "lines": [
+    "Bon, Léo, aujourd'hui"
    ]
   },
   {
-   "card": "QUELQUES HEURES|PLUS TÔT…",
-   "s": 2,
-   "t": 0.3,
-   "x": 0,
-   "dur": 0.95,
-   "sfx": [
-    [
-     "whoosh",
-     -0.2,
-     0.9
-    ]
+   "s": 1,
+   "t0": 6.83,
+   "t1": 8.1,
+   "x": 250,
+   "lines": [
+    "on change de vie."
+   ]
+  },
+  {
+   "s": 1,
+   "t0": 8.1,
+   "t1": 10.0,
+   "x": 250,
+   "lines": [
+    "Enfin… on va essayer !"
    ]
   },
   {
@@ -86,9 +82,7 @@
    "lines": [
     "Bon, pour séduire Bella,",
     "il me faut un look de milliardaire."
-   ],
-   "nom": "Léo",
-   "role": "Citron · prêt à tout pour Bella"
+   ]
   },
   {
    "s": 2,
@@ -188,9 +182,7 @@
    "lines": [
     "Alors Léo,",
     "tu fais quoi exactement dans la vie ?"
-   ],
-   "nom": "Bella",
-   "role": "Fraise · influenceuse"
+   ]
   },
   {
    "s": 4,

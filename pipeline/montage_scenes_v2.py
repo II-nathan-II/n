@@ -46,7 +46,7 @@ def vfilter(sl, src, d):
 def cut(k, sl):
     sub = f"{wd}/cut{k:02d}.mp4"
     if 'card' in sl:
-        d = sl['dur']
+        d = round(sl['dur'] * 30) / 30
         src = scenes[str(sl['s'])]
         vf = vfilter(dict(x=sl.get('x', 0)), src, d) + ',boxblur=26:3,eq=brightness=-0.28'
         A.run(['ffmpeg', '-v', 'error', '-y', '-ss', f"{sl['t']:.3f}", '-i', src, '-frames:v', '1', '-vf', vf, f"{wd}/card{k}.png"])
@@ -55,7 +55,7 @@ def cut(k, sl):
                *ENC, '-c:a', 'aac', '-b:a', '256k', '-shortest', sub])
         return sub, d
     src = scenes[str(sl['s'])]
-    d = sl['t1'] - sl['t0']
+    d = round((sl['t1'] - sl['t0']) * 30) / 30      # durée calée sur un nombre entier d'images : pas de décalage son / image
     vf = vfilter(sl, src, d)
     if 'audio' in sl:
         au = sl['audio']; asrc = scenes[str(au['s'])]; ad = au['t1'] - au['t0']; dl = int(au.get('delay', 0) * 1000)
@@ -116,12 +116,16 @@ open(f"{wd}/t.ass", "w").write(ass)
 voice = audio.set_loudness(native.mean(1), -16.0)
 m = len(voice)
 # musique : tension dramatique sur l'ouverture, puis la musique de l'histoire après « Quelques heures plus tôt »
-drama = audio.compose(dict(style='space', prog='minor_dark', key=38, bpm=84, seed=911), story_t0 + 1.0, [(0, 1.0), (story_t0, 1.0)])
-drama = drama[:int(story_t0 * SR)]
-fo = min(len(drama), int(0.25 * SR)); drama[-fo:] *= np.linspace(1, 0, fo)[:, None]
+if story_t0 > 0:
+    drama = audio.compose(dict(style='space', prog='minor_dark', key=38, bpm=84, seed=911), story_t0 + 4.0, [(0, 1.0), (story_t0, 1.0)])
+    drama = drama[:int(story_t0 * SR)]
+    fo = min(len(drama), int(0.25 * SR)); drama[-fo:] *= np.linspace(1, 0, fo)[:, None]
+else:                     # pas d'ouverture : la musique de l'histoire dès la première seconde
+    drama = np.zeros((0, 2), np.float32)
 story = audio.compose(dict(FS.SERIES_MUSIC), total - story_t0 + 1.0, [(0, 0.55), (total - story_t0 - 4, 0.85)])
 music = np.zeros((m, 2), np.float32)
-music[:len(drama)] += audio.set_loudness(drama, -22.0)[:m]
+if len(drama):
+    music[:len(drama)] += audio.set_loudness(drama, -22.0)[:m]
 k0 = int(story_t0 * SR); L = min(len(story), m - k0)
 music[k0:k0 + L] += audio.set_loudness(story, -29.0)[:L]
 duck = audio.duck_curve(voice, depth_db=-9.0)[:m]
