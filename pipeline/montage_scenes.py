@@ -71,14 +71,18 @@ hook_end = segs[0]['dur']
 for k, l in enumerate(spec['accroche']):
     ass += A.ev('HookBox', 0.05 + 0.08 * k, hook_end, A.POP + r'{\pos(540,%d)}' % (430 + k * 150) + A.esc(l), layer=3)
 # fin
-ass += A.ev('End', t + 0.1, total, A.POP + r'{\pos(540,820)}À SUIVRE…')
+ass += A.ev('End', t + 0.1, total, A.POP + r'{\pos(540,820)}' + A.esc(spec.get('fin_titre', 'À SUIVRE…')))
 ass += A.ev('EndSub', t + 0.3, total, r'{\fad(150,0)\pos(540,1010)}' + A.esc(spec['question']))
 ass += A.ev('Ep', t + 0.6, total, r'{\fad(150,0)\pos(540,1180)}' + A.esc(spec['cta']))
 open(f"{wd}/t.ass", "w").write(ass)
 
 voice = audio.set_loudness(native.mean(1), -16.0)
 music = audio.compose(dict(FS.SERIES_MUSIC), total, [(0, 0.5), (total - 4, 0.85)])[:len(voice)]
-music = audio.set_loudness(music, -29.0) * audio.duck_curve(voice, depth_db=-9.0)[:, None]
+if len(music) < len(voice):
+    music = np.pad(music, ((0, len(voice) - len(music)), (0, 0)))
+duck = audio.duck_curve(voice, depth_db=-9.0)
+m = min(len(music), len(voice), len(duck))
+voice, music = voice[:m], audio.set_loudness(music[:m], -29.0) * duck[:m, None]
 mix = A.loud_limit(np.stack([voice, voice], 1) + music, -14.0)
 sf.write(f"{wd}/mix.wav", mix.astype(np.float32), SR)
 A.run(['ffmpeg', '-y', '-loglevel', 'error', '-i', f"{wd}/master.mp4", '-i', f"{wd}/mix.wav", '-map', '0:v:0', '-map', '1:a:0',
