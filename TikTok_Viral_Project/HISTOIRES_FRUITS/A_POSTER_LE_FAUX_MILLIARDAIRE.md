@@ -19,8 +19,8 @@ Il a loué une Lamborghini pour la séduire… mais elle cachait aussi un secret
 ## Montage
 - **Début** : directement par la scène 1 (Léo découvre Bella sur son téléphone), puis les scènes 2 à 10 dans l'ordre.
   Aucune ouverture ajoutée, aucun carton « quelques heures plus tôt ».
-- **Image et noms** : cadrage vertical plein écran sur celui qui parle. Cartons de noms : Bella et Léo à la scène 1,
-  M. Avocat à la scène 5.
+- **Image et noms** : chaque scène est montrée en entier, sans zoom, sur un fond flou de la même image. Les sous-titres
+  sont juste sous l'image. Cartons de noms au-dessus : Bella et Léo à la scène 1, M. Avocat à la scène 5.
 - **Sous-titres** : sur 2 lignes, mot fort en couleur.
 - **Rythme** : les blancs en début et fin de plans sont retirés. Tous les dialogues, les moments drôles, la poursuite
   dans la cuisine et la chute sont conservés.

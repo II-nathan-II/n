@@ -29,7 +29,14 @@ def probe_wh(src):
     return [int(v) for v in r.stdout.strip().split(',')[:2]]
 
 
+FIT = bool(spec.get('image_entiere'))
+FG_Y = 400          # haut de l'image entière (laisse la place aux noms au-dessus et aux sous-titres en dessous)
+
+
 def vfilter(sl, src, d):
+    if FIT:
+        return (f"split[a][b];[a]scale=1080:1920:force_original_aspect_ratio=increase,crop=1080:1920,boxblur=40:4,eq=brightness=-0.12[bg];"
+                f"[b]scale=1080:-2:flags=lanczos[fg];[bg][fg]overlay=0:{FG_Y},eq=saturation=1.07:contrast=1.03,fps=30,format=yuv420p")
     w, h = probe_wh(src)
     cw = int(round(h * 9 / 16)) // 2 * 2
     x0, x1 = sl.get('x', sl.get('x0', 0)), sl.get('x', sl.get('x1', 0))
@@ -99,14 +106,17 @@ for s in segs:
         continue
     if sl.get('lines'):
         caps = A.duo_caps(dict(lines=[('x', l) for l in sl['lines']]), a, s['dur'], s['t0'])
+        if FIT:
+            caps = caps.replace(r'\pos(540,1430)', r'\pos(540,1560)')
         if sl.get('big'):     # ouverture : sous-titres plus gros, au centre de l'écran, entrée plus marquée
             caps = caps.replace(r'\pos(540,1430)\fscx112\fscy112\t(0,80,\fscx100\fscy100)',
                                 r'\pos(540,1300)\fscx215\fscy215\t(0,90,\fscx185\fscy185)')
         ass += caps
     if sl.get('nom'):
         a0, b0 = s['t0'] + 0.15, s['t0'] + min(s['dur'], 3.0)
-        ass += A.ev('Name', a0, b0, r'{\fad(120,150)\pos(70,420)}' + A.esc(sl['nom'].upper()))
-        ass += A.ev('Role', a0 + 0.1, b0, r'{\fad(120,150)\pos(74,524)}' + A.esc(sl['role']))
+        yn = 190 if FIT else 420
+        ass += A.ev('Name', a0, b0, r'{\fad(120,150)\pos(70,%d)}' % yn + A.esc(sl['nom'].upper()))
+        ass += A.ev('Role', a0 + 0.1, b0, r'{\fad(120,150)\pos(74,%d)}' % (yn + 104) + A.esc(sl['role']))
 ass += A.ev('End', t + 0.1, total, A.POP + r'{\pos(540,820)}' + A.esc(spec.get('fin_titre', 'FIN')))
 ass += A.ev('EndSub', t + 0.3, total, r'{\fad(150,0)\pos(540,1010)}' + A.esc(spec['question']))
 ass += A.ev('Ep', t + 0.6, total, r'{\fad(150,0)\pos(540,1180)}' + A.esc(spec['cta']))
