@@ -11,96 +11,89 @@
   "9": "/root/.claude/uploads/17a936c9-db59-57fa-af68-531123d4e05b/3e7ad664-scene_9.mp4",
   "10": "/root/.claude/uploads/17a936c9-db59-57fa-af68-531123d4e05b/9e298ea4-scene_10.mp4"
  },
- "accroche": [
-  "IL JOUE AU",
-  "MILLIARDAIRE…",
-  "ELLE AUSSI."
- ],
  "fin_titre": "FIN",
  "question": "Tu aurais pardonné à Léo ?",
  "cta": "Abonne-toi pour la prochaine histoire",
  "slices": [
   {
+   "s": 6,
+   "t0": 4.02,
+   "t1": 5.1,
+   "x": 390,
+   "zoom": 0.1,
+   "big": true,
+   "lines": [
+    "Tu m'as menti",
+    "depuis le début !"
+   ],
+   "sfx": [
+    [
+     "impact",
+     0.0,
+     0.9
+    ]
+   ]
+  },
+  {
    "s": 5,
-   "t0": 8.45,
-   "t1": 10.0,
+   "t0": 8.6,
+   "t1": 9.95,
    "x": 0,
-   "lines": []
-  },
-  {
-   "s": 1,
-   "t0": 0.0,
-   "t1": 1.0,
-   "x": 0,
+   "zoom": 0.08,
+   "big": true,
    "lines": [
-    "Attends…"
+    "Je peux tout",
+    "expliquer !"
    ],
-   "top": "QUELQUES HEURES PLUS TÔT…"
-  },
-  {
-   "s": 1,
-   "t0": 1.0,
-   "t1": 2.35,
-   "x": 354,
-   "lines": [
-    "C'est qui cette beauté ?"
-   ],
-   "nom": "Bella",
-   "role": "Fraise · influenceuse"
-  },
-  {
-   "s": 1,
-   "t0": 2.35,
-   "t1": 5.5,
-   "x": 120,
-   "lines": [
-    "Elle est incroyable.",
-    "Il faut absolument que je la rencontre."
-   ],
-   "nom": "Léo",
-   "role": "Citron · célibataire"
-  },
-  {
-   "s": 1,
-   "t0": 5.5,
-   "t1": 6.83,
-   "x": 220,
-   "lines": [
-    "Bon, Léo, aujourd'hui"
+   "audio": {
+    "s": 6,
+    "t0": 6.55,
+    "t1": 7.55,
+    "delay": 0.08
+   },
+   "sfx": [
+    [
+     "heartbeat",
+     0.35,
+     0.45
+    ],
+    [
+     "impact",
+     1.15,
+     0.5
+    ]
    ]
   },
   {
-   "s": 1,
-   "t0": 6.83,
-   "t1": 8.1,
-   "x": 250,
-   "lines": [
-    "on change de vie."
-   ]
-  },
-  {
-   "s": 1,
-   "t0": 8.1,
-   "t1": 10.0,
-   "x": 250,
-   "lines": [
-    "Enfin… on va essayer !"
+   "card": "QUELQUES HEURES|PLUS TÔT…",
+   "s": 2,
+   "t": 0.3,
+   "x": 0,
+   "dur": 0.95,
+   "sfx": [
+    [
+     "whoosh",
+     -0.2,
+     0.9
+    ]
    ]
   },
   {
    "s": 2,
-   "t0": 0.0,
+   "t0": 0.05,
    "t1": 2.6,
    "x": 0,
    "lines": [
     "Bon, pour séduire Bella,",
     "il me faut un look de milliardaire."
-   ]
+   ],
+   "nom": "Léo",
+   "role": "Citron · prêt à tout pour Bella"
   },
   {
    "s": 2,
-   "t0": 2.6,
-   "t1": 4.0,
+   "t0": 2.62,
+   "t1": 3.95,
    "x": 0,
    "lines": [
     "Là, on commence à parler."
@@ -139,9 +132,9 @@
   },
   {
    "s": 3,
-   "t0": 0.0,
+   "t0": 0.35,
    "t1": 2.5,
-   "x0": 40,
+   "x0": 60,
    "x1": 200,
    "lines": [
     "Voilà comment on arrive",
@@ -195,7 +188,9 @@
    "lines": [
     "Alors Léo,",
     "tu fais quoi exactement dans la vie ?"
-   ]
+   ],
+   "nom": "Bella",
+   "role": "Fraise · influenceuse"
   },
   {
    "s": 4,
@@ -229,7 +224,7 @@
   {
    "s": 4,
    "t0": 8.3,
-   "t1": 10.0,
+   "t1": 9.6,
    "x": 380,
    "lines": [
     "Rien d'extraordinaire."
@@ -237,7 +232,7 @@
   },
   {
    "s": 5,
-   "t0": 0.0,
+   "t0": 0.3,
    "t1": 2.05,
    "x": 479,
    "lines": [
@@ -281,14 +276,14 @@
   {
    "s": 5,
    "t0": 8.35,
-   "t1": 9.15,
+   "t1": 8.95,
    "x": 479,
    "lines": []
   },
   {
    "s": 5,
-   "t0": 9.15,
-   "t1": 10.0,
+   "t0": 9.0,
+   "t1": 9.55,
    "x": 0,
    "lines": []
   },
@@ -314,7 +309,7 @@
   },
   {
    "s": 6,
-   "t0": 4.0,
+   "t0": 4.02,
    "t1": 5.6,
    "x": 390,
    "lines": [
@@ -345,7 +340,7 @@
   },
   {
    "s": 7,
-   "t0": 0.0,
+   "t0": 0.3,
    "t1": 2.45,
    "x": 300,
    "lines": [
@@ -355,8 +350,8 @@
   },
   {
    "s": 7,
-   "t0": 2.45,
-   "t1": 3.9,
+   "t0": 2.6,
+   "t1": 3.8,
    "x": 60,
    "lines": [
     "Quoi ?! Toi aussi ?"
@@ -364,8 +359,8 @@
   },
   {
    "s": 7,
-   "t0": 3.9,
-   "t1": 8.05,
+   "t0": 3.85,
+   "t1": 7.95,
    "x": 340,
    "lines": [
     "Je ne suis pas riche non plus.",
@@ -376,8 +371,8 @@
   },
   {
    "s": 7,
-   "t0": 8.05,
-   "t1": 10.0,
+   "t0": 8.1,
+   "t1": 9.8,
    "x": 170,
    "lines": [
     "Attends…",
@@ -386,7 +381,7 @@
   },
   {
    "s": 8,
-   "t0": 0.0,
+   "t0": 0.3,
    "t1": 2.6,
    "x": 250,
    "lines": [
@@ -396,8 +391,8 @@
   },
   {
    "s": 8,
-   "t0": 2.6,
-   "t1": 4.9,
+   "t0": 2.62,
+   "t1": 4.4,
    "x": 245,
    "lines": [
     "1 850 euros ?!"
@@ -405,8 +400,8 @@
   },
   {
    "s": 8,
-   "t0": 4.9,
-   "t1": 5.55,
+   "t0": 4.85,
+   "t1": 5.5,
    "x": 315,
    "lines": []
   },
@@ -423,7 +418,7 @@
   },
   {
    "s": 9,
-   "t0": 0.0,
+   "t0": 0.45,
    "t1": 2.15,
    "x": 20,
    "lines": [
@@ -479,13 +474,13 @@
   {
    "s": 9,
    "t0": 8.6,
-   "t1": 10.0,
+   "t1": 9.6,
    "x": 290,
    "lines": []
   },
   {
    "s": 10,
-   "t0": 0.0,
+   "t0": 0.15,
    "t1": 1.9,
    "x": 40,
    "lines": [
